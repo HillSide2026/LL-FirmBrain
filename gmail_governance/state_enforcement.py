@@ -27,6 +27,16 @@ CANONICAL_LABELS = {
     "90_Archive"
 }
 
+# State labels that imply the thread has exited triage.
+# Applying any of these must atomically remove INBOX in the same operation.
+# Source of truth: POL-042 §4 / PRO-014 §3
+INBOX_EXIT_LABELS = {
+    "50_Calendar",
+    "60_Filing",
+    "70_Filed",
+    "90_Archive",
+}
+
 
 def get_gmail_service():
     """
@@ -118,9 +128,13 @@ def apply_state(thread_id, new_state_label):
     # Apply modification
     new_state_label_id = label_map[new_state_label]
 
+    remove_ids = list(canonical_label_ids_to_remove)
+    if new_state_label in INBOX_EXIT_LABELS:
+        remove_ids.append("INBOX")
+
     modify_body = {
         'addLabelIds': [new_state_label_id],
-        'removeLabelIds': canonical_label_ids_to_remove
+        'removeLabelIds': remove_ids
     }
 
     service.users().threads().modify(

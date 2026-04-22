@@ -375,6 +375,28 @@ Threads that cannot be assigned a matter label are logged to:
 
 This file is updated on each classification run and reviewed by ML1.
 
+### 8.4 Inbox presence audit
+
+A thread simultaneously carrying `INBOX` and one of the inbox-exit state labels
+(`50_Calendar`, `60_Filing`, `70_Filed`, `90_Archive`) is in invalid state (POL-042 §4).
+
+**Prevention:** `hourly_inbox_triage.py` removes `INBOX` atomically in the same
+`threads.modify` call whenever it applies an inbox-exit label. No intermediate state arises
+for threads processed by the triage agent.
+
+**Detection:** After each triage run, the agent scans for any surviving violations
+(threads not yet processed by the agent, or produced by other code paths) and writes
+the results to:
+```
+05_MATTERS/DASHBOARDS/INBOX_STATE_VIOLATIONS.md
+```
+
+**Scope separation:** This audit concerns inbox state only. It does not intersect with
+matter label assignment. A thread may carry a matter label (`LL/`) and still be in
+valid INBOX state if its state label is active (e.g., `10_Action_Matthew`).
+
+Violations require ML1 review. Auto-resolution is prohibited.
+
 ---
 
 ## 9. Data Access Rules
@@ -417,3 +439,4 @@ Out of scope (pending separate protocols or manual processes):
 | 0.2 | 2026-03-09 | Clarify purpose: interim Gmail tagging to legal matter / Clio matter; future filing to SharePoint LegalMatters. Remove duplicate Section 12. Add `clio` tag. Establish Clio matter ID as canonical matter identifier in Section 4. Add POL-042 reference. |
 | 0.3 | 2026-03-14 | Replace simplified signal table with 10-step priority decision tree (matches batch_classifier.py). Codify canonical sender lists (NTD-1 resolved). Document matter label Tier 1/Tier 2 structure (NTD-4 resolved). Define junk resolution rule (NTD-3 resolved). Mark 30_Waiting_External and 70_Filed as manual-only. Add confirmed noise/archive sender lists from 2026-03-14 ML1-directed cleanup. Add bulk cleanup exception to approval gate. Document new canonical label format (LL/1./{tier}/{matter_id} -- {name}) and full canonical label set for all ML Active matters. Update matter_enforcement.py and batch_classifier.py to use MATTER_TIER_PREFIXES. |
 | 0.4 | 2026-03-14 | Narrow protocol scope to inbox state and matter management only. Move soft-junk cleanup doctrine to `PRO-018`. Remove category-driven cleanup rules and confirmed cleanup sender lists from this protocol. |
+| 0.5 | 2026-04-20 | Add §8.4 Inbox Presence Audit: defines invalid state (INBOX + inbox-exit label), prevention via atomic removal in triage agent, post-run violation scan, and scope separation from matter labels. |

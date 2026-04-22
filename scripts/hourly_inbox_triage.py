@@ -48,7 +48,7 @@ sys.path.insert(0, str(REPO_ROOT / "gmail_governance"))
 
 # ── Shared imports from gmail_governance ──────────────────────────────────────
 
-from state_enforcement import get_gmail_service, CANONICAL_LABELS
+from state_enforcement import get_gmail_service, CANONICAL_LABELS, INBOX_EXIT_LABELS
 from matter_enforcement import (
     get_matter_labels,
     MATTER_TIER_PREFIXES,
@@ -364,6 +364,10 @@ def apply_labels_to_thread(
     canonical_ids = {label_map[n] for n in CANONICAL_LABELS if n in label_map}
     remove_ids.update(current_label_ids & canonical_ids - {state_label_id})
 
+    # Inbox exit: remove INBOX atomically when applying a terminal/routing label (POL-042 §4)
+    if state_label_name in INBOX_EXIT_LABELS:
+        remove_ids.add("INBOX")
+
     # Matter label: add new, remove old
     if matter_label_id:
         old_matter_ids = get_matter_label_ids_on_thread(current_label_ids, label_id_to_name)
@@ -383,6 +387,57 @@ def apply_labels_to_thread(
         body={"addLabelIds": add_ids, "removeLabelIds": remove_list},
     ).execute()
     return True
+
+
+# ── Inbox presence violation scan ─────────────────────────────────────────────
+
+VIOLATIONS_REPORT = REPO_ROOT / "05_MATTERS" / "DASHBOARDS" / "INBOX_STATE_VIOLATIONS.md"
+
+
+def scan_inbox_violations(service, label_map: Dict[str, str], run_id: str) -> int:
+    """
+    Detect threads carrying INBOX + an inbox-exit state label (invalid per POL-042 §4).
+    Writes a report to INBOX_STATE_VIOLATIONS.md. Read-only — no Gmail writes.
+    Returns the violation count.
+    """
+    violations: List[Dict[str, str]] = []
+    for label_name in sorted(INBOX_EXIT_LABELS):
+        label_id = label_map.get(label_name)
+        if not label_id:
+            continue
+        try:
+            resp = service.users().threads().list(
+                userId="me",
+                labelIds=["INBOX", label_id],
+                maxResults=100,
+            ).execute()
+            for stub in resp.get("threads", []):
+                violations.append({"thread_id": stub["id"], "invalid_label": label_name})
+        except Exception as exc:
+            logging.warning(f"Inbox violation scan skipped for {label_name}: {exc}")
+
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    lines = [
+        "# Inbox State Violations",
+        "",
+        f"Generated at: {now}",
+        f"Run ID: {run_id}",
+        "",
+        "Threads carrying INBOX and an inbox-exit state label simultaneously.",
+        "Invalid per POL-042 §4. Requires ML1 review — no auto-resolution.",
+        "",
+    ]
+    if violations:
+        lines += [
+            "| Thread ID | Invalid Label |",
+            "| --- | --- |",
+        ] + [f"| {v['thread_id']} | {v['invalid_label']} |" for v in violations]
+        logging.warning(f"Inbox presence violations: {len(violations)} — see INBOX_STATE_VIOLATIONS.md")
+    else:
+        lines.append("No violations detected.")
+    lines.append("")
+    VIOLATIONS_REPORT.write_text("\n".join(lines))
+    return len(violations)
 
 
 # ── Logging ────────────────────────────────────────────────────────────────────
@@ -590,6 +645,9 @@ def main():
         run_id, mode, stats,
     )
 
+    violation_count = scan_inbox_violations(service, label_map, run_id)
+    stats["inbox_violations"] = violation_count
+
     save_run_state(mode, run_id, len(raw_threads), checkpoint_extra)
 
     duration = (datetime.datetime.now(datetime.timezone.utc) - run_start).total_seconds()
@@ -606,6 +664,7 @@ def main():
     print(f"  Low confidence:    {stats['low_confidence']}")
     print(f"  Errors:            {stats['errors']}")
     print(f"  Skipped:           {stats['skipped']}")
+    print(f"  Inbox violations:  {stats['inbox_violations']}")
     active_states = {k: v for k, v in stats["by_state"].items() if v > 0}
     if active_states:
         print(f"\n  State label breakdown:")

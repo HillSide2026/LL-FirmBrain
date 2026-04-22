@@ -120,6 +120,18 @@ Detection of multiple state labels constitutes a policy violation and must be
 reported by enforcement scripts. Automatic resolution of such violations is
 prohibited without ML1 approval.
 
+**Inbox Presence Rule:** A thread must not simultaneously carry `INBOX` and an inbox-exit
+state label. Inbox-exit labels are: `50_Calendar`, `60_Filing`, `70_Filed`, `90_Archive`.
+These labels imply the thread has exited triage. Applying any inbox-exit label must
+atomically remove `INBOX` in the same operation — no intermediate state is permitted.
+
+Detection of threads in this invalid state constitutes a policy violation. Violations
+are reported to `05_MATTERS/DASHBOARDS/INBOX_STATE_VIOLATIONS.md` after each triage run.
+Automatic resolution is prohibited without ML1 approval.
+
+This rule is distinct from matter management. Matter labels (`LL/`) are orthogonal to
+inbox presence and do not themselves require INBOX removal.
+
 ---
 
 ## 5. Matter Label Policy
@@ -259,3 +271,4 @@ These are defined in supporting protocols.
 | 0.1 | 2026-03-09 | Initial policy. Derived from PRO-014 v0.2. |
 | 0.2 | 2026-03-14 | Distinguish inbox state-and-matter management from soft-junk cleanup. Add `PRO-018` as a separate enforcement protocol. |
 | 0.3 | 2026-04-19 | Add §7 Draft and Send Policy: System may create drafts; sending is permanently prohibited; no send capability may be added without doctrine amendment. |
+| 0.4 | 2026-04-20 | Add Inbox Presence Rule to §4: inbox-exit labels must atomically remove INBOX; invalid state detection logged to INBOX_STATE_VIOLATIONS.md; scope separation from matter labels clarified. |
