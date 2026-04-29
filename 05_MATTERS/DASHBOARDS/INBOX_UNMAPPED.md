@@ -1,13 +1,15 @@
 # Inbox Unmapped
 
-Generated at: 2026-04-26T14:30:53Z
+Generated at: 2026-04-28T18:00:00Z
 
 Threads that could not be deterministically routed to a matter number.
 
 | Last Message (UTC) | Thread ID | Subject | Reason | Labels | Source Pointer |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-05T04:00:33Z | 19cbc278e9a83941 | Make your first purchase on our P2P platform and pay up to 20% less | no confident matter or identity match | CATEGORY_PROMOTIONS, INBOX, UNREAD | repo://06_RUNS/ops/gmail_fetch_latest.json#thread:19cbc278e9a83941 |
-| 2026-03-05T03:50:49Z | 19cbc1ec63a11987 | Re: Outstanding credit REGUS RENT | ambiguous: multiple matter candidates found by identity_name_key | CATEGORY_PERSONAL, IMPORTANT, INBOX, UNREAD | repo://06_RUNS/ops/gmail_fetch_latest.json#thread:19cbc1ec63a11987 |
-| 2026-03-05T02:44:38Z | 19cbbe2198583039 | Re: Tax Implication of Shareholder Distributions | ambiguous: multiple matter candidates found by identity_name_key | CATEGORY_PERSONAL, IMPORTANT, INBOX, UNREAD | repo://06_RUNS/ops/gmail_fetch_latest.json#thread:19cbbe2198583039 |
-| 2026-03-05T01:46:50Z | 19cbbad1f7269a9f | Manual time was added | ambiguous: multiple matter candidates found by identity_name_key | CATEGORY_UPDATES, INBOX, UNREAD | repo://06_RUNS/ops/gmail_fetch_latest.json#thread:19cbbad1f7269a9f |
-| 2026-03-05T01:40:15Z | 19cbba71918a97a6 | Khanh N. has started working. Review work done. | ambiguous: multiple matter candidates found by identity_name_key | CATEGORY_UPDATES, INBOX, UNREAD | repo://06_RUNS/ops/gmail_fetch_latest.json#thread:19cbba71918a97a6 |
+| 2026-04-28 | 19dd1cdc58b5ee02 | Proposed Email to Nilabh | ambiguous: subject references shares, board composition, and director names — multiple corporate matter candidates; no matter number present | INBOX | repo://06_RUNS/ops/gmail_threads_2026-04-28.json#thread:19dd1cdc58b5ee02 |
+| 2026-04-28 | 19dd0a338fd176b2 | Airwallex welcome email / platform onboarding | no matter routing signal; platform onboarding notification only | INBOX | repo://06_RUNS/ops/gmail_threads_2026-04-28.json#thread:19dd0a338fd176b2 |
+| 2026-04-23 | 19dcfa570c8ee934 | Re: Introduction — Sonia / Steinberg | no matter routing signal; business development introduction | INBOX | repo://06_RUNS/ops/gmail_threads_2026-04-28.json#thread:19dcfa570c8ee934 |
+| 2026-04-16 | 19dc134cb9906ba1 | Sonia BD cooperation | no matter routing signal; business development thread | INBOX | repo://06_RUNS/ops/gmail_threads_2026-04-28.json#thread:19dc134cb9906ba1 |
+| 2026-04-28 | 19dd3516ef6ddfe7 | Soulpepper CRM — Marina P | no matter routing signal; CRM / contact record notification | CATEGORY_UPDATES, INBOX | repo://06_RUNS/ops/gmail_threads_2026-04-28.json#thread:19dd3516ef6ddfe7 |
+| 2026-04-28 | 19dd163652c7bf2d | Upwork — Daniel M notification | no matter routing signal; Upwork platform notification | CATEGORY_UPDATES, INBOX | repo://06_RUNS/ops/gmail_threads_2026-04-28.json#thread:19dd163652c7bf2d |
+| 2026-03-14 | 19d60ee52349d24d | TheZ8 / Maryna Panchenko — MSB FINTRAC prospect | no Clio matter exists; prospect inquiry (FINTRAC license C100000573); no matter number | INBOX | repo://06_RUNS/ops/gmail_threads_2026-04-28.json#thread:19d60ee52349d24d |
