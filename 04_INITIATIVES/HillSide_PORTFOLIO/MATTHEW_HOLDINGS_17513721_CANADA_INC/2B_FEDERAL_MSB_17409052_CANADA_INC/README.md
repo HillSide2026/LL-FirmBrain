@@ -4,7 +4,7 @@ title: 2B Federal MSB (17409052 Canada Inc)
 owner: ML1
 status: draft
 created_date: 2026-03-06
-last_updated: 2026-03-22
+last_updated: 2026-04-30
 tags: []
 ---
 
@@ -37,17 +37,17 @@ Activities may include:
 
 ## Regulatory Context
 
-Relevant regulatory frameworks may include:
+This entity holds a **FINTRAC MSB registration**.
 
-- FINTRAC registration
-- PCMLTFA compliance
-- AML / ATF program requirements
+**FINTRAC evaluation status (as of 2026-04-30):** Pending formal verification.
+No current operating activity. ML1 must confirm: (1) registration is active
+and current; (2) dormant-period compliance obligations have been met (minimal
+AML program maintained); (3) no outstanding FINTRAC deficiencies.
 
-This entity must maintain:
-
-- AML compliance program
-- reporting obligations
-- regulatory governance documentation
+PCMLTFA compliance obligations apply even in the absence of operating
+activity. An AML compliance program must be maintained. If the entity is
+retained long-term with no activity, the regulatory carrying cost should be
+evaluated against the option value of having a second registered MSB entity.
 
 ---
 
@@ -67,5 +67,5 @@ This folder may contain:
 - regulatory status notes
 - strategic development plans
 
-This entity is the licensed / regulated MSB vehicle in the current HillSide
-structure, but it has no current operating activity.
+This entity is a federally registered MSB vehicle in the current HillSide
+structure with no current operating activity. No disposition is planned.

@@ -4,7 +4,7 @@ title: Japan Home Decision - Dependencies
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-04-29
 tags: [hillside, personal-projects, japan-home, housing, planning, dependencies]
 ---
 
@@ -17,9 +17,9 @@ Stage: `Planning`
 | --- | --- | --- | --- |
 | ML1 decision authority | Internal | Controls path selection, guardrails, and planning exit | available |
 | `HBP-001_WEALTH_MANAGEMENT` wealth plan and housing budget policy | Internal | Needed to anchor any Japan-home budget, liquidity rule, and no-go trigger set | materially improved; still needs Japan-specific budget card |
-| Real use-case thesis | Strategic | Needed to distinguish a disciplined path from romanticized aspiration | open |
-| Japan legal / tax / financing diligence | External | Needed to surface the highest-risk unknowns before any pursue recommendation | open |
-| Local market access and property-process clarity | External | Needed only if pursue remains credible after planning | not yet engaged |
+| Real use-case thesis | Strategic | Needed to distinguish a disciplined path from romanticized aspiration | **resolved 2026-04-29: part-time residence** |
+| Japan legal / tax / financing diligence | External | Needed to surface the highest-risk unknowns before any pursue recommendation | partially open — key items identified: T1135 obligation, cash-only purchase, pre-1981 seismic standards, property management cost, inheritance tax exposure; full diligence not yet conducted |
+| Local market access and property-process clarity | External | Needed only if pursue remains credible after planning | **active: wife conducting search via Japanese-language internet and akiya bank platforms**; two location clusters identified (Kamakura/Atami; Nikko/Imaichi) |
 
 ## Dependency Rule
 

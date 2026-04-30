@@ -25,6 +25,16 @@ This project is an initiating-stage HillSide sale project.
 Pursue a divestiture of the Ontario MSBShellCo asset to simplify structure and
 recycle capital.
 
+## Assets in Scope
+
+**Primary asset:** Ontario MSB Corp (1001494374 Ontario Corp). This is the
+entity being actively marketed for sale.
+
+**Secondary possibility:** Federal MSB (17409052 Canada Inc) may also be
+sold, but it is not the primary asset being marketed. Any Federal MSB
+disposition would be a separate decision and is not the current focus of this
+project.
+
 ## Notes
 
 - This project is linked to the Ontario MSB Corp entity branch.

@@ -4,7 +4,7 @@ title: 2C Ontario MSB Corp (1001494374 Ontario Corp)
 owner: ML1
 status: draft
 created_date: 2026-03-06
-last_updated: 2026-03-22
+last_updated: 2026-04-30
 tags: []
 ---
 
@@ -30,10 +30,34 @@ revenue from the disposition.
 
 ## Regulatory Context
 
-Activities may intersect with:
+This entity holds a **FINTRAC MSB registration**. That registration is the
+primary asset being sold. The buyer acquires the clean MSB shell and its
+registered status.
 
-- federal MSB regulation
-- payments regulation
+**FINTRAC evaluation status (as of 2026-04-30):** Pending formal verification.
+Pre-sale, ML1 must confirm: (1) registration is active and current with no
+outstanding deficiencies; (2) required reports (MSRs, LCTRs if any) are in
+order for the dormant-entity period; (3) AML compliance program is documented
+even if minimal.
+
+### RPAA (Retail Payment Activities Act)
+
+RPAA registration is held by the entity (1001494374 Ontario Corp), not its
+shareholders. A share sale transfers the entity to the buyer and the
+registration travels with it.
+
+RPAA registration creates value for a buyer who is building Canadian
+operations and specifically wants a ready-to-operate PSP entity as the
+vehicle for that build. For that buyer profile, the registration is a genuine
+asset: the entity arrives pre-registered and can be operationalized faster
+than a fresh application pathway.
+
+The relevant pre-sale question is: **does the channel partner's buyer base
+include buyers building Canadian payment operations who want a ready-to-
+operate PSP entity?** That question cannot be resolved by analyzing compliance
+burden in the abstract. It must be directed to the channel partner.
+
+---
 
 ## Ownership
 
@@ -51,4 +75,5 @@ This folder may contain:
 - regulatory considerations
 - strategic planning materials
 
-Current strategic posture: being marketed for sale.
+Current strategic posture: being marketed for sale. Sale governed by
+`HBP-005_SALE_OF_ONTARIO_MSBSHELLCO`.
