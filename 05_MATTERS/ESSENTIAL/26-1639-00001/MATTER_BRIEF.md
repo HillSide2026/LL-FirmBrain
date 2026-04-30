@@ -32,8 +32,8 @@ Client relationship management matter for Andersen. This is the umbrella matter 
   - **Data Centre & Critical Infrastructure Disputes**: BNM-Andersen services proposed; ALLIANZ flagged as potential client. Hernany V. email Apr 7.
   - **Investment arbitration with South American government officials**: List of contacts shared by Hernany V. (Ecuador, Peru, Costa Rica, Panama, Brazil, Chile)
   - **Sanctions advisory**: Aircraft, maritime, defence goods flagged as expansion area
-  - **Trade remedies (CITT)**: Lane 26-1639-00002 — TR-001 qualified, TR-002 identified
-  - **Market access**: Lane 26-1639-00003 — MA-001 and MA-002 identified; confirm parties, jurisdictions, legal ask
+  - **Trade remedies (CITT)**: Lane 26-1639-00002 — TR-003 identified (plywood / trade remedies); TR-004 identified (processed wood / safeguards); GC-2026-001 (Certain Wood Goods safeguard inquiry) is a live CITT signal for TR-004; TR-001 and TR-002 now inactive
+  - **Market access**: Lane 26-1639-00003 — no active tracks; MA-001 (pecans) and MA-002 (flavored butter) both inactive as of 2026-04-29; matter held open for future leads
 
 ## Open questions
 
@@ -41,7 +41,7 @@ Client relationship management matter for Andersen. This is the umbrella matter 
 - Send ML1 draft reply to Hernany re: ESG mining POC (Silver Viper, Apollo Silver, Argentina lithium)
 - What relationship-level next actions should be surfaced across `26-1639-00002` and `26-1639-00003`
 - Whether additional lane-specific monitoring tools are needed beyond the trade-remedies CITT monitor
-- Whether TR-001 (trade remedies) should move to active closing
+- Whether TR-003 (plywood) or TR-004 (processed wood) can move from identified to contacted in the near term
 
 ## Public Front-End
 
@@ -56,3 +56,4 @@ Inc. The Trade Services line on that site connects to this matter and the
 - 2026-04-03 — Reframed as the umbrella Andersen relationship matter above the two Andersen sales-pipeline lane matters
 - 2026-04-12 — Updated from Gmail: ESG mining BD POC strategy (Hernany V.); Data Centre disputes; Investment arbitration contacts; Sanctions advisory tracks added
 - 2026-04-25 — dominionpartners.ca noted as shared public front-end for trade services line
+- 2026-04-29 — Pipeline corrected: trade remedies tracks updated to TR-003/TR-004 (wood); TR-001/TR-002 inactive; market access MA-001/MA-002 both inactive; no converted cash in any Andersen lane as of this date

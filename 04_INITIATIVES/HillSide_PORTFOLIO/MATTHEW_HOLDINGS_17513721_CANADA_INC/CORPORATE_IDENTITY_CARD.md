@@ -4,7 +4,7 @@ title: Corporate Identity Card — Matthew Holdings (17513721 Canada Inc)
 owner: ML1
 status: draft
 created_date: 2026-03-07
-last_updated: 2026-04-03
+last_updated: 2026-04-29
 tags: [corporate-identity, governance, portfolio]
 ---
 
@@ -34,7 +34,7 @@ ML1 personally owns `17513721 Canada Inc`.
 
 ## Subsidiary / Entity Links
 
-- Yellowbricks (formerly owned; now sold and in post-closing handling)
+- Yellowbricks (fully divested; HBP-003 closed 2026-04-29)
 - Federal MSB (17409052 Canada Inc)
 - Ontario MSB Corp (1001494374 Ontario Corp)
 
@@ -43,7 +43,19 @@ ML1 personally owns `17513721 Canada Inc`.
 - Andersen Service Line
 - ownership and operation of FinSure
 - ownership and operation of the Payment Services Consulting Line
-- ownership of Yellowbricks, Federal MSB, and Ontario MSB Corp
+- ownership of Federal MSB and Ontario MSB Corp
+
+## Andersen Service Line — Governing Matter Layer
+
+Fees for Andersen-related work are received by 17513721 Canada Inc. The pipeline and file-level tracking for this service line lives in three LL matters:
+
+| Matter | Scope | Current state |
+|---|---|---|
+| [26-1639-00001](../../../../../05_MATTERS/ESSENTIAL/26-1639-00001/MATTER_BRIEF.md) | Client Relationship Management (umbrella) | Active; multiple BD tracks; no converted cash |
+| [26-1639-00002](../../../../../05_MATTERS/ESSENTIAL/26-1639-00002/MATTER_BRIEF.md) | Trade Remedies | Two wood-sector leads at `contacted` stage (TR-003 plywood, TR-004 processed wood); no active file |
+| [26-1639-00003](../../../../../05_MATTERS/ESSENTIAL/26-1639-00003/MATTER_BRIEF.md) | Market Access | No active tracks; held open for future leads |
+
+No HillSide project governs this service line yet. When a file converts, the right action is to open an HBP or add an Andersen revenue line to HBP-007 — whichever is appropriate at that time.
 
 ## Commercial and Transaction Notes
 

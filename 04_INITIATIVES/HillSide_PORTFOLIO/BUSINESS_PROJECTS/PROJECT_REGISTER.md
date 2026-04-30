@@ -4,7 +4,7 @@ title: HillSide Project Register
 owner: ML1
 status: draft
 created_date: 2026-03-12
-last_updated: 2026-03-20
+last_updated: 2026-04-29
 tags: [hillside, projects, register]
 ---
 
@@ -22,7 +22,7 @@ defined in `STAGE_REFERENCE.md`.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | HBP-001 | Wealth Management | HBP-001_WEALTH_MANAGEMENT | planning | Consolidated net worth ≥ CAD 2,000,000 by `2030-12-31` and ≥ CAD 4,000,000 by `2040-12-31` | Baseline reliability, planning sprawl, capital-governance clarity | approved | ML1 | 2026-03-23 |
 | HBP-002 | Cash Flow | Matthew Holdings / HillSide | planning | Build the planning packet for CPA-quality portfolio and business cash-flow / free-cash-flow reporting under Matthew Holdings | Source-data quality, definition drift, close-process discipline | approved | ML1 | 2026-03-20 |
-| HBP-003 | Sale of YellowBricks | 2A_YELLOWBRICKS | closing | Complete post-closing handling and capital-recycling follow-through for the YellowBricks sale | Residual collection risk, counterparty follow-through, close-out timing | approved | ML1 | 2026-03-20 |
+| HBP-003 | Sale of YellowBricks | 2A_YELLOWBRICKS | closed | YellowBricks fully divested; CAD 27,000+ received into 17513721 Canada Inc; capital recycling deferred to HBP-001/HBP-002 | — | approved | ML1 | 2026-04-29 |
 | HBP-004 | Develop and Launch Micro SaaS (TariffLookup.ca) | HBP-004_MICRO_SAAS_BUILD_AND_LAUNCH | executing | Build and launch the TariffLookup.ca micro SaaS product to develop repeatable software execution capability | Product-market risk, build capacity, launch stability risk | approved | ML1 | 2026-03-20 |
 | HBP-005 | Sale of Ontario MSBShellCo | 2C_ONTARIO_MSB_CORP_1001494374_ONTARIO_CORP | initiating | Divest non-core regulated shell to simplify structure | Regulatory transfer constraints, counterparty quality, timeline slippage | pending | TBD | 2026-03-20 |
 | HBP-006 | Sale Micro SaaS (TariffLookup.ca) | HBP-006_SALE_MICRO_SAAS | initiating | Monetize TariffLookup.ca after validation and recycle capital | Insufficient traction, weak buyer demand, timing mismatch | pending | TBD | 2026-03-20 |

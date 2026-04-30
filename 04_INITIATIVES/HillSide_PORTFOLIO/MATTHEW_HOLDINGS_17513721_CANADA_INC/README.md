@@ -118,8 +118,8 @@ Formal legal records remain in the firm's document management systems.
 
 - ML1 personally owns `17513721 Canada Inc`
 - `17513721 Canada Inc` owns Federal MSB (`17409052 Canada Inc`) and Ontario
-  MSB Corp (`1001494374 Ontario Corp`) and formerly owned YellowBricks, which
-  is now sold and in post-closing handling
+  MSB Corp (`1001494374 Ontario Corp`); formerly owned YellowBricks, which is
+  now fully divested (HBP-003 closed 2026-04-29)
 - `17513721 Canada Inc` currently has approximately `CAD 27,000` in its bank
   account from YellowBricks sale proceeds
 

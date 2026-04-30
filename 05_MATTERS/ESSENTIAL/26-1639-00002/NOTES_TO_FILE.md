@@ -4,7 +4,7 @@ title: Notes to File — 26-1639-00002 — Andersen (Trade Remedies)
 owner: ML1
 status: draft
 created_date: 2026-03-28
-last_updated: 2026-04-02
+last_updated: 2026-04-29
 tags: [matter, notes-to-file, 26-1639-00002]
 practice_areas: [trade_remedies, trade]
 location_status: ml2_local_pending_sharepoint_sync
@@ -42,6 +42,34 @@ Intended SharePoint destination when ready:
 - Facts: Manufacturing: We also have potential client work with a custom furniture manufacturer.
 - Action items: Confirm the underlying end client, the trade issue, and whether this is becoming a qualified file opportunity.
 - Related references:
+- SharePoint sync status: pending
+
+### 2026-04-29 — CITT proceeding reconciliation: TR-003 and TR-004 matched to live files
+
+- Author: ML1 (captured in ML2)
+- Topic: CITT reconciliation
+- Facts:
+  - TR-003 (plywood / anti-dumping): confirmed live CITT proceeding is **PI-2026-001 — Decorative and Other Non-Structural Plywood (China)**. Preliminary injury inquiry. Notice issued April 13, 2026. Determination due June 9, 2026. Source: CITT Active Dumping and Subsidizing Cases page, fetched 2026-04-29.
+  - TR-004 (processed wood / safeguards): confirmed live CITT proceeding is **GC-2026-001 — Certain Wood Goods**. Safeguard inquiry. Initiated April 21, 2026. Questionnaires due May 15, 2026. Public hearings October 1-9, 2026. Report due January 15, 2027. Source: CITT Active Safeguard Inquiries page, fetched 2026-04-29.
+- Action items:
+  - TR-003: Confirm whether contact is a complainant already in PI-2026-001 or an importer seeking to participate; June 9 is the hard deadline.
+  - TR-004: Confirm contact's position; May 15 questionnaire deadline forecloses formal participation if missed; 16 days remaining as of this note.
+- Related references: CITT_WATCHLIST.yaml updated with proceeding IDs and key dates
+- SharePoint sync status: pending
+
+### 2026-04-29 — Pipeline correction: wood leads replace vegetable/furniture tracks
+
+- Author: ML1 (captured in ML2)
+- Topic: Pipeline correction
+- Facts:
+  - TR-001 (frozen vegetables / countervailing duties): industry groups identified are focused on Brazil, not seeking a Canadian scope of work. No prospective end client engaged. Track is inactive.
+  - TR-002 (custom furniture): not referenced in ML1 pipeline review; treated as stale. Inactive pending ML1 confirmation.
+  - New lead TR-003: plywood — trade remedies (anti-dumping / CVD). Lead confirmed; not yet materialized. End client not yet identified.
+  - New lead TR-004: processed wood — safeguards. Lead confirmed; not yet materialized. CITT GC-2026-001 (Certain Wood Goods) is an active safeguard inquiry directly relevant to this track.
+- Action items:
+  - Identify prospective end client for TR-003 (plywood) and confirm specific trade remedy instrument
+  - Review GC-2026-001 scope; identify whether prospective end client is a domestic producer or importer
+- Related references: CITT_SIGNAL_REPORT.md (2026-04-29 run); CITT_WATCHLIST.yaml updated
 - SharePoint sync status: pending
 
 ### 2026-03-28 — [Short title]

@@ -4,7 +4,7 @@ title: Sales Pipeline — 26-1639-00003 — Andersen (Market Access)
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-04-29
 tags: [matter, sales-pipeline, 26-1639-00003]
 practice_areas: [market_access, trade, customs]
 ---
@@ -30,6 +30,7 @@ client as automatically being the LL client of record.
 - `qualified` — there is enough substance to treat the file as a real target
 - `closing` — active effort is underway to convert the opportunity into instructed work through Andersen
 - `active_file` — instructions are in and the file is now live inside the Andersen market-access lane
+- `inactive` — track has been reviewed and is not being pursued; reason documented
 
 ## Industry Segment Model
 
@@ -46,10 +47,22 @@ tracks should be tagged to one of the above segments when first recorded.
 
 ## Active Tracks
 
-| Track ID | End-client file | Segment | Stage | Current signal | Next step |
-|----------|-----------------|---------|-------|----------------|-----------|
-| `MA-001` | Pecans from Northern Israel — agri-food market-access file | `agriculture_and_agri_food` | `identified` | ML1 note indicates a live effort to broker pecan sales from Northern Israel | Confirm target buyer, countries in scope, live contact status, and the actual legal / market-access issue before qualification |
-| `MA-002` | Flavored butter from Manitoba — agri-food market-access file | `agriculture_and_agri_food` | `identified` | ML1 note indicates a live effort to broker flavored butter from Manitoba | Confirm target market, counterparties, and whether this is a concrete trade / customs / regulatory file before qualification |
+No active tracks as of 2026-04-29.
+
+## Inactive Tracks
+
+| Track ID | End-client file | Segment | Stage | Reason |
+|----------|-----------------|---------|-------|--------|
+| `MA-001` | Pecans from Northern Israel — agri-food market-access | `agriculture_and_agri_food` | `inactive` | No importer interest identified; ML1 has lost interest in this track (2026-04-29) |
+| `MA-002` | Flavored butter from Manitoba — agri-food market-access | `agriculture_and_agri_food` | `inactive` | No importer interest identified; ML1 has lost interest in this track (2026-04-29) |
+
+## Qualification Criteria
+
+Criteria for advancing a track from `contacted` to `qualified` are defined in:
+
+- [`../26-1639-00001/ANDERSEN_QUALIFICATION_CRITERIA.md`](../26-1639-00001/ANDERSEN_QUALIFICATION_CRITERIA.md)
+
+All seven threshold criteria must be met. When a track is qualified, record the qualification in `NOTES_TO_FILE.md` using the template in that document.
 
 ## Operating Notes
 

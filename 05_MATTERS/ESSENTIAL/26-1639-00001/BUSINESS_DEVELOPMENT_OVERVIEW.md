@@ -25,6 +25,12 @@ prospective end-client files pursued through the Andersen relationship.
 | [`26-1639-00002`](../26-1639-00002/README.md) | Trade remedies | Active Andersen end-client sales pipeline | `TR-001` qualified; `TR-002` identified | `TRM_CITT_UPDATE_SCANNER`, `CITT_SIGNAL_REPORT.md` | Clarify whether `TR-001` should move into active closing |
 | [`26-1639-00003`](../26-1639-00003/README.md) | Market access | Active Andersen end-client sales pipeline | `MA-001` identified; `MA-002` identified | Matter-local notes, pipeline artifacts, and segment model | Confirm parties, jurisdictions, actual legal ask, and segment priority across the initial market-access sectors |
 
+## Qualification Criteria
+
+The enterprise qualification criteria governing advancement from `contacted` to `qualified` across all Andersen lane matters are defined in:
+
+- [`ANDERSEN_QUALIFICATION_CRITERIA.md`](ANDERSEN_QUALIFICATION_CRITERIA.md)
+
 ## Operating Model
 
 - Relationship-level BD visibility is governed by the Andersen relationship

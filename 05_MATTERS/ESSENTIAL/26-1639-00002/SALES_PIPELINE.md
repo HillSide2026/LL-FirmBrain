@@ -4,7 +4,7 @@ title: Sales Pipeline — 26-1639-00002 — Andersen (Trade Remedies)
 owner: ML1
 status: draft
 created_date: 2026-04-02
-last_updated: 2026-04-03
+last_updated: 2026-04-29
 tags: [matter, sales-pipeline, 26-1639-00002]
 practice_areas: [trade_remedies, trade_defence, customs]
 ---
@@ -30,13 +30,29 @@ client as automatically being the LL client of record.
 - `qualified` — there is enough substance to treat the file as a real target
 - `closing` — active effort is underway to convert the opportunity into instructed work through Andersen
 - `active_file` — instructions are in and the file is now live inside the Andersen trade-remedies lane
+- `inactive` — track has been reviewed and is not being pursued; reason documented
 
 ## Active Tracks
 
 | Track ID | End-client file | Segment | Stage | Current signal | Next step |
 |----------|-----------------|---------|-------|----------------|-----------|
-| `TR-001` | Frozen vegetables imports into Canada — countervailing duties file | Agri-food | `qualified` | ML1 note indicates a countervailing-duties investigation is being considered for frozen vegetables imported into Canada | Confirm the end client, current posture, and whether the file should move into active closing |
-| `TR-002` | Custom furniture manufacturer — trade remedies file | Manufacturing | `identified` | ML1 note indicates potential client work with a custom furniture manufacturer | Confirm the end client, issue pattern, and timing before treating this as a qualified file |
+| `TR-003` | Plywood — anti-dumping / countervailing duties (China) | Wood / Forest Products | `contacted` | **CITT PI-2026-001** — Decorative and Other Non-Structural Plywood (China); preliminary injury inquiry initiated April 13, 2026; **determination due June 9, 2026** | Qualify urgently: confirm whether contact is a domestic producer complainant already in the proceeding or an importer seeking to participate; June 9 determination is ~6 weeks away |
+| `TR-004` | Processed wood — safeguard inquiry | Wood / Forest Products | `contacted` | **CITT GC-2026-001** — Certain Wood Goods; inquiry initiated April 21, 2026; **questionnaires due May 15, 2026 (16 days)**; public hearings Oct 1-9, 2026; report due Jan 15, 2027 | Qualify urgently: May 15 questionnaire deadline requires immediate participation decision; confirm whether contact is a domestic producer seeking protection, importer, or downstream user |
+
+## Inactive Tracks
+
+| Track ID | End-client file | Segment | Stage | Reason |
+|----------|-----------------|---------|-------|--------|
+| `TR-001` | Frozen vegetables imports into Canada — countervailing duties | Agri-food | `inactive` | Industry groups identified are focused on Brazil, not Canada; no engagement with a Canadian scope of work; no prospective end client seeking instructions (ML1, 2026-04-29) |
+| `TR-002` | Custom furniture manufacturer — trade remedies | Manufacturing | `inactive` | Not referenced in ML1 pipeline review (2026-04-29); treated as stale pending ML1 confirmation |
+
+## Qualification Criteria
+
+Criteria for advancing a track from `contacted` to `qualified` are defined in:
+
+- [`../26-1639-00001/ANDERSEN_QUALIFICATION_CRITERIA.md`](../26-1639-00001/ANDERSEN_QUALIFICATION_CRITERIA.md)
+
+All seven threshold criteria must be met. When a track is qualified, record the qualification in `NOTES_TO_FILE.md` using the template in that document.
 
 ## Operating Notes
 
