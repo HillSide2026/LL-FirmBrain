@@ -20,6 +20,7 @@ Houses projects related to Levine Law's strategic growth: firm strategy, busines
 | Project | Name | Status |
 |---|---|---|
 | LLP-030 | Firm Strategy and Business Plan | Initiating |
+| LLP-037 | LL System Design | Initiating |
 
 ## ML1 Authority Statement
 
