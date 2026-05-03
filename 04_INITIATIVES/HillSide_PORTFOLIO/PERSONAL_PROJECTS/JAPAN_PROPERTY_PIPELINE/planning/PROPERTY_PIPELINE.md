@@ -4,7 +4,7 @@ title: Japan Property Pipeline — Property Tracker
 owner: ML1
 status: draft
 created_date: 2026-04-30
-last_updated: 2026-04-30
+last_updated: 2026-05-02
 tags: [hillside, personal-projects, japan-home, housing, property-search, pipeline]
 ---
 
@@ -27,8 +27,8 @@ for use in evaluating the pursue / defer / no-go decision in `JAPAN_HOME_DECISIO
 
 | ID | Location | Cluster | Type | Asking Price (JPY) | Approx. CAD | Source | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
-| JP-001 | Kamakura City (Kamakura High School Mae stn, 12 min walk) | Kanagawa west of Yokohama | House — steel frame, 2-storey | ¥119,900,000 | ~CAD 1.07M | realkamakuraestate.jp listing n=25300 | Under review | Over budget; retained as reference; see detail below |
-| JP-002 | Usui, Ito City, Shizuoka Prefecture (Usui stn, 12 min walk) | Kanagawa / Shizuoka (Izu Peninsula — Ito, adjacent to Atami) | House — RC (1F) + wood (2F/3F), 3-storey | ¥32,500,000 | ~CAD 290k | realkamakuraestate.jp listing n=24426 | Under review | Over budget at ~CAD 290k; notable architecture; bath configuration: 1 full bath + 2 separate toilet rooms; see detail below |
+| JP-001 | Kamakura City (Kamakura High School Mae stn, 12 min walk) | Kanagawa west of Yokohama | House — steel frame, 2-storey | ¥119,900,000 | ~CAD 1.07M | realkamakuraestate.jp listing n=25300 | Under review | Well over CAD 400k ceiling; retained as market reference for Kamakura; see detail below |
+| JP-002 | Usui, Ito City, Shizuoka Prefecture (Usui stn, 12 min walk) | Shizuoka — Izu Peninsula (Ito City, adjacent to Atami; preferred cluster) | House — RC (1F) + wood (2F/3F), 3-storey | ¥32,500,000 | ~CAD 290k | realkamakuraestate.jp listing n=24426 | Under review | Within revised CAD 400k ceiling; notable architecture; bath configuration: 1 full bath + 2 separate toilet rooms; see detail below |
 
 ---
 
@@ -40,7 +40,7 @@ for use in evaluating the pursue / defer / no-go decision in `JAPAN_HOME_DECISIO
 **Cluster:** Kanagawa west of Yokohama (Kamakura)
 
 **Price:** ¥119,900,000 (~CAD 1.07M at 112 JPY/CAD)  
-**Budget flag:** Significantly over the confirmed CAD 100-200k range. ML1 to confirm whether this is a reference/benchmark property or whether budget parameters are being revisited.
+**Budget flag:** Well over the CAD 400k ceiling (~CAD 670k above). Retained as a market reference and benchmark for the Kamakura market; not a purchase candidate at current budget.
 
 **Size:** Building 273 m² (82 tsubo); Land 441 m²  
 **Layout:** 8 rooms + LDK; 2 bathrooms (one per floor); basement with hidden door; 2-car garage + carport  
@@ -64,7 +64,7 @@ for use in evaluating the pursue / defer / no-go decision in `JAPAN_HOME_DECISIO
 **Cluster:** Kanagawa / Shizuoka — Izu Peninsula (Ito City, adjacent to Atami; same coastal Shizuoka area)
 
 **Price:** ¥32,500,000 (~CAD 290k at 112 JPY/CAD)  
-**Budget flag:** Over the CAD 100-200k confirmed range by ~CAD 90-190k depending on upper limit. Closer to range than JP-001.
+**Budget flag:** Within the revised CAD 400k ceiling (~CAD 110k below ceiling). Active purchase candidate subject to diligence and pursuit decision.
 
 **Size:** Building 121 m²; Land 175 m² (corner lot)  
 **Layout:** 3 storeys; 2 Japanese-style rooms (4.5 tatami each) + 1 bedroom + 1 study; flexible 3rd floor (can divide into 2 rooms)  
@@ -102,6 +102,8 @@ preferred (confirmed 2026-04-30).
 
 ## Budget Reference
 
-Confirmed range: CAD 100-200k. Precise upper limit outstanding; must be formalized in
-`HBP-001_WEALTH_MANAGEMENT`. T1135 filing required if cost exceeds CAD 100,000.
-Cash purchase only; Japanese bank financing not available to non-resident foreigners.
+Ceiling: CAD 400k (revised 2026-05-02). T1135 filing required if cost exceeds CAD 100,000 (annual
+obligation). Buyer of record: wife (Japanese national; Japanese bank account held; registered at
+Nikko city hall). Financing: cash purchase only — wife's current income is zero; Japanese mortgage
+unavailable at present. Location preference: Kamakura / Atami cluster strongly preferred (confirmed
+2026-05-02).

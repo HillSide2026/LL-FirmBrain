@@ -40,8 +40,9 @@ Use this file to set the shared wealth-plan rules that govern
 3. Business equity, projected venture upside, and unrealized sale theses do not
    fund housing budgets.
 4. The Toronto and Japan projects draw from one common housing capital pool.
-5. Until the Toronto primary-housing direction is resolved, any Japan-home
-   budget is provisional only.
+5. Primary housing decision is open across all options. No sequencing
+   assumption is made between Toronto and Japan. Neither is a prerequisite
+   for the other.
 6. A housing option is not budget-valid unless it states:
    - maximum purchase price
    - maximum upfront cash deployment

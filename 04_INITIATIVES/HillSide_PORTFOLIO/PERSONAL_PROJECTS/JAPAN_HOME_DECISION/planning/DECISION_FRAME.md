@@ -4,7 +4,7 @@ title: Japan Home Decision - Decision Frame
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-29
+last_updated: 2026-05-02
 tags: [hillside, personal-projects, japan-home, housing, planning, decision-frame]
 ---
 
@@ -42,9 +42,19 @@ further conditions, or rule it out for now?
 - critical diligence gaps and sequencing are explicit
 - one path is narrowed enough for ML1 to make a planning-exit decision
 
-## Use-Case Thesis (Locked 2026-04-29)
+## Use-Case Scenarios (Reopened 2026-05-02)
 
-**Use case:** Part-time residence. Not vacation rental, not investment, not full relocation. Periodic visits from Canada. Property managed in absence.
+Two scenarios are under active consideration. Neither is locked. Both inform the property search and the wealth plan.
+
+**Scenario A — Part-time residence:** ML1 and family use the property for periodic visits from Canada. No one is primarily resident in Japan. Property managed in absence.
+
+**Scenario B — Primary housing (family residency):** Wife and son primarily resident in Japan for most of the year. ML1 splits time between Canada and Japan but does not exceed 180 days per year in Japan to avoid triggering Japanese tax residency. Maintaining Canadian tax residency is a separate matter. Property is the family's primary base.
+
+Scenario B materially changes the diligence picture:
+- ML1's 180-day Japan presence limit is about avoiding Japanese tax residency, not about maintaining Canadian residency — these are two separate questions requiring separate analysis
+- Japanese residency for wife and son elevates inheritance tax exposure: Japan taxes worldwide assets of Japanese-resident individuals, including non-Japanese spouses and children
+- Property management cost is low under Scenario B (family in residence); high under Scenario A
+- The property's size and character requirements may differ between scenarios
 
 ## Location Candidates (Confirmed 2026-04-29)
 
@@ -64,4 +74,4 @@ Property search is active via wife's Japanese internet research. Inventory for N
 
 ## Current Planning Status
 
-Planning is open. Use-case thesis locked. Location clusters confirmed. Budget range confirmed as CAD 100-200k. Precise budget and property type still outstanding. No option (pursue / defer / rule out) selected yet.
+Planning is open. Use-case thesis reopened — two scenarios active (part-time residence; primary housing / family residency). Location clusters confirmed. Budget range confirmed as CAD 100-200k. Property type confirmed: mid-sized house, min 2 bed / 2 bath, single-family detached. No option (pursue / defer / rule out) selected yet. Japan primary housing scenario is also being modeled as a standalone what-if in `HBP-001_WEALTH_MANAGEMENT`.

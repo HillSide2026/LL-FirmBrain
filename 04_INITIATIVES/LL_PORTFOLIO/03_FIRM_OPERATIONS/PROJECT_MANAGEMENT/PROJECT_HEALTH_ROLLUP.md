@@ -1,7 +1,7 @@
 # Project Health Rollup
 
-- Generated: 2026-04-29T11:00:07+00:00
-- Run ID: RUN-2026-04-29-LL-PORTFOLIO-AGENTS-110007Z
+- Generated: 2026-05-02T11:05:04+00:00
+- Run ID: RUN-2026-05-02-LL-PORTFOLIO-AGENTS-110503Z
 
 > Advisory output. ML1 approval remains required for decisions.
 ## Project Health Rollup

@@ -1,0 +1,16 @@
+{
+  "run_id": "20260430-110002-6e035f",
+  "agent_version": "backlog-cleanup-v0.2",
+  "phase": 2,
+  "dry_run": false,
+  "backlog_days": 60,
+  "max_threads": 500,
+  "stats": {
+    "total": 500,
+    "archived": 95,
+    "skipped_protected": 405,
+    "skipped_uncertain": 0,
+    "errors": 0
+  },
+  "ts": "2026-04-30T11:03:07.455326Z"
+}

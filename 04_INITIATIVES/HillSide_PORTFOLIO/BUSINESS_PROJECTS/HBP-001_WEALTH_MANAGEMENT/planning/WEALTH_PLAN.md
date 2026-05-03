@@ -4,7 +4,7 @@ title: Wealth Management - Wealth Plan
 owner: ML1
 status: active
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-02
 tags: [wealth-management, planning, wealth-plan]
 ---
 
@@ -105,10 +105,12 @@ must be tested.
 - Refill assumptions must distinguish between business income to Matthew and
   investment income on the base; only the former counts as durable refill unless
   the latter is realized, recurring, and explicitly approved for use.
-- Toronto housing and Japan home acquisition decisions share one capital pool
-  and may not reserve the same dollars twice.
-- Until the Toronto primary-housing direction is resolved, any Japan-home
-  budget remains provisional.
+- Primary housing decision is open. Toronto, Japan, and other options are all
+  candidates. No sequencing assumption is made between them.
+- Toronto and Japan decisions share one capital pool and may not reserve the
+  same dollars twice.
+- A Japan primary housing scenario is modeled as a standalone what-if below
+  and does not depend on the Toronto decision resolving first.
 
 ## Housing Linkage
 
@@ -119,6 +121,131 @@ Their budgets are valid only when:
 - the liquid-capital and reserve rules in
   `LIQUIDITY_AND_CAPITAL_GUARDRAILS.md` are applied
 - the refill assumptions in `NET_SAVINGS_AND_REFILL_MODEL.md` are explicit
+
+Neither project has sequencing priority over the other. The primary housing
+decision is open across all options.
+
+---
+
+## Japan Primary Housing — What-If Model (updated 2026-05-02)
+
+**Scenario:** Wife and son primarily resident in Japan. ML1 splits time but
+stays under 180 days per year in Japan to avoid triggering Japanese tax
+residency. Maintaining Canadian tax residency is a separate matter.
+Cash purchase. Budget ceiling CAD 400k (revised 2026-05-02). On primary
+housing decision, remainder of HISA moves to longer-term investments.
+
+---
+
+### Capital Structure (post-purchase)
+
+| Line | Amount | Notes |
+|---|---|---|
+| Japan property | (CAD 400,000) | Revised ceiling (2026-05-02); cash purchase; wife as buyer of record |
+| Post-purchase investable base | CAD 1,060,000 | CAD 1,460,000 less property |
+| of which: HISA remainder → longer-term investments | ~CAD 500,000 | Moves on housing decision (900k − 400k) |
+| of which: managed equities | CAD 560,000 | Already in longer-term investments |
+| Liquid reserve retained | CAD 103,000 | 24 months of Japan-scenario living costs (CAD 51,600/yr × 2) |
+| Investment return assumption | 7% | ML1-confirmed |
+
+---
+
+### Annual Cost Structure (Japan primary housing scenario)
+
+| Cost line | Monthly avg | Annual |
+|---|---|---|
+| ML1 Canada accommodation (6 months × ~CAD 2,200) | CAD 1,100 | CAD 13,200 |
+| Wife + son Japan household (food, utilities, transport) | CAD 1,600 | CAD 19,200 |
+| ML1 personal in Canada — 6 months, no full household | CAD 750 | CAD 9,000 |
+| ML1 personal in Japan — 6 months, marginal | CAD 350 | CAD 4,200 |
+| Travel — ML1 Canada-Japan, ~3 round trips/year | CAD 500 | CAD 6,000 |
+| **Total** | **CAD 4,300** | **CAD 51,600** |
+
+Annual net savings: CAD 80,000 income − CAD 51,600 spend = **CAD 28,400/year**
+(vs. approximately CAD 0 under current Canada-only structure at CAD 3,600/month housing)
+
+---
+
+### Wealth Path — Liquid Assets (7%, CAD 28,000/yr contribution)
+
+| Year | Liquid base |
+|---|---|
+| 2026 start (post-purchase) | CAD 1,060,000 |
+| 2027 | CAD 1,162,000 |
+| 2028 | CAD 1,272,000 |
+| 2029 | CAD 1,389,000 |
+| 2030 | CAD 1,514,000 |
+| 2035 | CAD 2,284,000 |
+| 2040 | CAD 3,365,000 |
+
+---
+
+### Against the Targets
+
+**SG-01 — CAD 2,000,000 consolidated by 2030:**
+
+| Component | Value |
+|---|---|
+| Liquid base 2030 | CAD 1,514,000 |
+| Japan property | CAD 400,000 |
+| Business equity (est.) | ~CAD 200-300,000 |
+| **Consolidated est.** | **~CAD 2,114-2,214,000** |
+
+**Result: SG-01 achieved — tighter margin than at a lower property cost.**
+
+**SG-02 — CAD 4,000,000 consolidated by 2040:**
+
+Liquid base reaches CAD 3,365,000 by 2040; plus property CAD 400,000 = CAD 3,765,000
+before business equity. Business equity contribution of CAD 235,000+ closes the gap.
+
+**Result: SG-02 achievable — requires meaningful business equity; not achieved through
+liquid investments alone at this property cost.**
+
+---
+
+### Comparison to Baseline (no Japan, HISA stays at ~4.5% blended, no savings)
+
+| | Baseline | Japan scenario (CAD 400k) |
+|---|---|---|
+| 2030 liquid | ~CAD 1,742,000 | ~CAD 1,514,000 |
+| 2030 consolidated est. | ~CAD 1,992,000 | ~CAD 2,114-2,214,000 |
+| 2040 liquid | ~CAD 2,703,000 | ~CAD 3,365,000 |
+| SG-01 (2030) | Borderline | Achieved (tighter) |
+| SG-02 (2040) | Missed by ~CAD 1.3M | Achievable with business equity |
+
+2030 liquid is lower than baseline because more capital is deployed into the property.
+Consolidated SG-01 is still achieved because the property itself counts as a component.
+The 2040 advantage over baseline is driven by the investment deployment decision
+(HISA from ~4.5% to 7%) and savings contribution; the larger property deployment
+reduces the investable base and moderates the effect relative to a lower property cost.
+
+**Sensitivity:** at 8% the 2040 liquid base reaches ~CAD 3.9M (consolidated with property:
+~CAD 4.3M). At 6% it reaches ~CAD 2.9M — SG-02 would require substantial business equity.
+The 7% assumption remains the load-bearing number in this model.
+
+---
+
+### Key Variables — Scenario A vs. Scenario B
+
+| Variable | Scenario A (part-time) | Scenario B (primary housing) |
+|---|---|---|
+| Capital deployment | Up to CAD 400k cash | Up to CAD 400k cash |
+| Monthly carrying cost | Low to moderate — management + tax | Near zero — family in residence |
+| Canadian living cost | Full — ML1 + family in Canada | Reduced — see cost table above |
+| Annual net savings | ~CAD 0 | ~CAD 28,000 |
+| Investment deployment trigger | Not linked | Triggered by housing decision |
+| Inheritance tax exposure | Low | Elevated — wife/son as Japanese residents; Japan taxes worldwide assets |
+| T1135 obligation | Yes — annual | Yes — annual |
+| ML1 Japan tax residency | Not triggered | Avoided by staying under 180 days/year in Japan; Canadian residency is a separate matter |
+
+---
+
+### Outstanding Diligence (required before what-if becomes a real budget)
+
+1. ML1 180-day rule — confirm exact Japanese tax residency trigger and operational margin of safety; Canadian tax residency is a separate analysis
+2. Japanese inheritance tax — scope of worldwide-asset exposure for wife and son as Japanese residents; estate planning implications against CAD 1.4M+ asset base
+3. Cross-border tax advice on split-residency structure — ML1 Canadian residency analysis independent of the 180-day Japan question
+4. Property search confirming available supply in Kamakura / Atami cluster at CAD 400k ceiling
 
 ## Review Cadence
 
