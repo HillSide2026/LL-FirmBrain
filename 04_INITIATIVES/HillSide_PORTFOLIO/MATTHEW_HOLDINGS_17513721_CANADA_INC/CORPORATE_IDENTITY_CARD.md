@@ -41,9 +41,13 @@ ML1 personally owns `17513721 Canada Inc`.
 ## Current Lines of Business
 
 - Andersen Service Line
-- ownership and operation of FinSure
-- ownership and operation of the Payment Services Consulting Line
+- Dominion Platform (dominionpartners.ca) — enterprise intake, intelligence, and payments execution
+  - Dominion: narrative and positioning layer; enterprise client intake
+  - FlowSignal (flowsignal.dominionpartners.ca): market intelligence and partner/introducer interface
+  - D-AirPay (d-airpay.dominionpartners.ca): payments execution layer; rails abstraction (fiat and stablecoin)
 - ownership of Federal MSB and Ontario MSB Corp
+
+See `DOMINION_PLATFORM/PLATFORM_ARCHITECTURE.md` for full architecture.
 
 ## Andersen Service Line — Governing Matter Layer
 

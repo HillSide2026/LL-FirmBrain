@@ -59,22 +59,69 @@ Three service tiers:
 
 **Business name:** FinSure (confirmed entry offer and brand).
 
-**Public front-end:** dominionpartners.ca (Payment Services line, Lane 2).
+**Public front-end:** finsure.dominionpartners.ca (within the Dominion Platform).
 
-## FinSure Product Status
+## FinSure Product Model (updated 2026-05-03)
 
-- Product built and deployed at `https://finsure-w321.onrender.com`
-- Public domain: `https://finsure.dominionpartners.ca`
-- Launch blocker: HostGator DNS cutover to Vercel for `finsure.dominionpartners.ca`
+FinSure is being built out as a landing page leading to a portal where clients access
+the entry-level product, with an opt-in path to higher-ticket services.
+
+**Funnel:**
+
+```
+finsure.dominionpartners.ca (landing page)
+   ↓
+Portal (authenticated client area)
+   ↓
+Entry-level product (compliance tool / assessment)
+   ↓
+Opt-in to higher-ticket services
+```
+
+**Infrastructure:**
+- Prior build: `https://finsure-w321.onrender.com`
+- Target domain: `https://finsure.dominionpartners.ca` (Vercel; DNS via CNAME to cname.vercel-dns.com)
+- DNS authority: single Vercel team / account per Dominion Platform architecture
+- Prior HostGator DNS blocker is superseded by the Dominion Platform Vercel deployment model
+
+**Higher-ticket opt-in path (confirmed 2026-05-03):**
+
+```
+Tier 1 — FinSure entry product (this project)
+   ↓
+Tier 2 — Rhizome white label (HBP-010)
+   ↓
+Tier 3 — Managed compliance, including fractional CAMLO if and as required
+   ↓
+Tier 4 — Levine Law F03 regulatory advisory (premium tier; Levine Law entity only)
+```
+
+Tier 4 is a Levine Law service. Referral from tier 3 to tier 4 is a cross-entity step
+requiring ML1 authorization per engagement. HBP-011 governs tiers 1 and 3. HBP-010
+governs tier 2.
+
+**CAMLO scope note:** EW-03 excluded CAMLO from the FinSure entry product (tier 1).
+Fractional CAMLO at tier 3 (managed compliance) is a separate, higher-ticket offering
+and does not reopen that exclusion. The tier 1 scope boundary is unchanged.
+
+**Confirmed build decisions:**
+- Portal authentication: shared via Dominion `packages/auth` module across FinSure and dominionpartners.ca (confirmed 2026-05-03)
+
+**Open build questions:**
+- Whether the existing finsure-w321.onrender.com build migrates to Vercel or is rebuilt — TBD
+
+See `MATTHEW_HOLDINGS_17513721_CANADA_INC/DOMINION_PLATFORM/PLATFORM_ARCHITECTURE.md`
+for the full Dominion deployment and DNS model.
 
 ## Control Notes
 
 - The approved path is narrower than the original broad agency concept.
-- FinSure is approved as the entry offer, not proof of a full agency model.
+- FinSure is the entry offer; the landing page and portal extend this into a product funnel.
 - Rhizome white-label or partner implementation work is outside `HBP-011` and belongs in `HBP-010`.
-- Any move beyond the initial service model should be treated as a scoped decision, not implied by the proceed approval.
+- Higher-ticket opt-in services require a separate scoped decision before activation.
 
 ## Change Log
 
 - 2026-03-20 — Workplan created; execution priorities authorized
 - 2026-04-25 — All five workstreams locked per ML1 working parameters; CAMLO scope removal recorded; FinSure positioning confirmed
+- 2026-05-03 — Product model updated: landing page → portal → entry-level product → higher-ticket opt-in; Dominion Platform architecture adopted; DNS model updated to Vercel

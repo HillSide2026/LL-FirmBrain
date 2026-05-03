@@ -41,9 +41,11 @@ YellowBricks, Federal MSB, and Ontario MSB Corp sit under this entity.
 ## Current Lines of Business
 
 - Andersen Service Line
-- ownership and operation of FinSure
-- ownership and operation of the Payment Services Consulting Line
-- ownership of YellowBricks, Federal MSB (`17409052 Canada Inc`), and Ontario MSB Corp (`1001494374 Ontario Corp`)
+- Dominion Platform (dominionpartners.ca) — three-tier enterprise intake, intelligence, and payments execution:
+  - Dominion: narrative and positioning; enterprise client intake
+  - FlowSignal (flowsignal.dominionpartners.ca): market intelligence; partner and introducer interface
+  - D-AirPay (d-airpay.dominionpartners.ca): payments execution; fiat and stablecoin rails abstraction
+- ownership of Federal MSB (`17409052 Canada Inc`) and Ontario MSB Corp (`1001494374 Ontario Corp`)
 
 Under the Andersen Service Line, `17513721 Canada Inc` provides services to
 clients of Andersen Consulting and Andersen Consulting pays `17513721 Canada
@@ -64,7 +66,10 @@ through `17513721 Canada Inc`.
 
 ```text
 Matthew Holdings
-├── Yellowbricks
+├── Dominion Platform
+│   ├── Dominion (dominionpartners.ca)
+│   ├── FlowSignal (flowsignal.dominionpartners.ca)
+│   └── D-AirPay (d-airpay.dominionpartners.ca)
 ├── Federal MSB (17409052 Canada Inc)
 ├── Ontario MSB Corp (1001494374 Ontario Corp)
 └── CORPORATE_IDENTITY_CARD.md
