@@ -146,7 +146,7 @@ Mayan must not be directly coupled to any other system. All document access goes
 
 | Capability | Notes |
 |---|---|
-| Corporate service workflow templates | Incorporation, director/officer change, share issuance, minute book update, annual return — none exist yet |
+| Corporate service workflow templates | Content exists in substantial detail in ML2 playbooks and solutions (INCORPORATION, SHAREHOLDER_AGREEMENT, SHAREHOLDER_CHANGE, etc.). Work required: consolidate and port into LL-WrkEngine workflow format — not authoring from scratch. |
 | Lexora integration | Receive matter-opened trigger; send completion signal back |
 | ll-corporate-records integration | Push finalized documents to the document store abstraction layer |
 | Delivery coordination | `markReadyToDeliver` signal to ll-task-tracker accounts lifecycle |
@@ -200,8 +200,9 @@ Grouped by resolution priority. Tier 1 items block integration design. Tier 2 it
 **Objective:** Define which corporate service workflow templates need to be built in LL-WrkEngine for Levine Law's initial service scope, and sequence their development.
 
 **Dependencies:**
-- Confirmation of initial corporate service scope (incorporation first? which matter types?)
+- Confirmation of which corporate service types to port first (incorporation first? which matter types?)
 - Matter model in Lexora (to understand what data is available at workflow trigger)
+- Note: content exists in ML2 playbooks — this is a consolidation and porting exercise, not authoring
 
 **Output:** A workflow template backlog for LL-WrkEngine, ordered by service priority.
 
