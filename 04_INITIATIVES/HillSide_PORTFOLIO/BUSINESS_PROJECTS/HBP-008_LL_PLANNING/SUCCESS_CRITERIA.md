@@ -1,6 +1,6 @@
 ---
 id: 04_initiatives__hillside_portfolio__business_projects__hbp_008_levine_law_2027__success_criteria_md
-title: Levine Law 2027 - Success Criteria
+title: LL Planning - Success Criteria
 owner: ML1
 status: draft
 created_date: 2026-05-02
@@ -10,7 +10,7 @@ tags: [levine-law, 2027, success-criteria, hillside]
 
 # Success Criteria
 
-**Project:** Levine Law 2027
+**Project:** LL Planning
 **Project ID:** HBP-008
 
 ## Revenue Targets
@@ -20,8 +20,9 @@ tags: [levine-law, 2027, success-criteria, hillside]
 | Total firm collections | CAD 400,000 | Planning target; $160k above 2026 baseline |
 | ML1 billings | CAD 240,000 | At or below $25k/month cap |
 | Associate collections | CAD 160,000 | Upside target; CAD 100,000 is the floor |
-| ML1 compensation | CAD 90,000–95,000 | Step from CAD 80,000 in 2026 |
-| Firm retained earnings | CAD 150,000+ | Available to flow to HBP-001 wealth plan |
+| Fixed revenue to ML1 | CAD 85,000 | Step from CAD 80,000 in 2026 |
+| Total revenue to ML1 | CAD 90,000–95,000 | Fixed line plus discretionary distribution after retained earnings |
+| Firm retained earnings | CAD 125,000+ | Remains positive after fixed line and any discretionary distribution |
 
 ## Associate Layer
 

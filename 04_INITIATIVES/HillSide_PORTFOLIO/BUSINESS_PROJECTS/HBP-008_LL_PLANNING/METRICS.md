@@ -1,6 +1,6 @@
 ---
 id: 04_initiatives__hillside_portfolio__business_projects__hbp_008_levine_law_2027__metrics_md
-title: Levine Law 2027 - Metrics
+title: LL Planning - Metrics
 owner: ML1
 status: draft
 created_date: 2026-05-02
@@ -10,7 +10,7 @@ tags: [levine-law, 2027, metrics, hillside]
 
 # Metrics
 
-**Project:** Levine Law 2027
+**Project:** LL Planning
 **Project ID:** HBP-008
 
 ---
@@ -64,7 +64,7 @@ tags: [levine-law, 2027, metrics, hillside]
 |---|---|
 | Metric ID | `ll_2027_ml_revenue` |
 | SMART Goal | SG-04 |
-| Definition | Total revenue received by ML attributable to Levine Law in calendar year 2027; to be aligned with HBP-002 definition |
+| Definition | Total revenue received by ML attributable to Levine Law in calendar year 2027, including the fixed `CAD 85,000` owner line and any approved profit distribution after retained earnings; to be aligned with HBP-002 definition |
 | Target | >= CAD 90,000 by `2027-12-31` |
 | Measurement frequency | Monthly cumulative |
 | Measurement owner | Accounting support / ML1 |

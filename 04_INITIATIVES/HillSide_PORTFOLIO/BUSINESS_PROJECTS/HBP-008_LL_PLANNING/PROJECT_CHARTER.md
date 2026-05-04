@@ -1,6 +1,6 @@
 ---
 id: 04_initiatives__hillside_portfolio__business_projects__hbp_008_levine_law_2027__project_charter_md
-title: Levine Law 2027 - Project Charter
+title: LL Planning - Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-02
@@ -10,9 +10,9 @@ tags: [levine-law, 2027, charter, hillside]
 
 # Project Charter
 
-**Project:** Levine Law 2027
+**Project:** LL Planning
 **Project ID:** HBP-008
-**Project Path:** `04_INITIATIVES/HillSide_PORTFOLIO/BUSINESS_PROJECTS/HBP-008_LEVINE_LAW_2027`
+**Project Path:** `04_INITIATIVES/HillSide_PORTFOLIO/BUSINESS_PROJECTS/HBP-008_LL_PLANNING`
 **Project Type:** Strategic
 **Stage:** Initiating
 
@@ -34,7 +34,7 @@ at or below $25,000 per month and proving that the Levine Law leverage model wor
 | SG-01 | By `2027-12-31`, total firm collections reach at least CAD 400,000. | Total 2027 firm collections >= CAD 400,000 |
 | SG-02 | During 2027, ML1 monthly billings do not exceed CAD 25,000 in any month. | No month exceeds CAD 25,000 in ML1-docketed collections |
 | SG-03 | By `2027-12-31`, associate-attributed collections reach at least CAD 100,000. | Associate collections >= CAD 100,000 (CAD 160,000 upside target) |
-| SG-04 | By `2027-12-31`, revenue to ML reaches at least CAD 90,000. | Total 2027 revenue to ML >= CAD 90,000 |
+| SG-04 | By `2027-12-31`, total revenue to ML reaches at least CAD 90,000, with the fixed owner line set at CAD 85,000 and any excess achieved through approved profit distribution after retained earnings. | Total 2027 revenue to ML >= CAD 90,000 |
 | SG-05 | By `2027-06-30`, a contractor associate with corporate/commercial and financial services experience is engaged and active on delegated files. | Associate engagement confirmed; first delegated files active |
 | SG-06 | During 2027, F02 operates as the primary corporate acquisition channel with a defined Health Check volume and fractional counsel conversion pipeline. | Monthly oversight pack confirms F02 as primary channel |
 | SG-07 | By `2027-12-31`, F03 has produced named specialist revenue from payments/MSB/regulatory matters. | At least CAD 30,000 attributable to F03 specialist matters |
@@ -45,7 +45,8 @@ at or below $25,000 per month and proving that the Levine Law leverage model wor
 - hold ML1 billings at or below $25,000/month; delegate overflow to the associate
 - activate, onboard, and manage a part-time contractor associate under a 40%
   contractor-split model
-- reach CAD 400,000 total firm collections and CAD 90,000 revenue to ML by `2027-12-31`
+- reach CAD 400,000 total firm collections and CAD 90,000 total revenue to ML
+  by `2027-12-31`, with a fixed owner line of CAD 85,000
 - maintain monthly controls over total collections, ML1 billings, associate billings,
   margin, capacity, and client-quality
 - operate exclusively inside approved Levine Law practice areas and solution frames

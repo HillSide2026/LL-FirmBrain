@@ -1,6 +1,6 @@
 ---
 id: 04_initiatives__hillside_portfolio__business_projects__hbp_008_levine_law_2027__business_case_md
-title: Levine Law 2027 - Business Case
+title: LL Planning - Business Case
 owner: ML1
 status: draft
 created_date: 2026-05-02
@@ -42,7 +42,9 @@ only the corporate lane.
 ## Expected Value
 
 - total firm collections of CAD 400,000 versus the 2026 CAD 240,000 baseline
-- ML1 compensation step from CAD 80,000 to CAD 90,000–95,000
+- fixed revenue to ML1 step from CAD 80,000 to CAD 85,000
+- total revenue to ML1 of CAD 90,000–95,000 after any profit distribution made
+  after retained earnings
 - first proof point that the Levine Law leverage model works
 - firm retained earnings of approximately CAD 155,000–160,000 available to flow
   through to HBP-001 wealth targets
@@ -57,8 +59,8 @@ only the corporate lane.
 - the associate relationship is managed informally with no retention or performance
   framework
 - ML1 risks billing above the $25k ceiling without a structured cap and delegation model
-- the 2027 year operates without an explicit owner compensation target, leaving the
-  2030 wealth path unmonitored
+- the 2027 year operates without an explicit fixed owner line or distribution
+  rule, leaving the owner-revenue path unmonitored
 
 ## Core 2027 Business Thesis
 

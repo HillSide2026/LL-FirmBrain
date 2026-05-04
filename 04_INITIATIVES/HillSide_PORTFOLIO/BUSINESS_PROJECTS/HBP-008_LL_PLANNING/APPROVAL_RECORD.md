@@ -1,6 +1,6 @@
 ---
 id: 04_initiatives__hillside_portfolio__business_projects__hbp_008_levine_law_2027__approval_record_md
-title: Levine Law 2027 - Approval Record
+title: LL Planning - Approval Record
 owner: ML1
 status: draft
 created_date: 2026-05-02
@@ -10,7 +10,7 @@ tags: [levine-law, 2027, approval, hillside]
 
 # Approval Record
 
-**Project:** Levine Law 2027
+**Project:** LL Planning
 **Project ID:** HBP-008
 
 ## Stage Gate History

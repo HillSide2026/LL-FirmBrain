@@ -27,7 +27,7 @@ defined in `STAGE_REFERENCE.md`.
 | HBP-005 | Sale of Ontario MSBShellCo | 2C_ONTARIO_MSB_CORP_1001494374_ONTARIO_CORP | initiating | Divest non-core regulated shell to simplify structure | Regulatory transfer constraints, counterparty quality, timeline slippage | pending | TBD | 2026-03-20 |
 | HBP-006 | Sale Micro SaaS (TariffLookup.ca) | HBP-006_SALE_MICRO_SAAS | initiating | Monetize TariffLookup.ca after validation and recycle capital | Insufficient traction, weak buyer demand, timing mismatch | pending | TBD | 2026-03-20 |
 | HBP-007 | Levine Law 2026 | Levine Law | planning | Cash collected by LL ≥ CAD 240,000 and revenue to ML ≥ CAD 80,000 by 2026-12-31, while governing margin, capacity, and client-quality controls inside approved Levine Law practice areas, solution frames, and strategy | Off-strategy intake, capacity overload, control weakness | pending | ML1 | 2026-03-23 |
-| HBP-008 | Levine Law 2027 | Levine Law | initiating | Track and govern the 2027 Levine Law strategic program as a HillSide project | Premature planning assumptions, sequencing risk, resource allocation drift | pending | ML1 | 2026-03-20 |
+| HBP-008 | LL Planning | Levine Law | initiating | Track and govern the 2027 Levine Law strategic program as a HillSide project | Premature planning assumptions, sequencing risk, resource allocation drift | pending | ML1 | 2026-03-20 |
 | HBP-009 | 2027 Business Ideas | HBP-009_2027_BUSINESS_IDEAS | initiating | Create a controlled HillSide project for capturing, shaping, and prioritizing 2027 business ideas | Scope drift, planning delay, premature spend | pending | ML1 | 2026-03-20 |
 | HBP-010 | Rhizome White Label | HBP-010_RHIZOME_WHITE_LABEL | executing | Execute the approved Rhizome services-led wrapper path under a bounded implementation scope | Partner misalignment, single-channel dependency, integration sprawl | approved | ML1 | 2026-03-20 |
 | HBP-011 | Payments Regulatory & Compliance Consulting Agency | HBP-011_PAYMENTS_REGULATORY_COMPLIANCE_AGENCY | executing | Stand up the approved Payment Services Consulting Line under `17513721 Canada Inc` using FinSure as the entry offer | Weak differentiation, slow revenue ramp, execution sprawl | approved | ML1 | 2026-03-20 |
@@ -42,7 +42,7 @@ defined in `STAGE_REFERENCE.md`.
 - `HBP-005` currently has folder coverage in `HBP-005_SALE_OF_ONTARIO_MSBSHELLCO/`.
 - `HBP-006` currently has folder coverage in `HBP-006_SALE_MICRO_SAAS/`.
 - `HBP-007` currently has folder coverage in `HBP-007_LEVINE_LAW_2026/`.
-- `HBP-008` currently has folder coverage in `HBP-008_LEVINE_LAW_2027/`.
+- `HBP-008` currently has folder coverage in `HBP-008_LL_PLANNING/`.
 - `HBP-009` currently has folder coverage in `HBP-009_2027_BUSINESS_IDEAS/`.
 - `HBP-010` currently has folder coverage in `HBP-010_RHIZOME_WHITE_LABEL/`.
 - `HBP-011` currently has folder coverage in `HBP-011_PAYMENTS_REGULATORY_COMPLIANCE_AGENCY/`.

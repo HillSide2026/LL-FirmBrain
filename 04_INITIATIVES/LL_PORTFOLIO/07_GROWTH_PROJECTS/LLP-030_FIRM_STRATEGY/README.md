@@ -4,7 +4,7 @@ title: LLP-030 Firm Strategy and Business Plan
 owner: ML1
 status: planning
 created_date: 2026-03-17
-last_updated: 2026-04-03
+last_updated: 2026-05-04
 tags: [firm-strategy, business-plan, strategic-projects]
 ---
 
@@ -80,6 +80,17 @@ canonical Stage 2 packet in `planning/`.
   planning shorthand for how much total firm revenue may be needed to support
   the `2030` owner-income target if all revenue above the current `CAD 240,000`
   baseline is billed by a second fee earner at different contribution margins.
+
+## Annual Horizon Synthesis
+
+- Annual horizon synthesis now lives in the HillSide oversight folder:
+  `04_INITIATIVES/HillSide_PORTFOLIO/BUSINESS_PROJECTS/HBP-008_LL_PLANNING/`
+- `ANNUAL_PLAN_2028.md` consolidates the existing `2028` strategic horizon into
+  one annual-plan surface, drawing together LLP-030 strategy, F02, F03, and
+  LLP-038 delivery-spine dependencies.
+- `ANNUAL_PLAN_2029.md` creates a scenario-based `2029` annual-plan surface for
+  post-`2028` planning. It does not imply that the Path A vs. Path B decision
+  has already been made.
 
 ## Ongoing Analytical Work
 

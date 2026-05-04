@@ -1,6 +1,6 @@
 ---
 id: 04_initiatives__hillside_portfolio__business_projects__hbp_008_levine_law_2027__problem_statement_md
-title: Levine Law 2027 - Problem Statement
+title: LL Planning - Problem Statement
 owner: ML1
 status: draft
 created_date: 2026-05-02
@@ -10,7 +10,7 @@ tags: [levine-law, 2027, problem-statement, hillside]
 
 # Problem Statement
 
-**Project:** Levine Law 2027
+**Project:** LL Planning
 **Project ID:** HBP-008
 
 ## The Problem

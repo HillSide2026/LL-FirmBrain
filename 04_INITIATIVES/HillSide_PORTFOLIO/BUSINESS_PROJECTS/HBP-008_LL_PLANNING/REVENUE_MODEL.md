@@ -1,6 +1,6 @@
 ---
 id: 04_initiatives__hillside_portfolio__business_projects__hbp_008_levine_law_2027__revenue_model_md
-title: Levine Law 2027 - Revenue Model
+title: LL Planning - Revenue Model
 owner: ML1
 status: draft
 created_date: 2026-05-02
@@ -10,7 +10,7 @@ tags: [levine-law, 2027, revenue-model, financial-model, hillside]
 
 # Revenue Model
 
-**Project:** Levine Law 2027
+**Project:** LL Planning
 **Project ID:** HBP-008
 
 ## Planning Inputs
@@ -24,7 +24,16 @@ tags: [levine-law, 2027, revenue-model, financial-model, hillside]
 | Associate split | 40% of collected fees | ML1 confirmed 2026-05-02 |
 | Billing rate (standard) | $480/hour | LLP-030 Business Plan |
 | Billing rate (regulatory) | $550/hour | LLP-030 Business Plan |
-| ML1 compensation target | CAD 90,000–95,000 | Step from $80k in 2026 |
+| Fixed revenue to ML1 | CAD 85,000 | Step from CAD 80,000 in 2026 |
+| Total revenue to ML1 | CAD 90,000–95,000 | Fixed line plus discretionary profit distribution after retained earnings |
+
+For clarity:
+
+- `fixed revenue to ML1` means the planned non-discretionary owner line for the
+  year
+- `total revenue to ML1` means fixed revenue plus any approved year-end profit
+  distribution after retained earnings
+- neither line is modeled here as after-tax personal take-home
 
 ---
 
@@ -40,9 +49,12 @@ tags: [levine-law, 2027, revenue-model, financial-model, hillside]
 | Marketing / acquisition (~7%) | (CAD 28,000) | F01 + F02 + F03 spend |
 | Overhead (tech, insurance, admin) | (CAD 50,000) | Consistent with 2026 structure |
 | Direct matter costs | (CAD 8,000) | Disbursements, filings |
-| **Available for ML1 comp + retained** | **CAD 250,000** | |
-| ML1 compensation | (CAD 92,000) | Midpoint of $90–95k target |
-| **Firm retained** | **~CAD 158,000** | Available to flow to HBP-001 |
+| **Available for ML1 fixed revenue + retained + distribution** | **CAD 250,000** | |
+| Fixed revenue to ML1 | (CAD 85,000) | Fixed owner line |
+| **Profit after fixed owner line** | **CAD 165,000** | |
+| Retained earnings (illustrative) | (CAD 158,000) | Retained before discretionary owner distribution |
+| Discretionary distribution to ML1 (illustrative) | (CAD 7,000) | Profit distribution after retained earnings |
+| **Total revenue to ML1 (illustrative)** | **CAD 92,000** | Midpoint inside the CAD 90k–95k total range |
 
 ---
 
@@ -58,9 +70,12 @@ tags: [levine-law, 2027, revenue-model, financial-model, hillside]
 | Marketing / acquisition | (CAD 24,000) | Slightly lower at lower revenue |
 | Overhead | (CAD 50,000) | Fixed; same as upside |
 | Direct matter costs | (CAD 5,000) | |
-| **Available for ML1 comp + retained** | **CAD 221,000** | |
-| ML1 compensation | (CAD 90,000) | Floor of target range |
-| **Firm retained** | **~CAD 131,000** | |
+| **Available for ML1 fixed revenue + retained + distribution** | **CAD 221,000** | |
+| Fixed revenue to ML1 | (CAD 85,000) | Fixed owner line |
+| **Profit after fixed owner line** | **CAD 136,000** | |
+| Retained earnings (illustrative) | (CAD 131,000) | Retained before discretionary owner distribution |
+| Discretionary distribution to ML1 (illustrative) | (CAD 5,000) | Profit distribution after retained earnings |
+| **Total revenue to ML1 (illustrative)** | **CAD 90,000** | Floor of the CAD 90k–95k total range |
 
 ---
 
@@ -82,19 +97,32 @@ but has limited cushion for rework or supervision overruns.
 
 ---
 
+## Owner-Revenue Structure
+
+The `2027` HBP-008 model is now structured as:
+
+- fixed revenue to ML1 of `CAD 85,000`
+- discretionary year-end distribution to ML1 of about `CAD 5,000-10,000`
+  only after retained earnings are set
+- total revenue to ML1 of `CAD 90,000-95,000`
+
+The exact distribution inside that range depends on year-end profit and the
+retained-earnings decision.
+
 ## Connection to HBP-001 Wealth Plan
 
 | Item | Value |
 |---|---|
-| 2027 ML1 compensation | CAD 90,000–95,000 |
-| Step toward 2030 target (CAD 122,000) | CAD 10,000–15,000 above 2026 baseline |
-| Firm retained earnings (upside) | CAD 158,000 |
+| 2027 fixed revenue to ML1 | CAD 85,000 |
+| 2027 total revenue to ML1 | CAD 90,000–95,000 |
+| 2027 discretionary distribution above fixed line | about CAD 5,000–10,000 |
+| Firm retained earnings (upside illustration) | CAD 158,000 |
 | Firm retained available for investment or distribution | To be governed by HBP-001 and HBP-002 |
 
 The firm retained earnings line is the primary new wealth-plan input from 2027.
-How that retained amount is treated — as reinvestment in Levine Law, distribution
-to ML1, or accumulation inside the professional corporation — is a decision for
-HBP-001 and HBP-002, not this project.
+How that retained amount is treated — as reinvestment in Levine Law,
+distribution to ML1, or accumulation inside the professional corporation — is
+a decision for HBP-001 and HBP-002, not this project.
 
 ---
 

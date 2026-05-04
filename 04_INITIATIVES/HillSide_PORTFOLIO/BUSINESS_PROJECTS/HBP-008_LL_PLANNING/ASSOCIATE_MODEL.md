@@ -1,6 +1,6 @@
 ---
 id: 04_initiatives__hillside_portfolio__business_projects__hbp_008_levine_law_2027__associate_model_md
-title: Levine Law 2027 - Associate Model
+title: LL Planning - Associate Model
 owner: ML1
 status: draft
 created_date: 2026-05-02
@@ -10,7 +10,7 @@ tags: [levine-law, 2027, associate-model, staffing, hillside]
 
 # Associate Model
 
-**Project:** Levine Law 2027
+**Project:** LL Planning
 **Project ID:** HBP-008
 
 ## Model Confirmed
@@ -72,6 +72,66 @@ variable on collected fees.
 It is defensible for someone running files genuinely end to end. A step-up structure
 (35% until collections reliability is established, then 40%) may be preferable at
 negotiation to protect contribution margin in the ramp period.
+
+## Retained-Profit Test
+
+Under the HBP-008 retained-profit framing, the relevant formula for the
+associate layer is:
+
+```text
+associate retained contribution
+= associate collections - associate pay - other associate-attributable cost
+```
+
+Or, stated as a ratio rule:
+
+```text
+max associate pay ratio
+= 1 - target retained-contribution margin - other cost ratio
+```
+
+The current HBP-008 illustration prices other associate-attributable cost at
+approximately:
+
+- acquisition cost: about `10%`
+- ML1 supervision load: about `8%`
+- overhead allocation: about `10%`
+
+That implies an other-cost ratio of about `28%` before paying the associate.
+
+| Target retained contribution margin on associate collections | Max pay ratio if other cost ratio is `28%` | Minimum collections-to-pay ratio |
+|---|---:|---:|
+| `30%` | `42%` | about `2.38x` |
+| `35%` | `37%` | about `2.70x` |
+| `40%` | `32%` | about `3.13x` |
+
+Current HBP-008 contractor model:
+
+- associate pay ratio: `40%`
+- collections-to-pay ratio: `2.5x`
+- implied retained contribution margin after the `28%` other-cost layer: about
+  `32%`
+
+This means the current contractor-associate model is feasible inside the
+overall `30-40%` planning band, but with limited cushion. It is comfortably
+above a `30%` retained-contribution test, slightly below a `35%` target, and
+well below a `40%` target unless pricing improves or the other-cost ratio
+falls.
+
+Illustrative translation:
+
+| Associate collections | Pay at `40%` split | Other cost at `28%` | Retained contribution | Retained contribution margin |
+|---|---:|---:|---:|---:|
+| `CAD 100,000` | `CAD 40,000` | `CAD 28,000` | `CAD 32,000` | `32%` |
+| `CAD 160,000` | `CAD 64,000` | `CAD 44,800` | `CAD 51,200` | `32%` |
+
+The practical conclusion is:
+
+- a variable-pay contractor associate can work
+- a `35-40%` split is only attractive if supervision stays low and files are
+  genuinely repeatable
+- a fixed-salary associate is much harder to support at the current revenue
+  headroom
 
 ---
 
