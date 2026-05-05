@@ -1,5 +1,5 @@
 ---
-id: inv-matter-model-structural
+id: INV-0003
 title: Matter Model Structural Invariants
 owner: ML1
 status: approved

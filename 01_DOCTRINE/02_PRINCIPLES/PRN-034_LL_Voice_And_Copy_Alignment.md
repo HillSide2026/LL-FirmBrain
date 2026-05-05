@@ -7,7 +7,7 @@ approved_by: ML1
 approved_date: 2026-04-18
 version: 1.0
 created_date: 2026-03-10
-last_updated: 2026-03-10
+last_updated: 2026-05-04
 tags: [principle, brand, voice, copy, communications]
 applies_to: [LL]
 ---
@@ -24,4 +24,4 @@ Brand trust depends on coherence between visual identity and written expression.
 
 Supersedes: None
 Version: 1.0
-Status: Draft
+Status: Active

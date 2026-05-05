@@ -39,8 +39,15 @@ Classification:
 
 Naming convention:
 - Canonical numbered invariants in this folder should use `INV-####-descriptive-name.md`.
-- `README.md`, `SECOND_BRAIN_MODEL.md`, and `SYSTEM_IDENTITY.md` are the only unnumbered exceptions that should remain active in this folder.
+- `README.md`, `SECOND_BRAIN_MODEL.md`, `SYSTEM_IDENTITY.md`, and `DEPRECATION_REGISTRY.md` are the only unnumbered exceptions that should remain active in this folder.
 - Legacy `DOCTRINE-*` filename prefixes should not remain in this folder once an artifact has been normalized into the active invariant sequence.
+
+Active Invariants (Approved/Active Status):
+- INV-0001 through INV-0017 (see DEPRECATION_REGISTRY.md for superseded/retired artifacts)
+
+Governance:
+- See [DEPRECATION_REGISTRY.md](DEPRECATION_REGISTRY.md) for retired invariants and supersession history.
+- See [INV-0007-what-qualifies-as-doctrine.md](INV-0007-what-qualifies-as-doctrine.md) for doctrine approval lifecycle.
 
 Typical examples in the ML1/ML2/System/LL model:
 - ML1 retains final judgment authority.

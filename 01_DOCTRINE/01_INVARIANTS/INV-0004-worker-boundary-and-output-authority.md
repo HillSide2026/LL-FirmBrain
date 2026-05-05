@@ -1,5 +1,5 @@
 ---
-id: inv-worker-boundary-output-authority
+id: INV-0004
 title: Worker Boundary and Final Output Issuance
 owner: ML1
 status: approved

@@ -1,5 +1,5 @@
 ---
-id: inv-ml2-boundary
+id: INV-0001
 title: ML2 Ontology Boundary
 owner: ML1
 status: approved

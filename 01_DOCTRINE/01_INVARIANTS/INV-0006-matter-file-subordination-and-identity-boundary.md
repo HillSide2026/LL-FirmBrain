@@ -1,5 +1,5 @@
 ---
-id: inv-matter-file-subordination-identity-boundary
+id: INV-0006
 title: Matter File Subordination and Identity Boundary Invariant
 owner: ML1
 status: approved

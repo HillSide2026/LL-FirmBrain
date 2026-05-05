@@ -1,5 +1,5 @@
 ---
-id: inv-runtime-authority-separation-output
+id: INV-0005
 title: Runtime Authority, Separation, and Final Output Invariants
 owner: ML1
 status: approved

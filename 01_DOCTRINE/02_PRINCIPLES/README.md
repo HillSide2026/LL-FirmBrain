@@ -23,9 +23,18 @@ Typical examples:
 - Prefer reversible changes over irreversible ones.
 - Human authority overrides automated inference.
 
+Governance Documents:
+- [PRINCIPLE_POLICY_TRACEABILITY.md](PRINCIPLE_POLICY_TRACEABILITY.md) — Cross-reference showing which policies implement each principle
+- [LL_BRAND_PRINCIPLES_SUITE.md](LL_BRAND_PRINCIPLES_SUITE.md) — Consolidated suite of LL brand principles (PRN-030 through PRN-035)
+- [LL_SPECIFIC_PRINCIPLES_INDEX.md](LL_SPECIFIC_PRINCIPLES_INDEX.md) — Index of LL-level principles (portfolio-specific principles and LL applicability reference)
+
 Naming convention:
 - Canonical active principles in this folder should use `PRN-###_Descriptive_Name.md`.
 - `README.md` is the only non-`PRN` exception in the active principles layer.
+
+Numbering:
+- Principles are numbered sequentially from PRN-001 onwards.
+- PRN-011 is intentionally reserved (prior version was deprecated due to duplication with another principle; ID reserved to avoid reuse).
 
 Frontmatter metadata convention:
 - Active principle files should carry a dedicated `applies_to` frontmatter field.

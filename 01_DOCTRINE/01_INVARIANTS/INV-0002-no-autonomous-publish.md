@@ -1,5 +1,5 @@
 ---
-id: inv-no-autonomous-publish
+id: INV-0002
 title: No Autonomous Publish (Binding Invariant)
 owner: ML1
 status: approved
