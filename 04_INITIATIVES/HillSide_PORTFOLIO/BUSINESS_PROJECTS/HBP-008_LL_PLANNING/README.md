@@ -98,9 +98,10 @@ planning, but they are not determined by HBP-001.
 
 ## Backlog
 
-- fully tax-adjusted corporate model: deferred backlog item for HBP-008;
-  current retained-profit references are pre-tax corporate planning shorthand,
-  not the final after-tax corporate answer
+- LL-side tax-adjusted corporate model: first-pass artifact drafted in
+  `LL_TAX_ADJUSTED_CORPORATE_MODEL_2026_2029.md`; accountant validation remains
+  required before it becomes decision-grade. This is not the HBP-001 personal
+  after-tax wealth-planning model.
 
 ## Initiation Packet Status
 
@@ -116,6 +117,7 @@ planning, but they are not determined by HBP-001.
 - `REVENUE_MODEL.md` drafted
 - `ASSOCIATE_MODEL.md` drafted
 - `LL_RETAINED_PROFIT_MODEL_2026_2029.md` drafted
+- `LL_TAX_ADJUSTED_CORPORATE_MODEL_2026_2029.md` drafted
 - `ANNUAL_PLAN_2028.md` drafted
 - `ANNUAL_PLAN_2029.md` drafted
 

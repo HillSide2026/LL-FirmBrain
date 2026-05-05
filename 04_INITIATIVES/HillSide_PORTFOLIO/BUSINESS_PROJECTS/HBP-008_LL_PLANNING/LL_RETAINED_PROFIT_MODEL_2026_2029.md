@@ -5,7 +5,7 @@ owner: ML1
 status: draft
 created_date: 2026-05-04
 last_updated: 2026-05-04
-tags: [levine-law, retained-profit, owner-distribution, 2026, 2027, 2028, 2029, hillside]
+tags: [levine-law, retained-profit, owner-distribution, corporate-tax, 2026, 2027, 2028, 2029, hillside]
 ---
 
 # Retained Profit Model 2026-2029
@@ -68,25 +68,34 @@ sensitivity shorthand. Using the same retained-profit logic:
   extra distributions bounded, and preserve enough retained profit to fund
   durability and leverage.
 
-## Backlog
+## Tax-Adjusted Companion Model
 
-The fully tax-adjusted corporate model remains backlog work for HBP-008.
+The LL-side tax-adjusted corporate model is recorded in
+`LL_TAX_ADJUSTED_CORPORATE_MODEL_2026_2029.md`.
 
-That future model should explicitly address:
+That companion model addresses:
 
 - corporate tax on retained earnings inside Levine Law
-- tax treatment differences between salary, bonus, dividend, and other owner
-  payment forms
 - whether retained profit is actually left inside Levine Law or distributed
 - how much of the nominal retained-profit line is truly deployable after tax
 
-Until that work is completed, this note should be read as a pre-tax corporate
-planning shorthand rather than a finalized after-tax corporate model.
+This file remains the pre-tax retained-profit shorthand. The companion model is
+the HBP-008 corporate-tax adjustment. Neither file models ML1's personal
+after-tax wealth-planning outcome.
+
+## Remaining Backlog
+
+Accountant validation remains required before either model becomes
+decision-grade. Validation should confirm the applicable corporate tax rate,
+small-business deduction eligibility, any associated-corporation effects, and
+whether the retained-profit line maps cleanly to taxable income after accounting
+adjustments.
 
 ## Source Anchors
 
 - `../HBP-007_LEVINE_LAW_2026/PROJECT_CHARTER.md`
 - `REVENUE_MODEL.md`
+- `LL_TAX_ADJUSTED_CORPORATE_MODEL_2026_2029.md`
 - `ANNUAL_PLAN_2028.md`
 - `ANNUAL_PLAN_2029.md`
 - `../../../LL_PORTFOLIO/07_GROWTH_PROJECTS/LLP-030_FIRM_STRATEGY/SECOND_FEE_EARNER_2030_REVENUE_SENSITIVITY__2026-04-03.md`
