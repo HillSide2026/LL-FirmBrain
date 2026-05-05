@@ -31,6 +31,7 @@ Governance Documents:
 Naming convention:
 - Canonical active principles in this folder should use `PRN-###_Descriptive_Name.md`.
 - `README.md` is the only non-`PRN` exception in the active principles layer.
+- LL-only principles (applies_to: [LL]) reside in the [`LL_SPECIFIC/`](LL_SPECIFIC/) subfolder.
 
 Numbering:
 - Principles are numbered sequentially from PRN-001 onwards.

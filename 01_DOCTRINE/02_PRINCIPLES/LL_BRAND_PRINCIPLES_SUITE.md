@@ -246,9 +246,9 @@ When brand principles conflict with operational or portfolio principles:
 ## Related Individual Principles
 
 Individual principle files remain authoritative:
-- [PRN-030_LL_Brand_Identity.md](PRN-030_LL_Brand_Identity.md)
-- [PRN-031_LL_Brand_Personality.md](PRN-031_LL_Brand_Personality.md)
-- [PRN-032_LL_Layout_Discipline.md](PRN-032_LL_Layout_Discipline.md)
-- [PRN-033_LL_Image_Style_Restraint.md](PRN-033_LL_Image_Style_Restraint.md)
-- [PRN-034_LL_Voice_And_Copy_Alignment.md](PRN-034_LL_Voice_And_Copy_Alignment.md)
-- [PRN-035_Off_Template_Brand_Conformity.md](PRN-035_Off_Template_Brand_Conformity.md)
+- [PRN-030_LL_Brand_Identity.md](LL_SPECIFIC/PRN-030_LL_Brand_Identity.md)
+- [PRN-031_LL_Brand_Personality.md](LL_SPECIFIC/PRN-031_LL_Brand_Personality.md)
+- [PRN-032_LL_Layout_Discipline.md](LL_SPECIFIC/PRN-032_LL_Layout_Discipline.md)
+- [PRN-033_LL_Image_Style_Restraint.md](LL_SPECIFIC/PRN-033_LL_Image_Style_Restraint.md)
+- [PRN-034_LL_Voice_And_Copy_Alignment.md](LL_SPECIFIC/PRN-034_LL_Voice_And_Copy_Alignment.md)
+- [PRN-035_Off_Template_Brand_Conformity.md](LL_SPECIFIC/PRN-035_Off_Template_Brand_Conformity.md)

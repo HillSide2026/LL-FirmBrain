@@ -115,6 +115,36 @@ Use this index to:
 
 ---
 
+## Practice and Relationship Principles (LL)
+
+*These principles are draft pending ML1 approval. Policy mappings are pending — each may warrant a dedicated client engagement or professional relationship policy.*
+
+| Principle | Title | Related Policies |
+|-----------|-------|------------------|
+| PRN-039 | Retainer Precedence | POL-052 (Client Engagement Stage Policy) — partial; dedicated retainer policy pending |
+| PRN-040 | Colleague Scarcity Gradient | *No governing policy yet — candidate for LL professional relationship policy* |
+| PRN-041 | Good Colleague Reciprocity | *No governing policy yet — candidate for LL professional relationship policy* |
+| PRN-042 | Colleague-Friend Distinction | *No governing policy yet — candidate for LL professional relationship policy* |
+| PRN-043 | Demonstrate Understanding Before Probing | *No governing policy yet — candidate for LL client intake policy* |
+| PRN-044 | Friendship Defines Altruistic Reciprocity | *No governing policy yet — candidate for LL professional relationship policy* |
+| PRN-045 | Client-Friend Exclusion | *No governing policy yet — candidate for LL client engagement policy* |
+
+---
+
+## Strategic Principles (LL)
+
+*Grounded in non-cooperative game theory. Policy mappings pending — these may warrant a dedicated LL Strategic Conduct Policy.*
+
+| Principle | Title | Related Policies |
+|-----------|-------|------------------|
+| PRN-046 | Credible Commitment | *No governing policy yet* |
+| PRN-047 | Cooperative Equilibrium | *No governing policy yet* |
+| PRN-048 | Regulatory Mechanism Design | POL-052 (Client Engagement Stage Policy) — partial; covers when external enforcement is introduced |
+| PRN-049 | Credible Retaliation | *No governing policy yet* |
+| PRN-050 | Reputation Investment | *No governing policy yet* |
+
+---
+
 ## Matter & Integration Principles
 
 | Principle | Title | Related Policies |

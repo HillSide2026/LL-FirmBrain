@@ -18,9 +18,13 @@ This document identifies and categorizes principles that apply to **Levine Law (
 
 ---
 
-## A. LL-Only Principles (6 principles)
+## A. LL-Only Principles (18 principles)
 
 These principles are portfolio-specific to Levine Law and do not constrain System architecture, ML2 governance, or other portfolios.
+
+**Location:** All LL-only principles reside in [`LL_SPECIFIC/`](LL_SPECIFIC/).
+
+### A.1 Brand Principles
 
 | ID | Title | Scope | Purpose |
 |----|-------|-------|---------|
@@ -32,6 +36,32 @@ These principles are portfolio-specific to Levine Law and do not constrain Syste
 | PRN-035 | Off-Template Brand Conformity | LL | Review and conformity requirements for non-templated assets |
 
 **Consolidated Reference:** See [LL_BRAND_PRINCIPLES_SUITE.md](LL_BRAND_PRINCIPLES_SUITE.md) for integrated guidance on all LL brand principles.
+
+### A.2 Practice and Relationship Principles
+
+*Ordered by conceptual priority: definitional principles first, then exclusions, then commercial and colleague rules.*
+
+| ID | Title | Scope | Purpose | Status |
+|----|-------|-------|---------|--------|
+| PRN-044 | Friendship Defines Altruistic Reciprocity | LL | Only friends get altruistic reciprocity; this is distinct from unconditional giving and from quid pro quo | Draft |
+| PRN-042 | Colleague-Friend Distinction | LL | Neither colleagues nor good colleagues are friends | Draft |
+| PRN-045 | Client-Friend Exclusion | LL | Client cannot be a friend; friend cannot be a client — bidirectional and absolute | Draft |
+| PRN-039 | Retainer Precedence | LL | Secure the retainer before extending advice, time, or goodwill | Draft |
+| PRN-043 | Demonstrate Understanding Before Probing | LL | Establish domain competence before asking the client to articulate their pain | Draft |
+| PRN-040 | Colleague Scarcity Gradient | LL | Distinguish general contacts (abundant) from good colleagues (scarce and valuable) | Draft |
+| PRN-041 | Good Colleague Reciprocity | LL | Good colleagues get quid pro quo; calibrate reciprocity to demonstrated value | Draft |
+
+### A.3 Strategic Principles (Non-Cooperative Game Theory)
+
+*These principles govern the lawyer's strategic positioning in negotiations, disputes, and professional relationships. They are grounded in non-cooperative game theory and the conditions under which cooperation is sustained against the temptation to defect.*
+
+| ID | Title | Scope | Purpose | Status |
+|----|-------|-------|---------|--------|
+| PRN-046 | Credible Commitment | LL | Limit your own retreat options to make threats and promises credible | Draft |
+| PRN-047 | Cooperative Equilibrium | LL | In repeated engagements, cooperation beats defection because the long-term loss from destroying the relationship exceeds any short-term gain | Draft |
+| PRN-048 | Regulatory Mechanism Design | LL | When private payoffs favor cheating, introduce external enforcement (contract, regulator, court) to shift the equilibrium | Draft |
+| PRN-049 | Credible Retaliation | LL | Reliable, calibrated punishment of defectors (Tit-for-Tat) deters future defection without requiring escalation | Draft |
+| PRN-050 | Reputation Investment | LL | Reputation is accumulated capital that makes threats credible by default and reduces future enforcement costs | Draft |
 
 **Enforcement:** Governed by:
 - POL-046 (Canva Template Enforcement)
@@ -154,7 +184,7 @@ These principles apply universally across ML2, System, and all portfolios, but a
 
 | Portfolio | Unique Principles | System-Wide | Notes |
 |-----------|-------------------|-------------|-------|
-| **LL** | 6 brand principles + 1 LL-plus | 31 shared | Brand discipline is primary LL-specific constraint |
+| **LL** | 18 LL-only (6 brand + 7 practice/relationship + 5 strategic) + 1 LL-plus | 31 shared | Brand, professional relationship, and strategic disciplines |
 | **HillSide** | 1 (PRN-037: Wealth Building) | 31 shared | Wealth-building focus is HillSide-specific |
 | **System** | 0 (none exclusive) | 31 shared | System applies all universal principles |
 | **ML2** | 0 (none exclusive) | 31 shared | ML2 applies all universal principles |
