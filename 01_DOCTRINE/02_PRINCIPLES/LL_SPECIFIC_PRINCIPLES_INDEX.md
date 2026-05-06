@@ -4,7 +4,7 @@ title: LL-Level Principles Index
 owner: ML1
 status: active
 created_date: 2026-05-04
-last_updated: 2026-05-04
+last_updated: 2026-05-06
 tags: [principles, governance, portfolio, ll-specific]
 ---
 
@@ -18,7 +18,7 @@ This document identifies and categorizes principles that apply to **Levine Law (
 
 ---
 
-## A. LL-Only Principles (18 principles)
+## A. LL-Only Principles (26 principles)
 
 These principles are portfolio-specific to Levine Law and do not constrain System architecture, ML2 governance, or other portfolios.
 
@@ -36,6 +36,14 @@ These principles are portfolio-specific to Levine Law and do not constrain Syste
 | LLPRN-06 | Off-Template Brand Conformity | LL | Review and conformity requirements for non-templated assets |
 
 **Consolidated Reference:** See [LL_BRAND_PRINCIPLES_SUITE.md](LL_BRAND_PRINCIPLES_SUITE.md) for integrated guidance on all LL brand principles.
+
+**Brand Enforcement Reference:** Governed by:
+- POL-046 (Canva Template Enforcement)
+- POL-047 (LL Brand Governance)
+- POL-048 (Off Template Asset Compliance)
+- POL-049 (LL Brand Color Palette)
+- POL-050 (LL Brand Identity)
+- POL-051 (LL Website Information Architecture)
 
 ### A.2 Practice and Relationship Principles
 
@@ -63,13 +71,20 @@ These principles are portfolio-specific to Levine Law and do not constrain Syste
 | LLPRN-17 | Credible Retaliation | LL | Reliable, calibrated punishment of defectors (Tit-for-Tat) deters future defection without requiring escalation | Draft |
 | LLPRN-18 | Reputation Investment | LL | Reputation is accumulated capital that makes threats credible by default and reduces future enforcement costs | Draft |
 
-**Enforcement:** Governed by:
-- POL-046 (Canva Template Enforcement)
-- POL-047 (LL Brand Governance)
-- POL-048 (Off Template Asset Compliance)
-- POL-049 (LL Brand Color Palette)
-- POL-050 (LL Brand Identity)
-- POL-051 (LL Website Information Architecture)
+### A.4 Firm Economics and Operating Model Principles
+
+*These principles govern the economics of building a small law firm: revenue quality, realization, recurring revenue, scope discipline, collections, and metric-governed scaling.*
+
+| ID | Title | Scope | Purpose | Status |
+|----|-------|-------|---------|--------|
+| LLPRN-19 | Revenue Volatility Destroys Discipline | LL | Revenue volatility pushes the firm into reactive capacity management and degrades utilization, realization, collections, margin, and working capital | Draft |
+| LLPRN-20 | Client-Level Earnings Variability | LL | Client quality must be assessed by realized contribution after qualification, scope, customization, and receivables behavior | Draft |
+| LLPRN-21 | Recurring Revenue as Operating Stabilizer | LL | Recurring and semi-recurring revenue reduce variance and improve pricing discipline, staffing efficiency, realization, and collections predictability | Draft |
+| LLPRN-22 | Portfolio Selectivity Over Client Count | LL | Optimize for predictable realization, margin, utilization, and collections velocity rather than client count, prestige, or legal complexity | Draft |
+| LLPRN-23 | Standardized Scope Enables Leverage | LL | Repeatable scoped work enables delegation, automation, templating, and higher realization | Draft |
+| LLPRN-24 | Collections Are Economic Discipline | LL | Collections velocity and receivables control are strategic operating disciplines, not back-office administration | Draft |
+| LLPRN-25 | KPI-Governed Scaling | LL | Scale only against stable operating metrics; growth amplifies the existing model rather than fixing instability | Draft |
+| LLPRN-26 | Bounded Fintech Retainer Model | LL | The $12,000/month fintech retainer is viable only as bounded strategic legal advisory, not an uncapped embedded function | Draft |
 
 ---
 

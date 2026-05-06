@@ -4,7 +4,7 @@ title: Principle-to-Policy Cross-Reference (Traceability Index)
 owner: ML1
 status: active
 created_date: 2026-05-04
-last_updated: 2026-05-04
+last_updated: 2026-05-06
 tags: [governance, traceability, principles, policies, doctrine]
 ---
 
@@ -142,6 +142,23 @@ Use this index to:
 | LLPRN-16 | Regulatory Mechanism Design | POL-052 (Client Engagement Stage Policy) — partial; covers when external enforcement is introduced |
 | LLPRN-17 | Credible Retaliation | *No governing policy yet* |
 | LLPRN-18 | Reputation Investment | *No governing policy yet* |
+
+---
+
+## Firm Economics and Operating Model Principles (LL)
+
+*Policy mappings pending - these may warrant dedicated LL financial operating model, intake economics, pricing, and collections policies.*
+
+| Principle | Title | Related Policies |
+|-----------|-------|------------------|
+| LLPRN-19 | Revenue Volatility Destroys Discipline | *No governing policy yet - candidate for LL financial operating model policy* |
+| LLPRN-20 | Client-Level Earnings Variability | POL-052 (Client Engagement Stage Policy) - partial; dedicated client economics policy pending |
+| LLPRN-21 | Recurring Revenue as Operating Stabilizer | POL-069 (Bounded Fintech Retainer Policy) - partial; broader recurring revenue policy pending |
+| LLPRN-22 | Portfolio Selectivity Over Client Count | POL-069 (Bounded Fintech Retainer Policy) - partial; broader portfolio economics policy pending |
+| LLPRN-23 | Standardized Scope Enables Leverage | POL-069 (Bounded Fintech Retainer Policy) - partial; broader service-scope and delivery leverage policy pending |
+| LLPRN-24 | Collections Are Economic Discipline | POL-052 (Client Engagement Stage Policy) - partial; POL-069 (Bounded Fintech Retainer Policy) - partial; dedicated collections policy pending |
+| LLPRN-25 | KPI-Governed Scaling | POL-069 (Bounded Fintech Retainer Policy) - partial; broader operating metrics policy pending |
+| LLPRN-26 | Bounded Fintech Retainer Model | POL-069 (Bounded Fintech Retainer Policy) |
 
 ---
 
