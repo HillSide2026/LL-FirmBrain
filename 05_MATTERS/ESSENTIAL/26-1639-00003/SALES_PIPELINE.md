@@ -47,7 +47,18 @@ tracks should be tagged to one of the above segments when first recorded.
 
 ## Active Tracks
 
-No active tracks as of 2026-04-29.
+| Track ID | End-client file | Segment | Stage |
+|----------|-----------------|---------|-------|
+| `MA-003` | Albor Financial — stablecoin treasury software, LatAm market access | `financial_services_fintech` | `identified` |
+
+### MA-003 — Albor Financial
+
+- **Company:** Albor Financial
+- **Product:** Stablecoin treasury software sold to banks
+- **Ask:** Andersen to lead a market access strategy across Latin America
+- **Stage:** `identified` — lead received; no live contact established yet
+- **Segment:** `financial_services_fintech` (new segment; not in original segment model)
+- **Next step:** Qualify the ask — confirm which LatAm jurisdictions, what Andersen's proposed role is, and whether LL has a legal advisory angle (regulatory, market entry, licensing)
 
 ## Inactive Tracks
 

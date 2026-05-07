@@ -4,7 +4,7 @@ title: Matter Brief — 26-1639-00003 — Andersen (Market Access)
 owner: ML1
 status: draft
 created_date: 2026-03-22
-last_updated: 2026-04-29
+last_updated: 2026-05-07
 tags: [matter, 26-1639-00003]
 ---
 
@@ -34,19 +34,22 @@ underway, but two early agri-food tracks are now visible inside the matter.
 
 ## Current posture
 
-- **State:** Existing-client market-access lane — no active tracks; holding open for future opportunities through Andersen
-- **Primary Activity:** None currently; matter held open pending new lead identification
-- **Current tracks:** None active
+- **State:** Active — new lead identified (MA-003)
+- **Primary Activity:** MA-003 Albor Financial — assess and qualify
+- **Current tracks:** `MA-003` (Albor Financial — stablecoin treasury software, LatAm market access) — `identified`
 - **Inactive tracks:** `MA-001` (pecans from Northern Israel); `MA-002` (flavored butter from Manitoba)
-- **Target segments still in scope for future leads:** agriculture and agri-food; mining and minerals; manufacturing; dual-use manufacturing; data and data centres
+- **Target segments still in scope for future leads:** agriculture and agri-food; mining and minerals; manufacturing; dual-use manufacturing; data and data centres; financial services / fintech
 
 ## Open questions
 
-- Whether any new market-access lead emerges through Andersen in the other target segments
-- Whether this lane should remain open or be placed in a lower-maintenance state pending new activity
+- MA-003: Which LatAm jurisdictions is Albor Financial targeting?
+- MA-003: What is Andersen's proposed role — advisory lead, regulatory liaison, distribution strategy?
+- MA-003: Is there a discrete LL legal advisory angle (regulatory, market entry, licensing)?
+- MA-003: Who is the contact at Albor Financial and what is the relationship to Andersen?
 
 ## Change log
 
 - 2026-03-22 — Brief created; scope confirmed by ML1
 - 2026-04-03 — Reframed as an Andersen end-client sales pipeline for the market-access lane
 - 2026-04-29 — Both agri-food tracks (MA-001, MA-002) marked inactive; no importer interest; ML1 confirmed lost interest
+- 2026-05-07 — MA-003 added: Albor Financial (fintech, stablecoin treasury software for banks); wants Andersen to lead LatAm market access strategy; stage: identified

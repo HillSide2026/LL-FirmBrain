@@ -35,7 +35,7 @@ Client relationship management matter for Andersen. This is the umbrella matter 
   - **Barcelona conference**: Andersen-wide conference in Barcelona, October 2026. Attendance opportunity — details TBD.
   - **Sanctions advisory**: Aircraft, maritime, defence goods flagged as expansion area
   - **Trade remedies (CITT)**: Lane 26-1639-00002 — TR-003 identified (plywood / trade remedies); TR-004 identified (processed wood / safeguards); GC-2026-001 (Certain Wood Goods safeguard inquiry) is a live CITT signal for TR-004; TR-001 and TR-002 now inactive
-  - **Market access**: Lane 26-1639-00003 — no active tracks; MA-001 (pecans) and MA-002 (flavored butter) both inactive as of 2026-04-29; matter held open for future leads
+  - **Market access**: Lane 26-1639-00003 — MA-003 (Albor Financial) identified: fintech selling stablecoin treasury software to banks; wants Andersen to lead LatAm market access strategy; MA-001 (pecans) and MA-002 (flavored butter) inactive
 
 ## Open questions
 
