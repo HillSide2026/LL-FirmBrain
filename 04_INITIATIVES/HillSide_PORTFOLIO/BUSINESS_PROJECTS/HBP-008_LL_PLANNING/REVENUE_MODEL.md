@@ -22,8 +22,9 @@ tags: [levine-law, 2027, revenue-model, financial-model, hillside]
 | Associate billing target | CAD 160,000 | Upside; CAD 100,000 is floor |
 | Total firm revenue target | CAD 400,000 | ML1 confirmed 2026-05-02 |
 | Associate split | 40% of collected fees | ML1 confirmed 2026-05-02 |
-| F02 paid Health Check target | 30 Health Checks | ML1 confirmed 2026-05-04 |
-| F02 direct Health Check revenue target | CAD 90,000 | ML1 confirmed 2026-05-04; excludes downstream remediation and fractional counsel revenue |
+| F02 paid Health Check upside case | 30 Health Checks | Historical upside case; not the default 2026-2027 survival-growth investment |
+| F02 direct Health Check revenue upside case | CAD 90,000 | Historical upside case; F02 upgrade governed by `F02_F03_ALLOCATION_MODEL.md` |
+| F03 fintech retainer thesis | Primary 2026-2027 business-build hypothesis | Governed by LLP-039 scope and capacity controls |
 | Billing rate (standard) | $480/hour | LLP-030 Business Plan |
 | Billing rate (regulatory) | $550/hour | LLP-030 Business Plan |
 | Fixed revenue to ML1 | CAD 85,000 | Step from CAD 80,000 in 2026 |

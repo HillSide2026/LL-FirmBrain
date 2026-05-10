@@ -4,7 +4,7 @@ title: LL Planning - Risk Scan
 owner: ML1
 status: draft
 created_date: 2026-05-02
-last_updated: 2026-05-02
+last_updated: 2026-05-10
 tags: [levine-law, 2027, risk-scan, hillside]
 ---
 
@@ -91,12 +91,14 @@ Treat the first 60 days as a paid ramp, not full-speed delivery.
 
 ---
 
-### R-05 — F02 and F03 channels underperform in 2027
+### R-05 — F03 retainer thesis underperforms and F02 remains too weak to backfill
 
-**Description:** HBP-008 assumes F02 is the primary acquisition channel and F03
-produces named specialist revenue. If F02 conversion from Health Check to fractional
-counsel is slower than projected, or F03 remains a content experiment with no paying
-specialist work, total collections fall short even with the associate active.
+**Description:** HBP-008 now treats F03 fintech retainers as the primary
+2026-2027 survival-growth hypothesis, with F02 maintained as a light
+referral/intake channel unless upgrade triggers are met. If F03 remains a
+content experiment with no paying specialist work, and F02 does not produce
+low-burden downstream value, total collections fall short even with the
+associate active.
 
 **Likelihood:** Medium. Channel performance depends on 2026 validation work that has
 not yet occurred.
@@ -104,8 +106,10 @@ not yet occurred.
 **Impact:** High. Channel underperformance affects both ML1 billings and the associate
 delegable file volume.
 
-**Mitigation:** Treat 2026 F02 and F03 traction data as the primary input into 2027
-revenue planning. Do not lock 2027 channel targets until Q4 2026 actuals are available.
+**Mitigation:** Treat 2026 F03 retainer traction as the primary input into 2027
+revenue planning. Keep F02 on a lightweight validation budget unless it meets
+the upgrade triggers in `F02_F03_ALLOCATION_MODEL.md`. Do not lock 2027 channel
+targets until Q4 2026 actuals are available.
 
 ---
 

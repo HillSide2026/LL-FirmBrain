@@ -5,7 +5,7 @@ Project Path: 08_MARKETING/LLP-012_FUNNEL2_MANAGEMENT
 
 ## Current Problem
 - Funnel 02 is defined as planned future state but lacks finalized initiation execution controls.
-- The corporate-law growth funnel for businesses with more than `$1M` annual cash flow is not yet operationalized at project level.
+- The corporate-law growth funnel for strategically relevant businesses with at least `CAD 5M` annual cash flow is not yet operationalized at project level.
 - relocation from `levinelegal.ca` to `levine-law.ca` is not yet locked as part of Funnel 02 execution.
 - Funnel-specific website implementation for `levine-law.ca` is not yet formalized.
 - higher-quality Google Ads traffic strategy is not yet defined.

@@ -117,11 +117,11 @@ Each stage must be designed to earn the next one:
 
 **Status: Active hypothesis. Not confirmed. ML1 must evaluate.**
 
-The bet: modern business operators in the ICP-01 segment ($1M–$10M+ revenue, accountant-involved, commercially sophisticated) are accustomed to B2B SaaS tools for their professional services stack — accounting, HR, payments. A fractional counsel experience delivered through a proper client portal (matter tracking, document library, retainer visibility, structured requests) could feel like **legal infrastructure** rather than a professional service transaction. That positioning could be a meaningful differentiator in accountant referral conversations and in client retention.
+The bet: modern business operators in the ICP-01 segment (CAD 5M+ annual cash flow, accountant-involved, commercially sophisticated, and aligned with approved industry lanes) are accustomed to B2B SaaS tools for their professional services stack — accounting, HR, payments. A fractional counsel experience delivered through a proper client portal (matter tracking, document library, retainer visibility, structured requests) could feel like **legal infrastructure** rather than a professional service transaction. That positioning could be a meaningful differentiator in accountant referral conversations and in client retention.
 
 The counter-argument: operators at this scale may simply want reliable, fast legal advice. A portal only differentiates if it is genuinely better than responsive email — if it adds friction without adding visibility or control, it is worse. The portal is not inherently a differentiator; it is only one if it reduces friction and increases client confidence.
 
-**The validation question:** Do ICP-01 clients at $1M–$10M revenue actually prefer a structured portal over direct email access to their lawyer? Or does the portal introduce distance that reduces perceived responsiveness?
+**The validation question:** Do ICP-01 clients at CAD 5M+ annual cash flow actually prefer a structured portal over direct email access to their lawyer? Or does the portal introduce distance that reduces perceived responsiveness?
 
 This hypothesis should be tested explicitly — not built speculatively. The minimum test is whether accountant referral partners and early fractional counsel clients respond to the concept positively before any portal is built.
 

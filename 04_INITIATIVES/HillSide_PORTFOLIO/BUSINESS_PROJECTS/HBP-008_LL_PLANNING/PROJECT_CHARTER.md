@@ -4,7 +4,7 @@ title: LL Planning - Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-02
-last_updated: 2026-05-05
+last_updated: 2026-05-10
 tags: [levine-law, 2027, 2028, 2029, charter, hillside]
 ---
 
@@ -36,8 +36,8 @@ at or below $25,000 per month and proving that the Levine Law leverage model wor
 | SG-03 | By `2027-12-31`, associate-attributed collections reach at least CAD 100,000. | Associate collections >= CAD 100,000 (CAD 160,000 upside target) |
 | SG-04 | By `2027-12-31`, total revenue to ML reaches at least CAD 90,000, with the fixed owner line set at CAD 85,000 and any excess achieved through approved profit distribution after retained earnings. | Total 2027 revenue to ML >= CAD 90,000 |
 | SG-05 | By `2027-06-30`, a contractor associate with corporate/commercial and financial services experience is engaged and active on delegated files. | Associate engagement confirmed; first delegated files active |
-| SG-06 | By `2027-12-31`, F02 produces at least 30 paid Corporate Health Checks and CAD 90,000 in direct Health Check revenue. | F02 paid Health Checks >= 30; F02 direct Health Check revenue >= CAD 90,000 |
-| SG-07 | By `2027-12-31`, F03 has produced named specialist revenue from payments/MSB/regulatory matters. | At least CAD 30,000 attributable to F03 specialist matters |
+| SG-06 | By `2027-12-31`, F02 either remains a lightweight referral/intake channel or earns upgrade by meeting the triggers in `F02_F03_ALLOCATION_MODEL.md`. | Default F02 build-time <=20%; upgrade only by ML1 decision |
+| SG-07 | By `2027-12-31`, F03 has produced named specialist revenue from payments/MSB/regulatory matters and tested the fintech retainer thesis. | At least CAD 30,000 attributable to F03 specialist matters; retainer pursuit governed by LLP-039 |
 
 ## Program Definition
 
@@ -57,7 +57,10 @@ at or below $25,000 per month and proving that the Levine Law leverage model wor
 
 - HBP-007 achieving the 2026 CAD 240,000 collection target
 - LLP-033 activation gate (3 consecutive months at $20k+ ML1 billings) met by late 2026
-- F02 channel operational before 2027 begins
+- F02 channel maintained only as a light referral/intake channel unless upgraded
+  under `F02_F03_ALLOCATION_MODEL.md`
+- F03 fintech retainer acquisition and packaging prioritized as the primary
+  2026-2027 survival-growth hypothesis
 - HBP-002 for cash-flow reporting alignment
 - LLP-030 firm strategy as the governing strategy and channel framework
 

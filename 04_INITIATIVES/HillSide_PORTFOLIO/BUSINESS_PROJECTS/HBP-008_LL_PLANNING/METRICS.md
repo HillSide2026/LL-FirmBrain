@@ -99,31 +99,31 @@ tags: [levine-law, 2027, 2028, 2029, metrics, hillside]
 
 ---
 
-## M-07 — F02 Paid Health Checks
+## M-07 — F02 Upgrade Trigger: Paid Health Checks
 
 | Field | Value |
 |---|---|
 | Metric ID | `ll_2027_f02_paid_health_checks` |
 | SMART Goal | SG-06 |
-| Definition | Number of paid Corporate Health Checks with fees collected in calendar year 2027 |
-| Target | >= 30 by `2027-12-31` |
+| Definition | Number of paid Corporate Health Checks with fees collected; used to determine whether F02 may be upgraded from light/referral posture |
+| Target | >= 4 in a rolling 90-day period for upgrade consideration; historical upside case remains 30 by `2027-12-31` |
 | Measurement frequency | Monthly cumulative |
 | Measurement owner | ML1 |
-| Reporting | Monthly oversight pack; quarterly channel review |
+| Reporting | Monthly oversight pack; quarterly channel review; governed by `F02_F03_ALLOCATION_MODEL.md` |
 
 ---
 
-## M-08 — F02 Direct Health Check Revenue
+## M-08 — F02 Upgrade Trigger: Direct Health Check Revenue
 
 | Field | Value |
 |---|---|
 | Metric ID | `ll_2027_f02_health_check_revenue` |
 | SMART Goal | SG-06 |
-| Definition | Revenue directly attributable to paid Corporate Health Checks in calendar year 2027, excluding downstream remediation and fractional counsel revenue |
-| Target | >= CAD 90,000 by `2027-12-31` |
+| Definition | Revenue directly attributable to paid Corporate Health Checks, excluding downstream remediation and fractional counsel revenue; used to determine whether F02 may be upgraded from light/referral posture |
+| Target | >= CAD 12,000 in a rolling 90-day period for upgrade consideration; historical upside case remains CAD 90,000 by `2027-12-31` |
 | Measurement frequency | Monthly cumulative |
 | Measurement owner | Accounting support / ML1 |
-| Reporting | Monthly oversight pack; quarterly channel review |
+| Reporting | Monthly oversight pack; quarterly channel review; governed by `F02_F03_ALLOCATION_MODEL.md` |
 
 ---
 
@@ -145,7 +145,8 @@ tags: [levine-law, 2027, 2028, 2029, metrics, hillside]
 
 ## Metric Alignment Note
 
-M-01, M-02, M-03, M-04, and M-08 must be defined jointly with `HBP-002_CASH_FLOW`
-before the Planning to Executing gate is closed. M-09 must be read with
+M-01, M-02, M-03, and M-04 must be defined jointly with `HBP-002_CASH_FLOW`
+before the Planning to Executing gate is closed. M-07 and M-08 are F02 upgrade
+metrics, not default primary-channel targets. M-09 must be read with
 `LL_TIME_INVESTMENT_BENCHMARKS.md`. Definitions must be consistent across both
 projects. Any divergence requires ML1 resolution before execution begins.

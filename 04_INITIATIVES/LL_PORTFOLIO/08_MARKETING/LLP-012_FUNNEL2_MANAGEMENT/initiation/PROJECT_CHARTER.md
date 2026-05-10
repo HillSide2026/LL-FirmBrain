@@ -7,7 +7,8 @@ Stage: Planning
 
 ## 1. Purpose
 Initiate execution planning for Funnel 02 as the corporate-law services funnel
-for growing businesses with more than `$1M` annual cash flow.
+for strategically relevant growing businesses with at least `CAD 5M` annual
+cash flow.
 
 ## 2. Nature of Project
 Marketing design-to-launch readiness project.
@@ -41,14 +42,14 @@ execution.
   - senior-lawyer staffing and legal-delivery readiness plan,
   - launch readiness criteria,
   - signal/reporting expectations,
-  - explicit ICP boundary for businesses with more than `$1M` annual cash flow.
+  - explicit ICP boundary for businesses with at least `CAD 5M` annual cash flow.
 
 ## 5. Adopted Decisions (from LLM-001 COS Review, 2026-03-17 — adopted by ML1)
 
 The following decisions are adopted into F02 scope from the LLP-025 marketing strategy review:
 
-**Channel decision**: Accountant referral network is the primary F02 distribution channel for ICP-01 acquisition. LinkedIn is secondary. Google Ads is not the primary F02 acquisition channel. ICP-01 operators ($1M–$8M, accountant involved) are not search-intent-driven — their accountant is the gatekeeper.
-- Target: 10–15 Ontario accounting firms serving the $1M–$8M operator segment (mid-market CA firms, not Big Four)
+**Channel decision**: Accountant referral network is the primary F02 distribution channel for ICP-01 acquisition. LinkedIn is secondary. Google Ads is not the primary F02 acquisition channel. ICP-01 operators with at least CAD 5M annual cash flow, accountant involved, and a fit with the approved industry lanes are not search-intent-driven — their accountant or referral source is the gatekeeper.
+- Target: 10–15 Ontario accounting firms serving the CAD 5M+ operator segment (mid-market CA firms, not Big Four)
 - Referral mechanic: accountants refer clients directly to the Corporate Health Check product
 
 **Entry offer framing**: Corporate Health Check (confirmed). "Premium Consultation" and "Strategic Consultation" are not the framing.
@@ -57,7 +58,7 @@ The following decisions are adopted into F02 scope from the LLP-025 marketing st
 - Monthly delivery capacity ceiling: ML1 to define before launch
 
 **ICP-01 intake gate** (three pre-booking questions, enforced in GHL):
-1. Business annual revenue — disqualify below $1M
+1. Business annual cash flow — disqualify below CAD 5M for the Health Check service path unless ML1 grants an exception; route toward information products where possible
 2. Number of employees — disqualify below 5
 3. Whether they work with an accountant — disqualify if no
 

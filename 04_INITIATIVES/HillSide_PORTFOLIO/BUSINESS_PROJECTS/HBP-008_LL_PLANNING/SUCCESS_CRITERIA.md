@@ -40,8 +40,8 @@ tags: [levine-law, 2027, 2028, 2029, success-criteria, hillside]
 
 | Criterion | Target | Notes |
 |---|---|---|
-| F02 — Corporate Health Check | 30 paid Health Checks and CAD 90,000 direct Health Check revenue | Baseline 2027 F02 goal; downstream remediation and fractional counsel conversions remain separate channel-quality indicators |
-| F03 — Payments/MSB specialist | CAD 30,000+ specialist revenue | Named revenue contribution; practice is a functioning specialist channel, not only content |
+| F02 — Corporate Health Check | Light/referral posture for CAD 5M+ operators in approved industry lanes unless upgrade triggers are met | Below-CAD-5M prospects should be routed toward monetizable information products where possible |
+| F03 — Payments/MSB specialist | CAD 30,000+ specialist revenue and active fintech retainer pursuit under LLP-039 | Named revenue contribution; practice is a functioning specialist channel, not only content |
 | F01 — Google Ads | Declining share | Associate absorbs delegable F01 corporate/commercial files |
 | Stream relationship | Named revenue target | Anchor client with explicit 2027 billing target |
 | Andersen relationship | Named referral channel | Referral pipeline contributing to F02 intake |
@@ -70,5 +70,6 @@ tags: [levine-law, 2027, 2028, 2029, success-criteria, hillside]
 | Associate billings below CAD 60,000 at mid-year | Year-end target is at risk; review delegation model |
 | ML1 consistently billing above $25k | Delegation not functioning; review matter eligibility and associate capability |
 | F03 revenue at zero by Q3 2027 | Payments practice is still a content experiment; requires ML1 decision |
+| F02 consumes more than 20% of non-client build-time without upgrade triggers | Reclassify F02 back to maintenance/referral posture |
 | Total collections below CAD 320,000 at year-end | Leverage model not validated; 2028 decision required |
 | LL requires sustained ML1 capacity breach to hit revenue targets | Continued founder investment is not justified unless scope, pricing, or delivery capacity is reset |

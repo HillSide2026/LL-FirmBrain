@@ -21,13 +21,16 @@ The firm is not optimizing for maximum revenue or maximum volume. It is optimizi
 The structural shift the firm must execute to get there:
 
 > **From**: Reactive, transaction-driven intake (Google Ads → whatever comes in)
-> **To**: Preventative, diagnostic-led acquisition (Corporate Health Check → retained operator clients)
+> **To**: Controlled specialist acquisition and bounded recurring counsel, with
+> F03 fintech retainers as the primary 2026-2027 survival-growth hypothesis and
+> F02 Corporate Health Check maintained as a light referral/intake channel unless
+> it proves better economics.
 
 This shift is not complete. F01 is the current primary channel. F02 and F03 do not yet exist. The strategy governs the sequencing of that transition.
 
 The medium-term planning arc is:
 
-- `2026`: launch F02 and F03 while establishing Levine Law as a Tier 5 emerging specialist boutique in Ontario payments-services legal work
+- `2026`: prioritize F03 while keeping F02 light, and establish Levine Law as a Tier 5 emerging specialist boutique in Ontario payments-services legal work
 - `2027`: consolidate specialist authority so F03 produces repeat matters, referrals, and ongoing counsel for defined payments/MSB operators
 - `2028`: convert that authority into a larger, stronger Tier 5 specialty platform with selective leverage, documented systems, and deeper market credibility inside the same tier
 
@@ -43,7 +46,7 @@ Listed in priority order. Where trade-offs arise, higher-ranked priorities win.
 
 3. **Per-client economics** — Revenue per matter and revenue per hour must trend upward. F01 at current matter value mix is not the target state; it is the funding source for getting to it.
 
-4. **Revenue growth** — Target is CAD 240k of 2026 banked cash as the current operating baseline. Growth is through F02 and F03, not by increasing F01 volume.
+4. **Revenue growth** — Target is CAD 240k of 2026 banked cash as the current operating baseline. The current working hypothesis is that near-term growth should be led by F03 fintech retainers, with F02 maintained as a light referral/intake channel unless it proves superior downstream economics.
 
 5. **Delegation of billable work** — From 2027 onwards, ML1 must be able to delegate billable execution to an associate lawyer or supervised delivery resource. This is a medium-term priority: it does not override 1–4 in 2026, but it is a required precondition for scaling beyond the ML1 capacity ceiling without degrading client quality or economics. The architecture of delivery systems, templates, and supervision protocols built in 2026 must be designed with delegation in mind.
 
@@ -68,11 +71,17 @@ even if collections rise.
 ### ICP-01 — Ontario Business Operators (Core)
 
 - Ontario-based businesses, established and operating (not formation-stage)
-- Annual revenue $2M+; 5–30 employees
+- Annual cash flow CAD 5M+; 5–30 employees
 - Accountant involved — operators who have basic professional infrastructure
 - Need: corporate structure, governance, compensation, ongoing legal advisory
 - Not in crisis — the work is structural and preventative, not reactive fire-fighting
-- Primary acquisition channel: F02 (Corporate Health Check via accountant referral)
+- During the 2026-2027 survival period, F02 emphasis is narrowed to operators
+  in strategic industry lanes: fintech-adjacent operators, trade-impacted
+  industries such as lumber, steel, and plastics, and Rousseau Mazzuca-referable
+  construction operators with potential lien/payment-dispute issues
+- Below the CAD 5M cash-flow gate, the default path is a monetizable information
+  product rather than ML1-heavy service work
+- Primary acquisition channel: F02 only if the Health Check model proves low-burden downstream economics; otherwise relationship/referral maintenance
 
 ### ICP-02 — Payments / MSB / Fintech Operators (Vertical)
 
@@ -91,13 +100,12 @@ The firm operates two modes in parallel during the transition period:
 
 **Current mode (F01-driven)**: Reactive intake. Leads come through Google Ads with varying quality. Work is transaction-by-transaction. This mode funds operations and continues until F02 generates sufficient volume to replace it.
 
-**Target mode (F02/F03-driven)**: Diagnostic-first. In `2026`, the core
-offering remains a paid Corporate Health Check (`$1,500-$2,500`). The Health
-Check surfaces structural gaps and may include bounded regulatory review where
-the client's business model or industry exposure requires it. It then converts
-into blended fractional counsel. That ongoing counsel layer is
-industry-agnostic in the first instance, with room to absorb payments-specific
-ongoing counsel needs when they arise.
+**Target mode (F03-led, F02-light)**: Controlled specialist acquisition. In
+`2026-2027`, serious ML1 business-build time is directed first toward F03
+fintech retainer acquisition and packaging. F02 Corporate Health Check remains
+available as a low-cost referral/intake path, but it is not the primary survival
+growth engine unless it proves low-burden downstream economics under the HBP-008
+allocation model.
 
 The service model is NOT:
 - High-volume, commoditized legal work
@@ -105,7 +113,7 @@ The service model is NOT:
 - Hourly billing without defined engagement scope
 
 The service model IS moving toward:
-- Corporate Health Check as the core entry offer (three tiers: $2,000 / $3,500 / $6,000)
+- Corporate Health Check as a secondary/light referral entry offer unless upgraded by evidence
 - Fixed-fee diagnostics and scoped engagement packages
 - Bounded regulatory review inside the Health Check where client facts require it
 - Remediation work as the primary immediate conversion from Health Check findings
@@ -120,7 +128,7 @@ The service model IS moving toward:
 These are non-negotiable constraints, not aspirational targets.
 
 - **No matters below the matter value floor** — soft floor set at **$1,000**. Matters below this threshold require explicit ML1 exception. Floor is soft pending financial model validation against actual matter mix data.
-- **No clients below ICP thresholds**: revenue < $2M, employees < 5, no accountant, or in acute crisis
+- **No F02 Health Check clients below ICP thresholds**: annual cash flow < CAD 5M, employees < 5, no accountant, or in acute crisis, unless ML1 grants an exception; below-threshold operators should be steered to information products where possible
 - **No commodity work**: simple incorporations, one-off NDA reviews, or matters that are purely transaction-fee work with no advisory potential
 - **No growth that exceeds capacity before staffing is in place**: adding a setter or associate lawyer is a precondition for volume growth, not a response to it
 
@@ -134,8 +142,8 @@ These horizon statements are planning targets, not approved KPI baselines
 
 | Year | Strategic posture | Market-position target | Channel objective | Operating objective |
 |---|---|---|---|---|
-| `2026` | Build the controlled platform and launch the specialty layer | Establish Levine Law as a Tier 5 emerging specialist boutique in Ontario payments-services legal work | Launch F02 and F03 while F01 continues funding operations | Reach and sustain `CAD 240k` annualized revenue, keep workload within ML1 capacity, and maintain margin discipline after `CAD 80,000` owner compensation |
-| `2027` | Consolidate authority and deepen the specialist book | Become a recognized specialist reference point for defined payments/MSB/RPAA/AML matters in the target market while remaining a solid Tier 5 boutique | F02 becomes the primary core-business acquisition engine; F03 produces repeat matters, referral flow, and first ongoing specialist relationships | Formalize delivery standards, narrow the matter mix further, and activate leverage only if the bottleneck is persistent and economics justify it |
+| `2026` | Build the controlled platform and launch the specialty layer | Establish Levine Law as a Tier 5 emerging specialist boutique in Ontario payments-services legal work | Prioritize F03 fintech retainer pursuit while F01 funds operations and F02 remains light/referral-based | Reach and sustain `CAD 240k` annualized revenue, keep workload within ML1 capacity, and maintain margin discipline after `CAD 80,000` owner compensation |
+| `2027` | Consolidate authority and deepen the specialist book | Become a recognized specialist reference point for defined payments/MSB/RPAA/AML matters in the target market while remaining a solid Tier 5 boutique | F03 produces repeat matters, referral flow, and first ongoing specialist relationships; F02 upgrades only if evidence supports it | Formalize delivery standards, narrow the matter mix further, and activate leverage only if the bottleneck is persistent and economics justify it |
 | `2028` | Convert specialist credibility into a larger, stronger Tier 5 platform | Deepen Levine Law's specialist standing, authority, and durability inside Tier 5 | F02 and F03 are both repeatable channels; F01 is secondary or optional rather than the growth engine | Decide whether selective leverage, including a senior lawyer or partner layer, can be added without breaking capacity discipline, niche positioning, or Tier 5 focus |
 
 **Open strategic decision — Path A vs. Path B (must be resolved by end of 2027):**
@@ -158,6 +166,6 @@ Working payments market ladder used in this strategy:
 ## 7. What This Strategy Does Not Authorize
 
 - Scaling F01 spend beyond Scenario 1 acquisition budget ceiling ($16k/year) without confirmed matter value improvement
-- Building F02 or F03 content and distribution before the F02 entry offer (Health Check scope, price, and intake gate) is defined and ML1-approved
+- Treating F02 as the primary 2026-2027 survival-growth investment unless it meets the upgrade triggers in HBP-008
 - Treating any marketing or funnel project as strategic if it does not have a defined path to ICP-01 or ICP-02 clients
 - Authorizing new projects in 07_GROWTH_PROJECTS without a documented connection to this strategy

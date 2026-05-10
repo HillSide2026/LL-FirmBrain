@@ -4,7 +4,7 @@ title: LL Planning - Annual Plan 2028
 owner: ML1
 status: draft
 created_date: 2026-05-04
-last_updated: 2026-05-04
+last_updated: 2026-05-10
 tags: [hbp-008, ll-planning, annual-plan, 2028, strategy, hillside]
 ---
 
@@ -49,7 +49,9 @@ The `2028` annual plan therefore exists to hold together four linked themes:
 - Levine Law remains a controlled specialty boutique, not a generalist
   volume-driven firm.
 - F01 remains secondary or optional rather than the growth engine.
-- F02 and F03 must both be operating as repeatable, governed channels.
+- F03 must be operating as a repeatable, governed channel. F02 must either
+  remain a light/referral channel or have earned upgrade under the HBP-008
+  allocation model.
 - Any staffing expansion must be justified by throughput, supervision
   readiness, and unit economics.
 - The firm's assetization objective becomes active rather than background:
@@ -97,7 +99,7 @@ The year should not be treated as fully open for expansion unless the
 following are true by the end of `2027`:
 
 - the Path A vs. Path B identity decision has been made
-- F02 is the primary core-business acquisition engine
+- F02 has either met its upgrade triggers or remains intentionally light
 - F03 is producing repeat specialist opportunities, referrals, and first
   ongoing specialist relationships
 - LLP-038 has produced usable Spine definitions, hours budgets, and delegation

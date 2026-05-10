@@ -19,11 +19,14 @@ Instagram and Reddit (replaces original warm outreach / LinkedIn plan).
 
 ## Product Architecture
 
-Two products with a core-plus-upsell structure:
+Product 1 remains the immediate execution product. The broader F02-aligned
+information-product ladder is recorded in `../F02_INFO_PRODUCT_LADDER.md`.
+
+Current launch architecture uses a core-plus-upsell structure:
 
 | Product | Name | Contents | Status |
 |---|---|---|---|
-| Product 1 (Core Pack) | Founder Contract Template Pack | Bundle 1: LL - Info Product2 - Document Bundle1 | Bundle saved; cover page pending |
+| Product 1 (Core Pack) | Corporate Starter Kit / Founder Contract Template Pack | Bundle 1: LL - Info Product2 - Document Bundle1 | Bundle saved; cover page pending |
 | Product 2 (Additional Pack — upsell) | TBD | Bundle 2: LL - Info Product2 - Document Bundle2 | Bundle saved; cover page pending |
 
 - Price: $197 CAD (core; upsell price TBD)
@@ -31,6 +34,11 @@ Two products with a core-plus-upsell structure:
 - Delivery: GHL workflow → delivery email on purchase confirmation
 - Payment: GHL native product (Stripe direct connection blocked)
   - GHL product URL: TBD (previously: https://login.soulpepper.com/v2/location/Rw6TfoPhzjwqlVSn6oa8/payments/products)
+
+Future products may include the Corporate Assessment, Fintech White Paper,
+Trade-Impacted Contract Risk Kit, Construction Payment / Lien Triage Kit, and
+Subcontractor Contract Risk Pack. These are extensions to support F02 routing,
+not launch blockers for Product 1.
 
 ## Funnel Structure
 

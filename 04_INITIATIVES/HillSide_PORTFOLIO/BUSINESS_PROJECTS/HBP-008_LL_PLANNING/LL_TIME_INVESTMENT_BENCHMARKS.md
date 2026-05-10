@@ -46,7 +46,7 @@ asset does not justify expanding time investment.
 | `Pause / Reduce` | Cash floor missed, capacity breach persistent, or no credible recovery path | 0-2 hrs/week | Existing client delivery, collections, risk containment | New offers, new funnels, new systems, speculative strategy |
 | `Defend` | LL is needed for current income, but expansion evidence is weak | 2-4 hrs/week | Collections, delivery cleanup, minimum marketing maintenance, close warm high-fit leads | New platforms, broad content programs, low-confidence product build |
 | `Hold / Harvest` | LL produces acceptable cash but does not improve scalability or client quality | 3-5 hrs/week | Keep profitable work, renew good clients, reduce low-fit load | New capacity-consuming service lines |
-| `Invest` | Floor benchmarks are met and at least one channel/leverage proof is visible | 5-8 hrs/week | F02/F03 build, scoped systems, associate preparation, retainer packaging | Expansion that increases delivery load before controls exist |
+| `Invest` | Floor benchmarks are met and at least one channel/leverage proof is visible | 5-8 hrs/week | F03 retainer build, scoped systems, associate preparation, light F02 referral validation | Expansion that increases delivery load before controls exist |
 | `Expand` | Target benchmarks are met and leverage/channel evidence is strong | 8-12 hrs/week | Deeper systems, selective marketing, delegation, premium-service preparation | Growth that breaches capacity or weakens client quality |
 
 The default mode is `Defend`. LL must earn `Invest` or `Expand`; it does not
@@ -65,6 +65,7 @@ Use these rules before applying judgment.
 | Capacity failure | ML1 exceeds 20 billable hrs/week for 4 of 6 consecutive weeks in 2026, or exceeds the 2027 monthly cap twice in a quarter | Reduce intake, narrow scope, or add delivery support before any expansion |
 | Client-quality failure | More than 25% of active matters are low-fit, high-friction, under-floor, or outside ICP | Stop adding similar work; no new channel spend aimed at that profile |
 | Channel failure | F02 and F03 produce no paid demand for two consecutive quarters after launch | No further major funnel investment until offer, ICP, or distribution is reset |
+| F02 overinvestment | F02 consumes more than 20% of non-client LL build-time without meeting upgrade triggers in `F02_F03_ALLOCATION_MODEL.md` | Return F02 to light/referral posture and reallocate build-time to F03 or cash protection |
 | Retainer-control failure | Any fintech retainer becomes open-ended legal department access or pushes total concurrent retainers above 3 | Stop selling retainers and reset scope/capacity before continuing |
 | Leverage failure | Associate/supervised delivery creates more ML1 supervision burden than delivery relief for two consecutive quarters | No platform expansion; revert to controlled boutique assumptions |
 | Economic failure | Effective realized rate or per-matter economics fall while workload rises | Increase price, narrow scope, or reduce low-fit work before investing more time |
@@ -157,7 +158,7 @@ the solo ceiling without ML1 becoming the uncontrolled bottleneck.
 | ML1 monthly billings | No more than 1 month/quarter above CAD 25,000, with review | 0 months above CAD 25,000 | Growth is not coming from ML1 overload |
 | Associate collections | CAD 100,000 | CAD 160,000 | Leverage model is working |
 | Associate activation | Active by `2027-06-30` | Active by `2027-06-30` with delegated files moving | Delivery layer exists |
-| F02 Health Checks | 15 paid Health Checks or CAD 45,000 direct revenue | 30 paid Health Checks / CAD 90,000 direct revenue | Core channel has repeatable demand |
+| F02 upgrade evidence | 4 paid Health Checks and CAD 12,000 direct revenue in a rolling 90-day period | 30 paid Health Checks / CAD 90,000 direct revenue by year-end | F02 earns serious investment only if it proves low-burden demand |
 | F03 specialist revenue | CAD 30,000 | CAD 60,000+ or 2+ recurring specialist relationships | Specialist platform is more than content |
 | Owner revenue from LL | CAD 90,000 | CAD 90,000-95,000 | Owner economics improve |
 | Retained earnings | Positive after owner line | CAD 125,000+ pre-tax | LL has reinvestment capacity |

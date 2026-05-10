@@ -31,7 +31,7 @@ Esq should not be treated as identical to the F02 ICP.
 | Non-client | Any user | One use free, then paid (price TBD) |
 
 NDA Esq functions as a lead capture mechanism within F02. The F02 ICP
-(Ontario $1M–$8M operating businesses) has recurring NDA and commercial
+(Ontario CAD 5M+ cash-flow operating businesses in approved industry lanes) has recurring NDA and commercial
 agreement needs. A non-client who uses NDA Esq is a candidate for:
 
 - Corporate Governance Triage Consult ($859 CAD list)

@@ -4,7 +4,7 @@ title: Fractional Counsel Pricing Model — Funnel 2
 owner: ML1
 status: draft
 created_date: 2026-04-02
-last_updated: 2026-04-07
+last_updated: 2026-05-10
 tags: [funnel-02, fractional-counsel, pricing, retainer]
 ---
 
@@ -23,9 +23,11 @@ tags: [funnel-02, fractional-counsel, pricing, retainer]
 - This file now adopts the tier structure already defined in
   `LLP-030_FIRM_STRATEGY/BUSINESS_PLAN.md` as the canonical downstream F02
   retainer model.
-- Retainer pricing reflects the F02 ICP: Ontario businesses with $1M–$8M
-  annual cash flow; accountant-referred; willing to pay for ongoing
-  commercial legal relationship.
+- Retainer pricing reflects the F02 ICP: Ontario businesses with at least
+  CAD 5M annual cash flow, aligned with approved industry lanes,
+  accountant/referral-sourced where possible, and willing to pay for an
+  ongoing commercial legal relationship. Below-CAD-5M prospects should be
+  routed toward monetizable information products where possible.
 - Overage on all tiers is billed at the applicable hourly rate.
 - Unused hours do not roll over.
 - Minimum commitment is `3` months on all tiers.

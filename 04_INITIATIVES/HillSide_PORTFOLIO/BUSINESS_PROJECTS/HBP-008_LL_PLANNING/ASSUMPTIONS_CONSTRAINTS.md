@@ -18,8 +18,19 @@ tags: [levine-law, 2027, assumptions, constraints, hillside]
 - HBP-007 achieves at least CAD 240,000 in 2026 collections
 - the LLP-033 activation gate (3 consecutive months at $20,000+ ML1 billings) is met
   by Q4 2026
-- F02 is operational as a primary acquisition channel before 2027 begins
+- F02 remains available as a light referral/intake channel, but is not treated
+  as the primary 2026-2027 survival-growth investment unless the upgrade
+  triggers in `F02_F03_ALLOCATION_MODEL.md` are met
+- F02 Corporate Health Check is narrowed to the industry lanes in
+  `F02_INDUSTRY_TARGETING_RULE.md`: fintech-adjacent operators, trade-impacted
+  industries, and Rousseau Mazzuca-referable construction operators
+- F02 Corporate Health Check prospects should have at least CAD 5,000,000 in
+  annual cash flow; below that threshold, the default path is a monetizable
+  information product rather than ML1-heavy service work
 - F03 has produced at least early authority and specialist revenue by Q4 2026
+- F03 fintech retainer acquisition is the primary 2026-2027 business-build
+  hypothesis for existential cash-flow protection, subject to LLP-039 scope and
+  capacity controls
 - F03 fintech retainer pricing, scope, capacity, and rate posture are governed
   by LLP-039, not by HBP-008
 - ML1's standard billing rate remains $480/hour for corporate/commercial work and
@@ -57,6 +68,8 @@ tags: [levine-law, 2027, assumptions, constraints, hillside]
   design, or leverage development must be justified under
   `LL_TIME_INVESTMENT_BENCHMARKS.md`; client delivery obligations are separate
   and remain mandatory once accepted
+- F02 may not receive more than 20% of non-client LL build-time unless ML1
+  records an upgrade decision under `F02_F03_ALLOCATION_MODEL.md`
 
 ## Planning Boundary
 

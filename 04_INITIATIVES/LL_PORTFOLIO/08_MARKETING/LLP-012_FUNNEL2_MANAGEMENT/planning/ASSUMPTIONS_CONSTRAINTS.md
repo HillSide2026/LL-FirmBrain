@@ -4,7 +4,7 @@ title: LLP-012 Funnel 2 - Assumptions and Constraints
 owner: ML1
 status: draft
 created_date: 2026-04-07
-last_updated: 2026-04-07
+last_updated: 2026-05-10
 tags: [llp-012, funnel-02, planning, assumptions, constraints]
 ---
 
@@ -18,9 +18,12 @@ Stage: Planning
 
 ### Market
 
-- Mature Ontario operators with `$1M-$8M` annual cash flow and an active
+- Mature Ontario operators with at least `CAD 5M` annual cash flow and an active
   accountant relationship are more reachable through trusted intermediaries than
   through undifferentiated search traffic.
+- F02 should prioritize operators in three industry lanes:
+  fintech-adjacent operators, trade-impacted operators, and Rousseau
+  Mazzuca-referable construction operators.
 - A paid diagnostic framed as a Corporate Health Check is more referable and
   more selective than an open-ended premium consultation.
 - Structuring and governance pain is a real buying trigger before litigation or
@@ -35,7 +38,8 @@ Stage: Planning
 - GHL and the website stack can support a non-bypass qualification gate and a
   paid booking or purchase path.
 - F01 can continue as a bridge channel while F02 is clarified, but F02 should
-  become the primary preventative corporate acquisition path over time.
+  remain a light, industry-specific referral/intake channel unless upgrade
+  triggers are met in HBP-008.
 
 ### Conversion
 
@@ -52,8 +56,11 @@ Stage: Planning
 | Constraint | Description |
 | --- | --- |
 | No bypass of the fit gate | F02 must not book or route low-fit operators directly to ML1 without the approved qualification process. |
+| Cash-flow gate | F02 Health Check prospects should have at least CAD 5M annual cash flow unless ML1 grants an exception. |
+| Below-threshold routing | Prospects below CAD 5M annual cash flow should be routed toward monetizable information products where possible. |
 | Matter value floor | New F02 matters must meet the approved minimum projected matter value of `$1,000`. |
 | Practice-area scope | Corporate, Contracts, and Financial Services are all in scope, with primary focus on Corporate and Contracts. |
+| Industry targeting | F02 must prefer fintech-adjacent, trade-impacted, and Rousseau Mazzuca-referable construction operators over generic corporate prospects. |
 | Offer discipline | F02 must remain a defined paid diagnostic. It must not collapse into a disguised free-consult model. |
 | No F02/F03 conflation | Funnel 02 positioning, landing pages, and intake logic must remain distinct from Funnel 03 regulatory-offer surfaces. |
 | ML1 approval on changes | Any change to scope, pricing, channel sequencing, or live-routing logic still requires ML1 approval even though execution has been authorized. |

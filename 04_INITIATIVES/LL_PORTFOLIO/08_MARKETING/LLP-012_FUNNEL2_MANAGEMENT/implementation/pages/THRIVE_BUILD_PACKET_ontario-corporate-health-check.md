@@ -1035,10 +1035,10 @@ Inside:
     Toggle (Accordion) element — FAQ 2:
     - (same configuration)
     - Heading text: Who is it for?
-    - Body text: Ontario businesses with $1M–$8M in revenue, typically with
-      5–30 employees, that have been operating for several years and want to
-      understand whether their legal structure still reflects how the
-      business actually works.
+    - Body text: Ontario businesses with at least CAD 5M in annual cash flow,
+      typically with 5–30 employees, that operate in a strategic industry lane
+      and want to understand whether their legal structure still reflects how
+      the business actually works.
 
     Toggle (Accordion) element — FAQ 3:
     - (same configuration)
@@ -1461,9 +1461,9 @@ following HTML. The CSS above handles all styling.
       <span class="ll-faq-icon">+</span>
     </button>
     <div class="ll-faq-answer">
-      Ontario businesses with $1M–$8M in revenue, typically with 5–30
-      employees, that have been operating for several years and want to
-      understand whether their legal structure still reflects how the
+      Ontario businesses with at least CAD 5M in annual cash flow, typically
+      with 5–30 employees, that operate in a strategic industry lane and want
+      to understand whether their legal structure still reflects how the
       business actually works.
     </div>
   </div>

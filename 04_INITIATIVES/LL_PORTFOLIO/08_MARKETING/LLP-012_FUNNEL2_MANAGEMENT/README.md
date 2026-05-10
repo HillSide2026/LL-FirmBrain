@@ -4,7 +4,7 @@ title: LLP-012_FUNNEL2_MANAGEMENT
 owner: ML1
 status: executing
 created_date: 2026-02-26
-last_updated: 2026-04-07
+last_updated: 2026-05-10
 tags: [marketing, funnel-02, initiation]
 ---
 
@@ -12,7 +12,7 @@ tags: [marketing, funnel-02, initiation]
 
 ## Purpose
 Initiate delivery planning for Funnel 02 as the corporate-law services funnel
-for growing businesses with more than `$1M` annual cash flow, using a
+for strategically relevant growing businesses with at least `CAD 5M` annual cash flow, using a
 preventative paid diagnostic as the entry point.
 
 ## Scope
@@ -30,7 +30,8 @@ preventative paid diagnostic as the entry point.
 - Intake reporting and conversion metric framework setup (thresholds from ML1).
 - Setter role definition and handoff model.
 - Senior lawyer staffing and legal-delivery readiness plan.
-- Explicit ICP boundary: businesses with more than $1M annual cash flow, 5+ employees, accountant involved, not in crisis.
+- Explicit ICP boundary: businesses with at least CAD 5M annual cash flow, 5+ employees, accountant involved, not in crisis, and aligned with approved industry lanes.
+- Below-CAD-5M prospects should be routed toward monetizable information products where possible rather than ML1-heavy service work.
 
 ### Out of Scope
 - Live launch without ML1 approval.
@@ -51,7 +52,7 @@ The packet was normalized on `2026-04-07` so the planning and implementation
 artifacts match the live project state.
 
 Canonical funnel definition:
-- corporate law services for growing businesses with more than `$1M` annual cash flow
+- corporate law services for strategically relevant growing businesses with at least `CAD 5M` annual cash flow
 
 Boundary note:
 - Funnel 2 may acquire traffic or leads through overlapping NDA Esq surfaces

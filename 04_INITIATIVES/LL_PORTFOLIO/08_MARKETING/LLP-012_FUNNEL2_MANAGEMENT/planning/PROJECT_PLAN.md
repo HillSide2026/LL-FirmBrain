@@ -4,7 +4,7 @@ title: LLP-012 Funnel 2 - Project Plan
 owner: ML1
 status: draft
 created_date: 2026-04-07
-last_updated: 2026-04-07
+last_updated: 2026-05-10
 tags: [llp-012, funnel-02, planning, project-plan]
 ---
 
@@ -18,13 +18,14 @@ Stage: Planning
 
 Normalize Funnel 02 into a coherent governed packet that supports the already
 authorized execution surface: a paid Corporate Health Check for mature Ontario
-operators, distributed primarily through accountant referrals and screened for
-fit before ML1 time is committed.
+operators in approved strategic industry lanes, distributed primarily through
+referrals and screened for fit before ML1 time is committed.
 
 ## Current Planning Focus
 
-1. preserve the referral-first acquisition path: accountant referral first,
-   LinkedIn and SEO secondary
+1. preserve the referral-first acquisition path, with priority on fintech-
+   adjacent, trade-impacted, and Rousseau Mazzuca-referable construction
+   operators
 2. preserve the entry offer as a defined paid diagnostic rather than a premium
    consult variant
 3. freeze the mandatory human qualification call and evidence schema as the
@@ -33,6 +34,18 @@ fit before ML1 time is committed.
    pricing model
 5. record the baseline-lock rule so F02 thresholds stop drifting as the packet
    evolves
+
+## Approved Industry Lanes
+
+F02 Health Check targeting is narrowed to:
+
+- fintech-adjacent operators, including fintech, payments, MSB, PSP, embedded
+  finance, and platform businesses with regulated payment flows;
+- trade-impacted operators, including lumber, steel, plastics, import/export-
+  exposed manufacturers, distributors, and supply-chain businesses;
+- construction and construction-adjacent mid-market operators, especially where
+  a Health Check may surface lien, holdback, payment, subcontracting, or project
+  dispute issues referable to Rousseau Mazzuca.
 
 ## Planning Workstreams
 
@@ -65,7 +78,9 @@ qualification call has occurred and the resulting evidence record is complete.
 
 The existing pre-booking gate remains in force:
 
-- annual revenue below `$1M` is disqualifying
+- annual cash flow below `CAD 5M` is disqualifying for the Health Check service
+  path unless ML1 grants an exception; route toward information products where
+  possible
 - fewer than `5` employees is disqualifying
 - no accountant relationship is disqualifying
 
@@ -74,14 +89,17 @@ The existing pre-booking gate remains in force:
 Every completed qualification call must record all fields below:
 
 - lead source
+- industry lane
 - referring accountant or referral source, if any
 - buyer role
 - buyer authority level
 - annual revenue band
+- annual cash-flow band
 - employee band
 - accountant relationship confirmed (`yes` / `no`)
 - maturity trigger
 - practice-area fit
+- Rousseau Mazzuca referral potential, if construction/lien-risk facts are present
 - projected remediation value band
 - willingness to pay for a Health Check tier
 - timeframe / urgency
@@ -107,7 +125,22 @@ Disposition values must align with LLP-014 intake governance:
 - `f02_v3`
 - `reroute_f01`
 - `reroute_f03`
+- `reroute_info_product`
 - `decline_no_offer`
+
+#### Information Product Routing
+
+Where the recommended next path is `reroute_info_product`, the default product
+map is:
+
+| Product | Lane | Use |
+|---|---|---|
+| Corporate Starter Kit | General below-threshold operators | General corporate, contracts, governance, NDA, contractor, invoice, or payment-terms needs |
+| Corporate Assessment | Cross-F02 | Screening and routing before ML1 attention is committed |
+| Fintech White Paper | Fintech-adjacent | Education on payments, MSB, RPAA, AML, and banking-partner readiness; high-fit leads route to F03 |
+| Trade-Impacted Contract Risk Kit | Lumber, steel, plastics, manufacturing, distribution | Tariff and supply-chain contract risk education |
+| Construction Payment / Lien Triage Kit | Construction / Rousseau Mazzuca referral lane | Holdback, payment dispute, lien-deadline, and referral issue-spotting |
+| Subcontractor Contract Risk Pack | Construction operators | Scope, extras, delay, payment, backcharges, and lien-preservation issue-spotting |
 
 ### Pricing Posture
 

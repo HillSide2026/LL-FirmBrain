@@ -4,7 +4,7 @@ title: Project Charter — HBP-012 — Info Product
 owner: ML1
 status: draft
 created_date: 2026-04-14
-last_updated: 2026-04-14
+last_updated: 2026-05-10
 tags: [hillside, hbp-012, info-product, charter]
 ---
 
@@ -29,7 +29,7 @@ strategy, and validate whether this product and ICP support a repeatable revenue
 
 ## Product Definition
 
-**Product name:** [TBD — ML1 to confirm]
+**Product name:** Corporate Starter Kit / Founder Contract Template Pack
 **Format:** Digital template pack — done-for-you legal toolkit
 **Contents:** 4–5 standalone contract templates, each with a plain-English cover page
 explaining when and how to use it
@@ -53,8 +53,21 @@ service or retainer at higher price point) but is unproven and out of scope for
 this project phase.
 
 **Relationship to existing funnels:** This is a new ICP — distinct from F2
-(corporate operators >$1M revenue) and F3 (payments/MSB operators). No crossover
-intended for this phase.
+(CAD 5M+ cash-flow operators in approved industry lanes) and F3
+(payments/MSB operators). The crossover is a routing interface for below-F2-
+threshold prospects, not a full service-funnel merger.
+
+**LL/F02 routing interface:** This product line may also monetize prospects who
+are below the F02 Health Check service gate. If a business has less than CAD 5M
+annual cash flow, the default LL posture is to steer it toward an information
+product where possible rather than allocate ML1-heavy service time.
+
+The F02-aligned information-product ladder is recorded in
+`F02_INFO_PRODUCT_LADDER.md`. Product 1 already exists as the Corporate Starter
+Kit / Founder Contract Template Pack. Future products may include a Corporate
+Assessment, Fintech White Paper, Trade-Impacted Contract Risk Kit,
+Construction Payment / Lien Triage Kit, and Subcontractor Contract Risk Pack,
+but they are extensions, not prerequisites to launching Product 1.
 
 ## Revenue Model
 
