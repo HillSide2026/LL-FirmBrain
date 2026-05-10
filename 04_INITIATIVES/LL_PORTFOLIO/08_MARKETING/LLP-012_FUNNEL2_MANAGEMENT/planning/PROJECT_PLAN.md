@@ -128,19 +128,21 @@ Disposition values must align with LLP-014 intake governance:
 - `reroute_info_product`
 - `decline_no_offer`
 
-#### Information Product Routing
+#### Operational Product Routing
 
 Where the recommended next path is `reroute_info_product`, the default product
-map is:
+map is not a generic content ladder. It is a set of operational decision
+products, diagnostic systems, intake-compression tools, and structured risk-
+routing tools:
 
 | Product | Lane | Use |
 |---|---|---|
 | Corporate Starter Kit | General below-threshold operators | General corporate, contracts, governance, NDA, contractor, invoice, or payment-terms needs |
-| Corporate Assessment | Cross-F02 | Screening and routing before ML1 attention is committed |
-| Fintech White Paper | Fintech-adjacent | Education on payments, MSB, RPAA, AML, and banking-partner readiness; high-fit leads route to F03 |
-| Trade-Impacted Contract Risk Kit | Lumber, steel, plastics, manufacturing, distribution | Tariff and supply-chain contract risk education |
-| Construction Payment / Lien Triage Kit | Construction / Rousseau Mazzuca referral lane | Holdback, payment dispute, lien-deadline, and referral issue-spotting |
-| Subcontractor Contract Risk Pack | Construction operators | Scope, extras, delay, payment, backcharges, and lien-preservation issue-spotting |
+| Corporate Assessment | Cross-F02 | Operational risk and structure assessment that classifies, prioritizes, scores, and routes prospects |
+| Fintech White Paper | Fintech-adjacent | Authority infrastructure on real-time payment rails, stablecoins, funds-flow logic, safeguarding, RPAA interaction, and regulatory perimeter mapping |
+| Trade-Impacted Contract Risk Kit | Lumber, steel, plastics, manufacturing, distribution | Contract-breakage analysis under tariff, pricing, FX, supply-chain, and change-in-law volatility |
+| Construction Payment / Lien Triage Kit | Construction / Rousseau Mazzuca referral lane | Time-sensitive operational triage for payment, holdback, lien-period, notice, and upstream-funds risk |
+| Subcontractor Contract Risk Pack | Construction operators | Risk identification and negotiation prioritization around scope, extras, delay, payment, backcharges, pay-when-paid, and lien-waiver traps |
 
 ### Pricing Posture
 

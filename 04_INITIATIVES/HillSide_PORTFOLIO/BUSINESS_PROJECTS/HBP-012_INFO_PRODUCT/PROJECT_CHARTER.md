@@ -62,7 +62,7 @@ are below the F02 Health Check service gate. If a business has less than CAD 5M
 annual cash flow, the default LL posture is to steer it toward an information
 product where possible rather than allocate ML1-heavy service time.
 
-The F02-aligned information-product ladder is recorded in
+The F02-aligned operational-product ladder is recorded in
 `F02_INFO_PRODUCT_LADDER.md`. Product 1 already exists as the Corporate Starter
 Kit / Founder Contract Template Pack. Future products may include a Corporate
 Assessment, Fintech White Paper, Trade-Impacted Contract Risk Kit,

@@ -28,7 +28,7 @@ prospects. If an operator does not meet the F02 CAD 5M annual cash-flow gate but
 has a real educational or self-serve legal need, the preferred path is an
 information product rather than ML1-heavy service work.
 
-The canonical F02-aligned product map is recorded in
+The canonical F02-aligned operational product map is recorded in
 `F02_INFO_PRODUCT_LADDER.md`. Product 1 already exists as the Corporate Starter
 Kit / Founder Contract Template Pack; the remaining products are optional
 extensions that should be built only if they support F02 routing, F03 routing,

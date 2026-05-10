@@ -52,7 +52,7 @@ ML1-heavy Health Check attention. Where they have a real need but are below the
 cash-flow gate, they should be routed toward monetizable information products
 where possible.
 
-The canonical information-product off-ramp is
+The canonical operational-product off-ramp is
 `../HBP-012_INFO_PRODUCT/F02_INFO_PRODUCT_LADDER.md`.
 
 ## Routing Logic
@@ -65,16 +65,20 @@ The canonical information-product off-ramp is
 | below CAD 5,000,000 annual cash flow but has educational/self-serve need | Route toward HBP-012 / monetizable information product pathway |
 | ordinary corporate hygiene with no strategic-lane connection | Accept only if high-fit, high-value, and low burden; otherwise defer or decline |
 
-## Information Product Off-Ramp
+## Operational Product Off-Ramp
+
+F02 should avoid generic content products. The preferred below-threshold tools
+are operational decision products, diagnostic systems, and structured
+risk-routing tools.
 
 | Product | Use when... |
 |---|---|
 | Corporate Starter Kit | Below-threshold operator has general corporate, contracts, governance, NDA, contractor, invoice, or payment-terms need |
-| Corporate Assessment | Fit is unclear and the prospect should be routed before ML1 attention is committed |
-| Fintech White Paper | Fintech-adjacent prospect needs education on payments, MSB, RPAA, AML, or banking-partner readiness but is not yet an F03 buyer |
-| Trade-Impacted Contract Risk Kit | Operator is exposed to lumber, steel, plastics, import/export, manufacturing, distribution, tariff, or supply-chain contract risk |
-| Construction Payment / Lien Triage Kit | Construction or project-facing operator has holdback, payment, lien-deadline, or project dispute signals |
-| Subcontractor Contract Risk Pack | Construction operator needs practical contract-risk education on scope, extras, delay, payment, backcharges, or lien-preservation issues |
+| Corporate Assessment | Fit is unclear and the prospect should be classified, prioritized, scored, and routed before ML1 attention is committed |
+| Fintech White Paper | Fintech-adjacent audience needs authority-level analysis of payment rails, stablecoins, safeguarding, funds flow, RPAA interaction, or regulatory perimeter mapping |
+| Trade-Impacted Contract Risk Kit | Operator is exposed to lumber, steel, plastics, import/export, manufacturing, distribution, tariff, FX, or supply-chain contract volatility |
+| Construction Payment / Lien Triage Kit | Construction or project-facing operator has payment, holdback, notice, lien-period, or upstream-funds risk requiring time-sensitive triage |
+| Subcontractor Contract Risk Pack | Construction operator needs contract-risk identification and negotiation prioritization around scope, extras, delay, payment, backcharges, pay-when-paid, or lien-waiver issues |
 
 ## Allocation Consequence
 
