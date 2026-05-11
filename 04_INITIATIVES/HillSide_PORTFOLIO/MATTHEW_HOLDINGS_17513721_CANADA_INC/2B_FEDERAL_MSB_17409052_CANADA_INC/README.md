@@ -1,53 +1,101 @@
 ---
 id: 04_initiatives__hillside_portfolio__matthew_holdings__2b_federal_msb_17409052_canada_inc__readme_md
-title: 2B Federal MSB (17409052 Canada Inc)
+title: 2B Federal Company / Granville Tag (17409052 Canada Inc)
 owner: ML1
 status: draft
 created_date: 2026-03-06
-last_updated: 2026-04-30
-tags: []
+last_updated: 2026-05-11
+tags: [granville, federal-msb, value-stack, payments]
 ---
 
-# Federal MSB
+# Federal Company / Granville Tag
 
 17409052 Canada Inc
 
-Federal MSB is a federally incorporated MSB entity within the Matthew
-Holdings structure.
+Granville is an internal tag for `17409052 Canada Inc`.
+
+The tag has no operational, legal, branding, or customer-facing significance.
+
+`17409052 Canada Inc` is a federal company within the Matthew Holdings
+structure.
 
 ---
 
 ## Role
 
-This entity is structured as a **Money Services Business (MSB)** under
-Canadian federal regulation.
+This entity is being developed as a federal company with an MSB / payments
+infrastructure value stack.
 
 Current operating activity: none.
 
 FinSure and the Payment Services Consulting Line are not operated through this
 entity. They are run by `17513721 Canada Inc`.
 
-Activities may include:
+FINTRAC registration is still pending. The wait for FINTRAC has motivated the
+effort to add value to the entity through a clearer payments infrastructure
+stack.
+
+An RPAA application has been initiated.
+
+The point is to improve sale value, not to run significant funds through the
+entity before sale.
+
+The current value-stack plan is to build the entity around an orchestration
+model:
+
+```text
+Customer
+   ↓
+17409052 Canada Inc
+MSB; orchestration; application; AML control
+   ↓
+EMI
+onboards clients; provides payment accounts; executes payments
+   ↓
+Bank
+safeguards funds
+```
+
+Target activities may include:
 
 - money transfers
 - payment services
 - foreign exchange services
 
+The intended structure is designed to keep balance-sheet complexity minimal
+while aligning with Retail Payment Activities Act expectations around
+operational control, safeguarding transparency, and payments infrastructure
+resilience.
+
+The value-stack build also contemplates procuring product software and
+compliance software. The main compliance-tooling question is whether Sumsub is
+needed, or whether Rhizome is sufficient given the sale-first posture and the
+intention not to run significant funds through the entity. Sumsub should be used
+only if EMI onboarding or bank / safeguarding counterparties create a real need.
+
+The real build question is how to secure the EMI integration.
+
+That EMI relationship should be pre-revenue, low-commitment, transferable, and
+buyer-substitutable from day one. The key risk is not EMI rejection; it is
+accepting fees, exclusivity, lock-in, or control terms that reduce sale value.
+
+For the full build plan, see:
+
+- `VALUE_STACK.md`
+
 ---
 
 ## Regulatory Context
 
-This entity holds a **FINTRAC MSB registration**.
+This entity has a **FINTRAC MSB registration application pending**.
 
-**FINTRAC evaluation status (as of 2026-04-30):** Pending formal verification.
-No current operating activity. ML1 must confirm: (1) registration is active
-and current; (2) dormant-period compliance obligations have been met (minimal
-AML program maintained); (3) no outstanding FINTRAC deficiencies.
+**FINTRAC status:** waiting for FINTRAC.
 
-PCMLTFA compliance obligations apply even in the absence of operating
-activity. An AML compliance program must be maintained. If the entity is
-retained long-term with no activity, the regulatory carrying cost should be
-evaluated against the option value of having a second registered MSB entity.
+**RPAA status:** application initiated.
+
+No current operating activity. Before launch, ML1 must confirm the final
+FINTRAC status, RPAA posture, AML program, and any required dormant-period or
+pre-operational compliance obligations.
 
 ---
 
@@ -67,5 +115,5 @@ This folder may contain:
 - regulatory status notes
 - strategic development plans
 
-This entity is a federally registered MSB vehicle in the current HillSide
-structure with no current operating activity. No disposition is planned.
+This entity is a federal company in the current HillSide structure with no
+current operating activity. No disposition is planned.

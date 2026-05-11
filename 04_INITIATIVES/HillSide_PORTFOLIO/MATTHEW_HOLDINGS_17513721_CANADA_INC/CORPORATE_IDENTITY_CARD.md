@@ -4,7 +4,7 @@ title: Corporate Identity Card — Matthew Holdings (17513721 Canada Inc)
 owner: ML1
 status: draft
 created_date: 2026-03-07
-last_updated: 2026-04-29
+last_updated: 2026-05-11
 tags: [corporate-identity, governance, portfolio]
 ---
 
@@ -35,8 +35,8 @@ ML1 personally owns `17513721 Canada Inc`.
 ## Subsidiary / Entity Links
 
 - Yellowbricks (fully divested; HBP-003 closed 2026-04-29)
-- Federal MSB (17409052 Canada Inc)
-- Ontario MSB Corp (1001494374 Ontario Corp)
+- Federal company / Granville tag (17409052 Canada Inc)
+- Ontario MSB Corp / Locarno tag (1001494374 Ontario Corp)
 
 ## Current Lines of Business
 
@@ -45,7 +45,7 @@ ML1 personally owns `17513721 Canada Inc`.
   - Dominion: narrative and positioning layer; enterprise client intake
   - FlowSignal (flowsignal.dominionpartners.ca): market intelligence and partner/introducer interface
   - D-AirPay (d-airpay.dominionpartners.ca): payments execution layer; rails abstraction (fiat and stablecoin)
-- ownership of Federal MSB and Ontario MSB Corp
+- ownership of 17409052 Canada Inc and Ontario MSB Corp
 
 See `DOMINION_PLATFORM/PLATFORM_ARCHITECTURE.md` for full architecture.
 
@@ -71,7 +71,9 @@ No HillSide project governs this service line yet. When a file converts, the rig
 - Operational matters tied to the Andersen Service Line are tracked inside Levine Law.
 - The Andersen Service Line continues to follow the Levine Law time-for-money business model, and the Andersen relationship is credited to Levine Law in the 2026 operating picture even though the Andersen fees are received by 17513721 Canada Inc.
 - FinSure and the Payment Services Consulting Line are owned and operated by 17513721 Canada Inc, not by 17409052 Canada Inc.
-- Ontario MSB Corp (1001494374 Ontario Corp) is owned by 17513721 Canada Inc and is being marketed for sale.
+- Granville is only an internal tag for 17409052 Canada Inc and has no operational, legal, branding, or customer-facing significance. FINTRAC registration is still pending, the RPAA application has been initiated, and the current value-stack work is intended to add value while the entity waits for FINTRAC.
+- Locarno is only an internal tag for 1001494374 Ontario Corp and has no operational, legal, branding, or customer-facing significance.
+- Ontario MSB Corp (1001494374 Ontario Corp) is owned by 17513721 Canada Inc and is being marketed for sale. Current thesis: it may be more sellable as a pure MSB shell because the Ontario corporation does not require a Canadian director.
 - 17513721 Canada Inc is optimistic that Ontario MSB Corp can be sold in 2026 for slightly more than CAD 27,000 of corporate revenue if the transaction closes.
 
 ## Governance Notes

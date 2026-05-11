@@ -1,16 +1,20 @@
 ---
 id: 04_initiatives__hillside_portfolio__matthew_holdings__2c_ontario_msb_corp_1001494374_ontario_corp__readme_md
-title: 2C Ontario MSB Corp (1001494374 Ontario Corp)
+title: 2C Ontario MSB Corp / Locarno Tag (1001494374 Ontario Corp)
 owner: ML1
 status: draft
 created_date: 2026-03-06
-last_updated: 2026-04-30
-tags: []
+last_updated: 2026-05-11
+tags: [locarno, ontario-msb, sale, msb-shell]
 ---
 
-# Ontario MSB Corp
+# Ontario MSB Corp / Locarno Tag
 
 1001494374 Ontario Corp
+
+Locarno is an internal tag for `1001494374 Ontario Corp`.
+
+The tag has no operational, legal, branding, or customer-facing significance.
 
 Ontario MSB Corp is an Ontario-incorporated entity within the Matthew
 Holdings portfolio.
@@ -26,6 +30,15 @@ Current optimistic 2026 sale thesis: if the sale closes in 2026, `17513721
 Canada Inc` expects to receive slightly more than `CAD 27,000` of corporate
 revenue from the disposition.
 
+Current sellability thesis: `1001494374 Ontario Corp` may be more sellable as
+a pure MSB shell than `17409052 Canada Inc` because the Ontario corporation
+does not require a Canadian director.
+
+Alternative build thesis: Project Locarno may build the Ontario corporation
+into a transferable regulated payments infrastructure layer with direct EMI
+and direct sponsor-bank relationships. That strategy is documented in
+`PROJECT_LOCARNO_DIRECT_BANK_SPONSORSHIP_STRATEGY.md`.
+
 ---
 
 ## Regulatory Context
@@ -33,6 +46,14 @@ revenue from the disposition.
 This entity holds a **FINTRAC MSB registration**. That registration is the
 primary asset being sold. The buyer acquires the clean MSB shell and its
 registered status.
+
+The immediate shell-sale thesis is intentionally narrower than the 174
+value-stack thesis. The Ontario corporation may be positioned as a cleaner
+pure-MSB sale asset.
+
+Project Locarno is a separate, more ambitious value-building path. It would
+position the Ontario corporation as a bankable regulated infrastructure asset
+with direct EMI and direct sponsor-bank relationships.
 
 **FINTRAC evaluation status (as of 2026-04-30):** Pending formal verification.
 Pre-sale, ML1 must confirm: (1) registration is active and current with no
@@ -77,3 +98,7 @@ This folder may contain:
 
 Current strategic posture: being marketed for sale. Sale governed by
 `HBP-005_SALE_OF_ONTARIO_MSBSHELLCO`.
+
+Project Locarno direct bank sponsorship strategy:
+
+- `PROJECT_LOCARNO_DIRECT_BANK_SPONSORSHIP_STRATEGY.md`

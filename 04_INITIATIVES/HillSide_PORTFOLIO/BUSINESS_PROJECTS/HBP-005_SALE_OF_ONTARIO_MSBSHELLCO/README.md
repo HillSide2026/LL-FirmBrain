@@ -4,7 +4,7 @@ title: Sale of Ontario MSBShellCo
 owner: ML1
 status: draft
 created_date: 2026-03-14
-last_updated: 2026-03-20
+last_updated: 2026-05-11
 tags: [ontario-msbshellco, sale, hillside, project, initiating]
 ---
 
@@ -27,13 +27,30 @@ recycle capital.
 
 ## Assets in Scope
 
-**Primary asset:** Ontario MSB Corp (1001494374 Ontario Corp). This is the
-entity being actively marketed for sale.
+**Primary asset:** Ontario MSB Corp / Locarno tag (`1001494374 Ontario Corp`).
+This is the entity being actively marketed for sale. Locarno is only an
+internal tag and has no operational, legal, branding, or customer-facing
+significance.
 
-**Secondary possibility:** Federal MSB (17409052 Canada Inc) may also be
-sold, but it is not the primary asset being marketed. Any Federal MSB
+Current primary-asset thesis: `1001494374 Ontario Corp` may be more sellable
+as a pure MSB shell because the Ontario corporation does not require a
+Canadian director.
+
+Alternative Project Locarno build thesis: `1001494374 Ontario Corp` may be
+built into a transferable regulated payments infrastructure layer with direct
+EMI and direct sponsor-bank relationships. This is a more ambitious path than
+a pure-shell sale and is documented in the Ontario entity folder.
+
+**Secondary possibility:** `17409052 Canada Inc` may also be
+sold, but it is not the primary asset being marketed. Any `17409052 Canada Inc`
 disposition would be a separate decision and is not the current focus of this
 project.
+
+Current 174 sale-value thesis: while FINTRAC remains pending and the RPAA
+application has been initiated, Matthew Holdings may add value to `17409052
+Canada Inc` by documenting an EMI-led payment-account stack, a low-complexity
+funds-flow posture, a product-software path, and a compliance-software path.
+The entity is not intended to run significant funds before sale.
 
 ## Notes
 

@@ -4,7 +4,7 @@ title: Matthew Holdings (17513721 Canada Inc)
 owner: ML1
 status: draft
 created_date: 2026-03-06
-last_updated: 2026-04-03
+last_updated: 2026-05-11
 tags: []
 ---
 
@@ -36,7 +36,8 @@ Matthew Holdings serves as:
 - governance layer for portfolio entities
 - strategic control entity
 
-YellowBricks, Federal MSB, and Ontario MSB Corp sit under this entity.
+YellowBricks, 17409052 Canada Inc, and Ontario MSB Corp sit under this
+entity.
 
 ## Current Lines of Business
 
@@ -45,7 +46,7 @@ YellowBricks, Federal MSB, and Ontario MSB Corp sit under this entity.
   - Dominion: narrative and positioning; enterprise client intake
   - FlowSignal (flowsignal.dominionpartners.ca): market intelligence; partner and introducer interface
   - D-AirPay (d-airpay.dominionpartners.ca): payments execution; fiat and stablecoin rails abstraction
-- ownership of Federal MSB (`17409052 Canada Inc`) and Ontario MSB Corp (`1001494374 Ontario Corp`)
+- ownership of `17409052 Canada Inc` and Ontario MSB Corp (`1001494374 Ontario Corp`)
 
 Under the Andersen Service Line, `17513721 Canada Inc` provides services to
 clients of Andersen Consulting and Andersen Consulting pays `17513721 Canada
@@ -70,7 +71,7 @@ Matthew Holdings
 │   ├── Dominion (dominionpartners.ca)
 │   ├── FlowSignal (flowsignal.dominionpartners.ca)
 │   └── D-AirPay (d-airpay.dominionpartners.ca)
-├── Federal MSB (17409052 Canada Inc)
+├── 17409052 Canada Inc (federal company; Granville internal tag)
 ├── Ontario MSB Corp (1001494374 Ontario Corp)
 └── CORPORATE_IDENTITY_CARD.md
 ```
@@ -122,7 +123,7 @@ Formal legal records remain in the firm's document management systems.
 ## Current Capital Note
 
 - ML1 personally owns `17513721 Canada Inc`
-- `17513721 Canada Inc` owns Federal MSB (`17409052 Canada Inc`) and Ontario
+- `17513721 Canada Inc` owns `17409052 Canada Inc` and Ontario
   MSB Corp (`1001494374 Ontario Corp`); formerly owned YellowBricks, which is
   now fully divested (HBP-003 closed 2026-04-29)
 - `17513721 Canada Inc` currently has approximately `CAD 27,000` in its bank

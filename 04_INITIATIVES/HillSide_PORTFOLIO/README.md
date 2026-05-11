@@ -35,7 +35,7 @@ Current high-level ownership map:
 - ML1 personally owns `17513721 Canada Inc`
 - `Matthew Holdings` is an internal planning label used by ML1 for the layer
   between himself and `17513721 Canada Inc`; it is not a separate legal entity
-- `17513721 Canada Inc` owns Federal MSB (`17409052 Canada Inc`) and Ontario
+- `17513721 Canada Inc` owns `17409052 Canada Inc` and Ontario
   MSB Corp (`1001494374 Ontario Corp`); formerly owned YellowBricks, which is
   now fully divested (HBP-003 closed 2026-04-29)
 - `17513721 Canada Inc` currently has approximately `CAD 27,000` in its bank
@@ -58,7 +58,7 @@ HillSide_PORTFOLIO
 ├── PERSONAL_PROJECTS
 └── 17513721 Canada Inc ("Matthew Holdings" planning label)
    ├── Yellowbricks (fully divested; closed 2026-04-29)
-   ├── Federal MSB (17409052 Canada Inc)
+   ├── 17409052 Canada Inc (federal company; Granville internal tag)
    └── Ontario MSB Corp (1001494374 Ontario Corp)
 ```
 
