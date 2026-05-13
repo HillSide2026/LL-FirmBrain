@@ -4,7 +4,7 @@ title: Matter Brief — 26-1639-00001 — Andersen (Client Relationship Manageme
 owner: ML1
 status: draft
 created_date: 2026-03-22
-last_updated: 2026-03-22
+last_updated: 2026-05-12
 tags: [matter, 26-1639-00001]
 ---
 
@@ -18,6 +18,7 @@ Client relationship management matter for Andersen. This is the umbrella matter 
 
 - **Client:** Andersen
 - **Receiving entity:** 17513721 Canada Inc. (Andersen fee receipts)
+- **Rate reference:** [`ANDERSEN_RATE_SCHEDULE.md`](ANDERSEN_RATE_SCHEDULE.md)
 
 ## What's happened so far
 
@@ -52,8 +53,19 @@ the Andersen relationship, as well as payment services under 17513721 Canada
 Inc. The Trade Services line on that site connects to this matter and the
 26-1639-00002 and 26-1639-00003 lane matters. Owner: 17513721 Canada Inc.
 
+## Rate Schedule
+
+Current Andersen rate input from ML1: starting rate `USD 650/hour`, subject to
+`10%` management fee and `2%` royalty fee. The current planning shorthand is
+approximately `USD 572-573/hour` before foreign-exchange conversion, depending
+on whether the fees are applied additively or sequentially.
+
+See [`ANDERSEN_RATE_SCHEDULE.md`](ANDERSEN_RATE_SCHEDULE.md) for the matter-level
+rate record and open reconciliation items.
+
 ## Change log
 
+- 2026-05-12 — Andersen rate schedule added: USD 650/hour starting rate less 10% management fee and 2% royalty fee; effective pre-FX shorthand USD 572-573/hour
 - 2026-03-22 — Brief created; scope confirmed by ML1
 - 2026-04-03 — Reframed as the umbrella Andersen relationship matter above the two Andersen sales-pipeline lane matters
 - 2026-04-12 — Updated from Gmail: ESG mining BD POC strategy (Hernany V.); Data Centre disputes; Investment arbitration contacts; Sanctions advisory tracks added

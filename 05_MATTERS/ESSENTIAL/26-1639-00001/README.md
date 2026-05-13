@@ -4,7 +4,7 @@ title: Andersen (Relationship Management)
 owner: ML1
 status: draft
 created_date: 2026-03-08
-last_updated: 2026-04-03
+last_updated: 2026-05-12
 tags: [matter, 26-1639-00001]
 practice_areas: [client_relationship_management, trade_remedies, market_access]
 ---
@@ -34,5 +34,6 @@ Client Relationship Management
 ## Working Artifacts
 - Matter brief: [`MATTER_BRIEF.md`](MATTER_BRIEF.md)
 - Business development overview: [`BUSINESS_DEVELOPMENT_OVERVIEW.md`](BUSINESS_DEVELOPMENT_OVERVIEW.md)
+- Andersen rate schedule: [`ANDERSEN_RATE_SCHEDULE.md`](ANDERSEN_RATE_SCHEDULE.md)
 - Trade-remedies lane: [`../26-1639-00002/README.md`](../26-1639-00002/README.md)
 - Market-access lane: [`../26-1639-00003/README.md`](../26-1639-00003/README.md)
