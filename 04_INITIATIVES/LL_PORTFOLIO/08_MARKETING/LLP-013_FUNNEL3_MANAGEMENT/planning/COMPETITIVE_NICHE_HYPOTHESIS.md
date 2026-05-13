@@ -4,7 +4,7 @@ title: LLP-013 Funnel 3 Competitive Niche Hypothesis
 owner: ML1
 status: draft
 created_date: 2026-03-14
-last_updated: 2026-03-14
+last_updated: 2026-05-13
 tags: [marketing, funnel-03, niche, competition, hypothesis]
 ---
 
@@ -93,6 +93,21 @@ Context competitors, but not the primary benchmark:
 - banking-access and account-opening support where regulatory clarity matters
 - stablecoin / crypto operator Canada-exposure issues
 - specialist referral work from other lawyers and firms
+
+## Particularly Interesting Infrastructure Themes
+
+The following themes are particularly interesting for Funnel 3 because they combine payments architecture, banking / treasury rails, financing flows, commercial contracts, and regulatory perimeter questions:
+
+- **Trade Finance** -- LC digitization, documentary collections, receivables financing.
+- **Supply Chain Finance (SCF)** -- buyer-led payables financing / dynamic discounting.
+- **Treasury-as-a-Service (TaaS)** -- cash positioning, liquidity, FX, virtual accounts, payment orchestration.
+- **Stablecoin Treasury-as-a-Service** -- stablecoin liquidity, treasury operations, settlement, reserves, custody, on/off-ramp orchestration, and cross-border money movement.
+- **Payments-as-a-Service (PaaS)** -- APIs for pay-ins, payouts, wallets, acquiring.
+- **Banking-as-a-Service (BaaS)** -- regulated banking rails exposed via APIs.
+- **Embedded Finance** -- financing/payments embedded into non-financial platforms.
+- **Cash Management Infrastructure** -- sweeping, pooling, reconciliation, multi-bank connectivity.
+
+These should be used as market-listening and positioning themes. They are not bankable forecasts, guaranteed demand pockets, or final service-line commitments.
 
 ## Candidate Niche Map
 

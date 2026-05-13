@@ -15,6 +15,14 @@ focus_areas:
   - RPAA registrants
   - stablecoin participants
   - strategic partnership architecture
+  - trade finance
+  - supply chain finance
+  - treasury-as-a-service
+  - stablecoin treasury-as-a-service
+  - payments-as-a-service
+  - banking-as-a-service
+  - embedded finance
+  - cash management infrastructure
 
 core_identity: Decision-maker in a payments business where regulatory classification, reporting obligations, or strategic-partnership structure affects capital, banking access, or launch viability.
 
@@ -45,6 +53,12 @@ business_profile:
     - reporting obligations
     - sponsor-bank, processor, issuer, or infrastructure partner dependence
     - strategic partnership contracts shape legal and commercial risk
+    - trade finance workflows such as LC digitization, documentary collections, and receivables financing
+    - buyer-led payables financing, dynamic discounting, or other supply-chain finance structures
+    - treasury-as-a-service, cash positioning, liquidity, FX, virtual accounts, or payment orchestration
+    - stablecoin treasury operations, settlement, reserves, custody, on/off-ramp orchestration, or cross-border money movement
+    - API-based pay-ins, payouts, wallets, acquiring, banking rails, or embedded finance
+    - sweeping, pooling, reconciliation, or multi-bank cash management infrastructure
 
 maturity_triggers:
   - investor diligence flags regulatory uncertainty

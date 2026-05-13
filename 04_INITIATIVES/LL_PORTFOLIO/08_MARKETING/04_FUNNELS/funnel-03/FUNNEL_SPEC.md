@@ -4,7 +4,7 @@ title: Funnel Spec — Funnel 03
 owner: ML1
 status: planned
 created_date: 2026-02-25
-last_updated: 2026-04-09
+last_updated: 2026-05-13
 tags: []
 ---
 
@@ -46,6 +46,21 @@ Excludes:
 - Retail crypto traders
 - Casual informational seekers
 - Pure litigation-only matters
+
+## Particularly Interesting Infrastructure Themes
+
+The following themes are particularly interesting for Funnel 3 targeting, listening, content, and offer development. They should be treated as scenario and market-intelligence themes, not as standalone approved offers:
+
+- **Trade Finance** -- LC digitization, documentary collections, receivables financing.
+- **Supply Chain Finance (SCF)** -- buyer-led payables financing / dynamic discounting.
+- **Treasury-as-a-Service (TaaS)** -- cash positioning, liquidity, FX, virtual accounts, payment orchestration.
+- **Stablecoin Treasury-as-a-Service** -- stablecoin liquidity, treasury operations, settlement, reserves, custody, on/off-ramp orchestration, and cross-border money movement.
+- **Payments-as-a-Service (PaaS)** -- APIs for pay-ins, payouts, wallets, acquiring.
+- **Banking-as-a-Service (BaaS)** -- regulated banking rails exposed via APIs.
+- **Embedded Finance** -- financing/payments embedded into non-financial platforms.
+- **Cash Management Infrastructure** -- sweeping, pooling, reconciliation, multi-bank connectivity.
+
+These themes are especially useful where the matter combines financial-infrastructure architecture, funds flow, regulated perimeter questions, banking or payment rails, and commercial responsibility allocation.
 
 ## Entry Channel(s)
 
