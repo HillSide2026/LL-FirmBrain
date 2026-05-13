@@ -1,7 +1,7 @@
 # PROJECT PRIORITY MATRIX
 
-- Generated: 2026-05-09T11:03:13+00:00
-- Run ID: RUN-2026-05-09-LL-PORTFOLIO-AGENTS-110313Z
+- Generated: 2026-05-13T15:00:25+00:00
+- Run ID: RUN-2026-05-13-LL-PORTFOLIO-AGENTS-150025Z
 
 > Advisory output. ML1 approval remains required for decisions.
 ## Priority Matrix
@@ -9,9 +9,9 @@
 | Rank | Project | Priority Score | Health | Relevant Open Gates | Next Focus |
 | --- | --- | --- | --- | --- | --- |
 | 1 | LLP-037 | 27 | at-risk | 6 | Complete stage-2 planning packet |
-| 2 | LLP-039 | 26 | at-risk | 8 | Complete stage-2 planning packet |
+| 2 | LLP-039 | 22 | at-risk | 6 | Complete stage-2 planning packet |
 | 3 | LLP-038 | 17 | at-risk | 7 | Complete initiation packet |
-| 4 | LLP-001 | 0 | on-track | 0 | Hold in Initiating until ML1 review |
+| 4 | LLP-001 | 0 | on-track | 0 | Advance to next gated artifact set |
 | 5 | LLP-002 | 0 | on-track | 0 | Hold in Initiating until ML1 review |
 | 6 | LLP-003 | 0 | on-track | 0 | Hold in Initiating until ML1 review |
 | 7 | LLP-004 | 0 | on-track | 0 | Advance to next gated artifact set |
