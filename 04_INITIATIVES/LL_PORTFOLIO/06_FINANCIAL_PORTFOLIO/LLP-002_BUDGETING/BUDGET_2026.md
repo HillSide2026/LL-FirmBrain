@@ -4,7 +4,7 @@ title: LL Budget 2026 — Assumptions and Scenarios
 owner: ML1
 status: draft
 created_date: 2025-11-25
-last_updated: 2026-03-22
+last_updated: 2026-05-13
 source: 2026 LAWCORP BUDGET Scenario 1 - Assumption.pdf
 tags: [budget, financial, 2026]
 ---
@@ -63,6 +63,28 @@ Owner salary remains fixed at $72k regardless of scenario. The current forward-l
 - Scenario 1 acquisition ceiling is $16,000 — F01 spend alone is at or above the Scenario 1 acquisition budget ceiling
 - Scenario 2–3 ceilings ($18,000–$25,000) provide some room for F02 build costs and referral network development alongside F01
 
+## July 2026 Acquisition Budget Rule
+
+Effective 2026-07-01:
+
+- `acquisition` is the combined budget category for marketing + sales spend
+- LLP-001 should track actual acquisition spend as historical fact under one
+  governed acquisition project / program classification while preserving
+  source-level marketing / sales detail where available
+- LLP-002 should treat that LLP-001 actuals feed as the canonical source for
+  acquisition-budget pacing and variance review
+
+### Budgeting implication
+
+- the existing annual client-acquisition ranges above remain the current
+  scenario anchor
+- the specific July-December 2026 acquisition budget envelope should be set
+  only after LLP-001 provides January-June actuals and the combined acquisition
+  baseline can be reviewed by ML1
+- until a narrower decision is recorded, acquisition budget review should be
+  done at the combined category level first, with marketing and sales viewed as
+  subcomponents rather than separate top-line budgets
+
 **Owner total compensation as % of revenue:**
 - At $200k revenue: 40% of revenue to owner compensation
 - At $225k revenue: 36%
@@ -80,5 +102,7 @@ Total owner compensation is modeled as $80k regardless of scenario, split as $72
 **Key open items (not in source document):**
 - Actual 2025 revenue vs. these scenario targets — needed to calibrate which scenario is realistic
 - F02 build costs (landing page, GHL config) — likely absorbed within client acquisition budget
+- January-June 2026 actual acquisition spend across marketing + sales — needed
+  to set the July-December acquisition budget envelope
 - Setter and senior lawyer costs — would increase Direct Cost / COGS materially; not yet modeled
 - The exact reconciliation rule that credits Andersen to Levine Law in the operating picture while preserving entity-level cash receipt in `17513721 Canada Inc`

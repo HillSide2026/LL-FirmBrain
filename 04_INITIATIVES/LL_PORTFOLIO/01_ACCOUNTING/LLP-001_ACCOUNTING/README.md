@@ -4,7 +4,7 @@ title: LLP-001_ACCOUNTING — Accounting Operations
 owner: ML1
 status: on track
 created_date: 2026-02-26
-last_updated: 2026-03-19
+last_updated: 2026-05-13
 tags: []
 ---
 
@@ -38,7 +38,15 @@ Govern the accounting fact layer for Levine Law so booked transactions, reconcil
 - `initiation/STAKEHOLDERS.md`
 - `initiation/RISK_SCAN.md`
 - `initiation/APPROVAL_RECORD.md`
+- `planning/README.md`
+- `planning/SCOPE_STATEMENT.md`
+- `planning/PROJECT_PLAN.md`
+- `planning/DEPENDENCIES.md`
+- `planning/RISK_REGISTER.md`
+- `planning/METRICS.md`
 
 ## Approval State
 
-**ACTIVE / INITIATING** — Accounting work is active and on track; the governed initiation packet is now formalized.
+**ACTIVE / PLANNING** — Initiation is approved, the scope boundary is clarified,
+and the canonical planning packet is now in place. Execution remains gated
+pending a later ML1 decision.
