@@ -1,59 +1,14 @@
 # Inbox State Violations
 
-Generated at: 2026-05-09T21:00:15.976834+00:00
-Run ID: triage-intraday-20260509-210005
+Generated at: 2026-05-15T12:00:18.254232+00:00
+Run ID: triage-morning-20260515-120003
 
 Threads carrying INBOX and an inbox-exit state label simultaneously.
 Invalid per POL-042 §4. Requires ML1 review — no auto-resolution.
 
 | Thread ID | Invalid Label |
 | --- | --- |
-| 19dca4dd3d81887f | 50_Calendar |
-| 19dca24be254366a | 50_Calendar |
-| 19dca170e9e1a745 | 50_Calendar |
-| 19dca0de593379f4 | 50_Calendar |
 | 19dc9726f33f99ff | 50_Calendar |
-| 19dc113e60149ce1 | 50_Calendar |
-| 19dc0f853b27fd3d | 50_Calendar |
-| 19dc0c17b2097e4c | 50_Calendar |
-| 19dc09843ffe0e86 | 50_Calendar |
-| 19dc06f340a352f3 | 50_Calendar |
-| 19dc0012fc903981 | 50_Calendar |
-| 19dbfca8c0f9f767 | 50_Calendar |
-| 19dbfa15f5c32192 | 50_Calendar |
-| 19dbf8a64c509cad | 50_Calendar |
-| 19dbc24b960fa368 | 50_Calendar |
-| 19dbbed64f3ff913 | 50_Calendar |
-| 19dbc08f78b6768d | 50_Calendar |
-| 19dbbd24127bb2a3 | 50_Calendar |
-| 19dbbd1eaf9c4686 | 50_Calendar |
-| 19dbb9af6a36aa38 | 50_Calendar |
-| 19dbba8d493d737f | 50_Calendar |
-| 19dbb71c7be38e55 | 50_Calendar |
-| 19dbb7fd0484002a | 50_Calendar |
-| 19dbb48f63e935f2 | 50_Calendar |
-| 19dbb11b1294fcd4 | 50_Calendar |
-| 19dbadb2daed2e54 | 50_Calendar |
-| 19dbadaa95d79bcf | 50_Calendar |
-| 19dbaa4023e1f9bb | 50_Calendar |
-| 19dba96669a683cd | 50_Calendar |
-| 19dbab17bf76c1b7 | 50_Calendar |
-| 19dba9abb3504f89 | 50_Calendar |
-| 19dba6d1d30b48ee | 50_Calendar |
-| 19dba63e3e29c665 | 50_Calendar |
-| 19db6fe1461fe089 | 50_Calendar |
-| 19db6c740bb0ba1c | 50_Calendar |
-| 19db6e28ef2fa8f6 | 50_Calendar |
-| 19db6ab92dbc8580 | 50_Calendar |
-| 19db6abae42c63d3 | 50_Calendar |
-| 19db674fa5ccc76f | 50_Calendar |
-| 19db6829fead3e79 | 50_Calendar |
-| 19db64bae5b64483 | 50_Calendar |
-| 19db659766099b06 | 50_Calendar |
-| 19db6225558caca9 | 50_Calendar |
-| 19db5eb970b2b32a | 50_Calendar |
-| 19db5b48e8651024 | 50_Calendar |
-| 19db5b481edac05d | 50_Calendar |
 | 19db57d943b70b42 | 50_Calendar |
 | 19db57dab70a8eec | 50_Calendar |
 | 19db5a6989f45ec2 | 50_Calendar |
@@ -103,7 +58,6 @@ Invalid per POL-042 §4. Requires ML1 review — no auto-resolution.
 | 19db2c9de1d1fd5d | 90_Archive |
 | 19dabd3e1a238e19 | 90_Archive |
 | 19dabc4b3a31d3d4 | 90_Archive |
-| 19dabafebafd1bbd | 90_Archive |
 | 19dabad94e9b3c2c | 90_Archive |
 | 19dab0b1137d181a | 90_Archive |
 | 19da48f33ef34a53 | 90_Archive |
