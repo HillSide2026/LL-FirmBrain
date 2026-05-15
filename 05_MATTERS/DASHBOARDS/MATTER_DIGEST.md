@@ -1,6 +1,18 @@
 # Firm Matter Digest
 
-Generated at: 2026-05-09T11:03:00Z
+Generated at: 2026-05-15T00:47:50Z
+
+## Role
+
+This is a system tracking and visibility artifact for ML1.
+
+Doctrine source: `repo://00_SYSTEM/matters/MATTER_TASK_AND_DASHBOARD_DOCTRINE.md`.
+
+It answers: what matters must be handled, based on emails, calendar, SharePoint, and Clio / Lexaro signals.
+
+It does not answer: what exact legal steps must be taken, whether ML1 has failed to do something, whether a draft is substantively good, or what the actual next legal step is. Those require looking at the matter folder, recent emails, attachments, live client context, and ML1 judgment.
+
+Use `ML1 monitoring point` for a matter-linked signal that ML1 must keep visible, but where the exact legal step still requires matter-folder, email-thread, attachment, client-context, or ML1 judgment.
 
 ## Summary
 - Moved matters: 0
@@ -25,6 +37,9 @@ Generated at: 2026-05-09T11:03:00Z
 ## Operational Gaps (Not automatic ML1 review)
 - ML Active matters missing service definitions: 13
 - SharePoint unmapped items: 50
+
+## Manual ML1 Monitoring Overlay
+- Standard delivery review: `repo://05_MATTERS/DASHBOARDS/STANDARD_MATTER_REVIEW_2026-05-13.md`
 
 ## ML1 Visibility Context
 - Taxonomy contract: `repo://00_SYSTEM/CONFIG/matter_delivery_taxonomy.yml`

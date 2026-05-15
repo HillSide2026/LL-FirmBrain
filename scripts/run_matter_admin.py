@@ -2389,6 +2389,17 @@ def write_matter_index(
         f"Generated at: {generated_at}",
         f"Connector source: `{source}`",
         "",
+        "## Role",
+        "",
+        "This is a system tracking and visibility artifact for ML1.",
+        "",
+        "Doctrine source: `repo://00_SYSTEM/matters/MATTER_TASK_AND_DASHBOARD_DOCTRINE.md`.",
+        "",
+        "It answers: what matters exist, how are they classified, and where do we look next?",
+        "",
+        "It does not answer: what exact legal steps must be taken, whether ML1 has failed to do something, "
+        "whether a draft is substantively good, or what the actual next legal step is.",
+        "",
     ]
 
     table = format_table(
@@ -3201,6 +3212,21 @@ def build_digest(
         "",
         f"Generated at: {generated_at}",
         "",
+        "## Role",
+        "",
+        "This is a system tracking and visibility artifact for ML1.",
+        "",
+        "Doctrine source: `repo://00_SYSTEM/matters/MATTER_TASK_AND_DASHBOARD_DOCTRINE.md`.",
+        "",
+        "It answers: what matters must be handled, based on emails, calendar, SharePoint, and Clio / Lexaro signals.",
+        "",
+        "It does not answer: what exact legal steps must be taken, whether ML1 has failed to do something, "
+        "whether a draft is substantively good, or what the actual next legal step is. Those require looking at "
+        "the matter folder, recent emails, attachments, live client context, and ML1 judgment.",
+        "",
+        "Use `ML1 monitoring point` for a matter-linked signal that ML1 must keep visible, but where the exact "
+        "legal step still requires matter-folder, email-thread, attachment, client-context, or ML1 judgment.",
+        "",
         "## Summary",
         f"- Moved matters: {len(moved)}",
         f"- {active_label} matters: {len(delivery_active_rows)}",
@@ -3239,6 +3265,16 @@ def build_digest(
         lines.extend(operational_gap_lines)
     else:
         lines.append("- None")
+
+    standard_review_overlays = sorted(DASHBOARD_DIR.glob("STANDARD_MATTER_REVIEW_*.md"), reverse=True)
+    if standard_review_overlays:
+        lines.extend(
+            [
+                "",
+                "## Manual ML1 Monitoring Overlay",
+                f"- Standard delivery review: `repo://{display_path(standard_review_overlays[0])}`",
+            ]
+        )
 
     lines.extend(
         [

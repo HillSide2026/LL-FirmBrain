@@ -1,7 +1,17 @@
 # Matter Index
 
-Generated at: 2026-05-09T11:03:00Z
+Generated at: 2026-05-15T00:47:50Z
 Connector source: `cache:cache/clio_matters.json (repo_fallback:05_MATTERS)`
+
+## Role
+
+This is a system tracking and visibility artifact for ML1.
+
+Doctrine source: `repo://00_SYSTEM/matters/MATTER_TASK_AND_DASHBOARD_DOCTRINE.md`.
+
+It answers: what matters exist, how are they classified, and where do we look next?
+
+It does not answer: what exact legal steps must be taken, whether ML1 has failed to do something, whether a draft is substantively good, or what the actual next legal step is.
 
 | Matter Number | Name | Status | Category | Delivery | Fulfillment | Services | Responsible | Client | Source Pointer |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

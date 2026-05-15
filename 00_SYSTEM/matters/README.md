@@ -22,3 +22,8 @@ aliases (e.g., Clio matter IDs, Gmail thread IDs, SharePoint folder IDs).
 
 ## Canonical File
 - `matter_identity_map.yaml`
+
+## Doctrine
+- `MATTER_TASK_AND_DASHBOARD_DOCTRINE.md` defines `ML1 Task`, `Legal Task`,
+  `LL Task`, `ML1 monitoring point`, and the interpretation rules for the Matter
+  Index and Matter Digest.
