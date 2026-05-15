@@ -1,7 +1,7 @@
 # Inbox State Violations
 
-Generated at: 2026-05-15T12:00:18.254232+00:00
-Run ID: triage-morning-20260515-120003
+Generated at: 2026-05-15T13:00:33.250816+00:00
+Run ID: triage-intraday-20260515-130006
 
 Threads carrying INBOX and an inbox-exit state label simultaneously.
 Invalid per POL-042 §4. Requires ML1 review — no auto-resolution.

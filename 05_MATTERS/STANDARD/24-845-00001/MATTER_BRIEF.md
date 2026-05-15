@@ -25,11 +25,12 @@ STAR 333 SPORTS INC. appears to be a standard corporate matter centered on extra
 ## Current posture
 - Delivery status: Standard
 - Fulfillment status: keep in view
-- Immediate task signal: proceed with extra-provincial BC registration
+- 2026-05-15 ML1 update: the previously tracked STAR 333 corporate items,
+  including the BC extra-provincial registration task, should be treated as
+  done for today's ML1 to-do purposes.
 
 ## Near-term milestones
-- Confirm registration package and filing path.
-- Advance the BC extra-provincial registration step.
+- Monitor only if new corporate correspondence arrives.
 
 ## Open questions
 - Whether a fuller service definition should be added to `MATTER.yaml`
@@ -37,3 +38,5 @@ STAR 333 SPORTS INC. appears to be a standard corporate matter centered on extra
 
 ## Change log
 - 2026-03-28 — Initial brief added from tracker and SharePoint evidence
+- 2026-05-15 — ML1 confirmed prior STAR 333 corporate to-do items are done for
+  today's tracking purposes

@@ -4,6 +4,7 @@ title: Next Actions -- Subway Transfer -- 2026-05-13
 owner: ML1
 status: draft
 created_date: 2026-05-13
+last_updated: 2026-05-15
 tags: [matter, 26-1631-00001, subway, transfer, follow-up]
 ---
 
@@ -44,6 +45,11 @@ Created a Gmail draft reply to Tejvir confirming receipt and asking for an updat
 - whether Subway has provided any target transfer or closing date.
 
 Gmail draft id: `r6022003887956625201`.
+
+### 2026-05-15 ML1 update
+
+ML1 has responded to Tejvir. This item should no longer be treated as an
+unanswered today-task for ML1.
 
 ## Remaining legal/admin checks
 
