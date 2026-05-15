@@ -14,7 +14,7 @@ ML1 – Final decision-maker
 - `LLP-033 Associate Lawyer` as a related leverage/staffing project
 
 ## Financial / Decision Support Stakeholders
-- `06_FINANCIAL_PORTFOLIO`
+- `01_FINANCIAL_MANAGEMENT`
 - `LLM-003 CFO Agent` advisory lane for staffing-economics inputs
 
 Note: No client-facing authority is granted at initiation stage.

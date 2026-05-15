@@ -26,7 +26,7 @@ not merely planning-stage checklist items.
 | Practice-area standardization | Delegation is not viable without templates, playbooks, review logic, and legal standards that make the work reproducible | `02_PRACTICE_AREAS` |
 | A workable supervision model | The role fails if ML1 cannot supervise without becoming the new bottleneck or exposing the firm to unacceptable risk | `LLP-034_PARTNER_SUPERVISION` + `04_RISK` + `LLP-033` |
 | A recruitable mid-level lawyer market | The project depends on being able to find a technically competent lawyer who also fits Levine Law standards and operating style | `LLP-033` |
-| Economic viability | Delegated delivery must remain financially attractive after lawyer cost, direct matter cost, acquisition cost, and supervision burden | `LLP-030` Financial Model + `06_FINANCIAL_PORTFOLIO` |
+| Economic viability | Delegated delivery must remain financially attractive after lawyer cost, direct matter cost, acquisition cost, and supervision burden | `LLP-030` Financial Model + `01_FINANCIAL_MANAGEMENT` |
 | Reliable underlying data | The project depends on billing, collection, source-attribution, and cost data being good enough to evaluate the model honestly | Clio + `LLP-001` + marketing records |
 | An operational landing zone | If the role is ever activated, onboarding, workflow, and QA discipline need a real operating home | `03_FIRM_OPERATIONS` |
 
@@ -35,7 +35,7 @@ not merely planning-stage checklist items.
 - `LLP-033` owns the associate-lawyer concept, activation logic, and role
   packet.
 - `LLP-030` owns the firm-level strategy and timing posture.
-- `06_FINANCIAL_PORTFOLIO` owns the economics modeling inputs, not the hiring
+- `01_FINANCIAL_MANAGEMENT` owns the economics modeling inputs, not the hiring
   decision itself.
 - `LLP-034` and `04_RISK` own the supervision and control architecture that
   make the role defensible.

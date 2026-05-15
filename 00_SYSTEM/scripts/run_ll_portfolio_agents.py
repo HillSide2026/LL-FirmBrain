@@ -389,6 +389,8 @@ def infer_project_type_from_path(relative_path: str) -> str | None:
     if (
         relative_path.startswith("04_RISK/")
         or relative_path.startswith("06_FINANCIAL_PORTFOLIO/")
+        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-002_BUDGETING")
+        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-044_FINANCE")
         or relative_path.startswith("08_MARKETING/")
         or relative_path.startswith("09_SERVICE_MANAGEMENT")
         or relative_path == "03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT"
@@ -397,6 +399,7 @@ def infer_project_type_from_path(relative_path: str) -> str | None:
         return "Management Project"
     if (
         relative_path.startswith("01_ACCOUNTING/")
+        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-001_ACCOUNTING")
         or relative_path.startswith("03_FIRM_OPERATIONS/")
         or relative_path.startswith("05_MATTER_DOCKETING/")
     ):

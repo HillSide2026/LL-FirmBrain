@@ -83,7 +83,7 @@ Outputs may migrate to:
 
 - `08_MARKETING`
 - `03_FIRM_OPERATIONS`
-- `06_FINANCIAL_PORTFOLIO`
+- `01_FINANCIAL_MANAGEMENT`
 - `09_SERVICE_MANAGEMENT`
 
 No operational promotion without explicit ML1 approval.

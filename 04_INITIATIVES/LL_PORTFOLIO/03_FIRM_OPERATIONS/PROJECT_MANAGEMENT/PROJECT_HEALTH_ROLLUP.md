@@ -1,7 +1,7 @@
 # Project Health Rollup
 
-- Generated: 2026-05-13T15:00:25+00:00
-- Run ID: RUN-2026-05-13-LL-PORTFOLIO-AGENTS-150025Z
+- Generated: 2026-05-15T01:18:43+00:00
+- Run ID: RUN-2026-05-15-LL-PORTFOLIO-AGENTS-011843Z
 
 > Advisory output. ML1 approval remains required for decisions.
 ## Project Health Rollup
@@ -9,6 +9,8 @@
 | Project | Health | Relevant Gate Gaps | Planning Gaps | Measurement Gaps |
 | --- | --- | --- | --- | --- |
 | LLP-001 | on-track | 0 | 0 | 0 |
+| LLP-002 | on-track | 0 | 0 | 0 |
+| LLP-044 | on-track | 0 | 0 | 0 |
 | LLP-015 | on-track | 0 | 0 | 0 |
 | LLP-035 | on-track | 0 | 0 | 0 |
 | LLP-036 | on-track | 0 | 0 | 0 |
@@ -25,7 +27,6 @@
 | LLP-003 | on-track | 0 | 0 | 0 |
 | LLP-009 | on-track | 0 | 0 | 0 |
 | LLP-010 | on-track | 0 | 0 | 0 |
-| LLP-002 | on-track | 0 | 0 | 0 |
 | LLP-023 | on-track | 0 | 0 | 0 |
 | LLP-024 | on-track | 0 | 0 | 0 |
 | LLP-030 | on-track | 0 | 0 | 0 |
@@ -53,8 +54,8 @@
 
 ## Summary
 
-- Projects reviewed: 42
-- On-track: 39
+- Projects reviewed: 43
+- On-track: 40
 - Watch: 0
 - At-risk: 3
-- Average stage-2 readiness: 31%
+- Average stage-2 readiness: 30%

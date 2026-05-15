@@ -12,6 +12,20 @@ need human review, and decide what to look at next. ML2 / Claude may use them
 to orient review, but must not treat the dashboard labels as conclusions about
 what ML1 has or has not done.
 
+## Relationship to LL Portfolio
+
+LL is organized at the top level around the numbered `LL_PORTFOLIO` program
+structure, not around individual matters.
+
+These matter dashboards provide the fast drill-down layer from that top-level
+LL operating picture into the matter portfolio. Use them when ML1 needs to
+shift from program/project review into client-service urgency, fulfillment
+status, matter handling, WIP conversion, lawyer task load, or matter-level
+bottlenecks.
+
+The matter portfolio is a control surface inside the LL operating system. It is
+not a replacement for the `LL_PORTFOLIO` program structure.
+
 ## Role of the matter index
 
 `MATTER_INDEX.md` is the canonical matter tracking table. It shows the current

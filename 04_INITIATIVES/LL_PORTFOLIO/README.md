@@ -4,7 +4,7 @@ title: LL_PORTFOLIO — Levine Law Workstream Registry
 owner: ML1
 status: draft
 created_date: 2026-02-08
-last_updated: 2026-05-13
+last_updated: 2026-05-15
 tags: []
 ---
 
@@ -59,6 +59,28 @@ The intended review hierarchy for Levine Law is:
 That means matters sit inside the LL operating picture. They are not a
 separate peer portfolio even though their source-of-truth files live under
 `05_MATTERS/`.
+
+## Program-Led / Matter-Aware Review Rule
+
+LL must be organized around the numbered `LL_PORTFOLIO` program structure, not
+around individual matters.
+
+However, ML1 must be able to shift quickly from the LL portfolio level to the
+matter portfolio level whenever the operating question becomes delivery,
+client-service urgency, WIP conversion, matter quality, or matter-level
+capacity.
+
+Use the following transition:
+
+1. Start at `LL_PORTFOLIO_REVIEW.md` for the top-level LL operating picture.
+2. Identify the relevant program and project layer first.
+3. Shift to `../../05_MATTERS/DASHBOARDS/MATTER_DIGEST.md` when ML1 needs to see
+   which matters require handling or checking.
+4. Shift to `../../05_MATTERS/DASHBOARDS/MATTER_INDEX.md` when ML1 needs the full
+   matter roster, classification, and source-folder map.
+
+The matter portfolio is therefore a drill-down control surface inside the LL
+operating system. It is not the organizing spine of LL itself.
 
 ## Project Identity (Canonical)
 
@@ -149,12 +171,13 @@ the Planning -> Executing gate decision, it should be merged or removed.
 ```
 LL_PORTFOLIO/
 ├── README.md                    ← You are here (authoritative)
-├── 01_ACCOUNTING/               # Accounting: bookkeeping, management accounting, budgeting, financial risk, cash/collections
+├── 01_FINANCIAL_MANAGEMENT/     # Accounting, management accounting, budgeting, finance, cash/collections
+├── 01_ACCOUNTING/               # Deprecated transition pointer
 ├── 02_PRACTICE_AREAS/           # Durable legal operating knowledge
 ├── 03_FIRM_OPERATIONS/          # How the firm runs
 ├── 04_RISK/                     # Defensive clarity
 ├── 05_MATTER_DOCKETING/         # Delivery overlay for matters
-├── 06_FINANCIAL_PORTFOLIO/      # Finance: capital, liabilities, strategic banking, tax interfaces, transactions
+├── 06_FINANCIAL_PORTFOLIO/      # Deprecated transition pointer
 ├── 07_GROWTH_PROJECTS/          # Change and evolution
 ├── 08_MARKETING/                # Pre-matter pipeline (leads -> conversion; handoff enters fulfillment onboarding)
 └── 09_SERVICE_MANAGEMENT/       # Service tier management across matters
@@ -164,10 +187,32 @@ LL_PORTFOLIO/
 
 You must not infer, reorder, merge, or repurpose these folders.
 
-## Review Support Artifacts Outside the 9 Numbered Programs
+## Financial Management Consolidation
 
-These support review and synthesis but are not part of the 9 numbered
-program directories:
+ML1 approved consolidation of `01_ACCOUNTING` and `06_FINANCIAL_PORTFOLIO`
+into a single `01_FINANCIAL_MANAGEMENT` program.
+
+Financial management is now the parent domain while preserving internal
+distinctions among bookkeeping, management accounting, budgeting, financial
+risk, cash/collections, and finance.
+
+Migration artifact:
+
+- `FINANCIAL_MANAGEMENT_CONSOLIDATION_PLAN.md`
+
+Canonical folder:
+
+- `01_FINANCIAL_MANAGEMENT/`
+
+Deprecated transition pointers:
+
+- `01_ACCOUNTING/`
+- `06_FINANCIAL_PORTFOLIO/`
+
+## Review Support Artifacts Outside the Numbered Programs
+
+These support review and synthesis but are not part of the numbered program
+directories:
 
 - `CHIEF_OF_STAFF/`
 - `LL_PROGRAM_SUMMARY_REPORT.md`
@@ -181,11 +226,11 @@ program directories:
 
 ## Portfolio Definitions
 
-### 01_ACCOUNTING (Accounting)
+### 01_FINANCIAL_MANAGEMENT (Financial Management)
 
-**Purpose:** Govern accounting across bookkeeping, management accounting, budgeting, financial risk, and cash/collections.
+**Purpose:** Govern accounting, management accounting, budgeting, financial risk, cash/collections, and finance within one financial-management program.
 
-**Characteristics:** Layered accounting domain; each artifact must label whether it is bookkeeping, management accounting, budgeting, financial risk, or cash/collections.
+**Characteristics:** Layered financial-management domain; each artifact must label whether it is bookkeeping, management accounting, budgeting, financial risk/cash/collections, or finance.
 
 | ALLOWED | PROHIBITED |
 |---------|------------|
@@ -195,8 +240,9 @@ program directories:
 | Invoices, payments, expense logs | Recommendations or optimization without explicit authority |
 | Management accounting: revenue security, recurring vs one-off, revenue timing, trust-funded vs unsecured AR, matter-level profitability, lawyer production, WIP conversion, collection reliability | Unsupported assumptions about the future |
 | Budgeting boundaries and controls | Treating budget outputs as operating decisions |
+| Finance: capital, liabilities, strategic banking, tax interfaces, major asset/liability decisions, investment/reserve policy, corporate finance, acquisition financing, partner/shareholder distributions | Treating finance models as decisions |
 
-**Rule:** Accounting artifacts may inform decisions, but bookkeeping, management accounting, budgeting, financial risk, and cash/collections must be labelled and not collapsed into one another.
+**Rule:** Financial-management artifacts may inform decisions, but bookkeeping, management accounting, budgeting, financial risk/cash/collections, and finance must be labelled and not collapsed into one another.
 
 ---
 
@@ -247,31 +293,6 @@ program directories:
 | Delivery-related lawyer to-dos | Pricing, strategy, financial modeling |
 | Email-to-operations-queue event mapping | Modifying Clio source-of-truth fields |
 | Suggested operations queue transitions (ML1 approval required) | Auto-applying State/Period changes without authorization |
-
----
-
-### 06_FINANCIAL_PORTFOLIO (Finance)
-
-**Purpose:** Govern non-operating finance matters: capital, liabilities, strategic banking, tax-planning interfaces, major asset/liability decisions, investment/reserve policy, corporate finance, acquisition financing, and partner/shareholder distribution structures.
-
-**Characteristics:** Strategic finance domain. This is distinct from Accounting, which governs bookkeeping, management accounting, budgeting, financial risk, and cash/collections.
-
-| ALLOWED | PROHIBITED |
-|---------|------------|
-| External financing, including shareholder funding | Bookkeeping records |
-| Debt facilities, including credit cards and credit lines | Management accounting revenue classification |
-| Tax-planning interfaces, including pension and health insurance | Operating cash/collections workflow |
-| Major asset/liability decisions, including leases | Matter-level WIP conversion analysis |
-| Strategic banking relationships | Budget baseline control unless expressly cross-referenced |
-| Investment / reserve policy | Treating finance models as decisions |
-| Corporate finance decisions, including property acquisition through LawCo | Auto-feeding outputs into operations or sales |
-| M&A or acquisition financing, including buying a book of business |  |
-| Partner/shareholder distributions, including recruiting a lawyer with a book of business |  |
-
-**Critical Boundary:**
-- Accounting governs the operating money system.
-- Finance governs capital, balance-sheet structure, strategic banking, tax interfaces, and major transactions.
-- Finance artifacts are advisory unless ML1 approves a specific decision.
 
 ---
 

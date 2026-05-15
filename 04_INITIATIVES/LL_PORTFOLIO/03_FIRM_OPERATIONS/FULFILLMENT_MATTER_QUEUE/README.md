@@ -260,7 +260,7 @@ It records **conditions**, not opinions.
   * May require checks at certain states
   * Cannot change states
 
-* **Financial Portfolio (`06_FINANCIAL_PORTFOLIO`)**
+* **Financial Portfolio (`01_FINANCIAL_MANAGEMENT`)**
 
   * May analyze time-in-state or period patterns
   * May not define, modify, or advance states or periods

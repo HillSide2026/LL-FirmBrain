@@ -1,12 +1,12 @@
 # WIP LOAD ANALYSIS
 
-- Generated: 2026-05-13T15:00:25+00:00
-- Run ID: RUN-2026-05-13-LL-PORTFOLIO-AGENTS-150025Z
+- Generated: 2026-05-15T01:18:43+00:00
+- Run ID: RUN-2026-05-15-LL-PORTFOLIO-AGENTS-011843Z
 
 > Advisory output. ML1 approval remains required for decisions.
 ## WIP Load Analysis
 
-- Active projects (stage >=1): 41
+- Active projects (stage >=1): 42
 - At-risk active projects: 2
 - Watch projects: 0
-- Portfolio planning gap total: 157
+- Portfolio planning gap total: 163

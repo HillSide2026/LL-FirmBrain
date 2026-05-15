@@ -43,7 +43,7 @@ Final approval authority: ML1.
 Outputs may migrate to:
 - 03_FIRM_OPERATIONS (monitoring cadence)
 - 04_RISK (oversight controls)
-- 06_FINANCIAL_PORTFOLIO (capacity modeling inputs)
+- 01_FINANCIAL_MANAGEMENT (capacity modeling inputs)
 - dependent staffing projects such as `LLP-032` and `LLP-033`
 
 No enforcement permitted without explicit ML1 approval.

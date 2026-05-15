@@ -1,7 +1,7 @@
 # PROJECT PRIORITY MATRIX
 
-- Generated: 2026-05-13T15:00:25+00:00
-- Run ID: RUN-2026-05-13-LL-PORTFOLIO-AGENTS-150025Z
+- Generated: 2026-05-15T01:18:43+00:00
+- Run ID: RUN-2026-05-15-LL-PORTFOLIO-AGENTS-011843Z
 
 > Advisory output. ML1 approval remains required for decisions.
 ## Priority Matrix
@@ -50,3 +50,4 @@
 | 40 | LLP-041 | 0 | on-track | 0 | Hold in Initiating until ML1 review |
 | 41 | LLP-042 | 0 | on-track | 0 | Hold in Initiating until ML1 review |
 | 42 | LLP-043 | 0 | on-track | 0 | Hold in Initiating until ML1 review |
+| 43 | LLP-044 | 0 | on-track | 0 | Hold in Initiating until ML1 review |

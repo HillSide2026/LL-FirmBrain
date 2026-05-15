@@ -35,4 +35,4 @@ Outputs migrate to:
 - 03_FIRM_OPERATIONS (role doctrine)
 - 04_RISK (supervision controls)
 - 02_PRACTICE_AREAS (delegation rules)
-- 06_FINANCIAL_PORTFOLIO (cost structure modeling)
+- 01_FINANCIAL_MANAGEMENT (cost structure modeling)

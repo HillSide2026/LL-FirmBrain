@@ -13,7 +13,7 @@ tags: [llp-030, financial-model, doctrine]
 **Status**: Stub — not yet drafted. Requires matter value floor and conversion rate data validation.
 
 This document consumes the current owner compensation target defined in
-`04_INITIATIVES/LL_PORTFOLIO/06_FINANCIAL_PORTFOLIO/LLP-002_BUDGETING/BUDGET_2026.md`.
+`04_INITIATIVES/LL_PORTFOLIO/01_FINANCIAL_MANAGEMENT/LLP-002_BUDGETING/BUDGET_2026.md`.
 
 Operational Andersen matters are tracked inside Levine Law because they follow
 the same time-for-money model. In the 2026 operating picture, the Andersen

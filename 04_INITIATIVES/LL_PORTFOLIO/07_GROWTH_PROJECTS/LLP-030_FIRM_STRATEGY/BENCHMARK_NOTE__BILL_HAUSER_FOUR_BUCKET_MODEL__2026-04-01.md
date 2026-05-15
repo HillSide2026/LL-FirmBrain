@@ -34,7 +34,7 @@ For Levine Law, these map as follows.
 | Lead Generation | Demand creation, visibility, channel activation, lead capture | `08_MARKETING`, `LLP-011`, `LLP-012`, `LLP-013`, `LLP-025`, `LLP-026` |
 | Intake | Qualification, consults, conversion discipline, onboarding handoff | `LLP-014`, `LLP-027`, `LLP-028`, `LLP-029`, handoff to `LLP-004` |
 | Self-Managing Team | Delivery system, matter execution capacity, supervision, and service operations | `03_FIRM_OPERATIONS`, `05_MATTER_DOCKETING`, `09_SERVICE_MANAGEMENT` |
-| Profits | Margin, retained earnings, owner-comp support, and reinvestment capacity | `LLP-002`, `LLP-030`, `01_ACCOUNTING`, `06_FINANCIAL_PORTFOLIO` |
+| Profits | Margin, retained earnings, owner-comp support, and reinvestment capacity | `LLP-002`, `LLP-030`, `01_FINANCIAL_MANAGEMENT`, `01_FINANCIAL_MANAGEMENT` |
 
 `02_PRACTICE_AREAS` and `04_RISK` support these categories but are not treated
 here as separate core economic buckets.

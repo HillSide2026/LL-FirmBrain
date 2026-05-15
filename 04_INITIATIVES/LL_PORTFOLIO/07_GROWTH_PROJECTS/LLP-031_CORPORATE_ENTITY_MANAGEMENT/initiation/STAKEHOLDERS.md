@@ -10,7 +10,7 @@ ML1 – Final decision-maker
 - `04_RISK` — controls and malpractice-exposure perspective
 
 ## Financial / Analytical Stakeholders
-- `06_FINANCIAL_PORTFOLIO`
+- `01_FINANCIAL_MANAGEMENT`
 - `LLM-003 CFO Agent` advisory lane for affordability and model sensitivity
 
 ## External Informational Stakeholders

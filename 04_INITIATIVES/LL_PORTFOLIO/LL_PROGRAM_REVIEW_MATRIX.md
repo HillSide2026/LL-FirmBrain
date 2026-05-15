@@ -41,24 +41,28 @@ Use the same five questions for every program:
 
 ## Program Matrix
 
+Consolidation note: `01_ACCOUNTING` and `06_FINANCIAL_PORTFOLIO` have been
+consolidated into `01_FINANCIAL_MANAGEMENT`. See
+`FINANCIAL_MANAGEMENT_CONSOLIDATION_PLAN.md`. The old folders are transition
+pointers only.
+
 | Program | Start Here | Primary Review Question | Useful Cross-Checks |
 | --- | --- | --- | --- |
-| `01_ACCOUNTING` | `01_ACCOUNTING/README.md` | Is accounting still confined to historical fact and kept separate from modeling? | `06_FINANCIAL_PORTFOLIO/README.md`, `LL_PROGRAM_SUMMARY_REPORT.md` |
+| `01_FINANCIAL_MANAGEMENT` | `01_FINANCIAL_MANAGEMENT/README.md` | Are accounting, management accounting, budgeting, cash/collections, and finance unified without collapsing their internal boundaries? | `LLP-001_ACCOUNTING`, `LLP-002_BUDGETING`, `LLP-044_FINANCE`, `LL_PROGRAM_SUMMARY_REPORT.md` |
 | `02_PRACTICE_AREAS` | `02_PRACTICE_AREAS/README.md` | Are the practice-area packets formalized enough to serve as governed operating knowledge? | `LL_PROGRAM_SUMMARY_REPORT.md`, packet READMEs under `LLP-015`, `LLP-035`, `LLP-036` |
 | `03_FIRM_OPERATIONS` | `03_FIRM_OPERATIONS/README.md` | Are the firm-running systems mature, current, and properly governed? | `PORTFOLIO_MANAGEMENT/`, `PORTFOLIO_GOVERNANCE/`, `PROJECT_MANAGEMENT/` |
 | `04_RISK` | `04_RISK/README.md` | Does the risk layer surface real defensive clarity or only placeholder structure? | `LLP-017`, `LLP-018`, `GOVERNANCE_COMPLIANCE_AUDIT.md` |
 | `05_MATTER_DOCKETING` | `05_MATTER_DOCKETING/README.md` | Is the matter-delivery overlay clear and separate from billing, intake, and accounting? | `LLP-003`, `LLP-009`, `LLP-010`, `PROJECT_HEALTH_ROLLUP.md` |
-| `06_FINANCIAL_PORTFOLIO` | `06_FINANCIAL_PORTFOLIO/README.md` | Are the financial models useful while staying non-authoritative? | `LLP-002_BUDGETING`, `01_ACCOUNTING/README.md`, `LLP-030` |
 | `07_GROWTH_PROJECTS` | `07_GROWTH_PROJECTS/README.md` | Which growth projects are real near-term operating bets versus placeholder future-state slots? | `LLP-023`, `LLP-024`, `LLP-030`, `LLP-031`, `LLP-032`, `LLP-033`, `LLP-034` |
 | `08_MARKETING` | `08_MARKETING/README.md` | Is the pre-matter pipeline sequencing coherent from funnel through intake handoff? | `LLP-011` to `LLP-029`, `PORTFOLIO_STATUS_DASHBOARD.md`, `ML1_DECISION_QUEUE.md` |
 | `09_SERVICE_MANAGEMENT` | `09_SERVICE_MANAGEMENT/README.md` | Is the service-tier cluster substantive enough to justify remaining active as separate packets? | `LLP-037` to `LLP-041`, `PROJECT_HEALTH_ROLLUP.md`, `GOVERNANCE_COMPLIANCE_AUDIT.md` |
 
 ## Program-Specific Review Notes
 
-### 01_ACCOUNTING
+### 01_FINANCIAL_MANAGEMENT
 
 Priority question:
-- is the accounting lane staying factual, or is it drifting into forecasting or strategic interpretation?
+- are the financial layers unified enough for ML1 review while still preserving the boundaries between bookkeeping, management accounting, budgeting, financial risk/cash/collections, and finance?
 
 ### 02_PRACTICE_AREAS
 
@@ -79,11 +83,6 @@ Priority question:
 
 Priority question:
 - is the docketing overlay practically supporting matter delivery without crossing into other administrative domains?
-
-### 06_FINANCIAL_PORTFOLIO
-
-Priority question:
-- are the models helping ML1 think, while still staying clearly separate from accounting facts and operating authority?
 
 ### 07_GROWTH_PROJECTS
 
