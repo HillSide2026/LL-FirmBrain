@@ -32,6 +32,7 @@ SMOKE_ENDPOINTS = [
     "/api/external/v1/matters",
     "/api/external/v1/clients",
     "/api/external/v1/tasks",
+    "/api/external/v1/documents",
 ]
 
 

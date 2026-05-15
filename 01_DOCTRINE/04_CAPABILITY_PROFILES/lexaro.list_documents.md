@@ -70,4 +70,4 @@ retrieved in Mode 1.
 - Credentials must be loaded from environment only.
 - Secrets must never appear in logs or output.
 - Retrieved data must include provenance block.
-- This capability is blocked pending resolution of Lexaro server-side bug (PRO-026 §6).
+- The Lexaro server-side bug (PRO-026 §6) is resolved as of 2026-05-15; this capability is unblocked.

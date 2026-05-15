@@ -12,9 +12,16 @@ tags: [granville, federal-msb, value-stack, payments]
 
 17409052 Canada Inc
 
-Granville is an internal tag for `17409052 Canada Inc`.
+Granville is the intended brand and marketing name for `17409052 Canada Inc`.
 
-The tag has no operational, legal, branding, or customer-facing significance.
+This is the name under which the business will likely be branded and marketed
+to customers and buyers. It is not yet the legal name of the entity and has no
+current operational or customer-facing presence, but it is the intended
+commercial identity.
+
+Domain availability using the word "Granville" is proving difficult — no
+suitable domain has been confirmed yet. This is an open item tied to the RPAA
+application domain requirement.
 
 `17409052 Canada Inc` is a federal company within the Matthew Holdings
 structure.
@@ -92,6 +99,12 @@ For the full build plan, see:
 **FINTRAC status:** application filed; awaiting registration.
 
 **RPAA status:** not yet filed.
+
+**Sale criteria:**
+- Layer 1 (minimum — hard requirement): FINTRAC MSB registration issued. Sale
+  can proceed once FINTRAC registration is in hand.
+- Layer 2 (value-add — not a hard blocker): RPAA registration complete.
+  Improves buyer value proposition but does not gate the sale.
 
 No current operating activity. Before launch, ML1 must confirm the final
 FINTRAC status, RPAA posture, AML program, and any required dormant-period or

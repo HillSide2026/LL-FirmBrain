@@ -5,7 +5,7 @@ owner: ML1
 status: draft
 created_date: 2026-05-15
 last_updated: 2026-05-15
-tags: [granville, federal-msb, product-software, mambu, toqio, crassula, sdk-finance, payments]
+tags: [granville, federal-msb, product-software, mambu, toqio, crassula, sdk-finance, finlego, payments]
 ---
 
 # 17409052 Canada Inc Product Software Candidates
@@ -35,6 +35,7 @@ No product software has been selected.
 | Crassula | White-label banking / BaaS / payment hub platform | White-label digital banking, e-wallet, payment hub, cards, FX, crypto, API, treasury, and reconciliation layer | Potentially strong fit for a buyer-facing 174 product stack because it appears to combine UI, back office, API, payment-provider connectors, and payment hub functions | Which modules are needed for a sale-readiness package? Does Crassula support pre-revenue / dormant MSB assets? What regulated-provider connectors are actually available to 174? What fees, minimums, implementation timeline, data portability, and change-of-control terms apply? | Contacted; awaiting response |
 | Finlego | White-label / BaaS platform | Product and payments infrastructure layer | To be confirmed from response | Modules available; pricing; EMI or bank dependency; data portability; buyer-transfer terms | Contacted; awaiting response |
 | SDK.finance | White-label fintech platform with source-code / SaaS options | E-wallet, neobank, PSP, payment processing, ledger, reconciliation, treasury orchestration, crypto-to-fiat, back-office, and API layer | Potentially strong for technical ownership and buyer diligence because source-code licensing may support customization and portability | Is source-code access useful or overkill for 174? What is the implementation burden? Which regulated integrations are included vs client-procured? Can the platform support MSB / EMI / PSP flows without 174 holding funds? What buyer-transfer rights apply? | Proposed candidate; not selected |
+| FinLego | Software provider — core banking and ledger platform; secondary capability to distribute EMI services | Core banking ledger layer; potentially EMI access as secondary path | Potentially relevant for 174's value stack. Core banking and ledger are directly relevant to a buyer-readable payments infrastructure package. EMI distribution capability is secondary but could simplify the safeguarding path. | What exactly does the core banking and ledger product cover? Can it support a pre-revenue / dormant MSB? What does EMI distribution look like — is it a referral, an agency arrangement, or a direct integration? What fees, minimums, implementation timeline, transferability, and change-of-control terms apply? | Meeting scheduled week of 2026-05-18; not yet assessed |
 
 ## Candidate Interpretation
 

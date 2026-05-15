@@ -52,6 +52,13 @@ Canada Inc` by documenting an EMI-led payment-account stack, a low-complexity
 funds-flow posture, a product-software path, and a compliance-software path.
 The entity is not intended to run significant funds before sale.
 
+**Minimum sale criterion:** FINTRAC MSB registration issued. Sale can proceed
+once FINTRAC registration is in hand.
+
+**Layer 2 (value-add, not a hard blocker):** RPAA registration. Completion of
+RPAA registration improves the value proposition to a buyer but is not required
+to close a sale.
+
 ## Notes
 
 - This project is linked to the Ontario MSB Corp entity branch.

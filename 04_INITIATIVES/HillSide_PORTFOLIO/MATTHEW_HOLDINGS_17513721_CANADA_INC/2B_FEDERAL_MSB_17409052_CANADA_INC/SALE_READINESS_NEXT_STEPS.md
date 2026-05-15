@@ -5,7 +5,7 @@ owner: ML1
 status: draft
 created_date: 2026-05-15
 last_updated: 2026-05-17
-tags: [granville, federal-msb, sale-readiness, rppa, emi, product-software, users]
+tags: [granville, federal-msb, sale-readiness, rpaa, emi, product-software, users]
 ---
 
 # 17409052 Canada Inc Sale-Readiness Next Steps
@@ -44,8 +44,9 @@ The current 174 product-software candidates are:
 | --- | --- | --- |
 | Mambu Payments / Payments Hub | No full public quote located. Public materials point to sales contact / payment transformation discussion. | Request pricing and implementation proposal. |
 | Toqio | No full public quote located. Public materials point to demo / sales discussion. | Request pricing and implementation proposal. |
-| Crassula | Public materials describe white-label banking, payment hub, connectors, and price-list functionality, but no complete vendor quote located. | Request module-specific quote and timeline. |
+| Crassula | Public materials describe white-label banking, payment hub, connectors, and price-list functionality, but no complete vendor quote located. **Meeting scheduled week of 2026-05-18.** | Attend meeting; capture pricing, modules, and implementation terms. |
 | SDK.finance | Public pricing page describes enterprise licensing options and quote process; no fixed price captured. | Request annual, lifetime, and SaaS / source-code options. |
+| FinLego | Software provider — core banking and ledger platform; secondary EMI distribution capability. New candidate added 2026-05-15. **Meeting scheduled week of 2026-05-18.** | Attend meeting; assess core banking / ledger scope, EMI distribution structure, pricing, and fit for Granville value stack. |
 
 ### Offer Request Questions
 
@@ -99,6 +100,96 @@ Required outputs:
   and
 - whether 174 can be marketed as RPAA-initiated, RPAA-pending, or
   RPAA-registered.
+
+## RPAA Application — Known Blockers
+
+The following items have been identified as potentially blocking finalization
+of the RPAA application. Each has a different character.
+
+| # | Blocker | Character | Status |
+| --- | --- | --- | --- |
+| 1 | Credible domain | Hard requirement | Not yet confirmed |
+| 2 | Financial institution to hold/safeguard funds | Appears to be unspoken/informal criteria | Not yet secured |
+| 3 | Software in place | Better to have; not absolutely necessary | Not yet in place |
+
+### Blocker 1 — Credible Domain
+
+The Bank of Canada appears to require a credible domain as part of the
+application. A domain that signals a legitimate, operating (or pre-operating)
+payments business is expected.
+
+**Current direction:** A single-page site. A single page describing the
+entity's payments business and regulatory status (MSB registration pending,
+RPAA application in progress) is likely sufficient for the Bank of Canada's
+purposes at this stage.
+
+**Branding:** The intended brand name is "Granville." This is how the business
+will likely be branded and marketed. However, finding an available domain
+containing the word "Granville" has proven difficult. A domain that
+incorporates the brand name is preferred but the right available variant has
+not yet been identified.
+
+**Action required:** Identify an available domain that works for the Granville
+brand (exact match or workable variant), register it, publish the single page,
+and confirm it resolves before the application is submitted.
+
+### Blocker 2 — Financial Institution to Hold / Safeguard Funds
+
+The RPAA requires a safeguarding arrangement: a financial institution that
+holds end-user funds separate from the PSP's own funds. This does not appear
+to be a formally stated pre-condition in the application form itself, but it
+is an unspoken/informal criteria — the Bank of Canada expects a credible
+safeguarding counterparty to be identified or in view.
+
+An EMI satisfies this by definition. Under the EU/UK regulatory framework
+(EMD2), safeguarding of client funds is a core licensing condition for all
+EMIs — it is not optional. An EMI relationship therefore solves both the
+operational model requirement and the safeguarding requirement simultaneously.
+
+The RPAA nuance: the safeguarding obligation under RPAA Part 4 attaches to
+17409052 as the registrant, not to the EMI. The Bank of Canada will expect
+17409052 to document and own the safeguarding structure in its application —
+the answer "the EMI holds client funds" is sufficient, but it must be
+explicitly described as the safeguarding arrangement. A written indication or
+draft terms from an EMI is therefore the output needed to clear this blocker.
+
+**Note:** A letter of intent from an EMI is potentially sufficient for the
+RPAA application. A fully executed agreement is not necessarily required at
+the application stage.
+
+**Current position:** Conversations are ongoing with at least one EMI,
+including a quoted offer of EUR 12,000. This existing conversation is the
+natural path to an LOI.
+
+**How to convert the existing conversation into an LOI:** An LOI in this
+context does not need to be a formal legal document. The practical path is:
+
+1. Ask the EMI (the EUR 12,000 counterparty, or any other active conversation)
+   to provide a written statement — which can be a formal letter or a detailed
+   email — confirming that they are willing to provide payment accounts and
+   safeguard client funds for 17409052 Canada Inc, subject to final agreement
+   on terms.
+2. The statement should identify: the EMI's name and regulated status; the
+   scope of services (payment accounts, safeguarding, execution); and a
+   reference to the commercial terms discussed (e.g. the EUR 12,000 offer).
+3. It does not need to be binding. "Willing to proceed subject to final
+   agreement" is sufficient.
+4. A detailed email from the EMI confirming these points is acceptable as a
+   written indication if a formal letter is not available.
+
+**Action required:** Request a written indication or LOI from the EUR 12,000
+EMI (or the strongest active conversation). File it in the RPAA application
+folder as the safeguarding structure documentation.
+
+### Blocker 3 — Software in Place
+
+Having product software in place would strengthen the application by
+demonstrating operational readiness. However, this is not an absolute
+requirement — it is a value-add that improves credibility with the Bank of
+Canada but does not gate the application.
+
+**Action required:** Advance product-software evaluation in parallel. Do not
+allow software procurement to block RPAA progress.
 
 ## Find Alternatives to the EUR 12,000 EMI Offer
 
