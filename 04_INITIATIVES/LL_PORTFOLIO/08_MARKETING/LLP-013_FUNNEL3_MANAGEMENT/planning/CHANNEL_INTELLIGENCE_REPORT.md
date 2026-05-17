@@ -88,7 +88,7 @@ LinkedIn payments professional community.
 **Notes**
 
 Best channel for category 6 (stablecoins and new rails) content. Also the right destination
-for EO4 (Tokenized Payment Systems Regulatory Structuring) when that offer is activated.
+for the Tokenized Payment Systems Regulatory Structuring backlog candidate if that offer is later activated.
 Pitch pathway is clear and welcoming.
 
 ---

@@ -4,7 +4,7 @@ title: Toronto Housing - Assumptions and Constraints
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-16
 tags: [hillside, personal-projects, housing, toronto, planning, assumptions, constraints]
 ---
 
@@ -16,6 +16,9 @@ Stage: `Planning`
 ## Assumptions
 
 - the real branch choice is owned housing in Toronto versus leaving Toronto
+- **directional update (2026-05-16):** ML1 does not intend to spend
+  fall/winter in Toronto; current working seasonal plan is fall in Japan,
+  winter in Brazil or Thailand, and spring in Japan
 - ML1 currently reports `CAD 900,000` in a high-interest savings account and
   `CAD 560,000` in managed equities as at `2026-04-03`
 - the housing budget should be set inside `HBP-001_WEALTH_MANAGEMENT`
@@ -29,4 +32,6 @@ Stage: `Planning`
   wealth plan
 - no option is viable if it breaks the liquidity rules or housing-budget policy
   set through `HBP-001`
+- any Toronto ownership option must justify itself against a reduced seasonal
+  Toronto-use case, not a default full-year Toronto presence
 - the project must stay focused on the two live paths and avoid side-path sprawl

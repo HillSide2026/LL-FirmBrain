@@ -4,7 +4,7 @@ title: Japan Property Acquisition
 owner: ML1
 status: draft
 created_date: 2026-04-30
-last_updated: 2026-05-14
+last_updated: 2026-05-16
 tags: [hillside, personal-projects, japan-home, housing, acquisition]
 ---
 
@@ -26,6 +26,7 @@ and acquisition process.
 - Buyer of record: **wife** (Japanese national; Japanese bank account; registered at Nikko city hall)
 - Financing: cash purchase only — wife's current income is zero; Japanese mortgage unavailable at present
 - Active search: wife conducting research via Japanese-language internet and akiya bank platforms
+- Seasonal use thesis: fall in Japan, winter in Brazil or Thailand, spring in Japan; no fall/winter Toronto base assumed
 - 7 properties logged in pipeline; 3 are within the revised CAD 400k ceiling and 4 are above ceiling as market references or stretch cases
 - No acquisition authorized; pursue decision remains open in `JAPAN_HOME_DECISION`
 
@@ -90,6 +91,15 @@ strongly Kamakura / Atami. Nikko remains a fallback if search in preferred clust
 | Full bathrooms | Preference: 2 full bathrooms |
 | Seismic standard | Post-1981 construction (new seismic standard) |
 | Management fees | Prefer none or minimal |
+
+## Seasonal Use Fit
+
+The property should work as a recurring Japan base, not only as an occasional
+vacation property. Current working pattern: fall in Japan, winter in Brazil or
+Thailand, spring in Japan, and no fall/winter Toronto base assumed. Evaluation
+should therefore include shoulder-season comfort, lock-and-leave security,
+maintenance burden while abroad, access from international airports, and
+practical storage for recurring seasonal use.
 
 ---
 

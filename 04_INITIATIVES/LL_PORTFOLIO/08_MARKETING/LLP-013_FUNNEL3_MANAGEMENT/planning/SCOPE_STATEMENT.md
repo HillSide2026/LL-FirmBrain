@@ -4,7 +4,7 @@ title: LLP-013 Funnel 3 — Scope Statement
 owner: ML1
 status: draft
 created_date: 2026-03-18
-last_updated: 2026-04-09
+last_updated: 2026-05-17
 tags: [funnel-03, marketing, planning, scope]
 ---
 
@@ -57,7 +57,7 @@ Primary F03 entry offer:
 - Regulatory triage consultation: a defined-scope, fixed-fee consultation focused on a specific regulatory question (MSB registration analysis, RPAA applicability, AML program gap review).
 
 Secondary F03 entry offer:
-- AML Health Check (where applicable and not duplicated with F02): operational AML compliance review for MSBs and regulated fintechs.
+- MSB Health Check (where applicable and not duplicated with F02): operational AML compliance review for MSBs and regulated fintechs.
 
 Entry offer pricing: to be defined in WORKPLAN. Must be set before LinkedIn Ads activation.
 
@@ -86,6 +86,11 @@ appropriate, but it must also accept that some suitable F03 matters will remain
 bounded entry offers or discrete regulatory mandates.
 
 Core offer map must be documented in a canonical artifact before channel activation.
+
+Backlog candidate:
+- Tokenized Payment Systems Regulatory Structuring. This is not an active entry
+  offer and is not approved for marketing until separately defined and approved
+  by ML1.
 
 ### 5. Asset Production
 

@@ -40,7 +40,7 @@ tags: [funnel-03, fractional-counsel, pricing, retainer]
 ## Relationship to Entry Offer
 
 The fractional counsel retainer is the downstream revenue product that the
-F03 pre-entry consultations (AML Health Check Consult, STR Triage Consult,
+F03 pre-entry consultations (MSB Health Check Consult, STR Triage Consult,
 MSB Registration Consult) feed. A client who engages on a discrete regulatory
 question is a natural candidate for an ongoing retainer relationship as
 compliance obligations expand or multiply.

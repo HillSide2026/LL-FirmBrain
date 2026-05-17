@@ -263,7 +263,7 @@ Why this may fit Levine Law:
 
 - it is a practical, review-driven mandate that sits between one-time setup and
   ongoing compliance counsel
-- it aligns well with the existing Funnel 03 AML Health Check logic
+- it aligns well with the existing Funnel 03 MSB Health Check logic
 - large firms often do not want recurring, operationally detailed review work
 
 Working market note:

@@ -1,15 +1,18 @@
 ---
 id: funnel3__entryoffer3__leadmagnet_v1
-title: "The Six Pillars of AML Defensibility"
+title: "The Six Pillars of MSB Defensibility"
 owner: ML1
 status: draft
+reference_code: F03-IP-003
 version: 1.0
 created_date: 2026-02-15
-last_updated: 2026-02-15
+last_updated: 2026-05-17
 tags: [funnel-03, lead-magnet, entry-offer-3, aml]
 ---
 
-# The Six Pillars of AML Defensibility
+# The Six Pillars of MSB Defensibility
+
+Info product reference: `F03-IP-003` — `Six (6) Pillars of MSB Defensibility`.
 
 Each pillar reflects a structural component regulators evaluate during examinations.
 
@@ -129,10 +132,10 @@ Organizations often seek full architecture review where:
 
 The objective is not alarm. It is calibration.
 
-## Introducing: AML Health Check (TM) (Canada)
+## Introducing: MSB Health Check (TM) (Canada)
 For reporting entities seeking structured evaluation, Levine Law provides a comprehensive compliance architecture review.
 
-The AML Health Check (TM) is structured across the six pillars described above and delivers:
+The MSB Health Check (TM) is structured across the six pillars described above and delivers:
 
 **What You Receive**
 1. Executive Compliance Summary (8-12 Pages)
@@ -183,7 +186,7 @@ If your organization:
 - Has not conducted a structured effectiveness review
 - Wants confidence ahead of potential scrutiny
 
-You may consider a structured AML Health Check (TM).
+You may consider a structured MSB Health Check (TM).
 
 Engagement suitability may be assessed through intake qualification and, where
 appropriate, a lawyer pre-scope call. These calls are for fit and scope only;

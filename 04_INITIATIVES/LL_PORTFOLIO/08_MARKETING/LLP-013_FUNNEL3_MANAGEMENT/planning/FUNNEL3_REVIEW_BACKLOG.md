@@ -4,7 +4,7 @@ title: Funnel 3 Review Backlog
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-05-14
+last_updated: 2026-05-17
 tags: [marketing, funnel-03, backlog, review]
 ---
 
@@ -75,3 +75,19 @@ Capture unresolved higher-severity findings from the April 3, 2026 three-Muggah 
   - `04_FUNNELS/funnel-03/funnel3_entryoffer2_leadmagnet_v3.md`
   - `04_FUNNELS/funnel-03/funnel3_entryoffer3_leadmagnet_v1.md`
   - `04_FUNNELS/funnel-03/funnel_02_payments_msb_psp/README.md`
+
+### 7. Backlog Tokenized Payment Systems Regulatory Structuring
+- Problem: tokenized payment systems are strategically interesting but are not
+  approved as an active F03 entry offer.
+- Why it matters: the topic creates securities, MSB, RPAA, custody,
+  safeguarding, and banking-relationship overlap; marketing it prematurely
+  could overstate the current approved offer perimeter.
+- Current decision: keep Tokenized Payment Systems Regulatory Structuring in
+  backlog as a candidate offer only.
+- Activation condition: define scope at the practice layer, including
+  securities-boundary exclusions and mandatory specialist screening, then seek
+  ML1 approval before any marketing activation.
+- Key refs:
+  - `04_FUNNELS/funnel-03/FUNNEL_SPEC.md`
+  - `04_FUNNELS/funnel-03/funnel.yaml`
+  - `04_FUNNELS/funnel-03/content/blog/eo4_content_plan.md`

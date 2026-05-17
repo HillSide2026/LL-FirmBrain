@@ -8,7 +8,7 @@ created_date: 2026-03-29
 last_updated: 2026-03-29
 tags: [funnel-03, blog, entry-offer-3, msb, fintrac, aml, compliance-review, examination]
 content_type: process-and-documentation
-entry_offer: EO3 — AML Health Check
+entry_offer: EO3 — MSB Health Check
 ---
 
 # What Does FINTRAC Look for in an MSB Compliance Review

@@ -17,7 +17,7 @@ Stage: Planning
 ## Purpose
 
 Capture rough working notes on Canadian issuers relevant to the Funnel 3
-payments / stablecoin / token lane, including the candidate EO4 positioning.
+payments / stablecoin / token lane, including the candidate Tokenized Payment Systems Regulatory Structuring positioning.
 
 This is a planning note only. It is not a verified market map and should not
 be used as a published claim set without follow-up review.
@@ -32,5 +32,5 @@ be used as a published claim set without follow-up review.
 ## Use Inside Funnel 3
 
 - working market-reference list for Canadian token / stablecoin issuer mapping
-- potential source list for EO4 positioning and later content ideas
+- potential source list for the Tokenized Payment Systems Regulatory Structuring candidate and later content ideas
 - possible input into networking and referral targeting in the payments lane

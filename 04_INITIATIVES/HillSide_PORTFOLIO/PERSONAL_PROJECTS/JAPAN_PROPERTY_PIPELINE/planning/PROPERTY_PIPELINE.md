@@ -4,7 +4,7 @@ title: Japan Property Pipeline — Property Tracker
 owner: ML1
 status: draft
 created_date: 2026-04-30
-last_updated: 2026-05-14
+last_updated: 2026-05-16
 tags: [hillside, personal-projects, japan-home, housing, property-search, pipeline]
 ---
 
@@ -20,6 +20,12 @@ for use in evaluating the pursue / defer / no-go decision in `JAPAN_HOME_DECISIO
 ## Pipeline Status
 
 7 properties logged.
+
+Seasonal-use thesis updated `2026-05-16`: ML1 intends to buy a house in Japan
+and avoid spending fall/winter in Toronto. Working annual pattern is fall in
+Japan, winter in Brazil or Thailand, and spring in Japan. Property evaluation
+should treat Japan as a recurring seasonal base rather than a casual vacation
+property.
 
 ---
 
@@ -197,6 +203,11 @@ for use in evaluating the pursue / defer / no-go decision in `JAPAN_HOME_DECISIO
 Mid-sized, comfortable house. Minimum: 2 bedrooms and at least 2 separate toilet
 rooms. Preference: 2 full bathrooms. Single-family detached preferred
 (confirmed 2026-05-14).
+
+Seasonal fit matters: the house should support fall and spring stays in Japan
+plus absence during winter abroad. Screen for lock-and-leave practicality,
+weather resilience, maintenance burden, heating/cooling comfort, storage,
+internet reliability, and airport access.
 
 ---
 

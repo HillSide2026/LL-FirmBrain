@@ -3,14 +3,16 @@ id: llp-013_funnel3_lead_magnet_six_msb_classification_triggers
 title: Six MSB Classification Triggers in Fintech and Crypto Payment Models
 owner: ML1
 status: draft
+reference_code: F03-IP-001
 created_date: 2026-05-11
-last_updated: 2026-05-11
+last_updated: 2026-05-17
 tags: [llp-013, funnel-03, lead-magnet, msb, fintech, crypto, canva, linkedin, website]
 ---
 
 # Six MSB Classification Triggers in Fintech and Crypto Payment Models
 
-Working product mapping: `Six (6) Hidden MSB Triggers in Fintech & Crypto`.
+Working product mapping: `F03-IP-001` — `Six (6) Hidden MSB Triggers in
+Fintech & Crypto`.
 
 Use: draft lead magnet for Canva formatting, LinkedIn promotion, and
 levine-law.ca publication.

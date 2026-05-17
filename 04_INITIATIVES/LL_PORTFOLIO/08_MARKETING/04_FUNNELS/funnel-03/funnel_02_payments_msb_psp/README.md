@@ -32,7 +32,7 @@ Entry offers:
 - STR Playbook (Suspicious Transaction Reports)
 - MSB Registration Update
 - Risk Assessment Review
-- AML Health Check
+- MSB Health Check
 
 ## Target Clients (Good Fit)
 - Cross-border payments platforms

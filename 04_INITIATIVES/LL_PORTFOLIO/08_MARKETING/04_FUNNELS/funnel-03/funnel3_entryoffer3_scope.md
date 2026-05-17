@@ -8,7 +8,7 @@ last_updated: 2026-02-15
 tags: [funnel-03, entry-offer-3, scope, aml]
 ---
 
-# Entry Offer 3: AML Health Check (TM) (Canada)
+# Entry Offer 3: MSB Health Check (TM) (Canada)
 
 ## Strategic Role in Funnel 3
 If:
@@ -51,7 +51,7 @@ Not a policy rewrite. They are buying:
 
 They want: "If FINTRAC reviews us tomorrow, we are prepared."
 
-## Scope of the AML Health Check (TM)
+## Scope of the MSB Health Check (TM)
 Structured across 6 pillars.
 
 ### Pillar 1 - Risk Assessment Framework
@@ -137,7 +137,7 @@ This price signals:
 - Non-template work
 
 ## Conversion Path
-The AML Health Check naturally converts into:
+The MSB Health Check naturally converts into:
 - Full AML program rewrite
 - Monitoring system enhancement
 - STR Playbook implementation

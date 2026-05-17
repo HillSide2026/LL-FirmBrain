@@ -1,16 +1,16 @@
 ---
 id: funnel3__eo3__content_plan
-title: "EO3 Blog Content Plan — AML Health Check Cluster"
+title: "EO3 Blog Content Plan — MSB Health Check Cluster"
 owner: ML1
 status: draft
 version: 1.0
 created_date: 2026-03-30
 last_updated: 2026-04-03
 tags: [funnel-03, content-plan, entry-offer-3, aml, health-check]
-entry_offer: EO3 — AML Health Check
+entry_offer: EO3 — MSB Health Check
 ---
 
-# EO3 Blog Content Plan — AML Health Check Cluster
+# EO3 Blog Content Plan — MSB Health Check Cluster
 
 ## Status
 

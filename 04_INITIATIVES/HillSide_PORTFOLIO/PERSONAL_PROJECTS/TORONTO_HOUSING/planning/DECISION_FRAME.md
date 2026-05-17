@@ -4,7 +4,7 @@ title: Toronto Housing - Decision Frame
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-16
 tags: [hillside, personal-projects, housing, toronto, planning, decision-frame]
 ---
 
@@ -24,6 +24,13 @@ new owned housing in Toronto or leaving Toronto?
 | Owned Toronto housing | Acquire new owner-occupied housing in Toronto | preserves Toronto presence and may support stability if the asset and budget fit are real | can weaken liquidity or flexibility if budget discipline is not anchored cleanly | under review |
 | Leave Toronto | Select and execute a non-Toronto primary housing path | may improve cost, flexibility, or life-structure fit | requires clear destination logic and transition sequencing | under review |
 
+## Current Direction (Updated 2026-05-16)
+
+ML1 does not intend to spend fall/winter in Toronto. The current working
+seasonal plan is fall in Japan, winter in Brazil or Thailand, and spring in
+Japan. This increases the burden of proof on any owned-Toronto option: it must
+fit a reduced Toronto-use case rather than assume full-year Toronto presence.
+
 ## Planning Exit Criteria
 
 | Criterion | Planning exit test |
@@ -31,6 +38,7 @@ new owned housing in Toronto or leaving Toronto?
 | Option clarity | The real branch choice is narrowed to the two live paths without ambient side paths |
 | Budget anchor | The housing budget is formalized inside `HBP-001_WEALTH_MANAGEMENT` |
 | Guardrail clarity | Monthly cost, liquidity, and flexibility rules are explicit enough to reject weak options |
+| Seasonal fit | The chosen path accounts for reduced fall/winter Toronto presence and the Japan/Brazil-or-Thailand/Japan seasonal plan |
 | Fit | The preferred path supports stability, focus, and 2026 operating fit rather than solving only for one variable |
 | Execution readiness | The selected path has a realistic next-step sequence and no-go triggers |
 
@@ -43,6 +51,6 @@ new owned housing in Toronto or leaving Toronto?
 
 ## Current Planning Status
 
-Planning is open.
-
-No option has been selected yet.
+Planning is open. The seasonal direction now points away from full-year Toronto
+use: fall in Japan, winter in Brazil or Thailand, and spring in Japan. No final
+Toronto housing option has been selected yet.

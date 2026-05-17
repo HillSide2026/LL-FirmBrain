@@ -8,7 +8,7 @@ created_date: 2026-03-30
 last_updated: 2026-03-30
 tags: [funnel-03, blog, entry-offer-3, aml, msb, fintrac, str, suspicious-transaction, str-bridge]
 content_type: str-bridge
-entry_offer: EO3 — AML Health Check
+entry_offer: EO3 — MSB Health Check
 ---
 
 # What Counts as a Suspicious Transaction in Canada (Fintech Context)

@@ -210,7 +210,7 @@ Immediately after registration:
 “You are now registered. Registration is not compliance.”
 
 Natural next steps:
-- Full AML Health Check
+- Full MSB Health Check
 - STR Playbook Implementation
 - Ongoing AML Counsel Retainer
 
@@ -231,7 +231,7 @@ Positioning line:
 
 **Funnel Architecture (Maturity Path)**
 1. MSB Registration Mandate  
-2. AML Health Check  
+2. MSB Health Check  
 3. STR & Reporting Framework  
 4. Ongoing AML Counsel Retainer
 
@@ -341,7 +341,7 @@ Do not price low. Urgency justifies premium.
 
 **Conversion Path**
 This entry offer naturally leads to:
-- AML Health Check
+- MSB Health Check
 - STR Playbook Implementation
 - Quarterly AML Oversight Retainer
 - Full AML Framework Rewrite
@@ -377,7 +377,7 @@ Decline:
 - Police inquiries
 - Non-Canadian nexus
 
-## Entry 3: AML Health Check (Canada)
+## Entry 3: MSB Health Check (Canada)
 
 **Strategic Role in Funnel 3**
 If:
@@ -494,7 +494,7 @@ This price signals:
 - Non-template work
 
 **Conversion Path**
-The AML Health Check naturally converts into:
+The MSB Health Check naturally converts into:
 - Full AML program rewrite
 - Monitoring system enhancement
 - STR Playbook implementation
@@ -550,7 +550,7 @@ Positioning:
 Natural conversion sources:
 
 - Entry 2: Suspicious Transaction Triage & STR Filing
-- AML Health Check findings
+- MSB Health Check findings
 - existing operators with recurring reporting uncertainty
 
 ### Core 2: MSB Effectiveness Review
@@ -574,7 +574,7 @@ Positioning:
 Natural conversion sources:
 
 - Entry 1: MSB Registration Mandate
-- Entry 3: AML Health Check
+- Entry 3: MSB Health Check
 - existing MSB clients needing periodic review
 
 ### Core 3: RPAA Reporting

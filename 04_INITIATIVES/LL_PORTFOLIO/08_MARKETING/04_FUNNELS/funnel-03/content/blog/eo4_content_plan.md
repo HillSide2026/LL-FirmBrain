@@ -1,20 +1,22 @@
 ---
 id: funnel3__eo4__content_plan
-title: "EO4 Blog Content Plan — Crypto AML Cluster"
+title: "Backlog Content Plan — Tokenized Payment Systems Regulatory Structuring"
 owner: ML1
-status: draft
+status: backlog
 version: 1.0
 created_date: 2026-03-30
 last_updated: 2026-04-03
-tags: [funnel-03, content-plan, entry-offer-4, crypto, aml, msb, virtual-currency]
-entry_offer: EO4 — Crypto AML
+tags: [funnel-03, content-plan, backlog-candidate, crypto, aml, msb, virtual-currency]
+entry_offer: Backlog candidate — Tokenized Payment Systems Regulatory Structuring
 ---
 
-# EO4 Blog Content Plan — Crypto AML Cluster
+# Backlog Content Plan — Tokenized Payment Systems Regulatory Structuring
 
 ## Status
 
-Planning-stage content plan. Pillar written; supporting posts not yet written
+Backlog content plan for a candidate offer. Tokenized Payment Systems
+Regulatory Structuring is not an active Funnel 3 entry offer and is not
+approved for marketing. Pillar written; supporting posts not yet written
 (except #1 which already exists in EO2). No live publishing or funnel
 activation is implied by this artifact.
 

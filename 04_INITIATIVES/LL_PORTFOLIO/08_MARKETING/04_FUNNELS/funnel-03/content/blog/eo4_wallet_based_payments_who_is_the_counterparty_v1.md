@@ -2,13 +2,13 @@
 id: funnel3__eo4__blog__wallet_based_payments_who_is_the_counterparty
 title: "Wallet-Based Payments: Who Is the Counterparty?"
 owner: ML1
-status: draft
+status: backlog
 version: 1.0
 created_date: 2026-03-30
 last_updated: 2026-03-30
-tags: [funnel-03, blog, entry-offer-4, crypto, aml, msb, wallet, counterparty, virtual-currency]
+tags: [funnel-03, blog, backlog-candidate, crypto, aml, msb, wallet, counterparty, virtual-currency]
 content_type: supporting
-entry_offer: EO4 — Crypto AML
+entry_offer: Backlog candidate — Tokenized Payment Systems Regulatory Structuring
 ---
 
 # Wallet-Based Payments: Who Is the Counterparty?

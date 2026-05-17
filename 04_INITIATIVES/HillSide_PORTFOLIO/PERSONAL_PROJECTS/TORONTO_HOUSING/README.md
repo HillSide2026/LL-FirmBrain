@@ -4,7 +4,7 @@ title: Toronto Housing
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-16
 tags: [hillside, personal-projects, housing, toronto]
 ---
 
@@ -45,6 +45,9 @@ either move to new owned housing in Toronto or leave Toronto.
 
 - This project governs housing strategy, decision criteria, and next-step
   sequencing for Toronto.
+- Current directional update `2026-05-16`: ML1 does not intend to spend
+  fall/winter in Toronto. Working seasonal plan is fall in Japan, winter in
+  Brazil or Thailand, and spring in Japan.
 - Current working capital context: ML1 reports `CAD 900,000` in a
   high-interest savings account and `CAD 560,000` in managed equities as at
   `2026-04-03`.

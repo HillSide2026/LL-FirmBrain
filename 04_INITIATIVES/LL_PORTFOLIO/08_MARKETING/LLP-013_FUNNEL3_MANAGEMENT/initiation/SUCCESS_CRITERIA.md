@@ -9,7 +9,7 @@ The project will be successful if:
 2. The canonical entry-offer map is explicit and internally consistent:
    - `MSB Registration Mandate`
    - `Suspicious Transaction Triage & STR Filing`
-   - `AML Health Check`
+   - `MSB Health Check`
 3. The canonical core-offer map is explicit and internally consistent:
    - `Suspicious Transaction Reporting Triage & Playbook`
    - `MSB Effectiveness Review`

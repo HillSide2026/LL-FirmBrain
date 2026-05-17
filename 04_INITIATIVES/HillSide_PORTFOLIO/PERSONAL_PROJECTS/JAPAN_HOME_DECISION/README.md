@@ -4,7 +4,7 @@ title: Japan Home Decision
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-16
 tags: [hillside, personal-projects, japan-home, housing]
 ---
 
@@ -29,8 +29,8 @@ This project is a planning-stage HillSide personal decision project.
 
 ## Objective
 
-Reach a disciplined 2026 decision on whether to pursue acquisition of a home
-in Japan, defer it, or rule it out for now.
+Reach a disciplined 2026 decision on how to pursue acquisition of a home in
+Japan as part of a seasonal housing strategy.
 
 ## Current Planning Work
 
@@ -47,6 +47,9 @@ in Japan, defer it, or rule it out for now.
 - Current working capital context: ML1 reports `CAD 900,000` in a
   high-interest savings account and `CAD 560,000` in managed equities as at
   `2026-04-03`.
+- Current lifestyle thesis updated `2026-05-16`: ML1 is buying a house in
+  Japan and does not intend to spend fall/winter in Toronto. Working seasonal
+  pattern is fall in Japan, winter in Brazil or Thailand, and spring in Japan.
 - Executing is not authorization to begin acquisition execution until ML1
   closes the `Planning -> Executing` gate.
 

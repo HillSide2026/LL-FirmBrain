@@ -52,7 +52,7 @@ These convert at the moment registration clarity is delivered.
 Strong governance credibility upsell.
 
 ## Short-Term Upsells (30 to 60 Days Post-Registration)
-### 3. AML Health Check (TM)
+### 3. MSB Health Check (TM)
 Diagnostic review of:
 - Policies
 - Monitoring system

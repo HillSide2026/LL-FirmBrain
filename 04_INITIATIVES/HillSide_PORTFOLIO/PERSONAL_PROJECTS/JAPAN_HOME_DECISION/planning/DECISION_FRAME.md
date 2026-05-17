@@ -4,7 +4,7 @@ title: Japan Home Decision - Decision Frame
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-05-14
+last_updated: 2026-05-16
 tags: [hillside, personal-projects, japan-home, housing, planning, decision-frame]
 ---
 
@@ -14,8 +14,8 @@ Project: `JAPAN_HOME_DECISION` - Japan Home Decision
 
 ## Decision Question
 
-Should ML1 pursue acquisition of a home in Japan, defer the idea pending
-further conditions, or rule it out for now?
+How should ML1 pursue acquisition of a home in Japan as part of a seasonal
+housing strategy, and what diligence gates must be cleared before execution?
 
 ## Candidate Paths
 
@@ -25,11 +25,29 @@ further conditions, or rule it out for now?
 | Defer pending conditions | Keep the option alive but do not advance until wealth-plan and diligence thresholds are met | preserves optionality while avoiding premature commitment | can let ambiguity linger if conditions are not explicit | under review |
 | Rule out for now | Close the path for the current cycle | preserves focus and capital for higher-priority uses | opportunity may be delayed or missed | under review |
 
+## Current Direction (Updated 2026-05-16)
+
+ML1's current direction is to buy a house in Japan and avoid spending the
+fall/winter period in Toronto. The working seasonal pattern is:
+
+| Season | Working location thesis |
+| --- | --- |
+| Fall | Japan |
+| Winter | Brazil or Thailand |
+| Spring | Japan |
+| Summer | To be decided |
+
+This reframes the Japan property from a speculative vacation asset toward a
+seasonal housing base. The open decision is therefore less "is Japan real?" and
+more "which acquisition path, property, ownership structure, and residency/tax
+guardrails make the seasonal plan viable?"
+
 ## Planning Exit Criteria
 
 | Criterion | Planning exit test |
 | --- | --- |
 | Use-case clarity | The real reason for considering a Japan home is explicit and not aspirational fog |
+| Seasonal plan clarity | The fall/winter/spring living pattern is explicit enough to evaluate property fit, residency exposure, and operating logistics |
 | Budget anchor | Any Japan-home budget is formalized inside `HBP-001_WEALTH_MANAGEMENT` |
 | Diligence clarity | The highest-value legal, tax, financing, and operating questions are prioritized clearly |
 | Decision clarity | The go / defer / no rule is explicit enough for ML1 to choose |
@@ -74,4 +92,13 @@ Property search is active via wife's Japanese internet research. Inventory for N
 
 ## Current Planning Status
 
-Planning is open. Use-case thesis reopened — two scenarios active (part-time residence; primary housing / family residency). Location clusters confirmed. Budget ceiling confirmed as CAD 400k cash; prior CAD 100-200k range is no longer the active ceiling. Property type confirmed: mid-sized house, minimum 2 bedrooms, at least 2 separate toilet rooms, with 2 full bathrooms preferred; single-family detached. No option (pursue / defer / rule out) selected yet. Japan primary housing scenario is also being modeled as a standalone what-if in `HBP-001_WEALTH_MANAGEMENT`.
+Planning is open. Use-case thesis has sharpened: ML1 currently intends to buy a
+house in Japan as part of a seasonal housing strategy, with fall in Japan,
+winter in Brazil or Thailand, and spring in Japan; summer remains undecided.
+Location clusters confirmed. Budget ceiling confirmed as CAD 400k cash; prior
+CAD 100-200k range is no longer the active ceiling. Property type confirmed:
+mid-sized house, minimum 2 bedrooms, at least 2 separate toilet rooms, with 2
+full bathrooms preferred; single-family detached. No acquisition execution is
+authorized until tax/residency, ownership, and wealth-plan gates are cleared.
+Japan primary housing scenario is also being modeled as a standalone what-if in
+`HBP-001_WEALTH_MANAGEMENT`.

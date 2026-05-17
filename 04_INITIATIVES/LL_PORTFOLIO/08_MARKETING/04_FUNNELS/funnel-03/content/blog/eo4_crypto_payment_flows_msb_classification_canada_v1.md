@@ -2,13 +2,13 @@
 id: funnel3__eo4__blog__crypto_payment_flows_msb_classification_canada
 title: "Crypto Payment Flows and MSB Classification in Canada"
 owner: ML1
-status: draft
+status: backlog
 version: 1.0
 created_date: 2026-03-30
 last_updated: 2026-03-30
-tags: [funnel-03, blog, entry-offer-4, crypto, aml, msb, fintrac, classification, virtual-currency]
+tags: [funnel-03, blog, backlog-candidate, crypto, aml, msb, fintrac, classification, virtual-currency]
 content_type: supporting
-entry_offer: EO4 — Crypto AML
+entry_offer: Backlog candidate — Tokenized Payment Systems Regulatory Structuring
 ---
 
 # Crypto Payment Flows and MSB Classification in Canada

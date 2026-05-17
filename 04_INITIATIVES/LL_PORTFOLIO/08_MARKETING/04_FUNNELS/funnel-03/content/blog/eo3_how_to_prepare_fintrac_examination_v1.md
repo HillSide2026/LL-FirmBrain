@@ -8,7 +8,7 @@ created_date: 2026-03-30
 last_updated: 2026-03-30
 tags: [funnel-03, blog, entry-offer-3, aml, msb, fintrac, examination, compliance]
 content_type: core
-entry_offer: EO3 — AML Health Check
+entry_offer: EO3 — MSB Health Check
 ---
 
 # How to Prepare for a FINTRAC Examination (MSBs in Canada)

@@ -4,7 +4,7 @@ title: Funnel Spec — Funnel 03
 owner: ML1
 status: planned
 created_date: 2026-02-25
-last_updated: 2026-05-13
+last_updated: 2026-05-17
 tags: []
 ---
 
@@ -75,9 +75,9 @@ These themes are especially useful where the matter combines financial-infrastru
     separate platform for sale, with a planned 2027 update)
   - `Canadian Fintech Law in 2026` (free guide; separate asset from the e-book)
 - Paid / promotional lead magnets:
-  - funnel3_entryoffer1_leadmagnet_v1.md
-  - funnel3_entryoffer2_leadmagnet_v3.md
-  - funnel3_entryoffer3_leadmagnet_v1.md
+  - F03-IP-001: Six (6) Hidden MSB Triggers in Fintech & Crypto
+  - F03-IP-002: Six (6) STR Mistakes That Create Unnecessary Regulatory Risk
+  - F03-IP-003: Six (6) Pillars of MSB Defensibility (planned — add to Stripe)
 - Networking lane:
   - curated industry networking
   - direct introductions
@@ -192,8 +192,7 @@ Stages: booked → consult_complete → retained
 - Entry offers:
   - EO1: MSB Registration Mandate
   - EO2: Suspicious Transaction Triage & STR Filing
-  - EO3: AML Health Check
-  - EO4: Tokenized Payment Systems Regulatory Structuring (candidate — pending offer definition at practice layer)
+  - EO3: MSB Health Check
 - Core offers:
   - Suspicious Transaction Reporting Triage & Playbook
   - MSB Effectiveness Review
@@ -208,13 +207,22 @@ Stages: booked → consult_complete → retained
   - RPAA_REGISTRATION
   - RPAA_THREE_YEAR_REVIEW
 
-## EO4 Scope Note — Tokenized Payment Systems Regulatory Structuring
+## Offer Backlog
 
-- Framing: regulatory structuring for operators deploying tokenized payment systems — not "token issuance" as a general service
-- Scope: FINTRAC classification, RPAA applicability, AML obligations, banking relationship structuring for token-based payment systems
-- Excludes: securities law advice; non-securities status is a matter-by-matter determination, not a blanket marketing claim
-- Status: candidate — offer must be defined at the practice layer before marketing activation
-- Compliance note: marketing materials must not represent tokenized payment systems or their component tokens as categorically outside securities law
+### Candidate — Tokenized Payment Systems Regulatory Structuring
+
+- Status: backlog candidate; not an active entry offer and not approved for
+  marketing.
+- Framing: regulatory structuring for operators deploying tokenized payment
+  systems — not "token issuance" as a general service.
+- Potential scope: FINTRAC classification, RPAA applicability, AML obligations,
+  and banking relationship structuring for token-based payment systems.
+- Excludes: securities law advice; non-securities status is a matter-by-matter
+  determination, not a blanket marketing claim.
+- Activation condition: define the offer at the practice layer and obtain ML1
+  approval before any marketing activation.
+- Compliance note: marketing materials must not represent tokenized payment
+  systems or their component tokens as categorically outside securities law.
 
 ## Planning Decisions
 
@@ -241,7 +249,8 @@ Stages: booked → consult_complete → retained
 - Activation remains gated pending ML1-approved planning-stage controls
 - Planning -> Executing authorizes `pre-launch` only; public `launch` requires a
   later ML1 approval
-- EO4 requires practice-layer offer definition before any marketing activation
+- Tokenized Payment Systems Regulatory Structuring remains a backlog candidate
+  and requires practice-layer offer definition before any marketing activation.
 
 ## Owner + Review Cadence
 

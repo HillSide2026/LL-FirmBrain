@@ -4,7 +4,7 @@ title: LLP-013_FUNNEL3_MANAGEMENT
 owner: ML1
 status: planning
 created_date: 2026-02-26
-last_updated: 2026-04-09
+last_updated: 2026-05-17
 tags: [marketing, funnel-03, planning]
 ---
 
@@ -39,8 +39,10 @@ approved for Planning -> Executing (`pre-launch` entry). `Launch` is a later
 execution sub-stage and requires separate ML1 authorization.
 
 Canonical offer map:
-- Entry offers: `MSB Registration Mandate`, `Suspicious Transaction Triage & STR Filing`, `AML Health Check`
+- Entry offers: `MSB Registration Mandate`, `Suspicious Transaction Triage & STR Filing`, `MSB Health Check`
 - Core offers: `Suspicious Transaction Reporting Triage & Playbook`, `MSB Effectiveness Review`, `RPAA Reporting`, `Ongoing AML / Payments Regulatory Counsel`, `Specialist Fractional Counsel for payments-regulatory matters`
+- Backlog candidate: `Tokenized Payment Systems Regulatory Structuring` — not
+  an active offer and not approved for marketing.
 
 Canonical audience map:
 - `ICP-03` = F03 payments / regulatory audience

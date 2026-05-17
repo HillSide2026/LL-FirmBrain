@@ -2,13 +2,13 @@
 id: funnel3__eo4__blog__crypto_payments_aml_risk_canada_pillar
 title: "Crypto Payments and AML Risk in Canada: What Changes and What Doesn't"
 owner: ML1
-status: draft
+status: backlog
 version: 1.0
 created_date: 2026-03-30
 last_updated: 2026-03-30
-tags: [funnel-03, blog, entry-offer-4, crypto, aml, msb, fintrac, virtual-currency, pillar]
+tags: [funnel-03, blog, backlog-candidate, crypto, aml, msb, fintrac, virtual-currency, pillar]
 content_type: pillar
-entry_offer: EO4 — Crypto AML
+entry_offer: Backlog candidate — Tokenized Payment Systems Regulatory Structuring
 ---
 
 # Crypto Payments and AML Risk in Canada: What Changes and What Doesn't

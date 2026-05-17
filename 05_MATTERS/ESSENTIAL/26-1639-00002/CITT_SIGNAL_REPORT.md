@@ -1,6 +1,6 @@
 # CITT Signal Report — Andersen (Trade Remedies)
 
-- Generated at: `2026-05-15 11:36:19Z`
+- Generated at: `2026-05-16 11:15:09Z`
 - Matter ID: `26-1639-00002`
 - Client of record: `Andersen`
 - Scanner: `TRM_CITT_UPDATE_SCANNER`
@@ -10,10 +10,10 @@
 
 | Source | Last updated | Changed vs prior | Notes |
 |--------|--------------|------------------|-------|
-| CITT Home / What's New | not stated | no | ok |
-| Active Dumping and Subsidizing Cases | May 12, 2026 | no | ok |
-| Measures in Force and Expiry Time Lines | not stated | yes | ok |
-| Active Safeguard Inquiries | April 21, 2026 | no | ok |
+| CITT Home / What's New | not stated | yes | ok |
+| Active Dumping and Subsidizing Cases | May 15, 2026 | yes | ok |
+| Measures in Force and Expiry Time Lines | not stated | no | ok |
+| Active Safeguard Inquiries | May 15, 2026 | yes | ok |
 | List of Tribunal Decisions Not Yet Published | May 13, 2026 | no | ok |
 
 ## Proceeding Signals
@@ -22,12 +22,12 @@
 
 ### Measures in Force and Expiry Time Lines
 
-- `New`: Approaching measure expiry — Whole Potatoes (RR-2020-002); tentative notice April 1, 2026 (44 days ago); measure expiry June 1, 2026 (in 17 days); review marked underway on the CITT page
-- `New`: Approaching measure expiry — Concrete Reinforcing Bar III (NQ-2020-004); tentative notice April 20, 2026 (25 days ago); measure expiry June 3, 2026 (in 19 days); review marked underway on the CITT page
-- `New`: Approaching measure expiry — Concrete Reinforcing Bar IV (NQ-2020-005); tentative notice April 20, 2026 (25 days ago); measure expiry July 1, 2026 (in 47 days); review marked underway on the CITT page
-- `New`: Upcoming notice of expiry review — Refined Sugar (RR-2020-003); tentative notice July 2, 2026 (in 48 days); measure expiry August 5, 2026 (in 82 days)
-- `New`: Upcoming notice of expiry review — Grinding Media (NQ-2021-001); tentative notice August 4, 2026 (in 81 days); measure expiry August 26, 2026 (in 103 days)
-- `New`: Upcoming notice of expiry review — Upholstered Domestic Seating (NQ-2021-002); tentative notice August 31, 2026 (in 108 days); measure expiry September 1, 2026 (in 109 days)
+- `Current`: Approaching measure expiry — Whole Potatoes (RR-2020-002); tentative notice April 1, 2026 (45 days ago); measure expiry June 1, 2026 (in 16 days); review marked underway on the CITT page
+- `Current`: Approaching measure expiry — Concrete Reinforcing Bar III (NQ-2020-004); tentative notice April 20, 2026 (26 days ago); measure expiry June 3, 2026 (in 18 days); review marked underway on the CITT page
+- `Current`: Approaching measure expiry — Concrete Reinforcing Bar IV (NQ-2020-005); tentative notice April 20, 2026 (26 days ago); measure expiry July 1, 2026 (in 46 days); review marked underway on the CITT page
+- `Current`: Upcoming notice of expiry review — Refined Sugar (RR-2020-003); tentative notice July 2, 2026 (in 47 days); measure expiry August 5, 2026 (in 81 days)
+- `Current`: Upcoming notice of expiry review — Grinding Media (NQ-2021-001); tentative notice August 4, 2026 (in 80 days); measure expiry August 26, 2026 (in 102 days)
+- `Current`: Upcoming notice of expiry review — Upholstered Domestic Seating (NQ-2021-002); tentative notice August 31, 2026 (in 107 days); measure expiry September 1, 2026 (in 108 days)
 - Source: https://www.citt-tcce.gc.ca/en/anti-dumping-injury-inquiries/measures-force-and-expiry-time-lines
 
 ## Matter-Specific Track Matches
@@ -51,7 +51,7 @@
 - Observed signal: Safeguard inquiries: Active inquiries [Measures in Force and Expiry Time Lines]
 - Observed signal: Safeguard inquiries: Forms, practices and procedures [Measures in Force and Expiry Time Lines]
 - Observed signal: Safeguard inquiries: Legislation [Measures in Force and Expiry Time Lines]
-- Observed signal: Below you will find all active safeguard inquiries. This page was last updated on April 21, 2026. [Active Safeguard Inquiries]
+- Observed signal: Below you will find all active safeguard inquiries. This page was last updated on May 15, 2026. [Active Safeguard Inquiries]
 - Observed signal: Revised notice of commencement of safeguard inquiry [Active Safeguard Inquiries]
 - Observed signal: GC-2026-001—Certain Wood Goods [Active Safeguard Inquiries]
 - Observed signal: Notice of commencement of safeguard inquiry [Active Safeguard Inquiries]
@@ -68,7 +68,7 @@
 
 ## Official News Signals
 
-- No new official news items were detected in this run.
+- `New`: Tribunal Issues Determination of Reasonable Indication of Injury—Certain Unarmoured Building Cables from China — https://www.citt-tcce.gc.ca/en/news/tribunal-issues-determination-reasonable-indication-injury-certain-unarmoured-building-cables
 
 ## Manual Review Queue
 

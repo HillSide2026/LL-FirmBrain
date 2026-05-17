@@ -3,14 +3,18 @@ id: funnel3__entryoffer2__leadmagnet_v3
 title: "The Suspicious Transaction Report Wiki: Recent Developments for Canadian MSBs and PSPs"
 owner: ML1
 status: draft
+reference_code: F03-IP-002
 version: 3.0
 created_date: 2026-02-15
-last_updated: 2026-02-15
+last_updated: 2026-05-17
 tags: [funnel-03, lead-magnet, entry-offer-2, str, aml]
 ---
 
 # The Suspicious Transaction Report Wiki
 ## Recent Developments for Canadian MSBs and PSPs
+
+Info product reference: `F03-IP-002` — `Six (6) STR Mistakes That Create
+Unnecessary Regulatory Risk`.
 
 ## Introduction
 Suspicious Transaction Reports (STRs) form a core component of Canada's anti-money laundering and anti-terrorist financing regime under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCMLTFA).

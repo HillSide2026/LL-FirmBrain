@@ -5,7 +5,7 @@ owner: ML1
 status: planning
 project_stage: planning
 created_date: 2026-03-07
-last_updated: 2026-04-03
+last_updated: 2026-05-17
 tags: [marketing, funnel-03, networking]
 ---
 
@@ -71,7 +71,7 @@ ML1 approval is required for scope, changes, and any execution commitments.
 Entry offers:
 - `MSB Registration Mandate`
 - `Suspicious Transaction Triage & STR Filing`
-- `AML Health Check`
+- `MSB Health Check`
 
 Core offers:
 - `Suspicious Transaction Reporting Triage & Playbook`
@@ -79,9 +79,13 @@ Core offers:
 - `RPAA Reporting`
 - `Ongoing AML Counsel Retainer`
 
+Backlog candidate:
+- `Tokenized Payment Systems Regulatory Structuring` — not an active offer and
+  not approved for marketing.
+
 ## Last ML1 Review Date
 
-`2026-04-03`
+`2026-05-17`
 
 ## Supporting Assets
 

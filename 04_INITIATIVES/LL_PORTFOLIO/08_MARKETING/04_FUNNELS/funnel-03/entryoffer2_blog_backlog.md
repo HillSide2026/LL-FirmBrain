@@ -89,7 +89,7 @@ These are high-authority, SEO-friendly, and conversion-aligned.
 
 ## Internal Control and Governance Posts
 21. Post-STR Internal Control Debriefs: Why They Matter
-- Natural upsell into AML Health Check (TM).
+- Natural upsell into MSB Health Check (TM).
 
 22. Aligning AML Policy With Operational Practice
 - Focus: Policy-to-practice gaps; examination triggers.
