@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_01_financial_management_llp_001_accounting_planning_readme_md
+title: LLP-001_ACCOUNTING / planning
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # LLP-001_ACCOUNTING / planning
 
 Canonical Stage 2 packet for LLP-001 Accounting.

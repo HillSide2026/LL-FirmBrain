@@ -11,6 +11,7 @@ tags:
   - onedrive
   - planning
 doc_type: communication_plan
+created_date: 2026-05-18
 ---
 
 # SYS-004 Word / OneDrive Integration - Communication Plan

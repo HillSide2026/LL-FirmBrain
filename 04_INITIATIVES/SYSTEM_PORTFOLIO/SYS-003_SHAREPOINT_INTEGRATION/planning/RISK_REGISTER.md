@@ -10,12 +10,13 @@ tags:
   - sharepoint
   - planning
 doc_type: risk_register
+created_date: 2026-05-18
 ---
 
 # SYS-003 SharePoint Integration - Risk Register
 
 ## Canonical Categories
-Per [POL-063](/Users/matthewlevine/Repos/ll-secondbrain_fresh/01_DOCTRINE/03_POLICIES/POL-063_Project_Risk_Artifact_Lifecycle_Policy.md), this operational project uses:
+Per [POL-063](../../../../../01_DOCTRINE/03_POLICIES/POL-063_Project_Risk_Artifact_Lifecycle_Policy.md), this operational project uses:
 - `Scope`
 - `Schedule`
 - `Budget`

@@ -9,6 +9,7 @@ pillar_post: business-structure-pillar-post-drift.md
 created_date: 2026-04-05
 last_updated: 2026-04-05
 tags: [funnel-01, business-structure, supporting-post]
+owner: ML1
 ---
 
 # What Investors Flag First in a Company's Structure

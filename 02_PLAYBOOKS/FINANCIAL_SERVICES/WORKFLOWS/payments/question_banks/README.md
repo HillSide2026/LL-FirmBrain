@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__question_banks__readme_md
+id: 02_playbooks_financial_services_workflows_payments_question_banks_readme_md
 title: Question Banks — Payments
 owner: ML1
 status: draft

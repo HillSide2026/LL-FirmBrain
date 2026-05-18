@@ -26,8 +26,10 @@ tags: []
 
 ## Non-ML2 Root Folders (Non-Numbered)
 - scripts — Local tooling and operational scripts (non-ML2)
+- agents — Local agent skill/workflow bundles used by operational scripts (non-ML2)
 - cache — Local integration/cache artifacts used by automation (non-ML2)
 - gmail_governance — Standalone Gmail governance tooling workspace (non-ML2)
+- screenshots — Local UI/test screenshots and visual diagnostics (non-ML2)
 
 ## Non-ML2 Hidden Roots
 - .claude — Automation hub configuration (non-ML2, non-canon)

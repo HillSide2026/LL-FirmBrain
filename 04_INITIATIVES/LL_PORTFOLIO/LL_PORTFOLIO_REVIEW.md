@@ -27,7 +27,7 @@ structure. Individual matters do not organize LL at the top level.
 
 The matter portfolio is the fast drill-down layer for delivery and fulfillment
 visibility. ML1 shifts into the matter portfolio when the review question is
-about client-service urgency, matter handling, WIP conversion, lawyer task
+about client-service urgency, matter handling, WIP conversion, LL task
 load, document-delivery status, or matter-level bottlenecks.
 
 ## Fastest Path
@@ -53,7 +53,7 @@ Use this review order:
 3. `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/GOVERNANCE_COMPLIANCE_AUDIT.md`
 4. `03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md`
 5. `../../05_MATTERS/DASHBOARDS/MATTER_DIGEST.md`
-6. `../../05_MATTERS/LAWYER_TASK_TRACKER.md`
+6. `../../05_MATTERS/LL_TASK_TRACKER.md`
 
 This sequence gives:
 
@@ -94,7 +94,7 @@ legal step, evaluate draft quality, or determine whether ML1 has failed to act.
 | Project drill-down | `03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md` | project-by-project review | `LLM-004` |
 | Matter visibility | `../../05_MATTERS/DASHBOARDS/MATTER_DIGEST.md` | active / watch / urgent / stalled matter control read | matter command-and-control layer |
 | Matter index | `../../05_MATTERS/DASHBOARDS/MATTER_INDEX.md` | full matter roster and current category/delivery posture | matter command-and-control layer |
-| Lawyer tasks | `../../05_MATTERS/LAWYER_TASK_TRACKER.md` | current lawyer task load and immediate action concentration | matter layer |
+| LL Tasks | `../../05_MATTERS/LL_TASK_TRACKER.md` | current LL task load and immediate action concentration | matter layer |
 
 ## Drill-Down Files
 
@@ -111,7 +111,7 @@ specific:
 - `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/METRIC_SCHEMA_INTEGRITY_REPORT.md`
 - `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/DOCTRINE_DRIFT_REPORT.md`
 - `../../05_MATTERS/DASHBOARDS/MATTER_INDEX.md`
-- `../../05_MATTERS/LAWYER_TASK_TRACKER.md`
+- `../../05_MATTERS/LL_TASK_TRACKER.md`
 
 ## Agent Logic
 

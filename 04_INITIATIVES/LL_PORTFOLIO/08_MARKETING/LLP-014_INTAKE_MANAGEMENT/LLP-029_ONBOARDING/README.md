@@ -43,7 +43,7 @@ dimensions of onboarding.
 
 ## Relationship to LLP-004
 
-> **Operational counterpart: [LLP-004 ONBOARDING](../../../../03_FIRM_OPERATIONS/LLP-004_ONBOARDING/)**
+> **Operational counterpart: [LLP-004 ONBOARDING](../../../03_FIRM_OPERATIONS/LLP-004_ONBOARDING/)**
 >
 > LLP-029 covers the **marketing and client experience side** of onboarding
 > (welcome communications, expectation-setting, relationship framing). LLP-004

@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_07_growth_projects_llp_023_matter_command_control_planning_implementation_spec_md
+title: Implementation Spec
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Implementation Spec
 
 ## 1) Target Daily Outputs

@@ -8,6 +8,7 @@ product_link: Shareholder Dispute Readiness Guide ($9)
 created_date: 2026-04-05
 last_updated: 2026-04-05
 tags: [funnel-01, shareholder-dispute, pillar-post, conversion]
+owner: ML1
 ---
 
 # A Business Partnership Is Rarely "Tense." It Is Usually Entering a Legally Meaningful Phase.

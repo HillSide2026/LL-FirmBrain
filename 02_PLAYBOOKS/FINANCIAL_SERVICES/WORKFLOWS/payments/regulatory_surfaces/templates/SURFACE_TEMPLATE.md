@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__regulatory_surfaces__templates__surface_template_md
+id: 02_playbooks_financial_services_workflows_payments_regulatory_surfaces_templates_surface_template_md
 title: Regulatory Surface: [RS_ID]
 owner: ML1
 status: draft

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__review_ritual_md
+id: 02_playbooks_ll_operations_review_ritual_readme_md
 title: Review Ritual
 owner: ML1
 status: draft

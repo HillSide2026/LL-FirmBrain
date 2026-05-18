@@ -10,6 +10,7 @@ tags:
   - gmail
   - planning
 doc_type: scope_statement
+created_date: 2026-05-18
 ---
 
 # SYS-002 Gmail Integration - Scope Statement

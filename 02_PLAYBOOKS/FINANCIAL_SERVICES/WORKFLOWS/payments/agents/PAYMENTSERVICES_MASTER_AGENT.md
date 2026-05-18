@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__agents__paymentservices_master_agent_md
+id: 02_playbooks_financial_services_workflows_payments_agents_paymentservices_master_agent_md
 title: Payment Services Master Agent — Expert Spec (Canada)
 owner: ML1
 status: draft
@@ -13,7 +13,7 @@ tags: []
 **Role ID:** PAYMENTS-MASTER-001
 **Status:** DRAFT
 **Effective:** 2026-02-07
-**Instantiates:** [PRACTICE_AREA_MASTER_AGENT_SPEC v1.0](../../../../00_SYSTEM/AGENTS/PRACTICE_AREA_MASTER_AGENT_SPEC.md)
+**Instantiates:** [PRACTICE_AREA_MASTER_AGENT_SPEC v1.0](../../../../../00_SYSTEM/AGENTS/PRACTICE_AREA_MASTER_AGENT_SPEC.md)
 
 ---
 
@@ -470,8 +470,8 @@ Solutions do not replace expertise — they discipline it.
 
 ## 17. Doctrine References
 
-- Generic Spec: [PRACTICE_AREA_MASTER_AGENT_SPEC](../../../../00_SYSTEM/AGENTS/PRACTICE_AREA_MASTER_AGENT_SPEC.md)
-- Agent Doctrine: [INV-0015](../../../../01_DOCTRINE/01_INVARIANTS/INV-0015-second-brain-agent-authority.md)
-- Agent Typology: [AGENT_TYPOLOGY](../../../../00_SYSTEM/AGENTS/AGENT_TYPOLOGY.md)
-- Solutions: [SOLUTIONS](../../SOLUTIONS/README.md)
+- Generic Spec: [PRACTICE_AREA_MASTER_AGENT_SPEC](../../../../../00_SYSTEM/AGENTS/PRACTICE_AREA_MASTER_AGENT_SPEC.md)
+- Agent Doctrine: [INV-0015](../../../../../01_DOCTRINE/01_INVARIANTS/INV-0015-second-brain-agent-authority.md)
+- Agent Typology: [AGENT_TYPOLOGY](../../../../../00_SYSTEM/AGENTS/AGENT_TYPOLOGY.md)
+- Solutions: [SOLUTIONS](../../../SOLUTIONS/README.md)
 - Overlays: [OVERLAYS/](../OVERLAYS/)

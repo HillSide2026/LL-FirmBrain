@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__readme_md
+id: 02_playbooks_contracts_workflows_readme_md
 title: Contracts Practice Area
 owner: ML1
 status: draft

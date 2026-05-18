@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_llp_011_funnel1_management_implementation_readme_md
+title: LLP-011 Funnel 1 / implementation
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # LLP-011 Funnel 1 / implementation
 
 This folder is the canonical executing-stage packet for LLP-011.

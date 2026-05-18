@@ -6,6 +6,7 @@ version: 1.0
 created_date: 2026-02-15
 last_updated: 2026-02-15
 tags: [funnel-03, entry-offer-3, scope, aml]
+title: Entry Offer 3 - MSB Health Check (TM) (Canada)
 ---
 
 # Entry Offer 3: MSB Health Check (TM) (Canada)

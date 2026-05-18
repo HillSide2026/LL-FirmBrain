@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_07_growth_projects_llp_033_associate_lawyer_initiation_risk_scan_md
+title: Risk Scan
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Risk Scan
 
 ## Top 5 Risks

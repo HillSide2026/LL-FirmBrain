@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__proposal_schema_v2_md
+id: 02_playbooks_assets_execution_schemas_proposal_schema_v2_readme_md
 title: Proposal Record Schema — v2
 owner: ML1
 status: draft

@@ -6,6 +6,7 @@ version: 1.0
 created_date: 2026-02-15
 last_updated: 2026-02-15
 tags: [funnel-02, lead-magnet, corporate-health-check, governance]
+title: Funnel 2 Lead Magnet Draft
 ---
 
 # Funnel 2 Lead Magnet Draft

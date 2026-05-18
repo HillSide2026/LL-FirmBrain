@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_03_firm_operations_portfolio_management_capacity_allocation_model_md
+title: CAPACITY ALLOCATION MODEL
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # CAPACITY ALLOCATION MODEL
 
 - Generated: 2026-05-17T10:30:12+00:00

@@ -7,6 +7,7 @@ created_date: 2026-03-21
 page: /industries
 platform: Thrive Architect + WordPress
 approval: pending ML1 review
+last_updated: 2026-05-18
 ---
 
 # Thrive Architect Build Packet — Industries We Serve

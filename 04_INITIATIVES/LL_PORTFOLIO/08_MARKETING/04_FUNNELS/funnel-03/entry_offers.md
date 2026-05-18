@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_04_funnels_funnel_03_entry_offers_md
+title: Funnel 3 Entry Offers
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Funnel 3 Entry Offers
 
 ## Entry 1: MSB Registration Mandate

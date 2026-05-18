@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_07_growth_projects_llp_030_firm_strategy_review_llm006_md
+title: LLP-030 Firm Strategy — Governance Stress Test (LLM-006)
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # LLP-030 Firm Strategy — Governance Stress Test (LLM-006)
 
 > Advisory output. ML1 approval required before any action is taken.

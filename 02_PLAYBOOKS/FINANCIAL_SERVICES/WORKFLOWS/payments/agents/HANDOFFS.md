@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__agents__handoffs_md
+id: 02_playbooks_financial_services_workflows_payments_agents_handoffs_md
 title: Handoffs — Payments
 owner: ML1
 status: draft

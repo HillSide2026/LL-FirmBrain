@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__regulatory_surfaces__surface_index_md
+id: 02_playbooks_financial_services_workflows_payments_regulatory_surfaces_surface_index_md
 title: Regulatory Surface Index — Payments
 owner: ML1
 status: draft

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__action_proposal_schema_md
+id: 02_playbooks_assets_execution_schemas_action_proposal_schema_readme_md
 title: Action Proposal — Schema
 owner: ML1
 status: draft

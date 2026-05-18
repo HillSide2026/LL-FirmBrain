@@ -8,6 +8,7 @@ product_link: Shareholder Dispute Readiness Guide ($9)
 created_date: 2026-04-05
 last_updated: 2026-04-05
 tags: [funnel-01, shareholder-dispute, pillar-page, SEO, draft]
+owner: ML1
 ---
 
 # DRAFT — Pillar Page: Shareholder Disputes

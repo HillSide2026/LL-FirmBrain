@@ -10,6 +10,7 @@ tags:
   - sharepoint
   - planning
 doc_type: project_plan
+created_date: 2026-05-18
 ---
 
 # SYS-003 SharePoint Integration - Project Plan

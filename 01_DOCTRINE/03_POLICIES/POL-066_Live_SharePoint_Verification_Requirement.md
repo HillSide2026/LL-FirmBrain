@@ -1,5 +1,5 @@
 ---
-id: POL-066
+id: 01_doctrine_03_policies_pol_066_live_sharepoint_verification_requirement_md
 title: Live SharePoint Verification Requirement
 owner: ML1
 status: approved

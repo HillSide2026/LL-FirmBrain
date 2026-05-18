@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__question_banks__readme_md
+id: 02_playbooks_corporate_workflows_question_banks_readme_md
 title: Corporate Question Banks
 owner: ML1
 status: draft

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__corporate_advisory__readme_md
+id: 02_playbooks_corporate_workflows_solutions_corporate_advisory_readme_md
 title: Corporate Advisory
 owner: ML1
 status: draft

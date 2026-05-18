@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__shareholder_conflict__readme_md
+id: 02_playbooks_corporate_workflows_solutions_shareholder_conflict_readme_md
 title: Shareholder Conflict
 owner: ML1
 status: draft

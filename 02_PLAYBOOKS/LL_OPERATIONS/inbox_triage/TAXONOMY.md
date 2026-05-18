@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__inbox_triage__taxonomy_md
+id: 02_playbooks_ll_operations_inbox_triage_taxonomy_md
 title: Inbox Triage Taxonomy
 owner: ML1
 status: draft

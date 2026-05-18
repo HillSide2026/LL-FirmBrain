@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__queue_storage_format_md
+id: 02_playbooks_assets_execution_log_formats_queue_storage_format_readme_md
 title: Queue Storage Format
 owner: ML1
 status: draft

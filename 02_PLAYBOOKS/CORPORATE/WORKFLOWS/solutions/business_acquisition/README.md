@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__business_acquisition__readme_md
+id: 02_playbooks_corporate_workflows_solutions_business_acquisition_readme_md
 title: Business Acquisition
 owner: ML1
 status: draft

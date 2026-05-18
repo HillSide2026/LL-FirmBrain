@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_01_financial_management_llp_001_accounting_initiation_success_criteria_md
+title: Success Criteria
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Success Criteria
 
 Project ID: LLP-001

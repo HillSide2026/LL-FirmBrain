@@ -39,7 +39,7 @@ Deal Solution
 |--------|--------|----------|
 | Waiting on Client | Active | Business license status, landlord response |
 
-## Lawyer To-Dos
+## LL Legal Tasks
 
 | Task | Priority | Activity Period |
 |------|----------|-----------------|

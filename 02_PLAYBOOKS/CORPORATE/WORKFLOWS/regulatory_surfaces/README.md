@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__regulatory_surfaces__readme_md
+id: 02_playbooks_corporate_workflows_regulatory_surfaces_readme_md
 title: Regulatory Surfaces
 owner: ML1
 status: draft

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__decision_registry_md
+id: 02_playbooks_financial_services_workflows_payments_decision_registry_md
 title: Decision Registry — Payments
 owner: ML1
 status: draft

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__solutions__readme_md
+id: 02_playbooks_contracts_workflows_solutions_readme_md
 title: Contract Solutions
 owner: ML1
 status: draft

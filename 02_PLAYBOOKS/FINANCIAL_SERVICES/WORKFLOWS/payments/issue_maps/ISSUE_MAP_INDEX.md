@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__issue_maps__issue_map_index_md
+id: 02_playbooks_financial_services_workflows_payments_issue_maps_issue_map_index_md
 title: Issue Map Index — Payments
 owner: ML1
 status: draft

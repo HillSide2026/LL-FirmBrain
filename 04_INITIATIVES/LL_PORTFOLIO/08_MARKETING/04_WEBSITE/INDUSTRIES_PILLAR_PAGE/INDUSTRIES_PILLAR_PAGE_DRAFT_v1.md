@@ -7,6 +7,7 @@ created_date: 2026-03-21
 agent: MKT_CONTENT_PRODUCTION_AGENT
 page_level: Level 2
 canonical_url_target: /industries
+last_updated: 2026-05-18
 ---
 
 # Industries / Industries Served

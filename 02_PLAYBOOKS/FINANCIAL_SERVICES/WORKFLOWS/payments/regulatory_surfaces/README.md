@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__regulatory_surfaces__readme_md
+id: 02_playbooks_financial_services_workflows_payments_regulatory_surfaces_readme_md
 title: Regulatory Surfaces — Payments
 owner: ML1
 status: draft

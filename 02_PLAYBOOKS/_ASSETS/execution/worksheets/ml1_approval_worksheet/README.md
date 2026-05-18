@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__ml1_approval_worksheet_md
+id: 02_playbooks_assets_execution_worksheets_ml1_approval_worksheet_readme_md
 title: ML1 Approval Worksheet
 owner: ML1
 status: draft

@@ -8,6 +8,7 @@ product_link: Business Structure Diagnostic ($49)
 created_date: 2026-04-05
 last_updated: 2026-04-05
 tags: [funnel-01, business-structure, SEO, internal-links]
+owner: ML1
 ---
 
 # Internal Link Architecture — Business Structure Cluster

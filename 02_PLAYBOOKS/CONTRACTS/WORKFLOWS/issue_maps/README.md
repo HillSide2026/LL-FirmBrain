@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__issue_maps__readme_md
+id: 02_playbooks_contracts_workflows_issue_maps_readme_md
 title: Contract Issue Maps
 owner: ML1
 status: draft

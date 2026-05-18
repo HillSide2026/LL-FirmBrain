@@ -7,6 +7,8 @@ approved_by: ML1
 approved_date: 2026-04-17
 version: 1.3
 tags: [financial-services, market-structure, practice-area, scope]
+created_date: 2026-05-18
+last_updated: 2026-05-18
 ---
 
 # Financial Services — Market Structure Framework

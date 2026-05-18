@@ -37,7 +37,7 @@ Corporate client (helical piles / construction). Current work includes cohabitat
 |--------|--------|----------|
 | Finalizing | Active | Cohabitation agreement |
 
-## Lawyer To-Dos
+## LL Legal Tasks
 
 | Task | Priority | Activity Period |
 |------|----------|-----------------|

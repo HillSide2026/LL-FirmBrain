@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__decision_lenses__templates__lens_template_md
+id: 02_playbooks_financial_services_workflows_payments_decision_lenses_templates_lens_template_md
 title: Decision Lens: [LENS_ID]
 owner: ML1
 status: draft

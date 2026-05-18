@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__shareholder_change__common_artifacts_md
+id: 02_playbooks_corporate_workflows_solutions_shareholder_change_common_artifacts_md
 title: Common Artifacts: Shareholder Change
 owner: ML1
 status: draft

@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_llp_025_marketing_strategy_planning_metric_framework_md
+title: Metric Framework
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Metric Framework
 
 Project ID: LLP-025

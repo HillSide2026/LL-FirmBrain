@@ -54,8 +54,8 @@ the governing `LL Matters` protocol unless it has been reconciled to the
 
 This protocol applies to the `legalmatters` SharePoint workspace described in:
 
-- [sharepoint/README.md](/Users/matthewajlevinelaw/Repos/ll-secondbrain/00_SYSTEM/integrations/sharepoint/README.md)
-- [matter_folder_rules.yml](/Users/matthewajlevinelaw/Repos/ll-secondbrain/00_SYSTEM/CONFIG/matter_folder_rules.yml)
+- [sharepoint/README.md](../../00_SYSTEM/integrations/sharepoint/README.md)
+- [matter_folder_rules.yml](../../00_SYSTEM/CONFIG/matter_folder_rules.yml)
 
 In scope:
 
@@ -99,8 +99,8 @@ protocol from observation alone. The correct response is to:
 
 SharePoint matter resolution is governed by:
 
-- [matter_folder_rules.yml](/Users/matthewajlevinelaw/Repos/ll-secondbrain/00_SYSTEM/CONFIG/matter_folder_rules.yml)
-- [matter_sharepoint_map.yml](/Users/matthewajlevinelaw/Repos/ll-secondbrain/05_MATTERS/_REGISTRY/matter_sharepoint_map.yml)
+- [matter_folder_rules.yml](../../00_SYSTEM/CONFIG/matter_folder_rules.yml)
+- `matter_sharepoint_map.yml` (legacy reference; file not present in this repo)
 
 ### Default rule
 

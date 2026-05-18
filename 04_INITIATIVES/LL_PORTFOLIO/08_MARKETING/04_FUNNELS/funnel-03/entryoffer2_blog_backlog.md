@@ -6,6 +6,7 @@ version: 1.0
 created_date: 2026-02-15
 last_updated: 2026-02-15
 source: user
+title: Entry Offer 2 Blog Backlog
 ---
 
 # Entry Offer 2 Blog Backlog

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__readme_md
+id: 02_playbooks_corporate_workflows_solutions_readme_md
 title: Corporate Solutions
 owner: ML1
 status: draft

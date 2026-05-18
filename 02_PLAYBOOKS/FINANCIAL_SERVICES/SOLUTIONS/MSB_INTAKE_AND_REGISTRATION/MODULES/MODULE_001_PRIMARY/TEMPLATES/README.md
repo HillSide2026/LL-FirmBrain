@@ -3,6 +3,8 @@ id: financial_services_solutions_msb_intake_and_registration_modules_module_001_
 title: Templates
 owner: ML1
 status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
 ---
 # Templates
 

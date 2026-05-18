@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__readme_md
+id: 02_playbooks_financial_services_workflows_readme_md
 title: Financial Services Playbooks
 owner: ML1
 status: draft

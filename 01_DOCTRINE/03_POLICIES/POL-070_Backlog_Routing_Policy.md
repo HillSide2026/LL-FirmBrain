@@ -22,7 +22,7 @@ work and personal to-do items do not accumulate in the wrong location.
 |----------|------|----------|
 | System Portfolio Backlog | `04_INITIATIVES/SYSTEM_PORTFOLIO/BACKLOG.md` | System-level work items |
 | Personal Actions Backlog | `04_INITIATIVES/HillSide_PORTFOLIO/PERSONAL_PROJECTS/PERSONAL_ACTIONS/BACKLOG.md` | ML1 personal action items |
-| LL Actions Hub | `05_MATTERS/LL_ACTIONS/README.md` | Index only — routes to LAWYER_TASK_TRACKER.md and content backlogs |
+| LL Actions Hub | `05_MATTERS/LL_ACTIONS/README.md` | Index only — routes to `LL_TASK_TRACKER.md` and content backlogs |
 
 ## Routing Rules
 
@@ -37,11 +37,25 @@ of the ML2 system itself — including:
 
 ### Personal To-Do Backlog
 An item belongs here if it is a personal obligation or action for ML1 that is
-not a Levine Law matter task — including:
+not a Levine Law task — including:
 - Advisor follow-ups
 - Personal appointments or commitments
 - HillSide / personal project next steps
 - Items with no system execution component
+
+### LL Actions Hub
+An item belongs in the LL Actions layer if it is Levine Law work. Classify it as:
+- `LL Legal Task` for client or matter work involving legal judgment, legal
+  delivery, matter strategy, drafting, review, negotiation, filing, or
+  client-facing legal advice
+- `LL Admin Task` for matter administration, file closing, collections, client
+  authorization, document chasing, internal follow-up, or other non-substantive
+  matter support
+- `LL Firm Management Task` for Levine Law management work not tied to a single
+  client matter, including operations, finance, marketing, staffing, systems,
+  and strategy
+
+Classify LL work by task type, not by professional role.
 
 ## Routing Decision
 

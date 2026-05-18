@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__supervised_execution_runbook_md
+id: 02_playbooks_ll_operations_supervised_execution_runbook_readme_md
 title: Supervised Execution Runbook
 owner: ML1
 status: draft

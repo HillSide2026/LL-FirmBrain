@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__intake_question_packs_md
+id: 02_playbooks_financial_services_workflows_payments_intake_question_packs_md
 title: Intake Question Packs — Payments
 owner: ML1
 status: draft

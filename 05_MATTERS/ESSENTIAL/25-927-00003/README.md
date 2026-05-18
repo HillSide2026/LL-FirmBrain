@@ -64,7 +64,7 @@ Payments/MSB client with active CAMLO operations through subsidiary SnowCap Fina
 | Finalizing | Active | RPAA - Incident Risk Policy, Application |
 | Waiting on Client | Active | AML-ATF Risk Assessment, Wolfsberg FCCQ |
 
-## Lawyer To-Dos
+## LL Legal Tasks
 
 | Task | Priority | Activity Period |
 |------|----------|-----------------|

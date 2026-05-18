@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__overlays__rails__readme_md
+id: 02_playbooks_financial_services_workflows_payments_overlays_rails_readme_md
 title: Overlay: RAILS
 owner: ML1
 status: draft

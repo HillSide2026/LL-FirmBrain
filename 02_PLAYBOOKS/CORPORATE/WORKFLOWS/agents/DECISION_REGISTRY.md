@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__agents__decision_registry_md
+id: 02_playbooks_corporate_workflows_agents_decision_registry_md
 title: Decision Registry
 owner: ML1
 status: draft

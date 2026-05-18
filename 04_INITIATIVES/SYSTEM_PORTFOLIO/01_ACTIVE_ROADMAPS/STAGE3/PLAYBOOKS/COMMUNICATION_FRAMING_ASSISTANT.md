@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__stage3__communication_framing_assistant_md
+id: 04_initiatives_system_portfolio_01_active_roadmaps_stage3_playbooks_communication_framing_assistant_md
 title: Agent: Communication Framing Assistant (Stage 3.5)
 owner: ML1
 status: approved

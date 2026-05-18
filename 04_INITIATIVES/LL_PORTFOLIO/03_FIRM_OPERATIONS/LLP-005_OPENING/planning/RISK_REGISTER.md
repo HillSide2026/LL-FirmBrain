@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_03_firm_operations_llp_005_opening_planning_risk_register_md
+title: Risk Register
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Risk Register
 
 Project ID: LLP-005

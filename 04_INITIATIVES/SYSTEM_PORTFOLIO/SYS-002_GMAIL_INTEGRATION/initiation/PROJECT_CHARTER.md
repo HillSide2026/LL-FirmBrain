@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_system_portfolio_sys_002_gmail_integration_initiation_project_charter_md
+title: Project Charter
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Project Charter
 
 Project ID: SYS-002

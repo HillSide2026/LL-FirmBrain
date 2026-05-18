@@ -35,12 +35,13 @@ Top-level structure:
 
 ```
 02_PLAYBOOKS/
-├── LL_OPERATIONS/        # Firm operations playbooks
-├── CONTRACTS/            # Contract practice area
-├── CORPORATE/            # Corporate practice area
-├── FINANCIAL_SERVICES/   # Financial services practice area
-├── _ASSETS/              # Reusable non-workflow assets
-└── _REGISTRY/            # Indexes, policy, and structure controls
+├── LL_OPERATIONS/              # Firm operations playbooks
+├── CONTRACTS/                  # Contract practice area
+├── CORPORATE/                  # Corporate practice area
+├── FINANCIAL_SERVICES/         # Financial services practice area
+├── TRADE_REMEDIES_MARKET_ACCESS/  # Trade remedies and market access practice area (draft)
+├── _ASSETS/                    # Reusable non-workflow assets
+└── _REGISTRY/                  # Indexes, policy, and structure controls
 ```
 
 Practice area playbooks are organized under:

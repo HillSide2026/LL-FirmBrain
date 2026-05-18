@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__incorporation__risk_profile_md
+id: 02_playbooks_corporate_workflows_solutions_incorporation_risk_profile_md
 title: Risk Profile: Incorporation
 owner: ML1
 status: draft

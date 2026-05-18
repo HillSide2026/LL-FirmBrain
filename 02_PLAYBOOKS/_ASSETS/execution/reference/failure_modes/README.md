@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__failure_modes_md
+id: 02_playbooks_assets_execution_reference_failure_modes_readme_md
 title: Trust, Audit, and Failure Modes
 owner: ML1
 status: draft

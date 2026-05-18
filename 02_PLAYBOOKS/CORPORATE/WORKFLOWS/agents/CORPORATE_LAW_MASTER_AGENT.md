@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__agents__corporate_law_master_agent_md
+id: 02_playbooks_corporate_workflows_agents_corporate_law_master_agent_md
 title: Corporate Law Master Agent — Expert Spec (Ontario)
 owner: ML1
 status: draft

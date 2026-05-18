@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_system_portfolio_sys_002_gmail_integration_initiation_success_criteria_md
+title: Success Criteria
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Success Criteria
 
 Project ID: SYS-002

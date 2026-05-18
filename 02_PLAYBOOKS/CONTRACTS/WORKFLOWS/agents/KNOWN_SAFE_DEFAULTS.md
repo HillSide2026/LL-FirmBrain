@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__agents__known_safe_defaults_md
+id: 02_playbooks_contracts_workflows_agents_known_safe_defaults_md
 title: Known-Safe Defaults — Contracts
 owner: ML1
 status: draft

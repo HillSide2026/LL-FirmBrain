@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_03_firm_operations_chief_of_staff_cos_brief_md
+title: Chief of Staff Brief
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Chief of Staff Brief
 
 - Status: legacy duplicate

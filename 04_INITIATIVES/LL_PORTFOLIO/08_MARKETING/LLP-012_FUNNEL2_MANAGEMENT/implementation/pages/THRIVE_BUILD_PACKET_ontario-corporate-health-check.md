@@ -9,6 +9,8 @@ approval: pending ML1 review and execution
 created_date: 2026-03-30
 ia_level: Level 3 (service-specific soft landing page, per POL-051)
 palette_ref: POL-049 Present State (active)
+owner: ML1
+last_updated: 2026-05-18
 ---
 
 # Thrive Architect Build Packet

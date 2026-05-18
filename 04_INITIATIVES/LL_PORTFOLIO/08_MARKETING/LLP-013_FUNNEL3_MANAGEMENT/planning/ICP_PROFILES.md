@@ -6,6 +6,7 @@ version: 2.0
 created_date: 2026-04-15
 last_updated: 2026-04-15
 tags: [funnel-03, icp, profiles]
+id: 04_initiatives_ll_portfolio_08_marketing_llp_013_funnel3_management_planning_icp_profiles_md
 ---
 
 # F3 ICP Profiles

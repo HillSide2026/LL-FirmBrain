@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__stage3__document_condenser_md
+id: 04_initiatives_system_portfolio_01_active_roadmaps_stage3_playbooks_document_condenser_md
 title: Agent: Document Condenser (Stage 3.4)
 owner: ML1
 status: draft

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__decision_lenses__lens_index_md
+id: 02_playbooks_financial_services_workflows_payments_decision_lenses_lens_index_md
 title: Lens Index — Payments
 owner: ML1
 status: draft

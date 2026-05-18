@@ -34,7 +34,7 @@ This protocol applies to any operation that writes to or updates:
 - `MATTER.yaml` — any field, especially `services`
 - `MATTER_BRIEF.md` — any section
 - `MATTER_STATUS.md` — any section
-- `LAWYER_TASK_TRACKER.md` — adding or modifying tasks for a matter
+- `LL_TASK_TRACKER.md` — adding or modifying tasks for a matter
 - `INDEX.md` — any matter entry
 
 It does not apply to read-only operations (summarizing, reporting, presenting).

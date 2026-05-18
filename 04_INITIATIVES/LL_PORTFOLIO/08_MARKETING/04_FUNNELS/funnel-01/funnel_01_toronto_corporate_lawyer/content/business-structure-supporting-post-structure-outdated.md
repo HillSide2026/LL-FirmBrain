@@ -9,6 +9,7 @@ pillar_post: business-structure-pillar-post-drift.md
 created_date: 2026-04-05
 last_updated: 2026-04-05
 tags: [funnel-01, business-structure, supporting-post]
+owner: ML1
 ---
 
 # When a Business Structure Stops Reflecting How a Company Operates

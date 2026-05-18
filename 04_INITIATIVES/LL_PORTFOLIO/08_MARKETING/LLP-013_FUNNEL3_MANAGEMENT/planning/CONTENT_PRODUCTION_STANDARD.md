@@ -6,6 +6,7 @@ version: 1.0
 created_date: 2026-04-15
 last_updated: 2026-04-15
 tags: [funnel-03, content-standard, voice, production]
+id: 04_initiatives_ll_portfolio_08_marketing_llp_013_funnel3_management_planning_content_production_standard_md
 ---
 
 # F3 Content Production Standard

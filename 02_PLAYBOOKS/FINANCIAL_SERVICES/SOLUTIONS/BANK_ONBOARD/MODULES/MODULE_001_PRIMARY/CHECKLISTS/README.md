@@ -3,6 +3,8 @@ id: financial_services_solutions_bank_onboard_modules_module_001_primary_checkli
 title: Checklists
 owner: ML1
 status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
 ---
 # Checklists
 

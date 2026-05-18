@@ -253,7 +253,7 @@ It records **conditions**, not opinions.
 * **Matter Docketing (`05_MATTER_DOCKETING`)**
 
   * Overlay for tracking delivery states and activity periods
-  * Houses lawyer to-do protocol
+  * Houses LL Legal Task protocol
 
 * **Risk (`04_RISK`)**
 

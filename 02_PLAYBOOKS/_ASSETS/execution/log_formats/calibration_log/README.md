@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__calibration_log_md
+id: 02_playbooks_assets_execution_log_formats_calibration_log_readme_md
 title: Classifier Calibration Log
 owner: ML1
 status: draft

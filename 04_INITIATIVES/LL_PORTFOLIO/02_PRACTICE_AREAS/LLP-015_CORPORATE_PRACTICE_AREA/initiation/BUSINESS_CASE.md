@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_02_practice_areas_llp_015_corporate_practice_area_initiation_business_case_md
+title: Business Case
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Business Case
 
 Project ID: LLP-015

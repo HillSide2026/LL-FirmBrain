@@ -849,7 +849,21 @@ def resolve_repo_target(source_path: Path, target: str) -> Tuple[Path | None, st
     if re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", normalized):
         return None, "external"
     if normalized.startswith("/"):
-        base = (REPO_ROOT / normalized.lstrip("/")).resolve(strict=False)
+        first_segment = normalized.lstrip("/").split("/", 1)[0]
+        known_roots = set(INVENTORY_ROOTS_WITHOUT_RUNS) | PLAYBOOK_TOP_LEVEL_DIRS | {
+            "06_RUNS",
+            "scripts",
+            "agents",
+            "cache",
+            "gmail_governance",
+            "screenshots",
+        }
+        if first_segment not in known_roots and first_segment != "Users":
+            return None, "external"
+        if first_segment == "Users":
+            base = Path(normalized).resolve(strict=False)
+        else:
+            base = (REPO_ROOT / normalized.lstrip("/")).resolve(strict=False)
         mode = "absolute"
     else:
         base = (source_path.parent / normalized).resolve(strict=False)

@@ -6,6 +6,7 @@ version: 2.0
 created_date: 2026-02-15
 last_updated: 2026-02-16
 tags: [funnel-02, lead-magnet, corporate-health-check, governance]
+title: Growth Without Structural Drift (TM)
 ---
 
 # Growth Without Structural Drift (TM)

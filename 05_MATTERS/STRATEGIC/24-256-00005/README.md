@@ -40,7 +40,7 @@ Cannabis brand client. Ongoing corporate/commercial matters including supplier a
 |--------|--------|----------|
 | Review | Active | Seeker Cannabis agreement |
 
-## Lawyer To-Dos
+## LL Legal Tasks
 
 | Task | Priority | Activity Period |
 |------|----------|-----------------|

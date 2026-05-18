@@ -275,7 +275,7 @@ Conversion complete
 
 * Create delivery states
 * Create activity periods
-* Create lawyer to-dos
+* Create LL Legal Tasks
 * Infer docketing priority
 * Track delivery capacity
 

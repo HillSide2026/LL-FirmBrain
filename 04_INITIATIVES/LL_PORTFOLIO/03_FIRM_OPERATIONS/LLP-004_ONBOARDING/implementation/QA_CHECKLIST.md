@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_03_firm_operations_llp_004_onboarding_implementation_qa_checklist_md
+title: QA Checklist
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # QA Checklist
 
 Project ID: LLP-004

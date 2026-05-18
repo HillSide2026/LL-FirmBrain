@@ -7,6 +7,7 @@ created_date: 2026-03-21
 page_level: Level 2
 canonical_url_target: /industries
 revision_note: v2 — complete rewrite; web-page format with UI/UX layout spec, image slots, shorter copy, revised six-category taxonomy. v2.1 — merged Section 5 into Section 4. v2.2 — final taxonomy: Healthcare & Professional Practices + Professional Services & Consulting merged into Professional Services & Healthcare; Manufacturing, Wholesale & Distribution added as sixth category
+last_updated: 2026-05-18
 ---
 
 # Industries / Industries Served

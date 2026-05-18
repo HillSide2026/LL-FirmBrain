@@ -22,7 +22,6 @@
 | 23-194-00013 | Rousseau Mazzuca LLP | Standard |
 | 23-235-00001 | Baobab Energy Africa Ltd | Standard |
 | 24-646-00001 | ByNature Design | Standard |
-| 24-845-00001 | STAR 333 SPORTS INC. | Standard |
 | 25-1185-00001 | Alexander Klys | Standard |
 | 25-1363-00001 | Raevan Joy Sambrano | Standard |
 | 25-1525-00001 | Kleenup Cleaning Services Inc. | Standard |
@@ -37,9 +36,14 @@
 | 25-845-00001 | STAR 333 SPORTS INC. | Standard |
 | 25-845-00002 | STAR 333 SPORTS INC. | Standard |
 | 26-259-00003 | LL Onboarding | Standard |
+| 25-1318-00001 | Zelko Culibrk | Standard |
+| 26-1593-00002 | 1001162998 Ontario Corp. o/a KaleMart | Standard |
+| 24-256-00001 | Aspire Infusions Inc — Leadership Team | Strategic |
+| 24-256-00002 | Aspire Infusions Inc — Corporate | Strategic |
+| 24-256-00003 | Aspire Infusions Inc — Marketing Related Matters | Strategic |
+| 24-256-00004 | Aspire Infusions Inc — Product and Personnel Matters | Strategic |
+| 24-256-00005 | Aspire Infusions Inc — Legal Strategy | Strategic |
 | 24-336-00004 | Mascore Helical Piles | Strategic |
 | 25-1231-00001 | Charmaine Spiteri | Strategic |
-| 25-1318-00001 | Zelko Culibrk | Strategic |
-| 25-256-00005 | Aspire Infusions Inc | Strategic |
 | 26-1631-00001 | 1713425 Ontario Inc. (Tejvir Boparai) | Strategic |
-| 26-1593-00002 | 1001162998 Ontario Corp. o/a KaleMart | Strategic |
+| 26-1637-00001 | MRKT (Nilabh Anand) | Strategic |

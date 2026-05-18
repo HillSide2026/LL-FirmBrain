@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__solutions__intercompany__readme_md
+id: 02_playbooks_contracts_workflows_solutions_intercompany_readme_md
 title: Intercompany
 owner: ML1
 status: draft

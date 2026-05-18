@@ -10,6 +10,7 @@ tags:
   - sharepoint
   - planning
 doc_type: assumptions_constraints
+created_date: 2026-05-18
 ---
 
 # SYS-003 SharePoint Integration - Assumptions and Constraints

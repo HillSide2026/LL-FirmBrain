@@ -1524,8 +1524,8 @@ ML1 holds authority.
 | File | Purpose |
 |------|---------|
 | [PAYMENTSERVICES_MASTER_AGENT.md](PAYMENTSERVICES_MASTER_AGENT.md) | Peer agent — execution management |
-| [SOLUTION_COLLISION_MATRIX.md](SOLUTION_COLLISION_MATRIX.md) | Multi-solution routing (for context only) |
-| [08_RESEARCH/FINANCIAL_SERVICES_LAW/](../../../../../08_RESEARCH/FINANCIAL_SERVICES_LAW/) | Foundational Library and research syntheses |
+| [SOLUTION_COLLISION_MATRIX.md](../SOLUTION_COLLISION_MATRIX.md) | Multi-solution routing (for context only) |
+| [08_RESEARCH/FINANCIAL_SERVICES_LAW/](../../../../08_RESEARCH/FINANCIAL_SERVICES_LAW/) | Foundational Library and research syntheses |
 | RPAA Synthesis (08_RESEARCH) | Current RPAA research notes |
 | CARF Synthesis (08_RESEARCH) | Current CARF research notes |
 | Foundational Library (08_RESEARCH) | Geva, Proctor, treatises, academic papers |
@@ -1536,4 +1536,4 @@ ML1 holds authority.
 
 - Agent Doctrine: [INV-0015](../../../../01_DOCTRINE/01_INVARIANTS/INV-0015-second-brain-agent-authority.md)
 - Agent Typology: [AGENT_TYPOLOGY](../../../../00_SYSTEM/AGENTS/AGENT_TYPOLOGY.md)
-- Foundational Library: [Foundational-Library v0.1](../../../../../08_RESEARCH/FINANCIAL_SERVICES_LAW/2026-03-23__Financial-Services-Law__Foundational-Library__v0.1.md)
+- Foundational Library: [Foundational-Library v0.1](../../../../08_RESEARCH/FINANCIAL_SERVICES_LAW/2026-03-23__Financial-Services-Law__Foundational-Library__v0.1.md)

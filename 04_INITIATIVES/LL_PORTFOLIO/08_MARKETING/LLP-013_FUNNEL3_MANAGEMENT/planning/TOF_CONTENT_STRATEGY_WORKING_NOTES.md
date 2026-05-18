@@ -5,6 +5,7 @@ status: working-notes
 created_date: 2026-04-14
 last_updated: 2026-04-15
 tags: [funnel-03, content-strategy, top-of-funnel, working-notes]
+id: 04_initiatives_ll_portfolio_08_marketing_llp_013_funnel3_management_planning_tof_content_strategy_working_notes_md
 ---
 
 # F3 Top-of-Funnel Content Strategy — Working Notes

@@ -1,3 +1,13 @@
+---
+id: 00_system_integrations_lexaro_readme_md
+title: Lexaro Integration — Mode 1 (Read-Only)
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Lexaro Integration — Mode 1 (Read-Only)
 
 ## Status

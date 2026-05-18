@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__incorporation__solution_scope_md
+id: 02_playbooks_corporate_workflows_solutions_incorporation_solution_scope_md
 title: Solution Scope: Incorporation
 owner: ML1
 status: draft

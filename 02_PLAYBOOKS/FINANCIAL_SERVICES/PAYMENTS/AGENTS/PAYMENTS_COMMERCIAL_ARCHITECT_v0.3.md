@@ -9,6 +9,8 @@ version: 0.3
 supersedes: payments-commercial-architect-v0.2
 practice_area: Payment Services
 tags: [payments, financial-services, commercial-architecture, agent, doctrine, fca]
+created_date: 2026-05-18
+last_updated: 2026-05-18
 ---
 
 # Payments Commercial Architect — Agent Spec v0.3

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__issue_maps__readme_md
+id: 02_playbooks_financial_services_workflows_payments_issue_maps_readme_md
 title: Issue Maps — Payments
 owner: ML1
 status: draft

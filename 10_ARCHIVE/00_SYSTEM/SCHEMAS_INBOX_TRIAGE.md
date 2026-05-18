@@ -1,5 +1,5 @@
 ---
-id: 00_system__schemas_inbox_triage_md
+id: 10_archive__00_system__schemas_inbox_triage_md
 title: Draft Placement Plan — Schema
 owner: ML1
 status: draft

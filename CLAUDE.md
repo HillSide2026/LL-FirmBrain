@@ -49,9 +49,9 @@ to `BACKLOG.md` immediately without waiting to be asked. Tag it to an existing
 HillSide project where one exists.
 
 **Gmail capture rule:** When reading Gmail in any context, flag personal action items
-that are not Levine Law matter tasks — appointments, advisor follow-ups, personal
-obligations — and add them to `BACKLOG.md`. Do not add matter-level tasks here;
-those belong in `LAWYER_TASK_TRACKER.md`.
+that are not Levine Law tasks — appointments, advisor follow-ups, personal
+obligations — and add them to `BACKLOG.md`. Do not add LL Legal Tasks, LL Admin
+Tasks, or LL Firm Management Tasks here; those belong in the LL Actions layer.
 
 **Promotion:** Move items from `BACKLOG.md` to `ACTIVE_LIST.md` only on ML1
 instruction. Do not auto-promote.
@@ -60,13 +60,19 @@ instruction. Do not auto-promote.
 
 ## LL Actions Hub
 
-`05_MATTERS/LL_ACTIONS/README.md` is the firm-wide task index for Levine Law. It covers all task types (lawyer, admin) and all owners (ML1, staff). It references (but does not replace) the constituent artifacts: `LAWYER_TASK_TRACKER.md` and the marketing content backlogs. Artifacts for non-ML1 lawyer tasks and admin tasks do not yet exist — they are created on ML1 instruction.
+`05_MATTERS/LL_ACTIONS/README.md` is the firm-wide task index for Levine Law.
+Use `LL Task` as the umbrella term. Avoid the obsolete category name that
+described the work by professional role rather than by LL work type.
+LL Tasks may be `LL Legal Task`, `LL Admin Task`, or `LL Firm Management Task`.
+The hub references (but does not replace) the constituent artifacts:
+`LL_TASK_TRACKER.md` and the marketing content backlogs. Gap artifacts are
+created only on ML1 instruction.
 
 ---
 
-## Lawyer Task Tracker Governance
+## LL Task Tracker Governance
 
-`05_MATTERS/LAWYER_TASK_TRACKER.md` is maintained by the system subject to ML1 override.
+`05_MATTERS/LL_TASK_TRACKER.md` is maintained by the system subject to ML1 override.
 
 - When ML1 marks a task as Done, move it to the Completed section. Do not delete it.
 - Before adding any new task, check the Completed section. If the same task has already been completed on this matter, do not recreate it. A follow-up task is a new task with a distinct description — it is not the same task.

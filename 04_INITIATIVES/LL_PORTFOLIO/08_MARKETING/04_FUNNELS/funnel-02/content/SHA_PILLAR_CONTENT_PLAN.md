@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_04_funnels_funnel_02_content_sha_pillar_content_plan_md
+title: Content Plan — Shareholder Agreement Pillar
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Content Plan — Shareholder Agreement Pillar
 
 Funnel: Funnel 02 — Ontario Corporate Health Check

@@ -24,7 +24,7 @@ tags: [protocol, matters, tasks, matter-brief, task-tracker]
 This protocol governs:
 
 1. The per-matter summary file (`MATTER_BRIEF.md`) — its required content, creation, and currency rules
-2. The firm-wide task surface (`LAWYER_TASK_TRACKER.md`) — how tasks are identified, added, updated, and closed
+2. The firm-wide task surface (`LL_TASK_TRACKER.md`) — how tasks are identified, added, updated, and closed
 3. The three canonical matter fields (Clio Status, Delivery Status, Fulfillment Status) — their definitions, source of truth, and permitted values
 
 ---
@@ -119,7 +119,7 @@ All **Essential**, **Strategic**, and **Standard** matters must have a `MATTER_B
 ### 3.4 Currency rules
 
 A MATTER_BRIEF must be updated when:
-- A task in LAWYER_TASK_TRACKER moves to Completed for this matter
+- A task in `LL_TASK_TRACKER.md` moves to Completed for this matter
 - ML1 confirms new scope, a new party, or a changed posture
 - A new matter is created with Essential or Strategic delivery status
 - An existing item in "Current posture" is resolved
@@ -132,13 +132,15 @@ When a new Essential, Strategic, or Standard matter is created in the repo (new 
 
 ---
 
-## 4. LAWYER_TASK_TRACKER.md — Firm-Wide Task Surface
+## 4. LL_TASK_TRACKER.md — Firm-Wide Task Surface
 
 ### 4.1 What it is
 
-`LAWYER_TASK_TRACKER.md` is the system-maintained record of open lawyer tasks across all matters. It is the primary task surface for ML2 to surface pending work to ML1.
+`LL_TASK_TRACKER.md` is the system-maintained record of open matter-linked LL
+Tasks owned by ML1. It is the primary task surface for ML2 to surface pending
+matter work to ML1.
 
-Location: `05_MATTERS/LAWYER_TASK_TRACKER.md`
+Location: `05_MATTERS/LL_TASK_TRACKER.md`
 
 ### 4.2 Required fields
 
@@ -146,6 +148,7 @@ Location: `05_MATTERS/LAWYER_TASK_TRACKER.md`
 |-------|-------------|
 | Matter ID | Clio matter ID |
 | Client | Client name |
+| LL Task Type | LL Legal Task / LL Admin Task / LL Firm Management Task |
 | Delivery Status | Essential / Strategic / Standard / Parked |
 | Service | Service type (CAMLO, Counsel, Corporate, Regulatory, etc.) |
 | Task | Specific, actionable description |
@@ -166,7 +169,8 @@ Location: `05_MATTERS/LAWYER_TASK_TRACKER.md`
 - **Completed tasks move to the Completed section** — never deleted. The Completed section is a permanent record.
 - **Before adding any task, check the Completed section.** If the same task has already been completed on this matter, do not recreate it. A follow-up task is a new task with a distinct description.
 - **Delivery Status must appear on every row.** It is not optional.
-- **Tasks are matter-specific.** General firm tasks or project tasks belong elsewhere.
+- **Tasks are classified.** Use `LL Legal Task`, `LL Admin Task`, or `LL Firm Management Task`; classify work by task type, not by professional role.
+- **This tracker is matter-linked.** General firm tasks or project tasks belong in the LL Actions layer unless ML1 creates a dedicated artifact for them.
 
 ### 4.5 Task identification from Gmail
 
@@ -208,4 +212,4 @@ This protocol becomes active only after ML1 review and explicit approval. Upon a
 
 | Version | Date | Change |
 |---------|------|--------|
-| 0.1 | 2026-03-22 | Initial draft. Based on session work: Essential/Strategic MATTER_BRIEFs created, LAWYER_TASK_TRACKER populated, status field semantics confirmed with ML1, CLAUDE.md governance rules added. |
+| 0.1 | 2026-03-22 | Initial draft. Based on session work: Essential/Strategic MATTER_BRIEFs created, task tracker populated, status field semantics confirmed with ML1, CLAUDE.md governance rules added. |

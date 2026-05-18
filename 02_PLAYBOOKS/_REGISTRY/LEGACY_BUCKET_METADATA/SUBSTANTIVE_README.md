@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__readme_md
+id: 02_playbooks_registry_legacy_bucket_metadata_substantive_readme_md
 title: Playbooks
 owner: ML1
 status: draft

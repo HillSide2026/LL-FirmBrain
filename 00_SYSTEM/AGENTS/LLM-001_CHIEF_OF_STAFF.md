@@ -174,7 +174,7 @@ All inputs are read-only. LLM-001 must not modify these files.
 **Matter visibility context:**
 - `05_MATTERS/DASHBOARDS/MATTER_INDEX.md`
 - `05_MATTERS/DASHBOARDS/MATTER_DIGEST.md`
-- `05_MATTERS/LAWYER_TASK_TRACKER.md`
+- `05_MATTERS/LL_TASK_TRACKER.md`
 - `05_MATTERS/DASHBOARDS/DEADLINE_RADAR.md` when populated
 
 **Prerequisite check:** Before generating outputs, LLM-001 must verify that
@@ -222,7 +222,7 @@ What is the dominant condition of the portfolio right now?>
 
 ## Matter Layer Notes
 <Short matter-control read using `MATTER_DIGEST.md`, `MATTER_INDEX.md`, and
-`LAWYER_TASK_TRACKER.md`. Highlight urgent matters, active-vs-watch mix,
+`LL_TASK_TRACKER.md`. Highlight urgent matters, active-vs-watch mix,
 meaningful service-definition gaps, and any task concentration that should
 affect ML1 attention.>
 

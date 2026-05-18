@@ -5,6 +5,7 @@ owner: ML1
 status: draft
 created_date: 2026-03-21
 agent: MKT_MARKETING_STRATEGY_AGENT
+last_updated: 2026-05-18
 ---
 
 # Source Page Review — Industries Pillar Page Build

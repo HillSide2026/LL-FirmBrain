@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_07_growth_projects_llp_031_corporate_entity_management_initiation_business_case_md
+title: Business Case
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Business Case
 
 Project ID: LLP-031

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__inbox_triage__logging_spec_md
+id: 02_playbooks_ll_operations_inbox_triage_logging_spec_md
 title: Inbox Intelligence — Classification Logging Specification
 owner: ML1
 status: draft

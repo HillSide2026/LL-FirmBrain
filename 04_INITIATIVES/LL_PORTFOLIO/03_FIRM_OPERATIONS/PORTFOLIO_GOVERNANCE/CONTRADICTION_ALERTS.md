@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_03_firm_operations_portfolio_governance_contradiction_alerts_md
+title: CONTRADICTION ALERTS
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # CONTRADICTION ALERTS
 
 - Generated: 2026-05-17T10:30:12+00:00

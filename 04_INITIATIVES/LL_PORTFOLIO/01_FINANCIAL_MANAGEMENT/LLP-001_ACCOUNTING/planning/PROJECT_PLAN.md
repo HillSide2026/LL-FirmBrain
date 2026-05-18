@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_01_financial_management_llp_001_accounting_planning_project_plan_md
+title: Project Plan
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Project Plan
 
 Project ID: LLP-001

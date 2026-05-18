@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_06_agents_content_engine_output_2026_02_25_f02_post_03_accountant_alignment_md
+title: F02 Post 03 Accountant Alignment
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 POST_ID: F02-2026-02-25-03
 FUNNEL: 02
 OBJECTIVE: OBJ-01

@@ -106,9 +106,9 @@ Fees for Andersen-related work are received by 17513721 Canada Inc. The pipeline
 
 | Matter | Scope | Current state |
 |---|---|---|
-| [26-1639-00001](../../../../../05_MATTERS/ESSENTIAL/26-1639-00001/MATTER_BRIEF.md) | Client Relationship Management (umbrella) | Active; multiple BD tracks; no converted cash |
-| [26-1639-00002](../../../../../05_MATTERS/ESSENTIAL/26-1639-00002/MATTER_BRIEF.md) | Trade Remedies | Two wood-sector leads at `contacted` stage (TR-003 plywood, TR-004 processed wood); no active file |
-| [26-1639-00003](../../../../../05_MATTERS/ESSENTIAL/26-1639-00003/MATTER_BRIEF.md) | Market Access | No active tracks; held open for future leads |
+| [26-1639-00001](../../../05_MATTERS/ESSENTIAL/26-1639-00001/MATTER_BRIEF.md) | Client Relationship Management (umbrella) | Active; multiple BD tracks; no converted cash |
+| [26-1639-00002](../../../05_MATTERS/ESSENTIAL/26-1639-00002/MATTER_BRIEF.md) | Trade Remedies | Two wood-sector leads at `contacted` stage (TR-003 plywood, TR-004 processed wood); no active file |
+| [26-1639-00003](../../../05_MATTERS/ESSENTIAL/26-1639-00003/MATTER_BRIEF.md) | Market Access | No active tracks; held open for future leads |
 
 No HillSide project governs this service line yet. When a file converts, the right action is to open an HBP or add an Andersen revenue line to HBP-007 — whichever is appropriate at that time.
 

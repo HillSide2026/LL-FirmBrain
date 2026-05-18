@@ -38,7 +38,7 @@ firm-running review:
 
 - `../../../05_MATTERS/DASHBOARDS/MATTER_DIGEST.md`
 - `../../../05_MATTERS/DASHBOARDS/MATTER_INDEX.md`
-- `../../../05_MATTERS/LAWYER_TASK_TRACKER.md`
+- `../../../05_MATTERS/LL_TASK_TRACKER.md`
 - `../../../05_MATTERS/DASHBOARDS/DEADLINE_RADAR.md` when populated
 
 ## Freshness Rule

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__stage3__issue_spotter_md
+id: 04_initiatives_system_portfolio_01_active_roadmaps_stage3_playbooks_issue_spotter_md
 title: Agent: Issue Spotter (Stage 3.3)
 owner: ML1
 status: draft

@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_system_portfolio_01_active_roadmaps_stage5_readme_md
+title: STAGE5 — Operating System Layer
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # STAGE5 — Operating System Layer
 
 ## Goal

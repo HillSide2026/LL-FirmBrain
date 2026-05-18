@@ -6,6 +6,7 @@ version: 1.0
 created_date: 2026-02-16
 last_updated: 2026-02-16
 tags: [funnel-02, blog-backlog, corporate-health-check, governance]
+title: Funnel 2 Blog Backlog
 ---
 
 # Funnel 2 Blog Backlog

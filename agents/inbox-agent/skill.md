@@ -69,6 +69,6 @@ artifacts take precedence over this skill.md where they conflict.
 ## Pre-Processing Requirement
 
 Before updating any matter record (MATTER.yaml, MATTER_BRIEF.md, MATTER_STATUS.md,
-LAWYER_TASK_TRACKER.md, INDEX.md), this agent must execute the Context Hydration
+LL_TASK_TRACKER.md, INDEX.md), this agent must execute the Context Hydration
 pre-processing step defined in PRO-025. Email-derived classifications must not
 overwrite existing service taxonomy without ML1 confirmation.

@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_llp_014_intake_management_llp_029_onboarding_initiation_project_charter_md
+title: Project Charter
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Project Charter
 
 Project ID: LLP-029

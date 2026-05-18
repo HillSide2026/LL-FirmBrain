@@ -8,6 +8,7 @@ pillar_post: pillar-post-1-partnership-legally-meaningful-phase.md
 created_date: 2026-04-05
 last_updated: 2026-04-05
 tags: [funnel-01, shareholder-dispute, supporting-post]
+owner: ML1
 ---
 
 # Early Signs a Business Partner Relationship Is Breaking Down

@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_llp_011_funnel1_management_implementation_change_log_md
+title: Change Log
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Change Log
 
 Project ID: LLP-011

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__overlays__aml_kyc_program__interfaces_md
+id: 02_playbooks_financial_services_workflows_payments_overlays_aml_kyc_program_interfaces_md
 title: Interfaces: AML_KYC_PROGRAM
 owner: ML1
 status: draft

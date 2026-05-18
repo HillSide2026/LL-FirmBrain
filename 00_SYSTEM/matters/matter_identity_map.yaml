@@ -559,7 +559,7 @@ matters:
       - teji12@hotmail.com
   review:
     status: needs_ml1_review
-    notes: Added from lawyer task tracker and email-derived matter context.
+    notes: Added from LL task tracker and email-derived matter context.
   brief:
     matter_name: 1713425 Ontario Inc. (Tejvir Boparai)
     client:

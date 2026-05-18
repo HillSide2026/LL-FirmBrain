@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__solution_collision_matrix_md
+id: 02_playbooks_financial_services_workflows_payments_solution_collision_matrix_md
 title: Solution Collision Matrix — Payments
 owner: ML1
 status: draft

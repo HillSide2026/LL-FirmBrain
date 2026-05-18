@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__shareholder_change__solution_assembly_md
+id: 02_playbooks_corporate_workflows_solutions_shareholder_change_solution_assembly_md
 title: Solution Assembly: Shareholder Change
 owner: ML1
 status: draft

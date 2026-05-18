@@ -34,17 +34,21 @@ _Last updated: 2026-02-25_
 | [26-1639-00002](../05_MATTERS/ESSENTIAL/26-1639-00002/README.md) | Andersen | active |
 | [26-1639-00003](../05_MATTERS/ESSENTIAL/26-1639-00003/README.md) | Andersen | active |
 
-### Strategic (5)
+### Strategic (9)
 
 | Matter ID | Client | Fulfillment |
 |-----------|--------|-------------|
-| [26-1593-00002](../05_MATTERS/STRATEGIC/26-1593-00002/README.md) | 1001162998 Ontario Corp. o/a KaleMart | active |
-| [25-1318-00001](../05_MATTERS/STRATEGIC/25-1318-00001/README.md) | Zelko Culibrk | active |
-| [25-256-00005](../05_MATTERS/STRATEGIC/25-256-00005/README.md) | Aspire Infusions Inc | active |
+| [24-256-00001](../05_MATTERS/STRATEGIC/24-256-00001/MATTER_BRIEF.md) | Aspire Infusions Inc — Leadership Team | active |
+| [24-256-00002](../05_MATTERS/STRATEGIC/24-256-00002/MATTER_BRIEF.md) | Aspire Infusions Inc — Corporate | active |
+| [24-256-00003](../05_MATTERS/STRATEGIC/24-256-00003/MATTER_BRIEF.md) | Aspire Infusions Inc — Marketing Related Matters | active |
+| [24-256-00004](../05_MATTERS/STRATEGIC/24-256-00004/MATTER_BRIEF.md) | Aspire Infusions Inc — Product and Personnel Matters | active |
+| [24-256-00005](../05_MATTERS/STRATEGIC/24-256-00005/README.md) | Aspire Infusions Inc — Legal Strategy | active |
 | [24-336-00004](../05_MATTERS/STRATEGIC/24-336-00004/README.md) | Mascore Helical Piles | active |
 | [25-1231-00001](../05_MATTERS/STRATEGIC/25-1231-00001/README.md) | Charmaine Spiteri | active |
+| [26-1631-00001](../05_MATTERS/STRATEGIC/26-1631-00001/README.md) | 1713425 Ontario Inc. (Tejvir Boparai) | active |
+| [26-1637-00001](../05_MATTERS/STRATEGIC/26-1637-00001/MATTER_BRIEF.md) | MRKT (Nilabh Anand) | active |
 
-### Standard (18)
+### Standard (20)
 
 | Matter ID | Client | Fulfillment |
 |-----------|--------|-------------|
@@ -57,8 +61,10 @@ _Last updated: 2026-02-25_
 | [25-1525-00001](../05_MATTERS/STANDARD/25-1525-00001/README.md) | Kleenup Cleaning Services Inc. | active |
 | [25-1363-00001](../05_MATTERS/STANDARD/25-1363-00001/README.md) | Raevan Joy Sambrano | active |
 | [25-1185-00001](../05_MATTERS/STANDARD/25-1185-00001/README.md) | Alexander Klys | active |
+| [25-1318-00001](../05_MATTERS/STANDARD/25-1318-00001/README.md) | Zelko Culibrk | closing |
 | [25-1603-00001](../05_MATTERS/STANDARD/25-1603-00001/README.md) | IBERBANCO LTD | active |
 | [25-1593-00001](../05_MATTERS/STANDARD/25-1593-00001/README.md) | 1001162998 Ontario Corp. o/a KaleMart | active |
+| [26-1593-00002](../05_MATTERS/STANDARD/26-1593-00002/README.md) | 1001162998 Ontario Corp. o/a KaleMart | closing |
 | [25-194-00059](../05_MATTERS/STANDARD/25-194-00059/README.md) | Rousseau Mazzuca LLP | active |
 | [25-845-00002](../05_MATTERS/STANDARD/25-845-00002/README.md) | STAR 333 SPORTS INC. | active |
 | [25-845-00001](../05_MATTERS/STANDARD/25-845-00001/README.md) | STAR 333 SPORTS INC. | active |

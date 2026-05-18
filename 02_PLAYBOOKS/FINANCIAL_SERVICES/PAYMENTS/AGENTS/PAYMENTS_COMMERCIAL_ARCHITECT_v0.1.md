@@ -9,6 +9,8 @@ approved_date: 2026-04-25
 version: 0.1
 practice_area: Payment Services
 tags: [payments, financial-services, commercial-architecture, agent, doctrine]
+created_date: 2026-05-18
+last_updated: 2026-05-18
 ---
 
 # Payments Commercial Architect — Agent Spec v0.1

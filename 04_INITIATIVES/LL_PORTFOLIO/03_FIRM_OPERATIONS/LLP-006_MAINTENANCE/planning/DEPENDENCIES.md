@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_03_firm_operations_llp_006_maintenance_planning_dependencies_md
+title: Dependencies
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Dependencies
 
 Project ID: LLP-006

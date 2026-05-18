@@ -20,7 +20,7 @@ structure, not around individual matters.
 These matter dashboards provide the fast drill-down layer from that top-level
 LL operating picture into the matter portfolio. Use them when ML1 needs to
 shift from program/project review into client-service urgency, fulfillment
-status, matter handling, WIP conversion, lawyer task load, or matter-level
+status, matter handling, WIP conversion, LL task load, or matter-level
 bottlenecks.
 
 The matter portfolio is a control surface inside the LL operating system. It is

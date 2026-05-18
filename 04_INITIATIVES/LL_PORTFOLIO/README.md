@@ -290,7 +290,7 @@ directories:
 |---------|------------|
 | Matter State tracking (delivery posture) | Billing, accounting, collections |
 | Activity Period tagging | CRM, intake, sales, pre-engagement |
-| Delivery-related lawyer to-dos | Pricing, strategy, financial modeling |
+| Delivery-related LL Legal Tasks | Pricing, strategy, financial modeling |
 | Email-to-operations-queue event mapping | Modifying Clio source-of-truth fields |
 | Suggested operations queue transitions (ML1 approval required) | Auto-applying State/Period changes without authorization |
 

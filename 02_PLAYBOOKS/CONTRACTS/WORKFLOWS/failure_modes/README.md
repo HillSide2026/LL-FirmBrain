@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__failure_modes__readme_md
+id: 02_playbooks_contracts_workflows_failure_modes_readme_md
 title: Contract Failure Modes
 owner: ML1
 status: draft

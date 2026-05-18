@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__solutions__service_agreement__readme_md
+id: 02_playbooks_contracts_workflows_solutions_service_agreement_readme_md
 title: Service Agreement
 owner: ML1
 status: draft

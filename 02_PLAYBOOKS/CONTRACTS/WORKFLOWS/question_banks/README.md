@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__question_banks__readme_md
+id: 02_playbooks_contracts_workflows_question_banks_readme_md
 title: Contract Question Banks
 owner: ML1
 status: draft

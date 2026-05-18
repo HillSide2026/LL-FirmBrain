@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__inbox_triage__pilot_run_md
+id: 02_playbooks_ll_operations_inbox_triage_pilot_run_md
 title: Inbox Intelligence — Pilot Run Procedure
 owner: ML1
 status: draft

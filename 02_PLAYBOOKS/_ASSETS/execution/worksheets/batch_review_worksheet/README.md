@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__batch_review_worksheet_md
+id: 02_playbooks_assets_execution_worksheets_batch_review_worksheet_readme_md
 title: Batch Review Worksheet — Template
 owner: ML1
 status: draft

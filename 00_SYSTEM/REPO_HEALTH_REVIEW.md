@@ -1,3 +1,13 @@
+---
+id: 00_system_repo_health_review_md
+title: ll-secondbrain_fresh — Structured Repo Health Review
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # ll-secondbrain_fresh — Structured Repo Health Review
 
 **Date:** 2026-04-13

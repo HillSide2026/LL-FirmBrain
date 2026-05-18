@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__agents__agent_catalog_md
+id: 02_playbooks_financial_services_workflows_payments_agents_agent_catalog_md
 title: Agent Catalog — Payments
 owner: ML1
 status: draft

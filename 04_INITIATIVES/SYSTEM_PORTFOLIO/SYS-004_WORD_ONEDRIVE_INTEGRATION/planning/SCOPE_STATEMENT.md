@@ -11,6 +11,7 @@ tags:
   - onedrive
   - planning
 doc_type: scope_statement
+created_date: 2026-05-18
 ---
 
 # SYS-004 Word / OneDrive Integration - Scope Statement

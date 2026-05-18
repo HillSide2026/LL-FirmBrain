@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_llp_011_funnel1_management_planning_baseline_capture_period_md
+title: Baseline Capture Period
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Baseline Capture Period
 
 Project ID: LLP-011

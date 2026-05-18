@@ -24,7 +24,7 @@ It provides a real-time, delivery-focused view of:
 
 * Which matters are consuming delivery capacity
 * What delivery work is currently happening
-* What actions lawyers should take next
+* What legal-delivery actions should happen next
 
 This portfolio does **not** represent the client relationship, financial lifecycle, or administrative handling of a matter.
 
@@ -49,10 +49,10 @@ The Matter Docketing portfolio:
 This portfolio includes **delivery-only artifacts** tied to an existing matter:
 
 * Delivery-facing views that consume fulfillment readiness and queue signals
-* Lawyer-facing views that may consume derivative command-layer visibility from
+* Legal-delivery views that may consume derivative command-layer visibility from
   `LLP-023 Matter Command and Control`
 * Activity Periods (what is happening now in delivery)
-* Lawyer To-Do Lists (delivery actions)
+* LL Legal Task Lists (delivery actions)
 * Delivery-relevant dependencies and blockers
 * Read-only matter metadata required for delivery context
 
@@ -88,7 +88,7 @@ Matter Docketing **consumes** queue outputs where relevant, especially:
 
 * where the matter sits in onboarding, opening, maintenance, or closing
 * whether fulfillment-side work is complete enough for docketing readiness
-* whether the matter is ready for lawyer-facing docketing attention
+* whether the matter is ready for legal-delivery docketing attention
 
 Queue states and queue readiness logic remain fulfillment constructs.
 The Matter Docketing portfolio must not redefine them.
@@ -107,9 +107,9 @@ Activity Periods:
 
 ---
 
-### 5.3 Lawyer To-Do Lists
+### 5.3 LL Legal Task Lists
 
-A delivery-scoped list of actionable items for lawyers working on a matter.
+A delivery-scoped list of actionable legal tasks for a matter.
 
 To-dos:
 

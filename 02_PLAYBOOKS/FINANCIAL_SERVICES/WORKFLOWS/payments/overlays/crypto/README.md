@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__overlays__crypto__readme_md
+id: 02_playbooks_financial_services_workflows_payments_overlays_crypto_readme_md
 title: Overlay: CRYPTO
 owner: ML1
 status: draft

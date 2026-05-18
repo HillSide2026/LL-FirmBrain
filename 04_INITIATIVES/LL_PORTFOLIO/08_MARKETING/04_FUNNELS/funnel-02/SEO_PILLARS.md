@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_04_funnels_funnel_02_seo_pillars_md
+title: SEO Pillars — Funnel 02
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # SEO Pillars — Funnel 02
 
 Funnel: Ontario Corporate Health Check

@@ -8,7 +8,7 @@ todo_rollup.py — Firmwide To-Do Rollup (v2)
 
 Two-stage pipeline:
   Stage 1: Classify emails → ACTION_REQUIRED, WAITING_ON_OTHER, INFO_ONLY, NO_ACTION
-  Stage 2: Generate verb-first lawyer tasks from ACTION_REQUIRED emails only
+  Stage 2: Generate verb-first LL tasks from ACTION_REQUIRED emails only
 
 Usage:
     python 00_SYSTEM/scripts/todo_rollup.py [--days 14] [--dry-run]

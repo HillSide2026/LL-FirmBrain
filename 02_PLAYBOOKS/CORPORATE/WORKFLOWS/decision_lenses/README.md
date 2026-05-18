@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__decision_lenses__readme_md
+id: 02_playbooks_corporate_workflows_decision_lenses_readme_md
 title: Decision Lenses
 owner: ML1
 status: draft

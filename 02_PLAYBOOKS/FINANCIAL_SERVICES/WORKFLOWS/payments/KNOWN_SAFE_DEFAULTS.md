@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__known_safe_defaults_md
+id: 02_playbooks_financial_services_workflows_payments_known_safe_defaults_md
 title: Known-Safe Defaults — Payments
 owner: ML1
 status: draft

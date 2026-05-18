@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__failure_modes__readme_md
+id: 02_playbooks_corporate_workflows_failure_modes_readme_md
 title: Corporate Failure Modes
 owner: ML1
 status: draft

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__agents__solution_collision_matrix_md
+id: 02_playbooks_contracts_workflows_agents_solution_collision_matrix_md
 title: Solution Collision Matrix — Contracts
 owner: ML1
 status: draft

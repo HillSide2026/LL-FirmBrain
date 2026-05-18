@@ -13,7 +13,7 @@ tags: [matter]
 
 ## Purpose
 
-This directory contains matter-level information organized by **Delivery Status** (lawyer attention priority).
+This directory contains matter-level information organized by **Delivery Status**.
 
 Folder placement reflects `delivery_status` only. The other fields (`status`, `fulfillment_status`, `services`) are metadata stored in each matter's `MATTER.yaml`.
 
@@ -23,11 +23,11 @@ Folder placement reflects `delivery_status` only. The other fields (`status`, `f
 
 ```
 05_MATTERS/
-├── ESSENTIAL/      # Highest lawyer attention
+├── ESSENTIAL/      # Highest delivery attention
 ├── STRATEGIC/      # Strategic importance
 ├── STANDARD/       # Normal priority
 ├── PARKED/         # Temporarily deprioritized
-└── LL_ACTIONS/     # LL to-do hub — indexes LAWYER_TASK_TRACKER.md and content backlogs
+└── LL_ACTIONS/     # LL task hub — indexes LL_TASK_TRACKER.md and content backlogs
 ```
 
 ---

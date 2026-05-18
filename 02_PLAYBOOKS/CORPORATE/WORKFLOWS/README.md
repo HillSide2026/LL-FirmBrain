@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__readme_md
+id: 02_playbooks_corporate_workflows_readme_md
 title: Corporate Playbooks
 owner: ML1
 status: draft

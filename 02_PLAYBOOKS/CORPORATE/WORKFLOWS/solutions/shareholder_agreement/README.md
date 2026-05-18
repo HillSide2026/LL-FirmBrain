@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__solutions__shareholder_agreement__readme_md
+id: 02_playbooks_corporate_workflows_solutions_shareholder_agreement_readme_md
 title: Shareholder Agreement
 owner: ML1
 status: draft

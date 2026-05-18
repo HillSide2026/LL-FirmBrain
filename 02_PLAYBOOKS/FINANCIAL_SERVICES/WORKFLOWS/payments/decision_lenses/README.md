@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__decision_lenses__readme_md
+id: 02_playbooks_financial_services_workflows_payments_decision_lenses_readme_md
 title: Decision Lenses — Payments
 owner: ML1
 status: draft

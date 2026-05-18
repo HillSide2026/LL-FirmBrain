@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__agents__readme_md
+id: 02_playbooks_contracts_workflows_agents_readme_md
 title: Contract Playbook Agents
 owner: ML1
 status: draft

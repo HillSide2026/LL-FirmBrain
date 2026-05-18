@@ -38,7 +38,7 @@ Ontario Inc. matter.
   - Prepare next-step comments or a closing agenda for circulation once the
     transfer issues are clarified.
 - Related references:
-  - `05_MATTERS/LAWYER_TASK_TRACKER.md`
+  - `05_MATTERS/LL_TASK_TRACKER.md`
   - `06_RUNS/ops/emails_attributed.json`
 - SharePoint sync status: local only
 

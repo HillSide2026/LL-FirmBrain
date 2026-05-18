@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__agents__contracts_master_agent_md
+id: 02_playbooks_contracts_workflows_agents_contracts_master_agent_md
 title: Contracts Master Agent — Expert Spec (Ontario)
 owner: ML1
 status: draft

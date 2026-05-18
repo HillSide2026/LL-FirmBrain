@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__agents__decision_registry_md
+id: 02_playbooks_contracts_workflows_agents_decision_registry_md
 title: Decision Registry — Contracts
 owner: ML1
 status: draft

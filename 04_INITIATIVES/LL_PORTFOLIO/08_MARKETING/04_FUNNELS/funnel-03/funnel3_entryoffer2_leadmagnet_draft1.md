@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_ll_portfolio_08_marketing_04_funnels_funnel_03_funnel3_entryoffer2_leadmagnet_draft1_md
+title: The Suspicious Transaction Report Wiki
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # The Suspicious Transaction Report Wiki
 
 ## Recent Developments for Canadian MSBs and PSPs

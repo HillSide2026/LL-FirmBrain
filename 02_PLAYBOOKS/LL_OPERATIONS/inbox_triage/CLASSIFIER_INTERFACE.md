@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__inbox_triage__classifier_interface_md
+id: 02_playbooks_ll_operations_inbox_triage_classifier_interface_md
 title: Inbox Classifier Interface Specification
 owner: ML1
 status: draft

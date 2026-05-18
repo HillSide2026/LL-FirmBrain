@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__contracts__solutions__customer_agreement__readme_md
+id: 02_playbooks_contracts_workflows_solutions_customer_agreement_readme_md
 title: Customer Agreement
 owner: ML1
 status: draft

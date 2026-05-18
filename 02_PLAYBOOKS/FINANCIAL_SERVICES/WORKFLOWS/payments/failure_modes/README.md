@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__failure_modes__readme_md
+id: 02_playbooks_financial_services_workflows_payments_failure_modes_readme_md
 title: Failure Modes — Payments
 owner: ML1
 status: draft

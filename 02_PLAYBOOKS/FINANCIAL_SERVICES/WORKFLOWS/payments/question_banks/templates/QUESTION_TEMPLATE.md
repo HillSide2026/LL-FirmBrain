@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__question_banks__templates__question_template_md
+id: 02_playbooks_financial_services_workflows_payments_question_banks_templates_question_template_md
 title: Question Bank: [QB_ID]
 owner: ML1
 status: draft

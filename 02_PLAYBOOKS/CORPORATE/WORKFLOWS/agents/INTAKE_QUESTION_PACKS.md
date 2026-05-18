@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__corporate__agents__intake_question_packs_md
+id: 02_playbooks_corporate_workflows_agents_intake_question_packs_md
 title: Intake Question Packs
 owner: ML1
 status: draft

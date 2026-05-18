@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__issue_maps__templates__issue_map_template_md
+id: 02_playbooks_financial_services_workflows_payments_issue_maps_templates_issue_map_template_md
 title: Issue Map: [IM_ID]
 owner: ML1
 status: draft

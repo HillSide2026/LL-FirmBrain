@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_chief_of_staff_cross_portfolio_linkages_md
+title: Cross-Portfolio Linkages
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Cross-Portfolio Linkages
 
 - Generated: 2026-04-04T01:29:33Z

@@ -1,3 +1,13 @@
+---
+id: 04_initiatives_system_portfolio_sys_003_sharepoint_integration_initiation_risk_scan_md
+title: Risk Scan
+owner: ML1
+status: draft
+created_date: 2026-05-18
+last_updated: 2026-05-18
+tags: []
+---
+
 # Risk Scan
 
 Project ID: SYS-003

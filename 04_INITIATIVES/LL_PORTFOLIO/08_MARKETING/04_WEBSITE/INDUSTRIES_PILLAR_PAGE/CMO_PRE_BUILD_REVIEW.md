@@ -9,6 +9,7 @@ source_packet: THRIVE_BUILD_PACKET.md
 source_copy: INDUSTRIES_PILLAR_PAGE_DRAFT_v2.md
 policy_refs: POL-051, POL-049, POL-050
 approval: pending ML1
+last_updated: 2026-05-18
 ---
 
 # CMO Pre-Build Review — Industries We Serve

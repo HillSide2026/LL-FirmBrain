@@ -5,6 +5,7 @@ status: draft
 created_date: 2026-03-10
 last_updated: 2026-03-10
 tags: [funnel-02, review, mkt-10, mkt-11, mkt-12]
+title: Funnel 02 Review — MKT Agents 10-12
 ---
 
 # Funnel 02 Review — MKT Agents 10-12

@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__financial_services__payments__failure_modes__failure_mode_index_md
+id: 02_playbooks_financial_services_workflows_payments_failure_modes_failure_mode_index_md
 title: Failure Mode Index — Payments
 owner: ML1
 status: draft

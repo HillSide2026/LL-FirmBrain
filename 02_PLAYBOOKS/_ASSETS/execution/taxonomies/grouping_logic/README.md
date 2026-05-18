@@ -1,5 +1,5 @@
 ---
-id: 02_playbooks__execution__grouping_logic_md
+id: 02_playbooks_assets_execution_taxonomies_grouping_logic_readme_md
 title: Proposal Grouping Logic
 owner: ML1
 status: draft
