@@ -33,8 +33,8 @@ orthogonal and must not be conflated.
 | Attribute | Value |
 |-----------|-------|
 | Source of truth | ML1 / lawyer |
-| Allowed values | `Essential` \| `Strategic` \| `Standard` \| `Parked` |
-| Meaning | How much lawyer attention the matter deserves |
+| Allowed values | `essential` \| `strategic` \| `standard` \| `normal` (highest to lowest) |
+| Meaning | Priority/importance tier of the matter |
 | Directory implication | Determines folder in 05_MATTERS/ |
 
 ### 3. fulfillment_status (Admin Workload State) — METADATA
@@ -74,7 +74,7 @@ canonical matter fields.
 ├── ESSENTIAL/
 ├── STRATEGIC/
 ├── STANDARD/
-└── PARKED/
+└── NORMAL/
 ```
 
 status (Clio) and fulfillment_status (admin) are metadata fields within each
@@ -88,7 +88,7 @@ matter's `00_META.md`.
 
 | Incorrect Inference | Why Wrong |
 |---------------------|-----------|
-| Parked → Pending or Closed | Parked is delivery priority, not Clio status |
+| Normal → Pending or Closed | Normal is a delivery tier, not a Clio status |
 | urgent → Essential | Admin workload ≠ lawyer priority |
 | Closed → dormant | Clio status ≠ admin workload |
 | Essential → urgent | Lawyer priority ≠ admin workload |
@@ -111,7 +111,8 @@ When listing matters, present three fields separately:
 
 ```yaml
 status: Open|Pending|Closed
-delivery_status: Essential|Strategic|Standard|Parked
+delivery_status: essential|strategic|standard|normal
+delivery_stage: backlog|activated|active|parked|finished
 fulfillment_status: urgent|active|keep in view|dormant|closing
 ```
 

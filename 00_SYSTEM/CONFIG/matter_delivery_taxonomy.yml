@@ -21,12 +21,15 @@ delivery_categories:
       - active
   delivery_watch:
     label: ML Watch
-    definition: Parked matter that stays visible but is not in active delivery.
+    definition: Normal-tier matter with delivery_stage parked or backlog that stays visible but is not in active delivery.
     status_include:
       - Open
       - Pending
     delivery_status_include:
-      - Parked
+      - normal
+    delivery_stage_include:
+      - parked
+      - backlog
     fulfillment_status_include:
       - keep in view
       - active

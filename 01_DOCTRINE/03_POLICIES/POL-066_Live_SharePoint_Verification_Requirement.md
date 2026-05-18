@@ -46,7 +46,7 @@ This policy applies whenever an agent is asked to determine or describe:
 - whether specific documents or folders currently exist in SharePoint
 
 It applies to all `legalmatters` SharePoint work, including Essential,
-Strategic, Standard, Standard Cash Cows, and Parked tiers.
+Strategic, Standard, Standard Cash Cows, and Normal tiers.
 
 ---
 

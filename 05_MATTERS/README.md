@@ -25,8 +25,8 @@ Folder placement reflects `delivery_status` only. The other fields (`status`, `f
 05_MATTERS/
 ├── ESSENTIAL/      # Highest delivery attention
 ├── STRATEGIC/      # Strategic importance
-├── STANDARD/       # Normal priority
-├── PARKED/         # Temporarily deprioritized
+├── STANDARD/       # Standard priority
+├── NORMAL/         # Below standard; routine matters
 └── LL_ACTIONS/     # LL task hub — indexes LL_TASK_TRACKER.md and content backlogs
 ```
 
@@ -82,21 +82,21 @@ Folder placement reflects `delivery_status` only. The other fields (`status`, `f
 
 ---
 
-## PARKED
+## NORMAL
 
-| matter_id | matter_name | status | delivery_status | fulfillment_status | path |
-|-----------|-------------|--------|-----------------|-------------------|------|
-| 23-169-00003 | Best Bottles Inc. | Open | Parked | active | `PARKED/23-169-00003/` |
-| 24-347-00002 | Brand Butter | Open | Parked | inactive | `PARKED/24-347-00002/` |
-| 24-409-00001 | A. Mukherjee & Co. | Open | Parked | inactive | `PARKED/24-409-00001/` |
-| 24-601-00001 | Meta Bytes North America Inc | Open | Parked | inactive | `PARKED/24-601-00001/` |
-| 24-682-00002 | Stream Ventures Limited | Open | Parked | inactive | `PARKED/24-682-00002/` |
-| 25-1024-00001 | AllPro Construction Group | Open | Parked | active | `PARKED/25-1024-00001/` |
-| 25-1192-00001 | The Knot Churros International Limited | Open | Parked | active | `PARKED/25-1192-00001/` |
-| 25-174-00001 | Danielle Thompson | Open | Parked | inactive | `PARKED/25-174-00001/` |
-| 25-192-00003 | If Not Me Inc | Open | Parked | inactive | `PARKED/25-192-00003/` |
-| 25-822-00001 | Majid Hajibeigy | Open | Parked | active | `PARKED/25-822-00001/` |
-| 26-1630-00001 | Marcela Hernandez | Open | Parked | keep in view | `PARKED/26-1630-00001/` |
+| matter_id | matter_name | status | delivery_status | delivery_stage | fulfillment_status | path |
+|-----------|-------------|--------|-----------------|----------------|-------------------|------|
+| 23-169-00003 | Best Bottles Inc. | Open | normal | parked | active | `NORMAL/23-169-00003/` |
+| 24-347-00002 | Brand Butter | Open | normal | parked | inactive | `NORMAL/24-347-00002/` |
+| 24-409-00001 | A. Mukherjee & Co. | Open | normal | parked | inactive | `NORMAL/24-409-00001/` |
+| 24-601-00001 | Meta Bytes North America Inc | Open | normal | parked | inactive | `NORMAL/24-601-00001/` |
+| 24-682-00002 | Stream Ventures Limited | Open | normal | parked | inactive | `NORMAL/24-682-00002/` |
+| 25-1024-00001 | AllPro Construction Group | Open | normal | parked | active | `NORMAL/25-1024-00001/` |
+| 25-1192-00001 | The Knot Churros International Limited | Open | normal | parked | active | `NORMAL/25-1192-00001/` |
+| 25-174-00001 | Danielle Thompson | Open | normal | parked | inactive | `NORMAL/25-174-00001/` |
+| 25-192-00003 | If Not Me Inc | Open | normal | parked | inactive | `NORMAL/25-192-00003/` |
+| 25-822-00001 | Majid Hajibeigy | Open | normal | parked | active | `NORMAL/25-822-00001/` |
+| 26-1630-00001 | Marcela Hernandez | Open | normal | parked | keep in view | `NORMAL/26-1630-00001/` |
 
 ---
 
@@ -105,7 +105,8 @@ Folder placement reflects `delivery_status` only. The other fields (`status`, `f
 | Field | Storage | Source | Values |
 |-------|---------|--------|--------|
 | `status` | Metadata | Clio | Open \| Pending \| Closed |
-| `delivery_status` | Directory | ML1 | Essential \| Strategic \| Standard \| Parked |
+| `delivery_status` | Directory | ML1 | essential \| strategic \| standard \| normal |
+| `delivery_stage` | MATTER.yaml | ML1 | backlog \| activated \| active \| parked \| finished |
 | `fulfillment_status` | Metadata | Admin | urgent \| active \| keep in view \| dormant \| inactive \| pausing |
 | `services` | Metadata | ML1/Admin | Canonical service list (`solution` and `strategy` types) |
 
@@ -119,7 +120,7 @@ Folder placement reflects `delivery_status` only. The other fields (`status`, `f
   - `fulfillment_status` in `urgent|active`
 - `ML Watch` (computed, not stored):
   - `status` in `Open|Pending`
-  - `delivery_status` = `Parked`
+  - `delivery_status` = `normal` AND `delivery_stage` in `parked|backlog`
   - `fulfillment_status` in `keep in view|active|urgent`
 
 ## Services Model

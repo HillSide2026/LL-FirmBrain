@@ -52,7 +52,7 @@ Windows vary by matter class (confirmed 2026-04-04):
 | Essential | 1 day |
 | Strategic | 2 days |
 | Standard | TBD |
-| Parked | N/A |
+| Normal | N/A |
 
 ---
 
@@ -103,4 +103,4 @@ Low Matter Coverage implies:
 ## ML1 Decisions (Confirmed 2026-04-04)
 
 1. Windows vary by matter class: Essential = 1 day, Strategic = 2 days — confirmed
-2. Standard and Parked windows: pending
+2. Standard and Normal windows: pending

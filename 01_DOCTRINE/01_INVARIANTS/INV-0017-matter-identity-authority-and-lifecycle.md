@@ -138,7 +138,7 @@ If matter records must be consolidated or restructured, a new matter_id is assig
 
 5. **Archive**  
    Matter record remains in `05_MATTERS/MATTER_REGISTRY.md` (not deleted).
-   Matter is moved to `05_MATTERS/PARKED/` or `05_MATTERS/ARCHIVE/` (by year).
+   Matter folder remains in its `delivery_status` tier folder (e.g., `05_MATTERS/NORMAL/`) with `delivery_stage` updated to `parked` or `finished` in MATTER.yaml, or moves to `05_MATTERS/ARCHIVE/` (by year) on full closure.
 
 ---
 

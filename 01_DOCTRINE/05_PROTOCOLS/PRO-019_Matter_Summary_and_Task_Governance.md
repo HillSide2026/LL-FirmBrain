@@ -36,7 +36,8 @@ Three canonical fields describe every matter. They are independent axes.
 | Field | Level | Source of truth | Permitted values | Who sets it |
 |-------|-------|----------------|-----------------|-------------|
 | **Clio Status** | Matter | Clio (hardwired) | `Open`, `Closed`, `Pending` | Clio only |
-| **Delivery Status** | Matter | Matter folder location in repo | `Essential`, `Strategic`, `Standard`, `Parked` | ML1 only |
+| **Delivery Status** | Matter | Matter folder location in repo | `essential`, `strategic`, `standard`, `normal` (highest to lowest) | ML1 only |
+| **Delivery Stage** | Matter | MATTER.yaml in repo | `backlog`, `activated`, `active`, `parked`, `finished` | ML1 only |
 | **Fulfillment Status** | Matter | MATTER.yaml in repo | `urgent`, `active`, `keep in view`, `dormant`, `closing` | ML1 only |
 
 Note: `engagement_stage` is a client-level field (not a matter field) governed by POL-052. It does not appear in MATTER.yaml or any matter-level artifact.
@@ -53,10 +54,10 @@ matter fields.
 **Definitions:**
 
 - **Delivery Status** reflects the business importance of the docketable work to the firm.
-  - `Essential` — highest priority; active, revenue-critical, or relationship-critical work
-  - `Strategic` — important but not immediately revenue-critical; relationship or positioning value
-  - `Standard` — ordinary active matters; billable but not disproportionately important
-  - `Parked` — not currently active; monitoring only
+  - `essential` — highest priority; active, revenue-critical, or relationship-critical work
+  - `strategic` — important but not immediately revenue-critical; relationship or positioning value
+  - `standard` — ordinary active matters; billable but not disproportionately important
+  - `normal` — below standard; routine matters; default tier for low-intensity matters
 
 - **Fulfillment Status** reflects the operational priority state of the matter within its current stage.
   - `urgent` — immediate action required; delivery or deadline pressure
@@ -89,7 +90,7 @@ matter fields.
 
 ### 3.2 Required for
 
-All **Essential**, **Strategic**, and **Standard** matters must have a `MATTER_BRIEF.md`. Parked matters may have one but are not required to.
+All **Essential**, **Strategic**, and **Standard** matters must have a `MATTER_BRIEF.md`. Normal-tier matters may have one but are not required to.
 
 ### 3.3 Required structure
 
@@ -149,7 +150,7 @@ Location: `05_MATTERS/LL_TASK_TRACKER.md`
 | Matter ID | Clio matter ID |
 | Client | Client name |
 | LL Task Type | LL Legal Task / LL Admin Task / LL Firm Management Task |
-| Delivery Status | Essential / Strategic / Standard / Parked |
+| Delivery Status | Essential / Strategic / Standard / Normal |
 | Service | Service type (CAMLO, Counsel, Corporate, Regulatory, etc.) |
 | Task | Specific, actionable description |
 | Status | Open / In Progress / Waiting |
@@ -195,7 +196,7 @@ SharePoint MCP provides folder/item metadata only — it cannot read file conten
 
 ## 6. Scope
 
-This protocol covers all matters tracked in `05_MATTERS/` (Essential, Strategic, Standard, Parked). It does not govern marketing matters, portfolio projects, or internal firm projects tracked elsewhere.
+This protocol covers all matters tracked in `05_MATTERS/` (Essential, Strategic, Standard, Normal). It does not govern marketing matters, portfolio projects, or internal firm projects tracked elsewhere.
 
 ---
 

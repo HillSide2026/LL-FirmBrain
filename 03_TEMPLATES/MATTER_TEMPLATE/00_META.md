@@ -36,8 +36,14 @@ fulfillment_status: unknown
 
 ### delivery_status (Lawyer Attention Priority) — DIRECTORY
 - Source: ML1 / lawyer
-- Values: Essential | Strategic | Standard | Parked
+- Values: essential | strategic | standard | normal (highest to lowest)
 - Determines directory location in 05_MATTERS/
+
+### delivery_stage (Matter Activity State) — METADATA
+- Source: ML1
+- Values: backlog | activated | active | parked | finished
+- Stored as metadata field in MATTER.yaml
+- Governed by POL-071
 
 ### fulfillment_status (Admin Workload State) — METADATA
 - Source: Admin team / ops

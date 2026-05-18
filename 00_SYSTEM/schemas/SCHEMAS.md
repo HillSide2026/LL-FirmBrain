@@ -83,7 +83,8 @@ Legacy compatibility:
 | Field | Allowed Values |
 |-------|----------------|
 | `status` | `Open` \| `Pending` \| `Closed` |
-| `delivery_status` | `Essential` \| `Strategic` \| `Standard` \| `Parked` |
+| `delivery_status` | `essential` \| `strategic` \| `standard` \| `normal` (highest to lowest) |
+| `delivery_stage` | `backlog` \| `activated` \| `active` \| `parked` \| `finished` |
 | `fulfillment_status` | `urgent` \| `active` \| `keep in view` \| `dormant` \| `inactive` \| `pausing` |
 | `services[].service_type` | `solution` \| `strategy` |
 
@@ -101,9 +102,9 @@ These three fields are independent. Do not infer any field from any other:
 - `delivery_status` in `Essential|Strategic|Standard`
 - `fulfillment_status` in `urgent|active`
 
-`ML Watch` is a computed category for parked matters kept visible:
+`ML Watch` is a computed category for dormant matters kept visible:
 - `status` in `Open|Pending`
-- `delivery_status` = `Parked`
+- `delivery_status` = `normal` AND `delivery_stage` in `parked|backlog`
 - `fulfillment_status` in `keep in view|active|urgent`
 
 ### Example
@@ -128,10 +129,10 @@ services:
 ### Directory Mapping
 
 Matters are placed in directories by `delivery_status` only:
-- `Essential` → `05_MATTERS/ESSENTIAL/`
-- `Strategic` → `05_MATTERS/STRATEGIC/`
-- `Standard` → `05_MATTERS/STANDARD/`
-- `Parked` → `05_MATTERS/PARKED/`
+- `essential` → `05_MATTERS/ESSENTIAL/`
+- `strategic` → `05_MATTERS/STRATEGIC/`
+- `standard` → `05_MATTERS/STANDARD/`
+- `normal` → `05_MATTERS/NORMAL/`
 ---
 
 ## Matter Stages Schema

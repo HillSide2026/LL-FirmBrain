@@ -21,7 +21,7 @@ This policy separates two concepts that were previously conflated under `deliver
 
 | Field | Meaning | Vocabulary |
 |---|---|---|
-| `delivery_status` | Priority or importance tier of the matter | `essential`, `strategic`, `standard` |
+| `delivery_status` | Priority or importance tier of the matter | `essential`, `strategic`, `standard`, `normal` |
 | `delivery_stage` | Current activity state of the matter | `backlog`, `activated`, `active`, `parked`, `finished` |
 
 `delivery_status` answers: how important is this matter to the firm?
@@ -72,13 +72,18 @@ Matters with `status: closed` do not carry an active `delivery_stage`.
 
 ## 6. Filing Locations
 
-| Delivery Stage | Physical Filing Location |
+Matter folders are organized by `delivery_status` tier. `delivery_stage` is recorded in the matter record (MATTER.yaml), not by folder.
+
+| Delivery Status | Physical Filing Location |
 |---|---|
-| `backlog` | Indexed in `05_MATTERS/LL_ACTIONS/MATTER_BACKLOG.md` |
-| `activated` | `05_MATTERS/ESSENTIAL/`, `05_MATTERS/STRATEGIC/`, or `05_MATTERS/STANDARD/` (by delivery_status) |
-| `active` | `05_MATTERS/ESSENTIAL/`, `05_MATTERS/STRATEGIC/`, or `05_MATTERS/STANDARD/` (by delivery_status) |
-| `parked` | `05_MATTERS/PARKED/` |
-| `finished` | `05_MATTERS/PARKED/` pending formal closure; moves to archive on ML1 instruction |
+| `essential` | `05_MATTERS/ESSENTIAL/` |
+| `strategic` | `05_MATTERS/STRATEGIC/` |
+| `standard` | `05_MATTERS/STANDARD/` |
+| `normal` | `05_MATTERS/NORMAL/` |
+
+`delivery_stage: backlog` matters are additionally indexed in `05_MATTERS/LL_ACTIONS/MATTER_BACKLOG.md`.
+
+Note: `05_MATTERS/PARKED/` was the prior filing location when `parked` was a `delivery_status` value. It is now deprecated. All formerly-parked matters have been moved to `05_MATTERS/NORMAL/` with `delivery_stage: parked`.
 
 ## 7. Authority and Transitions
 
@@ -93,4 +98,4 @@ Matters with `status: closed` do not carry an active `delivery_stage`.
 | INV-0003 | Matter Model Structural Invariants — defines delivery_stage as a required field |
 | POL-052 | Client Engagement Stage Policy — delivery_status vocabulary (tier only) |
 | PRO-013 | Matter Filing Protocol |
-| `05_MATTERS/LL_ACTIONS/MATTER_BACKLOG.md` | Index of matters with delivery_stage: backlog |
+| `05_MATTERS/LL_ACTIONS/MATTER_BACKLOG.md` | Unified index of open matters with delivery_stage: active, activated, or backlog — organized by delivery_status then delivery_stage |

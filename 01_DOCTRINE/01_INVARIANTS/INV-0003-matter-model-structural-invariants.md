@@ -26,7 +26,7 @@ The matter domain model is a structural contract. The following properties must 
 7. Every Solution must belong to exactly one valid `matter_id` (no orphan solutions).
 8. Every Strategy must belong to exactly one valid `matter_id` (no orphan strategies).
 9. A Matter has exactly one top-level `status`, with allowed values: `open`, `pending`, `closed`.
-10. A Matter has exactly one `delivery_status`. `delivery_status` is the priority/importance tier of the matter. Allowed values: `essential`, `strategic`, `standard`. (Note: `parked` was a prior vocabulary variant; it is now a `delivery_stage` value, not a `delivery_status` value.)
+10. A Matter has exactly one `delivery_status`. `delivery_status` is the priority/importance tier of the matter. Allowed values: `essential`, `strategic`, `standard`, `normal`. Tier order (highest to lowest): `essential` → `strategic` → `standard` → `normal`. (Note: `parked` was a prior vocabulary variant; it is now a `delivery_stage` value, not a `delivery_status` value.)
 11. A Matter has exactly one `fulfillment_status`.
 11a. A Matter with top-level `status: open` or `status: pending` has exactly one `delivery_stage`. `delivery_stage` is the current activity state of the matter. Allowed values: `backlog`, `activated`, `active`, `parked`, `finished`. `delivery_stage` is an independent axis from `delivery_status`. Governed by POL-071.
 12. Canonical structured fields are source of truth; summaries, dashboards, digests, and action queues are derived views and must not override canonical fields.

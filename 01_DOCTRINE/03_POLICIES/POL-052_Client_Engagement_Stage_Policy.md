@@ -36,7 +36,7 @@ This policy defines `engagement_stage` as the lifecycle state of the **client re
 
 `engagement_stage` is distinct from:
 - `fulfillment_status` — the administrative lifecycle of a specific matter (matter level), governed by POL-034
-- `delivery_status` — the priority/importance tier of a matter (`essential` / `strategic` / `standard`), governed by PRO-019. Note: `parked` is no longer a `delivery_status` value; it is a `delivery_stage` value, governed by POL-071.
+- `delivery_status` — the priority/importance tier of a matter (`essential` / `strategic` / `standard` / `normal`, highest to lowest), governed by PRO-019. Note: `parked` is no longer a `delivery_status` value; it is a `delivery_stage` value, governed by POL-071.
 - `delivery_stage` — the current activity state of a matter (`active` / `parked` / `backlog`), governed by POL-071
 - matter `status` — the top-level Clio state (`open` / `pending` / `closed`)
 

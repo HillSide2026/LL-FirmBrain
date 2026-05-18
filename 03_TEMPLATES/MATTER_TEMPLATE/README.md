@@ -24,7 +24,8 @@ Protocols Enforced: PRO-001, PRO-002, PRO-003, PRO-004, PRO-005, PRO-006, PRO-00
 
 ## Status
 - **Clio Status:** [Open|Pending|Closed]
-- **Delivery Status:** [Essential|Strategic|Standard|Parked]
+- **Delivery Status:** [essential|strategic|standard|normal]
+- **Delivery Stage:** [backlog|activated|active|parked|finished]
 - **Fulfillment Status:** [urgent|active|keep in view|dormant]
 
 ## Overview

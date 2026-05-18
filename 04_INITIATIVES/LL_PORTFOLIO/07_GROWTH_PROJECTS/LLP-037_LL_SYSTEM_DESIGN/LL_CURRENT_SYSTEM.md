@@ -52,7 +52,7 @@ This is the **operational system** Levine Law runs on today: Clio + Google Works
 
 | Site | Path | Authority | Purpose |
 |---|---|---|---|
-| `legalmatters` | `/sites/LegalMatters` | Read-only | Active matter files — `LL Matters (Essential)`, `LL Matters (Strategic)`, `LL Matters (Standard)`, `LL Matters (Standard Cash Cows)`, `LL Matters (Parked)`, `Clerk Work` |
+| `legalmatters` | `/sites/LegalMatters` | Read-only | Active matter files — `LL Matters (Essential)`, `LL Matters (Strategic)`, `LL Matters (Standard)`, `LL Matters (Standard Cash Cows)`, `LL Matters (Normal)`, `Clerk Work` |
 | `documentation` | `/sites/Documentation` | Read/write/manage | Internal working docs, templates, SB execution workspace |
 | `clients` | `/sites/Clients` | Read/write/manage | Current client portal — per-client branded pages and document libraries |
 
