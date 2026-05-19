@@ -38,7 +38,18 @@ The maximum planning rate is CAD 850/hour.
 
 ## Retainer Interaction
 
-The hourly rate ladder does not expand retainer scope.
+The hourly rate ladder does not expand retainer scope. Capacity allocations (hours/week) are fixed regardless of fee escalation.
+
+### Retainer Fee Escalation (ML1-confirmed 2026-05-19)
+
+Retainer fees escalate annually to track the minimum planning rate. Applied at the start of each calendar year; existing mandates repriced at renewal.
+
+| Year | Tier 2 (6 hrs/week) | Tier 3 (10 hrs/week) | Implied rate (Tier 2) |
+|---|---:|---:|---:|
+| 2026 | CAD 12,000/month | CAD 20,000/month | ~$461/hr |
+| 2027 | CAD 14,500/month | CAD 24,000/month | ~$558/hr |
+| 2028 | CAD 16,500/month | CAD 27,000/month | ~$635/hr |
+| 2029 | CAD 18,000/month | CAD 29,500/month | ~$692/hr |
 
 For 2026:
 - CAD 12,000/month mandate remains capped at 6 hours/week.

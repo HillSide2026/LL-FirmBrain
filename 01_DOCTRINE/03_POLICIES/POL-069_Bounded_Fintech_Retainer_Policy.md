@@ -64,6 +64,19 @@ Tier 1 must not be sold until scope and weekly capacity are defined and approved
 
 Tier 3 buys additional reserved weekly capacity. It does not buy a broader substantive scope.
 
+### Retainer Fee Escalation Schedule (ML1-confirmed 2026-05-19)
+
+Retainer fees escalate annually to track the minimum planning rate. Capacity allocations (hours/week) do not change.
+
+| Year | Tier 2 (6 hrs/week) | Tier 3 (10 hrs/week) |
+|---|---:|---:|
+| 2026 | CAD 12,000/month | CAD 20,000/month |
+| 2027 | CAD 14,500/month | CAD 24,000/month |
+| 2028 | CAD 16,500/month | CAD 27,000/month |
+| 2029 | CAD 18,000/month | CAD 29,500/month |
+
+Escalation is applied at the start of each calendar year. Existing mandates must be repriced to the applicable year's schedule at renewal unless ML1 approves an exception.
+
 ---
 
 ## 4. Included Service Envelope
