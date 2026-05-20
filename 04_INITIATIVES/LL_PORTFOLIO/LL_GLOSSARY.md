@@ -43,6 +43,7 @@ A canonical classification for work in LL. Allowed types are:
 - Strategic project
 - Management project
 - Operational project
+- Decision project
 - Client matter (aka client project)
 
 Project type determines which governance artifacts, risk categories, and lifecycle controls apply.
@@ -61,6 +62,12 @@ A project focused on governance, control, coordination, visibility, or optimizat
 
 ## Operational Project
 A project focused on execution performance of defined workflows, including process reliability, throughput, and quality.
+
+---
+
+## Decision Project
+A bounded option-framing project used to structure a real go / hold / no-go or
+reclassification decision before material execution begins.
 
 ---
 

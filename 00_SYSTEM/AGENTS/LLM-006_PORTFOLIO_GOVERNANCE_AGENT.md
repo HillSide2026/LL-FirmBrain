@@ -2,9 +2,9 @@
 id: 00_system__agents__llm-006_portfolio_governance_agent_md
 title: Agent Definition
 owner: ML1
-status: draft
+status: active
 created_date: 2026-02-26
-last_updated: 2026-02-26
+last_updated: 2026-05-19
 tags: []
 ---
 
@@ -13,7 +13,7 @@ tags: []
 
 **Version:** v1.1
 **Layer:** 01_SYSTEM
-**Status:** Draft (pending ML1 approval)
+**Status:** Active (ML1 approved 2026-05-19)
 **Agent file:** `.claude/agents/llm-006-portfolio-governance.md`
 
 ---
@@ -78,6 +78,7 @@ Produces (advisory to ML1 only):
 - MIGRATION_VALIDATION_REPORT.md
 - APPROVAL_GAP_REPORT.md
 - DOCTRINE_DRIFT_REPORT.md
+- PM_CONFORMANCE_REPORT.md
 
 Each report must:
 - Identify violation
@@ -108,12 +109,24 @@ All final authority remains ML1.
 ## Dependencies (Required Inputs)
 
 Must read:
+- `01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md`
 - `01_DOCTRINE/03_POLICIES/POL-056_Firm_Project_Policy.md`
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md`
 - All active project folders
 - Stage metadata
-- Approval records (APPROVAL_RECORD.md, ML1_METRIC_APPROVAL.md)
+- Approval records (`APPROVAL_RECORD.md`)
+- Measurement artifacts (`METRICS.md`)
 - Change and decision logs
 - Migration records (if any)
+
+It must explicitly fail PM conformance when it detects:
+
+- duplicate declared project IDs
+- declared `Project ID` values that do not match folder names
+- deprecated stage labels presented as canonical state
+- retired PM artifact names used as current authoritative controls
+- draft, read-only, or not-yet-reviewed PM control surfaces being treated as
+  `on-track`
 
 ---
 

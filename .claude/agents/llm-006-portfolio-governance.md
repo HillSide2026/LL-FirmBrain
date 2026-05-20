@@ -24,8 +24,9 @@ Read all active project folders and audit them for structural compliance against
 ## Step 1 — Read governing doctrine
 
 Read these files before beginning any project audit:
-- `01_DOCTRINE/03_POLICIES/PROJECT_POLICY.md` — canonical stage gate rules and artifact requirements
-- `01_DOCTRINE/03_POLICIES/FIRM_PROJECT_POLICY.md` — LL-specific application rules
+- `01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md` — canonical stage gate rules and artifact requirements
+- `01_DOCTRINE/03_POLICIES/POL-056_Firm_Project_Policy.md` — LL-specific application rules
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md` — PM identity, migration, and conformance controls
 
 If either file is missing, note it as a governance gap in GOVERNANCE_COMPLIANCE_AUDIT.md.
 
@@ -35,13 +36,15 @@ If either file is missing, note it as a governance gap in GOVERNANCE_COMPLIANCE_
 
 Use Glob to find all `PROJECT_CHARTER.md` files under `04_INITIATIVES/LL_PORTFOLIO/`.
 
-For each, read the charter and check `Project Type:`. Only audit governed project types: `Strategic Project`, `Management Project`, `Operational Project`.
+For each, read the charter and check `Project Type:`. Only audit governed
+project types: `Strategic Project`, `Management Project`,
+`Operational Project`, and `Decision Project`.
 
 For each governed project, read:
 - `APPROVAL_RECORD.md` — is ML1 approval recorded? What stage is approved?
-- `ML1_METRIC_APPROVAL.md` — if Stage 2+, is metric approval present?
 - `METRICS.md` — if Stage 2+, are metric definitions, measurement method, baseline period, and validation review present?
-- `WORKPLAN.md` — does it have both milestone schedule and resource plan sections?
+- `PROJECT_PLAN.md` or legacy `WORKPLAN.md` — does it have both milestone
+  schedule and resource plan sections?
 - `RISK_SCAN.md` — is it filled in (Go/No-Go judgment present) or a placeholder?
 - All other artifacts by filename for gap detection
 
@@ -60,7 +63,7 @@ A stage gate violation exists when a project's inferred artifact stage is higher
 An approval gap exists when:
 - APPROVAL_RECORD.md is absent
 - APPROVAL_RECORD.md is present but the Stage field is blank or unreadable
-- The project is at Stage 2+ but ML1_METRIC_APPROVAL.md (or METRICS.md with ML1 threshold approval section) is absent
+- The project is at Stage 2+ but METRICS.md does not contain threshold approval
 
 ### C) Metric schema integrity
 For any project at Stage 2 or above, check that measurement architecture is in place:
@@ -68,7 +71,9 @@ For any project at Stage 2 or above, check that measurement architecture is in p
 - If METRICS.md exists, read it — does it contain metric definitions, measurement method, baseline capture period, validation review, and ML1 threshold approval? Flag any missing sections.
 
 ### D) Planning artifact integrity
-For any project at Stage 2+, check that WORKPLAN.md contains both a milestone schedule section and a resource plan section. Flag if WORKPLAN.md exists but appears to be a placeholder or lacks these sections.
+For any project at Stage 2+, check that PROJECT_PLAN.md exists. If only legacy
+WORKPLAN.md exists, flag it as migration residue. Also flag placeholder plans
+or plans that lack milestone schedule and resource plan sections.
 
 ### E) Doctrine drift detection
 Identify structural patterns across multiple projects:
@@ -77,15 +82,16 @@ Identify structural patterns across multiple projects:
 - Are any projects using deprecated artifact schemas?
 
 ### F) Cross-project contradictions
-- Check for duplicate project IDs (same folder path appearing more than once)
+- Check for duplicate declared project IDs across different project folders
+- Check whether declared `Project ID` values match folder names
 - Check DEPENDENCIES.md files: if Project A declares a dependency on Project B, does Project B exist and is it at an appropriate stage?
 - Flag any case where a project's declared dependencies point to a non-existent or unstaged project
 
 ### G) Severity classification
 For each project, assign a governance severity:
 - **Critical**: missing Stage 1 artifacts OR missing APPROVAL_RECORD.md OR Stage 3+ artifacts without any approval record
-- **High**: Stage 2+ with missing metric schema or ML1 metric approval
-- **Medium**: Stage 2+ with incomplete planning artifacts (WORKPLAN.md gaps, etc.)
+- **High**: Stage 2+ with missing metric schema or threshold approval
+- **Medium**: Stage 2+ with incomplete planning artifacts or legacy PM migration residue
 - **Low**: Minor structural issues that do not block stage advancement
 
 ---
@@ -177,8 +183,8 @@ Each file header:
 ### <Project ID>
 - APPROVAL_RECORD.md present: yes/no
 - Stage field in APPROVAL_RECORD: <value or "missing">
-- ML1_METRIC_APPROVAL.md present: yes/no / not yet required (Stage < 2)
-- Gap type: <no approval record / blank stage / missing metric approval>
+- Threshold approval in METRICS.md: yes/no / not yet required (Stage < 2)
+- Gap type: <no approval record / blank stage / missing threshold approval>
 - Recommended ML1 action: <one sentence>
 
 ---
@@ -278,10 +284,10 @@ Doctrine interpretation remains ML1 authority.
 # Migration Validation Report
 <header>
 
-## Stage 5 Migration Packets
+## Closing-Stage Migration Packets
 
-<List any projects at Stage 5 (Closing) and whether their migration/archive
-packets are complete. Or: No Stage 5 projects detected in this run.>
+<List any projects in Closing and whether their migration/archive packets are
+complete. Or: No Closing-stage projects detected in this run.>
 
 ## Migration Completeness
 

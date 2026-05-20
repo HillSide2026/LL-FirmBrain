@@ -582,11 +582,12 @@ the following are true:
 
 - direct EMI agreement is signed;
 - lightweight integration has been tested;
+- some actual flow of funds has occurred through the entity;
 - compliance workflow is demo-ready;
 - diligence folder is complete, including:
   - AML program;
   - RPAA analysis / status;
-  - flow of funds;
+  - flow of funds (documented, with actual transaction evidence);
   - compliance software decision; and
   - EMI documentation;
 - no exclusivity, lock-in, or dependency that impairs sale; and

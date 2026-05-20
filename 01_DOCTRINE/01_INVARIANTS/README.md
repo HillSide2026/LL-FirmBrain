@@ -43,7 +43,7 @@ Naming convention:
 - Legacy `DOCTRINE-*` filename prefixes should not remain in this folder once an artifact has been normalized into the active invariant sequence.
 
 Active Invariants (Approved/Active Status):
-- INV-0001 through INV-0017 (see DEPRECATION_REGISTRY.md for superseded/retired artifacts)
+- INV-0001 through INV-0018 (see DEPRECATION_REGISTRY.md for superseded/retired artifacts)
 
 Governance:
 - See [DEPRECATION_REGISTRY.md](DEPRECATION_REGISTRY.md) for retired invariants and supersession history.

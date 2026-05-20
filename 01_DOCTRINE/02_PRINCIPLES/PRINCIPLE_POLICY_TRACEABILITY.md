@@ -45,9 +45,9 @@ Use this index to:
 
 | Principle | Title | Related Policies |
 |-----------|-------|------------------|
-| PRN-006 | Drift Intolerance | POL-007 (Consistency Supersession Requirement), POL-020 (Doctrine Bound Runtime), POL-041 (Repository State Reporting Accuracy) |
+| PRN-006 | Drift Intolerance | POL-007 (Consistency Supersession Requirement), POL-020 (Doctrine Bound Runtime), POL-041 (Repository State Reporting Accuracy), POL-073 (Project Management Control Policy) |
 | PRN-007 | Interpretive Integrity | POL-013 (Steel Man Interpretation Requirement), POL-020 (Doctrine Bound Runtime) |
-| PRN-009 | Structural Coherence | POL-014 (Doctrine Residency Requirement), POL-015 (Artifacts Residency Requirement), POL-055 (Repository Project Policy), POL-056 (Firm Project Policy) |
+| PRN-009 | Structural Coherence | POL-014 (Doctrine Residency Requirement), POL-015 (Artifacts Residency Requirement), POL-055 (Repository Project Policy), POL-056 (Firm Project Policy), POL-072 (HillSide Business Project Policy) |
 | PRN-019 | Observable Drift | POL-027 (Run Record Requirement), POL-041 (Repository State Reporting Accuracy) |
 
 ---
@@ -90,10 +90,12 @@ Use this index to:
 | PRN-012 | Risk vs Uncertainty | POL-063 (Project Risk Artifact Lifecycle), POL-064 (LL Initiative Risk Policy), POL-065 (Matthew Holdings Initiative Risk Policy) |
 | PRN-013 | Risk Lifecycle Governance | POL-063 (Project Risk Artifact Lifecycle), POL-064 (LL Initiative Risk Policy), POL-065 (Matthew Holdings Initiative Risk Policy) |
 | PRN-014 | Deterministic Preference | POL-020 (Doctrine Bound Runtime), POL-021 (Agent Orchestration Requirement) |
-| PRN-015 | Dependency Awareness | POL-021 (Agent Orchestration Requirement) |
+| PRN-015 | Dependency Awareness | POL-021 (Agent Orchestration Requirement), POL-073 (Project Management Control Policy) |
 | PRN-016 | Minimal Structural Mutation | POL-015 (Artifacts Residency Requirement), POL-058 (System Write Back Policy) |
 | PRN-017 | Progressive Formalization | POL-003 (Novel Policy Prohibition), POL-020 (Doctrine Bound Runtime) |
 | PRN-018 | Stability Under Extension | POL-014 (Doctrine Residency Requirement), POL-055 (Repository Project Policy) |
+| PRN-039 | Governed Work Granularity | POL-055 (Repository Project Policy), POL-056 (Firm Project Policy), POL-072 (HillSide Business Project Policy), POL-073 (Project Management Control Policy) |
+| PRN-040 | Canonical Project Typing | POL-055 (Repository Project Policy), POL-056 (Firm Project Policy), POL-063 (Project Risk Artifact Lifecycle), POL-072 (HillSide Business Project Policy), POL-073 (Project Management Control Policy) |
 | PRN-021 | Layer Separation By Design | POL-020 (Doctrine Bound Runtime), POL-021 (Agent Orchestration), POL-022 (Worker Scope Limitation), POL-025 (No Direct External Access) |
 | PRN-022 | Governed Orchestration | POL-021 (Agent Orchestration Requirement), POL-035 (Model Context Protocol Governance) |
 | PRN-024 | Controlled Externality | POL-024 (Integration Adapter Gatekeeping), POL-025 (No Direct External Access by Workers), POL-035 (Model Context Protocol Governance), POL-037 (External System Integration Policy), POL-059 (Integration Control Policy) |

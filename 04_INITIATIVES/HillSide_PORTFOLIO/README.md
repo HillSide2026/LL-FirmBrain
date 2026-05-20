@@ -75,9 +75,9 @@ Current personal project folders include:
 - `PERSONAL_PROJECTS/PERSONAL_ACTIONS`
 - `PERSONAL_PROJECTS/BUILD_MONEY_MACHINE`
 
-HillSide business-project artifact rules are maintained in:
+HillSide business-project artifact rules are maintained in doctrine at:
 
-- `BUSINESS_PROJECTS/PROJECT_ARTIFACT_POLICY.md`
+- `../../01_DOCTRINE/03_POLICIES/POL-072_HillSide_Business_Project_Policy.md`
 
 ## HillSide Project Register
 
@@ -113,7 +113,7 @@ Projects with dedicated folders currently include:
 - `HBP-012` -> `BUSINESS_PROJECTS/HBP-012_INFO_PRODUCT`
 - `HBP-013` -> `BUSINESS_PROJECTS/HBP-013_SALE_OF_GRANVILLE`
 
-The canonical HillSide business-project stage reference is maintained in:
+The canonical HillSide business-project stage reference summary is maintained in:
 
 - `BUSINESS_PROJECTS/STAGE_REFERENCE.md`
 

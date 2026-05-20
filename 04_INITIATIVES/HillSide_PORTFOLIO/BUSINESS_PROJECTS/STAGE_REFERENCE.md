@@ -10,7 +10,12 @@ tags: [hillside, business-projects, stages]
 
 # HillSide Business Project Stage Reference
 
-This file is the canonical stage reference for HillSide business projects.
+This file is a local quick-reference for HillSide business-project stage usage.
+
+Authoritative doctrine lives in:
+
+- `01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md`
+- `01_DOCTRINE/03_POLICIES/POL-072_HillSide_Business_Project_Policy.md`
 
 Only the following project stages should be used for HillSide `HBP` project
 tracking:

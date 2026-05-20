@@ -2,9 +2,9 @@
 id: 00_system__agents__llm-005_portfolio_management_agent_md
 title: Agent Definition
 owner: ML1
-status: draft
+status: active
 created_date: 2026-02-26
-last_updated: 2026-04-01
+last_updated: 2026-05-19
 tags: []
 ---
 
@@ -13,7 +13,7 @@ tags: []
 
 **Version:** v1.1
 **Layer:** 01_SYSTEM
-**Status:** Draft (pending ML1 approval)
+**Status:** Active (ML1 approved 2026-05-19)
 **Agent file:** `.claude/agents/llm-005-portfolio-management.md`
 
 ---
@@ -122,10 +122,12 @@ Produces (advisory to ML1 only):
 ## Dependencies (Required Inputs)
 
 Must read:
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md`
 - All active project folders
 - Stage metadata
 - PROJECT_PLAN.md (including milestone schedule and resource plan sections; legacy WORKPLAN.md remains acceptable during transition)
 - DEPENDENCIES.md
+- Active matter signals from `05_MATTERS/**/MATTER.yaml`
 - Partner Supervision metrics
 - Baseline capacity data
 - STATUS_REPORT.md
@@ -136,6 +138,16 @@ Must read:
 Interpret planning requirements by project type:
 - strategic and management projects use the fuller planning baseline
 - operational projects use the lean operational baseline unless added coordination/control artifacts are actually needed
+- decision projects use the lightest planning baseline that still supports the
+  specific ML1 decision at issue
+
+Sequencing rules:
+- matter pressure is a first-order input, especially active `essential` and
+  `strategic` matters
+- projects that directly unblock active matter delivery may outrank other
+  internal work
+- discretionary project starts should be slowed when WIP or approval load is
+  already elevated
 
 Without capacity data, its models are advisory only.
 

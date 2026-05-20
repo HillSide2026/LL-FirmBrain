@@ -4,7 +4,7 @@ title: Agent Typology
 owner: ML1
 status: draft
 created_date: 2026-02-08
-last_updated: 2026-04-03
+last_updated: 2026-05-19
 tags: []
 ---
 
@@ -36,7 +36,7 @@ This document reflects the current state of the system and explicitly identifies
 
 ## Agents Index (Derived from AGENTS.md)
 
-Generated on 2026-04-03.
+Generated on 2026-05-19.
 
 ### System Management Agents (SMA)
 
@@ -56,9 +56,9 @@ Generated on 2026-04-03.
 | --- | --- | --- | --- | --- |
 | LLM-001 — Chief of Staff | LLM | Draft | `00_SYSTEM/AGENTS/LLM-001_CHIEF_OF_STAFF.md` | inputs: LLM-004/005/006 outputs; outputs: COS_BRIEF.md, ML1_DECISION_QUEUE.md, CROSS_AGENT_CONFLICTS.md |
 | LLM-003 — CFO Agent | LLM | Draft | `00_SYSTEM/AGENTS/LLM-003_CFO_AGENT.md` | LL financial visibility and funnel economics (`F01` / `F02` / `F03`); outputs: `FUNNEL_ECONOMICS_BRIEF.md`, `FUNNEL_ECONOMICS_MODEL.md`, `SCENARIO_SENSITIVITY_REPORT.md`, `FINANCIAL_CONSTRAINTS_ALERTS.md` |
-| LLM-004 — Project Management Agent | LLM | Draft | `00_SYSTEM/AGENTS/LLM-004_PROJECT_MANAGEMENT_AGENT.md` | agent file: `.claude/agents/llm-004-project-management.md` |
-| LLM-005 — Portfolio Management Agent | LLM | Draft | `00_SYSTEM/AGENTS/LLM-005_PORTFOLIO_MANAGEMENT_AGENT.md` | agent file: `.claude/agents/llm-005-portfolio-management.md` |
-| LLM-006 — Portfolio Governance Agent | LLM | Draft | `00_SYSTEM/AGENTS/LLM-006_PORTFOLIO_GOVERNANCE_AGENT.md` | agent file: `.claude/agents/llm-006-portfolio-governance.md` |
+| LLM-004 — Project Management Agent | LLM | Active | `00_SYSTEM/AGENTS/LLM-004_PROJECT_MANAGEMENT_AGENT.md` | agent file: `.claude/agents/llm-004-project-management.md`; ML1 activated 2026-05-19 |
+| LLM-005 — Portfolio Management Agent | LLM | Active | `00_SYSTEM/AGENTS/LLM-005_PORTFOLIO_MANAGEMENT_AGENT.md` | agent file: `.claude/agents/llm-005-portfolio-management.md`; ML1 activated 2026-05-19 |
+| LLM-006 — Portfolio Governance Agent | LLM | Active | `00_SYSTEM/AGENTS/LLM-006_PORTFOLIO_GOVERNANCE_AGENT.md` | agent file: `.claude/agents/llm-006-portfolio-governance.md`; ML1 activated 2026-05-19 |
 | LLM-007 — Fulfillment Orchestrator Agent | LLM | Draft | `00_SYSTEM/AGENTS/LLM-007_FULFILLMENT_ORCHESTRATOR_AGENT.md` | fulfillment lifecycle orchestration (`LLP-004` to `LLP-008`) under `POL-034` |
 
 ### Repo-Level Synthesis Agents (RLS)

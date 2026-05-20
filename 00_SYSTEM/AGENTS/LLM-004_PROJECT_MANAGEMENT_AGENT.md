@@ -2,9 +2,9 @@
 id: 00_system__agents__llm-004_project_management_agent_md
 title: Agent Definition
 owner: ML1
-status: draft
+status: active
 created_date: 2026-02-26
-last_updated: 2026-03-23
+last_updated: 2026-05-19
 tags: []
 ---
 
@@ -13,7 +13,7 @@ tags: []
 
 **Version:** v1.1
 **Layer:** 01_SYSTEM
-**Status:** Draft (pending ML1 approval)
+**Status:** Active (ML1 approved 2026-05-19)
 **Agent file:** `.claude/agents/llm-004-project-management.md`
 
 ---
@@ -98,8 +98,8 @@ Enforce Levine Law’s Project Management Doctrine, ensure stage-gate compliance
 ## Outputs
 
 ### Project-Level Artifacts
-All outputs live inside project folders under:
-`04_INITIATIVES/LL_PORTFOLIO/07_GROWTH_PROJECTS/<PROJECT_ID>/`
+All outputs live inside the governed project folders they belong to under
+`04_INITIATIVES/LL_PORTFOLIO/`.
 
 **Initiation (all projects)**
 - PROJECT_CHARTER.md
@@ -111,6 +111,12 @@ All outputs live inside project folders under:
 
 **Initiation (strategic projects only)**
 - BUSINESS_CASE.md
+
+**Initiation (decision projects only)**
+- PROJECT_CHARTER.md
+- PROBLEM_STATEMENT.md
+- RISK_SCAN.md
+- APPROVAL_RECORD.md
 
 `RISK_SCAN.md` schema:
 ```
@@ -145,11 +151,18 @@ Rationale: <ML1 judgment>
 - ASSUMPTIONS_CONSTRAINTS.md
 - COMMUNICATION_PLAN.md
 
+**Planning (decision projects)**
+- DECISION_FRAME.md
+- PROJECT_PLAN.md
+- ASSUMPTIONS_CONSTRAINTS.md
+- DEPENDENCIES.md
+- RISK_REGISTER.md
+
 `RISK_REGISTER.md` schema:
 ```
 | Risk | Category | Likelihood | Impact | Mitigation |
 |------|----------|------------|--------|------------|
-| <description> | Scope / Schedule / Budget | H/M/L | H/M/L | <action> |
+| <description> | <doctrine-aligned category> | H/M/L | H/M/L | <action> |
 ```
 
 **Planning (Measurement Architecture)**
@@ -168,6 +181,10 @@ edit.
 
 `ML1_METRIC_APPROVAL.md` is legacy and non-canonical. Threshold approval is
 recorded inside `METRICS.md`.
+
+Legacy `WORKPLAN.md`, split metric files, and `implementation/` or
+`monitoring/` stage labels are migration residue and must be surfaced as PM
+conformance failures under `POL-073`.
 
 **Executing**
 - EXECUTION_LOG.md
@@ -232,7 +249,9 @@ recorded inside `METRICS.md`.
 ## Dependencies (Required Inputs)
 
 LLM-004 must operate strictly from:
+- `01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md`
 - `01_DOCTRINE/03_POLICIES/POL-056_Firm_Project_Policy.md`
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md`
 - Portfolio boundary definitions in `04_INITIATIVES/LL_PORTFOLIO/README.md`
 - Each project’s current-stage artifacts, especially APPROVAL_RECORD.md and METRICS.md
 - Change control logs (CHANGE_LOG.md) and decision logs (DECISION_LOG.md)

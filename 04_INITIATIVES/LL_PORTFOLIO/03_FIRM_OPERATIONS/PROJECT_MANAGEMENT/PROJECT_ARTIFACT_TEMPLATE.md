@@ -15,23 +15,27 @@ Project Path: `03_FIRM_OPERATIONS/PROJECT_MANAGEMENT`
 
 ## Purpose
 
-Define the canonical artifact set required per project stage.
+Local LL implementation guide for the doctrine-defined project artifact set.
 
 This template is subordinate to
-`01_DOCTRINE/03_POLICIES/POL-056_Firm_Project_Policy.md`.
+`01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md`,
+`01_DOCTRINE/03_POLICIES/POL-056_Firm_Project_Policy.md`, and
+`01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md`.
 
 Planning-stage artifacts are execution-readiness controls used to authorize execution and achievement of project goals.
 
 ## Project Types
 
-This template acknowledges four project/work types used in LL:
+This template acknowledges five LL work types:
 - Strategic projects
 - Management projects
 - Operational projects
+- Decision projects
 - Client matters (aka client projects)
 
 Applicability:
-- The staged project artifact lifecycle in this template applies to strategic, management, and operational projects.
+- The staged project artifact lifecycle in this template applies to strategic,
+  management, operational, and decision projects.
 - Client matters/client projects are governed by matter doctrine and matter-stage artifacts, not this project-stage lifecycle template.
 
 ## Stage 1 - Initiating
@@ -51,15 +55,19 @@ Notes:
 - `RISK_SCAN.md` must include: Top 5 Risks, Key Assumptions, Go/No-Go Judgment.
 - `PROJECT_CHARTER.md` must include:
   - `Project ID` (canonical globally unique identifier, e.g., `LLP-024`)
-  - `Project Path` (repository path key, e.g., `08_MARKETING/LLP-011_FUNNEL1_MANAGEMENT`)
-  - `Project Type` (`Strategic`, `Management`, or `Operational`)
+  - `Project Path` (repository path key, e.g., `08_MARKETING/LLP-024`)
+  - `Project Type` (`Strategic`, `Management`, `Operational`, or `Decision`)
 - Stage advancement requires ML1 approval in `APPROVAL_RECORD.md`.
 
 Identity Rule:
-- Project ID is the folder slug: LLP-NNN (e.g. LLP-024).
+- Project ID is the folder name.
+- New LL project folders use plain `LLP-NNN` (e.g. `LLP-024`).
 - Project ID and folder name are identical. They are the same thing.
 - The folder number is globally unique across the entire LL Portfolio — not per-area.
 - The deprecated LLP-26-XX registry format (year-prefixed) must not be used in any new or existing project artifact.
+- New `LLP-NNN_NAME` folders must not be created.
+- Existing `LLP-NNN_NAME` folders are migration residue and should be
+  normalized under `POL-073`.
 - When a new project is created, check the full portfolio folder list to confirm the chosen number is unused before creating the folder.
 
 ## Stage 2 - Planning (Execution Readiness)
@@ -93,6 +101,13 @@ Optional for operational projects, when the project actually needs them:
 - `ASSUMPTIONS_CONSTRAINTS.md`
 - `COMMUNICATION_PLAN.md`
 
+Required for decision projects:
+- `DECISION_FRAME.md`
+- `PROJECT_PLAN.md`
+- `ASSUMPTIONS_CONSTRAINTS.md`
+- `DEPENDENCIES.md`
+- `RISK_REGISTER.md`
+
 ### Measurement Architecture
 Required:
 - `METRICS.md`
@@ -120,11 +135,15 @@ Best-Practice Rules:
 - `DEPENDENCIES.md`
   Must list only dependencies that could block or materially change execution.
 - `RISK_REGISTER.md`
-  Must focus on risks that threaten scope, schedule, budget, operating control, or authorization readiness.
+  Must focus on risks that threaten the actual project thesis, including scope,
+  schedule, budget, operating control, authorization readiness, or other
+  doctrine-aligned project risks.
 - `COMMUNICATION_PLAN.md`
   Must be limited to decision loops, coordination points, and escalation triggers that the project actually needs. It is expected by default for strategic and management projects and optional for operational projects unless coordination complexity warrants it.
 - `METRICS.md`
   Must be the single source for metric definitions, calculation method, baseline logic, validation rules, and ML1 threshold approval.
+- Decision projects should use the lightest planning packet that still supports
+  the specific ML1 decision at issue.
 ## Stage 3 - Executing
 
 Required:
@@ -156,3 +175,8 @@ Required:
 ## Stage-Gate Rule
 
 No stage advancement is valid without explicit ML1 approval recorded in project artifacts.
+
+## Control-Layer Rule
+
+This template is a local LL implementation guide. It is not itself canonical
+doctrine. If it conflicts with doctrine, doctrine governs.

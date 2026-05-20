@@ -4,10 +4,10 @@ title: Repository Project Policy
 owner: ML1
 status: approved
 approved_by: ML1
-approved_date: 2026-04-18
-version: '1.1'
+approved_date: 2026-05-19
+version: '1.2'
 created_date: 2026-03-15
-last_updated: 2026-03-23
+last_updated: 2026-05-19
 tags: [doctrine, policy, projects, stage-gates]
 ---
 
@@ -36,6 +36,12 @@ matter doctrine.
 Project ontology and structural boundaries are defined in:
 
 - `01_DOCTRINE/01_INVARIANTS/INV-0012-project-structural-boundaries.md`
+- `01_DOCTRINE/01_INVARIANTS/INV-0018-canonical-project-types.md`
+
+The doctrine-side PM control layer that operationalizes this policy is defined
+in:
+
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md`
 
 ## 3. Policy Hierarchy
 
@@ -107,12 +113,49 @@ ML1 alone decides stage advancement.
 
 Every project governed by this policy must have a globally unique Project ID.
 
-- **Format:** `LLP-NNN` (e.g. `LLP-024`), where NNN is a zero-padded integer.
-- **Project ID equals folder name.** The folder slug and the Project ID are the same string. There is no separate registry sequence.
-- **Global uniqueness.** The number must be unique across the entire repository — not per portfolio area. Before creating a new project folder, verify the number is unused across all existing LLP-NNN folders.
-- **Deprecated format.** The year-prefixed format `LLP-YY-NN` (e.g. `LLP-26-24`) is retired and must not appear in any new artifact. Existing occurrences must be corrected on next edit.
+- **Project ID equals folder name.** The project folder slug and the Project ID are the same string. There is no separate registry sequence.
+- **Global uniqueness.** The Project ID must be unique across the entire repository, not merely within one portfolio or program.
+- **Allowed formats.** Current canonical patterns include approved series IDs such as `LLP-NNN`, `HBP-NNN`, and `SYS-NNN`, plus stable slug IDs where no numbered series has yet been adopted for that project family.
+- **Reuse prohibition.** Before creating a new project folder, verify that the proposed Project ID is unused anywhere in the governed project tree.
 - `PROJECT_CHARTER.md` must declare the Project ID in the header.
 - `APPROVAL_RECORD.md` must repeat the same Project ID.
+
+## 6b. Project Type Rule
+
+Every project governed by this policy must declare exactly one canonical
+project type from
+`01_DOCTRINE/01_INVARIANTS/INV-0018-canonical-project-types.md`.
+
+Allowed values are:
+
+- `Strategic`
+- `Management`
+- `Operational`
+- `Decision`
+
+Rules:
+
+- The project type must be recorded explicitly in `PROJECT_CHARTER.md`.
+- A project may not carry more than one canonical type at a time.
+- Reclassification requires explicit ML1 approval recorded in project artifacts
+  and reflected in the relevant register.
+- Prose may use rendered labels such as `Strategic Project`, but the canonical
+  type remains one of the four values above.
+
+## 6c. Milestone and Task Rule
+
+Milestones and tasks are governed work units, but they are not projects and not
+project stages.
+
+Rules:
+
+- Milestones may exist inside programs or projects to mark readiness,
+  completion, or control checkpoints.
+- Tasks are actionable execution units that may support projects, matters, or
+  workflows.
+- Neither milestones nor tasks may be used as substitute project identities in
+  a project register.
+- Neither milestones nor tasks may be used as substitute project stages.
 
 ## 7. Canonical Baseline Artifact Set
 
@@ -223,6 +266,8 @@ Rules:
 - `PROJECT_PLAN.md` is the canonical planning-sequence artifact for strategic,
   management, operational, and decision projects. Existing `WORKPLAN.md` files
   are legacy-compatible during transition and should be normalized on next edit.
+- Milestones may appear inside `PROJECT_PLAN.md`, but they do not replace
+  delivery stages or Project IDs.
 - `METRICS.md` is the single canonical measurement artifact. The split-file schema (`METRIC_DEFINITION.md`, `MEASUREMENT_METHOD.md`, `BASELINE_CAPTURE_PERIOD.md`, `VALIDATION_REVIEW.md`) is non-compliant and deprecated. Existing projects using the split schema must consolidate into `METRICS.md` before their Planning → Executing gate is closed. New projects must not use the split schema.
 - `ML1_METRIC_APPROVAL.md` is deprecated and non-compliant. ML1 threshold approval belongs inside `METRICS.md`, not in a separate file.
 - Decision projects should use the lightest planning packet that still supports
@@ -250,6 +295,8 @@ These systems must not be collapsed into one stage vocabulary.
 ## 10. Related Artifacts
 
 - `01_DOCTRINE/01_INVARIANTS/INV-0012-project-structural-boundaries.md`
+- `01_DOCTRINE/01_INVARIANTS/INV-0018-canonical-project-types.md`
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md`
 - `01_DOCTRINE/03_POLICIES/POL-056_Firm_Project_Policy.md`
-- `04_INITIATIVES/HillSide_PORTFOLIO/BUSINESS_PROJECTS/PROJECT_ARTIFACT_POLICY.md`
+- `01_DOCTRINE/03_POLICIES/POL-072_HillSide_Business_Project_Policy.md`
 - `01_DOCTRINE/03_POLICIES/POL-063_Project_Risk_Artifact_Lifecycle_Policy.md`

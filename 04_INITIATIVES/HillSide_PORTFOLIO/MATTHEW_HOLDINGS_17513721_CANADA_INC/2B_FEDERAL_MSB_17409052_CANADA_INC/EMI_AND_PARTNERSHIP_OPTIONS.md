@@ -161,5 +161,9 @@ commercial channel rather than 174's infrastructure stack.
 The Kwiikpay partnership may become relevant to 174, but only after its legal,
 commercial, technical, and regulatory role is documented.
 
-Sponsor-bank work should remain with Ontario MSB Corp / Locarno unless ML1
-separately creates and approves a 174 sponsor-bank track.
+Sponsor-bank work belongs to Ontario MSB Corp / Locarno (`1001494374 Ontario
+Corp`), not to 174. ClearSky Payments (Tel Aviv) is the active approach for
+the Locarno sponsor-bank search — it is an agency that brokers bank
+relationships, engaged to secure a direct bank relationship for Locarno. That
+engagement and its analysis are documented in
+`../2C_ONTARIO_MSB_CORP_1001494374_ONTARIO_CORP/SPONSOR_BANK_SEARCH.md`.

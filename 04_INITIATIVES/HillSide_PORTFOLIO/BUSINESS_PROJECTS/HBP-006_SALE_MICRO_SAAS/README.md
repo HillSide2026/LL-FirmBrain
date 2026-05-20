@@ -34,7 +34,7 @@ validation.
 ## Required Initiation Packet
 
 Use the standard HillSide initiation packet defined in
-`../PROJECT_ARTIFACT_POLICY.md`:
+`../../../../01_DOCTRINE/03_POLICIES/POL-072_HillSide_Business_Project_Policy.md`:
 
 - `PROJECT_CHARTER.md`
 - `PROBLEM_STATEMENT.md`

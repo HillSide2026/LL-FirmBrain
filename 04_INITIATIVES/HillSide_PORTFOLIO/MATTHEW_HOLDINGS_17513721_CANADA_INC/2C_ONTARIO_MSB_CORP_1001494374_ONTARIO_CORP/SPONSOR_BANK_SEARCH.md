@@ -4,7 +4,7 @@ title: Locarno Sponsor-Bank Search
 owner: ML1
 status: draft
 created_date: 2026-05-15
-last_updated: 2026-05-15
+last_updated: 2026-05-18
 tags: [locarno, ontario-msb, sponsor-bank, direct-bank, payments-infrastructure]
 ---
 
@@ -148,16 +148,42 @@ kept light and should not create cost, complexity, or diligence friction.
 If ML1 is pursuing the infrastructure-asset track, the sponsor-bank search is a
 core workstream and should be run in parallel with the direct EMI workstream.
 
+## Active Approach — ClearSky Payments (Tel Aviv)
+
+**ClearSky Payments is the core strategy for obtaining a direct bank relationship
+for Locarno.**
+
+ClearSky is an agency that brokers relationships to banks. ML1 is engaging
+ClearSky with the objective of securing a direct, referenceable bank relationship
+for `1001494374 Ontario Corp`.
+
+ClearSky quoted approximately 2k as a seriousness / qualification signal — not
+a software fee, not a full price. This was ClearSky testing whether ML1 was
+serious about pursuing a bank relationship before investing time brokering one.
+
+**This engagement belongs to Locarno (Ontario MSB Corp), not to Granville
+(17409052 Canada Inc).** The sponsor-bank search has always been a Locarno
+workstream. ClearSky is the active vehicle for that workstream.
+
+**Open questions for ClearSky:**
+- Which banks does ClearSky broker relationships with, and are any willing to
+  onboard a pre-revenue Canadian MSB?
+- What does the brokerage arrangement look like — introduction only, facilitated
+  onboarding, ongoing support?
+- What is the full fee structure beyond the 2k qualifier?
+- Can the resulting bank relationship be directly contracted with Locarno, or
+  only via ClearSky as an intermediary?
+- Will the bank relationship be assignable and transferable on a sale of Locarno?
+- What compliance documentation will the bank require before onboarding?
+
 ## Current Working Conclusion
 
 Locarno's sponsor-bank search is a value-building workstream for
-`1001494374 Ontario Corp`.
+`1001494374 Ontario Corp`. It is not part of the 174 / Granville analysis.
 
-It is not part of the current 174 / Granville EMI option analysis.
-
-There is currently no concrete sponsor-bank prospect. The next step is to
-convert the market-reference list into actual outreach targets or to pause the
-search if ML1 is prioritizing the pure-shell sale.
+ClearSky Payments is the active approach as of 2026-05-18. ML1 is pursuing the
+infrastructure-asset track (Track B), not a pure shell sale, which makes the
+sponsor-bank search a core workstream.
 
 The sponsor-bank relationship becomes valuable only when it is direct or
 directly referenceable, documented, and capable of being understood by a buyer

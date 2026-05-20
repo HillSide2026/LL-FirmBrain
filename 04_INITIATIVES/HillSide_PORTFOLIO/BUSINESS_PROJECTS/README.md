@@ -16,9 +16,9 @@ Canonical register:
 
 - `PROJECT_REGISTER.md`
 
-Canonical artifact policy:
+Canonical doctrine policy:
 
-- `PROJECT_ARTIFACT_POLICY.md`
+- `../../../01_DOCTRINE/03_POLICIES/POL-072_HillSide_Business_Project_Policy.md`
 
 Current folder-backed projects:
 
@@ -43,7 +43,7 @@ HillSide currently uses both `Strategic` and `Decision` project packets.
 Decision projects remain governed projects under the same canonical HillSide
 stage model.
 
-Canonical HillSide project stages are defined in:
+Local quick-reference for HillSide project stages:
 
 - `STAGE_REFERENCE.md`
 
@@ -51,4 +51,5 @@ Business-project folders may exist as shells during early `initiating` work
 before a full initiation packet is complete.
 
 Once a HillSide project enters `Initiating` or a packet starts to form, the
-required artifact set is governed by `PROJECT_ARTIFACT_POLICY.md`.
+required artifact set is governed by
+`../../../01_DOCTRINE/03_POLICIES/POL-072_HillSide_Business_Project_Policy.md`.

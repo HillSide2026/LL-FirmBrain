@@ -1,29 +1,29 @@
 ---
 id: INV-0012
-title: 'INV-0012: Project Structural Boundaries'
+title: 'INV-0012: Governed Work Structural Boundaries'
 owner: ML1
 status: approved
 approved_by: ML1
-approved_date: 2026-03-28
-version: '1.0'
+approved_date: 2026-05-19
+version: '2.0'
 created_date: 2026-03-15
-last_updated: 2026-03-28
-tags: [doctrine, invariants, projects, structure]
+last_updated: 2026-05-19
+tags: [doctrine, invariants, projects, structure, governance]
 ---
 
-# INV-0012 — Project Structural Boundaries
+# INV-0012 — Governed Work Structural Boundaries
 
 ## Purpose
 
-Define the structural ontology for projects and adjacent work containers so the
-repository does not blur projects with matters, workflows, modules, solutions,
-programs, or portfolios.
+Define the structural ontology for governed work so the repository does not
+blur portfolios, programs, projects, milestones, tasks, matters, solutions,
+modules, or workflows.
 
-This invariant defines what these containers are, how they relate, and what
-they are not.
+This invariant defines what these units are, how they relate, and what they are
+not.
 
-Artifact requirements, stage-gate packets, and lifecycle controls remain at the
-policy layer.
+Artifact requirements, stage-gate packets, lifecycle controls, and behavioral
+rules remain at the policy layer.
 
 ## Structural Rule
 
@@ -32,6 +32,8 @@ The repository recognizes the following distinct structural units:
 - portfolio
 - program
 - project
+- milestone
+- task
 - matter
 - solution
 - module
@@ -39,8 +41,8 @@ The repository recognizes the following distinct structural units:
 
 These are not interchangeable labels.
 
-No artifact, folder, register, or policy may silently collapse one unit into
-another.
+No artifact, folder, register, dashboard, or policy may silently collapse one
+unit into another.
 
 ## Canonical Definitions
 
@@ -59,7 +61,7 @@ A portfolio:
 
 - groups one or more programs and related governance structures
 - sets broad scope and boundary for included work
-- is not itself a project, workflow, or matter
+- is not itself a program, project, milestone, or task
 
 ### 2. Program
 
@@ -72,8 +74,9 @@ A program:
 - contains one or more projects
 - coordinates related projects
 - may hold a shared register, policy overlay, or decision frame
+- may define program-level milestones
 - is not itself a single project deliverable
-- is not a matter, solution, or workflow
+- is not a matter, solution, module, or workflow
 
 ### 3. Project
 
@@ -83,60 +86,57 @@ system.
 A project:
 
 - has a defined purpose, scope boundary, and owner
-- uses one canonical project type
+- uses exactly one canonical project type defined in
+  `01_DOCTRINE/01_INVARIANTS/INV-0018-canonical-project-types.md`
 - advances, when authorized, through project delivery stages
 - may consume solutions, modules, workflows, and templates
 - may affect a portfolio or program
+- may define milestones and tasks
 
 A project is not:
 
 - a portfolio
 - a program
+- a milestone
+- a task
 - a solution architecture unit
 - a workflow definition
 - a doctrine artifact
 
-### 4. Project Types
+### 4. Milestone
 
-The canonical project types are:
+A milestone is a governed checkpoint or completion condition inside a program or
+project.
 
-- `Strategic`
-- `Management`
-- `Operational`
-- `Decision`
+A milestone:
 
-#### Strategic Project
+- marks meaningful readiness, completion, approval, or sequencing status
+- exists only within a broader governed container
+- may be evidenced by one or more artifacts or tasks
+- may inform gate readiness, but does not itself advance a project stage
+- is not a project, task, dependency, or register row substitute
 
-A strategic project is a change initiative that defines or materially changes
-long-horizon direction, capability, ownership posture, or structural operating
-position.
+### 5. Task
 
-#### Management Project
+A task is the smallest actionable execution unit tracked for work completion.
 
-A management project is a change initiative focused on governance, control,
-coordination, monitoring, or optimization of existing systems or operating
-domains.
+A task:
 
-#### Operational Project
+- expresses a concrete action to be performed
+- may support a project, milestone, matter, or workflow
+- may carry assignee, status, due date, and context
+- does not define portfolio, program, or project identity
+- does not itself create stage advancement, project closure, or policy status
 
-An operational project is a bounded execution-focused initiative that improves,
-implements, or stabilizes how defined work is carried out.
+A task is not:
 
-#### Decision Project
+- a portfolio
+- a program
+- a project
+- a milestone
+- a dependency
 
-A decision project is a bounded option-framing initiative used to structure,
-compare, and decide whether a proposed build, partnership, divestiture, or new
-venture path should advance, be reclassified, or be closed.
-
-A decision project:
-
-- is evaluation-first, not execution-first
-- exists to produce a clear ML1 go / hold / no-go or reclassification decision
-- may conclude by closing or by being reclassified into another project type
-
-Each project must use one canonical project type for governance purposes.
-
-### 5. Matter
+### 6. Matter
 
 A matter is a client-specific legal work unit governed by matter doctrine, not
 project doctrine.
@@ -145,7 +145,7 @@ A matter:
 
 - is tied to a client engagement
 - follows matter lifecycle and matter-stage rules
-- may use solutions, modules, or workflows in delivery
+- may use solutions, modules, workflows, and tasks in delivery
 - may depend on projects that improve firm capability
 
 Whether a matter is a type of project is not resolved by current doctrine and
@@ -157,7 +157,7 @@ Current rule:
 - the matter/project relationship must not be inferred beyond what doctrine
   explicitly states
 
-### 6. Solution
+### 7. Solution
 
 A solution is the canonical offering boundary for reusable operational design
 and delivery.
@@ -168,9 +168,9 @@ A solution:
 - is decomposed into modules
 - may be used across multiple matters or operating contexts
 
-A solution is not a project, matter, or workflow.
+A solution is not a project, milestone, task, matter, or workflow.
 
-### 7. Module
+### 8. Module
 
 A module is a bounded reusable functional component within a solution.
 
@@ -180,9 +180,9 @@ A module:
 - may contain workflows, templates, checklists, and supporting references
 - remains subordinate to its parent solution
 
-A module is not a project, matter, or full solution.
+A module is not a project, milestone, task, matter, or full solution.
 
-### 8. Workflow
+### 9. Workflow
 
 A workflow is the canonical procedural execution unit.
 
@@ -191,8 +191,9 @@ A workflow:
 - defines how work is performed
 - operates within a bounded solution/module or other approved operational scope
 - consumes governed inputs and produces governed outputs
+- may generate or sequence tasks
 
-A workflow is not a project, matter, solution, or doctrine artifact.
+A workflow is not a project, milestone, matter, solution, or doctrine artifact.
 
 ## Structural Relationships
 
@@ -202,6 +203,10 @@ The canonical relationships are:
 Portfolio
 -> Program
 -> Project
+-> Milestone
+
+Project or Matter
+-> Task
 
 Practice Area
 -> Solution
@@ -211,13 +216,26 @@ Practice Area
 
 Cross-system relationship rules:
 
-- Projects may create, change, govern, or improve solutions, modules, and workflows.
-- Workflows may execute work that supports a project or a matter.
-- Matters may consume solutions, modules, and workflows.
 - Portfolios contain programs.
 - Programs contain projects.
+- Programs and projects may define milestones.
+- Projects, matters, and workflows may use tasks.
+- Projects may create, change, govern, or improve solutions, modules, and workflows.
+- Workflows may execute work that supports a project or a matter.
+- Matters may consume solutions, modules, workflows, and tasks.
 
 Containment must not be inferred where doctrine does not define it.
+
+## Non-Equivalence Rules
+
+The following terms are structurally distinct and must not be collapsed:
+
+- program and project
+- project and milestone
+- milestone and task
+- task and dependency
+- project stage and milestone
+- decision lifecycle status and decision project
 
 ## Stage-System Separation
 
@@ -225,20 +243,23 @@ Project delivery stages are a distinct system from:
 
 - roadmap `STAGE<n>[.<phase>]` numbering
 - register decision lifecycles such as `idea`, `screening`, or `approved`
+- milestones
+- tasks
 - matter delivery-status states
 
 These systems must not be collapsed into one vocabulary.
 
-`Decision Project` is a canonical project type inside the project system. It is
-not the same thing as a register-level decision lifecycle.
-
 ## Identity Rule
 
-Project identity and storage location are not the same thing.
+Project identity, project type, project stage, and storage location are related
+but distinct concepts.
 
 - `Project ID` is canonical identity.
-- project path is a location key.
-- folder slugs are not authoritative identity fields.
+- the applicable project policy determines the required relation between folder
+  name and `Project ID`.
+- project path is a location key, not a substitute for project type or stage.
+- folder placement does not by itself determine project authority, stage, or
+  artifact completeness.
 
 ## Boundary Rule
 
@@ -246,13 +267,14 @@ If classification is ambiguous, the system must escalate rather than guess.
 
 No artifact may:
 
-- resolve the matter/project relationship by inference when doctrine has not
-  resolved it
+- treat a milestone or task list as if it were a project
 - classify a workflow, module, or solution as a project
 - treat a portfolio or program as if it were a single project
+- infer the matter/project relationship beyond explicit doctrine
 
 ## Related Doctrine
 
+- `01_DOCTRINE/01_INVARIANTS/INV-0018-canonical-project-types.md`
 - `01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md`
 - `01_DOCTRINE/03_POLICIES/POL-052_Client_Engagement_Stage_Policy.md`
 - `01_DOCTRINE/03_POLICIES/POL-038_Module_Policy.md`

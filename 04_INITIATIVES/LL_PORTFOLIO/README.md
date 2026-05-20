@@ -82,21 +82,33 @@ Use the following transition:
 The matter portfolio is therefore a drill-down control surface inside the LL
 operating system. It is not the organizing spine of LL itself.
 
-## Project Identity (Canonical)
+## Project Identity
 
-- Every project has one canonical identifier: `Project ID` (globally unique).
+Levine Law project identity is governed by:
+
+- `01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md`
+- `01_DOCTRINE/03_POLICIES/POL-056_Firm_Project_Policy.md`
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md`
+
+Working rules:
+
+- Every governed project has one canonical identifier: `Project ID`.
+- `Project ID` equals the project folder name.
 - `Project Path` is a storage/location key and must not be treated as identity.
-- Folder labels in paths (for example `LLP-004_ONBOARDING`) are legacy slugs and non-authoritative for identity.
+- New LL projects must use plain `LLP-NNN` folder names.
+- Existing `LLP-NNN_NAME` folders are migration residue and should be
+  normalized, not copied forward.
 
 ---
 
-## LL Work Type Taxonomy (Canonical)
+## LL Work Type Taxonomy
 
 The LL system recognizes four work types:
 
 - Strategic projects
 - Management projects
 - Operational projects
+- Decision projects
 - Client matters (aka client projects)
 
 Definitions:
@@ -104,24 +116,26 @@ Definitions:
 - Strategic projects: firm-direction initiatives that define or materially change long-horizon operating posture.
 - Management projects: governance and control initiatives that coordinate, monitor, or optimize firm systems.
 - Operational projects: execution-focused initiatives that improve how defined workflows are carried out.
+- Decision projects: bounded evaluation projects whose main deliverable is an ML1 go / hold / no-go or reclassification decision.
 - Client matters/client projects: client-specific legal work units governed by matter doctrine.
 
 Applicability:
 
-- The project stage-gate artifact lifecycle applies to strategic, management, and operational projects.
+- The project stage-gate artifact lifecycle applies to strategic, management,
+  operational, and decision projects.
 - Client matters/client projects follow matter doctrine and matter-stage artifacts.
 - If project type classification is unclear, escalate to ML1 before stage advancement.
 
-## Planning Stage Standard (Canonical)
+## Planning Stage Standard
 
 For governed LL projects, the `Planning` stage exists to prepare a clean
-implementation-authorization decision.
+execution-authorization decision.
 
 Planning artifacts must be:
 
 - project-specific
 - decision-oriented
-- implementation-focused
+- execution-focused
 - as lean as possible while still supporting ML1 approval
 
 Planning artifacts must not become planning for the sake of planning.
@@ -151,15 +165,49 @@ Operational projects may add these when the work actually needs them:
 - `ASSUMPTIONS_CONSTRAINTS.md`
 - `COMMUNICATION_PLAN.md`
 
+Decision projects:
+
+- `DECISION_FRAME.md`
+- `PROJECT_PLAN.md`
+- `ASSUMPTIONS_CONSTRAINTS.md`
+- `DEPENDENCIES.md`
+- `RISK_REGISTER.md`
+- `METRICS.md`
+
 Planning best-practice rules:
 
-- `SCOPE_STATEMENT.md` locks the actual implementation boundary and exclusions.
-- `PROJECT_PLAN.md` locks the project decisions, sequence, and gate-readiness path. It should not read like generic PM overhead. Legacy `WORKPLAN.md` files remain acceptable during transition and should be normalized on next edit.
+- `SCOPE_STATEMENT.md` locks the actual execution boundary and exclusions.
+- `PROJECT_PLAN.md` locks the project decisions, sequence, and gate-readiness
+  path. It should not read like generic PM overhead. Legacy `WORKPLAN.md`
+  files remain acceptable during transition and should be normalized on next
+  edit.
 - `ASSUMPTIONS_CONSTRAINTS.md` captures the assumptions the project depends on and the limits it cannot cross.
-- `DEPENDENCIES.md` lists only dependencies that could materially affect implementation or authorization.
+- `DEPENDENCIES.md` lists only dependencies that could materially affect
+  execution or authorization.
 - `RISK_REGISTER.md` tracks risks that matter to scope, schedule, budget, operating control, or gate readiness.
 - `COMMUNICATION_PLAN.md` should be minimal and limited to decision loops, coordination points, and escalation triggers. It is expected by default for strategic and management projects and optional for operational projects unless coordination complexity warrants it.
 - `METRICS.md` is the single source for metric definitions, measurement method, baseline logic, validation rules, and ML1 threshold approval. `ML1_METRIC_APPROVAL.md` is legacy and should not be created for new work.
+- Decision projects should use the lightest planning packet that still supports
+  the specific ML1 decision at issue.
+
+## PM Control Layer
+
+LL project-management control behavior is governed in doctrine, not by this
+README.
+
+See:
+
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md`
+
+This includes:
+
+- folder-name identity control
+- stage-vocabulary migration
+- retirement of `WORKPLAN.md` and split metric files
+- health-state rules
+- sequencing and WIP logic
+- matter-to-project prioritization
+- PM conformance failure rules
 
 If a planning artifact does not help lock scope, reduce uncertainty, or support
 the Planning -> Executing gate decision, it should be merged or removed.

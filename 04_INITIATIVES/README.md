@@ -88,9 +88,11 @@ It is an advisory synthesis layer only.
 - Strategic projects
 - Management projects
 - Operational projects
+- Decision projects
 - Client matters (aka client projects)
 
-Strategic, management, and operational projects follow the project stage-gate artifact lifecycle.
+Strategic, management, operational, and decision projects follow the project
+stage-gate artifact lifecycle.
 Client matters/client projects follow matter doctrine and matter-stage artifacts.
 
 See: `LL_PORTFOLIO/README.md` for detailed governance rules.

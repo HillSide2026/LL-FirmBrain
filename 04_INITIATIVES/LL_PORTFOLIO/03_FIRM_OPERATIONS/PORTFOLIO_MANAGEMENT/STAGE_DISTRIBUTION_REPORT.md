@@ -1,16 +1,15 @@
-# STAGE DISTRIBUTION REPORT
+# Stage Distribution Report
 
-- Generated: 2026-05-18T10:46:00+00:00
-- Run ID: RUN-2026-05-18-LL-PORTFOLIO-AGENTS-104600Z
+- Generated: 2026-05-19T22:13:13+00:00
+- Run ID: RUN-2026-05-19-LL-PORTFOLIO-AGENTS-221312Z
 
 > Advisory output. ML1 approval remains required for decisions.
 ## Stage Distribution
 
 | Stage | Count |
 | --- | --- |
-| 0 | 1 |
-| 1 | 28 |
-| 2 | 9 |
-| 3 | 5 |
-| 4 | 0 |
-| 5 | 0 |
+| Unstaged | 0 |
+| Initiating | 28 |
+| Planning | 9 |
+| Executing | 5 |
+| Closing | 0 |

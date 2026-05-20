@@ -15,8 +15,11 @@ Use this table to track HillSide business projects across the HillSide branch.
 `HBP-###` is the canonical project numbering series for HillSide projects,
 whether or not a dedicated project folder already exists.
 
-The `Stage` column in this register tracks the canonical HillSide project stage
-defined in `STAGE_REFERENCE.md`.
+The `Stage` column in this register tracks the HillSide business-project stage
+model governed by:
+
+- `../../../01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md`
+- `../../../01_DOCTRINE/03_POLICIES/POL-072_HillSide_Business_Project_Policy.md`
 
 | Project ID | Project Name | Portfolio Fit | Stage | Strategic Rationale | Key Risks | ML1 Decision | Owner | Last Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -52,7 +55,7 @@ defined in `STAGE_REFERENCE.md`.
 
 ## Stage Reference
 
-Canonical HillSide project stage definitions are maintained in:
+Local quick-reference for HillSide project stage labels:
 
 - `STAGE_REFERENCE.md`
 

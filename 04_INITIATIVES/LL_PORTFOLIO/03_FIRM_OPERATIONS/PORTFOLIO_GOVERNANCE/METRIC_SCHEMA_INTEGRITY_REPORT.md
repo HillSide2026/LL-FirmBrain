@@ -1,9 +1,9 @@
-# METRIC SCHEMA INTEGRITY REPORT
+# Metric Schema Integrity Report
 
-- Generated: 2026-05-18T10:46:00+00:00
-- Run ID: RUN-2026-05-18-LL-PORTFOLIO-AGENTS-104600Z
+- Generated: 2026-05-19T22:13:13+00:00
+- Run ID: RUN-2026-05-19-LL-PORTFOLIO-AGENTS-221312Z
 
 > Advisory output. ML1 approval remains required for decisions.
 ## Metric Schema Integrity
 
-- `LLP-037` missing measurement artifacts: METRICS.md
+- `LLP-037 [LLP-037_LL_SYSTEM_DESIGN]` missing measurement artifacts: METRICS.md

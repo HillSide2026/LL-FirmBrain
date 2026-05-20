@@ -24,11 +24,14 @@ Discover all active Levine Law projects, read their artifacts, assess compliance
 
 Use Glob to find all `PROJECT_CHARTER.md` files under `04_INITIATIVES/LL_PORTFOLIO/`.
 
-For each found charter, read it. Check the `Project Type:` field. Only process projects with type: `Strategic Project`, `Management Project`, or `Operational Project`. Skip `Client Matter` and any unrecognized types.
+For each found charter, read it. Check the `Project Type:` field. Only process
+projects with type: `Strategic Project`, `Management Project`,
+`Operational Project`, or `Decision Project`. Skip `Client Matter` and any
+unrecognized types.
 
 For each governed project, collect:
 - Project folder path (parent of PROJECT_CHARTER.md)
-- Project ID (folder path relative to LL_PORTFOLIO/)
+- Project ID and folder name (these should match)
 - All .md filenames present in that folder (for artifact gap checks)
 
 ---
@@ -39,20 +42,22 @@ For each governed project, read these files if present:
 - `PROJECT_CHARTER.md` — understand what the project is, its objectives, owner
 - `APPROVAL_RECORD.md` — extract the recorded Stage field; confirm ML1 approval is recorded
 - `PROBLEM_STATEMENT.md`, `SUCCESS_CRITERIA.md`, `STAKEHOLDERS.md`, `RISK_SCAN.md` — scan for completeness (not just existence — are they filled in or placeholders?)
-- `WORKPLAN.md` — does it have a milestone schedule and resource plan sections?
+- `PROJECT_PLAN.md` or legacy `WORKPLAN.md` — does it have a milestone
+  schedule and resource plan sections?
 - `DEPENDENCIES.md` — any cross-project blocking dependencies called out?
-- `METRICS.md` or `ML1_METRIC_APPROVAL.md` — is measurement architecture in place?
+- `METRICS.md` — is measurement architecture in place?
 - `EXECUTION_LOG.md`, `ISSUE_LOG.md`, `DECISION_LOG.md` — for executing-stage projects, are logs active?
 
-**Determine stage** by reading APPROVAL_RECORD.md first (authoritative). If no APPROVAL_RECORD, infer from which artifact sets are present:
-- Stage 5 (Closing): any of DELIVERABLE_ACCEPTANCE.md, LESSONS_LEARNED.md, FINAL_STATUS_REPORT.md
-- Stage 4 (Monitoring): any of STATUS_REPORT.md, KPI_DASHBOARD.md, VARIANCE_REPORT.md
-- Stage 3 (Executing): any of EXECUTION_LOG.md, DECISION_LOG.md, CHANGE_LOG.md, ISSUE_LOG.md
-- Stage 2 (Planning): any of SCOPE_DEFINITION.md, WORKPLAN.md, RISK_REGISTER.md, METRICS.md
+**Determine stage** by reading APPROVAL_RECORD.md first (authoritative). If no
+APPROVAL_RECORD, infer from which artifact sets are present:
+- Stage 4 (Closing): any of DELIVERABLE_ACCEPTANCE.md, LESSONS_LEARNED.md, FINAL_STATUS_REPORT.md
+- Stage 3 (Executing): any of EXECUTION_LOG.md, DECISION_LOG.md, CHANGE_LOG.md, ISSUE_LOG.md, STATUS_REPORT.md, KPI_DASHBOARD.md, VARIANCE_REPORT.md
+- Stage 2 (Planning): any of SCOPE_STATEMENT.md, DECISION_FRAME.md, PROJECT_PLAN.md, legacy WORKPLAN.md, RISK_REGISTER.md, METRICS.md
 - Stage 1 (Initiating): any of PROJECT_CHARTER.md, PROBLEM_STATEMENT.md, RISK_SCAN.md
 - Stage 0: no recognizable artifacts
 
 **Determine health:**
+- `non-conformant`: duplicate project ID, Project ID does not match folder name, deprecated stage labels/directories are being used, retired PM artifacts remain authoritative, or the packet is explicitly read-only / not yet reviewed
 - `at-risk`: missing Stage 1 artifacts, OR missing APPROVAL_RECORD.md, OR Stage 1 artifacts are clearly placeholder/empty
 - `watch`: has initiation artifacts and approval but Stage 2 artifacts are incomplete for its stage
 - `on-track`: artifacts complete and appropriate for stage, approvals present
@@ -90,7 +95,7 @@ Use this schema exactly:
 
 **Stage:** <Initiating / Planning / Executing / Closing / Unstaged>
 **Stage source:** <approval_record / inferred from artifacts>
-**Health:** <on-track / watch / at-risk>
+**Health:** <on-track / watch / at-risk / non-conformant>
 **Project type:** <Strategic / Management / Operational>
 
 **What this project is:** <1–2 sentence plain-language summary of the project's purpose, drawn from PROJECT_CHARTER.md>
@@ -101,7 +106,7 @@ Use this schema exactly:
 **Blockers for ML1:**
 - <list specific things blocking advancement, or "None">
 
-**Approval status:** <APPROVAL_RECORD.md present: yes/no | ML1 metric approval: yes/no/not yet required>
+**Approval status:** <APPROVAL_RECORD.md present: yes/no | ML1 threshold approval in METRICS.md: yes/no/not yet required>
 
 **Recommended ML1 action:** <one sentence — what ML1 should do next for this project>
 
@@ -129,21 +134,21 @@ Do not advance a project gate without explicit ML1 approval.
 PROJECT_CHARTER.md, PROBLEM_STATEMENT.md, SUCCESS_CRITERIA.md, STAKEHOLDERS.md, RISK_SCAN.md, APPROVAL_RECORD.md
 
 **Stage 2 — Planning (in addition to Stage 1):**
-SCOPE_DEFINITION.md, WORKPLAN.md, ASSUMPTIONS_CONSTRAINTS.md, DEPENDENCIES.md, RISK_REGISTER.md, COMMUNICATION_PLAN.md, METRICS.md (or separate measurement artifacts)
+Strategic/Management: SCOPE_STATEMENT.md, PROJECT_PLAN.md, ASSUMPTIONS_CONSTRAINTS.md, DEPENDENCIES.md, RISK_REGISTER.md, COMMUNICATION_PLAN.md, METRICS.md
+Operational: SCOPE_STATEMENT.md, PROJECT_PLAN.md, DEPENDENCIES.md, RISK_REGISTER.md, METRICS.md
+Decision: DECISION_FRAME.md, PROJECT_PLAN.md, ASSUMPTIONS_CONSTRAINTS.md, DEPENDENCIES.md, RISK_REGISTER.md, METRICS.md
 
 **Stage 3 — Executing (in addition to Stage 2):**
-EXECUTION_LOG.md, DECISION_LOG.md, CHANGE_LOG.md, ISSUE_LOG.md, DELIVERABLES_TRACKER.md, QA_CHECKLIST.md
+EXECUTION_LOG.md, DECISION_LOG.md, CHANGE_LOG.md, ISSUE_LOG.md, DELIVERABLES_TRACKER.md, QA_CHECKLIST.md, STATUS_REPORT.md, KPI_DASHBOARD.md, VARIANCE_REPORT.md, RISK_UPDATES.md, STAKEHOLDER_UPDATES.md
 
-**Stage 4 — Monitoring (in addition to Stage 3):**
-STATUS_REPORT.md, KPI_DASHBOARD.md, VARIANCE_REPORT.md, RISK_UPDATES.md, STAKEHOLDER_UPDATES.md
-
-**Stage 5 — Closing (in addition to Stage 4):**
-DELIVERABLE_ACCEPTANCE.md, LESSONS_LEARNED.md, POST_IMPLEMENTATION_REVIEW.md, FINAL_STATUS_REPORT.md, ARCHIVE_INDEX.md
+**Stage 4 — Closing (in addition to Stage 3):**
+DELIVERABLE_ACCEPTANCE.md, LESSONS_LEARNED.md, POST_EXECUTION_REVIEW.md, FINAL_STATUS_REPORT.md, ARCHIVE_INDEX.md
 
 ---
 
 ## Governing doctrine
 
-- `01_DOCTRINE/03_POLICIES/PROJECT_POLICY.md` (repo-level)
-- `01_DOCTRINE/03_POLICIES/FIRM_PROJECT_POLICY.md` (LL-specific)
+- `01_DOCTRINE/03_POLICIES/POL-055_Repository_Project_Policy.md` (repo-level)
+- `01_DOCTRINE/03_POLICIES/POL-056_Firm_Project_Policy.md` (LL-specific)
+- `01_DOCTRINE/03_POLICIES/POL-073_Project_Management_Control_Policy.md` (PM controls)
 - Stage gates are ML1-only authority. You surface gaps; you do not advance stages.
