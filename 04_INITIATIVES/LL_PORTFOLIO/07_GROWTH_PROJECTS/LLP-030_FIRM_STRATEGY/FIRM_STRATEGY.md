@@ -30,9 +30,14 @@ This shift is not complete. F01 is the current primary channel. F02 and F03 do n
 
 The medium-term planning arc is:
 
-- `2026`: prioritize F03 while keeping F02 light, and establish Levine Law as a Tier 5 emerging specialist boutique in Ontario payments-services legal work
-- `2027`: consolidate specialist authority so F03 produces repeat matters, referrals, and ongoing counsel for defined payments/MSB operators
-- `2028`: convert that authority into a larger, stronger Tier 5 specialty platform with selective leverage, documented systems, and deeper market credibility inside the same tier
+- `2026`: prioritize F03 while keeping F02 light, and establish the first evidence of a payments / fintech / financial-services specialist trajectory
+- `2027`: consolidate visible specialist authority so F03 produces repeat matters, referrals, and ongoing counsel for defined payments/MSB operators
+- `2028`: convert that authority into a stronger Tier 6 specialty platform with selective leverage, documented systems, and deeper credibility among adjacent insiders
+
+The payments market-positioning ladder is governed by
+`PAYMENTS_MARKET_LADDER_AND_GATEKEEPERS.md`. The current working view is that
+Levine Law is climbing toward Tier 5 rather than already occupying it:
+`2026` = Tier 8, `2027` = Tier 7, `2028` = Tier 6, and `2029` = Tier 5.
 
 ---
 
@@ -142,9 +147,9 @@ These horizon statements are planning targets, not approved KPI baselines
 
 | Year | Strategic posture | Market-position target | Channel objective | Operating objective |
 |---|---|---|---|---|
-| `2026` | Build the controlled platform and launch the specialty layer | Establish Levine Law as a Tier 5 emerging specialist boutique in Ontario payments-services legal work | Prioritize F03 fintech retainer pursuit while F01 funds operations and F02 remains light/referral-based | Reach and sustain `CAD 240k` annualized revenue, keep workload within ML1 capacity, and maintain margin discipline after `CAD 80,000` owner compensation |
-| `2027` | Consolidate authority and deepen the specialist book | Become a recognized specialist reference point for defined payments/MSB/RPAA/AML matters in the target market while remaining a solid Tier 5 boutique | F03 produces repeat matters, referral flow, and first ongoing specialist relationships; F02 upgrades only if evidence supports it | Formalize delivery standards, narrow the matter mix further, and activate leverage only if the bottleneck is persistent and economics justify it |
-| `2028` | Convert specialist credibility into a larger, stronger Tier 5 platform | Deepen Levine Law's specialist standing, authority, and durability inside Tier 5 | F02 and F03 are both repeatable channels; F01 is secondary or optional rather than the growth engine | Decide whether selective leverage, including a senior lawyer or partner layer, can be added without breaking capacity discipline, niche positioning, or Tier 5 focus |
+| `2026` | Build the controlled platform and launch the specialty layer | Establish the first evidence of a Tier 8 payments / fintech / financial-services specialist trajectory | Prioritize F03 fintech retainer pursuit while F01 funds operations and F02 remains light/referral-based | Reach and sustain `CAD 240k` annualized revenue, keep workload within ML1 capacity, and maintain margin discipline after `CAD 80,000` owner compensation |
+| `2027` | Consolidate authority and deepen the specialist book | Move toward Tier 7 by creating visible proof of specialist authority, defined offers, repeatable matters, and referral potential | F03 produces repeat matters, referral flow, and first ongoing specialist relationships; F02 upgrades only if evidence supports it | Formalize delivery standards, narrow the matter mix further, and activate leverage only if the bottleneck is persistent and economics justify it |
+| `2028` | Convert specialist credibility into a stronger specialty platform | Move toward Tier 6 by becoming credible to adjacent insiders while remaining below the true Tier 5 boutique threshold | F02 and F03 are both repeatable channels; F01 is secondary or optional rather than the growth engine | Decide whether selective leverage, including a senior lawyer or partner layer, can be added without breaking capacity discipline, niche positioning, or quality |
 
 **Open strategic decision — Path A vs. Path B (must be resolved by end of 2027):**
 The 2028 platform decision is not merely operational — it is an identity decision for LL. Two paths are available:
@@ -160,6 +165,20 @@ Working payments market ladder used in this strategy:
 - Tier 3: credible full-service firms with active payments/fintech teams
 - Tier 4: sector-active but less dominant firms
 - Tier 5: emerging specialist boutiques
+
+Current progression target:
+
+- `2026`: Tier 8
+- `2027`: Tier 7
+- `2028`: Tier 6
+- `2029`: Tier 5
+
+As the firm approaches Tier 5, gatekeepers become more consequential. The most
+important gatekeepers will include other lawyers, larger firms, referral
+counsel, bank and compliance professionals, accountants, investors, event
+organizers, associations, and industry media. Opportunities should be filtered
+for tier progression rather than treated as strategic simply because they offer
+visibility.
 
 ---
 
