@@ -18,6 +18,39 @@ financial frame that annual budgets are built against.
 
 ---
 
+## Relationship to Firm Strategy
+
+This plan operationalizes `LLP-030_FIRM_STRATEGY`. It does not choose the
+strategy; it tests whether the strategy is affordable, collectible,
+capacity-safe, and capable of producing firm value.
+
+The firm strategy sets the direction: move Levine Law from reactive,
+transaction-driven intake toward a controlled Tier 5 payments / fintech
+boutique with stronger recurring counsel, better matters, and less
+founder-dependent economics.
+
+Financial planning translates that direction into control gates:
+
+- collected revenue;
+- committed MRR;
+- operating reserve;
+- payment timing and collection risk;
+- matter quality;
+- capacity load;
+- owner compensation;
+- reinvestment capacity.
+
+The strategic question is whether an activity moves Levine Law up the Tier 8 to
+Tier 5 ladder. The financial-planning question is whether that movement improves
+cash, margin, durability, capacity, and enterprise value.
+
+Financial planning may therefore constrain strategy execution. A market,
+marketing, staffing, or product decision that looks strategically attractive
+still requires a financial path to better work, better economics, or stronger
+referral access.
+
+---
+
 ## Strategic Context
 
 Two practice area bets drive the financial model:
@@ -209,6 +242,6 @@ cost assumptions for 2027-2029 require annual ML1 review.
 - Annual budget (`BUDGET_YYYY.md`) governs the operating year; this document
   provides the multi-year frame
 - Rate ladder and retainer escalation may be revised only by ML1 instruction
-- Revenue ranges are best case (without leverage); base case and downside not
-  yet modeled
+- Best-case, base-case, and downside revenue ranges are planning scenarios, not
+  approved budgets or bankable forecasts
 - This document does not constitute an approved budget for any year beyond 2026

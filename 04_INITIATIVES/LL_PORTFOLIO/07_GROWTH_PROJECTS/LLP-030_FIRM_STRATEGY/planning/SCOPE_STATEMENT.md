@@ -55,8 +55,9 @@ communication loops, and gate criteria explicit.
 - matter-level intake or delivery operations
 - replacing `LLP-002` as the source of budget fact
 - replacing `17513721 Canada Inc` entity treatment with LL-only assumptions
-- treating the current `FINANCIAL_MODEL.md` stub as an approved or complete
-  decision model
+- treating the current `FINANCIAL_MODEL.md` draft authority as complete or
+  decision-useful before its open inputs are validated against accounting
+  reality
 
 ## Planning Outputs Covered By This Scope
 

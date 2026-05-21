@@ -20,14 +20,14 @@ This project has three components:
 |---|---|---|
 | **Firm Strategy** | `FIRM_STRATEGY.md` | Defines the firm's strategic direction: what it's optimizing for (margin, lifestyle, sellability, reputation, growth), positioning, ICP, service model, and 3–5 year vision |
 | **Business Plan** | `BUSINESS_PLAN.md` | Operationalizes the strategy: 2026 operating target, acquisition architecture, capacity model, staffing roadmap, and quarterly milestones |
-| **Financial Model** | `FINANCIAL_MODEL.md` | P&L projection linking marketing spend → matter volume → revenue → margin; break-even analysis; staffing cost impact by scenario |
+| **Financial Model** | `FINANCIAL_MODEL.md` | Financial authority and strategy-to-finance bridge; translates strategy into financial tests, constraints, scenarios, and decision gates, contingent on accounting reality |
 
 ## Scope
 
 ### In Scope
 - Firm Strategy: what the firm is optimizing for (explicit priority order: margin, lifestyle, revenue growth, reputation, sellability), positioning, ICP definitions, service model (preventative/fractional counsel vs. reactive), strategic exclusions, 3–5 year vision.
 - Business Plan: 2026 operating target, acquisition architecture (F01 → F02 → F03 sequencing), capacity model (ML1 ceiling + staffing trigger points), staffing roadmap (setter, associate lawyer first, senior lawyer later if justified), quarterly milestones.
-- Financial Model: P&L projection against the current 2026 operating target and reference cases (marketing spend → matter volume → revenue → margin), break-even analysis, staffing cost impact modeling.
+- Financial Model: strategy-to-finance bridge against the current 2026 operating target and reference cases, including P&L logic, break-even analysis, staffing cost impact modeling, matter-quality economics, channel economics, and accounting-reality checks.
 - Alignment of the Business Plan and Financial Model with existing LLP-002 budget assumptions and the current 2026 operating target.
 - Integration with LLP-025 (Marketing Strategy), LLP-011 (Funnel 1), LLP-012 (Funnel 2).
 

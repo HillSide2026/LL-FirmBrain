@@ -59,9 +59,9 @@ In practice, this means:
 - invoices are issued on a predictable cadence with clear narratives
 - overdue accounts are followed up promptly and consistently
 - the operating savings account meets or exceeds the annual reserve target in
-  `FIRM_ARCHITECTURE_E_MYTH.md`
+  `FIRM_ARCHITECTURE.md`
 - monthly recurring revenue is tracked against the annual minimum acceptable
-  and goal targets in `FIRM_ARCHITECTURE_E_MYTH.md`
+  and goal targets in `FIRM_ARCHITECTURE.md`
 - if committed MRR is below target, the gap must be covered by identified
   project work, WIP conversion, or a revised acquisition plan
 - work is paused, narrowed, or escalated when payment risk threatens service

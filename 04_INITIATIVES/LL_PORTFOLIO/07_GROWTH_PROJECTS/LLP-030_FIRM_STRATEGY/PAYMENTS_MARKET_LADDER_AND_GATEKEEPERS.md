@@ -16,6 +16,9 @@ It records the market-positioning insight that Levine Law is not already a
 Tier 5 payments / fintech / financial-services boutique. The firm is climbing
 toward that position.
 
+Related financial-machine note:
+`MARKET_POSITION_AND_FINANCIAL_MACHINE.md`.
+
 ---
 
 ## 1. Tier Path
@@ -132,4 +135,3 @@ Use the following questions:
 - Is this a real rung on the ladder, or expensive proximity to the ladder?
 
 The goal is not maximum exposure. The goal is tier progression.
-

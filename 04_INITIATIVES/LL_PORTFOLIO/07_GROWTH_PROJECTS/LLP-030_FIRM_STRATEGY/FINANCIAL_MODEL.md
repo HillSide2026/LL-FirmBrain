@@ -2,18 +2,76 @@
 id: llp-030_financial_model_doc
 title: Levine Law — Financial Model
 owner: ML1
-status: stub
+status: draft
 created_date: 2026-03-17
-last_updated: 2026-03-23
-tags: [llp-030, financial-model, doctrine]
+last_updated: 2026-05-20
+tags: [llp-030, financial-model, financial-authority, strategy-to-finance]
 ---
 
 # Levine Law — Financial Model
 
-**Status**: Stub — not yet drafted. Requires matter value floor and conversion rate data validation.
+## Authority
 
-This document consumes the current owner compensation target defined in
-`04_INITIATIVES/LL_PORTFOLIO/01_FINANCIAL_MANAGEMENT/LLP-002_BUDGETING/BUDGET_2026.md`.
+`FINANCIAL_MODEL.md` is the financial authority for `LLP-030_FIRM_STRATEGY`.
+
+It is the strategy-to-finance bridge. It translates the firm's strategic
+choices into financial tests, constraints, scenarios, and decision gates.
+
+This authority is contingent on accounting reality. The financial model must be
+adjusted when accounting facts, collections, WIP, AR, entity treatment,
+payment timing, matter economics, or capacity evidence show that an assumption
+is wrong or incomplete.
+
+The model may guide strategic and operating judgment, but it does not override:
+
+- accounting actuals;
+- trust and operating-cash treatment;
+- collected cash;
+- ML1 approval;
+- professional obligations;
+- `LLP-002_BUDGETING` annual budget control.
+
+## Current Status
+
+Status: draft financial authority, not yet fully decision-useful.
+
+The model is authoritative as the financial bridge for LLP-030, but several
+inputs still require validation before the model can be treated as complete:
+
+- average matter value by channel and service type;
+- lead-to-consult and consult-to-retained conversion rates;
+- contribution margin by matter type;
+- leverage economics for setter, associate, or second fee earner;
+- Andersen cross-entity crediting and reconciliation method.
+
+## Relationship to Financial Management
+
+This document consumes the current owner compensation target and approved
+budget-control assumptions defined in
+`04_INITIATIVES/LL_PORTFOLIO/01_FINANCIAL_MANAGEMENT/LLP-002_BUDGETING/`.
+
+`LLP-002_BUDGETING` answers whether annual revenue, spend, margin, and control
+targets are approved for the operating year.
+
+`FINANCIAL_MODEL.md` answers whether the strategy works financially:
+
+- whether the market-position strategy converts into cash, margin, and
+  enterprise value;
+- whether matter quality is improving;
+- whether channel economics justify continued investment;
+- whether recurring revenue is real, committed, and collectible;
+- whether staffing or leverage can be supported;
+- whether the Tier 8 to Tier 5 climb is producing better financial structure,
+  not merely visibility.
+
+## Accounting-Reality Rule
+
+Financial-model assumptions must be reconciled against accounting reality.
+
+If actual collections, WIP conversion, AR aging, trust-transfer timing, channel
+performance, matter value, or cross-entity receipts differ from the model, the
+model must change. The model cannot preserve a strategic story by ignoring the
+money facts.
 
 Operational Andersen matters are tracked inside Levine Law because they follow
 the same time-for-money model. In the 2026 operating picture, the Andersen
@@ -33,13 +91,18 @@ appears to have significantly exceeded `F01` spend. The strategic issue with
 more reactive, lower-fit, and less controllable demand than the desired future
 mix.
 
-This document will contain a P&L projection linking:
+## Core Model Logic
+
+This document models the path from:
+
+**Market position → channel activity → matter quality → revenue → cash →
+margin → reserves → capacity → enterprise value**
+
+It also contains the narrower P&L logic linking:
 
 **Marketing spend → matter volume → revenue → margin**
 
-## Planned Structure
-
-### 1. Input Assumptions
+## Input Assumptions
 
 | Input | Current Value | Source | Validated? |
 |---|---|---|---|
@@ -55,7 +118,7 @@ This document will contain a P&L projection linking:
 | Overhead | $40,000–$50,000/year | Budget Scenario 1 | Yes |
 | Andersen operating credit | Included in Levine Law operating picture; cash lands in `17513721 Canada Inc` | Cross-entity rule | Partially — crediting direction is set, reconciliation method still needs to be locked |
 
-### 2. P&L Projection by Target / Reference Case
+## P&L Projection by Target / Reference Case
 
 Reference cases for planning:
 
@@ -64,17 +127,19 @@ Reference cases for planning:
 | Reference floor | $200,000 | TBD | $80,000 | $40–50k | TBD |
 | Current operating target | $240,000 | TBD | $80,000 | TBD | TBD |
 
-### 3. Staffing Impact Model
+## Staffing Impact Model
 
 | Addition | Annual Cost (Est.) | Revenue Required to Absorb | Capacity Unlocked |
 |---|---|---|---|
 | Setter | TBD | TBD | Frees ML1 from intake; improves lead → consult conversion |
 | Senior Lawyer (delivery) | TBD | TBD | Extends matter delivery capacity; enables volume growth |
 
-### 4. Break-Even Analysis
+## Break-Even Analysis
 
 *To be completed with ML1 input on matter value floor.*
 
 ---
 
-*This document is a planned output of LLP-030 Planning stage. Key open items before this can be drafted: (1) ML1 defines matter value floor; (2) 30-day data validation of conversion rates; (3) F02 Health Check price confirmed.*
+Key open items before this model is fully decision-useful: (1) validate average
+matter value by channel; (2) validate conversion rates with actual data; (3)
+lock Andersen cross-entity reconciliation; (4) quantify leverage economics.

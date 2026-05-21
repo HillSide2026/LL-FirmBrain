@@ -1,11 +1,11 @@
 ---
-id: llp-030_firm_architecture_e_myth
+id: llp-030_firm_architecture
 title: Levine Law - Firm Architecture
 owner: ML1
 status: draft
 created_date: 2026-05-19
 last_updated: 2026-05-19
-tags: [llp-030, firm-strategy, e-myth, architecture, operating-model]
+tags: [llp-030, firm-strategy, architecture, operating-model]
 ---
 
 # Levine Law - Firm Architecture
@@ -47,10 +47,11 @@ Each year describes the firm the system is trying to build toward.
 
 ### Vision: 2026
 
-Levine Law builds the controlled platform and launches the specialty layer.
+Levine Law is a Tier 8 firm in the payments / fintech / financial-services
+market.
 
-By the end of 2026, Levine Law has established itself as an emerging Tier 5
-specialist boutique in Ontario payments-services legal work. F01 continues to
+By the end of 2026, Levine Law has capability, live exposure, and a serious
+specialist hypothesis, but not meaningful market recognition. F01 continues to
 fund operations, F03 becomes the primary specialist growth hypothesis, and F02
 remains a light referral or intake channel unless the evidence shows better
 economics.
@@ -62,12 +63,13 @@ MSB, AML, and corporate-governance work.
 
 ### Vision: 2027
 
-Levine Law consolidates specialist authority and deepens the specialist book.
+Levine Law moves toward Tier 7 by creating visible proof of specialist
+authority.
 
-By the end of 2027, the firm is a recognized reference point for defined
-payments/MSB/RPAA/AML matters while remaining a disciplined Tier 5 boutique.
-F03 produces repeat matters, referral flow, and the first durable ongoing
-specialist counsel relationships.
+By the end of 2027, the firm has more visible evidence of payments, MSB, RPAA,
+AML, and fintech competence: defined offers, public content, early speaking,
+repeatable matters, and stronger referral signals. F03 produces repeat matters,
+referral flow, and the first durable ongoing specialist counsel relationships.
 
 The firm narrows the matter mix, formalizes delivery standards, and activates
 leverage only if the bottleneck is persistent and the economics justify it.
@@ -75,22 +77,23 @@ Quality, client fit, and capacity discipline remain more important than volume.
 
 ### Vision: 2028
 
-Levine Law converts specialist credibility into a larger, stronger Tier 5
-platform.
+Levine Law moves toward Tier 6 by becoming credible to adjacent insiders.
 
 By the end of 2028, F02 and F03 are both repeatable channels, F01 is secondary
-or optional, and the firm has deeper authority inside its niche. The practice
-has documented systems, standardized solutions, and enough delivery maturity to
-decide whether selective leverage can be added without breaking capacity
-discipline, niche positioning, or quality.
+or optional, and the firm can win or retain more serious specialist work
+without pretending it has already reached Tier 5. The practice has documented
+systems, standardized solutions, and enough delivery maturity to decide whether
+selective leverage can be added without breaking capacity discipline, niche
+positioning, or quality.
 
 This is the year the firm resolves the identity question: controlled boutique
 or early platform.
 
 ### Vision: 2029
 
-Levine Law becomes a systematized specialist firm with client relationships
-that are no longer entirely Matthew-personal.
+Levine Law reaches Tier 5: an emerging specialist boutique in defined payments
+and fintech work, supported by corporate law and adjacent lending, AML/ATF, and
+sanctions capability.
 
 By the end of 2029, the firm has a functioning delivery spine, a clearer
 subscription base, stronger client renewal patterns, and enough management
@@ -104,9 +107,9 @@ delivery, and calm execution.
 
 ### Vision: 2030
 
-Levine Law is a respected Tier 5 fintech corporate law boutique known for
-subscription-based corporate and regulatory solutions, trusted long-term client
-relationships, and practical digital tools.
+Levine Law becomes a stronger and more durable Tier 5 payments and fintech
+corporate law boutique known for subscription-based corporate and regulatory
+solutions, trusted long-term client relationships, and practical digital tools.
 
 The firm is recognized by serious fintech operators, entrepreneurs, executives,
 investors, and adjacent advisors as a quality boutique offering Bay Street
@@ -150,6 +153,12 @@ Levine Law creates value by:
   personality-dependent improvisation
 - protecting client confidence while helping them grow, transact, finance,
   comply, and scale
+
+Practice focus hierarchy:
+
+- **Primary:** payments and fintech
+- **Secondary:** corporate
+- **Tertiary:** lending, AML/ATF, and sanctions
 
 ---
 
@@ -208,6 +217,8 @@ Initial regulatory solution architecture includes:
 - RPAA toolkit
 - CARF toolkit
 - AML health check
+- AML/ATF and sanctions triage
+- lending regulatory-readiness engagements
 - payments/MSB regulatory-readiness engagements
 - subscription-based corporate and regulatory counsel
 

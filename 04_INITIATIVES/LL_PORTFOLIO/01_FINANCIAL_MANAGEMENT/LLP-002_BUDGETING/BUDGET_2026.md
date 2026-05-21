@@ -5,11 +5,7 @@ owner: ML1
 status: draft
 created_date: 2025-11-25
 last_updated: 2026-05-13
-<<<<<<< HEAD
 source: 2026 LAWCORP BUDGET Scenario 1 and Dec. 2025 / Jan. 2026 Joy Ong budgeting emails
-=======
-source: 2026 LAWCORP BUDGET Scenario 1 and Dec. 2025 / Jan. 2026 Joy Ong budgeting emails
->>>>>>> 1db9e7c4 (Clarify LL accounting and finance architecture)
 tags: [budget, financial, 2026]
 ---
 

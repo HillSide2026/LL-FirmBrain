@@ -44,8 +44,8 @@ Stage: `Planning`
    `LLP-033`; those packets must be aligned through explicit review.
 5. LLP-030 cannot assume Andersen cash and Andersen operating credit are the
    same thing; the cross-entity treatment must remain explicit.
-6. LLP-030 cannot treat the current `FINANCIAL_MODEL.md` stub as solved merely
-   because revenue targets exist in the business plan.
+6. LLP-030 cannot treat the current `FINANCIAL_MODEL.md` draft authority as
+   complete merely because revenue targets exist in the business plan.
 7. Hiring logic in LLP-030 must remain subordinate to the current `2026`
    no-core-hire posture unless ML1 changes that posture.
 
