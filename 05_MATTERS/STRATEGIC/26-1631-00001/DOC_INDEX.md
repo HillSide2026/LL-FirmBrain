@@ -1,6 +1,6 @@
 # Document Index — 26-1631-00001
 
-Generated at: 2026-03-28T00:00:00Z
+Generated at: 2026-05-21T12:35:32Z
 Connector source: `repo:09_INBOX/_sources/sharepoint/metadata/legalmatters_library`
 
 ## Summary
@@ -10,4 +10,3 @@ Connector source: `repo:09_INBOX/_sources/sharepoint/metadata/legalmatters_libra
 - Matter source pointer: repo://05_MATTERS/STRATEGIC/26-1631-00001/MATTER.yaml
 
 No SharePoint items mapped to this matter in current snapshot.
-

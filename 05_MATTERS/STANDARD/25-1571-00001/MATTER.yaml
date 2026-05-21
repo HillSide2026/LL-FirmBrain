@@ -6,6 +6,9 @@ fulfillment_status: "active"
 created_date: "2025-10-28"
 practice_area: "franchise_dispute"
 notes: "Being paused"
+services:
+  - service_type: "strategy"
+    service_name: "Franchisee extraction"
 
 client:
   company: "Kishmish Inc."

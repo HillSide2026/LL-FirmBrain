@@ -99,7 +99,7 @@ def load_matter(matter_path: Path) -> dict:
 def find_all_matters() -> list:
     """Find all matter directories."""
     matters = []
-    for delivery_folder in ['ESSENTIAL', 'STRATEGIC', 'STANDARD', 'PARKED']:
+    for delivery_folder in ['ESSENTIAL', 'STRATEGIC', 'STANDARD', 'NORMAL', 'PARKED']:
         folder = MATTERS_ROOT / delivery_folder
         if folder.exists():
             for item in folder.iterdir():
@@ -126,7 +126,7 @@ def generate_index(matters: list) -> str:
         by_status[status].append(m)
 
     # Status order
-    status_order = ['Essential', 'Strategic', 'Standard', 'Parked']
+    status_order = ['Essential', 'Strategic', 'Standard', 'normal', 'Parked']
 
     for status in status_order:
         status_matters = by_status.get(status, [])

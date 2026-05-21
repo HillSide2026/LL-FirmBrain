@@ -34,7 +34,7 @@ REQUIRED_FIELDS = {
 }
 
 STATUS_VALUES = ['Open', 'Pending', 'Closed']
-DELIVERY_STATUS_VALUES = ['Essential', 'Strategic', 'Standard', 'Parked']
+DELIVERY_STATUS_VALUES = ['Essential', 'Strategic', 'Standard', 'normal', 'Parked']
 FULFILLMENT_STATUS_VALUES = ['urgent', 'active', 'closing', 'keep in view', 'inactive']
 SERVICE_TYPE_VALUES = ['solution', 'strategy']
 LEGACY_SERVICE_FIELDS = {'solutions': 'solution', 'strategies': 'strategy'}
@@ -211,7 +211,7 @@ def validate_matter(matter_path: Path) -> dict:
 def find_all_matters() -> list:
     """Find all matter directories."""
     matters = []
-    for delivery_folder in ['ESSENTIAL', 'STRATEGIC', 'STANDARD', 'PARKED']:
+    for delivery_folder in ['ESSENTIAL', 'STRATEGIC', 'STANDARD', 'NORMAL', 'PARKED']:
         folder = MATTERS_ROOT / delivery_folder
         if folder.exists():
             for item in folder.iterdir():

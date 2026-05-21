@@ -5,3 +5,10 @@ delivery_status: "Standard"
 fulfillment_status: "active"
 non_billable: true
 created_date: "2025-01-01"
+services:
+  - service_type: "strategy"
+    service_name: "Sale of Yellowbricks"
+  - service_type: "strategy"
+    service_name: "Sale of 174"
+  - service_type: "strategy"
+    service_name: "Negotiation and closing of Andersen matter for 175"

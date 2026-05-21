@@ -67,7 +67,7 @@ INBOX_UNMAPPED_PATH = DASHBOARD_DIR / "INBOX_UNMAPPED.md"
 MATTER_DIGEST_PATH = DASHBOARD_DIR / "MATTER_DIGEST.md"
 SHAREPOINT_GAPS_PATH = DASHBOARD_DIR / "SHAREPOINT_GAPS.md"
 
-MATTER_TIERS = ("ESSENTIAL", "STRATEGIC", "STANDARD", "PARKED")
+MATTER_TIERS = ("ESSENTIAL", "STRATEGIC", "STANDARD", "NORMAL", "PARKED")
 CANONICAL_STATE_LABELS = (
     "00_Triage",
     "10_Action_Matthew",
@@ -1390,6 +1390,40 @@ def load_clio_matters(clio_cache_path: Path, write_cache: bool, delivery_taxonom
                 ],
             }
             write_json(clio_cache_path, payload)
+
+    # Clio/cache records are not always complete and may retain stale matter
+    # numbers. Keep the dashboard inventory aligned to local MATTER.yaml files.
+    if local_overlay:
+        matters = [matter for matter in matters if matter.matter_number in local_overlay]
+
+    # Treat local MATTER.yaml files as additive fallback records so dashboards
+    # remain repo-complete.
+    cached_numbers = {matter.matter_number for matter in matters}
+    added_local = 0
+    for matter_number, overlay in sorted(local_overlay.items()):
+        if matter_number in cached_numbers:
+            continue
+        normalized = normalize_matter_record(
+            {
+                "matter_number": matter_number,
+                "clio_matter_id": matter_number,
+                "name": overlay.get("name"),
+                "status": overlay.get("status"),
+                "delivery_status": overlay.get("delivery_status"),
+                "fulfillment_status": overlay.get("fulfillment_status"),
+                "services": overlay.get("services"),
+                "client": overlay.get("client"),
+                "source_pointer": overlay.get("source_pointer"),
+            },
+            str(overlay.get("source_pointer") or f"repo://05_MATTERS/{matter_number}/MATTER.yaml"),
+            delivery_taxonomy,
+        )
+        if normalized:
+            matters.append(normalized)
+            added_local += 1
+
+    if added_local:
+        source = f"{source} + repo_fallback:05_MATTERS"
 
     # Deduplicate by matter_number deterministically.
     deduped: Dict[str, MatterRef] = {}

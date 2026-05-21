@@ -4,3 +4,7 @@ status: "Open"
 delivery_status: "Standard"
 fulfillment_status: "active"
 created_date: "2026-01-01"
+services:
+  - service_type: "solution"
+    service_name: "Lead management"
+    status: "non-billable"
