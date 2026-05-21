@@ -48,8 +48,10 @@ can be added profitably.
 **Current 2026 Operating Target: $240K**
 
 **Current 2026 Specialty Positioning Target:** launch F02 and F03 and
-establish Levine Law as a Tier 5 emerging specialist boutique in Ontario
-payments-services legal work
+establish the first evidence of a Tier 8 payments / fintech /
+financial-services specialist trajectory. The 2026 objective is not to claim
+Tier 5 status; it is to create the proof base needed to move toward Tier 7 in
+2027.
 
 **Current 2026 Core Offer Stack:** Corporate Health Check first, blended
 fractional counsel second. Fractional counsel is industry-agnostic in the
@@ -76,9 +78,10 @@ include bounded regulatory review where the client's facts require it.
 
 | Year | Core question | Channel state | Payments-position objective | Staffing posture |
 |---|---|---|---|---|
-| `2026` | Can Levine Law launch F02 and F03 without destabilizing the core business? | F01 funds operations; F02 launches; F03 activates in early authority form | Reach Tier 5 emerging specialist standing in Ontario payments-services work | No core hires; only contractors and preparatory role definitions |
-| `2027` | Can the firm convert early authority into repeat specialist work and referrals? | F02 becomes the primary core-business engine; F03 becomes a functioning specialist channel | Become a recognized niche reference point for payments/MSB/RPAA/AML matters while remaining a solid Tier 5 boutique | Add leverage only if intake or delivery constraint is persistent and economically justified |
-| `2028` | Can the specialty platform support selective leverage without losing control? | F02 and F03 are repeatable; F01 is secondary or optional | Grow bigger and stronger inside Tier 5 with deeper authority and a more durable niche position | Decide whether an associate-lawyer delivery layer, and later any senior-lawyer or partner layer, should be activated while preserving Tier 5 focus |
+| `2026` | Can Levine Law launch F02 and F03 without destabilizing the core business? | F01 funds operations; F02 launches; F03 activates in early authority form | Tier 8: establish capability, live exposure, and first visible proof in payments / fintech / financial-services work | No core hires; only contractors and preparatory role definitions |
+| `2027` | Can the firm convert early authority into repeat specialist work and referrals? | F02 becomes the primary core-business engine; F03 becomes a functioning specialist channel | Tier 7: become a visible, credible niche reference point for payments/MSB/RPAA/AML matters | Add leverage only if intake or delivery constraint is persistent and economically justified |
+| `2028` | Can the specialty platform support selective leverage without losing control? | F02 and F03 are repeatable; F01 is secondary or optional | Tier 6: become credible to adjacent insiders, with stronger referral and specialist-opportunity flow | Decide whether an associate-lawyer delivery layer, and later any senior-lawyer or partner layer, should be activated while preserving specialist focus |
+| `2029` | Can the firm become a true specialist boutique without losing discipline? | Specialist and corporate channels produce better scoped matters, repeat work, and referrals | Tier 5: emerging specialist boutique in payments / fintech supported by corporate, lending, AML/ATF, and sanctions | Add leverage only where quality, supervision, margin, and recurring revenue justify it |
 
 ---
 
@@ -134,10 +137,11 @@ Three-tier fixed-fee diagnostic offer. ICP-01 qualified leads only; intake gate 
 - Longer build time; Blog/SEO engine does not activate until Health Check landing page is live
 
 **Role**: Vertical growth channel; authority-driven, longer conversion cycle;
-the main vehicle for establishing Tier 5 payments-services positioning and for
-feeding payments-specific work into the broader ongoing counsel layer when
-appropriate. F03 remains the specialist route for deeper or standalone
-payments/MSB regulatory entry work.
+the main vehicle for moving from Tier 8 capability toward Tier 7 visible
+authority in payments / fintech / financial-services work. F03 feeds
+payments-specific work into the broader ongoing counsel layer when appropriate
+and remains the specialist route for deeper or standalone payments/MSB
+regulatory entry work.
 
 **Contribution target**
 - Q3: 10–20% (early)
@@ -218,7 +222,8 @@ Permitted support: ad hoc contractors (admin, formatting, filings). No fixed emp
 - Launch F02 (Health Check offer + accountant referral outreach)
 - Standardize templates and workflows
 - Improve conversion consistency
-- Define the initial proof set for Tier 5 payments-services positioning
+- Define the initial proof set for Tier 8 to Tier 7 payments / fintech
+  positioning
 - Target: $15K–$18K/month exit
 
 **Q3 — Stabilization**
@@ -232,7 +237,8 @@ Permitted support: ad hoc contractors (admin, formatting, filings). No fixed emp
 - Achieve consistent run rate
 - Identify repeatable matter types
 - Prepare 2027 scale architecture
-- Confirm whether Levine Law has achieved practical Tier 5 footing in Ontario payments-services work
+- Confirm whether Levine Law has the proof base needed to move from Tier 8
+  toward Tier 7 in payments / fintech / financial-services work
 - Target: $22K–$25K/month sustained
 
 ---
@@ -319,7 +325,8 @@ Levine Law is not built as a traditional law firm. It is a controlled production
 - Defined acquisition channels with F02 operational and F03 live
 - Documented workflows and templates
 - Clear capacity ceiling established for ML1
-- Practical Tier 5 footing in Ontario payments-services positioning
+- Tier 8 payments / fintech position with live exposure, defined proof assets,
+  and a credible path toward Tier 7
 - No operational chaos or backlog
 
 ### End of 2027
@@ -332,5 +339,6 @@ Levine Law is not built as a traditional law firm. It is a controlled production
 ### End of 2028
 
 - Levine Law operates as a partner-ready specialty platform rather than a pure solo practice
-- Payments positioning is stronger, deeper, and more durable within Tier 5
+- Payments positioning is stronger, deeper, and credible to adjacent insiders
+  as a Tier 6 specialist platform moving toward Tier 5
 - Any associate-lawyer, senior-lawyer, or partner layer is justified by throughput, supervision readiness, and niche economics rather than by ambition alone
