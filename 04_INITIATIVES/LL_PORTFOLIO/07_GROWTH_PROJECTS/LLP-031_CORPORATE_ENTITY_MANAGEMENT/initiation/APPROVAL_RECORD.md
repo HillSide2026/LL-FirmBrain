@@ -2,9 +2,9 @@
 id: 04_initiatives_ll_portfolio_07_growth_projects_llp_031_corporate_entity_management_initiation_approval_record_md
 title: Approval Record
 owner: ML1
-status: draft
+status: approved
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-23
 tags: []
 ---
 
@@ -16,14 +16,14 @@ Stage: Initiating
 
 Project Name: Corporate Entity Management
 
-Status: Draft — initiation packet prepared; ML1 review pending
+Status: Approved — Initiating → Planning gate closed by ML1 on 2026-05-23.
 
 ## Current State
 
-- project is now framed as a build-vs-buy capability decision
-- initiation artifacts are drafted
-- no ML1 initiation approval is recorded yet
-- planning is not yet authorized
+- project framed as a build-vs-buy capability decision
+- initiation artifacts complete
+- ML1 initiation approval recorded 2026-05-23
+- planning stage authorized
 
 ## Initiation Checklist
 
@@ -42,12 +42,13 @@ Status: Draft — initiation packet prepared; ML1 review pending
 | Date | Decision | Authority | Notes |
 |------|----------|-----------|-------|
 | 2026-03-23 | Initiation packet drafted | ML2 | Prepared for ML1 review; no stage advancement recorded |
+| 2026-05-23 | Initiating → Planning gate approved | ML1 | Planning stage authorized |
 
-Initiation Approved By: Not yet approved
-Date: —
+Initiation Approved By: ML1
+Date: 2026-05-23
 
-Planning Stage Authorized: No
+Planning Stage Authorized: Yes
 
 Notes:
-- ML1 must explicitly approve the Initiating -> Planning gate before any
-  planning-stage artifacts are treated as active.
+- Planning-stage artifacts may now be created and treated as active.
+- No execution without separate Planning → Executing gate approval.

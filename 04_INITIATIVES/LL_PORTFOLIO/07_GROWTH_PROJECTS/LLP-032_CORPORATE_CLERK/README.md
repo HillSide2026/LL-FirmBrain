@@ -2,9 +2,9 @@
 id: 04_initiatives__ll_portfolio__07_strategic_projects__llp_032_corporate_clerk__readme_md
 title: LLP-032 — Corporate Clerk
 owner: ML1
-status: draft
+status: planning
 created_date: 2026-02-26
-last_updated: 2026-03-23
+last_updated: 2026-05-23
 tags: [corporate-clerk, strategic-project]
 ---
 

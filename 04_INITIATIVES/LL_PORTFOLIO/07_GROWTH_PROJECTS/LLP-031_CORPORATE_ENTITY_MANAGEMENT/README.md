@@ -2,9 +2,9 @@
 id: 04_initiatives__ll_portfolio__07_strategic_projects__llp_031_corporate_entity_management__readme_md
 title: LLP-031 — Corporate Entity Management
 owner: ML1
-status: draft
+status: planning
 created_date: 2026-02-26
-last_updated: 2026-03-23
+last_updated: 2026-05-23
 tags: [corporate-entity-management, strategic-project]
 ---
 

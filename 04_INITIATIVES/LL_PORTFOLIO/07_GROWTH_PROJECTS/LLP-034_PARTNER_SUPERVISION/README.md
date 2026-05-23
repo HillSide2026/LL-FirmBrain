@@ -2,9 +2,9 @@
 id: 04_initiatives__ll_portfolio__07_strategic_projects__llp_034_partner_supervision__readme_md
 title: LLP-034 — Partner Supervision
 owner: ML1
-status: draft
+status: planning
 created_date: 2026-02-26
-last_updated: 2026-03-23
+last_updated: 2026-05-23
 tags: [partner-supervision, strategic-project]
 ---
 

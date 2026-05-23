@@ -4,7 +4,7 @@ title: LLP-038 — Delivery Spine
 owner: ML1
 status: planning
 created_date: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-05-23
 tags: [delivery-spine, operations, leverage-readiness, associate, firm-strategy]
 ---
 
