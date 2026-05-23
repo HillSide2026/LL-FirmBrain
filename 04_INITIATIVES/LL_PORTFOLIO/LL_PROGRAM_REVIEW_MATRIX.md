@@ -55,7 +55,7 @@ pointers only.
 | `05_MATTER_DOCKETING` | `05_MATTER_DOCKETING/README.md` | Is the matter-delivery overlay clear and separate from billing, intake, and accounting? | `LLP-003`, `LLP-009`, `LLP-010`, `PROJECT_HEALTH_ROLLUP.md` |
 | `07_GROWTH_PROJECTS` | `07_GROWTH_PROJECTS/README.md` | Which growth projects are real near-term operating bets versus placeholder future-state slots? | `LLP-023`, `LLP-024`, `LLP-030`, `LLP-031`, `LLP-032`, `LLP-033`, `LLP-034` |
 | `08_MARKETING` | `08_MARKETING/README.md` | Is the pre-matter pipeline sequencing coherent from funnel through intake handoff? | `LLP-011` to `LLP-029`, `PORTFOLIO_STATUS_DASHBOARD.md`, `ML1_DECISION_QUEUE.md` |
-| `09_SERVICE_MANAGEMENT` | `09_SERVICE_MANAGEMENT/README.md` | Is the service-tier cluster substantive enough to justify remaining active as separate packets? | `LLP-037` to `LLP-041`, `PROJECT_HEALTH_ROLLUP.md`, `GOVERNANCE_COMPLIANCE_AUDIT.md` |
+| `09_SERVICE_MANAGEMENT` | `09_SERVICE_MANAGEMENT/README.md` | Is the service-tier cluster substantive enough to justify remaining active as separate packets? | `LLP-046` to `LLP-041`, `PROJECT_HEALTH_ROLLUP.md`, `GOVERNANCE_COMPLIANCE_AUDIT.md` |
 
 ## Program-Specific Review Notes
 

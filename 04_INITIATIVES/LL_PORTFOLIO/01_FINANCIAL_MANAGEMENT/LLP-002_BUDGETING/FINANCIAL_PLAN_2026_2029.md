@@ -70,7 +70,7 @@ ongoing corporate work.
 
 ## Rate Ladder (ML1-confirmed 2026-05-19)
 
-Governing document: `LLP-039_FINTECH_RETAINER_OPERATING_MODEL/planning/RATE_POSTURE_2026_2029.md`
+Governing document: `LLP-048_FINTECH_RETAINER_OPERATING_MODEL/planning/RATE_POSTURE_2026_2029.md`
 
 | Year | Minimum | Middle | Maximum |
 |---|---:|---:|---:|

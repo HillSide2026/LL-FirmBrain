@@ -2,9 +2,9 @@
 id: llp-013_funnel3_management__readme_md
 title: LLP-013_FUNNEL3_MANAGEMENT
 owner: ML1
-status: planning
+status: active
 created_date: 2026-02-26
-last_updated: 2026-05-17
+last_updated: 2026-05-23
 tags: [marketing, funnel-03, planning]
 ---
 
@@ -139,4 +139,8 @@ F3 e-book authority asset:
   authorizes launch.
 
 ## Last ML1 Review Date
-`2026-04-03`
+`2026-05-23`
+
+## Status Notes
+
+- `2026-05-23`: ML1 confirmed active-progress. Planning → Executing gate remains open pending planning packet completion and separate gate approval.

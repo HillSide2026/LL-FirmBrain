@@ -31,8 +31,8 @@ transition pointers after consolidation into `01_FINANCIAL_MANAGEMENT`.
 The financial-management program now contains 3 governed packets, including
 the new `LLP-044_FINANCE` packet. The latest generated portfolio reports count
 43 project roots overall; that count still includes the separate
-service-management identifier issue around `LLP-037`, `LLP-038`, and
-`LLP-039`.
+service-management identifier issue around `LLP-046`, `LLP-047`, and
+`LLP-048`.
 
 ## Program Snapshot
 
@@ -119,7 +119,7 @@ portfolio mix is `29` on-track, `10` watch, and `0` at-risk.
 
 - Purpose: maintain service-tier classification and tracking across matters and services.
 - Packet count: 5 governed packets.
-- Current packet set: `LLP-037 (09_SERVICE_MANAGEMENT parent packet)`, `LLP-038 (ESSENTIAL)`, `LLP-039 (STRATEGIC)`, `LLP-040 (STANDARD)`, `LLP-041 (PARKED)`.
+- Current packet set: `LLP-046 (09_SERVICE_MANAGEMENT parent packet)`, `LLP-047 (ESSENTIAL)`, `LLP-048 (STRATEGIC)`, `LLP-040 (STANDARD)`, `LLP-041 (PARKED)`.
 - Current posture: this program is internally consistent and now uses canonical IDs across its packet set. It is still early-stage, with all packets in initiation, but the structure is coherent: one parent service-management packet plus four service-tier tracking packets.
 
 ## Overall Read
