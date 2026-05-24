@@ -8,6 +8,12 @@ approved_by: ML1
 approved_date: 2026-04-18
 project: LLP-006
 version: 0.1
+effective_date: 2026-04-18
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-04-18
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-03-28
 last_updated: 2026-03-28
 tags: [protocol, sharepoint, ll-matters, legalmatters, governance]

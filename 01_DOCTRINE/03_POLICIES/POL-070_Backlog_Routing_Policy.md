@@ -4,6 +4,12 @@ title: Backlog Routing Policy
 version: '1.0'
 status: approved
 owner: ML1
+effective_date: 2026-05-17
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-05-17
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-05-17
 last_updated: 2026-05-17
 tags: [backlog, routing, system, personal]

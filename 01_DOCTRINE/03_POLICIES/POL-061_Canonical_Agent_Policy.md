@@ -6,6 +6,12 @@ status: approved
 approved_by: ML1
 approved_date: 2026-03-23
 version: 1.0
+effective_date: 2026-03-23
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-03-23
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-02-03
 last_updated: 2026-03-23
 tags: [policy, agents, authority]

@@ -1,0 +1,32 @@
+id: 00_system__integrations__lexaro__sources_yaml
+title: Lexaro Sources
+owner: ML1
+status: draft
+version: 1.0
+created_date: 2026-05-24
+last_updated: 2026-05-24
+sources:
+  - source_id: LEXARO_EXTERNAL_API
+    description: Lexaro external API for read-only observation of matters, clients, tasks, documents, templates, clauses, reminders, and due-soon tasks.
+    location: https://app.lexaro.ca/api/external/v1/
+    authority: Lexaro API documentation and observed application routes
+    classification: intake
+    ingestion: Read via scripts/lexaro_smoke_test.py after ML1-controlled credential configuration
+    enabled: false
+    approval_required: ML1 approval before any live credentialed test
+ingestion:
+  triggers:
+    - Manual run of scripts/lexaro_smoke_test.py
+  notes:
+    - Read-only Mode 1 evaluation only.
+    - No write operations or non-GET endpoints are authorized.
+    - External API testing is blocked pending Lexaro support resolution of server-side HTTP 500 behavior.
+consumers:
+  scripts:
+    - scripts/lexaro_smoke_test.py
+  playbooks: []
+  run_graphs: []
+related_artifacts:
+  - 00_SYSTEM/integrations/lexaro/README.md
+change_notes:
+  - v1.0 2026-05-24: Source contract added for SMA-003 integration stewardship.

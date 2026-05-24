@@ -4,6 +4,12 @@ title: 'Capability Profile: Lexaro.ListTasks'
 owner: ML1
 status: draft
 version: '0.1'
+effective_date: '2026-05-12'
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: '2026-05-12'
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: '2026-05-12'
 last_updated: '2026-05-12'
 tags: [lexaro, capability, read-only, tasks]

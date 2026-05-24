@@ -3,6 +3,12 @@ id: 01_doctrine__principles__ll_brand_suite_md
 title: LL Brand Principles Suite (Consolidated)
 owner: ML1
 status: active
+effective_date: 2026-05-04
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-05-04
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-05-04
 last_updated: 2026-05-04
 tags: [principle, brand, identity, visual-identity, voice, design]

@@ -6,6 +6,12 @@ status: approved
 approved_by: ML1
 approved_date: 2026-05-19
 version: '2.0'
+effective_date: 2026-05-19
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-05-19
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-03-15
 last_updated: 2026-05-19
 tags: [doctrine, invariants, projects, structure, governance]

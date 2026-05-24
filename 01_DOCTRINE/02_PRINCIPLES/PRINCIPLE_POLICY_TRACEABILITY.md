@@ -3,6 +3,12 @@ id: 01_doctrine__principles_policy_traceability_md
 title: Principle-to-Policy Cross-Reference (Traceability Index)
 owner: ML1
 status: active
+effective_date: 2026-05-04
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-05-04
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-05-04
 last_updated: 2026-05-06
 tags: [governance, traceability, principles, policies, doctrine]

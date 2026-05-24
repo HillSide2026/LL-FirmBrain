@@ -4,6 +4,12 @@ title: Superseded System MCP Policy (v0.2)
 owner: ML1
 status: superseded
 version: 0.2
+effective_date: 2026-02-26
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-02-26
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-02-26
 last_updated: 2026-03-27
 tags: [policy, mcp, orchestrator]

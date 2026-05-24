@@ -7,6 +7,12 @@ approval: ML1
 approved_by: ML1
 approved_date: 2026-04-18
 version: 0.1
+effective_date: 2026-04-18
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-04-18
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-03-10
 last_updated: 2026-03-10
 tags: [policy, brand, templates, compliance, quality-control]

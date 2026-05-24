@@ -4,6 +4,12 @@ title: Bounded Fintech Retainer Model
 owner: ML1
 status: draft
 version: 1.1
+effective_date: 2026-05-06
+supersedes:
+provenance:
+  decided_by: ML1
+  decided_on: 2026-05-06
+  context: Metadata normalized by system admin cleanup on 2026-05-24
 created_date: 2026-05-06
 last_updated: 2026-05-10
 tags: [principle, finance, fintech, retainer, recurring-revenue, scope]

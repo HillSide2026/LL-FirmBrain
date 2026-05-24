@@ -87,12 +87,33 @@ REQUIRED_FRONTMATTER_KEYS = [
     "last_updated",
 ]
 
-CORE_STATUS_VALUES = {"draft", "proposed", "approved", "deprecated", "active"}
+CORE_STATUS_VALUES = {
+    "draft",
+    "proposed",
+    "approved",
+    "deprecated",
+    "active",
+    "superseded",
+}
 INITIATIVE_STATUS_VALUES = CORE_STATUS_VALUES | {
     "on track",
     "at risk",
     "blocked",
     "complete",
+    "closed",
+    "parked",
+    "executing",
+    "open",
+    "ready",
+    "backlog",
+    "shortlisted",
+    "working",
+    "working-draft",
+    "working-notes",
+    "audience-draft",
+    "locked",
+    "advisory",
+    "implemented",
     "planned",
     "planning",
     "initiating",
@@ -106,6 +127,7 @@ PLAYBOOK_TOP_LEVEL_DIRS = {
     "CONTRACTS",
     "CORPORATE",
     "FINANCIAL_SERVICES",
+    "TRADE_REMEDIES_MARKET_ACCESS",
     "_ASSETS",
     "_REGISTRY",
 }
@@ -426,7 +448,11 @@ def parse_playbook_index() -> Tuple[List[Dict[str, str]], str | None]:
 
 
 def normalize_status(value: str) -> str:
-    return " ".join(value.strip().lower().split())
+    normalized = " ".join(value.strip().lower().split())
+    for separator in (" — ", " – "):
+        if separator in normalized:
+            normalized = normalized.split(separator, 1)[0].strip()
+    return normalized
 
 
 def allowed_statuses_for_path(path: Path) -> set[str]:

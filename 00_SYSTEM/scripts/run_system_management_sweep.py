@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Minimal local runner for System Management Agents (SMA-001..SMA-005).
+Minimal local runner for System Management Agents (SMA-001..SMA-007).
 
 Writes artifacts to:
   06_RUNS/${run_id}/system_management/
@@ -9,6 +9,7 @@ Writes artifacts to:
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import subprocess
 from datetime import datetime, timezone
@@ -21,6 +22,10 @@ FOLDER_MAP_PATH = REPO_ROOT / "00_SYSTEM" / "architecture" / "FOLDER_MAP.md"
 BACKLOG_PATH = REPO_ROOT / "04_INITIATIVES" / "SYSTEM_PORTFOLIO" / "BACKLOG.md"
 AGENT_TYPOLOGY_PATH = REPO_ROOT / "00_SYSTEM" / "AGENTS" / "specs" / "AGENT_TYPOLOGY.md"
 INTEGRATIONS_DIR = REPO_ROOT / "00_SYSTEM" / "integrations"
+AGENTS_DIR = REPO_ROOT / "00_SYSTEM" / "AGENTS"
+MCP_CONFIG_PATH = REPO_ROOT / ".mcp.json"
+CLAUDE_DIR = REPO_ROOT / ".claude"
+RUN_GRAPHS_DIR = REPO_ROOT / "00_SYSTEM" / "orchestration" / "run_graphs"
 
 REQUIRED_SECTIONS = [
     "## Summary",
@@ -240,9 +245,43 @@ def inbox_artifacts() -> List[Tuple[str, int]]:
         rel = path.relative_to(REPO_ROOT).as_posix()
         if rel == "09_INBOX/README.md":
             continue
+        parts = rel.split("/")
+        if len(parts) > 1 and parts[1] in {"_sources", "_AGENT_OUTPUT"}:
+            continue
         age_days = int((now - datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)).days)
         artifacts.append((rel, age_days))
     return sorted(artifacts, key=lambda item: (-item[1], item[0]))
+
+
+def governed_markdown_files() -> List[Path]:
+    files: List[Path] = []
+    for root in governed_roots():
+        if root == "06_RUNS":
+            continue
+        root_path = REPO_ROOT / root
+        if not root_path.exists():
+            continue
+        files.extend(sorted(root_path.rglob("*.md")))
+    return files
+
+
+def markdown_links(content: str) -> List[str]:
+    links: List[str] = []
+    for match in re.finditer(r"(?<!!)\[[^\]]+\]\(([^)]+)\)", content):
+        target = match.group(1).strip()
+        if not target or target.startswith(("#", "http://", "https://", "mailto:")):
+            continue
+        links.append(target.split("#", 1)[0])
+    return links
+
+
+def relative_link_exists(source: Path, target: str) -> bool:
+    cleaned = target.strip().strip("<>").replace("%20", " ")
+    if not cleaned:
+        return True
+    if cleaned.startswith("/"):
+        return (REPO_ROOT / cleaned.lstrip("/")).exists()
+    return (source.parent / cleaned).resolve().exists()
 
 
 def typology_entries() -> List[Dict[str, str]]:
@@ -705,6 +744,8 @@ def sma_004_report() -> str:
         "00_SYSTEM/AGENTS/SMA-003_INTEGRATION_STEWARD.md",
         "00_SYSTEM/AGENTS/SMA-004_KNOWLEDGE_CURATION.md",
         "00_SYSTEM/AGENTS/SMA-005_RUNBOOK_QA.md",
+        "00_SYSTEM/AGENTS/SMA-006_SYSTEM_LIBRARIAN.md",
+        "00_SYSTEM/AGENTS/SMA-007_SYSTEM_CAPABILITY_AUDITOR.md",
     ]
     missing_entries = [entry for entry in required_entries if entry not in typology_content]
     invalid_status_entries = []
@@ -897,6 +938,241 @@ def sma_005_report(target_reports: List[Path]) -> str:
     )
 
 
+def sma_006_report(changed_paths: List[str]) -> str:
+    all_markdown = governed_markdown_files()
+    id_to_paths: Dict[str, List[str]] = {}
+    missing_ids: List[str] = []
+    missing_metadata: List[str] = []
+    non_ascii_names: List[str] = []
+    broken_links: List[str] = []
+
+    for path in all_markdown:
+        rel = path.relative_to(REPO_ROOT).as_posix()
+        if any(ord(ch) > 127 for ch in rel):
+            non_ascii_names.append(rel)
+        fields = parse_frontmatter_fields(path)
+        if fields is None:
+            continue
+        artifact_id = fields.get("id", "").strip()
+        if artifact_id:
+            id_to_paths.setdefault(artifact_id, []).append(rel)
+        else:
+            missing_ids.append(rel)
+
+    changed_markdown = [
+        REPO_ROOT / p
+        for p in changed_paths
+        if p.lower().endswith(".md") and top_level_root(p) in governed_roots() and (REPO_ROOT / p).exists()
+        and top_level_root(p) != "06_RUNS"
+    ]
+    for path in changed_markdown:
+        rel = path.relative_to(REPO_ROOT).as_posix()
+        fields = parse_frontmatter_fields(path)
+        if fields is None:
+            missing_metadata.append(f"{rel} -> missing frontmatter")
+            continue
+        missing = missing_frontmatter_fields(fields)
+        if missing:
+            missing_metadata.append(f"{rel} -> missing fields: {', '.join(missing)}")
+        try:
+            content = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        for target in markdown_links(content):
+            if not relative_link_exists(path, target):
+                broken_links.append(f"{rel} -> {target}")
+
+    duplicate_ids = {
+        artifact_id: paths
+        for artifact_id, paths in id_to_paths.items()
+        if len(paths) > 1
+    }
+    typology_content = AGENT_TYPOLOGY_PATH.read_text(encoding="utf-8") if AGENT_TYPOLOGY_PATH.exists() else ""
+    unregistered_sma_specs = []
+    for spec in sorted(AGENTS_DIR.glob("SMA-*.md")):
+        rel = spec.relative_to(REPO_ROOT).as_posix()
+        if rel not in typology_content:
+            unregistered_sma_specs.append(rel)
+
+    summary = [
+        f"Governed markdown files inventoried: {len(all_markdown)}.",
+        f"Changed governed markdown files checked for registration hygiene: {len(changed_markdown)}.",
+        f"Unique frontmatter IDs inventoried: {len(id_to_paths)}.",
+        f"Duplicate frontmatter IDs detected: {len(duplicate_ids)}.",
+        f"Non-ASCII governed filenames detected: {len(non_ascii_names)}.",
+    ]
+
+    findings = []
+    recommendations = []
+    actions = []
+    if duplicate_ids:
+        rendered = "; ".join(
+            f"{artifact_id} -> {', '.join(paths[:3])}" for artifact_id, paths in sorted(duplicate_ids.items())[:10]
+        )
+        findings.append(f"Duplicate frontmatter IDs require librarian resolution ({len(duplicate_ids)}): {rendered}")
+        recommendations.append("Assign stable unique IDs to duplicated artifacts before depending on automated indexing.")
+        actions.append("Resolve duplicate frontmatter IDs and re-run the librarian pass.")
+    if missing_ids:
+        findings.append(f"Governed markdown with frontmatter but no id field: {len(missing_ids)} file(s).")
+        recommendations.append("Populate missing artifact IDs in governed markdown frontmatter.")
+        actions.append("Backfill id fields for governed markdown files missing IDs.")
+    if missing_metadata:
+        findings.append(
+            f"Changed governed markdown with incomplete metadata ({len(missing_metadata)}): "
+            + "; ".join(missing_metadata[:10])
+        )
+        recommendations.append("Repair metadata on changed governed artifacts before registration.")
+        actions.append("Add required frontmatter fields to changed governed artifacts.")
+    if non_ascii_names:
+        findings.append(
+            f"Non-ASCII governed filenames detected ({len(non_ascii_names)}): "
+            + "; ".join(non_ascii_names[:10])
+        )
+        recommendations.append("Rename governed files to ASCII filenames unless a specific exception is approved.")
+        actions.append("Normalize non-ASCII governed filenames.")
+    if broken_links:
+        findings.append(
+            f"Broken relative links in changed governed markdown ({len(broken_links)}): "
+            + "; ".join(broken_links[:10])
+        )
+        recommendations.append("Repair broken local links before promoting changed artifacts.")
+        actions.append("Fix broken relative links in changed governed artifacts.")
+    if unregistered_sma_specs:
+        findings.append(f"SMA specs missing from Agent Typology: {', '.join(unregistered_sma_specs)}")
+        recommendations.append("Register every SMA spec in the Agent Typology index.")
+        actions.append("Update Agent Typology with missing SMA specs.")
+
+    evidence = [
+        "00_SYSTEM/architecture/FOLDER_MAP.md:1",
+        "00_SYSTEM/AGENTS/specs/AGENT_TYPOLOGY.md:1",
+    ]
+    assumptions = [
+        "SMA-006 performed validation only; it did not relocate artifacts or infer artifact ownership.",
+        "Broken-link checks are scoped to changed governed markdown files.",
+    ]
+
+    return render_report(
+        "System Librarian Report",
+        summary,
+        findings,
+        recommendations,
+        actions,
+        [],
+        evidence,
+        assumptions,
+    )
+
+
+def sma_007_report() -> str:
+    findings = []
+    recommendations = []
+    actions = []
+    evidence = [
+        ".mcp.json:1",
+        ".claude/:1",
+        "00_SYSTEM/orchestration/run_graphs/:1",
+        "scripts/:1",
+    ]
+
+    mcp_servers: Dict[str, Dict[str, object]] = {}
+    missing_mcp_commands: List[str] = []
+    missing_integration_specs: List[str] = []
+    if MCP_CONFIG_PATH.exists():
+        try:
+            mcp_config = json.loads(MCP_CONFIG_PATH.read_text(encoding="utf-8"))
+            raw_servers = mcp_config.get("mcpServers", {})
+            if isinstance(raw_servers, dict):
+                mcp_servers = {
+                    name: config
+                    for name, config in raw_servers.items()
+                    if isinstance(config, dict)
+                }
+        except json.JSONDecodeError:
+            findings.append(".mcp.json is not valid JSON.")
+            recommendations.append("Repair MCP configuration JSON before relying on connector automation.")
+            actions.append("Fix .mcp.json syntax and rerun capability audit.")
+    else:
+        findings.append("No .mcp.json file found for MCP server registration.")
+        recommendations.append("Create an MCP registry if MCP-backed capability is expected.")
+        actions.append("Add or document the MCP registry location.")
+
+    for server_name, config in sorted(mcp_servers.items()):
+        args = config.get("args", [])
+        if isinstance(args, list):
+            for arg in args:
+                if isinstance(arg, str) and arg.endswith(".py"):
+                    if not (REPO_ROOT / arg).exists():
+                        missing_mcp_commands.append(f"{server_name} -> {arg}")
+        integration_dir = INTEGRATIONS_DIR / server_name
+        if integration_dir.exists() and not list(integration_dir.glob("*_sources.y*ml")):
+            missing_integration_specs.append(server_name)
+
+    claude_agent_count = len(list((CLAUDE_DIR / "agents").glob("*.md"))) if (CLAUDE_DIR / "agents").exists() else 0
+    claude_command_count = len(list((CLAUDE_DIR / "commands").glob("*.md"))) if (CLAUDE_DIR / "commands").exists() else 0
+    missing_capability_dirs = []
+    for required in ("agents", "commands", "hooks"):
+        if not (CLAUDE_DIR / required).exists():
+            missing_capability_dirs.append(f".claude/{required}")
+    missing_capability_files = []
+    for required in (CLAUDE_DIR / "settings.json", AGENT_TYPOLOGY_PATH, RUN_GRAPHS_DIR / "weekly_sma_sweep.yaml"):
+        if not required.exists():
+            missing_capability_files.append(required.relative_to(REPO_ROOT).as_posix())
+
+    run_graph_count = len(list(RUN_GRAPHS_DIR.glob("*.yaml"))) if RUN_GRAPHS_DIR.exists() else 0
+    management_runner = REPO_ROOT / "00_SYSTEM" / "scripts" / "run_system_management_sweep.py"
+    admin_runner = REPO_ROOT / "00_SYSTEM" / "scripts" / "run_system_admin_sweep.py"
+    missing_runners = [
+        path.relative_to(REPO_ROOT).as_posix()
+        for path in (management_runner, admin_runner)
+        if not path.exists()
+    ]
+
+    if missing_mcp_commands:
+        findings.append(f"MCP server command targets are missing: {', '.join(missing_mcp_commands)}")
+        recommendations.append("Repair MCP server command paths or remove stale server registrations.")
+        actions.append("Reconcile missing MCP command targets.")
+    if missing_integration_specs:
+        findings.append(f"MCP-backed integrations missing source specs: {', '.join(missing_integration_specs)}")
+        recommendations.append("Add source contracts for MCP-backed integrations.")
+        actions.append("Create missing MCP integration source specs.")
+    if missing_capability_dirs:
+        findings.append(f"Capability directories missing: {', '.join(missing_capability_dirs)}")
+        recommendations.append("Restore expected .claude capability directories or document replacement locations.")
+        actions.append("Create missing capability directories or update the audit contract.")
+    if missing_capability_files:
+        findings.append(f"Capability control files missing: {', '.join(missing_capability_files)}")
+        recommendations.append("Restore required capability control files.")
+        actions.append("Create missing capability control files.")
+    if missing_runners:
+        findings.append(f"System sweep runners missing: {', '.join(missing_runners)}")
+        recommendations.append("Restore missing deterministic sweep runners.")
+        actions.append("Create or recover missing sweep runner scripts.")
+
+    summary = [
+        f"MCP servers registered: {len(mcp_servers)} ({', '.join(sorted(mcp_servers)) if mcp_servers else 'none'}).",
+        f"Claude-style local agent specs: {claude_agent_count}.",
+        f"Claude-style local commands: {claude_command_count}.",
+        f"Run graphs available: {run_graph_count}.",
+        "Capability audit scope: repo-local configuration, scripts, run graphs, and agent inventory.",
+    ]
+
+    assumptions = [
+        "SMA-007 did not test external services or network connectivity.",
+        "Connector quality is evaluated from repo-local declarations only.",
+    ]
+
+    return render_report(
+        "System Capability Audit Report",
+        summary,
+        findings,
+        recommendations,
+        actions,
+        [],
+        evidence,
+        assumptions,
+    )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run minimal System Management sweep.")
     parser.add_argument("--run-id", help="Override run ID (default: auto)")
@@ -913,12 +1189,16 @@ def main() -> int:
     sma_002_body = sma_002_report()
     sma_003_body = sma_003_report(changed_paths)
     sma_004_body = sma_004_report()
+    sma_006_body = sma_006_report(changed_paths)
+    sma_007_body = sma_007_report()
 
     report_map = {
         "SMA-001_SYSTEM_GOVERNANCE_REPORT.md": ("System Governance Report", sma_001_body),
         "SMA-002_PORTFOLIO_PLANNING_REPORT.md": ("Portfolio Planning Report", sma_002_body),
         "SMA-003_INTEGRATION_STEWARD_REPORT.md": ("Integration Steward Report", sma_003_body),
         "SMA-004_KNOWLEDGE_CURATION_REPORT.md": ("Knowledge Curation Report", sma_004_body),
+        "SMA-006_SYSTEM_LIBRARIAN_REPORT.md": ("System Librarian Report", sma_006_body),
+        "SMA-007_SYSTEM_CAPABILITY_AUDITOR_REPORT.md": ("System Capability Auditor Report", sma_007_body),
     }
 
     for filename, (title, body) in report_map.items():
@@ -940,6 +1220,8 @@ def main() -> int:
             f"- {run_root / 'SMA-003_INTEGRATION_STEWARD_REPORT.md'}",
             f"- {run_root / 'SMA-004_KNOWLEDGE_CURATION_REPORT.md'}",
             f"- {run_root / 'SMA-005_RUNBOOK_QA_REPORT.md'}",
+            f"- {run_root / 'SMA-006_SYSTEM_LIBRARIAN_REPORT.md'}",
+            f"- {run_root / 'SMA-007_SYSTEM_CAPABILITY_AUDITOR_REPORT.md'}",
             "",
         ]
     )

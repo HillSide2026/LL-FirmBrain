@@ -30,8 +30,9 @@ steps:
     script: 00_SYSTEM/scripts/run_system_management_sweep.py
     depends_on: [system_admin_sweep]
     description: >
-      Run SMA-001 through SMA-005: governance, portfolio planning, integration
-      steward, knowledge curation, runbook QA.
+      Run SMA-001 through SMA-007: governance, portfolio planning, integration
+      steward, knowledge curation, runbook QA, system librarian, and capability
+      auditor.
     outputs:
       - path: 06_RUNS/${run_id}/system_management/
         label: DERIVED_ARTIFACT
