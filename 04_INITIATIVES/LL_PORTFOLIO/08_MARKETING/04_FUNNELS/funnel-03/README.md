@@ -51,7 +51,7 @@ ML1 approval is required for scope, changes, and any execution commitments.
 
 - Funnel 03 remains in planning.
 - The governing project for this funnel remains
-  `LLP-013_FUNNEL3_MANAGEMENT`, which has not yet cleared the
+  `LLP-013`, which has not yet cleared the
   Planning -> Executing gate into `pre-launch`.
 - Some execution-stage artifacts exist as early or provisional preparation
   work, but they do not constitute live activation approval.

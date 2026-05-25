@@ -1,26 +1,14 @@
----
-id: 04_initiatives_ll_portfolio_03_firm_operations_portfolio_governance_doctrine_drift_report_md
-title: DOCTRINE DRIFT REPORT
-owner: ML1
-status: draft
-created_date: 2026-05-24
-last_updated: 2026-05-24
-tags: []
----
+# Doctrine Drift Report
 
-# DOCTRINE DRIFT REPORT
-
-- Generated: 2026-05-23T10:30:12+00:00
-- Run ID: RUN-2026-05-23-LL-PORTFOLIO-AGENTS-103012Z
+- Generated: 2026-05-25T02:27:33+00:00
+- Run ID: RUN-2026-05-25-LL-PORTFOLIO-AGENTS-022733Z
 
 > Advisory output. ML1 approval remains required for decisions.
-## Doctrine Drift Report
+## Structural Drift Patterns
 
-- Structural drift patterns detected from repeated missing artifacts:
-- Planning drift: `DEPENDENCIES.md` missing in 2 project(s).
-- Planning drift: `COMMUNICATION_PLAN.md` missing in 2 project(s).
-- Planning drift: `PROJECT_PLAN.md` missing in 1 project(s).
-- Planning drift: `RISK_REGISTER.md` missing in 1 project(s).
-- Planning drift: `ASSUMPTIONS_CONSTRAINTS.md` missing in 1 project(s).
-- Measurement drift: `METRICS.md` missing in 1 project(s).
-- Doctrine interpretation remains ML1 authority.
+- Planning drift:
+- No repeated planning drift pattern detected.
+- Measurement drift:
+- No repeated measurement drift pattern detected.
+- Retired artifact residue:
+- No repeated retired-artifact residue detected.

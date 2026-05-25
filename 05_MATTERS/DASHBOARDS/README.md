@@ -96,6 +96,14 @@ Primary Slice 1/2 outputs:
 - `INBOX_UNMAPPED.md`
 - `SHAREPOINT_GAPS.md`
 
+Commercial / profitability overlay:
+
+- `CLIENT_DEMAND_PROFITABILITY_REVIEW.md` is the ML1-facing overlay for
+  separating real client demand from stale, speculative, internal, or
+  collection-risk work. It should be read with
+  `../LL_TASK_TRACKER.md#client-demand--profitability-intake` before drawing
+  conclusions about matter pressure or firm profitability.
+
 Current manual overlay:
 
 - `STANDARD_MATTER_REVIEW_2026-05-13.md` consolidates Standard-delivery

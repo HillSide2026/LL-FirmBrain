@@ -1,21 +1,9 @@
----
-id: 04_initiatives_ll_portfolio_03_firm_operations_portfolio_governance_contradiction_alerts_md
-title: CONTRADICTION ALERTS
-owner: ML1
-status: draft
-created_date: 2026-05-24
-last_updated: 2026-05-24
-tags: []
----
+# Contradiction Alerts
 
-# CONTRADICTION ALERTS
-
-- Generated: 2026-05-23T10:30:12+00:00
-- Run ID: RUN-2026-05-23-LL-PORTFOLIO-AGENTS-103012Z
+- Generated: 2026-05-25T02:27:33+00:00
+- Run ID: RUN-2026-05-25-LL-PORTFOLIO-AGENTS-022733Z
 
 > Advisory output. ML1 approval remains required for decisions.
 ## Contradiction Alerts
 
-Duplicate project identifier: LLP-037
-Duplicate project identifier: LLP-038
-Duplicate project identifier: LLP-039
+- No duplicate declared project IDs detected by deterministic checks.

@@ -16,8 +16,8 @@ or budgeting.
 Canonical homes:
 
 - `../01_FINANCIAL_MANAGEMENT/`
-- `../01_FINANCIAL_MANAGEMENT/LLP-002_BUDGETING/`
-- `../01_FINANCIAL_MANAGEMENT/LLP-044_FINANCE/`
+- `../01_FINANCIAL_MANAGEMENT/LLP-002/`
+- `../01_FINANCIAL_MANAGEMENT/LLP-044/`
 
 This folder is retained only as a transition pointer for old links.
 

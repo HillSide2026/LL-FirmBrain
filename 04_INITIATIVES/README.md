@@ -35,7 +35,7 @@ This directory contains all strategic initiatives and projects, organized by por
     ├── 06_FINANCIAL_PORTFOLIO/
     ├── 07_STRATEGIC_PROJECTS/
     ├── 08_MARKETING/
-    └── 09_SERVICE_MANAGEMENT/
+    └── LLP-046/
 ```
 
 ---

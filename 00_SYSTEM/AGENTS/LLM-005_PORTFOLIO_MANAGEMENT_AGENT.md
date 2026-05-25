@@ -20,7 +20,7 @@ tags: []
 
 ## Purpose
 
-LLM-005_PORTFOLIO_MANAGEMENT_AGENT (“LLM-005”) acts as the active portfolio coordinator across all firm projects.
+LLM-005_LLP-042_AGENT (“LLM-005”) acts as the active portfolio coordinator across all firm projects.
 
 It prioritizes, sequences, surfaces bottlenecks, models capacity allocation, and proposes execution adjustments to ML1.
 
@@ -86,7 +86,7 @@ It manages flow. It does not enforce law.
 
 ## Outputs
 
-**Location:** `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/`
+**Location:** `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/LLP-042/`
 
 Produces (advisory to ML1 only):
 - PORTFOLIO_STATUS_DASHBOARD.md
@@ -131,9 +131,9 @@ Must read:
 - Partner Supervision metrics
 - Baseline capacity data
 - STATUS_REPORT.md
-- `04_INITIATIVES/LL_PORTFOLIO/07_GROWTH_PROJECTS/LLP-030_FIRM_STRATEGY/BUSINESS_PLAN.md`
-- `04_INITIATIVES/LL_PORTFOLIO/07_GROWTH_PROJECTS/LLP-030_FIRM_STRATEGY/FINANCIAL_MODEL.md`
-- `04_INITIATIVES/LL_PORTFOLIO/06_FINANCIAL_PORTFOLIO/LLP-002_BUDGETING/BUDGET_2026.md`
+- `04_INITIATIVES/LL_PORTFOLIO/07_GROWTH_PROJECTS/LLP-030/BUSINESS_PLAN.md`
+- `04_INITIATIVES/LL_PORTFOLIO/07_GROWTH_PROJECTS/LLP-030/FINANCIAL_MODEL.md`
+- `04_INITIATIVES/LL_PORTFOLIO/06_FINANCIAL_PORTFOLIO/LLP-002/BUDGET_2026.md`
 
 Interpret planning requirements by project type:
 - strategic and management projects use the fuller planning baseline

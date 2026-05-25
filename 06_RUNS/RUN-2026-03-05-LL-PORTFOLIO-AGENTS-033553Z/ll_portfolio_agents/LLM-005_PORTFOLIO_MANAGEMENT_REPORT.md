@@ -20,4 +20,4 @@
 
 ## Outputs
 
-- /Users/matthewlevine/Repos/ll-secondbrain_fresh/04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT
+- /Users/matthewlevine/Repos/ll-secondbrain_fresh/04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/LLP-042

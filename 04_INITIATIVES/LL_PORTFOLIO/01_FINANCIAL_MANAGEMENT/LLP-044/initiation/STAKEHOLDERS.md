@@ -1,0 +1,23 @@
+---
+title: LLP-044 Finance Stakeholders
+owner: ML1
+status: draft
+created_date: 2026-05-15
+last_updated: 2026-05-15
+id: 04_initiatives_ll_portfolio_01_financial_management_llp_044_finance_initiation_stakeholders_md
+tags: []
+---
+
+Project ID: LLP-044
+Project Path: 01_FINANCIAL_MANAGEMENT/LLP-044
+
+# LLP-044 Finance Stakeholders
+
+- ML1, as sole authority for finance decisions.
+- `LLP-001`, as the accounting fact layer.
+- `LLP-002`, as the budget-baseline and scenario-control layer.
+- `management_accounting/`, as the revenue timing/security classification
+  layer.
+- `04_RISK/LLP-018`, where general financial-risk governance
+  intersects with finance.
+- `LLM-003_CFO_AGENT`, as advisory finance-output producer.

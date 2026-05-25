@@ -1,16 +1,6 @@
----
-id: 05_matters_essential_25_927_00003_matter_status_md
-title: Matter Status — 25-927-00003
-owner: ML1
-status: draft
-created_date: 2026-05-24
-last_updated: 2026-05-24
-tags: []
----
-
 # Matter Status — 25-927-00003
 
-Generated at: 2026-05-23T10:30:03Z
+Generated at: 2026-05-25T02:27:30Z
 
 ## Snapshot
 - Matter: Stream Ventures Limited

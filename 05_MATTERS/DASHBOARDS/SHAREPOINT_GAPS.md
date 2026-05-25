@@ -1,16 +1,6 @@
----
-id: 05_matters_dashboards_sharepoint_gaps_md
-title: SharePoint Gaps
-owner: ML1
-status: generated
-created_date: 2026-05-24
-last_updated: 2026-05-24
-tags: []
----
-
 # SharePoint Gaps
 
-Generated at: 2026-05-23T10:30:03Z
+Generated at: 2026-05-25T02:27:30Z
 Connector source: `repo:09_INBOX/_sources/sharepoint/metadata/legalmatters_library`
 
 ## Summary

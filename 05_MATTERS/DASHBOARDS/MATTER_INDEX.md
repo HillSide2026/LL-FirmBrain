@@ -1,16 +1,6 @@
----
-id: 05_matters_dashboards_matter_index_md
-title: Matter Index
-owner: ML1
-status: generated
-created_date: 2026-05-24
-last_updated: 2026-05-24
-tags: []
----
-
 # Matter Index
 
-Generated at: 2026-05-23T10:30:03Z
+Generated at: 2026-05-25T02:27:30Z
 Connector source: `cache:cache/clio_matters.json (repo_fallback:05_MATTERS) + repo_fallback:05_MATTERS`
 
 ## Role

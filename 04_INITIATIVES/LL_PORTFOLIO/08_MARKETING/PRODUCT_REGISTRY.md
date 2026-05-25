@@ -50,7 +50,7 @@ tags: [product-registry, funnel-01, funnel-02, funnel-03, pricing]
 
 **Pending:** ML1 to confirm canonical ML1 consult rate and whether $475 product still exists.
 
-**Affected files:** `LLP-011_FUNNEL1_MANAGEMENT/PRE-ENGAGEMENT_MONETIZATION_SHORTLIST.md` (price table row for ML1 consult)
+**Affected files:** `LLP-011/PRE-ENGAGEMENT_MONETIZATION_SHORTLIST.md` (price table row for ML1 consult)
 
 ---
 
@@ -65,7 +65,7 @@ tags: [product-registry, funnel-01, funnel-02, funnel-03, pricing]
 
 **Pending:** ML1 to confirm (a) canonical product name, (b) fixed vs. range pricing, (c) whether $2,499 is the intro or regular rate.
 
-**Affected files:** `04_FUNNELS/funnel-02/positioning.yaml`, `LLP-011_FUNNEL1_MANAGEMENT/PRE-ENGAGEMENT_MONETIZATION_SHORTLIST.md` (price table)
+**Affected files:** `04_FUNNELS/funnel-02/positioning.yaml`, `LLP-011/PRE-ENGAGEMENT_MONETIZATION_SHORTLIST.md` (price table)
 
 ---
 

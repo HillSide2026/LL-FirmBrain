@@ -62,7 +62,7 @@ Work is delivered inside:
 
 - approved practice areas: Corporate, Contracts, Payment Services
 - approved solution frames: canonical solution registries
-- approved strategy: `LLP-030_FIRM_STRATEGY` (ICP-01 / ICP-02,
+- approved strategy: `LLP-030` (ICP-01 / ICP-02,
   F01 → F02 → F03 sequencing)
 
 No sequencing preference is applied across solutions. Demand determines

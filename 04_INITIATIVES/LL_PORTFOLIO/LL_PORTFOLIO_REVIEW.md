@@ -49,9 +49,9 @@ is at least as recent as the latest `Generated` timestamp in the current
 Use this review order:
 
 1. `LL_PROGRAM_SUMMARY_REPORT.md`
-2. `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/PORTFOLIO_STATUS_DASHBOARD.md`
+2. `03_FIRM_OPERATIONS/LLP-042/PORTFOLIO_STATUS_DASHBOARD.md`
 3. `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/GOVERNANCE_COMPLIANCE_AUDIT.md`
-4. `03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md`
+4. `03_FIRM_OPERATIONS/LLP-043/PROJECT_HEALTH_ROLLUP.md`
 5. `../../05_MATTERS/DASHBOARDS/MATTER_DIGEST.md`
 6. `../../05_MATTERS/LL_TASK_TRACKER.md`
 
@@ -69,7 +69,7 @@ Use this shift when the top-level LL review raises a delivery or fulfillment
 question:
 
 1. `LL_PORTFOLIO_REVIEW.md` identifies the relevant program-level concern.
-2. `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/PORTFOLIO_STATUS_DASHBOARD.md`
+2. `03_FIRM_OPERATIONS/LLP-042/PORTFOLIO_STATUS_DASHBOARD.md`
    shows whether the concern is portfolio flow, sequencing, or capacity.
 3. `../../05_MATTERS/DASHBOARDS/MATTER_DIGEST.md` shows what matters ML1 should
    consider checking based on email, calendar, SharePoint, Clio, and Lexaro
@@ -89,9 +89,9 @@ legal step, evaluate draft quality, or determine whether ML1 has failed to act.
 | Decision queue | `CHIEF_OF_STAFF/ML1_DECISION_QUEUE.md` | ranked ML1 decisions | `LLM-001` |
 | Conflict check | `CHIEF_OF_STAFF/CROSS_AGENT_CONFLICTS.md` | identify flow-vs-governance conflict | `LLM-001` |
 | Program summary | `LL_PROGRAM_SUMMARY_REPORT.md` | understand the 9 numbered programs | derived summary |
-| Portfolio flow | `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/PORTFOLIO_STATUS_DASHBOARD.md` | on-track / watch / at-risk, bottlenecks, sequencing | `LLM-005` |
+| Portfolio flow | `03_FIRM_OPERATIONS/LLP-042/PORTFOLIO_STATUS_DASHBOARD.md` | on-track / watch / at-risk, bottlenecks, sequencing | `LLM-005` |
 | Structural integrity | `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/GOVERNANCE_COMPLIANCE_AUDIT.md` | stage-gate, approval, metric, and schema gaps | `LLM-006` |
-| Project drill-down | `03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md` | project-by-project review | `LLM-004` |
+| Project drill-down | `03_FIRM_OPERATIONS/LLP-043/PROJECT_HEALTH_ROLLUP.md` | project-by-project review | `LLM-004` |
 | Matter visibility | `../../05_MATTERS/DASHBOARDS/MATTER_DIGEST.md` | active / watch / urgent / stalled matter control read | matter command-and-control layer |
 | Matter index | `../../05_MATTERS/DASHBOARDS/MATTER_INDEX.md` | full matter roster and current category/delivery posture | matter command-and-control layer |
 | LL Tasks | `../../05_MATTERS/LL_TASK_TRACKER.md` | current LL task load and immediate action concentration | matter layer |
@@ -101,11 +101,11 @@ legal step, evaluate draft quality, or determine whether ML1 has failed to act.
 Open these after the four main review artifacts above when the question is more
 specific:
 
-- `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/PROJECT_PRIORITY_MATRIX.md`
-- `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/SEQUENCING_RECOMMENDATIONS.md`
-- `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/BOTTLENECK_ANALYSIS.md`
-- `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/RESOURCE_COLLISION_REPORT.md`
-- `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/WIP_LOAD_ANALYSIS.md`
+- `03_FIRM_OPERATIONS/LLP-042/PROJECT_PRIORITY_MATRIX.md`
+- `03_FIRM_OPERATIONS/LLP-042/SEQUENCING_RECOMMENDATIONS.md`
+- `03_FIRM_OPERATIONS/LLP-042/BOTTLENECK_ANALYSIS.md`
+- `03_FIRM_OPERATIONS/LLP-042/RESOURCE_COLLISION_REPORT.md`
+- `03_FIRM_OPERATIONS/LLP-042/WIP_LOAD_ANALYSIS.md`
 - `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/STAGE_GATE_VIOLATION_REPORT.md`
 - `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/APPROVAL_GAP_REPORT.md`
 - `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/METRIC_SCHEMA_INTEGRITY_REPORT.md`
@@ -124,8 +124,8 @@ The intended agent stack is:
 
 Canonical agent specs:
 
-- `00_SYSTEM/AGENTS/LLM-004_PROJECT_MANAGEMENT_AGENT.md`
-- `00_SYSTEM/AGENTS/LLM-005_PORTFOLIO_MANAGEMENT_AGENT.md`
+- `00_SYSTEM/AGENTS/LLM-004_LLP-043_AGENT.md`
+- `00_SYSTEM/AGENTS/LLM-005_LLP-042_AGENT.md`
 - `00_SYSTEM/AGENTS/LLM-006_PORTFOLIO_GOVERNANCE_AGENT.md`
 - `00_SYSTEM/AGENTS/LLM-001_CHIEF_OF_STAFF.md`
 

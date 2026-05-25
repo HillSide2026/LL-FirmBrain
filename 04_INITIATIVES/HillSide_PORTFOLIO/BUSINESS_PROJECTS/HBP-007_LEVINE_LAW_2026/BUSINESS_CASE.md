@@ -75,7 +75,7 @@ repo:
   `02_PLAYBOOKS/CONTRACTS/WORKFLOWS/solutions/`, and
   `02_PLAYBOOKS/FINANCIAL_SERVICES/SOLUTIONS/`
 - approved strategy layer: the Levine Law Firm Strategy and Business Plan in
-  `LLP-030_FIRM_STRATEGY`, including boutique corporate-law positioning,
+  `LLP-030`, including boutique corporate-law positioning,
   ICP-01 / ICP-02 logic, and F01 -> F02 -> F03 sequencing
 - changes to this approved stack require ML1 approval
 

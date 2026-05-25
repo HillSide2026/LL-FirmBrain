@@ -81,7 +81,7 @@ This agent is a structured SEO authority engine, not a content factory. Output i
     "stage": "Awareness | Consideration | Diagnostic | Conversion",
     "cta": string
   },
-  "positioning_constraints": "ref: LLP-025_MARKETING_STRATEGY/MARKET_POSITIONING.md"
+  "positioning_constraints": "ref: LLP-025/MARKET_POSITIONING.md"
 }
 ```
 
@@ -170,8 +170,8 @@ Before finalizing any draft, verify:
 ## Hard Input Dependencies (Fail Closed)
 
 Required before any generation:
-- `LLP-025_MARKETING_STRATEGY/MARKET_POSITIONING.md`
-- `LLP-025_MARKETING_STRATEGY/MARKETING_STRATEGY.md`
+- `LLP-025/MARKET_POSITIONING.md`
+- `LLP-025/MARKETING_STRATEGY.md`
 - F02 funnel spec (Health Check scope, price, landing page URL)
 - ML1-approved keyword list from SEO-01
 

@@ -47,7 +47,7 @@ High-signal findings:
 - `06_RUNS/logs/matter_admin` contains 85 JSON run logs.
 - `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE`
   contains 7 generated governance report files.
-- `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT`
+- `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/LLP-042`
   contains several generated dashboard/report files mixed with durable
   planning artifacts.
 
@@ -84,7 +84,7 @@ Candidates:
 - older generated governance reports under
   `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE`
 - older generated portfolio-management snapshots under
-  `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT`
+  `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/LLP-042`
 - old `06_RUNS/ops/sla_audit` outputs, especially where both `.json` and `.md`
   versions exist for the same event
 

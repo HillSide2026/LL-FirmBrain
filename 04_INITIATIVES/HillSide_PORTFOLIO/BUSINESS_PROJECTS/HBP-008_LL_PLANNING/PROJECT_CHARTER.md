@@ -70,7 +70,7 @@ at or below $25,000 per month and proving that the Levine Law leverage model wor
 - Solution frames: `02_PLAYBOOKS/CORPORATE/WORKFLOWS/solutions/`,
   `02_PLAYBOOKS/CONTRACTS/WORKFLOWS/solutions/`, and
   `02_PLAYBOOKS/FINANCIAL_SERVICES/SOLUTIONS/`
-- Strategy: `LLP-030_FIRM_STRATEGY` Business Plan and F01 / F02 / F03 channel logic
+- Strategy: `LLP-030` Business Plan and F01 / F02 / F03 channel logic
 - Changes require ML1 approval
 
 ## Stage Plan

@@ -62,7 +62,7 @@ is:
 
 - Practice areas: Corporate, Contracts, and Payment Services
 - Solution frames: canonical solution registries under `02_PLAYBOOKS/CORPORATE/WORKFLOWS/solutions/`, `02_PLAYBOOKS/CONTRACTS/WORKFLOWS/solutions/`, and `02_PLAYBOOKS/FINANCIAL_SERVICES/SOLUTIONS/`
-- Strategy: `LLP-030_FIRM_STRATEGY` and its Business Plan, including the
+- Strategy: `LLP-030` and its Business Plan, including the
   boutique corporate-law positioning, ICP-01 / ICP-02 client logic, and
   F01 -> F02 -> F03 sequencing
 - Changes to this approved stack require ML1 approval
@@ -70,7 +70,7 @@ is:
 ## Major Dependencies
 
 - accounting support as the owner of monthly collection measurement
-- `LLP-030_FIRM_STRATEGY` as the governing Levine Law strategy and business-plan
+- `LLP-030` as the governing Levine Law strategy and business-plan
   layer
 - `HBP-002_CASH_FLOW` for reciprocal cash-flow definition and reporting
   discipline alignment

@@ -15,7 +15,7 @@ tags: [deprecated, pointer, financial-management]
 Canonical home:
 
 - `../01_FINANCIAL_MANAGEMENT/`
-- `../01_FINANCIAL_MANAGEMENT/LLP-001_ACCOUNTING/`
+- `../01_FINANCIAL_MANAGEMENT/LLP-001/`
 
 This folder is retained only as a transition pointer for old links.
 

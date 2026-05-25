@@ -40,4 +40,4 @@ Planning Stage Authorized: Yes
 - Planning gate review should confirm the two-goal structure (cash collected by LL ≥ CAD 240,000; revenue to ML ≥ CAD 80,000),
   monthly controls for collections / margin / capacity / client-quality,
   the ML1-docketed fee-collection metric, and dependency alignment with
-  `LLP-030_FIRM_STRATEGY` and `HBP-002_CASH_FLOW`.
+  `LLP-030` and `HBP-002_CASH_FLOW`.

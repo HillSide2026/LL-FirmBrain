@@ -35,9 +35,9 @@ Financial management includes:
 
 ## Canonical Packets
 
-- `LLP-001_ACCOUNTING/` — accounting operations and accounting fact layer.
-- `LLP-002_BUDGETING/` — approved baseline, budgeting, and scenario control.
-- `LLP-044_FINANCE/` — finance principles, invariants, policies, and CFO
+- `LLP-001/` — accounting operations and accounting fact layer.
+- `LLP-002/` — approved baseline, budgeting, and scenario control.
+- `LLP-044/` — finance principles, invariants, policies, and CFO
   advisory output.
 
 ## Supporting Folders
@@ -91,7 +91,7 @@ Those folders are retained only as transition pointers.
 ## Approval State
 
 **ACTIVE TRANSITION** — ML1 approved consolidation into
-`01_FINANCIAL_MANAGEMENT` and approved `LLP-044_FINANCE` as the finance packet
+`01_FINANCIAL_MANAGEMENT` and approved `LLP-044` as the finance packet
 ID.
 
 ## Last ML1 Review Date

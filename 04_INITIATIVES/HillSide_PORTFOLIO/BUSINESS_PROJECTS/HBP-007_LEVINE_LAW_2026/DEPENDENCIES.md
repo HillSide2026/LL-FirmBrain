@@ -20,7 +20,7 @@ tags: [levine-law, 2026, dependencies, planning, hillside]
 
 | ID | Dependency | Type | Owner | Impact if Not Met |
 |----|-----------|------|-------|-------------------|
-| D-01 | `LLP-030_FIRM_STRATEGY` — governing Levine Law strategy and business-plan layer | Upstream — HBP-007 is subordinate to this strategy | ML1 | HBP-007 loses its approved lane and solution reference; scope must be re-anchored |
+| D-01 | `LLP-030` — governing Levine Law strategy and business-plan layer | Upstream — HBP-007 is subordinate to this strategy | ML1 | HBP-007 loses its approved lane and solution reference; scope must be re-anchored |
 | D-02 | `HBP-002_CASH_FLOW` — aligned definitions and reporting for cash-collected and ML-revenue metrics | Reciprocal — both projects must use consistent metric definitions | ML1 | Cash-collected and ML-revenue targets are measured inconsistently across HillSide; monthly reporting is unreliable |
 | D-03 | Accounting support — monthly collection data production and reporting | Service — HBP-007 consumes this output | Accounting support | Monthly oversight pack cannot be produced; SG-02, SG-03, and SG-04 tracking breaks down |
 | D-04 | Levine Law execution projects (active matters, solution delivery, client work) | Input — HBP-007 oversight draws on execution performance data | ML1 / matter teams | No performance data to review; oversight becomes nominal rather than substantive |

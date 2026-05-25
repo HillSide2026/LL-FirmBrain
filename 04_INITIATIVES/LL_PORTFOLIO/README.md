@@ -43,9 +43,9 @@ When the Chief of Staff packet is current, start with:
 When the Chief of Staff packet is stale, start with:
 
 1. `LL_PROGRAM_SUMMARY_REPORT.md`
-2. `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/PORTFOLIO_STATUS_DASHBOARD.md`
+2. `03_FIRM_OPERATIONS/LLP-042/PORTFOLIO_STATUS_DASHBOARD.md`
 3. `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/GOVERNANCE_COMPLIANCE_AUDIT.md`
-4. `03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md`
+4. `03_FIRM_OPERATIONS/LLP-043/PROJECT_HEALTH_ROLLUP.md`
 
 ## Review Hierarchy
 
@@ -228,7 +228,7 @@ LL_PORTFOLIO/
 ├── 06_FINANCIAL_PORTFOLIO/      # Deprecated transition pointer
 ├── 07_GROWTH_PROJECTS/          # Change and evolution
 ├── 08_MARKETING/                # Pre-matter pipeline (leads -> conversion; handoff enters fulfillment onboarding)
-└── 09_SERVICE_MANAGEMENT/       # Service tier management across matters
+└── LLP-046/       # Service tier management across matters
 ```
 
 **This structure is LOCKED unless explicitly changed by ML1.**
@@ -380,7 +380,7 @@ directories:
 
 ---
 
-### 09_SERVICE_MANAGEMENT
+### LLP-046
 
 **Purpose:** Service-tier control map used to classify and monitor service posture.
 

@@ -21,7 +21,7 @@ tags: [levine-law, 2026, assumptions, constraints, planning, hillside]
 | ID | Assumption | Risk if Wrong |
 |----|-----------|---------------|
 | A-01 | Accounting support will produce monthly collection data in a format that separates ML1-docketed fee collections from other-fee-earner fees | Monthly controls cannot be verified; SG-02 and SG-04 tracking breaks down |
-| A-02 | `LLP-030_FIRM_STRATEGY` remains the governing Levine Law strategy and business-plan layer throughout 2026 without material change | HBP-007 program boundary and lane discipline are anchored to a strategy that no longer applies |
+| A-02 | `LLP-030` remains the governing Levine Law strategy and business-plan layer throughout 2026 without material change | HBP-007 program boundary and lane discipline are anchored to a strategy that no longer applies |
 | A-03 | The three approved practice areas (Corporate, Contracts, Payment Services) remain the Levine Law approved lanes for 2026 | Scope definition is invalid; intake and solution routing decisions are made against a stale lane set |
 | A-04 | ML1 remains the primary fee earner and the revenue-to-ML goal (SG-01) tracks distributions or drawings attributable to ML1's docketed work | Goal metric is undefined or unmeasurable if attribution changes |
 | A-05 | HBP-002 (Cash Flow) will establish aligned definitions and reporting for cash-collected and ML-revenue metrics | Without HBP-002 alignment, the two goal metrics may be defined inconsistently across HillSide |
@@ -34,7 +34,7 @@ tags: [levine-law, 2026, assumptions, constraints, planning, hillside]
 
 | ID | Constraint | Source |
 |----|-----------|--------|
-| C-01 | HBP-007 must stay inside the approved practice areas: Corporate, Contracts, and Payment Services | `PROJECT_CHARTER.md`; `LLP-030_FIRM_STRATEGY` |
+| C-01 | HBP-007 must stay inside the approved practice areas: Corporate, Contracts, and Payment Services | `PROJECT_CHARTER.md`; `LLP-030` |
 | C-02 | All work must be delivered through approved solution frames; work outside approved frames requires ML1 approval | `PROJECT_CHARTER.md` |
 | C-03 | HBP-007 does not govern Levine Law execution work directly — it is an oversight project only | `PROJECT_CHARTER.md`; `SCOPE_STATEMENT.md` |
 | C-04 | Changes to the approved practice area stack, solution frames, or governing strategy require ML1 approval before they are treated as in-scope | `SCOPE_STATEMENT.md` |

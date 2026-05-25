@@ -104,9 +104,9 @@ If doctrine is missing, ambiguous, or conflicting → hard stop → escalate to 
 ```
 
 Required doctrine references (fail closed if missing):
-- `LLP-025_MARKETING_STRATEGY/MARKET_POSITIONING.md`
-- `LLP-025_MARKETING_STRATEGY/MARKETING_STRATEGY.md`
-- `LLP-030_FIRM_STRATEGY/FIRM_STRATEGY.md`
+- `LLP-025/MARKET_POSITIONING.md`
+- `LLP-025/MARKETING_STRATEGY.md`
+- `LLP-030/FIRM_STRATEGY.md`
 
 ---
 
@@ -324,9 +324,9 @@ Purpose: drift detection, agent performance tracking, doctrine gap identificatio
 **Activation approved**: 2026-03-18 by ML1
 
 **Active doctrine reference set**:
-- `LLP-025_MARKETING_STRATEGY/MARKET_POSITIONING.md`
-- `LLP-025_MARKETING_STRATEGY/MARKETING_STRATEGY.md`
-- `LLP-030_FIRM_STRATEGY/FIRM_STRATEGY.md`
+- `LLP-025/MARKET_POSITIONING.md`
+- `LLP-025/MARKETING_STRATEGY.md`
+- `LLP-030/FIRM_STRATEGY.md`
 
 ---
 

@@ -46,8 +46,8 @@ firm-running review:
 Use this folder as the primary review entry point only if the files here are at
 least as fresh as the latest management-agent outputs in:
 
-- `03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md`
-- `03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/PORTFOLIO_STATUS_DASHBOARD.md`
+- `03_FIRM_OPERATIONS/LLP-043/PROJECT_HEALTH_ROLLUP.md`
+- `03_FIRM_OPERATIONS/LLP-042/PORTFOLIO_STATUS_DASHBOARD.md`
 - `03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE/GOVERNANCE_COMPLIANCE_AUDIT.md`
 
 If this synthesis layer is stale, start with `LL_PORTFOLIO_REVIEW.md` and read

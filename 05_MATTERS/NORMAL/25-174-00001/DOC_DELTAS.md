@@ -1,16 +1,6 @@
----
-id: 05_matters_normal_25_174_00001_doc_deltas_md
-title: Document Deltas — 25-174-00001
-owner: ML1
-status: draft
-created_date: 2026-05-24
-last_updated: 2026-05-24
-tags: []
----
-
 # Document Deltas — 25-174-00001
 
-Generated at: 2026-05-23T10:30:03Z
+Generated at: 2026-05-25T02:27:30Z
 Baseline snapshot: `2026-03-05T05:11:26Z`
 
 ## Summary

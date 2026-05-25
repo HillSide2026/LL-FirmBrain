@@ -1,16 +1,6 @@
----
-id: 05_matters_normal_26_1630_00001_doc_index_md
-title: Document Index — 26-1630-00001
-owner: ML1
-status: draft
-created_date: 2026-05-24
-last_updated: 2026-05-24
-tags: []
----
-
 # Document Index — 26-1630-00001
 
-Generated at: 2026-05-23T10:30:03Z
+Generated at: 2026-05-25T02:27:30Z
 Connector source: `repo:09_INBOX/_sources/sharepoint/metadata/legalmatters_library`
 
 ## Summary

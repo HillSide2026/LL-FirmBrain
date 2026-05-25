@@ -71,5 +71,5 @@ Any proposed addition to scope requires ML1 approval before it is treated
 as in-scope for planning or execution purposes.
 
 Changes to the approved practice area stack, approved solution frames, or
-the governing Levine Law strategy (`LLP-030_FIRM_STRATEGY`) are outside
+the governing Levine Law strategy (`LLP-030`) are outside
 HBP-007's authority and require a separate approval process.

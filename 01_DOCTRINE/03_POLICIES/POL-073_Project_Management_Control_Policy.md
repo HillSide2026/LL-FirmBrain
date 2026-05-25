@@ -104,7 +104,7 @@ Rules:
 When normalizing an existing `LLP-NNN_NAME` folder:
 
 1. Rename the project folder to the canonical target ID (for example
-   `LLP-037_LL_SYSTEM_DESIGN` -> `LLP-037`).
+   `LLP-037` -> `LLP-037`).
 2. Update `PROJECT_CHARTER.md`, `APPROVAL_RECORD.md`, and any other project
    packet artifacts so `Project ID` exactly matches the new folder name.
 3. Update references in registers, dependency files, dashboards, READMEs, and

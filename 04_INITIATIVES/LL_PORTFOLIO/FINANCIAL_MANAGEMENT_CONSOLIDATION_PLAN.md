@@ -60,10 +60,10 @@ Implemented target:
 ```text
 01_FINANCIAL_MANAGEMENT/
 ├── README.md
-├── LLP-001_ACCOUNTING/
-├── LLP-002_BUDGETING/
+├── LLP-001/
+├── LLP-002/
 ├── management_accounting/
-├── LLP-044_FINANCE/
+├── LLP-044/
 │   ├── LL_FINANCE_PRINCIPLES.md
 │   ├── LL_FINANCE_INVARIANTS.md
 │   ├── LL_FINANCE_POLICIES.md
@@ -71,7 +71,7 @@ Implemented target:
 └── risk_cash_collections/
 ```
 
-`LLP-044_FINANCE` is the ML1-approved finance packet ID. Finance should be a
+`LLP-044` is the ML1-approved finance packet ID. Finance should be a
 governed packet under `01_FINANCIAL_MANAGEMENT`, not a loose generic folder.
 
 Implemented lower-churn structure:
@@ -79,10 +79,10 @@ Implemented lower-churn structure:
 ```text
 01_FINANCIAL_MANAGEMENT/
 ├── README.md
-├── LLP-001_ACCOUNTING/
-├── LLP-002_BUDGETING/
+├── LLP-001/
+├── LLP-002/
 ├── management_accounting/
-├── LLP-044_FINANCE/
+├── LLP-044/
 │   ├── LL_FINANCE_PRINCIPLES.md
 │   ├── LL_FINANCE_INVARIANTS.md
 │   ├── LL_FINANCE_POLICIES.md
@@ -187,7 +187,7 @@ Status: complete.
 
 ### Step 3 — Migrate Budgeting First
 
-Moved `LLP-002_BUDGETING` from `06_FINANCIAL_PORTFOLIO` into
+Moved `LLP-002` from `06_FINANCIAL_PORTFOLIO` into
 `01_FINANCIAL_MANAGEMENT`.
 
 Reason: the current finance README already describes budgeting as legacy
@@ -197,10 +197,10 @@ Status: complete.
 
 ### Step 4 — Create Finance Packet
 
-Created `01_FINANCIAL_MANAGEMENT/LLP-044_FINANCE/` as the governed finance
+Created `01_FINANCIAL_MANAGEMENT/LLP-044/` as the governed finance
 packet.
 
-Moved finance doctrine files into `01_FINANCIAL_MANAGEMENT/LLP-044_FINANCE/`:
+Moved finance doctrine files into `01_FINANCIAL_MANAGEMENT/LLP-044/`:
 
 - `LL_FINANCE_PRINCIPLES.md`
 - `LL_FINANCE_INVARIANTS.md`
@@ -213,7 +213,7 @@ Status: complete.
 
 ### Step 5 — Migrate Accounting
 
-Moved `LLP-001_ACCOUNTING` into `01_FINANCIAL_MANAGEMENT`.
+Moved `LLP-001` into `01_FINANCIAL_MANAGEMENT`.
 
 Keep its accounting-layer language intact.
 
@@ -250,7 +250,7 @@ Status: pending verification.
 3. Keep general financial-risk governance in `04_RISK/LLP-018`, but move cash,
    collections, and operating financial-risk analysis under
    `01_FINANCIAL_MANAGEMENT`.
-4. Keep `LLP-002_BUDGETING` as a separate governed project inside
+4. Keep `LLP-002` as a separate governed project inside
    `01_FINANCIAL_MANAGEMENT`, because approved baseline control is important
    enough to remain visible.
-5. Use `LLP-044_FINANCE` for the finance packet.
+5. Use `LLP-044` for the finance packet.

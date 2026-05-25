@@ -24,8 +24,8 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 LL_PORTFOLIO_DIR = REPO_ROOT / "04_INITIATIVES" / "LL_PORTFOLIO"
 MATTERS_DIR = REPO_ROOT / "05_MATTERS"
 
-PROJECT_MGMT_DIR = LL_PORTFOLIO_DIR / "03_FIRM_OPERATIONS" / "PROJECT_MANAGEMENT"
-PORTFOLIO_MGMT_DIR = LL_PORTFOLIO_DIR / "03_FIRM_OPERATIONS" / "PORTFOLIO_MANAGEMENT"
+PROJECT_MGMT_DIR = LL_PORTFOLIO_DIR / "03_FIRM_OPERATIONS" / "LLP-043"
+PORTFOLIO_MGMT_DIR = LL_PORTFOLIO_DIR / "03_FIRM_OPERATIONS" / "LLP-042"
 PORTFOLIO_GOVERNANCE_DIR = LL_PORTFOLIO_DIR / "03_FIRM_OPERATIONS" / "PORTFOLIO_GOVERNANCE"
 
 GOVERNED_PROJECT_TYPES = {
@@ -413,18 +413,18 @@ def infer_project_type_from_path(relative_path: str) -> str | None:
     if (
         relative_path.startswith("04_RISK/")
         or relative_path.startswith("06_FINANCIAL_PORTFOLIO/")
-        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-002_BUDGETING")
-        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-044_FINANCE")
+        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-002")
+        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-044")
         or relative_path.startswith("08_MARKETING/")
-        or relative_path.startswith("09_SERVICE_MANAGEMENT")
-        or relative_path == "03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT"
-        or relative_path == "03_FIRM_OPERATIONS/PROJECT_MANAGEMENT"
+        or relative_path.startswith("LLP-046")
+        or relative_path == "03_FIRM_OPERATIONS/LLP-042"
+        or relative_path == "03_FIRM_OPERATIONS/LLP-043"
         or relative_path == "03_FIRM_OPERATIONS/PORTFOLIO_GOVERNANCE"
     ):
         return "Management Project"
     if (
         relative_path.startswith("01_ACCOUNTING/")
-        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-001_ACCOUNTING")
+        or relative_path.startswith("01_FINANCIAL_MANAGEMENT/LLP-001")
         or relative_path.startswith("03_FIRM_OPERATIONS/")
         or relative_path.startswith("05_MATTER_DOCKETING/")
     ):
@@ -766,9 +766,9 @@ def llm_004_outputs(projects: List[ProjectSnapshot], run_id: str) -> Dict[str, o
             action = "Complete the initiation packet before ML1 initiation review."
         elif project.inferred_stage < 2:
             action = "Keep the project in Initiating until ML1 authorizes Planning; planning drafts remain non-authoritative."
-        elif project.missing_stage2_measurement:
+        elif project.relevant_stage2_measurement_gaps:
             action = "Complete METRICS.md and record ML1 threshold approval inside it."
-        elif project.missing_stage2_planning:
+        elif project.relevant_stage2_planning_gaps:
             action = "Close Stage 2 planning gaps before any stage advancement."
         else:
             action = "Maintain current controls and prepare the next gated packet."
@@ -867,8 +867,8 @@ def llm_005_outputs(projects: List[ProjectSnapshot], run_id: str, matter_load: M
     stage_counts = Counter(project.inferred_stage for project in projects)
     health_counts = Counter(project.project_health for project in projects)
     stage2_projects = [project for project in projects if project.inferred_stage >= 2]
-    planning_freq = missing_frequency(stage2_projects, "missing_stage2_planning")
-    measurement_freq = missing_frequency(stage2_projects, "missing_stage2_measurement")
+    planning_freq = missing_frequency(stage2_projects, "relevant_stage2_planning_gaps")
+    measurement_freq = missing_frequency(stage2_projects, "relevant_stage2_measurement_gaps")
 
     ranked = sorted(projects, key=lambda p: (-project_priority_score(p), p.project_id, p.project_path))
 
@@ -892,10 +892,10 @@ def llm_005_outputs(projects: List[ProjectSnapshot], run_id: str, matter_load: M
         elif project.inferred_stage < 2 and project.missing_stage1:
             basis = "Initiation packet incomplete"
             focus = "Complete the initiation packet."
-        elif project.missing_stage2_measurement:
+        elif project.relevant_stage2_measurement_gaps:
             basis = "Stage 2 measurement gap"
             focus = "Complete METRICS.md and threshold approval."
-        elif project.missing_stage2_planning:
+        elif project.relevant_stage2_planning_gaps:
             basis = "Stage 2 planning gap"
             focus = "Close planning artifacts before advancement."
         elif project.project_health == "at-risk":
@@ -971,11 +971,26 @@ def llm_005_outputs(projects: List[ProjectSnapshot], run_id: str, matter_load: M
             ]
         )
 
+    planning_bottleneck_count = sum(1 for project in projects if project.relevant_stage2_planning_gaps)
+    measurement_bottleneck_count = sum(1 for project in projects if project.relevant_stage2_measurement_gaps)
+    conformance_bottleneck_count = sum(1 for project in projects if project.conformance_failures)
+    bottleneck_total = planning_bottleneck_count + measurement_bottleneck_count + conformance_bottleneck_count
     top_bottlenecks = planning_freq.most_common(3) + measurement_freq.most_common(2)
     bottleneck_rows = [
         [name, str(count), "shared planning/control gap"]
         for name, count in top_bottlenecks
     ] or [["none", "0", "none"]]
+    bottleneck_assessment = (
+        [
+            "- No current-stage planning, measurement, or PM conformance bottlenecks were detected.",
+            "- Continue monitoring stage concentration and matter pressure before adding discretionary project WIP.",
+        ]
+        if bottleneck_total == 0
+        else [
+            "- The portfolio should close conformance residue before adding new discretionary project WIP.",
+            "- Shared planning and measurement gaps indicate migration work is still active, not complete.",
+        ]
+    )
 
     write_markdown(
         PORTFOLIO_MGMT_DIR / "PORTFOLIO_STATUS_DASHBOARD.md",
@@ -1045,9 +1060,9 @@ def llm_005_outputs(projects: List[ProjectSnapshot], run_id: str, matter_load: M
             [
                 "## Portfolio Bottlenecks",
                 "",
-                f"- Planning bottleneck candidates: {sum(1 for project in projects if project.missing_stage2_planning)}",
-                f"- Measurement bottleneck candidates: {sum(1 for project in projects if project.missing_stage2_measurement)}",
-                f"- PM conformance bottleneck candidates: {sum(1 for project in projects if project.conformance_failures)}",
+                f"- Planning bottleneck candidates: {planning_bottleneck_count}",
+                f"- Measurement bottleneck candidates: {measurement_bottleneck_count}",
+                f"- PM conformance bottleneck candidates: {conformance_bottleneck_count}",
                 "",
                 "## Top Bottlenecks",
                 "",
@@ -1055,8 +1070,7 @@ def llm_005_outputs(projects: List[ProjectSnapshot], run_id: str, matter_load: M
                 "",
                 "## Assessment",
                 "",
-                "- The portfolio should close conformance residue before adding new discretionary project WIP.",
-                "- Shared planning and measurement gaps indicate migration work is still active, not complete.",
+                *bottleneck_assessment,
             ]
         ),
     )
@@ -1436,8 +1450,8 @@ def write_run_outputs(
     )
     (run_root / "RUN_LOG.md").write_text(run_log, encoding="utf-8")
 
-    write_markdown(run_root / "LLM-004_PROJECT_MANAGEMENT_REPORT.md", "LLM-004 Project Management Report", run_id, llm_004_report)
-    write_markdown(run_root / "LLM-005_PORTFOLIO_MANAGEMENT_REPORT.md", "LLM-005 Portfolio Management Report", run_id, llm_005_report)
+    write_markdown(run_root / "LLM-004_LLP-043_REPORT.md", "LLM-004 Project Management Report", run_id, llm_004_report)
+    write_markdown(run_root / "LLM-005_LLP-042_REPORT.md", "LLM-005 Portfolio Management Report", run_id, llm_005_report)
     write_markdown(run_root / "LLM-006_PORTFOLIO_GOVERNANCE_REPORT.md", "LLM-006 Portfolio Governance Report", run_id, llm_006_report)
 
 

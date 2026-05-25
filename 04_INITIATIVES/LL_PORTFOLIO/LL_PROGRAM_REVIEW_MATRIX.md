@@ -25,7 +25,7 @@ For any numbered LL program:
 1. Read the relevant row in `LL_PROGRAM_SUMMARY_REPORT.md`
 2. Open the program `README.md`
 3. Review the governed packet folders inside that program
-4. Cross-check relevant packet health in `03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md`
+4. Cross-check relevant packet health in `03_FIRM_OPERATIONS/LLP-043/PROJECT_HEALTH_ROLLUP.md`
 5. If the issue is cross-project or stage-gate related, cross-check
    `PORTFOLIO_STATUS_DASHBOARD.md` and `GOVERNANCE_COMPLIANCE_AUDIT.md`
 
@@ -48,14 +48,14 @@ pointers only.
 
 | Program | Start Here | Primary Review Question | Useful Cross-Checks |
 | --- | --- | --- | --- |
-| `01_FINANCIAL_MANAGEMENT` | `01_FINANCIAL_MANAGEMENT/README.md` | Are accounting, management accounting, budgeting, cash/collections, and finance unified without collapsing their internal boundaries? | `LLP-001_ACCOUNTING`, `LLP-002_BUDGETING`, `LLP-044_FINANCE`, `LL_PROGRAM_SUMMARY_REPORT.md` |
+| `01_FINANCIAL_MANAGEMENT` | `01_FINANCIAL_MANAGEMENT/README.md` | Are accounting, management accounting, budgeting, cash/collections, and finance unified without collapsing their internal boundaries? | `LLP-001`, `LLP-002`, `LLP-044`, `LL_PROGRAM_SUMMARY_REPORT.md` |
 | `02_PRACTICE_AREAS` | `02_PRACTICE_AREAS/README.md` | Are the practice-area packets formalized enough to serve as governed operating knowledge? | `LL_PROGRAM_SUMMARY_REPORT.md`, packet READMEs under `LLP-015`, `LLP-035`, `LLP-036` |
-| `03_FIRM_OPERATIONS` | `03_FIRM_OPERATIONS/README.md` | Are the firm-running systems mature, current, and properly governed? | `PORTFOLIO_MANAGEMENT/`, `PORTFOLIO_GOVERNANCE/`, `PROJECT_MANAGEMENT/` |
+| `03_FIRM_OPERATIONS` | `03_FIRM_OPERATIONS/README.md` | Are the firm-running systems mature, current, and properly governed? | `LLP-042/`, `PORTFOLIO_GOVERNANCE/`, `LLP-043/` |
 | `04_RISK` | `04_RISK/README.md` | Does the risk layer surface real defensive clarity or only placeholder structure? | `LLP-017`, `LLP-018`, `GOVERNANCE_COMPLIANCE_AUDIT.md` |
 | `05_MATTER_DOCKETING` | `05_MATTER_DOCKETING/README.md` | Is the matter-delivery overlay clear and separate from billing, intake, and accounting? | `LLP-003`, `LLP-009`, `LLP-010`, `PROJECT_HEALTH_ROLLUP.md` |
 | `07_GROWTH_PROJECTS` | `07_GROWTH_PROJECTS/README.md` | Which growth projects are real near-term operating bets versus placeholder future-state slots? | `LLP-023`, `LLP-024`, `LLP-030`, `LLP-031`, `LLP-032`, `LLP-033`, `LLP-034` |
 | `08_MARKETING` | `08_MARKETING/README.md` | Is the pre-matter pipeline sequencing coherent from funnel through intake handoff? | `LLP-011` to `LLP-029`, `PORTFOLIO_STATUS_DASHBOARD.md`, `ML1_DECISION_QUEUE.md` |
-| `09_SERVICE_MANAGEMENT` | `09_SERVICE_MANAGEMENT/README.md` | Is the service-tier cluster substantive enough to justify remaining active as separate packets? | `LLP-046` to `LLP-041`, `PROJECT_HEALTH_ROLLUP.md`, `GOVERNANCE_COMPLIANCE_AUDIT.md` |
+| `LLP-046` | `LLP-046/README.md` | Is the service-tier cluster substantive enough to justify remaining active as separate packets? | `LLP-046` to `PARKED`, `PROJECT_HEALTH_ROLLUP.md`, `GOVERNANCE_COMPLIANCE_AUDIT.md` |
 
 ## Program-Specific Review Notes
 
@@ -94,7 +94,7 @@ Priority question:
 Priority question:
 - is the funnel-to-intake architecture progressing in the intended order, or is execution running ahead of governance?
 
-### 09_SERVICE_MANAGEMENT
+### LLP-046
 
 Priority question:
 - should the service-management cluster be strengthened, consolidated, or parked to reduce governance noise?

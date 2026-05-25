@@ -80,6 +80,6 @@ This project operates inside the existing Levine Law stack:
 - approved solution frames: `02_PLAYBOOKS/CORPORATE/WORKFLOWS/solutions/`,
   `02_PLAYBOOKS/CONTRACTS/WORKFLOWS/solutions/`, and
   `02_PLAYBOOKS/FINANCIAL_SERVICES/SOLUTIONS/`
-- approved strategy layer: `LLP-030_FIRM_STRATEGY` Business Plan, including F01 / F02 / F03
+- approved strategy layer: `LLP-030` Business Plan, including F01 / F02 / F03
   channel sequencing and ICP-01 / ICP-02 client logic
 - changes to this approved stack require ML1 approval

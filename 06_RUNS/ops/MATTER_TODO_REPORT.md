@@ -140,15 +140,20 @@ _Tasks requiring lawyer action, grouped by matter._
 _Items where we are awaiting response from others._
 
 **25-1318-00001 — Zelko Culibrk**
-- Love this!  Here is final lease, minus Tri-party thing being filled in. I am waiting on KaleMart fr...
+- Love this! 
+ Here is final lease, minus Tri-party thing being filled in. I am waiting on KaleMart fr...
   - _From: Chris Roop <roop.christopher@gmail.com> | 2026-02-24_
-- You got it. Thanks very much for being so great.  Should I expect to work with you at all going for...
+- You got it. Thanks very much for being so great. 
+ Should I expect to work with you at all going for...
   - _From: Chris Roop <roop.christopher@gmail.com> | 2026-02-24_
-- Good morning, Matthew!  Just so we do not duplicate efforts, let me know what you think of the belo...
+- Good morning, Matthew! 
+ Just so we do not duplicate efforts, let me know what you think of the belo...
   - _From: Chris Roop <roop.christopher@gmail.com> | 2026-02-24_
 
 **25-927-00003 — Stream Ventures Limited**
-- Hi Tawanda, Yes, we wil be starting the onboarding.  Its with our compliance/legal team.  I will f...
+- Hi Tawanda,
+ Yes, we wil be starting the onboarding.  Its with our compliance/legal
+ team.  I will f...
   - _From: Harry B <harry@stream.money> | 2026-02-24_
 
 ---

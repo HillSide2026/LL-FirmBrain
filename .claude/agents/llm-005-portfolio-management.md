@@ -26,7 +26,7 @@ WIP discipline. Write all portfolio management reports to the canonical folder.
 ## Step 1 — Read inputs
 
 **Required — read first:**
-`04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md`
+`04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/LLP-043/PROJECT_HEALTH_ROLLUP.md`
 
 If this file does not exist or has no `Generated:` timestamp, halt and output:
 > LLM-004 has not been run. PROJECT_HEALTH_ROLLUP.md is missing. Run LLM-004 first.
@@ -87,7 +87,7 @@ concentrated at one stage, especially Stage 2 (Planning).
 
 ## Step 3 — Write outputs
 
-**Output directory:** `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PORTFOLIO_MANAGEMENT/`
+**Output directory:** `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/LLP-042/`
 
 Write each file with this header:
 ```

@@ -20,7 +20,7 @@ tags: []
 
 ## Purpose
 
-LLM-004_PROJECT_MANAGEMENT_AGENT (“LLM-004”) enforces the Firm Project Doctrine by generating, validating, and maintaining required project artifacts and stage gates across firm projects.
+LLM-004_LLP-043_AGENT (“LLM-004”) enforces the Firm Project Doctrine by generating, validating, and maintaining required project artifacts and stage gates across firm projects.
 
 It provides ML1 with auditable, decision-ready summaries and ensures no project advances without the required approvals and planning controls.
 
@@ -226,8 +226,8 @@ conformance failures under `POL-073`.
 ```
 
 ### Agent-Level Governance Artifacts
-- `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_ARTIFACT_TEMPLATE.md`
-- `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/PROJECT_MANAGEMENT/PROJECT_HEALTH_ROLLUP.md`
+- `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/LLP-043/PROJECT_ARTIFACT_TEMPLATE.md`
+- `04_INITIATIVES/LL_PORTFOLIO/03_FIRM_OPERATIONS/LLP-043/PROJECT_HEALTH_ROLLUP.md`
 
 ---
 
