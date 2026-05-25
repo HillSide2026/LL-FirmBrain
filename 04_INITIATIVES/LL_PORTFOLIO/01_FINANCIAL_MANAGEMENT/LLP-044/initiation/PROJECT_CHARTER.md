@@ -3,7 +3,7 @@ title: LLP-044 Finance Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-15
-last_updated: 2026-05-15
+last_updated: 2026-05-20
 id: 04_initiatives_ll_portfolio_01_financial_management_llp_044_finance_initiation_project_charter_md
 tags: []
 ---
@@ -11,6 +11,7 @@ tags: []
 Project ID: LLP-044
 Project Path: 01_FINANCIAL_MANAGEMENT/LLP-044
 Project Type: Management Project
+Stage: Initiating
 
 # LLP-044 Finance Project Charter
 

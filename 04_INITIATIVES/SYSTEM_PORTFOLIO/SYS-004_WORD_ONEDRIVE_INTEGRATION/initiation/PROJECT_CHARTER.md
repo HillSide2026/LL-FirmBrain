@@ -4,7 +4,7 @@ title: Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 tags: []
 ---
 
@@ -14,7 +14,7 @@ Project ID: SYS-004
 Project Path: 04_INITIATIVES/SYSTEM_PORTFOLIO/SYS-004_WORD_ONEDRIVE_INTEGRATION
 Project Type: Operational Project
 Project Subtype: System Integration Packet
-Stage: Initiating
+Stage: Planning
 
 ## 1. Purpose
 - Define the intended Word / OneDrive integration surface before implementation begins so scope, dependencies, and governance rules are explicit.
@@ -33,4 +33,6 @@ Stage: Initiating
 Final approval authority: ML1.
 
 ## 6. Promotion Path
-- Advance to Planning once ML1 confirms that a dedicated Word / OneDrive surface is needed, what problem it solves beyond existing integrations, and what its boundary should be.
+- Planning is authorized. Advance to Executing once ML1 confirms that a
+dedicated Word / OneDrive surface is needed, what problem it solves beyond
+existing integrations, and what its boundary should be.

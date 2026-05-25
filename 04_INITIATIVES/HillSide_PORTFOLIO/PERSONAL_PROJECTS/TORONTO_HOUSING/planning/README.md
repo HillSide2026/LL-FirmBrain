@@ -4,7 +4,7 @@ title: Toronto Housing - Planning
 owner: ML1
 status: active
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-20
 tags: [hillside, personal-projects, housing, toronto, planning]
 ---
 
@@ -21,10 +21,15 @@ Produce an ML1 decision-ready recommendation on whether the correct 2026
 housing path is new owned housing in Toronto or leaving Toronto, with the
 housing budget anchored inside the overall wealth plan.
 
-## Planning Status (2026-04-03)
+## Planning Status (Updated 2026-05-16)
 
 - `Initiating -> Planning` approval is recorded in `../APPROVAL_RECORD.md`.
-- Planning is now open.
+- Planning now reflects a reduced-Toronto-use seasonal model rather than an
+  assumed full-year Toronto base.
+- The current seasonal direction is fall in Japan, winter in Brazil or
+  Thailand, and spring in Japan.
+- That shift materially increases the burden of proof on any owned-Toronto
+  option.
 - Executing is not yet authorized.
 
 ## Planning Outcomes Required
@@ -36,15 +41,14 @@ housing budget anchored inside the overall wealth plan.
 5. One direction is narrowed enough for ML1 to make a planning-exit decision.
 6. The `Planning -> Executing` packet is ready for ML1.
 
-## Immediate Planning Sprint
+## Current Planning Focus
 
-| Item | Owner | Due Date | Evidence |
-| --- | --- | --- | --- |
-| Option set and criteria lock | ML1 | 2026-04-05 | `DECISION_FRAME.md` |
-| Housing-budget and wealth-plan anchor draft | ML1 | 2026-04-07 | `ASSUMPTIONS_CONSTRAINTS.md`, `DEPENDENCIES.md` |
-| Guardrail and no-go threshold lock | ML1 | 2026-04-08 | `METRICS.md`, `RISK_REGISTER.md` |
-| Toronto ownership versus leave-Toronto comparison | ML1 | 2026-04-10 | `DECISION_FRAME.md`, `PROJECT_PLAN.md` |
-| Planning gate packet assembly | ML1 | 2026-04-12 | planning folder, `../APPROVAL_RECORD.md` |
+- test whether any owned-Toronto path survives the reduced Toronto-use case
+- formalize the housing budget and liquidity guardrails inside the overall
+  wealth plan
+- compare ownership versus leaving Toronto under the new seasonal pattern
+- define the no-go triggers for liquidity, flexibility, and fit
+- prepare the planning-exit packet once one path is sufficiently narrowed
 
 ## Stage-Gate Rule
 

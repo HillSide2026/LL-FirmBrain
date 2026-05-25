@@ -4,7 +4,7 @@ title: Develop and Launch Micro SaaS (TariffLookup.ca) - Project Charter
 owner: ML1
 status: active
 created_date: 2026-03-12
-last_updated: 2026-03-12
+last_updated: 2026-05-20
 tags: [micro-saas, charter, venture]
 ---
 
@@ -14,7 +14,7 @@ tags: [micro-saas, charter, venture]
 **Project ID:** HBP-004
 **Project Path:** 04_INITIATIVES/HillSide_PORTFOLIO/BUSINESS_PROJECTS/HBP-004_MICRO_SAAS_BUILD_AND_LAUNCH
 **Project Type:** Strategic
-**Stage:** Initiating
+**Stage:** Executing
 
 ## Sponsor
 
@@ -40,10 +40,10 @@ Build and launch one small Micro SaaS product within a tightly controlled scope 
 
 ## Immediate Next Actions
 
-- define ICP and one core workflow to solve
-- draft MVP scope and timeline
-- set validation metrics (activation, retention, revenue)
-- assign execution owner and weekly operating cadence
+- complete the MVP against the approved scope
+- launch the product to production
+- onboard pilot users and capture activation evidence
+- run the post-launch stability review and next-step decision
 
 ## Risks
 

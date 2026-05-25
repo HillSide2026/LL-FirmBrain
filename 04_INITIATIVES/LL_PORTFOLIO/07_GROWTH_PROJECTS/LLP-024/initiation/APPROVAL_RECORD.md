@@ -4,7 +4,7 @@ title: NDA Esq - Approval Record
 owner: ML1
 status: approved
 created_date: 2026-03-14
-last_updated: 2026-03-15
+last_updated: 2026-05-20
 tags: [nda-esq, strategic-project, approval]
 ---
 
@@ -12,11 +12,11 @@ tags: [nda-esq, strategic-project, approval]
 
 Project ID: LLP-024
 Project Path: 04_INITIATIVES/LL_PORTFOLIO/07_GROWTH_PROJECTS/LLP-024
-Stage: Planning
+Stage: Executing
 
 Project Name: NDA Esq
 
-Status: Planning Authorized
+Status: Executing Authorized
 
 ## Current State
 
@@ -27,7 +27,8 @@ Status: Planning Authorized
 - Initiation approved by ML1
 - Planning authorized by ML1
 - Planning artifacts drafted
-- Execution not yet authorized
+- Executing is authorized as of 2026-03-18
+- Operational promotion remains separately gated by ML1
 
 ## Stage Gate: Initiating -> Planning
 

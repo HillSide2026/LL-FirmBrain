@@ -1,6 +1,6 @@
 schema_version: '1.0'
 owner: ML1
-last_updated: '2026-03-23'
+last_updated: '2026-05-20'
 rules_dir: 01_DOCTRINE/RULES
 tests_dir: 01_DOCTRINE/TESTS
 rules: []
@@ -21,8 +21,8 @@ principles:
   path: 01_DOCTRINE/02_PRINCIPLES/PRN-001_Decision_Principles.md
   version: '1.0'
   status: approved
-approved_by: ML1
-approved_date: 2026-04-18
+  approved_by: ML1
+  approved_date: 2026-04-18
   history: []
 - id: PRN-002
   title: Human Primacy
@@ -752,6 +752,20 @@ protocols:
   version: '1.0'
   status: draft
   policy: POL-066
+  history: []
+- id: PRO-027
+  title: Matter Level Update
+  path: 01_DOCTRINE/05_PROTOCOLS/PRO-027_Matter_Level_Update.md
+  version: '0.1'
+  status: draft
+  policy: unknown
+  history: []
+- id: PRO-028
+  title: Project Level Update
+  path: 01_DOCTRINE/05_PROTOCOLS/PRO-028_Project_Level_Update.md
+  version: '0.1'
+  status: draft
+  policy: unknown
   history: []
 - id: 01_doctrine__protocols__readme_md
   title: Protocols (Level 4)

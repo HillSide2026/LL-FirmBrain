@@ -4,7 +4,7 @@ title: Matter Brief — 26-1639-00003 — Andersen (Market Access)
 owner: ML1
 status: draft
 created_date: 2026-03-22
-last_updated: 2026-05-07
+last_updated: 2026-05-20
 tags: [matter, 26-1639-00003]
 ---
 
@@ -14,8 +14,10 @@ tags: [matter, 26-1639-00003]
 
 Market access workstream inside the established Andersen client relationship.
 Andersen is the LL client. This matter is meant to hold prospective end-client
-files in this lane as they emerge through Andersen. No live file is currently
-underway, but two early agri-food tracks are now visible inside the matter.
+files in this lane as they emerge through Andersen. No live instructed file is
+currently underway. The current issue is whether `MA-003` is concrete enough to
+become a real Andersen-originated legal mandate. Earlier agri-food tracks are
+inactive.
 
 ## Governing Framework
 
@@ -53,3 +55,4 @@ underway, but two early agri-food tracks are now visible inside the matter.
 - 2026-04-03 — Reframed as an Andersen end-client sales pipeline for the market-access lane
 - 2026-04-29 — Both agri-food tracks (MA-001, MA-002) marked inactive; no importer interest; ML1 confirmed lost interest
 - 2026-05-07 — MA-003 added: Albor Financial (fintech, stablecoin treasury software for banks); wants Andersen to lead LatAm market access strategy; stage: identified
+- 2026-05-20 — Matter summary synced to MA-003 as the current market-access qualification issue

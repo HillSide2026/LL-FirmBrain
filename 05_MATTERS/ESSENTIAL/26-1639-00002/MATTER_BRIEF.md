@@ -4,7 +4,7 @@ title: Matter Brief — 26-1639-00002 — Andersen (Trade Remedies)
 owner: ML1
 status: draft
 created_date: 2026-03-22
-last_updated: 2026-04-29
+last_updated: 2026-05-20
 tags: [matter, 26-1639-00002]
 ---
 
@@ -12,7 +12,7 @@ tags: [matter, 26-1639-00002]
 
 ## One-paragraph gist
 
-Trade remedies / trade defence workstream inside the established Andersen client relationship. Andersen is the LL client. Two wood-sector leads are at `contacted` stage and have been reconciled against live CITT proceedings: TR-003 maps to PI-2026-001 (plywood anti-dumping, China; determination June 9, 2026) and TR-004 maps to GC-2026-001 (Certain Wood Goods safeguard; questionnaires due May 15, 2026). No file has been instructed. Both tracks carry near-term deadlines that require qualification decisions promptly.
+Trade remedies / trade defence workstream inside the established Andersen client relationship. Andersen is the LL client. Two wood-sector leads are at `contacted` stage and have been reconciled against live CITT proceedings: TR-003 maps to PI-2026-001 (plywood anti-dumping, China; determination June 9, 2026) and TR-004 maps to GC-2026-001 (Certain Wood Goods safeguard; questionnaire deadline passed May 15, 2026). No file has been instructed. The current issue is whether either lead is concrete enough to become an instructed file through Andersen.
 
 ## Governing Framework
 
@@ -31,19 +31,19 @@ Trade remedies / trade defence workstream inside the established Andersen client
 
 ## Current posture
 
-- **State:** Existing-client trade-remedies lane — time-sensitive; two live proceedings active
-- **Primary Activity:** Qualify TR-003 and TR-004 contacts against live CITT proceedings before key deadlines pass
+- **State:** Existing-client trade-remedies lane — qualification issue; no instructed end-client file
+- **Primary Activity:** Qualify current trade-remedies leads and determine whether either can convert into instructed work through Andersen
 - **Current tracks:** `TR-003` contacted; `TR-004` contacted
 - **Inactive tracks:** `TR-001` (frozen vegetables); `TR-002` (custom furniture)
 - **CITT proceedings reconciled (2026-04-29):**
   - TR-003: **PI-2026-001** — Decorative and Other Non-Structural Plywood (China); preliminary injury inquiry initiated April 13, 2026; **determination due June 9, 2026**
-  - TR-004: **GC-2026-001** — Certain Wood Goods (safeguard); initiated April 21, 2026; **questionnaires due May 15, 2026**
+  - TR-004: **GC-2026-001** — Certain Wood Goods (safeguard); initiated April 21, 2026; **questionnaire deadline passed May 15, 2026**
 
 ## Open questions
 
-- TR-003: Is the contact a domestic producer complainant already in PI-2026-001, or an importer seeking to participate? Determination is June 9 — ~6 weeks away.
-- TR-004: What is the contact's position (domestic producer, importer, or downstream user)? The May 15 questionnaire deadline is 16 days away. Missing it forecloses formal participation in GC-2026-001.
-- Can either track reach `qualified` before the relevant deadline passes?
+- TR-003: Is the contact a domestic producer complainant already in PI-2026-001, or an importer seeking to participate before the June 9, 2026 determination?
+- TR-004: What is the contact's position (domestic producer, importer, or downstream user), and does any practical participation path remain now that the questionnaire deadline passed on May 15, 2026?
+- Can either track reach `qualified` under the Andersen criteria?
 
 ## Change log
 
@@ -51,3 +51,4 @@ Trade remedies / trade defence workstream inside the established Andersen client
 - 2026-04-02 — Reframed as an Andersen end-client sales pipeline with two trackable file opportunities
 - 2026-04-29 — Pipeline corrected per ML1: TR-001/TR-002 inactive; TR-003/TR-004 added as wood-sector leads at `contacted`
 - 2026-04-29 — CITT proceedings reconciled against live filings: TR-003 matched to PI-2026-001; TR-004 matched to GC-2026-001; deadlines flagged
+- 2026-05-20 — Current trade-remedies qualification posture synced; TR-004 note updated for the passed questionnaire deadline

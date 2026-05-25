@@ -2,10 +2,10 @@
 id: hbp-012-info-product-readme
 title: HBP-012 — Launch, Market, Sell and Monetize Information Product
 owner: ML1
-status: initiating
+status: executing
 created_date: 2026-04-14
-last_updated: 2026-05-10
-tags: [hillside, hbp-012, info-product, initiating]
+last_updated: 2026-05-20
+tags: [hillside, hbp-012, info-product, executing]
 ---
 
 # HBP-012 — Launch, Market, Sell and Monetize Information Product
@@ -14,12 +14,13 @@ tags: [hillside, hbp-012, info-product, initiating]
 
 **Project ID:** HBP-012
 **Entity:** 17513721 Canada Inc (Matthew Holdings)
-**Stage:** Initiating
+**Stage:** Executing
 **Type:** Strategic
 **Owner:** ML1
 
 Launch, market, sell, and monetize an information product under Matthew Holdings.
-Full project definition pending ML1 input on product, audience, and revenue model.
+The project is now in executing-stage validation around the Corporate Starter
+Kit / Founder Contract Template Pack.
 
 ## LL Funnel Interface
 
@@ -38,10 +39,10 @@ or the Rousseau Mazzuca referral lane without increasing ML1 service burden.
 
 | Artifact | Status |
 |---|---|
-| `PROJECT_CHARTER.md` | Draft — pending ML1 input |
-| `PROBLEM_STATEMENT.md` | Pending ML1 input |
-| `SUCCESS_CRITERIA.md` | Pending ML1 input |
-| `STAKEHOLDERS.md` | Pending ML1 input |
-| `RISK_SCAN.md` | Pending ML1 input |
-| `BUSINESS_CASE.md` | Pending ML1 input |
-| `APPROVAL_RECORD.md` | Pending |
+| `PROJECT_CHARTER.md` | Complete |
+| `PROBLEM_STATEMENT.md` | Complete |
+| `SUCCESS_CRITERIA.md` | Complete |
+| `STAKEHOLDERS.md` | Complete |
+| `RISK_SCAN.md` | Complete |
+| `BUSINESS_CASE.md` | Complete |
+| `APPROVAL_RECORD.md` | Approved |

@@ -4,7 +4,7 @@ title: Japan Home Decision - Planning
 owner: ML1
 status: active
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-20
 tags: [hillside, personal-projects, japan-home, housing, planning]
 ---
 
@@ -21,10 +21,19 @@ Produce an ML1 decision-ready recommendation on whether the correct 2026
 outcome is to pursue acquisition of a home in Japan, defer it, or rule it out,
 with any budget anchored inside the overall wealth plan.
 
-## Planning Status (2026-04-03)
+## Planning Status (Updated 2026-05-16)
 
 - `Initiating -> Planning` approval is recorded in `../APPROVAL_RECORD.md`.
-- Planning is now open.
+- Planning has moved from abstract option framing to a live seasonal-housing
+  direction.
+- The current working direction is to buy a house in Japan, subject to tax,
+  residency, ownership-structure, and wealth-plan guardrails.
+- Current seasonal pattern: fall in Japan, winter in Brazil or Thailand, spring
+  in Japan; summer remains undecided.
+- Current budget ceiling: `CAD 400,000` cash.
+- Active location clusters: Kamakura / Atami and Nikko / Imaichi.
+- Current property thesis: detached mid-sized house, minimum 2 bedrooms, at
+  least 2 separate toilet rooms, with 2 full bathrooms preferred.
 - Executing is not yet authorized.
 
 ## Planning Outcomes Required
@@ -36,15 +45,13 @@ with any budget anchored inside the overall wealth plan.
 5. The go / defer / no decision frame is clear enough for ML1.
 6. The `Planning -> Executing` packet is ready for ML1.
 
-## Immediate Planning Sprint
+## Current Planning Focus
 
-| Item | Owner | Due Date | Evidence |
-| --- | --- | --- | --- |
-| Use-case thesis and option set lock | ML1 | 2026-04-05 | `DECISION_FRAME.md` |
-| Budget and wealth-plan anchor draft | ML1 | 2026-04-07 | `ASSUMPTIONS_CONSTRAINTS.md`, `DEPENDENCIES.md` |
-| Critical diligence-gap prioritization | ML1 | 2026-04-08 | `DEPENDENCIES.md`, `RISK_REGISTER.md` |
-| Go / defer / no decision rule lock | ML1 | 2026-04-10 | `DECISION_FRAME.md`, `METRICS.md` |
-| Planning gate packet assembly | ML1 | 2026-04-12 | planning folder, `../APPROVAL_RECORD.md` |
+- lock the tax-residency and inheritance-tax diligence questions
+- determine the preferred acquisition path, ownership structure, and no-go triggers
+- formalize the `CAD 400,000` ceiling inside the overall wealth plan
+- test the live property-search clusters against the now-confirmed seasonal use case
+- prepare the planning-exit packet once the remaining guardrails are explicit
 
 ## Stage-Gate Rule
 

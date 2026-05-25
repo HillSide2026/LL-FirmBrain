@@ -4,7 +4,7 @@ title: Japan Home Decision
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-05-16
+last_updated: 2026-05-20
 tags: [hillside, personal-projects, japan-home, housing]
 ---
 
@@ -24,6 +24,10 @@ This project is a planning-stage HillSide personal decision project.
 - Standalone project packet opened on `2026-04-03`
 - `Initiating -> Planning` gate approved on `2026-04-03`
 - Planning packet opened in `planning/`
+- Current working direction: pursue a Japan home as a seasonal housing base,
+  subject to guardrails
+- Current budget ceiling: `CAD 400,000` cash
+- Active search clusters: Kamakura / Atami and Nikko / Imaichi
 - Executing is not yet authorized
 - This is a personal project and not an `HBP` business-project packet
 
@@ -34,12 +38,14 @@ Japan as part of a seasonal housing strategy.
 
 ## Current Planning Work
 
-- define why a Japan home is under consideration
-- define the decision boundary and what counts as a decision
-- define capital-allocation, liquidity, and complexity guardrails
-- formalize how any Japan home budget fits within the overall wealth plan
-- identify the highest-risk legal, tax, financing, and operating questions
-- prepare a clean go / defer / no decision packet
+- lock the ownership, tax-residency, and inheritance-tax guardrails around the
+  now-live seasonal housing thesis
+- formalize the `CAD 400,000` ceiling and acquisition path inside the overall
+  wealth plan
+- test the active location clusters against the property criteria and seasonal
+  use case
+- identify the final no-go triggers before any execution step is considered
+- prepare a clean pursue / defer / no decision packet
 
 ## Notes
 

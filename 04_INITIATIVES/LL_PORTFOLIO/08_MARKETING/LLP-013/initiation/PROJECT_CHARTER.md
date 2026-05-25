@@ -4,7 +4,7 @@ title: Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 tags: []
 ---
 
@@ -13,7 +13,7 @@ tags: []
 Project ID: LLP-013
 Project Path: 08_MARKETING/LLP-013
 Project Type: Management Project
-Stage: Initiating
+Stage: Planning
 
 ## 1. Purpose
 Initiate governed execution and optimization planning for Funnel 03, including
@@ -45,4 +45,5 @@ Final approval authority: ML1.
 Execution is constrained by ML2 doctrine and approved funnel definitions.
 
 ## 6. Promotion Path
-Upon ML1 initiation approval, advance to Planning for metric formalization, baseline capture, and validation criteria.
+Planning is authorized. Advance to Executing (`Pre-Launch`) once ML1 approves
+metric thresholds, baseline capture, and validation criteria.

@@ -5,18 +5,16 @@ owner: ML1
 status: draft
 project_type: operational
 created_date: 2026-03-08
-last_updated: 2026-03-08
+last_updated: 2026-05-20
 tags: []
 ---
 
 # Project Charter
 
-> ML2 DRAFT - Awaiting ML1 review and approval.
-
 Project: LLP-004 - Onboarding
 Project ID: LLP-004
 Project Type: Operational
-Stage: Initiating
+Stage: Executing
 
 ## 1. Purpose
 
@@ -44,4 +42,6 @@ No transition to opening without ML1-approved Gate 2 conditions.
 
 ## 5. Promotion Path
 
-Upon completion of initiation, planning, and implementation, LLP-004 operates as a standing onboarding function under `03_FIRM_OPERATIONS` and hands authorized matters to LLP-005 Opening.
+Executing is authorized. LLP-004 now operates as a standing onboarding
+function under `03_FIRM_OPERATIONS` and hands authorized matters to LLP-005
+Opening.

@@ -4,7 +4,7 @@ title: Approval Record — HBP-012 — Info Product
 owner: ML1
 status: draft
 created_date: 2026-04-14
-last_updated: 2026-04-14
+last_updated: 2026-05-20
 tags: [hillside, hbp-012, info-product]
 ---
 
@@ -33,9 +33,10 @@ tags: [hillside, hbp-012, info-product]
 
 ## ML1 Notes
 
-Initiation packet completed 2026-04-14. All artifacts reflect ML1 input on
-product definition, ICP, revenue model, and launch strategy. Pending ML1
-sign-off to advance to Planning and admit project to register.
+Initiation packet was completed on 2026-04-14. ML1 approved
+`Initiating -> Planning` and `Planning -> Executing` on 2026-04-25. The
+project is therefore in executing-stage validation around the live product and
+its early revenue test.
 
 **One open gap flagged at initiation:** No scalable traffic plan exists beyond
 the 48-hour warm outreach window (20 DMs + 2 community posts + 1 LinkedIn post).

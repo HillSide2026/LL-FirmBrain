@@ -4,7 +4,7 @@ title: Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 tags: []
 ---
 
@@ -13,16 +13,16 @@ tags: []
 Project ID: LLP-012
 Project Path: 08_MARKETING/LLP-012
 Project Type: Management Project
-Stage: Planning
+Stage: Executing
 
 ## 1. Purpose
-Initiate execution planning for Funnel 02 as the corporate-law services funnel
-for strategically relevant growing businesses with at least `CAD 5M` annual
-cash flow.
+Govern executing-stage operation and optimization for Funnel 02 as the
+corporate-law services funnel for strategically relevant growing businesses
+with at least `CAD 5M` annual cash flow.
 
 ## 2. Nature of Project
-Marketing design-to-launch readiness project.
-No live deployment authorized at initiation stage.
+Marketing execution and optimization project.
+Live execution is authorized within ML1-approved constraints.
 
 This project may define the acquisition, intake, staffing, and legal-delivery
 readiness model for Funnel 02, but it does not itself authorize live external
@@ -39,7 +39,7 @@ execution.
 - strengthen `levine-law.ca` as the controlled acquisition surface for Funnel 02.
 
 ## 4. High-Level Deliverable
-- Funnel 02 initiation package including:
+- Funnel 02 operating packet including:
   - campaign and asset baseline,
   - qualification gate implementation plan,
   - migration plan from `levinelegal.ca` to `levine-law.ca`,
@@ -82,4 +82,5 @@ Final approval authority: ML1.
 All execution remains constrained by ML2 doctrine and approved funnel definitions.
 
 ## 7. Promotion Path
-Upon ML1 initiation approval, move to Planning for metrics, baseline collection, and go/no-go launch thresholds.
+Executing is authorized. Ongoing changes remain subject to ML1 approval, ML2
+doctrine, and the approved Funnel 02 constraints.

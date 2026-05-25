@@ -4,7 +4,7 @@ title: Sales Pipeline — 26-1639-00002 — Andersen (Trade Remedies)
 owner: ML1
 status: draft
 created_date: 2026-04-02
-last_updated: 2026-04-29
+last_updated: 2026-05-20
 tags: [matter, sales-pipeline, 26-1639-00002]
 practice_areas: [trade_remedies, trade_defence, customs]
 ---
@@ -36,8 +36,8 @@ client as automatically being the LL client of record.
 
 | Track ID | End-client file | Segment | Stage | Current signal | Next step |
 |----------|-----------------|---------|-------|----------------|-----------|
-| `TR-003` | Plywood — anti-dumping / countervailing duties (China) | Wood / Forest Products | `contacted` | **CITT PI-2026-001** — Decorative and Other Non-Structural Plywood (China); preliminary injury inquiry initiated April 13, 2026; **determination due June 9, 2026** | Qualify urgently: confirm whether contact is a domestic producer complainant already in the proceeding or an importer seeking to participate; June 9 determination is ~6 weeks away |
-| `TR-004` | Processed wood — safeguard inquiry | Wood / Forest Products | `contacted` | **CITT GC-2026-001** — Certain Wood Goods; inquiry initiated April 21, 2026; **questionnaires due May 15, 2026 (16 days)**; public hearings Oct 1-9, 2026; report due Jan 15, 2027 | Qualify urgently: May 15 questionnaire deadline requires immediate participation decision; confirm whether contact is a domestic producer seeking protection, importer, or downstream user |
+| `TR-003` | Plywood — anti-dumping / countervailing duties (China) | Wood / Forest Products | `contacted` | **CITT PI-2026-001** — Decorative and Other Non-Structural Plywood (China); preliminary injury inquiry initiated April 13, 2026; **determination due June 9, 2026** | Qualify urgently: confirm whether contact is a domestic producer complainant already in the proceeding or an importer seeking to participate before the June 9, 2026 determination |
+| `TR-004` | Processed wood — safeguard inquiry | Wood / Forest Products | `contacted` | **CITT GC-2026-001** — Certain Wood Goods; inquiry initiated April 21, 2026; **questionnaire deadline passed May 15, 2026**; public hearings Oct 1-9, 2026; report due Jan 15, 2027 | Reassess viability: confirm whether contact is a domestic producer, importer, or downstream user, and determine whether any practical participation path remains after the missed questionnaire deadline |
 
 ## Inactive Tracks
 

@@ -3,12 +3,9 @@ matter_name: "Andersen"
 matter_description: "Market Access"
 status: "Open"
 delivery_status: "Essential"
-fulfillment_status: "keep in view"
+fulfillment_status: "active"
 created_date: "2026-03-09"
 services:
-  - service_type: solution
-    service_name: "Pecans from Northern Israel — agri-food market-access file"
-    status: "identified"
-  - service_type: solution
-    service_name: "Flavored butter from Manitoba — agri-food market-access file"
+  - service_type: "solution"
+    service_name: "Albor Financial — stablecoin treasury software / LatAm market-access file — MA-003"
     status: "identified"

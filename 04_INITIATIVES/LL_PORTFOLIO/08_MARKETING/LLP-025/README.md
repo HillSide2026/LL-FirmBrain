@@ -5,7 +5,7 @@ owner: ML1
 status: draft
 project_stage: planning
 created_date: 2026-03-17
-last_updated: 2026-04-07
+last_updated: 2026-05-20
 tags: [marketing, strategy, positioning, objectives, goals]
 ---
 
@@ -74,6 +74,18 @@ ML1 approval is required for scope, changes, and any execution commitments.
 
 Planning in progress.
 Initiating -> Planning was approved by ML1 on `2026-03-17`.
+
+## Current Planning Posture
+
+The higher-level marketing frame is in place, but several decisions that affect
+the F02 execution path remain open inside the planning packet:
+
+- the primary ICP-02 channel hypothesis
+- the initial SEO direction (`Exits` versus `Structuring`)
+- the final framing of the F02 entry offer
+
+Those questions are tracked in `planning/OPEN_QUESTIONS.md` and should not be
+treated as fully settled yet in downstream project summaries.
 
 ## Last ML1 Review Date
 

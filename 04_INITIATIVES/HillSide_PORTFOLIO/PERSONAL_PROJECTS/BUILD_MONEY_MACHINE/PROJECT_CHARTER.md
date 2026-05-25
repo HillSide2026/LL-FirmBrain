@@ -4,7 +4,7 @@ title: Build Money Machine - Project Charter
 owner: ML1
 status: draft
 created_date: 2026-03-26
-last_updated: 2026-03-26
+last_updated: 2026-05-20
 tags: [hillside, personal-projects, money-machine, charter]
 ---
 
@@ -14,7 +14,7 @@ tags: [hillside, personal-projects, money-machine, charter]
 **Project ID:** `BUILD_MONEY_MACHINE`
 **Project Path:** `04_INITIATIVES/HillSide_PORTFOLIO/PERSONAL_PROJECTS/BUILD_MONEY_MACHINE`
 **Project Type:** Personal
-**Stage:** Initiating
+**Stage:** Planning
 
 ## Project Owner
 
@@ -108,7 +108,7 @@ abundance.
 1. define the personal money-system boundary and objectives
 2. establish the income, spending, saving, and investing control model
 3. define the five-stage progression framework and measurement system
-4. prepare the `Initiating -> Planning` authorization packet
+4. prepare the `Planning -> Executing` authorization packet
 
 ## Immediate Next Actions
 
@@ -118,7 +118,7 @@ abundance.
 - define the qualification rules for stability, security, independence, freedom,
   and abundance
 - choose the monthly dashboard metrics and review cadence
-- prepare the initiation packet for ML1 review
+- prepare the execution-ready planning packet for ML1 review
 
 ## Risks
 
@@ -129,4 +129,5 @@ abundance.
 
 ## Governance
 
-ML1-controlled stage gate. Planning and executing work are not authorized until ML1 approves transition out of Initiating.
+ML1-controlled stage gate. Planning is authorized. Executing work remains
+closed until ML1 records a separate `Planning -> Executing` approval.

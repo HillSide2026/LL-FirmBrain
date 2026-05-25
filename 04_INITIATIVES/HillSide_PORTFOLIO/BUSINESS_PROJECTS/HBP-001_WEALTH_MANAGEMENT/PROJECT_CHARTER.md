@@ -4,7 +4,7 @@ title: Wealth Management - Project Charter
 owner: ML1
 status: draft
 created_date: 2026-03-14
-last_updated: 2026-04-03
+last_updated: 2026-05-20
 tags: [wealth-management, charter, strategic]
 ---
 
@@ -14,7 +14,7 @@ tags: [wealth-management, charter, strategic]
 **Project ID:** HBP-001  
 **Project Path:** `04_INITIATIVES/HillSide_PORTFOLIO/BUSINESS_PROJECTS/HBP-001_WEALTH_MANAGEMENT`  
 **Project Type:** Strategic  
-**Stage:** Initiating
+**Stage:** Planning
 
 ## Sponsor
 
@@ -40,14 +40,14 @@ CAD 4,000,000 by `2040-12-31` (when Matthew is 60).
 - the `2030-12-31` net-worth target and measurement basis are fixed explicitly
 - an opening consolidated net-worth baseline and gap-to-target are documented
 - capital-allocation, liquidity, and review rules are defined at planning-ready level
-- ML1 receives a planning-ready go / hold / no-go packet
+- ML1 receives an execution-ready go / hold / no-go packet
 
 ## Stage Plan
 
 1. define the net-worth measurement boundary and opening balance sheet
 2. quantify the gap to target and annual compounding requirement
 3. define capital-allocation, liquidity, and governance assumptions
-4. prepare planning authorization packet
+4. prepare execution authorization packet
 
 ## Immediate Next Actions
 
@@ -64,5 +64,5 @@ CAD 4,000,000 by `2040-12-31` (when Matthew is 60).
 
 ## Governance
 
-ML1-controlled stage gate. No planning or executing work is authorized
-until ML1 approves the transition out of Initiating.
+ML1-controlled stage gate. Planning is authorized. Executing work remains
+gated until ML1 approves the transition out of Planning.

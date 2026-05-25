@@ -4,7 +4,7 @@ title: Build Money Machine
 owner: ML1
 status: draft
 created_date: 2026-03-26
-last_updated: 2026-03-26
+last_updated: 2026-05-20
 tags: [hillside, personal-projects, money-machine]
 ---
 
@@ -22,6 +22,7 @@ This project is a planning-stage HillSide personal project.
 - Stage: `Planning`
 - `Initiating -> Planning` gate approved on `2026-03-26`
 - Planning packet is open in `planning/`
+- The five-stage qualification frame is now defined in `planning/METRICS.md`
 - Executing is not yet authorized
 - This is a personal project and not an `HBP` business-project packet
 
@@ -54,7 +55,8 @@ independence, financial freedom, and financial abundance.
 - define the savings, investing, and allocation model
 - define the life-vision, lifestyle target, and "enough" numbers the machine is meant to serve
 - define the monthly dashboard, metrics, and review cadence
-- define the qualification rules for the five money-machine stages
+- apply the now-defined qualification rules for the five money-machine stages to
+  the current baseline and target path
 - define the path from current baseline to the `2030-12-31` and `2040-12-31` targets
 - prepare the `Planning -> Executing` gate packet for ML1
 

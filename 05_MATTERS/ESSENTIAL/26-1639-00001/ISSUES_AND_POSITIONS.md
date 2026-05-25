@@ -5,7 +5,7 @@ title: Issues & Positions — 26-1639-00001 — Andersen (Client Relationship Ma
 owner: ML1
 status: draft
 created_date: 2026-04-12
-last_updated: 2026-04-12
+last_updated: 2026-05-20
 tags: [matter, 26-1639-00001]
 ---
 
@@ -37,14 +37,14 @@ tags: [matter, 26-1639-00001]
    - Status: BD opportunity identified; no formal engagement opened
 
 5. **Trade Remedies — CITT (Lane 26-1639-00002)**
-   - TR-001: Qualified; decision pending on whether to move to active closing
-   - TR-002: Identified
-   - Status: Active pipeline; see lane matter for detail
+   - TR-003: Contacted; plywood anti-dumping / countervailing-duties opportunity tied to PI-2026-001
+   - TR-004: Contacted; processed wood safeguard opportunity tied to GC-2026-001
+   - Status: Qualification issue; no instructed file opened; see lane matter for detail
 
 6. **Market Access (Lane 26-1639-00003)**
-   - MA-001 and MA-002: Identified
-   - Confirm parties, jurisdictions, actual legal ask, and segment priority
-   - Status: Active pipeline; see lane matter for detail
+   - MA-003: Identified; Albor Financial stablecoin treasury software / LatAm market-access opportunity
+   - Confirm jurisdictions, Andersen's role, and LL's legal advisory angle
+   - Status: Qualification issue; no instructed file opened; see lane matter for detail
 
 ## ML1 Positions
 
@@ -52,11 +52,13 @@ tags: [matter, 26-1639-00001]
 - Track 2 (Data Centre) — [BD IDENTIFIED: No action]
 - Track 3 (Investment Arbitration) — [BD IDENTIFIED: No action]
 - Track 4 (Sanctions) — [BD IDENTIFIED: No action]
-- Track 5 (Trade Remedies) — [ACTIVE PIPELINE: Decision on TR-001 closing pending]
-- Track 6 (Market Access) — [ACTIVE PIPELINE: Confirm parties and legal ask]
+- Track 5 (Trade Remedies) — [ACTIVE PIPELINE: Qualify TR-003 and reassess TR-004 after the missed questionnaire deadline]
+- Track 6 (Market Access) — [ACTIVE PIPELINE: Qualify MA-003 and define LL's role]
 
 ## Decisions Log
 
 - 2026-04-07 — Hernany V. email: Business opportunities 2026 — Data Centre, Energy, Investment Arbitration, Sanctions
 - 2026-04-08-13 — ESG mining POC thread: POC strategy agreed; draft reply pending
 - 2026-04-12 — Issues documented from Gmail analysis
+- 2026-04-29 — Trade-remedies lane updated: TR-001/TR-002 inactive; TR-003/TR-004 current
+- 2026-05-07 — Market-access lane updated: MA-003 added; MA-001/MA-002 inactive

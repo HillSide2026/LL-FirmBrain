@@ -4,7 +4,7 @@ title: Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 tags: []
 ---
 
@@ -14,7 +14,7 @@ Project ID: SYS-003
 Project Path: 04_INITIATIVES/SYSTEM_PORTFOLIO/SYS-003_SHAREPOINT_INTEGRATION
 Project Type: Operational Project
 Project Subtype: System Integration Packet
-Stage: Initiating
+Stage: Planning
 
 ## 1. Purpose
 - Formalize the active SharePoint integration surface so approved sites, wrappers, helper tools, and write boundaries are governed explicitly.
@@ -34,4 +34,6 @@ Stage: Initiating
 Final approval authority: ML1.
 
 ## 6. Promotion Path
-- Advance to Planning once ML1 confirms the retroactive scope lock, the current site authority model, wrapper-governance expectations, and the next expansion boundary.
+- Planning is authorized. Advance to Executing once ML1 confirms the
+retroactive scope lock, the current site authority model,
+wrapper-governance expectations, and the next expansion boundary.

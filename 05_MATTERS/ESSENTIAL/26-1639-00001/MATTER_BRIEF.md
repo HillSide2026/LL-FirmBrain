@@ -4,7 +4,7 @@ title: Matter Brief — 26-1639-00001 — Andersen (Client Relationship Manageme
 owner: ML1
 status: draft
 created_date: 2026-03-22
-last_updated: 2026-05-12
+last_updated: 2026-05-20
 tags: [matter, 26-1639-00001]
 ---
 
@@ -35,7 +35,7 @@ Client relationship management matter for Andersen. This is the umbrella matter 
   - **Sao Paulo embed**: Opportunity to embed with Andersen Sao Paulo for 1–2 months. Details TBD — ML1 to assess timing and scope.
   - **Barcelona conference**: Andersen-wide conference in Barcelona, October 2026. Attendance opportunity — details TBD.
   - **Sanctions advisory**: Aircraft, maritime, defence goods flagged as expansion area
-  - **Trade remedies (CITT)**: Lane 26-1639-00002 — TR-003 identified (plywood / trade remedies); TR-004 identified (processed wood / safeguards); GC-2026-001 (Certain Wood Goods safeguard inquiry) is a live CITT signal for TR-004; TR-001 and TR-002 now inactive
+  - **Trade remedies (CITT)**: Lane 26-1639-00002 — TR-003 contacted (plywood / trade remedies); TR-004 contacted (processed wood / safeguards); GC-2026-001 (Certain Wood Goods safeguard inquiry) is a live CITT signal for TR-004; TR-001 and TR-002 now inactive
   - **Market access**: Lane 26-1639-00003 — MA-003 (Albor Financial) identified: fintech selling stablecoin treasury software to banks; wants Andersen to lead LatAm market access strategy; MA-001 (pecans) and MA-002 (flavored butter) inactive
 
 ## Open questions
@@ -44,7 +44,7 @@ Client relationship management matter for Andersen. This is the umbrella matter 
 - Send ML1 draft reply to Hernany re: ESG mining POC (Silver Viper, Apollo Silver, Argentina lithium)
 - What relationship-level next actions should be surfaced across `26-1639-00002` and `26-1639-00003`
 - Whether additional lane-specific monitoring tools are needed beyond the trade-remedies CITT monitor
-- Whether TR-003 (plywood) or TR-004 (processed wood) can move from identified to contacted in the near term
+- Whether TR-003 (plywood) or TR-004 (processed wood) can move from `contacted` to `qualified` in the near term
 
 ## Public Front-End
 
@@ -73,3 +73,4 @@ rate record and open reconciliation items.
 - 2026-04-29 — Pipeline corrected: trade remedies tracks updated to TR-003/TR-004 (wood); TR-001/TR-002 inactive; market access MA-001/MA-002 both inactive; no converted cash in any Andersen lane as of this date
 - 2026-05-07 — Sao Paulo embed opportunity noted: 1–2 month embed with Andersen Sao Paulo; details and timing TBD
 - 2026-05-07 — Barcelona conference noted: Andersen-wide conference, October 2026; attendance details TBD
+- 2026-05-20 — Relationship-level summary synced to current lane tracks and stages

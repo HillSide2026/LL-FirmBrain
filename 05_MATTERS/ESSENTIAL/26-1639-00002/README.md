@@ -4,7 +4,7 @@ title: Andersen (Trade Remedies)
 owner: ML1
 status: draft
 created_date: 2026-03-09
-last_updated: 2026-04-03
+last_updated: 2026-05-20
 tags: [matter, 26-1639-00002]
 practice_areas: [trade_remedies, trade_defence, customs]
 ---
@@ -17,19 +17,19 @@ practice_areas: [trade_remedies, trade_defence, customs]
 ## Status
 - **Clio Status:** Open
 - **Delivery Status:** Essential
-- **Fulfillment Status:** keep in view
+- **Fulfillment Status:** active
 
 ## Description
 Trade Remedies / Trade Defence
 
 ## Key Dates
 - **Opened:** 2026-03-09
-- **Key Deadlines:** None recorded
+- **Key Deadlines:** `PI-2026-001` preliminary injury determination due `2026-06-09`; `GC-2026-001` questionnaire deadline passed `2026-05-15`
 
 ## Current Focus
 - Track prospective end-client files inside the established Andersen client relationship.
-- Clarify whether the frozen vegetables countervailing-duties track should move from `qualified` to active closing.
-- Keep the custom furniture manufacturer trade-remedies track visible until the facts and timing are clearer.
+- Qualify `TR-003` before the `PI-2026-001` preliminary injury determination due on `2026-06-09`.
+- Reassess `TR-004` after the `GC-2026-001` questionnaire deadline passed on `2026-05-15`.
 
 ## Working Artifacts
 - Matter brief: [`MATTER_BRIEF.md`](MATTER_BRIEF.md)

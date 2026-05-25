@@ -4,7 +4,7 @@ title: Approval Record
 owner: ML1
 status: draft
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 tags: []
 ---
 
@@ -19,9 +19,9 @@ Approval Status: Executing Authorized
 ## Current State
 
 - Initiation packet is approved for Funnel 02.
-- The project is now in `Planning`.
-- Planning metrics drafts and research notes are stored in `planning/`.
-- No live launch or execution is authorized.
+- The project is now in `Executing`.
+- Planning metrics drafts and research notes are retained in `planning/`.
+- Execution is authorized within the approved Funnel 02 constraints.
 
 ## Stage Gate: Initiating -> Planning
 

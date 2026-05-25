@@ -4,7 +4,7 @@ title: Toronto Housing - Approval Record
 owner: ML1
 status: active
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-20
 tags: [hillside, personal-projects, housing, toronto, approval]
 ---
 
@@ -59,7 +59,7 @@ Planning Stage Authorized: Yes
 | Item | Status | Date | Notes |
 | --- | --- | --- | --- |
 | `planning/README.md` | active | 2026-04-03 | Planning stage index opened |
-| `planning/DECISION_FRAME.md` | drafted | 2026-04-03 | Decision frame opened |
+| `planning/DECISION_FRAME.md` | drafted | 2026-05-16 | Decision frame now records the reduced-Toronto-use seasonal model and the resulting higher burden on any owned-Toronto path |
 | `planning/PROJECT_PLAN.md` | drafted | 2026-04-03 | Planning sequence opened |
 | `planning/ASSUMPTIONS_CONSTRAINTS.md` | drafted | 2026-04-03 | Assumptions and constraints opened |
 | `planning/DEPENDENCIES.md` | drafted | 2026-04-03 | Dependency package opened |
@@ -78,3 +78,8 @@ reclassified for governance purposes as a decision project.
 
 Planning is now open. Executing remains closed until ML1 records a separate
 `Planning -> Executing` approval.
+
+Current planning position as of `2026-05-16`:
+- Toronto is no longer assumed to be the full-year base
+- any owned-Toronto path must now justify itself against a reduced-use seasonal model
+- no Toronto execution step is authorized yet

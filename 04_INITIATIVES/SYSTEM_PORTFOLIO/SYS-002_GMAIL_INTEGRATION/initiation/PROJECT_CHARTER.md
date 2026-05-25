@@ -4,7 +4,7 @@ title: Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 tags: []
 ---
 
@@ -14,7 +14,7 @@ Project ID: SYS-002
 Project Path: 04_INITIATIVES/SYSTEM_PORTFOLIO/SYS-002_GMAIL_INTEGRATION
 Project Type: Operational Project
 Project Subtype: System Integration Packet
-Stage: Initiating
+Stage: Planning
 
 ## 1. Purpose
 - Formalize the active Gmail integration surface so mailbox reads, controlled label writes, and audit boundaries are explicitly governed.
@@ -34,4 +34,6 @@ Stage: Initiating
 Final approval authority: ML1.
 
 ## 6. Promotion Path
-- Advance to Planning once ML1 confirms the retroactive scope lock, the approved Gmail write boundary, the audit expectations, and any remaining hardening work.
+- Planning is authorized. Advance to Executing once ML1 confirms the
+retroactive scope lock, the approved Gmail write boundary, the audit
+expectations, and any remaining hardening work.

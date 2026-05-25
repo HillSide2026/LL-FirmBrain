@@ -4,7 +4,7 @@ title: Toronto Housing
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-05-16
+last_updated: 2026-05-20
 tags: [hillside, personal-projects, housing, toronto]
 ---
 
@@ -24,6 +24,7 @@ This project is a planning-stage HillSide personal decision project.
 - Standalone project packet opened on `2026-04-03`
 - `Initiating -> Planning` gate approved on `2026-04-03`
 - Planning packet opened in `planning/`
+- Current posture: reduced-Toronto-use seasonal model
 - Executing is not yet authorized
 - This is a personal project and not an `HBP` business-project packet
 
@@ -34,12 +35,14 @@ either move to new owned housing in Toronto or leave Toronto.
 
 ## Current Planning Work
 
-- define ownership-versus-leaving-Toronto decision criteria and
-  non-negotiables
+- test whether any owned-Toronto option remains justified under the reduced
+  Toronto-use case
 - define monthly cost, liquidity, and flexibility guardrails
 - formalize the housing budget within the overall wealth plan
-- compare the realistic option set
-- prepare the project for a realistic execution path
+- compare ownership versus leaving Toronto under the Japan/Brazil-or-Thailand
+  seasonal pattern
+- prepare the project for a realistic execution path only if one option survives
+  the planning filters
 
 ## Notes
 

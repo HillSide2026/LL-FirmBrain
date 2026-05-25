@@ -4,7 +4,7 @@ title: NDA Esq - Project Charter
 owner: ML1
 status: draft
 created_date: 2026-03-14
-last_updated: 2026-04-02
+last_updated: 2026-05-20
 tags: [nda-esq, strategic-project, charter]
 ---
 
@@ -15,7 +15,7 @@ Project Path: 04_INITIATIVES/LL_PORTFOLIO/07_STRATEGIC_PROJECTS/LLP-024
 Project Name: NDA Esq
 Portfolio: 02_Levine_Law_Portfolio
 Project Type: Strategic Project
-Stage: Initiation
+Stage: Executing
 
 ## 1. Purpose
 
@@ -31,9 +31,10 @@ Strategic product project with three coordinated workstreams:
 - Customer Acquisition
 - Operations and Performance Monitoring
 
-The project is initiation-defined but not yet authorized for Planning or
-launch. The base offer is NDA generation only, not negotiation, redlining,
-manual bespoke drafting, or full-service legal consultation.
+The project is execution-authorized, but live launch and operational promotion
+remain subject to explicit ML1 control. The base offer is NDA generation only,
+not negotiation, redlining, manual bespoke drafting, or full-service legal
+consultation.
 
 Boundary rule:
 - `LLP-024` remains a standalone project

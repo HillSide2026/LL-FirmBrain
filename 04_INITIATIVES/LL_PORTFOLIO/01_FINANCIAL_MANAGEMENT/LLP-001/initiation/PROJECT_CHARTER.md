@@ -4,7 +4,7 @@ title: Project Charter
 owner: ML1
 status: draft
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-20
 tags: []
 ---
 
@@ -13,7 +13,7 @@ tags: []
 Project ID: LLP-001
 Project Path: 01_FINANCIAL_MANAGEMENT/LLP-001
 Project Type: Operational Project
-Stage: Initiating
+Stage: Planning
 
 ## 1. Purpose
 - Govern Levine Law's accounting fact layer so historical financial records are captured, reconciled, and reviewable without crossing into modeling or decision authority.
@@ -32,4 +32,4 @@ Stage: Initiating
 Final approval authority: ML1.
 
 ## 6. Promotion Path
-- Advance to Planning once ML1 confirms the accounting scope, reconciliation cadence, evidence sources, and handoff rules into LLP-002.
+- Planning is authorized. Advance to Executing once ML1 confirms the accounting scope, reconciliation cadence, evidence sources, and handoff rules into LLP-002.

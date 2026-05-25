@@ -4,7 +4,7 @@ title: Cash Flow - Project Charter
 owner: ML1
 status: draft
 created_date: 2026-03-15
-last_updated: 2026-04-03
+last_updated: 2026-05-20
 tags: [cash-flow, charter, hillside]
 ---
 
@@ -14,7 +14,7 @@ tags: [cash-flow, charter, hillside]
 **Project ID:** HBP-002
 **Project Path:** `04_INITIATIVES/HillSide_PORTFOLIO/BUSINESS_PROJECTS/HBP-002_CASH_FLOW`
 **Project Type:** Strategic
-**Stage:** Initiating
+**Stage:** Planning
 
 ## Sponsor
 
@@ -42,14 +42,14 @@ closed and reviewed within 10 business days of month-end, that reports:
 - the in-scope reporting boundary is fixed across Matthew and the five named entities
 - Matthew-level inflow, outflow, and net-cash-flow definitions are documented clearly enough to support CPA-style review
 - the monthly close, review, and variance process is defined at planning-ready level
-- ML1 receives a planning-ready packet for whether a fuller reporting/control build should begin
+- ML1 receives an execution-ready packet for whether a fuller reporting/control build should begin
 
 ## Stage Plan
 
 1. define the reporting boundary across Matthew and each in-scope entity
 2. define the inflow, outflow, net-cash-flow formulas, source records, and classification rules
 3. define the control model for monthly close, review cadence, and variance handling
-4. prepare planning authorization packet for ML1
+4. prepare execution authorization packet for ML1
 
 ## Immediate Next Actions
 
@@ -66,5 +66,5 @@ closed and reviewed within 10 business days of month-end, that reports:
 
 ## Governance
 
-ML1-controlled stage gate. No planning or executing work is authorized
-until ML1 approves the transition out of Initiating.
+ML1-controlled stage gate. Planning is authorized. Executing work remains
+gated until ML1 approves the transition out of Planning.

@@ -4,7 +4,7 @@ title: Sales Pipeline — 26-1639-00003 — Andersen (Market Access)
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-29
+last_updated: 2026-05-20
 tags: [matter, sales-pipeline, 26-1639-00003]
 practice_areas: [market_access, trade, customs]
 ---
@@ -34,16 +34,18 @@ client as automatically being the LL client of record.
 
 ## Industry Segment Model
 
-Initial target segments for the Andersen market-access lane:
+Current target segments for the Andersen market-access lane:
 
 - `agriculture_and_agri_food`
 - `mining_and_minerals`
 - `manufacturing`
 - `dual_use_manufacturing`
 - `data_and_data_centres`
+- `financial_services_fintech`
 
-Current visible tracks sit inside `agriculture_and_agri_food`. Additional
-tracks should be tagged to one of the above segments when first recorded.
+The current live track sits inside `financial_services_fintech`. Legacy inactive
+tracks sit inside `agriculture_and_agri_food`. Additional tracks should be
+tagged to one of the above segments when first recorded.
 
 ## Active Tracks
 

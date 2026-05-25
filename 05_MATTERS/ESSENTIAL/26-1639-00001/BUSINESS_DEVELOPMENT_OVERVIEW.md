@@ -4,7 +4,7 @@ title: Business Development Overview — 26-1639-00001 — Andersen
 owner: ML1
 status: draft
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-20
 tags: [matter, business-development, 26-1639-00001]
 ---
 
@@ -22,8 +22,8 @@ prospective end-client files pursued through the Andersen relationship.
 
 | Lane Matter | Lane | Current posture | Visible tracks | Current tools | Primary next focus |
 |-------------|------|-----------------|----------------|---------------|--------------------|
-| [`26-1639-00002`](../26-1639-00002/README.md) | Trade remedies | Active Andersen end-client sales pipeline | `TR-001` qualified; `TR-002` identified | `TRM_CITT_UPDATE_SCANNER`, `CITT_SIGNAL_REPORT.md` | Clarify whether `TR-001` should move into active closing |
-| [`26-1639-00003`](../26-1639-00003/README.md) | Market access | Active Andersen end-client sales pipeline | `MA-001` identified; `MA-002` identified | Matter-local notes, pipeline artifacts, and segment model | Confirm parties, jurisdictions, actual legal ask, and segment priority across the initial market-access sectors |
+| [`26-1639-00002`](../26-1639-00002/README.md) | Trade remedies | Active Andersen end-client sales pipeline | `TR-003` contacted; `TR-004` contacted | `TRM_CITT_UPDATE_SCANNER`, `CITT_SIGNAL_REPORT.md` | Qualify the current wood-sector leads and determine whether either can convert into instructed work through Andersen |
+| [`26-1639-00003`](../26-1639-00003/README.md) | Market access | Active Andersen end-client sales pipeline | `MA-003` identified; `MA-001` and `MA-002` inactive | Matter-local notes, pipeline artifacts, and segment model | Clarify jurisdictions, Andersen's role, and LL's legal advisory angle for `MA-003` |
 
 ## Qualification Criteria
 

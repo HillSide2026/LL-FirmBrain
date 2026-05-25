@@ -4,7 +4,7 @@ title: Japan Home Decision - Approval Record
 owner: ML1
 status: active
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-05-20
 tags: [hillside, personal-projects, japan-home, housing, approval]
 ---
 
@@ -59,7 +59,7 @@ Planning Stage Authorized: Yes
 | Item | Status | Date | Notes |
 | --- | --- | --- | --- |
 | `planning/README.md` | active | 2026-04-03 | Planning stage index opened |
-| `planning/DECISION_FRAME.md` | drafted | 2026-04-03 | Decision frame opened |
+| `planning/DECISION_FRAME.md` | drafted | 2026-05-16 | Decision frame now records a live Japan-acquisition direction, seasonal pattern, budget ceiling, location clusters, and property criteria |
 | `planning/PROJECT_PLAN.md` | drafted | 2026-04-03 | Planning sequence opened |
 | `planning/ASSUMPTIONS_CONSTRAINTS.md` | drafted | 2026-04-03 | Assumptions and constraints opened |
 | `planning/DEPENDENCIES.md` | drafted | 2026-04-03 | Dependency package opened |
@@ -78,3 +78,9 @@ reclassified for governance purposes as a decision project.
 
 Planning is now open. Executing remains closed until ML1 records a separate
 `Planning -> Executing` approval.
+
+Current planning position as of `2026-05-16`:
+- Japan remains a live planning path rather than a speculative option
+- the working direction is to buy, subject to tax, residency, ownership, and
+  wealth-plan guardrails
+- no acquisition execution is authorized yet

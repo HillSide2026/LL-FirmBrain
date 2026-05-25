@@ -59,8 +59,8 @@ tracks:
     stage: "contacted"
     citt_proceeding: "GC-2026-001"
     citt_proceeding_title: "Certain Wood Goods"
-    key_date: "2026-05-15"
-    key_date_label: "Questionnaires due"
+    key_date: "2026-10-01"
+    key_date_label: "Public hearings begin (questionnaire deadline passed 2026-05-15)"
     keywords:
       - "GC-2026-001"
       - "certain wood goods"
