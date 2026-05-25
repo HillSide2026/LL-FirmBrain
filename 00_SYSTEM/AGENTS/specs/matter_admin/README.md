@@ -14,6 +14,11 @@ This folder defines Matter Administration Agent (MAA) charters used by
 the matter-identity and matter-state layer of the Matter Command and Control
 pipeline.
 
+## Governing Doctrine
+- `01_DOCTRINE/05_PROTOCOLS/PRO-029_Matter_Management_Protocol.md`
+- `01_DOCTRINE/05_PROTOCOLS/PRO-030_Matter_Administration_Protocol.md`
+- `01_DOCTRINE/01_INVARIANTS/INV-0017-matter-identity-authority-and-lifecycle.md`
+
 ## Run Graphs
 - `00_SYSTEM/orchestration/run_graphs/matter_admin_daily.yaml`
 - `00_SYSTEM/orchestration/run_graphs/matter_admin_one.yaml`
@@ -31,6 +36,8 @@ pipeline.
 ## Relationship to Matter File Administration
 - Matter Administration governs matter identity, routing, status, deadlines,
   digesting, and other matter-level administrative signals.
+- Matter Administration does not own canonical matter-record field changes;
+  those are reserved to Matter Management.
 - Matter File Administration governs the federated Matter File across
   SharePoint, Gmail, Clio, and other approved systems.
 - The authoritative Matter File Admin charters live under

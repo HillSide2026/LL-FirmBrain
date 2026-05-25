@@ -1,6 +1,6 @@
 schema_version: '1.0'
 owner: ML1
-last_updated: '2026-05-20'
+last_updated: '2026-05-25'
 rules_dir: 01_DOCTRINE/RULES
 tests_dir: 01_DOCTRINE/TESTS
 rules: []
@@ -763,6 +763,27 @@ protocols:
 - id: PRO-028
   title: Project Level Update
   path: 01_DOCTRINE/05_PROTOCOLS/PRO-028_Project_Level_Update.md
+  version: '0.1'
+  status: draft
+  policy: unknown
+  history: []
+- id: PRO-029
+  title: Matter Management Protocol
+  path: 01_DOCTRINE/05_PROTOCOLS/PRO-029_Matter_Management_Protocol.md
+  version: '0.1'
+  status: draft
+  policy: unknown
+  history: []
+- id: PRO-030
+  title: Matter Administration Protocol
+  path: 01_DOCTRINE/05_PROTOCOLS/PRO-030_Matter_Administration_Protocol.md
+  version: '0.1'
+  status: draft
+  policy: unknown
+  history: []
+- id: PRO-031
+  title: Matter File Administration Protocol
+  path: 01_DOCTRINE/05_PROTOCOLS/PRO-031_Matter_File_Administration_Protocol.md
   version: '0.1'
   status: draft
   policy: unknown

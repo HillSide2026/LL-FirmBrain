@@ -22,6 +22,8 @@ the federated Matter File across external systems, with emphasis on:
 - document inventory and delta tracking
 
 ## Governing Doctrine
+- `01_DOCTRINE/05_PROTOCOLS/PRO-029_Matter_Management_Protocol.md`
+- `01_DOCTRINE/05_PROTOCOLS/PRO-031_Matter_File_Administration_Protocol.md`
 - `01_DOCTRINE/05_PROTOCOLS/PRO-020_LL_Matters_SharePoint_Protocol.md`
 - `01_DOCTRINE/05_PROTOCOLS/PRO-021_LL_Matters_Folder_Protocol.md`
 - `01_DOCTRINE/05_PROTOCOLS/PRO-022_LL_Matters_File_Protocol.md`
@@ -49,3 +51,5 @@ the federated Matter File across external systems, with emphasis on:
 - Matter File Administration answers: where does the Matter File live across
   systems, which SharePoint folders belong, how should protocol compliance be
   described, and what source claims remain unresolved.
+- Matter File Administration may inform but may not rewrite canonical
+  matter-record fields.
