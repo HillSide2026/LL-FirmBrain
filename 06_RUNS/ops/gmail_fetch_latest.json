@@ -1,115 +1,28 @@
 {
-  "fetched_at": "2026-05-26T11:30:31.709552+00:00",
+  "fetched_at": "2026-05-27T10:46:50.125001+00:00",
   "mode": "sync",
-  "emails_count": 84,
+  "emails_count": 91,
   "emails": [
     {
-      "message_id": "19e5ef95a7ad0796",
-      "internal_date": "1779709858000",
-      "date": "Mon, 25 May 2026 11:50:58 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "accounts@matthewajlevine.com",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5ef95a359f3c3",
-      "internal_date": "1779709858000",
-      "date": "Mon, 25 May 2026 11:50:58 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5f1d23137d0b8",
-      "internal_date": "1779712205000",
-      "date": "Mon, 25 May 2026 12:30:05 +0000",
+      "message_id": "19e643a6b083d93d",
+      "internal_date": "1779798010000",
+      "date": "Tue, 26 May 2026 12:20:10 +0000",
       "from": "Google Calendar <calendar-notification@google.com>",
       "to": "Matthew Levine <matthew@levine-law.ca>",
       "subject": "Notification: Agentic Payments Breakfast - Qatom Launch @ Tue May 26, 2026 8:30am - 10:30am (EDT) (Matthew AJ Levine)",
       "labels": [
-        "UNREAD",
         "CATEGORY_UPDATES",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e5f1d768456d8e",
-      "internal_date": "1779712226000",
-      "date": "Mon, 25 May 2026 12:30:26 +0000",
-      "from": "TODAQ <TODAQ@calendar.luma-mail.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "⏰ Agentic Payments Breakfast - Qatom Launch is starting tomorrow",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5f2631026cf2c",
-      "internal_date": "1779712751000",
-      "date": "Mon, 25 May 2026 12:39:11 +0000",
-      "from": "Tal Schwartz from Canadian Fintech <canadianfintech@substack.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "Canadian Fintech: Crazy new chapter in the Planswell saga 😅",
-      "labels": [
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5f2f631fdce7f",
-      "internal_date": "1779713401000",
-      "date": "Mon, 25 May 2026 12:50:01 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: Open Office @ Mon May 25, 2026 9:50am - 9:55am (EDT) (Matthew AJ Levine)",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5f3da28acd7c9",
-      "internal_date": "1779714326000",
-      "date": "Mon, 25 May 2026 21:05:26 +0800 (CST)",
+      "message_id": "19e64423d311828d",
+      "internal_date": "1779798500000",
+      "date": "Tue, 26 May 2026 20:28:20 +0800 (CST)",
       "from": "MyClaw Newsletter <newsletter@myclaw.ai>",
       "to": "matthew@levinelegal.ca",
-      "subject": "🦞 OpenClaw Gets a Body",
-      "labels": [
-        "CATEGORY_PROMOTIONS",
-        "UNREAD",
-        "IMPORTANT",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5f5d0192b0469",
-      "internal_date": "1779716390000",
-      "date": "Mon, 25 May 2026 13:39:50 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: Open Office @ Mon May 25, 2026 9:50am - 9:55am (EDT) (Matthew AJ Levine)",
+      "subject": "🦞 AI Washing Hits UK PR",
       "labels": [
         "UNREAD",
         "CATEGORY_UPDATES",
@@ -118,24 +31,53 @@
       "body": null
     },
     {
-      "message_id": "19e5f62d94879528",
-      "internal_date": "1779716773000",
-      "date": "Mon, 25 May 2026 13:46:13 +0000",
-      "from": "PRAKTIKAI <PRAKTIKAI@calendar.luma-mail.com>",
+      "message_id": "19e644385631d807",
+      "internal_date": "1779798606000",
+      "date": "Tue, 26 May 2026 12:30:06 +0000",
+      "from": "Chala Bayam <usr-fCC3sxWmU9AEgW1@user.luma-mail.com>",
       "to": "matthew@levine-law.ca",
-      "subject": "🚨 Last Call – Toronto Tech Week Starts TODAY! Don't Miss PRAKTIKAI's Events",
+      "subject": "See you at 7 pm Stealth Moders & Early Stagers",
       "labels": [
-        "CATEGORY_PROMOTIONS",
-        "UNREAD",
+        "YELLOW_STAR",
         "IMPORTANT",
+        "STARRED",
+        "CATEGORY_UPDATES",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e5f6642325bc9d",
-      "internal_date": "1779716997000",
-      "date": "Mon, 25 May 2026 13:49:57 +0000",
+      "message_id": "19e64446879e8e78",
+      "internal_date": "1779798661000",
+      "date": "Tue, 26 May 2026 20:31:01 +0800 (CST)",
+      "from": "MyClaw Newsletter <MyClaw@aisecret.us>",
+      "to": "matthew@levine-law.ca",
+      "subject": "🦞 AI Washing Hits UK PR",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6448bdde9689d",
+      "internal_date": "1779798940000",
+      "date": "Tue, 26 May 2026 12:35:40 +0000",
+      "from": "Michael Mazzuca <Michael@rousseaumazzuca.com>",
+      "to": "Matthew Levine <Matthew@rousseaumazzuca.com>",
+      "subject": "RE: IMPORTANT Speaking w Paramount & Aramark",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e64560ed20c38e",
+      "internal_date": "1779799815000",
+      "date": "Tue, 26 May 2026 12:50:15 +0000",
       "from": "Google Calendar <calendar-notification@google.com>",
       "to": "Matthew Levine <matthew@levine-law.ca>",
       "subject": "Notification: Open Office @ Tue May 26, 2026 9:50am - 9:55am (EDT) (Matthew AJ Levine)",
@@ -147,27 +89,54 @@
       "body": null
     },
     {
-      "message_id": "19e5f85cfc8be81f",
-      "internal_date": "1779719064000",
-      "date": "Mon, 25 May 2026 14:24:24 +0000",
-      "from": "Adrienne Baker <adrienne.baker+energyandmines.com@l.leadlegend.org>",
+      "message_id": "19e6462dbfa1c9c7",
+      "internal_date": "1779800660000",
+      "date": "Tue, 26 May 2026 13:04:20 +0000",
+      "from": "\"FINTRAC / CANAFE\" <fintrac.canafe@notification.canada.ca>",
       "to": "matthew@matthewajlevine.com",
-      "subject": "Defence, Mining, Government, Finance & First Nations Prepare for June 9-10",
+      "subject": "FINTRAC’s contribution recognized / Contribution de CANAFE reconnue",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e646377bd39eb3",
+      "internal_date": "1779800700000",
+      "date": "Tue, 26 May 2026 13:05:00 +0000",
+      "from": "Farah Adarna <farah@nexusfinance.ca>",
+      "to": "matthew@levine-law.ca",
+      "subject": "Just tried calling you, let's talk funding",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e646c67e1f6e04",
+      "internal_date": "1779801285000",
+      "date": "Tue, 26 May 2026 15:14:45 +0200",
+      "from": "Bologna Business School <globalmba@bbs.unibo.it>",
+      "to": "matthew@matthewajlevine.com",
+      "subject": "What A Global MBA Year Really Looks Like | BBS",
       "labels": [
         "CATEGORY_PROMOTIONS",
-        "YELLOW_STAR",
-        "STARRED",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e5f92ae61d8d1e",
-      "internal_date": "1779719908000",
-      "date": "Mon, 25 May 2026 14:38:28 +0000",
-      "from": "Google Voice <voice-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "New missed call from (438) 808-3048.",
+      "message_id": "19e64834cbc23dbd",
+      "internal_date": "1779802786000",
+      "date": "Tue, 26 May 2026 13:39:46 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: Open Office @ Tue May 26, 2026 9:50am - 9:55am (EDT) (Matthew AJ Levine)",
       "labels": [
         "UNREAD",
         "CATEGORY_UPDATES",
@@ -176,12 +145,12 @@
       "body": null
     },
     {
-      "message_id": "19e5f93d894f5bb0",
-      "internal_date": "1779719984000",
-      "date": "Mon, 25 May 2026 14:39:44 +0000",
-      "from": "Google Voice <voice-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "New voicemail from (438) 808-3048",
+      "message_id": "19e648cabd0c08a4",
+      "internal_date": "1779803400000",
+      "date": "Tue, 26 May 2026 13:50:00 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: Open Office @ Wed May 27, 2026 9:50am - 9:55am (EDT) (Matthew AJ Levine)",
       "labels": [
         "UNREAD",
         "CATEGORY_UPDATES",
@@ -190,240 +159,112 @@
       "body": null
     },
     {
-      "message_id": "19e5f986c748e120",
-      "internal_date": "1779720242000",
-      "date": "Mon, 25 May 2026 14:44:02 +0000",
-      "from": "JB from Fintech Growth Insider <globalfintechinsider@substack.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "Shakepay Builds One Campaign to Win Both Customers and Merchants at Once 🇨🇦",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5f9ab9beb1f76",
-      "internal_date": "1779720396000",
-      "date": "Mon, 25 May 2026 10:46:36 -0400",
-      "from": "The SUMMIT Team Mailbox <conference@payments.ca>",
-      "to": "matthew@levine-law.ca",
-      "subject": "Re: summit",
-      "labels": [
-        "YELLOW_STAR",
-        "IMPORTANT",
-        "STARRED",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5f9e87412dabd",
-      "internal_date": "1779720668000",
-      "date": "Mon, 25 May 2026 14:51:08 +0000",
-      "from": "\"Joana A. Malheiro\" <jmalheiro@ubcja.ca>",
-      "to": "Matthew Levine <Matthew@rousseaumazzuca.com>",
-      "subject": "Re: Paramount Lease Consent",
-      "labels": [
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5fa698563dc93",
-      "internal_date": "1779721213000",
-      "date": "Mon, 25 May 2026 15:00:13 +0000",
+      "message_id": "19e649602baad02c",
+      "internal_date": "1779804012000",
+      "date": "Tue, 26 May 2026 14:00:12 +0000",
       "from": "Google Calendar <calendar-notification@google.com>",
       "to": "Matthew Levine <matthew@levine-law.ca>",
       "subject": "Notification: Building the Compliance Stack for Stablecoin Payments @ Tue May 26, 2026 11am - 12pm (EDT) (Matthew AJ Levine)",
       "labels": [
-        "UNREAD",
         "CATEGORY_UPDATES",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e5fa74dd3cf248",
-      "internal_date": "1779721259000",
-      "date": "Mon, 25 May 2026 15:00:59 +0000",
+      "message_id": "19e6496590e43792",
+      "internal_date": "1779804034000",
+      "date": "Tue, 26 May 2026 14:00:34 +0000",
+      "from": "\"CADC \\\\\\\\ The Canadian Dollar Coin\" <usr-sMvZqq2gVCuAW9E@user.luma-mail.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "The CADC Reception is at Capacity",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6496ff017fda0",
+      "internal_date": "1779804076000",
+      "date": "Tue, 26 May 2026 14:01:16 +0000",
       "from": "Utila <utila@calendar.luma-mail.com>",
       "to": "matthew@levine-law.ca",
-      "subject": "⏰ Building the Compliance Stack for Stablecoin Payments is starting tomorrow",
+      "subject": "⏰ Building the Compliance Stack for Stablecoin Payments is starting in 1 hour",
       "labels": [
+        "YELLOW_STAR",
         "IMPORTANT",
+        "STARRED",
         "CATEGORY_UPDATES",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e5fb1dc24219b2",
-      "internal_date": "1779721951000",
-      "date": "Mon, 25 May 2026 15:12:31 +0000",
-      "from": "Asana <no-reply@asana.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "Monday - tasks due soon: 1 -  levinelegal.ca",
+      "message_id": "19e64a4f2617826c",
+      "internal_date": "1779804989000",
+      "date": "Tue, 26 May 2026 14:16:29 +0000",
+      "from": "WordPress <wordpress@levinelegalservices.com>",
+      "to": "accounts@matthewajlevine.com",
+      "subject": "[LLS] Please moderate: \"Hello world!\"",
       "labels": [
         "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e64a4f9776177d",
+      "internal_date": "1779804989000",
+      "date": "Tue, 26 May 2026 14:16:29 +0000",
+      "from": "WordPress <wordpress@levinelegalservices.com>",
+      "to": "matthew@levinelegal.ca",
+      "subject": "[LLS] Please moderate: \"Hello world!\"",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e64c3d064a262d",
+      "internal_date": "1779807014000",
+      "date": "Tue, 26 May 2026 14:50:14 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: Building the Compliance Stack for Stablecoin Payments @ Tue May 26, 2026 11am - 12pm (EDT) (Matthew AJ Levine)",
+      "labels": [
         "CATEGORY_UPDATES",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e5fb1d651cc627",
-      "internal_date": "1779721394000",
-      "date": "Mon, 25 May 2026 15:03:14 +0000",
-      "from": "Fintech Blueprint <lex@substack.com>",
+      "message_id": "19e64d649ad8401b",
+      "internal_date": "1779808225000",
+      "date": "Tue, 26 May 2026 15:10:25 +0000",
+      "from": "Farah Adarna <farah@nexusfinance.ca>",
       "to": "matthew@levine-law.ca",
-      "subject": "Podcast: How Marqeta Built the $400B Modern Card Issuing Platform, with CEO Mike Milotich",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5fb95bb8d2720",
-      "internal_date": "1779722442000",
-      "date": "Mon, 25 May 2026 15:20:42 +0000",
-      "from": "Upwork Notification <donotreply@upwork.com>",
-      "to": "Matthew Levine <matthew@levinelegal.ca>",
-      "subject": "Matthew, here is your weekly billing report",
-      "labels": [
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5fc3a4b8c76ca",
-      "internal_date": "1779723117000",
-      "date": "Mon, 25 May 2026 11:31:57 -0400",
-      "from": "\"Dye & Durham\" <marketing@dyedurham.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "Last Chance to Register – CPD‑Eligible — The Power of AI: Advancing Your Legal Practice",
+      "subject": "Max , Here’s what we can do for your business",
       "labels": [
         "CATEGORY_PROMOTIONS",
-        "UNREAD",
+        "YELLOW_STAR",
         "IMPORTANT",
+        "STARRED",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e5fce465d95767",
-      "internal_date": "1779723809000",
-      "date": "Mon, 25 May 2026 15:43:29 +0000",
-      "from": "Business support <business-support@sumsub.com>",
-      "to": "matthew@stream.money",
-      "subject": "Sumsub Customer Support Guidelines Update",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5fd17c0e7d2ab",
-      "internal_date": "1779724004000",
-      "date": "Mon, 25 May 2026 15:46:44 +0000",
-      "from": "Sandra Albia <Sandra@rousseaumazzuca.com>",
-      "to": "Everyone <Everyone@rousseaumazzuca.com>",
-      "subject": "Fire Drill this Wednesday, May 27",
-      "labels": [
-        "IMPORTANT",
-        "TRASH",
-        "CATEGORY_PERSONAL"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5fd41863b4e8c",
-      "internal_date": "1779724195000",
-      "date": "Mon, 25 May 2026 15:49:55 +0000",
-      "from": "Google Voice <voice-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "New missed call from (438) 808-3048.",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5fd4d8631caa1",
-      "internal_date": "1779724244000",
-      "date": "Mon, 25 May 2026 15:50:44 +0000",
-      "from": "Google Voice <voice-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "New missed call from (438) 808-3048.",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e5fdc54432c02e",
-      "internal_date": "1779724735000",
-      "date": "Mon, 25 May 2026 15:58:55 +0000",
-      "from": "Google Voice <voice-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "New missed call from (438) 808-3048.",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6027aef9786c0",
-      "internal_date": "1779729673000",
-      "date": "Mon, 25 May 2026 10:21:13 -0700",
-      "from": "Google Ads <ads-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "Take the next step to help optimize Campaign #1",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6028630d93c6d",
-      "internal_date": "1779729719000",
-      "date": "Mon, 25 May 2026 10:21:59 -0700",
-      "from": "Google Ads <ads-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "Levine Law, you received 13 clicks last week",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6029e1f8549c0",
-      "internal_date": "1779729816000",
-      "date": "Mon, 25 May 2026 17:23:36 +0000",
-      "from": "Upwork Notification <donotreply@upwork.com>",
+      "message_id": "19e64d852cf090cb",
+      "internal_date": "1779808358000",
+      "date": "Tue, 26 May 2026 15:12:38 +0000",
+      "from": "Asana <no-reply@asana.com>",
       "to": "matthew@levinelegal.ca",
-      "subject": "Payment Received - Thank You!",
+      "subject": "Tuesday - tasks due soon: 2 -  levinelegal.ca",
       "labels": [
         "UNREAD",
         "CATEGORY_UPDATES",
@@ -432,268 +273,29 @@
       "body": null
     },
     {
-      "message_id": "19e602fdf8154970",
-      "internal_date": "1779730209000",
-      "date": "Mon, 25 May 2026 17:30:09 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: From Tariff Chaos to Clarity: The New Era of AI-Driven Tr... @ Tue May 26, 2026 1:30pm - 3:30pm (EDT) (Matthew AJ Levine)",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e602feef78cbe4",
-      "internal_date": "1779730213000",
-      "date": "Mon, 25 May 2026 17:30:13 +0000",
-      "from": "PRAKTIKAI <PRAKTIKAI@calendar.luma-mail.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "⏰ From Tariff Chaos to Clarity: The New Era of AI-Driven Trade Compliance is starting tomorrow",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e603bf210d2629",
-      "internal_date": "1779730989000",
-      "date": "Mon, 25 May 2026 13:43:09 -0400",
-      "from": "Heidi Caddoo <hcaddoo@infonex.ca>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Re: Infonex Financial Services Regulation Event - June 16, 2026",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6046beaf4de8d",
-      "internal_date": "1779731708000",
-      "date": "Mon, 25 May 2026 17:55:08 +0000",
-      "from": "Mercor <no-reply@mercor.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "You're one step away from receiving offers",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e604b332e7cde6",
-      "internal_date": "1779732001000",
-      "date": "Mon, 25 May 2026 18:00:01 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: Building Canadian Legal Tech: A Fireside Chat with Clio C... @ Tue May 26, 2026 2pm - 4pm (EDT) (Matthew AJ Levine)",
-      "labels": [
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e604e87b9a2737",
-      "internal_date": "1779732198000",
-      "date": "Mon, 25 May 2026 18:03:18 +0000",
-      "from": "Nathan Ische <nische@terralawcorp.ca>",
-      "to": "Matthew Levine <Matthew@rousseaumazzuca.com>",
-      "subject": "RE: [EXT] Re: Purchase and Sale of 3698 Metchosin Road, Colwood, B.C. [MT-MTDOCS.FID5128887]",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6055b0d2970a5",
-      "internal_date": "1779732688000",
-      "date": "Mon, 25 May 2026 18:11:28 +0000",
-      "from": "\"Amazon.ca\" <auto-confirm@amazon.ca>",
-      "to": "matthew@matthewajlevine.com",
-      "subject": "Ordered: \"Bamboo Panty Liners with...\" and ⁦5⁩ more items",
-      "labels": [
-        "CATEGORY_UPDATES",
-        "Label_8077664839768793771",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6057012848004",
-      "internal_date": "1779732773000",
-      "date": "Mon, 25 May 2026 18:12:53 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6057004d11602",
-      "internal_date": "1779732772000",
-      "date": "Mon, 25 May 2026 18:12:52 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "accounts@matthewajlevine.com",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6060348c29432",
-      "internal_date": "1779733367000",
-      "date": "Mon, 25 May 2026 18:22:47 +0000",
-      "from": "Michael Mandarino <mmandarino@rousseaumazzuca.com>",
-      "to": "Matthew Levine <Matthew@rousseaumazzuca.com>, Michael Mazzuca <Michael@rousseaumazzuca.com>",
-      "subject": "RE: IMPORTANT Speaking w Paramount & Aramark",
-      "labels": [
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e606cf23750944",
-      "internal_date": "1779734206000",
-      "date": "Mon, 25 May 2026 18:36:46 +0000",
-      "from": "Matt Kindree <mkindree@pallettvalo.com>",
-      "to": "Matthew Levine <Matthew@rousseaumazzuca.com>, \"Prisco, Steven\" <prisco-steven@aramark.ca>, Peter Eliopoulos <peterandpauls@gmail.com>, \"jmalheiro@ubcja.ca\" <jmalheiro@ubcja.ca>",
-      "subject": "RE: Paramount Lease Consent",
-      "labels": [
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e606d46cccc8a1",
-      "internal_date": "1779734229000",
-      "date": "Mon, 25 May 2026 18:37:09 +0000",
-      "from": "Katta Srinivas <katta.s@stream.money>",
-      "to": "Matthew Levine <matthew@stream.money>, Mike Okemisimi <mike.o@stream.money>",
-      "subject": "Request for Pending Information to Proceed with Partnership",
-      "labels": [
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e60b934e70bc7a",
-      "internal_date": "1779739210000",
-      "date": "Mon, 25 May 2026 20:00:10 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: Firm Management @ Mon May 25, 2026 5pm - 5:30pm (EDT) (Matthew AJ Levine)",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e60de94f99afdc",
-      "internal_date": "1779741624000",
-      "date": "Mon, 25 May 2026 20:40:24 +0000",
-      "from": "Sonam Puri <spuri@baskinwealth.com>",
-      "to": "Matthew Levine <matthew@matthewajlevine.com>",
-      "subject": "RE: Annual portfolio Review-BASKIN WM",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e60e5082e20f97",
-      "internal_date": "1779742082000",
-      "date": "Mon, 25 May 2026 20:48:02 +0000",
-      "from": "Google Voice <voice-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "New missed call from (438) 808-3048.",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e60e5cd4d9fde4",
-      "internal_date": "1779742133000",
-      "date": "Mon, 25 May 2026 20:48:53 +0000",
-      "from": "Google Voice <voice-noreply@google.com>",
-      "to": "matthew@levine-law.ca",
-      "subject": "New missed call from (438) 808-3048.",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e60e70a4597007",
-      "internal_date": "1779742214000",
-      "date": "Mon, 25 May 2026 20:50:14 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: Firm Management @ Mon May 25, 2026 5pm - 5:30pm (EDT) (Matthew AJ Levine)",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e60efddde6eca3",
-      "internal_date": "1779742792000",
-      "date": "Mon, 25 May 2026 20:59:52 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: Firm Management @ Tue May 26, 2026 5pm - 5:30pm (EDT) (Matthew AJ Levine)",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e60f058fd733e6",
-      "internal_date": "1779742800000",
-      "date": "Mon, 25 May 2026 21:00:00 +0000",
+      "message_id": "19e64dc424c7f817",
+      "internal_date": "1779808610000",
+      "date": "Tue, 26 May 2026 15:16:50 +0000",
       "from": "Toronto Yorkville <toronto.yorkville@regus.com>",
-      "to": "",
-      "subject": "Friendly Reminder – Missed Payment",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Re: Friendly Reminder – Missed Payment",
+      "labels": [
+        "UNREAD",
+        "YELLOW_STAR",
+        "IMPORTANT",
+        "STARRED",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e64f28c16ec761",
+      "internal_date": "1779810069000",
+      "date": "Tue, 26 May 2026 15:41:09 +0000",
+      "from": "Sandra Albia <Sandra@rousseaumazzuca.com>",
+      "to": "Everyone <Everyone@rousseaumazzuca.com>, Nicolas Carvajal <nicolas@iwebcs.com>",
+      "subject": "Power Outage In Building",
       "labels": [
         "UNREAD",
         "IMPORTANT",
@@ -703,381 +305,12 @@
       "body": null
     },
     {
-      "message_id": "19e60f63fd0c0663",
-      "internal_date": "1779743199000",
-      "date": "Mon, 25 May 2026 17:06:39 -0400",
-      "from": "Mathieu Harbec <mathieu.harbec@brosbeforelows.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Re: hello",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6116ee80388c0",
-      "internal_date": "1779745348000",
-      "date": "Mon, 25 May 2026 21:42:28 +0000",
-      "from": "Docusign Account <info@account.docusign.net>",
-      "to": "Matthew Levine <matthew@stream.money>",
-      "subject": "Your Docusign Account",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e61335509f50cb",
-      "internal_date": "1779747175000",
-      "date": "Mon, 25 May 2026 18:12:55 -0400",
-      "from": "Fabian Fernandes <fabian@techhighway.ca>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Re: Levine Law Password Reset Request",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e613ea06a3e786",
-      "internal_date": "1779747953000",
-      "date": "Mon, 25 May 2026 22:25:53 +0000 (UTC)",
-      "from": "\"No Reply [Ontario.ca Login | Ontario.ca – Connexion]\" <noreply@signin.ontario.ca>",
-      "to": "matthew@matthewajlevine.com",
-      "subject": "Action Required: One-time Verification Code / Mesure requise : Code de vérification à usage unique",
-      "labels": [
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6140d2175ee60",
-      "internal_date": "1779748092000",
-      "date": "Mon, 25 May 2026 18:28:12 -0400",
-      "from": "<companykey@ontario.ca>",
-      "to": "matthew@stream.money",
-      "subject": "Company Key Information / Renseignements importants de l’entreprise - 1001010510",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e614274c2ea7f7",
-      "internal_date": "1779748205000",
-      "date": "Mon, 25 May 2026 22:30:05 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: The Stealth & Early Stage AI Builders Room — Toronto Tech... @ Tue May 26, 2026 6:30pm - 9pm (EDT) (Matthew AJ Levine)",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e614294bd5f27b",
-      "internal_date": "1779748213000",
-      "date": "Mon, 25 May 2026 22:30:13 +0000",
-      "from": "Chala Bayam <usr-fCC3sxWmU9AEgW1@user.luma-mail.com>",
+      "message_id": "19e64feacceb9504",
+      "internal_date": "1779810872000",
+      "date": "Tue, 26 May 2026 15:54:32 +0000",
+      "from": "Google Voice <voice-noreply@google.com>",
       "to": "matthew@levine-law.ca",
-      "subject": "⏰ The Stealth & Early Stage AI Builders Room — Toronto Tech Week is starting tomorrow",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6143234e1d2cb",
-      "internal_date": "1779748244000",
-      "date": "Mon, 25 May 2026 18:30:44 -0400",
-      "from": "<NewBusinessRegistry@ontario.ca>",
-      "to": "matthew@stream.money",
-      "subject": "MAPLE WAVE CAPITAL INC., 1001010510, Payment Receipt / Relevé de paiement",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e61432e132aa49",
-      "internal_date": "1779748247000",
-      "date": "Mon, 25 May 2026 18:30:47 -0400",
-      "from": "<NewBusinessRegistry@ontario.ca>",
-      "to": "matthew@stream.money",
-      "subject": "MAPLE WAVE CAPITAL INC. 1001010510 Search Product / Produit de recherche",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6151f4692a77e",
-      "internal_date": "1779749218000",
-      "date": "Mon, 25 May 2026 22:46:58 +0000",
-      "from": "Aaron Rousseau <Aaron@rousseaumazzuca.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Automatic reply: Corporate Work",
-      "labels": [
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6197c2cedb7f8",
-      "internal_date": "1779753795000",
-      "date": "Tue, 26 May 2026 00:03:15 +0000",
-      "from": "Certn Applications <request@certn.co>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "Reminder: Background Screening Request From Mercor",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e61b4b06763119",
-      "internal_date": "1779755691000",
-      "date": "Tue, 26 May 2026 00:34:51 +0000",
-      "from": "\"Amazon.ca\" <shipment-tracking@amazon.ca>",
-      "to": "matthew@matthewajlevine.com",
-      "subject": "Shipped: \"[100 Pack] SURESAFE Blue...\" and ⁦1⁩ more item",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "Label_8077664839768793771",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e61b4d757812df",
-      "internal_date": "1779755701000",
-      "date": "Tue, 26 May 2026 00:35:01 +0000",
-      "from": "\"Amazon.ca\" <shipment-tracking@amazon.ca>",
-      "to": "matthew@matthewajlevine.com",
-      "subject": "Shipped: “SeaTurtle Plant-Based...”",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "Label_8077664839768793771",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e61c20a79db170",
-      "internal_date": "1779756563000",
-      "date": "Tue, 26 May 2026 00:49:23 +0000",
-      "from": "Jocelyn Ong <Jocelyn_Ong@levinelegalservices.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Re: Trust Balance, WIP and Burn Rate Analysis - STREAM",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e61fd49d4c95b6",
-      "internal_date": "1779760443000",
-      "date": "Tue, 26 May 2026 01:54:03 +0000",
-      "from": "Microsoft Power Apps <powerapps@communication.microsoft.com>",
-      "to": "matthew@stream.money",
-      "subject": "Simplify how you collect data for SharePoint",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e62263d3be6ca1",
-      "internal_date": "1779763133000",
-      "date": "Tue, 26 May 2026 02:38:53 +0000",
-      "from": "Vercel <notifications@vercel.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "Failed production deployment on team 'hillside2026's projects'",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e624e86ab5d230",
-      "internal_date": "1779765772000",
-      "date": "Tue, 26 May 2026 03:22:52 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e624e8add829b4",
-      "internal_date": "1779765772000",
-      "date": "Tue, 26 May 2026 03:22:52 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "accounts@matthewajlevine.com",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e625160973c635",
-      "internal_date": "1779765960000",
-      "date": "Tue, 26 May 2026 03:26:00 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "accounts@matthewajlevine.com",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e62516452fa0db",
-      "internal_date": "1779765960000",
-      "date": "Tue, 26 May 2026 03:26:00 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e628570dc8d980",
-      "internal_date": "1779769372000",
-      "date": "Tue, 26 May 2026 04:22:52 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e628574d601b34",
-      "internal_date": "1779769372000",
-      "date": "Tue, 26 May 2026 04:22:52 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "accounts@matthewajlevine.com",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e630e94b003371",
-      "internal_date": "1779778359000",
-      "date": "Tue, 26 May 2026 06:52:39 +0000",
-      "from": "\"Amazon.ca\" <shipment-tracking@amazon.ca>",
-      "to": "matthew@matthewajlevine.com",
-      "subject": "Shipped: \"Bamboo Panty Liners with...\" and ⁦2⁩ more items",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_UPDATES",
-        "Label_8077664839768793771",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e631fd21bddfef",
-      "internal_date": "1779779448000",
-      "date": "Tue, 26 May 2026 09:10:48 +0200",
-      "from": "Sarahann McGrory <smcgrory@ebanq.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Re: Follow up: Your experience with EBANQ demo",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e634359988f40a",
-      "internal_date": "1779781792000",
-      "date": "Tue, 26 May 2026 07:49:52 +0000",
-      "from": "Katta Srinivas <katta.s@stream.money>",
-      "to": "Leonardo Moulin <Leonardo.Moulin@attrus.com>",
-      "subject": "Projected Monthly Volumes & Payment Infrastructure for LATAM Markets",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e634c170bd0835",
-      "internal_date": "1779782390000",
-      "date": "Tue, 26 May 2026 07:59:50 +0000",
-      "from": "Google Calendar <calendar-notification@google.com>",
-      "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: Matthew <> Ansis @ Wed May 27, 2026 4am - 5am (EDT) (Matthew AJ Levine)",
+      "subject": "New missed call from (438) 808-3048.",
       "labels": [
         "UNREAD",
         "CATEGORY_UPDATES",
@@ -1086,52 +319,23 @@
       "body": null
     },
     {
-      "message_id": "19e63753d7eccd83",
-      "internal_date": "1779785087000",
-      "date": "Tue, 26 May 2026 08:44:47 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "accounts@matthewajlevine.com",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
+      "message_id": "19e64ff575aae09c",
+      "internal_date": "1779810915000",
+      "date": "Tue, 26 May 2026 15:55:15 +0000",
+      "from": "Google Voice <voice-noreply@google.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "New missed call from (438) 808-3048.",
       "labels": [
         "UNREAD",
-        "CATEGORY_PERSONAL",
+        "CATEGORY_UPDATES",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e63753eef1062a",
-      "internal_date": "1779785087000",
-      "date": "Tue, 26 May 2026 08:44:47 +0000",
-      "from": "WordPress <wordpress@levinelegalservices.com>",
-      "to": "matthew@levinelegal.ca",
-      "subject": "[LLS] Please moderate: \"Hello world!\"",
-      "labels": [
-        "UNREAD",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e6384371ea0c96",
-      "internal_date": "1779786068000",
-      "date": "Tue, 26 May 2026 04:01:08 -0500",
-      "from": "Ekaterina Khlanta <e.khlanta@crassula.io>",
-      "to": "Mathew Levine <matthew@levine-law.ca>",
-      "subject": "Re: Crasssula Introductory call",
-      "labels": [
-        "UNREAD",
-        "IMPORTANT",
-        "CATEGORY_PERSONAL",
-        "INBOX"
-      ],
-      "body": null
-    },
-    {
-      "message_id": "19e63a7ec92a4418",
-      "internal_date": "1779788404000",
-      "date": "Tue, 26 May 2026 09:40:04 +0000",
+      "message_id": "19e6511bf0c59c86",
+      "internal_date": "1779812117000",
+      "date": "Tue, 26 May 2026 16:15:17 +0000",
       "from": "Mike Okemisimi <mike.o@stream.money>",
       "to": "Matthew Levine <matthew@stream.money>",
       "subject": "Re: For Sage Capital Management",
@@ -1144,9 +348,38 @@
       "body": null
     },
     {
-      "message_id": "19e63c03e7f82112",
-      "internal_date": "1779790003000",
-      "date": "Tue, 26 May 2026 10:06:43 +0000",
+      "message_id": "19e651f0946a26c7",
+      "internal_date": "1779812992000",
+      "date": "Tue, 26 May 2026 16:29:52 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: From Tariff Chaos to Clarity: The New Era of AI-Driven Tr... @ Tue May 26, 2026 1:30pm - 3:30pm (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e651f80058c55a",
+      "internal_date": "1779813022000",
+      "date": "Tue, 26 May 2026 16:30:22 +0000",
+      "from": "PRAKTIKAI <PRAKTIKAI@calendar.luma-mail.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "⏰ From Tariff Chaos to Clarity: The New Era of AI-Driven Trade Compliance is starting in 1 hour",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65257bb908eed",
+      "internal_date": "1779813413000",
+      "date": "Tue, 26 May 2026 16:36:53 +0000",
       "from": "WordPress <wordpress@levinelegalservices.com>",
       "to": "matthew@levinelegal.ca",
       "subject": "[LLS] Please moderate: \"Hello world!\"",
@@ -1158,9 +391,9 @@
       "body": null
     },
     {
-      "message_id": "19e63c04340ea1ee",
-      "internal_date": "1779790002000",
-      "date": "Tue, 26 May 2026 10:06:42 +0000",
+      "message_id": "19e65258055fb0df",
+      "internal_date": "1779813413000",
+      "date": "Tue, 26 May 2026 16:36:53 +0000",
       "from": "WordPress <wordpress@levinelegalservices.com>",
       "to": "accounts@matthewajlevine.com",
       "subject": "[LLS] Please moderate: \"Hello world!\"",
@@ -1172,12 +405,12 @@
       "body": null
     },
     {
-      "message_id": "19e63fb2e85f90fb",
-      "internal_date": "1779793865000",
-      "date": "Tue, 26 May 2026 11:11:05 +0000",
-      "from": "Chala Bayam <usr-fCC3sxWmU9AEgW1@user.luma-mail.com>",
+      "message_id": "19e6529e86e001e8",
+      "internal_date": "1779813705000",
+      "date": "Tue, 26 May 2026 09:41:45 -0700",
+      "from": "Google Analytics <analytics-noreply@google.com>",
       "to": "matthew@levine-law.ca",
-      "subject": "Chat started for The Stealth & Early Stage AI Builders Room — Toronto Tech Week",
+      "subject": "Show more relevant ads using Google Analytics audiences",
       "labels": [
         "UNREAD",
         "IMPORTANT",
@@ -1187,30 +420,894 @@
       "body": null
     },
     {
-      "message_id": "19e63fee6ffe0468",
-      "internal_date": "1779794109000",
-      "date": "Tue, 26 May 2026 11:15:09 +0000",
-      "from": "Chala Bayam <usr-fCC3sxWmU9AEgW1@user.luma-mail.com>",
+      "message_id": "19e6531d36356d25",
+      "internal_date": "1779814224000",
+      "date": "Tue, 26 May 2026 09:50:24 -0700",
+      "from": "Google Analytics <analytics-noreply@google.com>",
       "to": "matthew@levine-law.ca",
-      "subject": "Update for The Stealth & Early Stage AI Builders Room — Toronto Tech Week",
+      "subject": "Reach your business goals using Google Analytics key events",
       "labels": [
         "UNREAD",
-        "IMPORTANT",
         "CATEGORY_UPDATES",
         "INBOX"
       ],
       "body": null
     },
     {
-      "message_id": "19e640c52f5efa7d",
-      "internal_date": "1779794989000",
-      "date": "Tue, 26 May 2026 11:29:49 +0000",
+      "message_id": "19e653a8ca3f4927",
+      "internal_date": "1779814795000",
+      "date": "Tue, 26 May 2026 16:59:55 +0000",
       "from": "Google Calendar <calendar-notification@google.com>",
       "to": "Matthew Levine <matthew@levine-law.ca>",
-      "subject": "Notification: Agentic Payments Breakfast - Qatom Launch @ Tue May 26, 2026 8:30am - 10:30am (EDT) (Matthew AJ Levine)",
+      "subject": "Notification: Building Canadian Legal Tech: A Fireside Chat with Clio C... @ Tue May 26, 2026 2pm - 4pm (EDT) (Matthew AJ Levine)",
       "labels": [
         "UNREAD",
         "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e653e0aa505040",
+      "internal_date": "1779815024000",
+      "date": "Tue, 26 May 2026 10:03:44 -0700",
+      "from": "Google Analytics <analytics-noreply@google.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "Take one last step to get the most out of your Google Analytics key events",
+      "labels": [
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65434e3915eda",
+      "internal_date": "1779815359000",
+      "date": "Tue, 26 May 2026 17:09:19 +0000",
+      "from": "Victor Pirone <vpirone@pallettvalo.com>",
+      "to": "Matthew Levine <Matthew@rousseaumazzuca.com>, \"jmalheiro@ubcja.ca\" <jmalheiro@ubcja.ca>",
+      "subject": "RE: Paramount Lease Consent [PVC-ACTIVE.FID928071]",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6544698a85887",
+      "internal_date": "1779815442000",
+      "date": "Tue, 26 May 2026 17:10:42 +0000",
+      "from": "Legal Innovation Zone <usr-9kx6XwzS5EWcmLN@user.luma-mail.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "URGENT: Event Cancelled Today Due to City-Wide Power Outage",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6545a04fd28aa",
+      "internal_date": "1779815521000",
+      "date": "Tue, 26 May 2026 17:12:01 +0000",
+      "from": "Legal Innovation Zone <usr-9kx6XwzS5EWcmLN@user.luma-mail.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "Update for [CANCELLED INDEFINITELY] Building Canadian Legal Tech: A Fireside Chat with Clio CTO Jonathan Watson",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e654cf34957361",
+      "internal_date": "1779816001000",
+      "date": "Tue, 26 May 2026 17:20:01 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: From Tariff Chaos to Clarity: The New Era of AI-Driven Tr... @ Tue May 26, 2026 1:30pm - 3:30pm (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65685acbdf0e0",
+      "internal_date": "1779817797000",
+      "date": "Tue, 26 May 2026 17:49:57 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: [CANCELLED INDEFINITELY] Building Canadian Legal Tech: A ... @ Tue May 26, 2026 2pm - 4pm (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e657031dbe3c90",
+      "internal_date": "1779818297000",
+      "date": "Tue, 26 May 2026 12:58:17 -0500",
+      "from": "Abhishek Shah <abhishek.shah@super60.com>",
+      "to": "Matthew Levine <matthew@levinelegal.ca>",
+      "subject": "Vancouver & White rock",
+      "labels": [
+        "UNREAD",
+        "YELLOW_STAR",
+        "IMPORTANT",
+        "STARRED",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65726fe933776",
+      "internal_date": "1779818455000",
+      "date": "Tue, 26 May 2026 12:00:55 -0600",
+      "from": "BMO Bank of Montreal <donotreply@e-news.bmo.com>",
+      "to": "<matthew@levinelegal.ca>",
+      "subject": "The Blue Rewards Countdown Begins",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65728fedb4f3e",
+      "internal_date": "1779818446000",
+      "date": "Tue, 26 May 2026 14:00:46 -0400",
+      "from": "Adrian Florescu <adrianf@royallepage.ca>",
+      "to": "Michael Mazzuca <Michael@rousseaumazzuca.com>",
+      "subject": "Re: Corporate Work",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e657cac946d062",
+      "internal_date": "1779819129000",
+      "date": "Tue, 26 May 2026 18:12:09 +0000",
+      "from": "Google Voice <voice-noreply@google.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "New missed call from (438) 808-3048.",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e657d093bbbd71",
+      "internal_date": "1779819056000",
+      "date": "Tue, 26 May 2026 14:10:56 -0400",
+      "from": "<alecia@horwitzfinder.com>",
+      "to": "\"'Matthew Levine'\" <matthew@levinelegal.ca>",
+      "subject": "RE: Sale - Whitby Subway Franchise",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e657d5c55760a3",
+      "internal_date": "1779819174000",
+      "date": "Tue, 26 May 2026 18:12:54 +0000",
+      "from": "Google Voice <voice-noreply@google.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "New missed call from (438) 808-3048.",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6595e8fe01a13",
+      "internal_date": "1779820781000",
+      "date": "Tue, 26 May 2026 18:39:41 +0000 (UTC)",
+      "from": "\"Zoom Communications, Inc.\" <billing@zoom.us>",
+      "to": "matthew@levinelegal.ca",
+      "subject": "Payment Processed for 5068388021",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e659d3fb263f9a",
+      "internal_date": "1779821259000",
+      "date": "Tue, 26 May 2026 18:47:39 +0000",
+      "from": "TEJVIR BOPARAI <teji12@hotmail.com>",
+      "to": "Matthew Levine <matthew@levinelegal.ca>",
+      "subject": "Re: sale of franchise business",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65a1163e04766",
+      "internal_date": "1779821504000",
+      "date": "Wed, 27 May 2026 02:51:44 +0800",
+      "from": "Maria Jessica Ocampo <ocampomariajessica@gmail.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Re: Maria Jessica O. sent you a message",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65a37077a6726",
+      "internal_date": "1779821660000",
+      "date": "Tue, 26 May 2026 18:54:20 +0000",
+      "from": "Sandra Albia <Sandra@rousseaumazzuca.com>",
+      "to": "Everyone <Everyone@rousseaumazzuca.com>",
+      "subject": "Updated Staff Phone List",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65b0ed454f1fb",
+      "internal_date": "1779822548000",
+      "date": "Tue, 26 May 2026 19:09:08 +0000",
+      "from": "Sandra Albia <Sandra@rousseaumazzuca.com>",
+      "to": "Everyone <Everyone@rousseaumazzuca.com>",
+      "subject": "Power Outage=65 Queen Street W.  NO UPDATE",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65b178dc88226",
+      "internal_date": "1779822572000",
+      "date": "Tue, 26 May 2026 19:09:32 +0000",
+      "from": "\"westerncanada, Conveyance\" <Conveyance.westerncanada@colliers.com>",
+      "to": "\"Beechinor, Patrick\" <pbeechinor@mccarthy.ca>, \"Dreijer, Liezl\" <ldreijer@mccarthy.ca>",
+      "subject": "Sale & Purchase of [Lot 1 3698 Metchosin Road, Colwood, BC, V9C 4B4] (Our File: 628730) – invoice ",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65bff6010bd61",
+      "internal_date": "1779823539000",
+      "date": "Tue, 26 May 2026 15:25:39 -0400",
+      "from": "Jordan Atin from eState Planner <jordan@e-stateplanner.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "[CPD Webinar] Lesser-Known Statutory Provisions in Estates Practice Part 2",
+      "labels": [
+        "CATEGORY_PROMOTIONS",
+        "IMPORTANT",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65cc5228b0fa8",
+      "internal_date": "1779824348000",
+      "date": "Tue, 26 May 2026 19:39:08 +0000",
+      "from": "WordPress <wordpress@barberismo.com>",
+      "to": "accounts@matthewajlevine.com",
+      "subject": "[Barberismo] Some themes were automatically updated",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65df99943f565",
+      "internal_date": "1779825612000",
+      "date": "Tue, 26 May 2026 20:00:12 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: Firm Management @ Tue May 26, 2026 5pm - 5:30pm (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65e1822b54d1d",
+      "internal_date": "1779825712000",
+      "date": "Tue, 26 May 2026 20:01:52 +0000",
+      "from": "\"Joana A. Malheiro\" <jmalheiro@ubcja.ca>",
+      "to": "Matthew Levine <Matthew@rousseaumazzuca.com>",
+      "subject": "Re: Paramount Lease Consent",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65e18b7d3b3ad",
+      "internal_date": "1779825739000",
+      "date": "Tue, 26 May 2026 20:02:19 +0000 (UTC)",
+      "from": "Customer service <donotreply@regus.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "Verify your identity",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65e50847d8d2b",
+      "internal_date": "1779825968000",
+      "date": "Tue, 26 May 2026 20:06:08 +0000 (UTC)",
+      "from": "Customer service <donotreply@regus.com>",
+      "to": "Matthew Levine <matthew@levinelegal.ca>",
+      "subject": "Log in to your online account.",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65e666bffda4d",
+      "internal_date": "1779826044000",
+      "date": "Tue, 26 May 2026 20:07:24 +0000",
+      "from": "Leonardo Moulin <Leonardo.Moulin@attrus.com>",
+      "to": "Katta Srinivas <katta.s@stream.money>",
+      "subject": "RE: Projected Monthly Volumes & Payment Infrastructure for LATAM Markets",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65e6c38f39085",
+      "internal_date": "1779826081000",
+      "date": "Tue, 26 May 2026 20:08:01 +0000",
+      "from": "Legal Innovation Zone <usr-9kx6XwzS5EWcmLN@user.luma-mail.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "Update for Building Canadian Legal Tech: A Fireside Chat with Clio CTO Jonathan Watson",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65e91595d39e1",
+      "internal_date": "1779826228000",
+      "date": "Tue, 26 May 2026 20:10:28 +0000",
+      "from": "Sandra Albia <Sandra@rousseaumazzuca.com>",
+      "to": "Everyone <Everyone@rousseaumazzuca.com>, Nicolas Carvajal <nicolas@iwebcs.com>",
+      "subject": "FW: Memorandum – 65 Queen St W: POWER RESTORED",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65ea6ccfafa4a",
+      "internal_date": "1779826322000",
+      "date": "Tue, 26 May 2026 20:12:02 +0000 (UTC)",
+      "from": "\"DoNotReply@regus.com\" <donotreply@regus.com>",
+      "to": "Matthew Levine <matthew@levinelegal.ca>",
+      "subject": "URGENT COMMUNICATION - Your Payment Was Declined",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e65f0d9b956422",
+      "internal_date": "1779826742000",
+      "date": "Tue, 26 May 2026 20:19:02 +0000",
+      "from": "Legal Innovation Zone <usr-9kx6XwzS5EWcmLN@user.luma-mail.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "Rescheduled for Tomorrow: Building Canadian Legal Tech with Clio CTO Jonathan Watson",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e660014385c276",
+      "internal_date": "1779827703000",
+      "date": "Tue, 26 May 2026 16:35:03 -0400",
+      "from": "Fabian Fernandes <fabian@techhighway.ca>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Re: Levine Law Password Reset Request",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e660d0495ad61e",
+      "internal_date": "1779828589000",
+      "date": "Tue, 26 May 2026 20:49:49 +0000",
+      "from": "Google Voice <voice-noreply@google.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "New missed call from (647) 692-6238.",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e660d5ca4823dc",
+      "internal_date": "1779828611000",
+      "date": "Tue, 26 May 2026 20:50:11 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: Firm Management @ Tue May 26, 2026 5pm - 5:30pm (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6616934df2614",
+      "internal_date": "1779829215000",
+      "date": "Tue, 26 May 2026 21:00:15 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: Firm Management @ Wed May 27, 2026 5pm - 5:30pm (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e662fc4f6a98cf",
+      "internal_date": "1779830864000",
+      "date": "Tue, 26 May 2026 21:27:44 +0000",
+      "from": "Levine Law <support@lexaro.ca>",
+      "to": "\"matthew@levine-law.ca\" <matthew@levine-law.ca>",
+      "subject": "Lexaro verification code",
+      "labels": [
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e663bfd8298f35",
+      "internal_date": "1779831663000",
+      "date": "Tue, 26 May 2026 21:41:03 +0000",
+      "from": "Sonia B <sonia@stream.money>",
+      "to": "Matthew Levine <matthew@stream.money>, Harry Bedi <harry@stream.money>",
+      "subject": "Re: Onboarding Snowcap Financial Ltd",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e664d2a0a7ec55",
+      "internal_date": "1779832793000",
+      "date": "Tue, 26 May 2026 21:59:53 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: The Stealth & Early Stage AI Builders Room — Toronto Tech... @ Tue May 26, 2026 7pm - 10pm (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e664e3523543c6",
+      "internal_date": "1779832860000",
+      "date": "Tue, 26 May 2026 22:01:00 +0000",
+      "from": "Chala Bayam <usr-fCC3sxWmU9AEgW1@user.luma-mail.com>",
+      "to": "matthew@levine-law.ca",
+      "subject": "⏰ The Stealth & Early Stage AI Builders Room — Toronto Tech Week is starting in 1 hour",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e664dd3c0a42da",
+      "internal_date": "1779832836000",
+      "date": "Tue, 26 May 2026 15:00:36 -0700",
+      "from": "GitHub <noreply@github.com>",
+      "to": "Mathew Levine <matthew@levinelegal.ca>",
+      "subject": "[GitHub] Claude is requesting updated permissions",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e667b189a19a03",
+      "internal_date": "1779835803000",
+      "date": "Tue, 26 May 2026 22:50:03 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: The Stealth & Early Stage AI Builders Room — Toronto Tech... @ Tue May 26, 2026 7pm - 10pm (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e668a383f56dfd",
+      "internal_date": "1779836793000",
+      "date": "Tue, 26 May 2026 23:06:33 +0000",
+      "from": "WordPress <wordpress@levinelegalservices.com>",
+      "to": "accounts@matthewajlevine.com",
+      "subject": "[LLS] Some plugins and themes have automatically updated",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66bbb8de2aeac",
+      "internal_date": "1779840037000",
+      "date": "Wed, 27 May 2026 00:00:37 +0000 (UTC)",
+      "from": "Upwork <upwork@t.upwork.com>",
+      "to": "matthew@levinelegal.ca",
+      "subject": "You have an unread message from Magelyn T.",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66bbfa57acc20",
+      "internal_date": "1779840055000",
+      "date": "Wed, 27 May 2026 00:00:55 +0000 (UTC)",
+      "from": "\"Maria Jessica O. via Upwork\" <room_246fdc160a6d64925d0a2296e9c20d7c@email.upwork.com>",
+      "to": "matthew@levinelegal.ca",
+      "subject": "Maria Jessica O. sent you a message",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66bcbb2e260cd",
+      "internal_date": "1779840104000",
+      "date": "Wed, 27 May 2026 00:01:44 +0000 (UTC)",
+      "from": "\"Samira G. via Upwork\" <room_4116980b8ca4bef49e46c7d6366cfc9f@email.upwork.com>",
+      "to": "matthew@levinelegal.ca",
+      "subject": "Samira G. sent you a message",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66bf2f3e8db67",
+      "internal_date": "1779840265000",
+      "date": "Wed, 27 May 2026 00:04:25 +0000",
+      "from": "Certn Applications <request@certn.co>",
+      "to": "matthew@levinelegal.ca",
+      "subject": "Reminder: Background Screening Request From Mercor",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66d32ad514eb5",
+      "internal_date": "1779841575000",
+      "date": "Tue, 26 May 2026 17:26:15 -0700",
+      "from": "Google Alerts <googlealerts-noreply@google.com>",
+      "to": "info@levinelegal.ca",
+      "subject": "Google Alert - Consumer Privacy Protection Act",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66db79d2c1c04",
+      "internal_date": "1779842119000",
+      "date": "Tue, 26 May 2026 17:35:19 -0700",
+      "from": "Google Alerts <googlealerts-noreply@google.com>",
+      "to": "info@levinelegal.ca",
+      "subject": "Google Alert - The Fighting Against Forced Labour and Child Labour in Supply Chains Act (the Act)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66e1d579b610b",
+      "internal_date": "1779842536000",
+      "date": "Tue, 26 May 2026 17:42:16 -0700",
+      "from": "Google Alerts <googlealerts-noreply@google.com>",
+      "to": "info@levinelegal.ca",
+      "subject": "Google Alert - An Act to enact the Consumer Privacy Protection Act and the Personal Information and Data Protection Tribunal Act and to make consequential and related amendments to other Acts",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66ea8fdbad5d4",
+      "internal_date": "1779843096000",
+      "date": "Tue, 26 May 2026 20:51:36 -0400",
+      "from": "Laura Hinton <laura@levine-law.ca>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Re: Founders Agreement and Minute Book Documents",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e66f80ff9ffc89",
+      "internal_date": "1779843992000",
+      "date": "Wed, 27 May 2026 01:06:32 +0000",
+      "from": "ontarioReports@lexisnexis.ca",
+      "to": "matthew@levinelegal.ca",
+      "subject": "Ontario Reports Digital Edition May 29, 2026 / Recueil de jurisprudence de l’Ontario édition digitale 29 mai 2026 - Matthew Arthur Jacob Levine",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e671bc980afcc8",
+      "internal_date": "1779846333000",
+      "date": "Wed, 27 May 2026 01:45:33 +0000",
+      "from": "Upwork Notification <donotreply@upwork.com>",
+      "to": "Matthew Levine <matthew@levinelegal.ca>",
+      "subject": "Manual time was added",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e678503d3b2ab5",
+      "internal_date": "1779853230000",
+      "date": "Tue, 26 May 2026 23:40:30 -0400",
+      "from": "<NewBusinessRegistry@ontario.ca>",
+      "to": "matthew@levinelegal.ca",
+      "subject": "1001494374 ONTARIO CORP. 1001494374 - Expired Application / Demande expirée",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e68119d57c71d0",
+      "internal_date": "1779862383000",
+      "date": "Wed, 27 May 2026 06:13:03 +0000",
+      "from": "WordPress <wordpress@studentrights.site>",
+      "to": "Matthew@matthewajlevine.com",
+      "subject": "[studentrights.site] Some plugins and themes have automatically updated",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6821650d3caae",
+      "internal_date": "1779863473000",
+      "date": "Wed, 27 May 2026 06:31:13 +0000",
+      "from": "Katta Srinivas <katta.s@stream.money>",
+      "to": "Leonardo Moulin <Leonardo.Moulin@attrus.com>",
+      "subject": "Re: Projected Monthly Volumes & Payment Infrastructure for LATAM Markets",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e683bd48956c47",
+      "internal_date": "1779865210000",
+      "date": "Wed, 27 May 2026 07:00:10 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: Matthew <> Ansis @ Wed May 27, 2026 4am - 5am (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6842753b347d5",
+      "internal_date": "1779865643000",
+      "date": "Wed, 27 May 2026 07:07:23 +0000",
+      "from": "WordPress <wordpress@barberismo.com>",
+      "to": "accounts@matthewajlevine.com",
+      "subject": "[Barberismo] Some plugins were automatically updated",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6868934a0a3ad",
+      "internal_date": "1779868138000",
+      "date": "Wed, 27 May 2026 07:48:58 +0000",
+      "from": "\"Zvejniece-Taurene, Kristīne\" <kristine.zvejniece-taurene@roedl.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Latvia: financial services law and compliance",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e686982a4accc2",
+      "internal_date": "1779868205000",
+      "date": "Wed, 27 May 2026 07:50:05 +0000",
+      "from": "Google Calendar <calendar-notification@google.com>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Notification: Matthew <> Ansis @ Wed May 27, 2026 4am - 5am (EDT) (Matthew AJ Levine)",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_UPDATES",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e6885a3f0ca8f3",
+      "internal_date": "1779870041000",
+      "date": "Wed, 27 May 2026 08:20:41 +0000",
+      "from": "Ansis Spridzans <ansis.spridzans@spridzans.lv>",
+      "to": "Matthew Levine <matthew@levine-law.ca>",
+      "subject": "Re: financial services law and compliance",
+      "labels": [
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e68e164e4c9592",
+      "internal_date": "1779876059000",
+      "date": "Wed, 27 May 2026 10:00:59 +0000",
+      "from": "WordPress <wordpress@levinelegalservices.com>",
+      "to": "accounts@matthewajlevine.com",
+      "subject": "[LLS] Please moderate: \"Hello world!\"",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+      ],
+      "body": null
+    },
+    {
+      "message_id": "19e68e15e1cee809",
+      "internal_date": "1779876059000",
+      "date": "Wed, 27 May 2026 10:00:59 +0000",
+      "from": "WordPress <wordpress@levinelegalservices.com>",
+      "to": "matthew@levinelegal.ca",
+      "subject": "[LLS] Please moderate: \"Hello world!\"",
+      "labels": [
+        "UNREAD",
+        "CATEGORY_PERSONAL",
         "INBOX"
       ],
       "body": null
