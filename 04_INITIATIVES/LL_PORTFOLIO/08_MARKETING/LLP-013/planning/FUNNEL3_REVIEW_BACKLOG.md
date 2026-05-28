@@ -35,6 +35,10 @@ Capture unresolved higher-severity findings from the April 3, 2026 three-Muggah 
   Register Under the RPAA?" or "RPAA Applicability Checklist for Payment
   Service Providers." Seek ML1 approval before production.
 - Added: 2026-05-19
+- Status: partially addressed 2026-05-27. Candidate entry offer recorded as
+  `RPAA Registration Readiness & Application Review`, pending ML1 approval and
+  specification. Planned lead magnet recorded as `RPAA Applicability Checklist
+  for Payment Service Providers`, also pending offer approval.
 - Key refs:
   - `04_FUNNELS/funnel-03/entry_offers.md`
   - `planning/SCOPE_STATEMENT.md`

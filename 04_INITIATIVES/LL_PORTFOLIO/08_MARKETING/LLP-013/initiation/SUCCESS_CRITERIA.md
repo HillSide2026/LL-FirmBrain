@@ -20,6 +20,8 @@ The project will be successful if:
    - `MSB Registration Mandate`
    - `Suspicious Transaction Triage & STR Filing`
    - `MSB Health Check`
+   Pending candidate recorded separately:
+   - `RPAA Registration Readiness & Application Review` — pending ML1 approval; specification pending
 3. The canonical core-offer map is explicit and internally consistent:
    - `Suspicious Transaction Reporting Triage & Playbook`
    - `MSB Effectiveness Review`

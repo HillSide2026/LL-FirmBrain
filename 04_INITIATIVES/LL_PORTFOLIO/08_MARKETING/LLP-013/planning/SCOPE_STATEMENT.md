@@ -54,10 +54,19 @@ Out of scope: Google Ads (F01 channel), health check diagnostics (F02 channel), 
 ### 3. Entry Offer Definition
 
 Primary F03 entry offer:
-- Regulatory triage consultation: a defined-scope, fixed-fee consultation focused on a specific regulatory question (MSB registration analysis, RPAA applicability, AML program gap review).
+- MSB Registration Mandate: FINTRAC classification and registration architecture
+  for Canadian MSBs.
 
-Secondary F03 entry offer:
+Secondary F03 entry offers:
+- Suspicious Transaction Triage & STR Filing: incident-level threshold analysis
+  and defensible STR filing support.
 - MSB Health Check (where applicable and not duplicated with F02): operational AML compliance review for MSBs and regulated fintechs.
+
+Pending F03 entry-offer candidate:
+- RPAA Registration Readiness & Application Review: pending ML1 approval;
+  specification pending. Working concept is Bank of Canada PSP registration
+  readiness, payment-function classification, and application review for payment
+  service providers with Canadian exposure.
 
 Entry offer pricing: to be defined in WORKPLAN. Must be set before LinkedIn Ads activation.
 

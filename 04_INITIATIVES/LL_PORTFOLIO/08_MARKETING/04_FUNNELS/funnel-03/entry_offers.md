@@ -4,7 +4,7 @@ title: Funnel 3 Entry Offers
 owner: ML1
 status: draft
 created_date: 2026-05-18
-last_updated: 2026-05-18
+last_updated: 2026-05-27
 tags: []
 ---
 
@@ -533,6 +533,155 @@ Tone must be: Calm, structured, non-alarmist, institutional.
 Avoid: "You're exposed."
 
 Use: "Your program may be compliant -- but is it defensible?"
+
+## Pending Entry Offer: RPAA Registration Readiness & Application Review
+
+**Status:** Pending ML1 approval; specification pending.
+
+This is a draft candidate entry offer. It is not approved for marketing,
+activation, Stripe configuration, or external positioning until ML1 approves the
+offer specification.
+
+**Strategic Positioning**
+- Bank of Canada-facing PSP registration architecture.
+- Not a form-checking service.
+- Not generic payments compliance.
+- Positioned as a readiness and application-review mandate for payment service
+  providers with Canadian exposure.
+
+**Name Rationale**
+Use **RPAA Registration Readiness & Application Review** as the working offer
+name pending approval. "Application review" is accurate but too narrow on its
+own. The real client problem is whether the business is ready to register,
+whether the application narrative aligns with the operating model, and whether
+operational risk / safeguarding implications have been identified before
+submission.
+
+**Who This Entry Offer Is For**
+Payment operators, fintech platforms, embedded-finance businesses, marketplaces,
+or cross-border payment businesses that:
+- perform, or may perform, retail payment activities for Canadian end users
+- need to determine whether Bank of Canada PSP registration is required
+- are preparing or revising an RPAA registration application
+- need to align payment-function analysis with operating model facts
+- have safeguarding, end-user-funds, third-party-provider, or operational-risk
+  questions connected to registration
+- were asked by a bank, partner, investor, or platform counterparty about RPAA
+  registration status
+
+They are not:
+- purely informational callers with no live Canada nexus
+- businesses seeking only MSB / FINTRAC registration analysis
+- entities looking for commodity form completion
+- securities or token-issuance matters without a payment-function question
+
+**Core Framing**
+This is not: "Review my application before I submit."
+
+It is: PSP registration readiness, payment-function classification, and Bank of
+Canada application-positioning support.
+
+The product must emphasize:
+- payment-function classification
+- Canadian nexus and exclusion analysis
+- operational-risk readiness
+- safeguarding implications where end-user funds are held
+- application consistency and defensibility
+- next-step reporting and framework obligations after registration
+
+**Structure of the Offer**
+
+Phase 1 - RPAA Applicability and Payment-Function Mapping
+- Map payment functions performed by the client
+- Identify Canadian end-user nexus
+- Assess incidental / exclusion arguments where relevant
+- Separate MSB / FINTRAC issues from RPAA / Bank of Canada issues
+- Deliverable: RPAA applicability and payment-function summary
+
+Phase 2 - Operating Model and Readiness Review
+- Review funds flow and account architecture
+- Identify whether the client holds end-user funds
+- Flag safeguarding implications
+- Identify operational-risk, third-party-provider, incident-response, and
+  governance readiness gaps
+- Deliverable: RPAA readiness issue list
+
+Phase 3 - Application Review / Filing Support
+- Review Bank of Canada application inputs for completeness and consistency
+- Align business activity description with payment-function analysis
+- Review ownership, control, operational-risk, and safeguarding disclosures
+- Support response strategy for Bank of Canada clarification requests
+
+Phase 4 - Post-Registration Obligations Roadmap
+- Explain annual reporting implications
+- Identify framework maintenance obligations
+- Flag change-notice and incident-response triggers
+- Identify whether RPAA reporting, three-year review, or ongoing payments
+  counsel should be scoped separately
+
+**Deliverables**
+1. RPAA Applicability and Payment-Function Summary
+2. Registration Readiness Issue List
+3. Application Review Notes / Filing Support Guidance
+4. Safeguarding and Operational-Risk Implications Summary
+5. Post-Registration Obligations Roadmap
+
+**Pricing Strategy**
+Suggested range: $7,500-$18,000 fixed fee
+
+Variables:
+- number of payment functions
+- complexity of funds flow
+- end-user-funds / safeguarding exposure
+- third-party-provider and sponsor-bank architecture
+- cross-border structure
+- urgency and whether an application has already been submitted
+
+For narrow application-only review where applicability is already settled and
+documentation is complete, a smaller fixed-fee application review may be quoted
+after pre-scope. Do not market the narrow review as the primary offer.
+
+**Conversion Path**
+This entry offer naturally leads to:
+- RPAA Reporting
+- RPAA Three-Year Review
+- Safeguarding framework review
+- Operational risk framework support
+- Ongoing Payments Regulatory Counsel Retainer
+- MSB Registration Mandate or AML work where dual FINTRAC / RPAA issues arise
+
+**Psychological Dynamics**
+They are:
+- uncertain whether they are inside the Bank of Canada perimeter
+- concerned about launch timing, partner diligence, and regulatory credibility
+- aware that RPAA registration is not just a form
+- trying to avoid inconsistent public / partner / regulator positioning
+
+Tone must be:
+- precise
+- practical
+- architecture-oriented
+- non-alarmist
+
+Example positioning line:
+"RPAA registration is a payment-function and operating-model question before it
+is an application exercise."
+
+**Intake Gate Logic**
+Require:
+- Canadian end-user nexus? (Y/N/Unknown)
+- Payment functions performed
+- Does the business hold end-user funds? (Y/N/Unknown)
+- Sponsor bank / PSP / processor relationships
+- Cross-border activity?
+- Application already submitted? (Y/N)
+- Bank, investor, or partner deadline?
+
+Decline or reroute:
+- MSB-only matters with no RPAA payment-function question
+- token issuance / securities matters with no payment functionality
+- purely consumer-facing complaints
+- entities unwilling to disclose funds flow
 
 ## Core Offers
 

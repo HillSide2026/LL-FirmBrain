@@ -40,6 +40,7 @@ execution sub-stage and requires separate ML1 authorization.
 
 Canonical offer map:
 - Entry offers: `MSB Registration Mandate`, `Suspicious Transaction Triage & STR Filing`, `MSB Health Check`
+- Pending entry offer: `RPAA Registration Readiness & Application Review` — pending ML1 approval; specification pending
 - Core offers: `Suspicious Transaction Reporting Triage & Playbook`, `MSB Effectiveness Review`, `RPAA Reporting`, `Ongoing AML / Payments Regulatory Counsel`, `Specialist Fractional Counsel for payments-regulatory matters`
 - Backlog candidate: `Tokenized Payment Systems Regulatory Structuring` — not
   an active offer and not approved for marketing.

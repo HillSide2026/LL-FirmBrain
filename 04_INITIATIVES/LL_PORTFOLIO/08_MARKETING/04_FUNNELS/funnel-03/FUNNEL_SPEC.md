@@ -193,6 +193,9 @@ Stages: booked → consult_complete → retained
   - EO1: MSB Registration Mandate
   - EO2: Suspicious Transaction Triage & STR Filing
   - EO3: MSB Health Check
+- Pending entry offer:
+  - RPAA Registration Readiness & Application Review — pending ML1 approval;
+    specification pending
 - Core offers:
   - Suspicious Transaction Reporting Triage & Playbook
   - MSB Effectiveness Review

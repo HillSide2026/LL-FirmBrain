@@ -4,7 +4,7 @@ title: Product Registry — All Funnels
 owner: ML1
 status: working
 created_date: 2026-04-05
-last_updated: 2026-04-05
+last_updated: 2026-05-27
 tags: [product-registry, funnel-01, funnel-02, funnel-03, pricing]
 ---
 
@@ -30,6 +30,8 @@ tags: [product-registry, funnel-01, funnel-02, funnel-03, pricing]
 | 9 | Six (6) STR Mistakes That Create Unnecessary Regulatory Risk | $97 | — | F3 | PDF or digital guide | Canadian MSBs / PSPs with STR reporting obligations | Not documented in current F3 content files |
 | 10 | Six (6) Hidden MSB Triggers in Fintech & Crypto | $97 | — | F3 | PDF or digital guide | Fintech and crypto operators with potential unregistered MSB exposure | Not documented in current F3 content files |
 | 11 | LL Funnel 2026 — Launch Your Payments Business in Canada | Free for first 3 months; paid platform version after revision | — | F3 | E-book | Payments, MSB, PSP, stablecoin, and embedded-finance operators seeking a Canada-entry/regulatory-readiness mental model | Draft concept documented in legacy payments folder; distinct from `Canadian Fintech Law in 2026`; requires lifecycle tracking |
+| 12 | RPAA Applicability Checklist for Payment Service Providers | $97 | — | F3 | PDF or digital guide | PSPs and payment operators assessing Bank of Canada registration exposure | Pending offer approval; specification pending; do not add to Stripe until RPAA offer approved |
+| 13 | RPAA Registration Consult | $859 | — | F3 | Live consultation (ML1) | PSPs and payment operators with Bank of Canada registration, payment-function, safeguarding, or application-review questions | Pending offer approval; specification pending; do not add to Stripe until RPAA offer approved |
 
 ---
 
@@ -91,7 +93,7 @@ tags: [product-registry, funnel-01, funnel-02, funnel-03, pricing]
 
 ## F3 Product Notes
 
-Products 8–10 are $97 PDF/digital products not currently documented in any F3 content or scope file. F3 entry_offers.md documents three service-level entry offers (MSB Registration Mandate, STR Triage, AML Health Check) and four core offers — none of which are $97 PDF products.
+Products 8–10 are $97 PDF/digital products not currently documented in any F3 content or scope file. F3 entry_offers.md documents service-level entry offers (MSB Registration Mandate, STR Triage, and AML Health Check) and core offers — none of which are $97 PDF products. RPAA Registration Readiness & Application Review is recorded as a pending candidate, not an approved entry offer.
 
 These three products represent a parallel low-ticket F3 entry layer (similar to F1's Product A), and may benefit from the same GHL + Stripe build approach used in F1.
 
@@ -99,6 +101,12 @@ These three products represent a parallel low-ticket F3 entry layer (similar to 
 
 Product 11 is a distinct e-book authority asset, not the same asset as
 `Canadian Fintech Law in 2026`.
+
+Products 12 and 13 were added to reflect the RPAA front-door offer candidate.
+They are pending approval and specification. Product 12 should satisfy the
+previously identified RPAA lead-magnet gap if approved. Product 13 would become
+the pre-entry consult that gates into the broader fixed-fee RPAA Registration
+Readiness & Application Review mandate if approved.
 
 Lifecycle:
 - launch version: free for the first three months after release

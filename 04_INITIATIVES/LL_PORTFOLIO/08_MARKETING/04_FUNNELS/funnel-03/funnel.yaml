@@ -3,8 +3,8 @@ meta:
   name: Fintech Authority + Levine Law Conversion
   status: planned
   owner: Levine Law
-  version: 3.1.0
-  last_updated: '2026-05-17'
+  version: 3.2.0
+  last_updated: '2026-05-27'
   execution_state: gated
   execution_substages:
     - pre-launch
@@ -81,6 +81,10 @@ spec:
       - EO1: MSB Registration Mandate
       - EO2: Suspicious Transaction Triage & STR Filing
       - EO3: MSB Health Check
+    pending_entry_offers:
+      - RPAA Registration Readiness & Application Review:
+          status: pending_approval
+          specification: pending
     core_offers:
       - Ongoing AML and Payments Regulatory Counsel Retainer
     backlog:
@@ -88,6 +92,15 @@ spec:
         - Tokenized Payment Systems Regulatory Structuring
 
 history:
+- v: 3.2.0
+  date: '2026-05-27'
+  by: ML1
+  change: >
+    Added RPAA Registration Readiness & Application Review as a pending entry
+    offer candidate to close the PSP/RPAA front-door gap. Marked pending ML1
+    approval and specification pending. Added corresponding planned RPAA
+    applicability lead magnet and RPAA Registration Consult in the supporting
+    product map as pending/planned items only.
 - v: 3.1.0
   date: '2026-05-17'
   by: ML1
