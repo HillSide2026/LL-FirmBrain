@@ -875,6 +875,24 @@ doctrine:
   version: '1.0'
   status: approved
   history: []
+- id: LLINV-006
+  title: 'LLINV-006: No Retainer, No Advice'
+  path: 01_DOCTRINE/01_INVARIANTS/LLINV-006-no-retainer-no-advice.md
+  version: '1.0'
+  status: approved
+  history: []
+- id: LLINV-007
+  title: 'LLINV-007: Client-Friend Exclusion'
+  path: 01_DOCTRINE/01_INVARIANTS/LLINV-007-client-friend-exclusion.md
+  version: '1.0'
+  status: approved
+  history: []
+- id: LLINV-008
+  title: 'LLINV-008: Client Is the Firm''s Problem'
+  path: 01_DOCTRINE/01_INVARIANTS/LLINV-008-client-is-the-firms-problem.md
+  version: '1.0'
+  status: approved
+  history: []
 - id: 01_doctrine__01_invariants__readme_md
   title: Invariants (Level 1)
   path: 01_DOCTRINE/01_INVARIANTS/README.md
