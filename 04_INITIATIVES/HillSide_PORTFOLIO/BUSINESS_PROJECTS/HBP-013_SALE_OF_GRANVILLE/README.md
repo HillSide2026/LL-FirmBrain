@@ -25,7 +25,13 @@ The corporate entity. A federal Canadian company with no current operating activ
 **Granville — `granvillefinance.ca`**
 The payment orchestration platform. A nascent brand and registered domain. Granville Finance is the market-facing product: a provider-portable orchestration layer for businesses that need to move money across borders. See `GRANVILLE_PRODUCT.md` for the full product description.
 
-Both live in this project. The entity sale and the product are related but tracked separately.
+**Ontario Corp — `1001494374 Ontario Corp`**
+The regulated entity behind Locarno. A registration-first payment operating layer with direct regulated financial institution connectivity. FINTRAC-registered MSB, RPAA compliance, AML control.
+
+**Locarno**
+The product within the Ontario Corp entity. An international payments and treasury platform for service businesses with multi-currency and cross-border needs. See `LOCARNO_PRODUCT.md` for the full product description.
+
+All four live in this project. Entity sales and products are tracked separately.
 
 ## Current State
 
