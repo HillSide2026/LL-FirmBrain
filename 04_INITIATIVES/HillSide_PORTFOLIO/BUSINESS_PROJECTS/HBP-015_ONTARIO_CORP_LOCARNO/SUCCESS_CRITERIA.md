@@ -20,11 +20,12 @@ tags: [locarno, ontario-msb, hillside, hbp-015]
 
 | Track | Success Definition | Working Value Marker |
 |---|---|---|
-| Track A | Entity sold as a clean MSB shell with verified FINTRAC standing, clean AML program, and no legacy liabilities | CAD $50,000 |
-| Track B Minimum | Entity sold as more than a shell — RPAA-ready, EMI indication obtained, AML framework complete | CAD $50,000 |
-| Track B Preferred | Entity sold as a regulated payments infrastructure asset — RPAA registered, EMI agreement signed, safeguarding documented, ledger and AML demo-ready | CAD $200,000 |
-| Track B Stretch | Fully contracted institutional stack — EMI signed, compliance tested, flows documented, buyer can inherit or replace all relationships | CAD $650,000 |
-| Track C | Track B Stretch plus direct sponsor-bank relationship contracted and referenceable | TBD above $650,000 |
+| Track A | Clean MSB shell — FINTRAC verified, AML documented, corporate records clean | CAD $50,000 |
+| Track B Low | Preferred gate complete, thin commercial layer — RPAA registered, EMI contracted, basic flows | CAD $150,000 |
+| Track B Medium | Preferred gate complete, working commercial layer — EMI operational, compliance workflow exercised, distribution path visible | CAD $200,000 |
+| Track B High | Preferred gate plus early traction — recurring flows, distribution showing early signal | CAD $300,000 |
+| Track B Stretch | Fully contracted and tested stack — EMI signed, compliance tested, flows documented, buyer can inherit or replace all relationships | CAD $650,000 |
+| Track C | Low-to-stretch plus direct sponsor bank — sponsor-bank relationship contracted and referenceable | TBD |
 
 ## Minimum Viable Outcome
 

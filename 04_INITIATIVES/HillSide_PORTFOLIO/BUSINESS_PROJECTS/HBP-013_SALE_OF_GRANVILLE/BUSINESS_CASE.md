@@ -48,15 +48,18 @@ The strategic case is:
 | Build a heavier operating platform before sale | Raises cost, timeline, and lock-in risk before entity-sale readiness is proven |
 | Combine `174` sale with Ontario MSB Corp by default | Adds complexity and blurs what the buyer is buying |
 
-## Pricing / Outcome Framing
+## Working Value Markers
 
-No fixed valuation target is stated at this stage. Eventual price will depend on:
+| Scenario | Working Value | Description |
+|---|---|---|
+| Track A | CAD $50,000 | Clean licensed shell — FINTRAC issued, AML documented |
+| Track B Low | CAD $150,000 | Preferred gate complete, thin commercial layer |
+| Track B Medium | CAD $200,000 | Preferred gate complete, working commercial layer |
+| Track B High | CAD $300,000 | Preferred gate plus early traction |
+| Track B Stretch | CAD $650,000 | Fully contracted and tested stack |
+| Track C | TBD | Low-to-stretch plus direct sponsor bank |
 
-- timing of FINTRAC issuance
-- clarity of the RPAA and EMI story
-- quality and transferability of the diligence package
-- whether the buyer is acquiring a licensed shell, a readiness package, or a
-  lightly supported operating posture
+These are internal planning assumptions, not appraised values. Actual price depends on timing of FINTRAC issuance, RPAA and EMI story quality, diligence package transferability, and buyer demand at time of sale.
 
 ## Recommendation
 

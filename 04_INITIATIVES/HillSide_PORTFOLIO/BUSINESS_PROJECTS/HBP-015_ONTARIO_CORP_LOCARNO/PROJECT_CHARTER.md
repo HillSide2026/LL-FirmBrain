@@ -80,15 +80,15 @@ By `2026-12-31`, `1001494374 Ontario Corp` has a confirmed sale track (A, B, or 
 - Migration plan covers both EMI and bank replacement
 - No exclusivity, punitive exit fees, or non-transferability terms
 
-**Working value markers:** Minimum $50k / Preferred $200k / Stretch $650k
+**Working value markers:** Low $150k / Medium $200k / High $300k / Stretch $650k
 
 ### Track C — Direct Sponsor-Bank
 
-**Thesis:** Track B Stretch plus a directly contracted, directly referenceable sponsor-bank relationship. Adds a second regulated institutional layer — the entity has both a direct EMI and a direct bank.
+**Thesis:** Low-to-stretch plus a directly contracted, directly referenceable sponsor-bank relationship. Track C does not require a full Stretch build — the direct bank relationship is what defines it.
 
 **Target sponsor-bank profile:** sponsor-friendly, fintech-accommodative, not necessarily Tier 1. Candidates: Solaris, ClearBank, Banking Circle, B4B, smaller Baltic or Central European sponsor banks.
 
-**Working value marker:** TBD above Track B Stretch
+**Working value marker:** TBD
 
 ## Stage Plan
 

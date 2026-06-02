@@ -22,7 +22,7 @@ The Q4 2026 restructuring (Matthew Capital incorporation, acquisition of 175, Ke
 
 **The floor is already set.** A verified, clean MSB shell with active RPAA registration has a working value marker of CAD $50,000. That value exists with minimal incremental investment — just FINTRAC verification, AML program documentation, and clean corporate records.
 
-**The upside is material.** Track B Preferred carries a working value marker of CAD $200,000. Track B Stretch is CAD $650,000. Track C is above that. The incremental investment to reach Preferred is primarily time (EMI relationship, RPAA readiness documentation, AML framework). The risk-adjusted upside over Track A is significant.
+**The upside is material.** Track B carries a value range of CAD $150,000–$300,000 depending on commercial layer strength, with Track B Stretch at CAD $650,000. Track C is TBD above the Stretch floor. The incremental investment to reach Track B Medium is primarily time (EMI relationship, RPAA readiness documentation, AML framework). The risk-adjusted upside over Track A is significant.
 
 **The Ontario Corp has a structural advantage over 174.** The Ontario corporation does not require a Canadian director. This makes it more portable and accessible to a wider range of buyers — particularly foreign-controlled entities building Canadian operations. 174 (federal) requires at least 25% Canadian directors. For buyers without a Canadian director available, this entity is the cleaner acquisition.
 
@@ -32,17 +32,18 @@ The Q4 2026 restructuring (Matthew Capital incorporation, acquisition of 175, Ke
 
 | Track | Working Value Marker | Incremental Cost Estimate | Notes |
 |---|---|---|---|
-| Track A | CAD $50,000 | Low — verification and documentation only | Minimum viable return |
-| Track B Minimum | CAD $50,000 | Low-Medium — EMI outreach, AML framework | No premium over A; but builds optionality |
-| Track B Preferred | CAD $200,000 | Medium — EMI agreement, RPAA readiness, ledger | $150k premium over A for ~$10-30k investment |
-| Track B Stretch | CAD $650,000 | Medium-High — tested stack, audit-ready documentation | $600k premium over A; requires EMI to contract |
-| Track C | TBD above $650k | High — sponsor-bank relationship required | Dependent on bank willingness pre-revenue |
+| Track A | CAD $50,000 | Low | Clean MSB shell — minimum viable return |
+| Track B Low | CAD $150,000 | Low-Medium | Preferred gate complete, thin commercial layer |
+| Track B Medium | CAD $200,000 | Medium | Preferred gate complete, working commercial layer |
+| Track B High | CAD $300,000 | Medium | Preferred gate plus early traction |
+| Track B Stretch | CAD $650,000 | Medium-High | Fully contracted and tested stack |
+| Track C | TBD | High | Low-to-stretch plus direct sponsor bank |
 
 The working value markers are internal planning assumptions, not appraised values. Actual sale price depends on buyer demand, negotiation, and market conditions at time of sale.
 
 ## Investment Thesis
 
-**Best-case target:** Track B Preferred (CAD $200,000), achievable without requiring a fully operational stack — just an EMI agreement, RPAA documentation, and a diligence-ready AML framework.
+**Base case target:** Track B Medium (CAD $200,000), achievable without requiring a fully operational stack — just an EMI agreement, RPAA documentation, a diligence-ready AML framework, and a working commercial layer.
 
 **Conservative floor:** Track A (CAD $50,000) is achievable with low incremental spend.
 
