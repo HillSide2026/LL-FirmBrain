@@ -44,17 +44,16 @@ Translate the HBP-015 charter into an execution-ready track selection and market
 | Milestone | Target Date | Evidence |
 |---|---|---|
 | Planning stage authorized | 2026-05-31 | `APPROVAL_RECORD.md` updated |
+| ConnectPay outreach initiated | 2026-06-08 | First contact made |
 | FINTRAC standing verified | 2026-06-30 | Written confirmation of active status and nil-reporting posture |
 | Track A shell package drafted | 2026-06-30 | AML program, corporate records summary, buyer handoff memo |
-| ConnectPay outreach initiated | 2026-06-15 | First contact made |
-| EMI written indication obtained or ruled out | 2026-07-31 | ConnectPay (or alternative) response documented |
+| Alternate EMI outreach initiated (if necessary) | 2026-07-15 | Secondary EMI contacted if ConnectPay path is unclear |
 | RPAA transfer analysis complete | 2026-07-15 | Transfer memo drafted |
-| Track selection decision | 2026-08-01 | ML1 decides A, B, or C based on EMI result |
-| Track B Preferred package (if Track B selected) | 2026-09-15 | EMI agreement signed, AML demo-ready, diligence folder complete |
-| Track C assessment complete | 2026-09-15 | Sponsor-bank viability note |
-| Market-ready package assembled | 2026-10-01 | Buyer-readable package at selected track |
-| Sale launch authorization | ML1 decision | `APPROVAL_RECORD.md` Planning → Executing gate |
-| Year-end checkpoint | 2026-12-31 | Sale status and track assessment |
+| ConnectPay indication obtained or ruled out | 2026-07-31 | ConnectPay (or alternate EMI) response documented |
+| Track B Preferred package (if Track B selected) | 2026-08-30 | EMI agreement signed, AML demo-ready, diligence folder complete |
+| Sale launch authorization | Once FINTRAC standing verified | `APPROVAL_RECORD.md` Planning → Executing gate |
+| Third quarter checkpoint | 2026-09-30 | Track and sale status assessed |
+| Year-end checkpoint | 2026-12-31 | Sale status and next-step decision |
 
 ## Immediate Planning Sprint
 
