@@ -24,6 +24,7 @@ tags: [locarno, ontario-msb, hillside, hbp-015, planning, dependencies]
 | D-04 | Sponsor-bank candidate assessment — Track C viability | Counterparty | ML1 / bank candidates | Track C remains speculative |
 | D-05 | Rhizome compliance software scope confirmation (via HBP-010) | Internal / vendor | ML1 / HBP-010 | Track B software posture is undefined; Sumsub fallback at higher cost |
 | D-06 | Q4 2026 Matthew Capital / Kendal Securities restructuring timeline | Adjacent strategic | ML1 / HBP-001 | Sale timing and use-of-proceeds planning require this timeline to be firm |
+| D-11 | Product distribution approach — channels, acquisition model, first customer path for Locarno | Planning problem | ML1 | Without a credible distribution layer, Locarno's value to a Track B/C buyer is materially constrained; distribution hypothesis is a required planning output |
 
 ## Internal Dependencies
 

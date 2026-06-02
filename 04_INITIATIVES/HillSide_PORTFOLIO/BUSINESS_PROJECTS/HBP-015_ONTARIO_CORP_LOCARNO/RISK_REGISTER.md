@@ -26,3 +26,5 @@ tags: [locarno, ontario-msb, hillside, hbp-015, planning, risk-register]
 | Rhizome arrangement (HBP-010) stalls, leaving compliance software undefined | Execution | Medium | Low | Define Sumsub as the fallback with a cost estimate |
 | Buyer market for Track B/C is thinner than expected | Strategic | Medium | Medium | Track A is always-ready as the floor; do not overbuild on speculative Track B demand |
 | Project drifts into operating BaaS business under Locarno branding | Scope | Low | High | Scope reviews at each milestone; Locarno product supports the entity sale, it is not itself a standalone business launch |
+| No credible distribution approach is identified during planning | Strategic | Medium | High | Distribution is a required planning output (WS-08); if no viable channel is found, Track B/C sale value is materially constrained and buyer confidence in the product layer is reduced |
+| Distribution approach is identified but requires build investment that exceeds sale premium | Financial | Medium | Medium | Maintain cost discipline; distribution hypothesis does not require a live customer base before sale — it requires a credible, documented path |

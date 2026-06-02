@@ -26,6 +26,7 @@ This planning stage covers:
 - defining minimum software posture (Rhizome default unless EMI requires Sumsub)
 - assessing Track C viability — direct sponsor-bank relationship
 - assembling a market-ready diligence package at the achieved track level
+- working through the product distribution question — identifying channels, acquisition model, and first customer path for Locarno
 - selecting the sale track (A, B, or C) based on institutional build progress
 - preparing for ML1-approved sale outreach at the right time
 
