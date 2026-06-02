@@ -100,8 +100,8 @@ This folder may contain:
 - regulatory considerations
 - strategic planning materials
 
-Current strategic posture: being marketed for sale. Sale governed by
-`HBP-005_SALE_OF_ONTARIO_MSBSHELLCO`.
+Current strategic posture: licensing and sale-readiness. Governed by
+`HBP-015_ONTARIO_CORP_LOCARNO` (supersedes HBP-005, retired 2026-05-31).
 
 Project Locarno direct bank sponsorship strategy:
 
