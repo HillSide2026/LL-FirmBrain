@@ -191,6 +191,19 @@ Intended SharePoint destination when ready:
 - Related references: CITT_WATCHLIST.yaml; SALES_PIPELINE.md
 - SharePoint sync status: pending
 
+### 2026-06-02 — Review all Andersen trade remedies matters; summarize active files
+
+- Author: ML1 (captured in ML2)
+- Topic: Matter review directive
+- Facts: ML1 directed a full review of all Andersen trade remedies matters. Active files are listed in the repo (NOTES_TO_FILE.md — BRA AD Glass Fiber Jushi, Col AD Steel Tubes, BRA AD SSHR ITSS, BRA AD Metal Sheets Baosteel) and in the Google Sheet (`trade remedies` — https://docs.google.com/spreadsheets/d/1LKzEM2GczfMaN5TVNRkJcYz-VQYv9IA3-O7RCPJcfpI/edit). Column F/G in Sheet1 flags relevant matters.
+- Action items:
+  - Review all matters in the trade remedies Google Sheet
+  - Identify all active files (F/G flagged in Sheet1)
+  - For each active file, prepare a summary: matter name, jurisdiction, investigation type, current status, key dates, and LL's potential role
+  - Cross-reference with CITT_WATCHLIST.yaml for Canadian proceedings
+- Related references: CITT_WATCHLIST.yaml; CITT_SIGNAL_REPORT.md; notes 2026-04-29 through 2026-05-26 in this file; Google Sheet above
+- SharePoint sync status: pending
+
 ### 2026-03-28 — [Short title]
 
 - Author:
