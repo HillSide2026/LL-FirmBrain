@@ -66,19 +66,40 @@ Ask:
 
 ## Stablecoin Partners
 
-Three candidates identified for the stablecoin settlement layer of the Granville product:
+Three candidates for the stablecoin settlement layer of the Granville product:
 
-| Candidate | Notes |
-|---|---|
-| Kwiikpay | Stablecoin partner candidate — role and terms TBD |
-| RamPay | Stablecoin partner candidate — role and terms TBD |
-| Marklane (marklane.io) | Stablecoin partner candidate — role and terms TBD |
+| Candidate | Status | Notes |
+|---|---|---|
+| Kwiikpay | Contracted | Agreement in place |
+| RamPay | Unknown | Not yet engaged; status TBD |
+| Marklane (marklane.io) | Evaluated | Terms appear competitive to Kwiikpay; see model note below |
 
-These are candidates for the stablecoin settlement capability in the Granville product layer. They are distinct from the EMI (Airwallex) and core banking software vendors (FinLego, Crassula).
+### Kwiikpay
 
-A stablecoin partner is relevant only if it supports the licensed-entity sale thesis — i.e., demonstrates a credible payment rail for buyer diligence, does not create non-transferable lock-in, and does not push 174 into operating meaningful stablecoin volume before sale.
+Contracted. Kwiikpay is the current primary stablecoin partner. Terms on file.
 
-ML1 to determine which candidates to engage and in what sequence.
+### RamPay
+
+Status unknown. Not yet engaged. To be assessed if additional stablecoin rail is needed.
+
+### Marklane (marklane.io)
+
+Terms evaluated. Marklane operates a professional-ownership revenue-share model:
+
+- **Client ownership:** belongs to the Professional (Granville / ML1 retains the client relationship)
+- **Compensation:** 51%+ of revenue in perpetuity. Average is 51%+; specific rate varies by product.
+
+This model is structurally different from a typical infrastructure provider — Marklane is a white-label revenue-share arrangement where the professional owns the client. Competitive to Kwiikpay on terms. May be relevant as a secondary rail or alternative if Kwiikpay terms prove limiting.
+
+Open question: does the Marklane client-ownership and perpetual revenue-share structure travel cleanly on a share sale of 174? Transferability and assignment must be confirmed before Marklane is counted as an asset.
+
+### Stablecoin Partner Positioning Rule
+
+A stablecoin partner is relevant only if it:
+- demonstrates a credible payment rail for buyer diligence
+- does not create non-transferable lock-in
+- does not push 174 into operating meaningful stablecoin volume before sale
+- supports clean transferability on a share sale
 
 ## Minimum Acceptable Vendor Use Case
 

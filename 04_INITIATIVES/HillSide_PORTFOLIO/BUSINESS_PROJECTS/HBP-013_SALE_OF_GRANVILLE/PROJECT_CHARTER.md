@@ -49,7 +49,7 @@ Minimum gate satisfied, plus:
 - FINTRAC and RPAA status established on the public registry;
 - at least one EMI has provided written indication of willingness to onboard 174;
 - compliance-software decision made (Rhizome as default unless EMI or bank requires Sumsub);
-- stablecoin partner selected or ruled out from candidates (Kwiikpay, RamPay, Marklane); and
+- stablecoin partner in place (Kwiikpay contracted; Marklane transferability confirmed or ruled out); and
 - a buyer can understand the licensed entity's operating support posture without
   treating BaaS software as the asset being sold.
 
