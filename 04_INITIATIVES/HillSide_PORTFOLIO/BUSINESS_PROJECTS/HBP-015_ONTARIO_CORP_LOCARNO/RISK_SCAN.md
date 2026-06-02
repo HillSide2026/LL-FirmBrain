@@ -6,33 +6,43 @@ status: draft
 created_date: 2026-05-31
 last_updated: 2026-05-31
 tags: [locarno, ontario-msb, hillside, hbp-015, risk]
+governing_policy: POL-065
 ---
 
 # Risk Scan
 
 **Project:** HBP-015 — Ontario Corp / Locarno
+**Governing policy:** POL-065 (Matthew Holdings Initiative Risk Policy)
 
-## Risk Summary
+## Schedule Risks
 
-| # | Risk | Category | Track | Likelihood | Impact | Notes |
-|---|---|---|---|---|---|---|
-| R-01 | FINTRAC standing has unresolved deficiencies | Schedule | A/B/C | Medium | High | Registration was obtained but current standing has not been verified. Deficiencies delay Track A and block Track B/C. |
-| R-02 | ConnectPay will not contract with a pre-revenue entity | Schedule | B/C | Medium | High | Pre-revenue entities are weak EMI applicants. Delays Track B if not resolved. |
-| R-03 | RPAA acquisition-of-control or re-registration triggered on share transfer | Schedule | A/B/C | Low | High | Must be analyzed before any sale outreach. Affects buyer diligence package regardless of track. |
-| R-04 | HBP-013 capacity competition delays HBP-015 milestones | Schedule | A/B/C | High | Medium | Both projects share ML1 time. Sequencing must be explicit. |
-| R-05 | Rhizome arrangement stalls — compliance software undefined | Schedule | B/C | Medium | Low | Sumsub is the defined fallback at higher cost. |
-| R-06 | EMI terms impair transferability — exclusivity, non-assignment, or punitive exit | Scope | B/C | Medium | High | Non-transferable EMI terms reduce buyer attractiveness and could collapse Track B/C value. |
-| R-07 | Project drifts into operating BaaS business | Scope | B/C | Low | High | Scope creep into live operations undermines the entity-sale thesis. |
-| R-08 | Track C not achievable — no sponsor bank will engage pre-revenue entity | Scope | C | High | Medium | Track C remains open but is not the primary target. |
-| R-09 | No credible distribution approach identified | Scope | B/C | Medium | High | Without a viable distribution layer, Locarno's value to a Track B/C buyer is materially constrained. Distribution Plan confirmed 2026-06-14. |
-| R-10 | Buyer market for Track B/C thinner than expected | Financial | B/C | Medium | Medium | Track A at CAD $50k is always-ready as the floor regardless of Track B/C demand. |
-| R-11 | Track B build costs exceed incremental sale premium over Track A | Financial | B/C | Medium | Medium | Minimum viable package discipline required. |
-| R-12 | Distribution build investment exceeds the sale premium it creates | Budget | B/C | Medium | Medium | A credible documented distribution path is sufficient — a live customer base before sale is not required. |
+- Schedule risk: FINTRAC standing has unresolved deficiencies that delay Track A readiness. Registration was obtained but current compliance status has not been verified.
+- Schedule risk: ConnectPay will not contract with a pre-revenue entity, delaying Track B EMI milestone.
+- Schedule risk: RPAA acquisition-of-control or re-registration rules require additional steps before sale outreach can proceed.
+- Schedule risk: HBP-013 (174/Granville) competes for ML1 time and delays HBP-015 milestones.
+- Schedule risk: Rhizome arrangement (HBP-010) stalls, leaving Track B compliance software undefined.
+
+## Financial Risks
+
+- Financial risk: EMI terms include exclusivity, non-assignment clauses, or punitive exit fees that impair transferability and reduce buyer attractiveness. Transaction economics are degraded.
+- Financial risk: Track B build costs exceed the incremental sale premium over Track A, making the build investment net-negative.
+- Financial risk: Distribution investment required to make the Locarno product layer credible exceeds the sale premium it creates.
+
+## Scope Risks
+
+- Scope risk: Project drifts into building and operating a live BaaS business under Locarno branding, beyond the entity-sale thesis.
+- Scope risk: Track C (direct sponsor-bank) is not achievable pre-revenue — sponsor banks will not engage without operational history.
+- Scope risk: EMI integration requirements expand beyond minimum viable posture, adding build complexity not justified by the sale thesis.
+
+## Strategic Risks
+
+- Strategic risk: No credible distribution approach is identified, constraining Locarno's value proposition to a Track B/C buyer. (Distribution Plan confirmed 2026-06-14.)
+- Strategic risk: Buyer market for Track B/C is thinner than expected, reducing the ownership value achievable above Track A floor.
 
 ## High-Priority Risks
 
-R-01 (FINTRAC) and R-02 (ConnectPay) are the gating risks. Both must be resolved before track selection is credible.
+FINTRAC verification and ConnectPay outreach are the two gating Schedule risks. Both must be resolved before track selection is credible.
 
-R-06 (EMI transferability) and R-03 (RPAA transfer) affect the buyer diligence package at all tracks above A.
+The Financial risk on EMI terms applies to all tracks above A and must be managed in execution.
 
-R-09 (distribution) is confirmed resolved as of 2026-06-14.
+Distribution (Strategic) is confirmed resolved as of 2026-06-14.
