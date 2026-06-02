@@ -54,7 +54,7 @@ Product distribution is an unresolved planning problem. Without a credible distr
 | RPAA transfer analysis complete | 2026-07-15 | Transfer memo drafted |
 | ConnectPay indication obtained or ruled out | 2026-07-31 | ConnectPay (or alternate EMI) response documented |
 | Track B Preferred package (if Track B selected) | 2026-08-30 | EMI agreement signed, AML demo-ready, diligence folder complete |
-| Distribution hypothesis documented | 2026-08-30 | Channel options evaluated, target customer path defined, acquisition model proposed |
+| Distribution Plan confirmed | 2026-06-14 | Distribution approach approved by ML1; `DISTRIBUTION_PLAN.md` to be created |
 | Sale launch authorization | Once FINTRAC standing verified | `APPROVAL_RECORD.md` Planning → Executing gate |
 | Third quarter checkpoint | 2026-09-30 | Track, sale status, and distribution approach assessed |
 | Year-end checkpoint | 2026-12-31 | Sale status and next-step decision |
