@@ -49,7 +49,7 @@ Minimum gate satisfied, plus:
 - FINTRAC and RPAA status established on the public registry;
 - at least one EMI has provided written indication of willingness to onboard 174;
 - compliance-software decision made (Rhizome as default unless EMI or bank requires Sumsub);
-- Kwiikpay role as a 174 infrastructure path established or ruled out; and
+- stablecoin partner selected or ruled out from candidates (Kwiikpay, RamPay, Marklane); and
 - a buyer can understand the licensed entity's operating support posture without
   treating BaaS software as the asset being sold.
 
@@ -73,7 +73,7 @@ Preferred gate satisfied, plus:
 2. Secure EMI written indication of willingness to onboard 174.
 3. Make compliance-software decision and define the minimum supporting product
    posture.
-4. Establish or rule out Kwiikpay as a 174 infrastructure path.
+4. Select or rule out a stablecoin partner from candidates: Kwiikpay, RamPay, Marklane (marklane.io).
 5. Build buyer-readable diligence folder for the licensed entity.
 6. Defer active sale outreach until ML1 decides the licensed entity is ready to market.
 
@@ -83,7 +83,7 @@ Preferred gate satisfied, plus:
 - Initiate Airwallex outreach; obtain written indication of willingness to onboard 174.
 - Advance Rhizome founder arrangement to a term-sheet conversation.
 - Document current RPAA application status.
-- Define Kwiikpay role in writing. (Status: open — ML1 to confirm in scope or ruled out.)
+- Select stablecoin partner from candidates — Kwiikpay, RamPay, Marklane (marklane.io) — or rule out stablecoin layer entirely.
 
 ## Entity Context
 

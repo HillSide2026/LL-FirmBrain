@@ -64,6 +64,22 @@ Ask:
 - what is the minimum thinner package that supports licensing credibility,
   market-ready posture, and eventual sale of the licensed entity?
 
+## Stablecoin Partners
+
+Three candidates identified for the stablecoin settlement layer of the Granville product:
+
+| Candidate | Notes |
+|---|---|
+| Kwiikpay | Stablecoin partner candidate — role and terms TBD |
+| RamPay | Stablecoin partner candidate — role and terms TBD |
+| Marklane (marklane.io) | Stablecoin partner candidate — role and terms TBD |
+
+These are candidates for the stablecoin settlement capability in the Granville product layer. They are distinct from the EMI (Airwallex) and core banking software vendors (FinLego, Crassula).
+
+A stablecoin partner is relevant only if it supports the licensed-entity sale thesis — i.e., demonstrates a credible payment rail for buyer diligence, does not create non-transferable lock-in, and does not push 174 into operating meaningful stablecoin volume before sale.
+
+ML1 to determine which candidates to engage and in what sequence.
+
 ## Minimum Acceptable Vendor Use Case
 
 A vendor package is relevant only if it helps one or more of:

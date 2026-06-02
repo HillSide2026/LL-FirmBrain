@@ -53,7 +53,7 @@ Product distribution is an unresolved planning problem. Without a credible distr
 | Airwallex outreach initiated | 2026-06-08 | First contact made |
 | FINTRAC registration target | TBD — pending FINTRAC process | Registration issued |
 | Minimum gate package drafted | 2026-06-30 | FINTRAC status, AML program, regulatory summary |
-| Kwiikpay decision | 2026-06-30 | In scope or ruled out, documented |
+| Stablecoin partner decision | 2026-06-30 | One of Kwiikpay / RamPay / Marklane selected, or layer ruled out |
 | Alternate EMI outreach initiated (if necessary) | 2026-07-15 | Secondary EMI contacted if Airwallex path is unclear |
 | Airwallex indication obtained or ruled out | 2026-07-31 | Response documented |
 | Budget finalized and approved | 2026-07-31 | Full budget locked; ML1 approval recorded in `BUDGET.md` |
