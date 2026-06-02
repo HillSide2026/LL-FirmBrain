@@ -68,6 +68,15 @@ Intended SharePoint destination when ready:
 - Related references: MATTER_BRIEF.md; SALES_PIPELINE.md
 - SharePoint sync status: pending
 
+### 2026-06-02 — Albor call Wednesday June 4 at 10am
+
+- Author: ML1 (captured in ML2)
+- Topic: MA-003 — Albor Financial follow-up
+- Facts: Call with Albor confirmed for Wednesday June 4, 2026 at 10:00 am.
+- Action items: Prepare for call — confirm LatAm jurisdiction list, Andersen proposed role, LL legal advisory angle, and decision-maker path.
+- Related references: SALES_PIPELINE.md; note 2026-05-07 (MA-003 identification)
+- SharePoint sync status: pending
+
 ### 2026-03-28 — [Short title]
 
 - Author:

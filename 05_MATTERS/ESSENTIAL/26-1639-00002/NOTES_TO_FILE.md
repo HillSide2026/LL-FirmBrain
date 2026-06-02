@@ -179,6 +179,18 @@ Intended SharePoint destination when ready:
 - Related references: `trade remedies` Google Sheet (`Sheet1`, rows `11`, `18`, `35`); user-provided note captured 2026-05-26
 - SharePoint sync status: pending
 
+### 2026-06-02 — Matter scope confirmed: trade remedies leads + all ongoing Andersen projects
+
+- Author: ML1 (captured in ML2)
+- Topic: Matter scope
+- Facts:
+  - This matter (26-1639-00002) is the vehicle for trade remedies (2 active leads: TR-003 plywood, TR-004 processed wood) and all ongoing Andersen project work.
+  - TR-003 (PI-2026-001 — Decorative and Other Non-Structural Plywood): preliminary injury determination due June 9, 2026.
+  - TR-004 (GC-2026-001 — Certain Wood Goods): questionnaire deadline passed May 15, 2026; assess remaining participation path.
+- Action items: None new. TR-003 June 9 deadline is the live pressure point.
+- Related references: CITT_WATCHLIST.yaml; SALES_PIPELINE.md
+- SharePoint sync status: pending
+
 ### 2026-03-28 — [Short title]
 
 - Author:
