@@ -17,7 +17,7 @@ tags: [locarno, ontario-msb, hillside, approval]
 | Project admitted to register | Approved ML1 | 2026-05-31 | Split from HBP-013; supersedes HBP-005 |
 | Initiating → Planning | Approved ML1 | 2026-05-31 | Planning authorized as part of project creation |
 | Track selection (A / B / C) | Pending | — | ML1 to decide based on EMI progress and FINTRAC verification |
-| Planning → Executing | Pending | — | Requires track selection and market-ready package |
+| Planning → Executing | Approved ML1 | 2026-06-15 | Execution authorized; planning milestones (FINTRAC, ConnectPay, distribution) continue in executing stage |
 | Executing → Closing | Pending | — | — |
 | Closing → Closed | Pending | — | — |
 
