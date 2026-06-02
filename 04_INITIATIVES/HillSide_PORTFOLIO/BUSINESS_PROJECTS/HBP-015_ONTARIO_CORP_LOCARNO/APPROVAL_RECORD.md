@@ -35,6 +35,18 @@ tags: [locarno, ontario-msb, hillside, approval]
 | `RISK_SCAN.md` | Yes | 2026-05-31 |
 | `BUSINESS_CASE.md` | Yes | 2026-05-31 |
 
+## Planning Artifact Completion
+
+| Artifact | Complete | Date |
+|---|---|---|
+| `SCOPE_STATEMENT.md` | Yes | 2026-05-31 |
+| `PROJECT_PLAN.md` | Yes | 2026-05-31 |
+| `ASSUMPTIONS_CONSTRAINTS.md` | Yes | 2026-05-31 |
+| `DEPENDENCIES.md` | Yes | 2026-05-31 |
+| `RISK_REGISTER.md` | Yes | 2026-05-31 |
+| `COMMUNICATION_PLAN.md` | Yes | 2026-05-31 |
+| `METRICS.md` | Yes | 2026-05-31 |
+
 ## ML1 Notes
 
 HBP-015 is created by splitting HBP-013 (174/Granville) into two separate projects. HBP-005 (Ontario MSBShellCo) is retired and superseded by this project.
