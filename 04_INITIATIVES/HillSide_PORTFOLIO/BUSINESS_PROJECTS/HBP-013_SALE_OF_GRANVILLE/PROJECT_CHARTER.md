@@ -79,11 +79,11 @@ Preferred gate satisfied, plus:
 
 ## Immediate Next Workstreams
 
-- Identify and register a Granville-brand domain; publish single-page site.
-- Obtain written indication (LOI-level email) from an EMI.
+- Publish single-page site at `granvillefinance.ca`. (Domain confirmed.)
+- Initiate Airwallex outreach; obtain written indication of willingness to onboard 174.
 - Advance Rhizome founder arrangement to a term-sheet conversation.
 - Document current RPAA application status.
-- Define Kwiikpay role in writing.
+- Define Kwiikpay role in writing. (Status: open — ML1 to confirm in scope or ruled out.)
 
 ## Entity Context
 
@@ -97,7 +97,7 @@ FINTRAC: registration pending as of 2026-05-18.
 
 RPAA: application initiated. Not yet registered.
 
-Brand: Granville (internal tag). Exact domain not yet identified.
+Brand: Granville. Domain: `granvillefinance.ca` (confirmed).
 
 This entity is distinct from FinSure, the Payment Services Consulting Line,
 and Levine Law. No legal advisory revenue may flow through 174.

@@ -4,44 +4,57 @@ title: Risk Scan — HBP-013 — Sale of Granville
 owner: ML1
 status: draft
 created_date: 2026-05-19
-last_updated: 2026-05-19
+last_updated: 2026-05-31
 tags: [hillside, hbp-013, granville, risk]
+governing_policy: POL-065
 ---
 
 # Risk Scan
 
-Project: `HBP-013` - Sale of Granville
-
-## Scope Risks
-
-- The project may drift from "sell a differentiated asset" into "build a full operating company before sale."
-- The `174` sale could be confused with `HBP-005` or other payments initiatives, weakening scope control.
+**Project:** HBP-013 — Sale of Granville (174)
+**Governing policy:** POL-065 (Matthew Holdings Initiative Risk Policy)
 
 ## Schedule Risks
 
-- FINTRAC timing may compress or eliminate the 2026 sale window.
-- RPAA blockers such as domain and safeguarding documentation may take longer than expected to clear.
-- EMI written indication may slip if counterparties require more commercial commitment than the project should accept.
+- Schedule risk: FINTRAC registration is delayed, pushing out the minimum gate and compressing or eliminating the 2026 sale window. This is the highest-priority gating risk.
+- Schedule risk: RPAA registration takes longer than expected, delaying the preferred gate.
+- Schedule risk: Airwallex declines to contract pre-revenue, delaying the EMI milestone and preferred gate.
+- Schedule risk: Kwiikpay role remains undefined past 2026-06-30, preventing preferred gate from closing.
+- Schedule risk: HBP-015 capacity competition delays HBP-013 milestones — both projects share ML1 time.
+- Schedule risk: Rhizome arrangement stalls, leaving compliance software undefined past the budget finalization date.
 
-## Counterparty Risks
+## Financial Risks
 
-- EMI or vendor terms may introduce exclusivity, minimums, or lock-in that reduce transferability.
-- Buyer quality may be weak if the process launches before the package is credible.
+- Financial risk: Airwallex terms include exclusivity, non-assignment, or punitive exit fees that degrade transaction economics for any buyer.
+- Financial risk: Airwallex pre-revenue monthly minimums are higher than expected, eroding net proceeds.
+- Financial risk: Granville software build costs exceed the incremental sale premium they create.
+- Financial risk: Distribution investment exceeds the sale premium it creates.
+- Financial risk: Buyer negotiates sale price below working value markers.
+- Financial risk: No buyer is found at preferred or stretch gate value, forcing a transaction at the minimum gate floor.
 
-## Transaction Risks
+## Scope Risks
 
-- Diligence gaps may reduce price or prolong negotiations.
-- Sale structure, change-of-control, or transfer mechanics may prove more complex than expected once a buyer is real.
+- Scope risk: Project drifts into building a live operating payments company under Granville branding.
+- Scope risk: Airwallex integration requirements expand into bespoke build work not justified by the sale thesis.
+- Scope risk: Kwiikpay relationship is counted as asset value before its role is confirmed in writing.
+- Scope risk: Distribution approach requires a live customer base before sale, expanding scope into a product launch.
+
+## Strategic Risks
+
+- Strategic risk: Buyer market for the preferred or stretch gate asset is thinner than expected.
+- Strategic risk: HBP-015 (Ontario Corp/Locarno) transacts first, partially saturating the same buyer pool.
+- Strategic risk: RPAA amendments or FINTRAC rule changes reduce entity value to buyer before sale.
+- Strategic risk: Granville product thesis becomes obsolete before sale due to market or technology shift.
+
+## Budget Risks
+
+- Budget risk: Approved budget not established by 2026-07-31 — planning exit criterion under POL-065 is unsatisfied.
+- Budget risk: Legal costs for RPAA advancement or EMI negotiation exceed estimates.
+- Budget risk: Total project spend exceeds approved budget before sale proceeds are received.
 
 ## Key Assumptions
 
-- the point of the project is to maximize sale value, not to operate meaningful volume through `174`
-- a buyer will value regulatory and infrastructure readiness even if the entity remains pre-revenue
-- sale proceeds should flow into `17513721 Canada Inc` under an approved seller-side structure
-- the sale may be structured as a share sale or other permitted disposition, but control of `174` is what is being monetized
-
-## Go / No-Go Judgment
-
-Proceed with sale planning because the asset now has a coherent sell-side thesis.
-Advance to active buyer execution only if the minimum gate is materially complete
-and the buyer package can survive first-pass diligence scrutiny.
+- The buyer acquires the licensed entity, not BaaS services or a standalone software product.
+- A buyer will value regulatory and infrastructure readiness even if the entity remains pre-revenue.
+- Sale proceeds flow into `17513721 Canada Inc`.
+- The Granville product layer and distribution approach improve sale value; they do not constitute an independent business launch.

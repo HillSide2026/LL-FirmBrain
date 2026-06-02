@@ -4,76 +4,78 @@ title: Project Plan — HBP-013 — Sale of Granville
 owner: ML1
 status: draft
 created_date: 2026-05-19
-last_updated: 2026-05-19
+last_updated: 2026-05-31
 tags: [hillside, hbp-013, granville, planning, project-plan]
+governing_policy: POL-065
 ---
 
 # Project Plan
 
-**Project:** Sale of Granville
+**Project:** Sale of Granville (174)
 **Project ID:** HBP-013
 **Stage:** Planning
+**Governing policy:** POL-065 (Matthew Holdings Initiative Risk Policy)
 
 ## Planning Objective
 
-Translate the Granville charter into an execution-ready licensing and
-market-readiness process that can support the later sale of the licensed entity
-without overbuilding into a BaaS business.
+Translate the Granville charter into an execution-ready licensing and market-readiness process. Obtain FINTRAC registration, advance RPAA, secure Airwallex written indication, resolve the Kwiikpay question, work through product distribution, and assemble a buyer-ready package.
+
+Product distribution is an unresolved planning problem. Without a credible distribution layer, the Granville product's value to a buyer is materially constrained. Defining the distribution approach is a required planning output.
 
 ## Project Path
 
-1. satisfy the licensing gate
-2. strengthen the preferred gate where it adds real buyer value
-3. package the entity into a market-ready licensed-entity narrative
-4. preserve the option for later controlled sale outreach
-5. sell the licensed entity on an ML1-approved timetable
-
-## Current Planning Focus
-
-1. lock the minimum gate around FINTRAC issuance and AML-readiness
-2. clear or document the RPAA blockers around domain and safeguarding structure
-3. obtain EMI written indication and fix the software / Kwiikpay posture
-4. assemble a market-ready package that is coherent even if the entity remains pre-revenue
-5. define the minimum supporting software posture so vendor work does not drift into a fake product thesis
+1. Obtain FINTRAC registration
+2. Advance RPAA to registered status
+3. Secure Airwallex written indication
+4. Resolve Kwiikpay — in scope or ruled out
+5. Define minimum software posture and Granville product layer
+6. Work through product distribution approach
+7. Package the entity into a market-ready licensed-entity narrative
+8. Sell on ML1 direction
 
 ## Planning Workstreams
 
 | Workstream | Objective | Primary Output |
-| --- | --- | --- |
-| WS-01 Licensing Gate | Fix FINTRAC, AML, and RPAA status into one licensing-readiness view | Clear gate memo and blocker log |
-| WS-02 Support Stack | Secure an EMI indication and settle the minimum supporting software posture | Counterparty and software posture that supports the entity without becoming the product |
-| WS-03 Market-Ready Packaging | Assemble the materials a future buyer would need to understand the licensed entity | Diligence index, management narrative, and supporting package |
-| WS-04 Scope Control | Prevent the project from drifting into BaaS-service buildout | Scope note and vendor-positioning note |
-| WS-05 Eventual Sale Path | Clarify what must be true before active sale outreach is authorized | Later-stage sale-launch criteria and decision notes |
+|---|---|---|
+| WS-01 Licensing Gate | FINTRAC registration, AML program, RPAA status into one licensing-readiness view | Gate memo and blocker log |
+| WS-02 EMI Relationship | Airwallex written indication of willingness to onboard 174; understand pre-revenue terms | Written indication or documented ruling-out |
+| WS-03 Software and Kwiikpay | Settle minimum software posture; establish or rule out Kwiikpay | Software posture memo; Kwiikpay decision |
+| WS-04 Granville Product | granvillefinance.ca single-page site; product layer coherent for diligence | Site live; GRANVILLE_PRODUCT.md current |
+| WS-05 Product Distribution | Work through distribution question: channels, acquisition model, first customer path | Distribution hypothesis documented |
+| WS-06 Market-Ready Packaging | Assemble buyer-readable diligence folder at achieved gate level | Diligence index, management narrative, flow-of-funds |
+| WS-07 Scope Control | Prevent drift into BaaS buildout | Scope reviews at each milestone |
 
 ## Planning Milestones
 
 | Milestone | Target Date | Evidence |
-| --- | --- | --- |
+|---|---|---|
 | Planning authorized | 2026-05-19 | `APPROVAL_RECORD.md` updated |
-| Licensing gate package drafted | 2026-06-30 | Regulatory and AML readiness summarized |
-| Preferred readiness package drafted | 2026-08-15 | RPAA, EMI, and software posture documented |
-| Market-ready package assembled | 2026-09-01 | Diligence-ready licensed-entity materials organized |
-| Sale-launch criteria drafted | 2026-09-15 | Later-stage launch posture documented |
-| Scope review checkpoint | 2026-11-15 | Confirm project has not drifted into BaaS-service buildout |
+| Airwallex outreach initiated | 2026-06-08 | First contact made |
+| FINTRAC registration target | TBD — pending FINTRAC process | Registration issued |
+| Minimum gate package drafted | 2026-06-30 | FINTRAC status, AML program, regulatory summary |
+| Kwiikpay decision | 2026-06-30 | In scope or ruled out, documented |
+| Alternate EMI outreach initiated (if necessary) | 2026-07-15 | Secondary EMI contacted if Airwallex path is unclear |
+| Airwallex indication obtained or ruled out | 2026-07-31 | Response documented |
+| Budget finalized and approved | 2026-07-31 | Full budget locked; ML1 approval recorded in `BUDGET.md` |
+| Distribution hypothesis documented | 2026-08-15 | Channel options evaluated, first customer path defined |
+| Preferred readiness package | 2026-08-30 | RPAA, EMI, software posture documented |
+| Third quarter checkpoint | 2026-09-30 | Gate status, sale readiness, distribution approach assessed |
 | Year-end readiness checkpoint | 2026-12-31 | Licensing and market-ready posture assessed for next-step decision |
 
 ## Immediate Planning Sprint
 
-- confirm the exact minimum gate definition for launch
-- produce one current-state regulatory summary for FINTRAC and RPAA
-- convert the strongest EMI conversation into written indication
-- decide whether Rhizome is sufficient unless a counterparty forces Sumsub
-- state Kwiikpay's role clearly as in-scope or ruled out
-- define the minimum supporting software posture
-- define what the diligence index and management narrative must contain
+- Initiate Airwallex outreach
+- Produce one current-state regulatory summary for FINTRAC and RPAA
+- State Kwiikpay role clearly — in scope or ruled out
+- Publish single-page site at granvillefinance.ca
+- Begin distribution channel mapping
+- Confirm Rhizome scope for compliance software
 
-## Planning -> Executing Gate Conditions
+## Planning → Executing Gate Conditions
 
-Before any later sale-execution stage begins, the following must be confirmed:
+1. Minimum gate complete — FINTRAC registration issued and AML program buyer-ready
+2. Distribution Plan documented
+3. Approved budget established and recorded in `BUDGET.md`
+4. ML1 approves sale launch in `APPROVAL_RECORD.md`
 
-1. licensing gate is materially complete
-2. market-ready package is coherent enough for first-pass diligence
-3. no EMI, vendor, or structure term materially impairs transferability
-4. the support stack is clearly subordinate to the entity sale thesis
-5. ML1 approves sale launch in `APPROVAL_RECORD.md`
+EMI, vendor, and structure transferability terms are reviewed and managed during the executing stage.
