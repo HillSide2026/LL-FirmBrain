@@ -43,5 +43,5 @@ tags: [matter, notes-to-file, 26-259-00003, business-development]
 - **Date:** June 16, 2026
 - **Format:** Business development talk — 40 minutes, slides required
 - **Topic:** Real time rails
-- **Status:** Slides not yet prepared
-- **Action:** Prepare 40-minute slide deck on real time rails for June 16 presentation
+- **Status:** Talking points 80% prepared. Slides not yet started.
+- **Action:** Begin slides by Thursday June 5, 2026
