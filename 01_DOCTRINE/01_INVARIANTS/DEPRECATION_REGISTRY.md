@@ -2,7 +2,7 @@
 id: 01_doctrine__01_invariants__deprecation_registry_md
 title: Invariant Deprecation Registry
 owner: ML1
-status: active
+status: approved
 effective_date: 2026-05-04
 supersedes:
 provenance:

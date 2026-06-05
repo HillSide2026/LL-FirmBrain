@@ -2,7 +2,7 @@
 id: 01_doctrine__principles__ll_brand_suite_md
 title: LL Brand Principles Suite (Consolidated)
 owner: ML1
-status: active
+status: approved
 effective_date: 2026-05-04
 supersedes:
 provenance:

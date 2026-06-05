@@ -2,7 +2,7 @@
 id: 01_doctrine__principles__ll_specific_index_md
 title: LL-Level Principles Index
 owner: ML1
-status: active
+status: approved
 effective_date: 2026-05-04
 supersedes:
 provenance:

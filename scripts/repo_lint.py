@@ -289,6 +289,27 @@ def check_broken_relative_links(markdown_files: list[Path]) -> list[str]:
     return warnings
 
 
+DOCTRINE_ROOTS = {"01_DOCTRINE", "02_PLAYBOOKS", "03_TEMPLATES"}
+DEPRECATED_STATUS_PATTERN = re.compile(r"^status:\s+active\s*$", re.MULTILINE)
+
+
+def check_deprecated_status(markdown_files: list[Path]) -> list[str]:
+    """Warn on 'status: active' in doctrine/playbook/template layers (should be 'approved')."""
+    warnings: list[str] = []
+    for path in markdown_files:
+        if path.relative_to(REPO_ROOT).parts[0] not in DOCTRINE_ROOTS:
+            continue
+        try:
+            text = path.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            continue
+        if DEPRECATED_STATUS_PATTERN.search(text):
+            warnings.append(
+                f"deprecated status 'active' (use 'approved'): {rel(path)}"
+            )
+    return warnings
+
+
 def print_group(title: str, items: list[str], label: str, max_findings: int) -> None:
     if not items:
         return
@@ -316,6 +337,7 @@ def main() -> int:
     errors.extend(check_root_runtime_dirs())
     warnings.extend(check_non_ascii_filenames(repo_paths))
     warnings.extend(check_broken_relative_links(markdown_files))
+    warnings.extend(check_deprecated_status(markdown_files))
 
     print("=" * 60)
     print("Repo Lint Check")

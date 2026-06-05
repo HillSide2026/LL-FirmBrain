@@ -2,7 +2,7 @@
 id: 01_doctrine__principles_policy_traceability_md
 title: Principle-to-Policy Cross-Reference (Traceability Index)
 owner: ML1
-status: active
+status: approved
 effective_date: 2026-05-04
 supersedes:
 provenance:
