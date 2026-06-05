@@ -52,7 +52,7 @@ infrastructure concept into a buyer-readable sale package.
 | Workstream | Objective | Current state | Next output |
 | --- | --- | --- | --- |
 | Product-software pricing and offers | Obtain pricing, terms, and implementation offers for candidate product platforms | Candidate list exists; no vendor pricing / offer package yet | Vendor pricing grid and offer comparison |
-| RPAA application | Advance and document RPAA application status | Application initiated; current status needs documentation | RPAA status note and next-step log |
+| RPAA application | Advance and document RPAA application status | Pending; not yet waiting on Bank of Canada | RPAA status note and next-step log |
 | EMI alternatives | Find alternatives to the EUR 12,000 EMI offer | EUR 12,000 offer exists; alternatives not yet identified | EMI alternatives shortlist |
 | User acquisition / demand proof | Acquire or evidence users / prospective users to support buyer confidence | No 174 user proof recorded | User-acquisition test plan and prospect list |
 
@@ -165,9 +165,9 @@ containing the word "Granville" has proven difficult. A domain that
 incorporates the brand name is preferred but the right available variant has
 not yet been identified.
 
-**Action required:** Identify an available domain that works for the Granville
-brand (exact match or workable variant), register it, publish the single page,
-and confirm it resolves before the application is submitted.
+**Action required:** Maintain a credible Granville-facing page, confirm the
+domain position is ready for the RPAA file, and record any Bank follow-up if
+and when the application moves into Bank of Canada review.
 
 ### Blocker 2 — Financial Institution to Hold / Safeguard Funds
 

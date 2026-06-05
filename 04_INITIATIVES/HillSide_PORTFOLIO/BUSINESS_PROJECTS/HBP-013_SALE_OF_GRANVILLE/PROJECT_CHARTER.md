@@ -29,9 +29,9 @@ market-ready federal MSB asset and eventually divest the licensed entity into
 ## Primary SMART Goal
 
 By `2026-12-31`, `17409052 Canada Inc` has FINTRAC MSB registration in hand or
-equivalent license-ready status clearly documented, with a market-ready
-licensing and diligence package assembled so the licensed entity can be sold on
-an ML1-approved timetable.
+equivalent license-ready status clearly documented, with an EMI path and
+minimum support stack clear enough for ML1 to decide whether to move toward
+sale packaging.
 
 ## Sale-Readiness Gates
 
@@ -74,15 +74,15 @@ Preferred gate satisfied, plus:
 3. Make compliance-software decision and define the minimum supporting product
    posture.
 4. Select or rule out a stablecoin partner from candidates: Kwiikpay, RamPay, Marklane (marklane.io).
-5. Build buyer-readable diligence folder for the licensed entity.
+5. Defer buyer-readable diligence packaging until ML1 decides the licensed entity is ready to market.
 6. Defer active sale outreach until ML1 decides the licensed entity is ready to market.
 
 ## Immediate Next Workstreams
 
-- Publish single-page site at `granvillefinance.ca`. (Domain confirmed.)
+- Maintain the completed single-page site at `granvillefinance.ca`. (Domain confirmed.)
 - Initiate Airwallex outreach; obtain written indication of willingness to onboard 174.
 - Advance Rhizome founder arrangement to a term-sheet conversation.
-- Document current RPAA application status.
+- Keep FINTRAC and RPAA status current in a short status / blocker list.
 - Select stablecoin partner from candidates — Kwiikpay, RamPay, Marklane (marklane.io) — or rule out stablecoin layer entirely.
 
 ## Entity Context
@@ -93,9 +93,9 @@ Preferred gate satisfied, plus:
 | `17513721 Canada Inc` | Matthew Holdings — current parent and eventual proceeds recipient |
 | `Levine Professional Corporation` | Legal advisory for licensing and eventual transaction only |
 
-FINTRAC: registration pending as of 2026-05-18.
+FINTRAC: submitted and waiting on FINTRAC.
 
-RPAA: application initiated. Not yet registered.
+RPAA: pending; not yet waiting on Bank of Canada.
 
 Brand: Granville. Domain: `granvillefinance.ca` (confirmed).
 
@@ -109,7 +109,7 @@ The current stage is not active go-to-market sale execution.
 The current stage is:
 
 - get licensed;
-- assemble market-ready posture;
+- secure an EMI path and maintain minimum market-ready posture;
 - avoid overbuilding into a live BaaS operating business; and
 - preserve the option to sell the licensed entity later on ML1 direction.
 

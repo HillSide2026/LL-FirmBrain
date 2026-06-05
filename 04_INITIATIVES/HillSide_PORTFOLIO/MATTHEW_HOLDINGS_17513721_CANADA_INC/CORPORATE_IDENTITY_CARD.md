@@ -161,7 +161,7 @@ Current 175-level workstreams:
 - Operational matters tied to the Andersen Service Line are tracked inside Levine Law.
 - The Andersen Service Line continues to follow the Levine Law time-for-money business model, and the Andersen relationship is credited to Levine Law in the 2026 operating picture even though the Andersen fees are received by 17513721 Canada Inc.
 - FinSure and the Payment Services Consulting Line are owned and operated by 17513721 Canada Inc, not by 17409052 Canada Inc.
-- Granville is only an internal tag for 17409052 Canada Inc and has no operational, legal, branding, or customer-facing significance. FINTRAC registration is still pending, the RPAA application has been initiated, and the current value-stack work is intended to add value while the entity waits for FINTRAC.
+- Granville is the brand and product layer for 17409052 Canada Inc, including the `granvillefinance.ca` market-facing identity. FINTRAC has been submitted and is waiting on FINTRAC, RPAA is pending and not yet waiting on Bank of Canada, and the current value-stack work is intended to add value while the entity waits for FINTRAC and regulatory next steps.
 - Locarno is only an internal tag for 1001494374 Ontario Corp and has no operational, legal, branding, or customer-facing significance.
 - Ontario MSB Corp (1001494374 Ontario Corp) is owned by 17513721 Canada Inc and is being marketed for sale. Current thesis: it may be more sellable as a pure MSB shell because the Ontario corporation does not require a Canadian director.
 - 17513721 Canada Inc is optimistic that Ontario MSB Corp can be sold in 2026 for slightly more than CAD 27,000 of corporate revenue if the transaction closes.

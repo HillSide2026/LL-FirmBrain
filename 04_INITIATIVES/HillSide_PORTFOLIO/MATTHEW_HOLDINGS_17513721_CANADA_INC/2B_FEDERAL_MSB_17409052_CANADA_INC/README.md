@@ -38,10 +38,10 @@ Current operating activity: none.
 FinSure and the Payment Services Consulting Line are not operated through this
 entity. They are run by `17513721 Canada Inc`.
 
-FINTRAC registration application is filed; awaiting registration. The remaining
+FINTRAC registration application is filed and waiting on FINTRAC. The remaining
 work is on FINTRAC, RPAA, EMI, and software.
 
-An RPAA application has been initiated.
+RPAA is pending and is not yet waiting on Bank of Canada.
 
 The point is to improve sale value, not to run significant funds through the
 entity before sale.
@@ -97,9 +97,9 @@ For the full build plan, see:
 
 ## Regulatory Context
 
-**FINTRAC status:** application filed; awaiting registration.
+**FINTRAC status:** application filed; waiting on FINTRAC.
 
-**RPAA status:** not yet filed.
+**RPAA status:** pending; not yet waiting on Bank of Canada.
 
 **Sale criteria:**
 - Layer 1 (minimum — hard requirement): FINTRAC MSB registration issued. Sale

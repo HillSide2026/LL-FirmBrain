@@ -19,7 +19,7 @@ Ontario Corp / Locarno is a separate project: `HBP-015_ONTARIO_CORP_LOCARNO`.
 ## 174 and Granville — Distinction
 
 **174 — `17409052 Canada Inc`**
-The corporate entity. A federal Canadian company with no current operating activity. FINTRAC registration pending. RPAA application initiated. The regulated vehicle being licensed and made sale-ready.
+The corporate entity. A federal Canadian company with no current operating activity. FINTRAC application submitted and waiting on FINTRAC. RPAA pending and not yet waiting on Bank of Canada. The regulated vehicle being licensed and made sale-ready.
 
 **Granville — `granvillefinance.ca`**
 The payment orchestration platform. Brand and registered domain. Granville Finance is the market-facing product: a provider-portable orchestration layer for businesses that need to move money across borders. See `GRANVILLE_PRODUCT.md` for the full product description.
@@ -53,7 +53,7 @@ The project is to make the entity more saleable by showing a buyer:
 
 - FINTRAC MSB registration path
 - AML program and diligence-readiness posture
-- RPAA application path with known blockers and fixes
+- RPAA application status with known blockers and fixes
 - EMI relationship (Airwallex primary) providing payment accounts and safeguarding visibility
 - Compliance software decision (Rhizome default unless EMI requires Sumsub)
 - Granville product layer (granvillefinance.ca) — provider-portable orchestration platform

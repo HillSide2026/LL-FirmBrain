@@ -13,4 +13,5 @@ practice_areas: [payments, rpaa]
 
 ## 2026-06-02
 
-RPAA registration is pending. Waiting on arrival of Stream MLRO before advancing.
+RPAA application has been submitted. Registration is pending Bank of Canada
+review.

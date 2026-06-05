@@ -21,9 +21,9 @@ Granville Finance (`granvillefinance.ca`) is a nascent brand and registered doma
 
 Current operating activity: none.
 
-FINTRAC registration is still pending.
+FINTRAC registration application has been submitted and is waiting on FINTRAC.
 
-The RPAA application has been initiated.
+RPAA is pending and is not yet waiting on Bank of Canada.
 
 The wait for FINTRAC has motivated the effort to add value to the entity by
 developing a clearer payments infrastructure stack.
@@ -172,7 +172,7 @@ coherent stack:
 
 - corporate vehicle
 - FINTRAC application path
-- initiated RPAA application
+- pending RPAA application path
 - EMI / payment-account path
 - safeguarding visibility thesis
 - product software

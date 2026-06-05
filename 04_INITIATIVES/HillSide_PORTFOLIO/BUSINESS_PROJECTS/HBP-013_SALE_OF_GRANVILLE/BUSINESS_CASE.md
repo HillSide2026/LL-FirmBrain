@@ -36,7 +36,7 @@ The strategic case is:
 | RPAA status clarity | Improves the payments-regulatory story and diligence defensibility |
 | EMI written indication | Shows a plausible operating and safeguarding path |
 | Reversible software posture | Signals discipline and transferability instead of drifting into a BaaS build |
-| Buyer-readable diligence folder | Makes the asset understandable and speeds buyer review |
+| Later sale package | Becomes useful only if ML1 decides to launch a sale process after licensing and EMI posture improve |
 
 ## Alternatives Considered
 
