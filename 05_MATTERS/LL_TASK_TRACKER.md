@@ -106,8 +106,8 @@ For each real matter, classify the work into one of five postures:
 
 | Matter ID | Client | LL Task Type | Delivery Status | Service | Task | Status | Due |
 |---|---|---|---|---|---|---|---|
-| — | LL Systems | LL Firm Management Task | — | Systems / Infrastructure | Self-host Plane via Docker: clone makeplane/plane repo, configure env vars, run `docker compose up`, create first admin user. Docker is available on this machine. Target: localhost. | Open | |
-| — | LL Systems | LL Firm Management Task | — | Systems / Infrastructure | Connect secondbrain to self-hosted Plane: set PLANE_API_KEY, PLANE_WORKSPACE_SLUG, PLANE_API_BASE_URL env vars; run `npm run setup:plane` to provision 36 projects (2 portfolio + 34 matters) and write project-map.json; run `npm run sync:plane` to pull ticket snapshots. Depends on Plane self-host task above. | Open | |
+| 00_SYSTEM/integrations/plane/IMPLEMENTATION_PLAN.md | LL Systems | LL Firm Management Task | — | Systems / Infrastructure | Self-host Plane via Docker: clone makeplane/plane repo, configure env vars, run `docker compose up`, create first admin user. Docker available. Target: localhost. See plan. | Open | |
+| 00_SYSTEM/integrations/plane/IMPLEMENTATION_PLAN.md | LL Systems | LL Firm Management Task | — | Systems / Infrastructure | Connect secondbrain to self-hosted Plane: set PLANE_API_KEY, PLANE_WORKSPACE_SLUG, PLANE_API_BASE_URL; run `npm run setup:plane` (36 projects); run `npm run sync:plane`. Depends on Plane self-host task above. See plan. | Open | |
 | LLP-013 | fintechlawyer.ca | LL Firm Management Task | — | Marketing / Content | Review FINTRAC/PCMLTFA content layer (EO1-EO4, 53 posts) for quality before publication | Open | |
 | LLP-013 | fintechlawyer.ca | LL Firm Management Task | — | Marketing / Content | Produce RPAA cluster P5: 10 posts (pillar, PSP registration, classification, operational risk, safeguarding, enforcement) | Open | |
 | LLP-013 | fintechlawyer.ca | LL Firm Management Task | — | Marketing / Content | Produce Banking relationships cluster P6: 8 posts (de-risking, bank onboarding, account termination) | Open | |

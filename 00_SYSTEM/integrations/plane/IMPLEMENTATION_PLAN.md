@@ -10,51 +10,87 @@ tags: [plane, integration, implementation-plan]
 
 # Plane Integration Implementation Plan
 
-## Existing Repo Conventions
+## Deployment Model
 
-Projects are stored as project packets, primarily under `04_INITIATIVES`.
-Typical project folders include frontmatter-bearing Markdown artifacts such as:
+Plane is self-hosted via Docker Compose on this machine. No cloud account.
+Docker is confirmed available. Target: `http://localhost`.
 
-- `README.md`
-- `PROJECT_CHARTER.md`
-- `PROJECT_PLAN.md`
-- `APPROVAL_RECORD.md`
-- `METRICS.md`
-- `RISK_REGISTER.md`
-- phase folders such as `planning/` and `executing/`
+### Setup steps (one-time)
 
-Matter-like work lives under `05_MATTERS` and uses matter files such as
-`MATTER.yaml`, `MATTER_BRIEF.md`, `ISSUES_AND_POSITIONS.md`, and
-`NOTES_TO_FILE.md`.
+1. Clone `https://github.com/makeplane/plane`
+2. Configure env vars in the Plane repo (follow Plane's `setup.sh` or `.env` guidance)
+3. Run `docker compose up` to bring up all services
+4. Create the first admin user via the Plane web UI at `http://localhost`
+5. Create a workspace (e.g. "Levine Law")
+6. Generate an API token from Settings → API Tokens
 
-There is no universal ticket folder convention across projects. Therefore the
-Plane integration must use explicit project-local mappings.
+## Repo-Side Setup (after Plane is running)
+
+Set three env vars in this repo's shell environment:
+
+```
+PLANE_API_KEY=<from Plane Settings → API Tokens>
+PLANE_WORKSPACE_SLUG=<workspace slug from Plane URL>
+PLANE_API_BASE_URL=http://localhost  # or the port Plane binds to
+```
+
+Then run the provisioning script once:
+
+```
+npm run setup:plane
+```
+
+This scans the repo and creates 36 Plane projects:
+
+- 2 portfolio projects: LL Portfolio, HillSide Portfolio
+- 34 matter projects: all Essential, Strategic, and Standard matters
+  (names derived from `MATTER.yaml`: `"<matter_name> (<matter_id>)"`)
+
+It writes all mappings to `project-map.json` and is idempotent on re-run.
+Use `--dry-run` to preview without touching the Plane API.
+
+Then sync ticket snapshots any time:
+
+```
+npm run sync:plane
+```
 
 ## Smallest Fitting Integration
 
-1. Keep Plane as the source of truth for ticket state, assignee, priority,
+1. Plane is the source of truth for ticket state, assignee, priority,
    labels, cycle, and project.
-2. Store only Markdown snapshots in this repo.
-3. Require an explicit mapping from Plane project to repo project folder.
-4. Write snapshots into a configured ticket directory inside the mapped project.
-5. Skip unmapped Plane projects with clear warnings.
-6. Never create repo project folders from Plane.
-7. Preserve manual sections starting at `## Links`.
+2. Only Markdown snapshots are stored in this repo.
+3. Each Plane project is explicitly mapped in `project-map.json` to a repo
+   project folder. Unmapped projects are skipped with a logged warning.
+4. Snapshots are written into a `plane/` subdirectory inside each mapped folder.
+5. Repo project folders are never created from Plane.
+6. Manual sections (`## Links` and below) are preserved across syncs.
 
-## Current Implementation
+## Scripts and Files
 
-- Mapping file: `00_SYSTEM/integrations/plane/project-map.json`
-- Sync script: `scripts/sync-plane-tickets.ts`
-- NPM command: `npm run sync:plane`
-- Workflow: `.github/workflows/sync-plane.yml`
+| Artifact | Path | Purpose |
+|---|---|---|
+| Provisioning script | `scripts/setup-plane-projects.ts` | Create Plane projects + write project-map.json |
+| Sync script | `scripts/sync-plane-tickets.ts` | Pull ticket snapshots from Plane API |
+| Mapping file | `00_SYSTEM/integrations/plane/project-map.json` | Plane project → repo folder mappings |
+| NPM setup | `npm run setup:plane` | Run provisioning script |
+| NPM sync | `npm run sync:plane` | Run sync script |
 
-Each mapping supplies:
+## Mapping Format
 
-- Plane project key: `plane_project_id`, `plane_project_slug`,
-  `plane_project_name`, or `plane_project`
-- Repo project folder: `project_path`
-- Project-relative ticket output folder: `ticket_dir`
+Each entry in `project-map.json` supplies:
 
-Configured `ticket_dir` folders may be created inside existing mapped projects.
-That is intentional and explicit. Unmapped Plane projects are not written.
+- `plane_project_id` (written by setup script after project creation)
+- `plane_project_name`
+- `project_path`: repo-relative path to the project folder
+- `ticket_dir`: path relative to `project_path` where snapshots land (`plane/`)
 
+## Status
+
+| Step | Status |
+|---|---|
+| Scripts written and type-checked | Done |
+| Plane self-hosted service running | Pending |
+| Env vars configured | Pending |
+| `npm run setup:plane` run | Pending |
+| `npm run sync:plane` run | Pending |
