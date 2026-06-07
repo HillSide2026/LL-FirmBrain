@@ -21,7 +21,7 @@ Promotion to an active project (Initiating stage, with a project folder under
 
 | Project Name | Type | Description | Date Added | Priority | Notes |
 |---|---|---|---|---|---|
-| GHL Pipeline Stage Standardization | Operational | Both GHL pipelines exist: Funnel 02 = "LL - Corporate (New)", Funnel 03 = "LL - FINTECH". Both are out of sync with their repo `pipeline.yaml` stage specs. GHL specialist hired. Deliverable: GHL stages in each pipeline brought into alignment with the canonical stage definitions in `funnel-02/pipeline.yaml` and `funnel-03/pipeline.yaml`. | 2026-06-07 | — | GHL pipeline names registered in each `pipeline.yaml`. Stage reconciliation is the outstanding work item for the GHL specialist. |
+| GHL Pipeline Governance and Stage Standardization | Operational | 7 GHL pipelines confirmed via API: "LL - Corporate (New)" (Funnel 02), "LL - Corporate (Google)" (duplicate/legacy — retire or merge decision required), "LL - FINTECH" (Funnel 03), "LL - Inquiries" (unassigned to a funnel), "Sales - New Business", "Sales - Renewal Business", "archive". Funnel 02 and Funnel 03 GHL stages are out of sync with repo `pipeline.yaml` specs. GHL specialist hired. Deliverables: (1) retire or merge the duplicate corporate pipeline; (2) standardize Funnel 02 and Funnel 03 GHL stages to match repo specs; (3) determine ownership of "LL - Inquiries", "Sales - New Business", and "Sales - Renewal Business" pipelines. | 2026-06-07 | — | GHL pipeline IDs registered in each funnel `pipeline.yaml`. Actual GHL stages documented in `ghl_actual_stages` fields. Full pipeline list retrieved via GHL API 2026-06-07. |
 
 ---
 

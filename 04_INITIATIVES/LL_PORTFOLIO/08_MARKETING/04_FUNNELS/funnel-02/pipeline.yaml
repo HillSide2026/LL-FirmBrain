@@ -1,6 +1,21 @@
 system: ghl
 ghl_pipeline_name: "LL - Corporate (New)"
+ghl_pipeline_id: FD64V3fmW7sKvaJKjSVw
 ghl_sync_status: out_of_sync  # GHL stages do not match repo spec; standardization assigned to GHL specialist
+ghl_note: A second pipeline "LL - Corporate (Google)" (id emVIxH1FUQbwMM1MVW5V) also exists in GHL — governance decision pending on which to retire
+
+ghl_actual_stages:
+  - New Lead
+  - Welcoming
+  - Nurturing
+  - Qualified
+  - Consult Booked
+  - Rescheduled / No-Show
+  - Consultation Completed
+  - Engagement Sent
+  - Retained (Closed – Won)
+  - Closed – Not Proceeding
+  - Disqualified
 
 stages:
   - awareness_discovery
