@@ -4,7 +4,7 @@ title: Wealth Management - Housing Budget Policy
 owner: ML1
 status: active
 created_date: 2026-04-03
-last_updated: 2026-04-03
+last_updated: 2026-06-07
 tags: [wealth-management, planning, housing, budget-policy]
 ---
 
@@ -20,13 +20,18 @@ Use this file to set the shared wealth-plan rules that govern
 
 ## Current Planning Inputs
 
-- first-pass consolidated net-worth baseline: `CAD 1,600,000` as at
-  `2026-03-23`, subject to confirmation
 - current personal liquid / near-liquid planning input as at `2026-04-03`:
   `CAD 900,000` in a high-interest savings account plus `CAD 560,000` in
   managed equities (`CAD 1,460,000` total)
-- `17513721 Canada Inc` also currently holds approximately `CAD 27,000` in a
-  corporate bank account from YellowBricks sale proceeds
+- `17513721 Canada Inc` also currently holds slightly more than `CAD 27,000`
+  in a corporate bank account from the completed YellowBricks sale
+- current visible liquid / near-liquid subtotal: approximately
+  `CAD 1,487,000+`, made up of `CAD 1,460,000` personal liquid /
+  near-liquid assets plus `CAD 27,000+` entity-bound cash inside 175
+- prior `CAD 1,600,000` planning anchor is retained only as an unreconciled
+  reference, not as the current authoritative hard balance
+- YellowBricks itself is fully divested and contributes no ongoing asset value
+  beyond the cash proceeds already inside 175
 - current net-savings position: near zero until improved through visible cash
   generation
 - executing is not yet authorized

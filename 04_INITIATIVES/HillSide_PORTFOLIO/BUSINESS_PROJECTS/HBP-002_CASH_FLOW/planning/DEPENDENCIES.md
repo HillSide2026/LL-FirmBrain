@@ -4,7 +4,7 @@ title: Cash Flow - Dependencies
 owner: ML1
 status: active
 created_date: 2026-03-20
-last_updated: 2026-04-03
+last_updated: 2026-06-07
 tags: [cash-flow, planning, dependencies]
 ---
 
@@ -22,7 +22,7 @@ Stage: `Planning`
 | `Levine Professional Corporation` (`Levine Law`) records | Operating-business data | Needed to map flows between Matthew and Levine Law consistently and to cross-walk Andersen operational matters that are tracked inside Levine Law | in progress |
 | Federal MSB (`17409052 Canada Inc`) records | Corporate records | Needed to map flows between Matthew and the licensed-but-inactive 174 Canada entity consistently and confirm that FinSure and the Payment Services Consulting Line are excluded from 174 | in progress |
 | Ontario MSB Corp (`1001494374 Ontario Corp`) records | Corporate records | Needed to map flows between Matthew and Ontario MSB consistently while the corporation is being marketed for sale and to model the optimistic 2026 sale case | in progress |
-| YellowBricks close-out file | Historical cash-event data | Needed to classify residual cash flows between Matthew and YellowBricks consistently, including the slightly more than CAD 27,000 already received into 175 | in progress |
+| YellowBricks close-out file | Historical cash-event data | Needed to classify the completed sale proceeds and any sale-related cash events consistently, including the slightly more than CAD 27,000 already received into 175 | in progress |
 | Management-pack review owner | Governance | Needed to make the monthly close process real rather than notional | unresolved |
 
 ## Dependency Rule

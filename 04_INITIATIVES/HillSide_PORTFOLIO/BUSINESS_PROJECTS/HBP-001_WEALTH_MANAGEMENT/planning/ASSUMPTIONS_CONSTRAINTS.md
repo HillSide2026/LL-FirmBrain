@@ -4,7 +4,7 @@ title: Wealth Management - Assumptions and Constraints
 owner: ML1
 status: active
 created_date: 2026-03-20
-last_updated: 2026-03-20
+last_updated: 2026-06-07
 tags: [wealth-management, planning, assumptions, constraints]
 ---
 
@@ -39,7 +39,13 @@ Currently locked:
 
 Still not locked:
 
-- the opening baseline value is first-passed at CAD 1,600,000 (`2026-03-23`) — subject to valuation methodology confirmation
+- the current visible liquid / near-liquid baseline is approximately
+  CAD 1,487,000+ (`2026-04-03` personal inputs plus completed YellowBricks sale
+  proceeds inside 175), before liabilities, taxes, and unresolved entity
+  valuations
+- the older CAD 1,600,000 first-pass anchor (`2026-03-23`) is retained only as
+  an unreconciled reference until the approximately CAD 113,000 delta is
+  explained or the anchor is retired
 - the exact balance between portfolio compounding and business-value creation
 - any threshold rules for redeployment, distributions, or liquidity reserves
 

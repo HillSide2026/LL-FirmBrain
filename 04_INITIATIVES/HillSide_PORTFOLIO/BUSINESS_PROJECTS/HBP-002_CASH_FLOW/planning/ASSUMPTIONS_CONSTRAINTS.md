@@ -4,7 +4,7 @@ title: Cash Flow - Assumptions and Constraints
 owner: ML1
 status: active
 created_date: 2026-03-20
-last_updated: 2026-04-03
+last_updated: 2026-06-07
 tags: [cash-flow, planning, assumptions, constraints]
 ---
 
@@ -15,15 +15,17 @@ Stage: `Planning`
 
 ## Assumptions
 
-- the approximate current asset base remains about CAD 1.6M in cash and
-  securities across ML1's personal wealth boundary
+- the current visible liquid / near-liquid baseline is approximately
+  CAD 1,487,000+ before liabilities, taxes, and unresolved entity valuations
+- the older CAD 1.6M initiation anchor is retained only as an unreconciled
+  reference
 - the current personal liquid / near-liquid split as at `2026-04-03` is
   `CAD 900,000` in a high-interest savings account plus `CAD 560,000` in
   managed equities
 - ML1 personally owns `17513721 Canada Inc` and `Levine Professional Corporation`
 - `17513721 Canada Inc` owns Federal MSB (`17409052 Canada Inc`) and Ontario
   MSB Corp (`1001494374 Ontario Corp`) and formerly owned YellowBricks, which
-  is now sold and in post-closing handling
+  is now fully divested and closed
 - `17513721 Canada Inc` currently holds approximately `CAD 27,000` in its bank
   account from YellowBricks sale proceeds
 - records for `17513721 Canada Inc`, YellowBricks, Federal MSB (`17409052
@@ -52,7 +54,8 @@ Currently locked:
   YellowBricks, Federal MSB (`17409052 Canada Inc`), Ontario MSB Corp
   (`1001494374 Ontario Corp`), and `Levine Professional Corporation`
   (`Levine Law`) is in scope
-- YellowBricks residual receipts, payments, and adjustments remain in scope until fully settled
+- YellowBricks is fully divested and closed; it remains in scope only for
+  historical sale-proceeds classification and source-record reconciliation
 - slightly more than `CAD 27,000` has already been received from the sale of YellowBricks into `17513721 Canada Inc`
 - that slightly more than `CAD 27,000` currently sits in the `17513721 Canada Inc`
   bank account unless otherwise moved

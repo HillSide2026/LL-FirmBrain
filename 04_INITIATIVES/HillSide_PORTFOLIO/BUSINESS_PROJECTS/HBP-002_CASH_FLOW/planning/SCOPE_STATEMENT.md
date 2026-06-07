@@ -4,7 +4,7 @@ title: Cash Flow - Scope Statement
 owner: ML1
 status: active
 created_date: 2026-03-20
-last_updated: 2026-04-03
+last_updated: 2026-06-07
 tags: [cash-flow, planning, scope]
 ---
 
@@ -25,7 +25,9 @@ redesign.
 - all positive and negative cash flow between Matthew and `17513721 Canada Inc`
   (personally owned by Matthew), including the Andersen Service Line, FinSure
   activity, and Payment Services Consulting Line activity
-- all positive and negative cash flow between Matthew and YellowBricks, including residual post-closing cash events until final settlement
+- classification of completed YellowBricks sale proceeds received into
+  `17513721 Canada Inc` and any historical sale-related cash events already
+  reflected in 175 records
 - all positive and negative cash flow between Matthew and Federal MSB (`17409052 Canada Inc`), which is licensed but has no current operating activity
 - all positive and negative cash flow between Matthew and Ontario MSB Corp (`1001494374 Ontario Corp`), which is owned by 175 and being marketed for sale
 - all positive and negative cash flow between Matthew and

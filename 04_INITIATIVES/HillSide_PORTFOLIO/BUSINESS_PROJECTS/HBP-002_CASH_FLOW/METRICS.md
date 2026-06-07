@@ -4,7 +4,7 @@ title: Cash Flow - Metrics
 owner: ML1
 status: draft
 created_date: 2026-03-20
-last_updated: 2026-04-03
+last_updated: 2026-06-07
 tags: [cash-flow, metrics, initiating]
 ---
 
@@ -21,12 +21,12 @@ closed and reviewed within 10 business days of month-end, that reports:
 - gross cash inflows to Matthew from each in-scope entity
 - gross cash outflows from Matthew to each in-scope entity
 - net cash flow by entity and in aggregate across the in-scope set
-- YellowBricks residual post-closing receipts, payments, and adjustments until fully settled
+- completed YellowBricks sale-proceeds cash activity already received into `17513721 Canada Inc`
 
 ## In-Scope Reporting Boundary
 
 - all positive and negative cash flow between Matthew and `17513721 Canada Inc`
-- all positive and negative cash flow between Matthew and YellowBricks, including residual post-closing cash events until final settlement
+- classification of the completed YellowBricks sale proceeds and any historical sale-related cash events already reflected in `17513721 Canada Inc`
 - all positive and negative cash flow between Matthew and Federal MSB (`17409052 Canada Inc`)
 - all positive and negative cash flow between Matthew and Ontario MSB Corp (`1001494374 Ontario Corp`)
 - all positive and negative cash flow between Matthew and `Levine Professional Corporation` (`Levine Law`)
@@ -39,7 +39,7 @@ closed and reviewed within 10 business days of month-end, that reports:
 | Matthew gross outflow by entity | Total cash paid by Matthew to one in-scope entity during the reporting period | sum of all in-scope cash payments from Matthew to the entity | Matthew cash-account records, entity bank statements, general ledger, capital/loan records |
 | Matthew net cash flow by entity | Net cash impact on Matthew from one in-scope entity during the reporting period | Matthew gross inflow by entity less Matthew gross outflow by entity | same sources as the related inflow and outflow measures |
 | Consolidated Matthew net cash flow | Aggregate net cash impact on Matthew across the full in-scope entity set | sum of Matthew net cash flow by entity | monthly management pack, reconciliation schedule, source ledgers |
-| YellowBricks residual post-closing cash flow | All remaining positive and negative cash movements tied to YellowBricks after sale closing | all post-closing YellowBricks receipts less all post-closing YellowBricks payments and adjustments | closing statements, bank records, legal close-out file |
+| YellowBricks sale-proceeds cash flow | Completed sale proceeds received into `17513721 Canada Inc` | YellowBricks sale proceeds received less any documented sale-related costs already reflected in 175 records | HBP-003 closing report, closing statements, bank records, legal close-out file |
 
 ## Reporting Rules
 
@@ -50,7 +50,7 @@ closed and reviewed within 10 business days of month-end, that reports:
 - Supporting entity-level operating or free-cash-flow views may be calculated separately if needed to explain Matthew-level movements, but they do not define the primary project boundary.
 - Andersen Service Line activity must be reconciled across two layers: cash receipt in `17513721 Canada Inc` and operational matter tracking inside Levine Law.
 - In the 2026 operating picture, the Andersen relationship is credited to Levine Law even though the cash receipt remains in `17513721 Canada Inc`.
-- YellowBricks remains in scope for all residual receipts, payments, and adjustments until fully settled.
+- YellowBricks is fully divested and closed. It remains in scope only for historical sale-proceeds classification and source-record reconciliation.
 - `Matthew Holdings`, where referenced elsewhere, is a personal planning label
   for ML1 rather than a separate legal entity in this metric framework.
 

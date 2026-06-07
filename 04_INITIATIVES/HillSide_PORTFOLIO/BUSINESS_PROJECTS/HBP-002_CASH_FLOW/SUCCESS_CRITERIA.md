@@ -5,7 +5,7 @@ owner: ML1
 status: draft
 project_type: strategic
 created_date: 2026-03-15
-last_updated: 2026-04-03
+last_updated: 2026-06-07
 tags: [cash-flow, initiation, success]
 ---
 
@@ -17,7 +17,7 @@ Project: `HBP-002` - Cash Flow
 
 | Criterion | Threshold | Verification Source |
 | --- | --- | --- |
-| Reporting boundary fixed | In-scope Matthew-level cash relationships are documented clearly for `17513721 Canada Inc`, YellowBricks, Federal MSB (`17409052 Canada Inc`), Ontario MSB Corp (`1001494374 Ontario Corp`), and `Levine Professional Corporation` (`Levine Law`) | `PROJECT_CHARTER.md` and `METRICS.md` |
+| Reporting boundary fixed | In-scope Matthew-level cash relationships are documented clearly for `17513721 Canada Inc`, completed YellowBricks sale proceeds, Federal MSB (`17409052 Canada Inc`), Ontario MSB Corp (`1001494374 Ontario Corp`), and `Levine Professional Corporation` (`Levine Law`) | `PROJECT_CHARTER.md` and `METRICS.md` |
 | Metric definitions fixed | Gross inflow, gross outflow, and net cash flow by entity are defined with inclusions, exclusions, and primary source records | `METRICS.md` |
 | Close and review model defined | The monthly close timeline, review owner, and variance process are documented clearly enough for planning | `PROJECT_CHARTER.md` and `STAKEHOLDERS.md` |
 | Opening baseline documented | The initiation packet records the approximate current asset base and how the five in-scope entities are classified for Matthew-level reporting | `README.md`, `BUSINESS_CASE.md`, and `METRICS.md` |

@@ -4,7 +4,7 @@ title: Cash Flow - Risk Scan
 owner: ML1
 status: draft
 created_date: 2026-03-15
-last_updated: 2026-04-03
+last_updated: 2026-06-07
 tags: [cash-flow, initiation, risk]
 ---
 
@@ -32,12 +32,14 @@ Project: `HBP-002` - Cash Flow
 - the project is still in definition mode and is not yet implementing a permanent system
 - current data sources are imperfect but sufficient to support an initiation-stage framing exercise
 - the first useful outcome is management visibility and decision discipline, not accounting-system replacement
-- ML1's personal wealth boundary currently has an approximate initiation
-  baseline of CAD 1.6M in cash and securities
-- records for `17513721 Canada Inc`, YellowBricks, Federal MSB (`17409052
-  Canada Inc`), Ontario MSB Corp (`1001494374 Ontario Corp`), and
-  `Levine Professional Corporation` (`Levine Law`) can be classified
-  consistently enough for planning
+- the current visible liquid / near-liquid baseline is approximately
+  CAD 1,487,000+ before liabilities, taxes, and unresolved entity valuations
+- the older CAD 1.6M initiation anchor remains an unreconciled reference, not
+  the current authoritative hard balance
+- records for `17513721 Canada Inc`, completed YellowBricks sale proceeds,
+  Federal MSB (`17409052 Canada Inc`), Ontario MSB Corp
+  (`1001494374 Ontario Corp`), and `Levine Professional Corporation`
+  (`Levine Law`) can be classified consistently enough for planning
 
 ## Go / No-Go Judgment
 

@@ -4,7 +4,7 @@ title: Wealth Management - Wealth Plan
 owner: ML1
 status: active
 created_date: 2026-04-03
-last_updated: 2026-05-02
+last_updated: 2026-06-07
 tags: [wealth-management, planning, wealth-plan]
 ---
 
@@ -25,14 +25,19 @@ governance.
 
 - SG-01: consolidated net worth at least `CAD 2,000,000` by `2030-12-31`
 - SG-02: consolidated net worth at least `CAD 4,000,000` by `2040-12-31`
-- first-pass opening consolidated baseline: `CAD 1,600,000` as at `2026-03-23`
-  — subject to valuation confirmation
 - current personal liquid / near-liquid planning input as at `2026-04-03`:
   `CAD 900,000` in a high-interest savings account plus `CAD 560,000` in
   managed equities (`CAD 1,460,000` total)
-- `17513721 Canada Inc` currently also holds approximately `CAD 27,000` in a
-  corporate bank account from YellowBricks sale proceeds; this is separate from
-  personal unrestricted cash
+- `17513721 Canada Inc` currently also holds slightly more than `CAD 27,000`
+  in a corporate bank account from the completed YellowBricks sale; this is
+  separate from personal unrestricted cash
+- current visible liquid / near-liquid subtotal: approximately
+  `CAD 1,487,000+` (`CAD 1,460,000` personal plus `CAD 27,000+` inside 175)
+- prior first-pass opening consolidated baseline: `CAD 1,600,000` as at
+  `2026-03-23`; this is now a reconciliation anchor, not the current
+  authoritative hard balance
+- YellowBricks itself is fully divested and carried at zero; only the realized
+  cash proceeds inside 175 remain in the balance-sheet view
 - current business-income refill position: the currently modeled Levine Law ->
   Matthew compensation approximately covers living costs, and no recurring
   `17513721 Canada Inc` -> Matthew distribution is yet assumed

@@ -4,7 +4,7 @@ title: Actuals Evidence Index — Joy Ong Emails, Jan-May 2026
 owner: ML1
 status: draft
 created_date: 2026-05-13
-last_updated: 2026-05-13
+last_updated: 2026-06-07
 tags:
   - accounting
   - actuals
@@ -61,6 +61,7 @@ Related management accounting lens: `../management_accounting/REVENUE_TIMING_SEC
 | 2026-05-05 | Re: Spreadsheet shared with you: "LL - LSO - Spot Review" | LSO spot-review support materials completed for Tables 1-3 | SharePoint links for `Table1_Fee Bills`, `Table2_Trust withdrawals`, and `Table3_Client Trust Ledger` | Joy notes BMO 7054 as operating account and BMO 7089 as trust account for the audit support thread |
 | 2026-05-05 | Re: Spreadsheet shared with you: "LL - LSO - Spot Review" | Table 4 support discussed; Joy indicates limited information available | `Audit table 4 - MATTHEW LEVINE - MAY 2026.docx` | Table 4 evidence appears less complete than Tables 1-3 |
 | 2026-05-11 | Re: hi - sorry to interrupt | Kishmish QBO trust ledger, Clio trust ledger, and client trust listing report matched and balanced as of Apr. 30, 2026; ending balance CAD 48.68; Mar. 31, 2026 balance CAD 157.16 | Three JPEG screenshots | Trust-ledger reconciliation evidence for LSO issue |
+| 2026-06-03 | FINANCIAL REPORT as of 31 May 2026 | Jan-May 2026 management report and YoY P&L comparison. Total income CAD 61,793.14; gross profit CAD 53,664.49; total expenses CAD 36,941.32; other income CAD 1,940.29; profit CAD 18,663.46; cash and cash equivalents CAD 105,396.25; total assets CAD 148,834.75; total liabilities CAD 76,683.61; total equity CAD 72,151.14; net cash increase CAD 13,318.27; profit up 229.51% vs Jan-May 2025 | `2026_0531 BasicCompanyFinancials.pdf`; `2026_0531_ProfitandLossComparison.pdf`; `ACTUALS_SUMMARY_2026_JAN_MAY.md` | Email from Jocelyn Ong. Accounting fact evidence only; report is marked for management use only and comparison is accrual basis. Trust funds are not operating liquidity. |
 
 ## Not Included Here
 

@@ -4,7 +4,7 @@ title: Wealth Management - Metrics
 owner: ML1
 status: active
 created_date: 2026-03-20
-last_updated: 2026-04-03
+last_updated: 2026-06-07
 tags: [wealth-management, planning, metrics]
 ---
 
@@ -18,9 +18,10 @@ Stage: `Planning`
 | Metric | Definition | Target | Evidence |
 | --- | --- | --- | --- |
 | Baseline completeness | Share of in-scope assets and liabilities classified under one approved methodology | all material in-scope items classified | `SCOPE_STATEMENT.md`, `OPENING_BALANCE_SHEET.md`, `VALUATION_AND_CLASSIFICATION_POLICY.md` |
-| Opening baseline | Consolidated net worth as at `2026-03-23` | CAD 1,600,000 (first-pass; subject to valuation confirmation) | `OPENING_BALANCE_SHEET.md`, ML1 |
-| Gap to SG-01 | CAD 2,000,000 − CAD 1,600,000 | CAD 400,000 remaining; requires ~4.8% CAGR on existing base over 4.75 years — path is primarily investment income and compounding, not retained net savings from business income | `PROJECT_PLAN.md` |
-| Gap to SG-02 | CAD 4,000,000 − CAD 1,600,000 | CAD 2,400,000 remaining; requires ~6.4% CAGR over 14.75 years — at $2M in 2030, a further ~7.2% CAGR for 10 years reaches $4M | `PROJECT_PLAN.md` |
+| Current visible liquid / near-liquid baseline | Personal liquid / near-liquid assets plus entity-bound YellowBricks sale proceeds inside 175 | approximately CAD 1,487,000+ (`CAD 1,460,000` personal plus `CAD 27,000+` inside 175), before liabilities, taxes, and unresolved entity valuations | `OPENING_BALANCE_SHEET.md`, ML1, HBP-003 closing report |
+| Prior planning anchor reconciliation | Difference between the older `2026-03-23` first-pass anchor and the current visible hard baseline | prior CAD 1,600,000 anchor is retained only as an unreconciled reference; approximately CAD 113,000 delta remains to be explained or the anchor retired | `OPENING_BALANCE_SHEET.md`, `HBP-002_CASH_FLOW` source mapping |
+| Conservative visible-baseline gap to SG-01 | CAD 2,000,000 minus approximately CAD 1,487,000+ | approximately CAD 513,000 before unresolved business-equity value and liabilities/taxes are finalized | `OPENING_BALANCE_SHEET.md`, `PROJECT_PLAN.md` |
+| Conservative visible-baseline gap to SG-02 | CAD 4,000,000 minus approximately CAD 1,487,000+ | approximately CAD 2,513,000 before unresolved business-equity value and liabilities/taxes are finalized | `OPENING_BALANCE_SHEET.md`, `PROJECT_PLAN.md` |
 | Governance readiness | Capital-allocation, liquidity, refill, and review rules are explicit enough to govern execution | governance rules documented clearly enough for ML1 review | `LIQUIDITY_AND_CAPITAL_GUARDRAILS.md`, `NET_SAVINGS_AND_REFILL_MODEL.md`, `COMMUNICATION_PLAN.md`, `WEALTH_PLAN.md` |
 | Housing budget anchor | Shared housing-budget rules exist for Toronto and Japan planning | one housing-budget policy and output standard documented clearly enough for ML1 review | `HOUSING_BUDGET_POLICY.md`, `WEALTH_PLAN.md` |
 | Dependency alignment | Critical dependencies needed for execution are identified and narrowed enough to manage | no unresolved dependency that makes the path unusable for decision-making | `DEPENDENCIES.md`, `RISK_REGISTER.md` |
@@ -33,7 +34,7 @@ because they answer different planning questions.
 
 | Lane | Current State | Planning Use |
 |--------|-------------|---------------------|
-| Investment income and return on capital | The existing base still needs about ~4.8% CAGR to reach SG-01 and ~6.4% CAGR to reach SG-02 | Shows how the current balance sheet compounds over time |
+| Investment income and return on capital | The visible liquid / near-liquid base is approximately `CAD 1,487,000+` before unresolved valuations and liabilities/taxes; return requirements should be recalculated after the baseline is reconciled | Shows how the current balance sheet compounds over time |
 | Business income to Matthew | This lane includes compensation, bonus, dividends, and approved distributions to Matthew from Levine Law and `17513721 Canada Inc`. The current explicit baseline locks Levine Law -> Matthew at `CAD 80,000`; no recurring `17513721 Canada Inc` -> Matthew distribution is yet assumed in the baseline. | Shows whether the liquid base can be refilled through owner cash flow rather than market performance |
 
 **Current position:** business income to Matthew approximately covers living

@@ -4,7 +4,7 @@ title: LLP-001 — Accounting Operations
 owner: ML1
 status: on track
 created_date: 2026-02-26
-last_updated: 2026-05-13
+last_updated: 2026-06-07
 tags: []
 ---
 
@@ -35,6 +35,7 @@ Govern the accounting fact layer for Levine Law so booked transactions, reconcil
 ## Relevant Artifacts
 
 - `ACTUALS_EVIDENCE_INDEX_2026_JAN_MAY.md`
+- `ACTUALS_SUMMARY_2026_JAN_MAY.md`
 - `../management_accounting/REVENUE_TIMING_SECURITY_TAXONOMY.md`
 - `initiation/PROJECT_CHARTER.md`
 - `initiation/PROBLEM_STATEMENT.md`
