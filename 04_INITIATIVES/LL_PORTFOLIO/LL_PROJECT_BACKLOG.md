@@ -21,7 +21,7 @@ Promotion to an active project (Initiating stage, with a project folder under
 
 | Project Name | Type | Description | Date Added | Priority | Notes |
 |---|---|---|---|---|---|
-| GHL Pipeline — One Pipeline Per Funnel | Operational | Each funnel must have one unique GHL pipeline. ML1 has shared an existing GHL pipeline titled "corporate" (presumed Funnel 02). Funnel 03 (Payments/MSB/PSP) needs its own dedicated GHL pipeline. Confirm mapping, create missing pipelines, and register the canonical pipeline ID in each funnel's `pipeline.yaml`. | 2026-06-07 | — | Funnel 02 pipeline may already exist as "corporate" in GHL. Funnel 03 pipeline outstanding. |
+| GHL Pipeline Stage Standardization | Operational | Both GHL pipelines exist: Funnel 02 = "LL - Corporate (New)", Funnel 03 = "LL - FINTECH". Both are out of sync with their repo `pipeline.yaml` stage specs. GHL specialist hired. Deliverable: GHL stages in each pipeline brought into alignment with the canonical stage definitions in `funnel-02/pipeline.yaml` and `funnel-03/pipeline.yaml`. | 2026-06-07 | — | GHL pipeline names registered in each `pipeline.yaml`. Stage reconciliation is the outstanding work item for the GHL specialist. |
 
 ---
 

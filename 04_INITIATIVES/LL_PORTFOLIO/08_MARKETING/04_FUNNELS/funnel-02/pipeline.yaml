@@ -1,4 +1,7 @@
 system: ghl
+ghl_pipeline_name: "LL - Corporate (New)"
+ghl_sync_status: out_of_sync  # GHL stages do not match repo spec; standardization assigned to GHL specialist
+
 stages:
   - awareness_discovery
   - awareness_interest

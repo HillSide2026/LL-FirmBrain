@@ -1,4 +1,6 @@
 system: ghl
+ghl_pipeline_name: "LL - FINTECH"
+ghl_sync_status: out_of_sync  # GHL stages do not match repo spec; standardization assigned to GHL specialist
 
 stages:
   - lead_captured
