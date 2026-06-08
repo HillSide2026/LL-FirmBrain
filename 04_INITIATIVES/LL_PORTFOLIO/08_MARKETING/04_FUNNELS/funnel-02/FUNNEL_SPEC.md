@@ -71,10 +71,59 @@ Secondary planning hypothesis (research only):
 
 ## Entry Channel(s)
 
-- Content
+- Content / SEO (primary — see Traffic / Acquisition)
 - Google Ads
 - `levine-law.ca`
-- overlapping NDA Esq landing-page acquisition surface on `levine-law.ca`
+- Overlapping NDA Esq landing-page acquisition surface on `levine-law.ca`
+- **Type 4 channel (under development)** — see below
+
+## Type 4 Channel: Foreign-Owned and Controlled Subsidiaries
+
+Status: identified as a focus channel 2026-06-07. Development pending.
+
+### Why Type 4 is a distinct channel
+
+Foreign subsidiaries arriving in Canada do not find their corporate lawyer
+through content or Google search the same way a Canadian-founded company does.
+The foreign parent typically has its own legal relationships; the Canadian
+entity needs a local corporate lawyer but lacks an established referral network
+in Canada. This creates a specific acquisition dynamic: the entry point is
+referral and relationship, not search.
+
+### Decision-maker profile
+
+The buying decision typically involves the Canadian country manager or GM
+(day-to-day contact and felt need), with approval or direction from the foreign
+parent's GC, CFO, or outside counsel. The Canadian entity often cannot
+self-select a lawyer without parent involvement.
+
+### Trigger moments
+
+- Initial Canadian subsidiary setup (incorporation, governance, first
+  commercial contracts)
+- Compliance review required by the parent or a regulator
+- Employment issues with Canadian staff (distinct from home-country norms)
+- Key commercial contract with a Canadian customer or supplier
+- Intercompany agreement restructuring
+- M&A involving the Canadian entity
+
+### Likely referral and entry sources
+
+- International accounting firms with Canadian practices (Big 4 and mid-tier)
+- Trade commissioners and consulates (foreign governments with Canadian trade
+  presence)
+- Canadian chambers of commerce with international member bases
+- International law firms referring Canadian work
+- Canadian banks with foreign corporate banking relationships
+
+### Channel development questions (open)
+
+- Which source country segments are addressable and worth targeting?
+- Does this channel require dedicated content or landing page
+  (e.g., "Canadian subsidiary legal counsel") or does the existing
+  `levine-law.ca` surface adequately capture inbound?
+- What is the referral relationship investment required (trade commissions,
+  international accounting contacts) and is that realistic at current capacity?
 
 ## Traffic / Acquisition
 
