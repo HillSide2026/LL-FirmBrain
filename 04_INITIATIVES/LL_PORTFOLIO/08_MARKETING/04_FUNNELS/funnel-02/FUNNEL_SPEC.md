@@ -181,6 +181,18 @@ have outgrown their original setup.
 - MSB, RPAA, AML, STR, payments-infrastructure, stablecoin settlement, PSP, and
   payments-regulatory classification issues route to Funnel 03.
 
+## Value Ladders (ML1-approved 2026-06-07)
+
+Three value ladders operate within Funnel 02. Each has a conversion lead magnet
+and a product. The checklist format is the standard conversion lead magnet
+pattern across all three.
+
+| # | Conversion Lead Magnet | Product | Spec |
+|---|---|---|---|
+| 1 | Founder agreements checklist | Template packages (IP1, IP2) at `legal.levine-law.ca` | `funnel2_leadmagnet_founder_agreements_spec_v1.md` |
+| 2 | Corporate health check checklist | Corporate Health Check (paid diagnostic) | `funnel2_leadmagnet_checklist_spec_v1.md` |
+| 3 | Canadian subsidiary setup checklist | Done-for-you incorporation with registered office | `funnel2_leadmagnet_subsidiary_checklist_spec_v1.md` |
+
 ## Conversion Event Definition
 
 - health_check_purchased
