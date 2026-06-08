@@ -23,9 +23,11 @@ diagnostic as the entry point.
 
 ## Funnel Distinction
 
-Funnel 02 is the primary awareness-and-interest building path for growth-stage
-corporate-law demand. It carries prospects from discovery through
-consideration and inquiry before conversion handoff.
+Funnel 02 captures corporate-law demand at the trigger moment — when an
+operator is already searching because something has happened or is imminent.
+Ambient awareness-building is not the model: corporate legal needs at this ICP
+stage are episodic, not ambient. The content cluster catches operators at the
+moment of urgency; the checklist converts them.
 
 ## Positioning Reference
 
@@ -57,10 +59,21 @@ Secondary planning hypothesis (research only):
 
 ## Traffic / Acquisition
 
-- Lead magnet: Growth Without Structural Drift (TM)
-- higher-quality, higher-cost Google Ads traffic is allowed where it improves fit and downstream economics
-- authority content / SEO is a core acquisition lane
-- NDA Esq may act as a supplementary traffic and lead source for Funnel 02 where the acquisition surface overlaps, without changing project boundaries
+- Authority content / SEO is the primary acquisition lane. The blog and
+  content cluster serve the awareness function by being findable at trigger
+  moments — not by creating ambient demand. There is no standalone awareness
+  lead magnet. "Growth Without Structural Drift" is retired as a lead magnet
+  concept. If retained at all, it is top-of-funnel brand content only, not a
+  conversion asset.
+- Sole lead magnet: the Corporate Health Check checklist (conversion asset).
+  Spec: `funnel2_leadmagnet_checklist_spec_v1.md`.
+- Higher-quality, higher-cost Google Ads traffic is allowed where it improves
+  fit and downstream economics.
+- NDA Esq may act as a supplementary traffic and lead source for Funnel 02
+  where the acquisition surface overlaps, without changing project boundaries.
+- Advisor referrals (accountants, financial advisors) are a referral channel,
+  not a content distribution channel. The advisor play is relationship-based;
+  no circulating asset is planned.
 
 ## Intake Mechanism
 
@@ -147,15 +160,17 @@ Routing decision point: at the Qualified stage, the SDR sets `Offer Path` =
 Diagnostic or Consultation based on lead type. Inbound content leads may be
 pre-routed to Diagnostic via form logic before reaching the SDR.
 
-## Lead Magnet — Corporate Health Check Access Point (Backlog)
+## Lead Magnet
 
-Identified 2026-06-07. A Corporate Health Check lead magnet (distinct from
-"Growth Without Structural Drift") should be accessible directly from blog
-posts and the corporate governance pillar page. Its function is to give
-awareness leads a frictionless path from reading content to initiating the
-diagnostic purchase or inquiry, without requiring them to navigate to the main
-services page. Format and specification pending ML1 direction. See
-`funnel2_blog_backlog.md` for content cluster context.
+One lead magnet. Sole conversion asset for this funnel.
+
+**Corporate Health Check Checklist** — a 25-point scorecard organized across
+the five health check pillars. Operator confronts their gaps line by line;
+"Not sure" answers surface the liability; the gap bridges to the health check
+purchase. Accessible directly from blog posts and the pillar page. Gate
+mechanic (Option A vs B) pending ML1 decision.
+
+Full spec: `funnel2_leadmagnet_checklist_spec_v1.md`
 
 ## Primary Metrics
 
