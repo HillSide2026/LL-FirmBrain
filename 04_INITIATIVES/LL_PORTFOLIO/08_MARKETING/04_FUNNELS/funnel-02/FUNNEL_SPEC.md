@@ -47,6 +47,21 @@ moment of urgency; the checklist converts them.
 - Document-ready
 - Not in active crisis
 
+### Working Corporation Taxonomy (ML1-approved 2026-06-07)
+
+Four corporation types served by this funnel:
+
+| Type | Description |
+|---|---|
+| Start-up (digital) | Digital business model; typically founder-led; IP, equity, and founder agreement surface prominent |
+| Family-owned company | Controlled by a single family; succession, family governance, and shareholder alignment surface prominent |
+| Private company (non-digital, non-family) | Operating business not in a digital sector and not family-controlled; classic corporate governance, commercial contracts, and growth financing surface |
+| Foreign subsidiary in Canada | Canadian entity owned by a foreign parent; local governance compliance, intercompany agreements, and Canadian regulatory surface |
+
+The 25-point checklist lead magnet applies across all four types at the pillar
+level. Individual items within pillars may weight differently by type — to be
+assessed when the checklist is produced.
+
 Secondary planning hypothesis (research only):
 - operators acquiring an existing operating business (independent or backed), pending cohort-comparison findings and ML1 approval.
 

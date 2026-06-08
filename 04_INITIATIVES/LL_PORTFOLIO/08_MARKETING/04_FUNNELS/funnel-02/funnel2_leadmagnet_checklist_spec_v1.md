@@ -144,6 +144,20 @@ After the checklist, the natural next step is:
 - This checklist is the conversion asset; "Growth Without Structural Drift"
   (if any) is the awareness asset upstream of it
 
+## Corporation Type Considerations
+
+Levine Law serves four corporation types within this funnel (see FUNNEL_SPEC.md
+for full taxonomy): start-up (digital), family-owned, private non-digital
+non-family, and foreign subsidiary in Canada.
+
+The five pillars apply across all four types. Individual checklist items may
+weight or present differently by type — for example, IP assignment is more
+prominent for digital start-ups; succession and family governance items are
+more prominent for family-owned companies; intercompany agreement items are
+more prominent for foreign subsidiaries. Whether the checklist requires
+type-specific variants or a single universal list is an open production
+decision pending ML1 direction.
+
 ## Production Notes
 
 - Format: ideally interactive (scored online form) or downloadable PDF
