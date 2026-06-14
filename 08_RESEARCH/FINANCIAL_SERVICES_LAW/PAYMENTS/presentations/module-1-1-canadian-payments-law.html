@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canadian Payments Law — Module 1.1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /*
+      ── LEVINE LAW BRAND PALETTE ──────────────────────
+      #0c1115   near-black
+      #1D4771   primary dark navy
+      #0365b2   medium blue
+      #6da3d9   light blue
+      #b2d1ea   very light blue
+      #4bd1fb   cyan accent
+      #ff5e5b   coral / red accent
+      #ffffff   white
+      #f5f5f5   off-white / light bg
+      #D1D5DB   mid-gray
+      #b4baba   light gray
+      #2e2e2e   dark charcoal
+    ─────────────────────────────────────────────────── */
+
+    body {
+      font-family: 'Montserrat', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: #0c1115;
+      padding: 32px;
+    }
+
+    /* ── Slide canvas ── */
+    .slide {
+      width: 1280px;
+      height: 720px;
+      margin: 0 auto 32px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.6);
+    }
+
+    /* ── Gradient footer bar (navy → coral) ── */
+    .bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #1D4771 0%, #ff5e5b 100%);
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Title
+    ══════════════════════════════════════════════ */
+    .s-title {
+      background: linear-gradient(140deg, #0c1115 0%, #1D4771 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 72px 96px;
+    }
+    .s-title .eyebrow {
+      color: #ff5e5b;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    .s-title h1 {
+      color: #fff;
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 62px;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+    .s-title .rule {
+      width: 72px;
+      height: 4px;
+      background: #ff5e5b;
+      margin: 28px 0;
+    }
+    .s-title .subtitle {
+      color: rgba(255,255,255,0.6);
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Section Divider
+    ══════════════════════════════════════════════ */
+    .s-divider {
+      background: #f0f5fb;
+      border-left: 10px solid #1D4771;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 72px 96px;
+    }
+    .s-divider .ghost-num {
+      color: #1D4771;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 130px;
+      font-weight: 700;
+      opacity: 0.08;
+      line-height: 1;
+      margin-bottom: -30px;
+      letter-spacing: -4px;
+    }
+    .s-divider h2 {
+      color: #1D4771;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .s-divider p {
+      color: #334e68;
+      font-size: 20px;
+      max-width: 700px;
+      line-height: 1.7;
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Standard (header + body)
+    ══════════════════════════════════════════════ */
+    .s-std {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .s-std .hd {
+      background: #1D4771;
+      padding: 22px 56px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-shrink: 0;
+    }
+    .s-std .hd .tag {
+      color: #ff5e5b;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding-right: 20px;
+      white-space: nowrap;
+    }
+    .s-std .hd h2 {
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .s-std .bd {
+      flex: 1;
+      padding: 36px 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 0;
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Nutshell (split)
+    ══════════════════════════════════════════════ */
+    .s-nutshell { display: flex; height: 100%; }
+    .ns-left {
+      background: #1D4771;
+      width: 38%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 56px 48px;
+      flex-shrink: 0;
+    }
+    .ns-left .badge {
+      background: #ff5e5b;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-bottom: 24px;
+      align-self: flex-start;
+    }
+    .ns-left h2 {
+      color: white;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+    .ns-right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 56px 52px;
+    }
+    .ns-item { margin-bottom: 32px; }
+    .ns-item:last-child { margin-bottom: 0; }
+    .ns-item .act-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #6da3d9;
+      margin-bottom: 8px;
+    }
+    .ns-item p {
+      font-size: 20px;
+      color: #0c1115;
+      line-height: 1.55;
+      border-left: 3px solid #ff5e5b;
+      padding-left: 18px;
+    }
+
+    /* ══════════════════════════════════════════════
+       COMPONENTS
+    ══════════════════════════════════════════════ */
+
+    /* Card grid */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      flex: 1;
+      min-height: 0;
+    }
+
+    .card {
+      background: #f0f5fb;
+      border-radius: 8px;
+      border-top: 4px solid #1D4771;
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card h3 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #1D4771;
+      margin-bottom: 14px;
+    }
+    .card p.card-body {
+      font-size: 16px;
+      color: #334e68;
+      line-height: 1.6;
+    }
+
+    /* Bullet list */
+    ul.blist { list-style: none; }
+    ul.blist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 14px;
+      font-size: 18px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+    ul.blist li:last-child { margin-bottom: 0; }
+    ul.blist li::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      background: #ff5e5b;
+      border-radius: 50%;
+      margin-top: 9px;
+      flex-shrink: 0;
+    }
+
+    /* Callout box */
+    .callout {
+      background: #fff0ef;
+      border-left: 4px solid #ff5e5b;
+      padding: 16px 20px;
+      border-radius: 0 6px 6px 0;
+    }
+    .callout .clabel {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #ff5e5b;
+      margin-bottom: 6px;
+    }
+    .callout p {
+      font-size: 16px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+
+    /* Feature grid (2×2) */
+    .fgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .fc {
+      background: #f0f5fb;
+      border-radius: 6px;
+      padding: 18px 22px;
+      border-left: 3px solid #0365b2;
+    }
+    .fc.warn {
+      border-left-color: #ff5e5b;
+      background: #fff0ef;
+    }
+    .fc .fc-label {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #6da3d9;
+      margin-bottom: 6px;
+    }
+    .fc.warn .fc-label { color: #ff5e5b; }
+    .fc p {
+      font-size: 15px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+
+    /* System name / desc */
+    .sys-name {
+      font-size: 30px;
+      font-weight: 700;
+      color: #1D4771;
+      margin-bottom: 2px;
+    }
+    .sys-desc {
+      font-size: 17px;
+      color: #334e68;
+      margin-bottom: 18px;
+      line-height: 1.5;
+    }
+
+    /* Statute cards (slide 4) */
+    .stat-card {
+      background: #f0f5fb;
+      border-radius: 8px;
+      padding: 26px 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    .stat-card.left  { border-top: 4px solid #1D4771; }
+    .stat-card.right { border-top: 4px solid #0365b2; }
+    .stat-card h3 {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1D4771;
+      margin-bottom: 16px;
+    }
+    .stat-card .callout { margin-top: auto; }
+
+    /* Five-level hierarchy */
+    .hierarchy {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .hlevel {
+      display: flex;
+      align-items: stretch;
+      border-radius: 5px;
+      overflow: hidden;
+      min-height: 54px;
+    }
+    .hl-num {
+      width: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 17px;
+      font-weight: 800;
+      color: #ff5e5b;
+      flex-shrink: 0;
+    }
+    .hl-name {
+      width: 170px;
+      display: flex;
+      align-items: center;
+      padding: 10px 14px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: rgba(255,255,255,0.92);
+      flex-shrink: 0;
+    }
+    .hl-items {
+      flex: 1;
+      background: #f0f5fb;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+    .hl-tag {
+      background: white;
+      border: 1px solid #b2d1ea;
+      padding: 3px 10px;
+      border-radius: 3px;
+      font-size: 13px;
+      color: #0c1115;
+    }
+
+    /* Level colour graduation: darkest → lightest */
+    .hlevel:nth-child(1) .hl-num,
+    .hlevel:nth-child(1) .hl-name { background: #0c1115; }
+    .hlevel:nth-child(2) .hl-num,
+    .hlevel:nth-child(2) .hl-name { background: #1D4771; }
+    .hlevel:nth-child(3) .hl-num,
+    .hlevel:nth-child(3) .hl-name { background: #144a8a; }
+    .hlevel:nth-child(4) .hl-num,
+    .hlevel:nth-child(4) .hl-name { background: #0365b2; }
+    .hlevel:nth-child(5) .hl-num,
+    .hlevel:nth-child(5) .hl-name { background: #3a8cd4; }
+
+    /* Slide-number watermark */
+    .slide-num {
+      position: absolute;
+      bottom: 14px;
+      right: 20px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      color: rgba(0,0,0,0.18);
+      text-transform: uppercase;
+    }
+    .s-title .slide-num,
+    .s-divider .slide-num { color: rgba(255,255,255,0.2); }
+
+    /* Print */
+    @media print {
+      body { background: white; padding: 0; }
+      .slide { margin: 0; box-shadow: none; page-break-after: always; break-after: page; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 1 — TITLE
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-title">
+    <div class="eyebrow">Levine Law &nbsp;·&nbsp; Payments Law &nbsp;·&nbsp; Module 1.1</div>
+    <h1>Canadian Payments<br>Law &amp; Infrastructure</h1>
+    <div class="rule"></div>
+    <div class="subtitle">Legal Framework &nbsp;·&nbsp; Payment Systems &nbsp;·&nbsp; Regulatory Hierarchy</div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 2 — SECTION DIVIDER 1.1.1
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-divider">
+    <div class="ghost-num">1.1.1</div>
+    <h2>The Law</h2>
+    <p>Canada's payments framework rests on two federal statutes — supported by an operational layer of rulebooks, participation agreements, settlement arrangements, and technical standards.</p>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 3 — FRAMEWORK: FOUR PILLARS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.1.1 — The Law</span>
+      <h2>The Framework</h2>
+    </div>
+    <div class="bd">
+      <p style="font-size:19px; color:#334e68; line-height:1.65; margin-bottom:24px;">
+        The statutes create the framework. The operational layer is built on four supporting pillars.
+      </p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <div class="card">
+          <h3>Rulebooks</h3>
+          <p class="card-body">Binding rules governing system operation and participant conduct — promulgated by Payments Canada and RTR governance bodies.</p>
+        </div>
+        <div class="card">
+          <h3>Participation Agreements</h3>
+          <p class="card-body">Contractual instruments executed by each participant on joining a payment system. They operationalize the rulebook at the participant level.</p>
+        </div>
+        <div class="card">
+          <h3>Settlement Arrangements</h3>
+          <p class="card-body">Agreements governing how funds are moved and settled — including Bank of Canada settlement accounts and funding commitments.</p>
+        </div>
+        <div class="card">
+          <h3>Technical Standards</h3>
+          <p class="card-body">ISO 20022, certification requirements, connectivity protocols, and fraud services manuals that govern system integration.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 4 — THE TWO STATUTES
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.1.1 — The Law</span>
+      <h2>The Governing Statutes</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; padding-top:28px;">
+      <div class="two-col">
+        <div class="stat-card left">
+          <h3>Canadian Payments Act</h3>
+          <ul class="blist">
+            <li>Establishes <strong>Payments Canada</strong> as the national payment association</li>
+            <li>Governs the operation of Canada's payment <strong>clearing and settlement systems</strong></li>
+            <li>Sets the mandate, membership structure, and governance of Payments Canada</li>
+          </ul>
+          <div class="callout" style="margin-top:auto;">
+            <div class="clabel">Role</div>
+            <p>Governs the <em>operator</em> of the rails</p>
+          </div>
+        </div>
+        <div class="stat-card right">
+          <h3>Payment Clearing and Settlement Act (PCSA)</h3>
+          <ul class="blist">
+            <li>Grants the <strong>Bank of Canada</strong> oversight authority over payment and settlement systems</li>
+            <li>Applies to systems designated as <strong>systemically important</strong></li>
+            <li>Authorizes the Bank to issue directives on system design and risk controls</li>
+          </ul>
+          <div class="callout" style="margin-top:auto;">
+            <div class="clabel">Role</div>
+            <p>Sets governance expectations for the <em>safety and stability</em> of the rails</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 5 — IN A NUTSHELL
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-nutshell">
+    <div class="ns-left">
+      <span class="badge">In a Nutshell</span>
+      <h2>Two statutes.<br>Two distinct roles.</h2>
+    </div>
+    <div class="ns-right">
+      <div class="ns-item">
+        <div class="act-label">Canadian Payments Act</div>
+        <p>Governs an <strong>operator</strong> for the rails — Payments Canada, the institution responsible for Canada's clearing and settlement infrastructure.</p>
+      </div>
+      <div class="ns-item">
+        <div class="act-label">Payment Clearing and Settlement Act</div>
+        <p>Sets <strong>governance expectations</strong> for the safety and stability of the rails — Bank of Canada oversight over systemically important payment systems.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 6 — SECTION DIVIDER 1.1.2
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-divider">
+    <div class="ghost-num">1.1.2</div>
+    <h2>Payment Systems</h2>
+    <p>Canada's clearing and settlement infrastructure spans three primary systems — each designed for a different tier of payment activity.</p>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 7 — LYNX
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.1.2 — Payment Systems</span>
+      <h2>Lynx — High-Value Settlement</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="sys-name">Lynx</div>
+      <div class="sys-desc">Canada's high-value payment system, operated by Payments Canada.</div>
+      <div class="fgrid">
+        <div class="fc">
+          <div class="fc-label">Settlement Model</div>
+          <p>Real-Time Gross Settlement (RTGS) — each transaction settled individually and immediately, in real time.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Target Use</div>
+          <p>Large-value and time-critical payments: interbank transfers, securities settlement, large commercial flows.</p>
+        </div>
+        <div class="fc warn">
+          <div class="fc-label">Not Designed For</div>
+          <p>Consumer retail payments. Lynx is not a retail payment rail — it is a high-value wholesale system.</p>
+        </div>
+        <div class="fc warn">
+          <div class="fc-label">The Gap</div>
+          <p>Lynx provides real-time settlement for large transactions. Canada does not yet have a broadly accessible, real-time <em>retail</em> payment rail.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 8 — ACSS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.1.2 — Payment Systems</span>
+      <h2>ACSS — Retail Batch Clearing</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="sys-name">Automated Clearing Settlement System (ACSS)</div>
+      <div class="sys-desc">Canada's principal retail batch clearing system.</div>
+      <div class="fgrid">
+        <div class="fc">
+          <div class="fc-label">Processing Model</div>
+          <p>Batch-based — transactions are accumulated and cleared in cycles, not individually or in real time.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Settlement Timing</div>
+          <p>Deferred settlement — finality occurs after the clearing cycle, not at the moment of the payment instruction.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Common Uses</div>
+          <p>Pre-authorized debits, direct deposits, cheque clearing, and routine electronic funds transfers.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Market Position</div>
+          <p>Despite the emergence of newer systems, many businesses continue to rely heavily on ACSS rails for their payment flows.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 9 — INTERAC e-TRANSFER
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.1.2 — Payment Systems</span>
+      <h2>Interac e-Transfer</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="sys-name">Interac e-Transfer</div>
+      <div class="sys-desc">Canada's closest equivalent to a retail real-time payment rail — operated by Interac Corp.</div>
+      <div class="fgrid">
+        <div class="fc">
+          <div class="fc-label">User Experience</div>
+          <p>Near-instant payment experience for end users — funds appear to arrive immediately at the recipient's account.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Access Model</div>
+          <p>Available exclusively through participating financial institutions — not a directly accessible open network for non-bank players.</p>
+        </div>
+        <div class="fc warn">
+          <div class="fc-label">Technical Reality</div>
+          <p>Interac e-Transfer is not a true open-access Real-Time Payment (RTP) system from a technical or regulatory architecture perspective.</p>
+        </div>
+        <div class="fc warn">
+          <div class="fc-label">Implication for Fintechs</div>
+          <p>Interac fills the retail real-time gap today, but its closed-access structure limits direct participation by credit unions and fintechs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 10 — SECTION DIVIDER 1.1.3
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-divider">
+    <div class="ghost-num">1.1.3</div>
+    <h2>Law Meets Systems</h2>
+    <p>Participation in any Canadian payment system creates obligations at five distinct levels — from federal statute down to technical certification standards.</p>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 11 — FIVE-LEVEL HIERARCHY
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.1.3 — Regulatory Hierarchy</span>
+      <h2>Five Levels of Obligation</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; padding-top:28px;">
+      <div class="hierarchy">
+        <div class="hlevel">
+          <div class="hl-num">1</div>
+          <div class="hl-name">Statute</div>
+          <div class="hl-items">
+            <span class="hl-tag">Canadian Payments Act</span>
+            <span class="hl-tag">Payment Clearing &amp; Settlement Act</span>
+          </div>
+        </div>
+        <div class="hlevel">
+          <div class="hl-num">2</div>
+          <div class="hl-name">Governance</div>
+          <div class="hl-items">
+            <span class="hl-tag">Payments Canada By-laws</span>
+            <span class="hl-tag">RTR By-laws</span>
+          </div>
+        </div>
+        <div class="hlevel">
+          <div class="hl-num">3</div>
+          <div class="hl-name">Binding Rules</div>
+          <div class="hl-items">
+            <span class="hl-tag">Payments Canada Rules</span>
+            <span class="hl-tag">RTR Rules</span>
+          </div>
+        </div>
+        <div class="hlevel">
+          <div class="hl-num">4</div>
+          <div class="hl-name">Participation</div>
+          <div class="hl-items">
+            <span class="hl-tag">Membership Agreements</span>
+            <span class="hl-tag">RTR Participation Agreements</span>
+            <span class="hl-tag">Settlement Agent Agreements</span>
+            <span class="hl-tag">BoC Settlement Account Agreement</span>
+          </div>
+        </div>
+        <div class="hlevel">
+          <div class="hl-num">5</div>
+          <div class="hl-name">Technical Standards</div>
+          <div class="hl-items">
+            <span class="hl-tag">ISO 20022 Specifications</span>
+            <span class="hl-tag">Certification Requirements</span>
+            <span class="hl-tag">Connectivity Standards</span>
+            <span class="hl-tag">Fraud Services Manuals</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 12 — KEY POINT
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.1.3 — Key Takeaway</span>
+      <h2>Where Obligations Actually Live</h2>
+    </div>
+    <div class="bd">
+      <p style="font-size:20px; color:#334e68; line-height:1.65; margin-bottom:24px;">
+        Most operational obligations governing RTR participation are <strong style="color:#0c1115;">not found in legislation</strong>. They live in:
+      </p>
+      <ul class="blist">
+        <li><strong>RTR By-laws and RTR Rulebook</strong> — the primary governance layer setting rights, obligations, and risk allocation for real-time rail participants</li>
+        <li><strong>Participant-specific participation agreements</strong> — obligations tailored to each participant's role and access tier</li>
+        <li><strong>Settlement account, funding, and liquidity arrangements</strong> — the financial obligations that underpin settlement finality</li>
+        <li><strong>Technical standards</strong> — ISO 20022, certification, connectivity, and fraud services requirements</li>
+      </ul>
+      <div class="callout" style="margin-top:24px;">
+        <div class="clabel">Practical Significance</div>
+        <p>This is where <strong>credit unions and fintechs</strong> will ultimately look for the practical rights, obligations, and risk allocations governing their RTR participation.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.1.3</div>
+  </div>
+
+</body>
+</html>

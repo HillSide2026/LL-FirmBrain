@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operational Risks, Fraud & Outage Mitigation — Module 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /*
+      LEVINE LAW BRAND PALETTE
+      #0c1115  near-black       #1D4771  primary dark navy
+      #0365b2  medium blue      #6da3d9  light blue
+      #b2d1ea  very light blue  #ff5e5b  coral accent
+      #ffffff  white            #f0f5fb  slide light bg
+      #334e68  muted text
+    */
+
+    body {
+      font-family: 'Montserrat', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      background: #0c1115;
+      padding: 32px;
+    }
+
+    .slide {
+      width: 1280px;
+      height: 720px;
+      margin: 0 auto 32px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.6);
+    }
+
+    .bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #1D4771 0%, #ff5e5b 100%);
+    }
+
+    .slide-num {
+      position: absolute;
+      bottom: 14px; right: 20px;
+      font-size: 11px; font-weight: 600;
+      letter-spacing: 1.5px;
+      color: rgba(0,0,0,0.18);
+      text-transform: uppercase;
+    }
+    .dark-num { color: rgba(255,255,255,0.2); }
+
+    /* ══ Section Title (split dark/light) ══ */
+    .s-section { display: flex; height: 100%; }
+    .s-section .sec-left {
+      background: linear-gradient(160deg, #0c1115 0%, #1D4771 100%);
+      width: 42%; display: flex; flex-direction: column;
+      justify-content: center; padding: 56px 48px; flex-shrink: 0;
+    }
+    .s-section .sec-left .badge {
+      background: #ff5e5b; color: white; font-size: 11px;
+      font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase;
+      padding: 6px 14px; border-radius: 3px; display: inline-block;
+      margin-bottom: 20px; align-self: flex-start;
+    }
+    .s-section .sec-left h1 {
+      color: white; font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 34px; font-weight: 700; line-height: 1.25;
+    }
+    .s-section .sec-right {
+      flex: 1; padding: 48px 52px;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+
+    /* ══ Section Divider ══ */
+    .s-divider {
+      background: #f0f5fb; border-left: 10px solid #1D4771;
+      display: flex; flex-direction: column;
+      justify-content: center; padding: 64px 96px;
+    }
+    .s-divider .ghost-num {
+      color: #1D4771; font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 130px; font-weight: 700; opacity: 0.08;
+      line-height: 1; margin-bottom: -30px; letter-spacing: -4px;
+    }
+    .s-divider h2 {
+      color: #1D4771; font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 46px; font-weight: 700; margin-bottom: 14px;
+    }
+    .s-divider p {
+      color: #334e68; font-size: 19px; max-width: 720px; line-height: 1.7;
+    }
+    .s-divider .slide-num { color: rgba(0,0,0,0.18); }
+
+    /* ══ Standard Slide ══ */
+    .s-std { display: flex; flex-direction: column; height: 100%; }
+    .s-std .hd {
+      background: #1D4771; padding: 22px 56px;
+      display: flex; align-items: center; gap: 20px; flex-shrink: 0;
+    }
+    .s-std .hd .tag {
+      color: #ff5e5b; font-size: 12px; font-weight: 700;
+      letter-spacing: 2.5px; text-transform: uppercase;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding-right: 20px; white-space: nowrap;
+    }
+    .s-std .hd h2 { color: #fff; font-size: 25px; font-weight: 600; }
+    .s-std .bd {
+      flex: 1; padding: 32px 56px;
+      display: flex; flex-direction: column; justify-content: center;
+      min-height: 0;
+    }
+
+    /* ══ Nutshell (closing split) ══ */
+    .s-nutshell { display: flex; height: 100%; }
+    .ns-left {
+      background: linear-gradient(160deg, #0c1115 0%, #1D4771 100%);
+      width: 40%; display: flex; flex-direction: column;
+      justify-content: center; padding: 56px 48px; flex-shrink: 0;
+    }
+    .ns-left .badge {
+      background: #ff5e5b; color: white; font-size: 11px; font-weight: 800;
+      letter-spacing: 2.5px; text-transform: uppercase; padding: 6px 14px;
+      border-radius: 3px; display: inline-block; margin-bottom: 20px; align-self: flex-start;
+    }
+    .ns-left h2 {
+      color: white; font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 30px; font-weight: 700; line-height: 1.3;
+    }
+    .ns-right {
+      flex: 1; padding: 48px 52px;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+
+    /* ══ Components ══ */
+
+    ul.blist { list-style: none; }
+    ul.blist li {
+      display: flex; align-items: flex-start; gap: 14px;
+      margin-bottom: 12px; font-size: 17px; color: #0c1115; line-height: 1.55;
+    }
+    ul.blist li:last-child { margin-bottom: 0; }
+    ul.blist li::before {
+      content: ''; width: 7px; height: 7px;
+      background: #ff5e5b; border-radius: 50%;
+      margin-top: 8px; flex-shrink: 0;
+    }
+    ul.blist.sm li { font-size: 15px; margin-bottom: 10px; }
+
+    .callout {
+      background: #fff0ef; border-left: 4px solid #ff5e5b;
+      padding: 14px 18px; border-radius: 0 6px 6px 0;
+    }
+    .callout .clabel {
+      font-size: 10px; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; color: #ff5e5b; margin-bottom: 5px;
+    }
+    .callout p { font-size: 15px; color: #0c1115; line-height: 1.55; }
+
+    .callout-blue {
+      background: #edf3fb; border-left: 4px solid #0365b2;
+      padding: 14px 18px; border-radius: 0 6px 6px 0;
+    }
+    .callout-blue .clabel {
+      font-size: 10px; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; color: #0365b2; margin-bottom: 5px;
+    }
+    .callout-blue p { font-size: 15px; color: #0c1115; line-height: 1.55; }
+
+    /* Outage type items */
+    .type-item {
+      display: flex; align-items: stretch;
+      border-radius: 5px; overflow: hidden;
+      background: #f0f5fb;
+    }
+    .type-item .ti-label {
+      background: #1D4771; color: white;
+      padding: 10px 14px; font-size: 11px; font-weight: 700;
+      letter-spacing: 0.8px; text-transform: uppercase;
+      width: 180px; flex-shrink: 0;
+      display: flex; align-items: center; line-height: 1.3;
+    }
+    .type-item p {
+      padding: 10px 16px; font-size: 14px; color: #0c1115; line-height: 1.5;
+      display: flex; align-items: center;
+    }
+
+    /* Mini tag pills */
+    .mini-tag {
+      display: inline-block; background: #f0f5fb;
+      border: 1px solid #b2d1ea; color: #1D4771;
+      padding: 5px 12px; border-radius: 3px;
+      font-size: 13px; font-weight: 600;
+    }
+
+    /* Two-column stat cards */
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .stat-card {
+      background: #f0f5fb; border-radius: 8px;
+      padding: 22px 26px; display: flex; flex-direction: column;
+    }
+    .stat-card.navy { border-top: 4px solid #1D4771; }
+    .stat-card.blue { border-top: 4px solid #0365b2; }
+    .stat-card.coral { border-top: 4px solid #ff5e5b; }
+    .stat-card h3 {
+      font-size: 13px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1px; color: #1D4771; margin-bottom: 14px;
+    }
+    .stat-card.coral h3 { color: #c94340; }
+
+    /* Feature grid */
+    .fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .fc {
+      background: #f0f5fb; border-radius: 6px;
+      padding: 14px 18px; border-left: 3px solid #0365b2;
+    }
+    .fc.coral { border-left-color: #ff5e5b; background: #fff0ef; }
+    .fc .fc-label {
+      font-size: 10px; font-weight: 800; letter-spacing: 2px;
+      text-transform: uppercase; color: #6da3d9; margin-bottom: 4px;
+    }
+    .fc.coral .fc-label { color: #ff5e5b; }
+    .fc p { font-size: 14px; color: #0c1115; line-height: 1.5; }
+
+    /* Four control cards (2×2) */
+    .four-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .ctrl-card {
+      background: #f0f5fb; border-radius: 8px;
+      padding: 22px 26px; border-left: 5px solid #1D4771;
+    }
+    .ctrl-card h3 {
+      font-size: 16px; font-weight: 700; color: #1D4771; margin-bottom: 8px;
+    }
+    .ctrl-card p { font-size: 15px; color: #334e68; line-height: 1.6; }
+
+    /* Shift row (batch → RTR) */
+    .shift-row { display: flex; align-items: stretch; gap: 0; margin: 12px 0; }
+    .shift-box { flex: 1; background: #f0f5fb; border-radius: 8px; padding: 18px 22px; }
+    .shift-box h4 { font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+    .shift-box.from h4 { color: #1D4771; }
+    .shift-box.to  h4 { color: #ff5e5b; }
+    .shift-box p { font-size: 15px; color: #334e68; line-height: 1.6; }
+    .shift-arrow { width: 56px; display: flex; align-items: center; justify-content: center; font-size: 26px; color: #b2d1ea; flex-shrink: 0; }
+
+    /* Three pillars for section 3.3 controls overview */
+    .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+    .tc-card {
+      background: #f0f5fb; border-radius: 8px;
+      padding: 20px 22px; border-top: 4px solid #1D4771;
+    }
+    .tc-card .tc-num {
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 40px; font-weight: 700; color: #1D4771;
+      opacity: 0.12; line-height: 1; margin-bottom: -4px;
+    }
+    .tc-card h3 { font-size: 16px; font-weight: 700; color: #1D4771; margin-bottom: 8px; }
+    .tc-card p { font-size: 14px; color: #334e68; line-height: 1.6; }
+
+    /* Print */
+    @media print {
+      body { background: white; padding: 0; }
+      .slide { margin: 0; box-shadow: none; page-break-after: always; break-after: page; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 1 — SECTION 3 INTRO
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-section">
+    <div class="sec-left">
+      <span class="badge">Section 3</span>
+      <h1>Operational Risks, Fraud &amp; Outage Mitigation</h1>
+    </div>
+    <div class="sec-right">
+      <p style="font-size:17px; color:#334e68; line-height:1.7; margin-bottom:20px;">
+        Real-time payment systems produce a <strong style="color:#0c1115;">second and equally important consequence</strong> beyond compressed mitigation windows: as payments become faster and continuously available, operational resilience becomes a core component of payment system design.
+      </p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:20px;">
+        <div class="fc">
+          <div class="fc-label">Before (Batch)</div>
+          <p>A system outage results in a delayed batch file — invisible to most customers until the next settlement window.</p>
+        </div>
+        <div class="fc coral">
+          <div class="fc-label">After (Real-Time)</div>
+          <p>A system outage prevents customers from sending or receiving funds <em>right now</em> — immediately visible to customers, counterparties, and regulators.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">The Result</div>
+        <p>Not necessarily <em>more</em> risk — but a <strong>different risk profile</strong>. Real-time payments transform operational resilience from a back-office issue into a customer-facing issue.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num dark-num">3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 2 — 3.1 OPERATIONAL RISKS (divider)
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-divider">
+    <div class="ghost-num">3.1</div>
+    <h2>Operational Risks</h2>
+    <p>Two categories of operational risk become particularly significant within real-time payment environments.</p>
+    <div style="display:flex; gap:24px; margin-top:32px;">
+      <div style="flex:1; background:white; border-radius:6px; padding:18px 22px; border-left:4px solid #1D4771;">
+        <div style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:#6da3d9; margin-bottom:6px;">3.1.1</div>
+        <p style="font-size:17px; color:#0c1115; font-weight:600;">System Outages</p>
+        <p style="font-size:14px; color:#334e68; margin-top:6px; line-height:1.5;">Immediate customer impact, reputational consequences, and liquidity disruption when availability expectations are not met.</p>
+      </div>
+      <div style="flex:1; background:white; border-radius:6px; padding:18px 22px; border-left:4px solid #ff5e5b;">
+        <div style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:#6da3d9; margin-bottom:6px;">3.1.2</div>
+        <p style="font-size:17px; color:#0c1115; font-weight:600;">Dependency &amp; Concentration Risk</p>
+        <p style="font-size:14px; color:#334e68; margin-top:6px; line-height:1.5;">Operational disruptions arising through the failure of third-party providers — even when an institution's own systems are functioning.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 3 — 3.1.1 SYSTEM OUTAGE
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">3.1.1 — System Outage</span>
+      <h2>Not All Outages Are the Same</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; padding-top:26px;">
+      <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        Because payments are expected to be available continuously, outages now have <strong style="color:#0c1115;">immediate consequences</strong> for customers, counterparties, and market participants. A payment system may experience:
+      </p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:7px; margin-bottom:16px;">
+        <div class="type-item">
+          <div class="ti-label">Initiation Failure</div>
+          <p>Customers unable to submit payment instructions</p>
+        </div>
+        <div class="type-item">
+          <div class="ti-label">Processing Failure</div>
+          <p>Payment messages cannot be validated or routed</p>
+        </div>
+        <div class="type-item">
+          <div class="ti-label">Settlement Failure</div>
+          <p>Payment obligations cannot be completed</p>
+        </div>
+        <div class="type-item">
+          <div class="ti-label">Connectivity Failure</div>
+          <p>One institution loses access to the payment rail</p>
+        </div>
+        <div class="type-item" style="grid-column:1/-1;">
+          <div class="ti-label">Infrastructure Failure</div>
+          <p>Broader disruption affecting multiple participants simultaneously</p>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+        <div class="callout">
+          <div class="clabel">Expectation Gap</div>
+          <p>For customers, the distinction between outage types is irrelevant. The experience is simply that a payment expected to be immediate is unavailable. Even short disruptions generate reputational consequences, escalations, and regulatory scrutiny.</p>
+        </div>
+        <div>
+          <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Outage Management Requirements</p>
+          <div style="display:flex; flex-wrap:wrap; gap:7px;">
+            <span class="mini-tag">System redundancy</span>
+            <span class="mini-tag">Business continuity planning</span>
+            <span class="mini-tag">Incident management procedures</span>
+            <span class="mini-tag">Vendor resilience</span>
+            <span class="mini-tag">Communications protocols</span>
+          </div>
+          <p style="font-size:13px; color:#334e68; margin-top:12px; line-height:1.5;">The question is less <em>whether</em> an outage will occur — and more how quickly it can be detected, contained, communicated, and resolved.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.1.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 4 — 3.1.2 DEPENDENCY & CONCENTRATION RISK
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">3.1.2 — Dependency &amp; Concentration Risk</span>
+      <h2>When Third Parties Fail</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="two-col" style="margin-bottom:14px; align-items:stretch;">
+        <div class="stat-card navy">
+          <h3>Dependency Risk</h3>
+          <p style="font-size:14px; color:#334e68; line-height:1.6; margin-bottom:12px;">
+            Arises when an institution's ability to provide payment services depends on the continued availability of systems operated by <strong>another party</strong>.
+          </p>
+          <div style="display:flex; flex-direction:column; gap:5px;">
+            <div class="type-item" style="border-radius:3px;">
+              <div class="ti-label" style="width:200px; font-size:10px;">Sponsor institution</div>
+              <p style="font-size:12px; padding:7px 12px;">Payment rail access</p>
+            </div>
+            <div class="type-item" style="border-radius:3px;">
+              <div class="ti-label" style="width:200px; font-size:10px;">Cloud service provider</div>
+              <p style="font-size:12px; padding:7px 12px;">Infrastructure</p>
+            </div>
+            <div class="type-item" style="border-radius:3px;">
+              <div class="ti-label" style="width:200px; font-size:10px;">Sanctions screening vendor</div>
+              <p style="font-size:12px; padding:7px 12px;">Compliance controls</p>
+            </div>
+            <div class="type-item" style="border-radius:3px;">
+              <div class="ti-label" style="width:200px; font-size:10px;">Fraud-monitoring platform</div>
+              <p style="font-size:12px; padding:7px 12px;">Transaction analysis</p>
+            </div>
+            <div class="type-item" style="border-radius:3px;">
+              <div class="ti-label" style="width:200px; font-size:10px;">Identity verification vendor</div>
+              <p style="font-size:12px; padding:7px 12px;">Customer onboarding</p>
+            </div>
+          </div>
+        </div>
+        <div class="stat-card coral">
+          <h3>Concentration Risk</h3>
+          <p style="font-size:14px; color:#334e68; line-height:1.65; margin-bottom:12px;">
+            Arises when <strong>multiple institutions</strong> rely upon the <em>same</em> third parties — so that a single provider failure cascades across a large portion of the payment ecosystem.
+          </p>
+          <div class="callout" style="margin-bottom:12px;">
+            <div class="clabel">Cascade Effect</div>
+            <p>A single cloud provider or payment processor failure may simultaneously disrupt many participants — creating systemic rather than isolated exposure.</p>
+          </div>
+          <p style="font-size:13px; color:#334e68; line-height:1.55;">
+            Institutions must understand not only their own technology environments, but also the <strong>operational dependencies</strong> that support their payment activities throughout the ecosystem.
+          </p>
+        </div>
+      </div>
+      <div class="callout-blue">
+        <div class="clabel">Operational Risk Management Requires</div>
+        <p>Vendor due diligence &nbsp;·&nbsp; Contractual protections &nbsp;·&nbsp; Service-level monitoring &nbsp;·&nbsp; Incident reporting obligations &nbsp;·&nbsp; Business continuity planning &nbsp;·&nbsp; Contingency arrangements</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.1.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 5 — 3.2 RPAA RELEVANCE
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">3.2 — Regulatory Relevance</span>
+      <h2>Operational Risk as a Regulatory Expectation: The RPAA</h2>
+    </div>
+    <div class="bd">
+      <div class="shift-row" style="margin-bottom:16px;">
+        <div class="shift-box from">
+          <h4>Operational Concern Only?</h4>
+          <p>Historically, operational risk within payment systems was primarily a commercial and reputational concern, addressed through internal policies and service agreements.</p>
+        </div>
+        <div class="shift-arrow">→</div>
+        <div class="shift-box to" style="border-top:3px solid #ff5e5b;">
+          <h4 style="color:#ff5e5b;">Increasingly, Both</h4>
+          <p>As payment activity increasingly involves technology companies, payment processors, and non-bank participants, regulators have focused on operational resilience as a matter of policy and law.</p>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:3fr 2fr; gap:16px;">
+        <div>
+          <p style="font-size:14px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">RPAA Emphasis Areas</p>
+          <div class="fgrid">
+            <div class="fc">
+              <div class="fc-label">Pillar 1</div>
+              <p><strong>Operational risk management</strong> — frameworks for identifying and mitigating operational disruption</p>
+            </div>
+            <div class="fc">
+              <div class="fc-label">Pillar 2</div>
+              <p><strong>Incident response</strong> — detection, containment, and reporting of operational incidents</p>
+            </div>
+            <div class="fc">
+              <div class="fc-label">Pillar 3</div>
+              <p><strong>Safeguarding end-user funds</strong> — ensuring customer funds are protected through disruption</p>
+            </div>
+            <div class="fc">
+              <div class="fc-label">Pillar 4</div>
+              <p><strong>Reporting obligations</strong> — notification requirements to regulators and affected parties</p>
+            </div>
+          </div>
+        </div>
+        <div class="callout" style="align-self:stretch; display:flex; flex-direction:column; justify-content:center;">
+          <div class="clabel">Key Takeaway</div>
+          <p>For organizations participating in modern payment ecosystems, operational resilience is no longer merely a commercial consideration. <strong>It has become a regulatory expectation.</strong></p>
+          <p style="margin-top:10px;">Institutions evaluating RTR participation must consider both payment system rules <em>and</em> the regulatory framework governing operational risk.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 6 — 3.3 OPERATIONAL CONTROLS (overview)
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">3.3 — Operational Controls</span>
+      <h2>Controls as Substitutes for Mitigation Windows</h2>
+    </div>
+    <div class="bd">
+      <p style="font-size:17px; color:#334e68; line-height:1.65; margin-bottom:24px;">
+        What changes in real-time environments is not necessarily the <em>nature</em> of controls, but the <strong style="color:#0c1115;">speed, consistency, and reliability</strong> with which they must operate. Operational controls increasingly serve as substitutes for the mitigation windows that batch systems previously provided.
+      </p>
+      <div class="four-col">
+        <div class="ctrl-card" style="border-left-color:#1D4771;">
+          <h3>Velocity Limits</h3>
+          <p>Restrict the number or value of transactions within a defined period — per customer, account, device, or channel. Act as an early-warning mechanism for abnormal behaviour.</p>
+        </div>
+        <div class="ctrl-card" style="border-left-color:#0365b2;">
+          <h3>Transaction Tiering</h3>
+          <p>Apply different control frameworks based on transaction value, customer profile, and risk rating — allocating scrutiny proportionately rather than uniformly.</p>
+        </div>
+        <div class="ctrl-card" style="border-left-color:#ff5e5b;">
+          <h3>Circuit Breakers</h3>
+          <p>Interrupt or slow payment activity when predefined thresholds are exceeded. Recreate the intervention window that batch systems historically provided.</p>
+        </div>
+        <div class="ctrl-card" style="border-left-color:#6da3d9;">
+          <h3>Fallback Rails</h3>
+          <p>Alternative payment channels or contingency processes that preserve critical payment functionality during periods of operational disruption.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 7 — VELOCITY LIMITS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">3.3 — Operational Control</span>
+      <h2>Velocity Limits</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:17px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        Velocity controls restrict the <strong style="color:#0c1115;">number or value of transactions</strong> within a specified period. They may be applied per customer, per account, per device, per counterparty, or per payment channel.
+      </p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+        <div>
+          <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">What Unusual Velocity May Signal</p>
+          <ul class="blist sm">
+            <li>Account compromise or takeover</li>
+            <li>Automated or scripted attacks</li>
+            <li>System malfunction or operational error</li>
+            <li>Attempts to circumvent established controls</li>
+          </ul>
+        </div>
+        <div>
+          <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Why Effective in Real-Time Environments</p>
+          <ul class="blist sm">
+            <li>Operate <strong>automatically</strong> — no manual intervention required</li>
+            <li>Trigger before losses or disruptions manifest</li>
+            <li>Apply across fraud prevention, compliance, and operational objectives</li>
+            <li>Preserve speed and efficiency while creating scrutiny thresholds</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Insight</div>
+        <p>Velocity controls are frequently associated with fraud prevention — but they also serve broader operational objectives. By establishing predefined thresholds, institutions create mechanisms to identify abnormal behaviour before losses or operational disruptions manifest. In many respects, velocity controls function as an <strong>early-warning mechanism</strong> within real-time payment systems.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 8 — TRANSACTION TIERING
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">3.3 — Operational Control</span>
+      <h2>Transaction Tiering</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:17px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        Not all transactions present the same level of risk. Transaction tiering applies <strong style="color:#0c1115;">different control frameworks</strong> based on factors including transaction value, customer profile, historical activity, geographic exposure, product type, and overall risk rating.
+      </p>
+      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin-bottom:16px;">
+        <div style="background:#f0f5fb; border-radius:6px; overflow:hidden;">
+          <div style="background:#1D4771; padding:10px 16px;">
+            <p style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:#6da3d9;">Lower Risk</p>
+          </div>
+          <div style="padding:14px 16px;">
+            <p style="font-size:14px; color:#0c1115; line-height:1.55;">Processed <strong>automatically</strong> — no additional friction applied</p>
+          </div>
+        </div>
+        <div style="background:#f0f5fb; border-radius:6px; overflow:hidden;">
+          <div style="background:#0365b2; padding:10px 16px;">
+            <p style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:#b2d1ea;">Medium Risk</p>
+          </div>
+          <div style="padding:14px 16px;">
+            <p style="font-size:14px; color:#0c1115; line-height:1.55;"><strong>Enhanced monitoring</strong> triggered — automated flags raised for review</p>
+          </div>
+        </div>
+        <div style="background:#fff0ef; border-radius:6px; overflow:hidden;">
+          <div style="background:#ff5e5b; padding:10px 16px;">
+            <p style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:white;">Higher Risk</p>
+          </div>
+          <div style="padding:14px 16px;">
+            <p style="font-size:14px; color:#0c1115; line-height:1.55;">Additional <strong>authentication, escalation, or manual review</strong> required</p>
+          </div>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">The Balance</div>
+        <p>Effective tiering frameworks seek to balance <strong>speed</strong>, <strong>customer convenience</strong>, and <strong>risk management</strong> by applying additional monitoring only where circumstances warrant. Excessive controls undermine the customer experience; insufficient controls compromise fraud and compliance risk management. Tiering allocates resources proportionately rather than uniformly.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 9 — CIRCUIT BREAKERS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">3.3 — Operational Control</span>
+      <h2>Circuit Breakers</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:17px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        Circuit breakers are designed to <strong style="color:#0c1115;">interrupt, slow, or restrict</strong> payment activity when predefined thresholds are exceeded — creating an opportunity for intervention before a problem escalates.
+      </p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+        <div>
+          <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Triggering Conditions</p>
+          <ul class="blist sm">
+            <li>Unusual or elevated transaction volumes</li>
+            <li>Elevated fraud indicators or alert rates</li>
+            <li>Liquidity shortages or funding gaps</li>
+            <li>System performance degradation</li>
+            <li>Abnormal payment patterns suggesting broader systems issues</li>
+          </ul>
+        </div>
+        <div>
+          <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Possible Responses</p>
+          <ul class="blist sm">
+            <li>Additional authentication requirements</li>
+            <li>Transaction value or volume limits</li>
+            <li>Temporary payment restrictions on specific channels</li>
+            <li>Manual review procedures for flagged transactions</li>
+            <li>Suspension of specific payment functionality</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Insight</div>
+        <p>In many respects, circuit breakers <strong>recreate the mitigation window</strong> that batch systems historically provided — giving institutions a structured mechanism to slow down payment activity when the surrounding control environment indicates elevated risk. The objective is not to stop normal activity, but to create space for intervention before a problem escalates.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 10 — FALLBACK RAILS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">3.3 — Operational Control</span>
+      <h2>Fallback Rails</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        No payment system is infallible. A <strong style="color:#0c1115;">fallback rail</strong> is an alternative payment channel or contingency process that may be used when a primary payment system becomes unavailable or experiences significant operational degradation.
+      </p>
+      <div style="display:grid; grid-template-columns:2fr 3fr; gap:16px; margin-bottom:14px;">
+        <div>
+          <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Fallback Options May Include</p>
+          <ul class="blist sm">
+            <li>Traditional EFT / batch-payment processing</li>
+            <li>Wire transfer arrangements</li>
+            <li>Alternative payment processors</li>
+            <li>Secondary connectivity solutions</li>
+            <li>Manual contingency procedures</li>
+          </ul>
+        </div>
+        <div>
+          <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Effective Fallback Planning Requires</p>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+            <div class="fc" style="padding:12px 14px;">
+              <p>Identify critical payment functions in advance</p>
+            </div>
+            <div class="fc" style="padding:12px 14px;">
+              <p>Understand which services must be maintained during disruption</p>
+            </div>
+            <div class="fc" style="padding:12px 14px;">
+              <p>Establish clear escalation procedures</p>
+            </div>
+            <div class="fc" style="padding:12px 14px;">
+              <p>Periodically test contingency arrangements</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Insight</div>
+        <p>The objective is not to replicate the full functionality of the primary payment rail. It is to <strong>preserve the institution's ability to perform critical payment activities during disruption</strong>. Fallback planning should be treated as an ongoing component of operational resilience — regularly reviewed, tested, and updated — not a static business continuity exercise.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 11 — OBSERVATION / CLOSING
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-nutshell">
+    <div class="ns-left">
+      <span class="badge">Section 3 — Observation</span>
+      <h2>Proactivity, Governance &amp; Culture</h2>
+    </div>
+    <div class="ns-right">
+      <p style="font-size:18px; color:#334e68; line-height:1.7; margin-bottom:24px;">
+        Real-time payment systems require institutions to identify, assess, and respond to risk not only <strong style="color:#0c1115;">more quickly</strong>, but also more <strong style="color:#0c1115;">proactively</strong>.
+      </p>
+      <div class="three-col" style="margin-bottom:20px;">
+        <div class="tc-card">
+          <div class="tc-num">01</div>
+          <h3>Embedded Controls</h3>
+          <p>Operational controls designed into the payment process — not layered on top of it after the fact.</p>
+        </div>
+        <div class="tc-card" style="border-top-color:#0365b2;">
+          <div class="tc-num" style="color:#0365b2;">02</div>
+          <h3 style="color:#0365b2;">Agile Governance</h3>
+          <p>Governance frameworks capable of responding within the compressed timelines that real-time systems demand.</p>
+        </div>
+        <div class="tc-card" style="border-top-color:#ff5e5b;">
+          <div class="tc-num" style="color:#ff5e5b;">03</div>
+          <h3 style="color:#ff5e5b;">Risk Discipline</h3>
+          <p>A culture where risk management is embedded in day-to-day operations — not reserved for exceptional events.</p>
+        </div>
+      </div>
+      <div class="callout-blue">
+        <div class="clabel">Up Next — Section 4</div>
+        <p>The opportunities that real-time payment rails may offer to <strong>credit unions in Ontario</strong> — including participation models, access pathways, and strategic considerations.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">3</div>
+  </div>
+
+</body>
+</html>

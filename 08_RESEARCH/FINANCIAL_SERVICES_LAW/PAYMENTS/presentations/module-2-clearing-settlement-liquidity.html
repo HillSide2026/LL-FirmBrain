@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clearing, Settlement & Liquidity — Module 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /*
+      LEVINE LAW BRAND PALETTE
+      #0c1115  near-black
+      #1D4771  primary dark navy
+      #0365b2  medium blue
+      #6da3d9  light blue
+      #b2d1ea  very light blue
+      #ff5e5b  coral accent
+      #ffffff  white
+      #f0f5fb  slide light bg
+      #334e68  muted text
+    */
+
+    body {
+      font-family: 'Montserrat', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      background: #0c1115;
+      padding: 32px;
+    }
+
+    .slide {
+      width: 1280px;
+      height: 720px;
+      margin: 0 auto 32px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.6);
+    }
+
+    /* ── Footer bar ── */
+    .bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #1D4771 0%, #ff5e5b 100%);
+    }
+
+    /* ── Slide number ── */
+    .slide-num {
+      position: absolute;
+      bottom: 14px;
+      right: 20px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      color: rgba(0,0,0,0.18);
+      text-transform: uppercase;
+    }
+    .dark-slide .slide-num { color: rgba(255,255,255,0.2); }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Section Title (dark, split)
+    ══════════════════════════════════════════════ */
+    .s-section {
+      display: flex;
+      height: 100%;
+    }
+    .s-section .sec-left {
+      background: linear-gradient(160deg, #0c1115 0%, #1D4771 100%);
+      width: 42%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 56px 48px;
+      flex-shrink: 0;
+    }
+    .s-section .sec-left .badge {
+      background: #ff5e5b;
+      color: white;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-bottom: 20px;
+      align-self: flex-start;
+    }
+    .s-section .sec-left h1 {
+      color: white;
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .s-section .sec-right {
+      flex: 1;
+      padding: 48px 52px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Section Divider
+    ══════════════════════════════════════════════ */
+    .s-divider {
+      background: #f0f5fb;
+      border-left: 10px solid #1D4771;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 72px 96px;
+    }
+    .s-divider .ghost-num {
+      color: #1D4771;
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 130px;
+      font-weight: 700;
+      opacity: 0.08;
+      line-height: 1;
+      margin-bottom: -30px;
+      letter-spacing: -4px;
+    }
+    .s-divider h2 {
+      color: #1D4771;
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .s-divider p {
+      color: #334e68;
+      font-size: 19px;
+      max-width: 720px;
+      line-height: 1.7;
+    }
+    .s-divider .slide-num { color: rgba(255,255,255,0.2); }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Standard (header + body)
+    ══════════════════════════════════════════════ */
+    .s-std {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .s-std .hd {
+      background: #1D4771;
+      padding: 22px 56px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-shrink: 0;
+    }
+    .s-std .hd .tag {
+      color: #ff5e5b;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding-right: 20px;
+      white-space: nowrap;
+    }
+    .s-std .hd h2 {
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .s-std .bd {
+      flex: 1;
+      padding: 36px 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 0;
+    }
+
+    /* ══════════════════════════════════════════════
+       COMPONENTS
+    ══════════════════════════════════════════════ */
+
+    /* Bullet list */
+    ul.blist { list-style: none; }
+    ul.blist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 13px;
+      font-size: 17px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+    ul.blist li:last-child { margin-bottom: 0; }
+    ul.blist li::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      background: #ff5e5b;
+      border-radius: 50%;
+      margin-top: 8px;
+      flex-shrink: 0;
+    }
+
+    /* Callout box */
+    .callout {
+      background: #fff0ef;
+      border-left: 4px solid #ff5e5b;
+      padding: 16px 20px;
+      border-radius: 0 6px 6px 0;
+    }
+    .callout .clabel {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #ff5e5b;
+      margin-bottom: 6px;
+    }
+    .callout p {
+      font-size: 16px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+
+    /* Blue callout (key point variant) */
+    .callout-blue {
+      background: #edf3fb;
+      border-left: 4px solid #0365b2;
+      padding: 16px 20px;
+      border-radius: 0 6px 6px 0;
+    }
+    .callout-blue .clabel {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #0365b2;
+      margin-bottom: 6px;
+    }
+    .callout-blue p {
+      font-size: 16px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+
+    /* Two-column stat cards */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      flex: 1;
+      min-height: 0;
+    }
+    .stat-card {
+      background: #f0f5fb;
+      border-radius: 8px;
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+    }
+    .stat-card.navy { border-top: 4px solid #1D4771; }
+    .stat-card.blue  { border-top: 4px solid #0365b2; }
+    .stat-card h3 {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1D4771;
+      margin-bottom: 16px;
+    }
+    .stat-card .callout,
+    .stat-card .callout-blue { margin-top: auto; }
+
+    /* Three-card horizontal grid */
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+    .tc-card {
+      background: #f0f5fb;
+      border-radius: 8px;
+      padding: 24px 26px;
+      border-top: 4px solid #1D4771;
+    }
+    .tc-card .tc-num {
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 44px;
+      font-weight: 700;
+      color: #1D4771;
+      opacity: 0.12;
+      line-height: 1;
+      margin-bottom: -6px;
+    }
+    .tc-card h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1D4771;
+      margin-bottom: 10px;
+    }
+    .tc-card p {
+      font-size: 15px;
+      color: #334e68;
+      line-height: 1.6;
+    }
+
+    /* Compression timeline visual */
+    .cv { margin: 20px 0; }
+    .cv-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+    .cv-label {
+      width: 96px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #6da3d9;
+      flex-shrink: 0;
+    }
+    .cv-label.coral { color: #ff5e5b; }
+    .cv-steps {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+    .cv-box {
+      padding: 7px 16px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 600;
+      color: white;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .cv-box.navy { background: #1D4771; }
+    .cv-box.coral { background: #ff5e5b; }
+    .cv-line {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin: 0 6px;
+    }
+    .cv-line::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0; right: 0;
+      top: 50%;
+      height: 2px;
+      background: #b2d1ea;
+      transform: translateY(-50%);
+    }
+    .cv-line span {
+      position: relative;
+      background: white;
+      padding: 3px 10px;
+      font-size: 11px;
+      color: #6da3d9;
+      border-radius: 2px;
+      white-space: nowrap;
+    }
+    .cv-compressed {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .cv-compressed .cv-box { }
+    .cv-note {
+      margin-left: 14px;
+      font-size: 12px;
+      color: #8895AF;
+      font-style: italic;
+    }
+
+    /* Batch vs RTR comparison */
+    .compare-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 8px;
+    }
+    .cg-col {
+      background: #f0f5fb;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .cg-header {
+      padding: 10px 20px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: white;
+    }
+    .cg-col.batch .cg-header { background: #1D4771; }
+    .cg-col.rtr   .cg-header { background: #ff5e5b; }
+    .cg-body {
+      padding: 16px 20px;
+    }
+    .cg-body p {
+      font-size: 15px;
+      color: #0c1115;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+    .cg-body p:last-child { margin-bottom: 0; }
+
+    /* Feature grid (2×2) */
+    .fgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .fc {
+      background: #f0f5fb;
+      border-radius: 6px;
+      padding: 16px 20px;
+      border-left: 3px solid #0365b2;
+    }
+    .fc.coral { border-left-color: #ff5e5b; background: #fff0ef; }
+    .fc .fc-label {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #6da3d9;
+      margin-bottom: 5px;
+    }
+    .fc.coral .fc-label { color: #ff5e5b; }
+    .fc p {
+      font-size: 14px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+
+    /* Responsibility question list */
+    .q-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin: 16px 0;
+    }
+    .q-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: #f0f5fb;
+      border-radius: 5px;
+      padding: 12px 16px;
+      font-size: 15px;
+      color: #0c1115;
+      line-height: 1.4;
+    }
+    .q-item::before {
+      content: '?';
+      width: 22px;
+      height: 22px;
+      background: #1D4771;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 800;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* Shift diagram (batch → RTR) */
+    .shift-row {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      margin: 20px 0 16px;
+    }
+    .shift-box {
+      flex: 1;
+      background: #f0f5fb;
+      border-radius: 8px;
+      padding: 20px 24px;
+    }
+    .shift-box h4 {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .shift-box.from h4 { color: #1D4771; }
+    .shift-box.to h4   { color: #ff5e5b; border-top: 3px solid #ff5e5b; padding-top: 10px; margin-top: -3px; }
+    .shift-box p {
+      font-size: 16px;
+      color: #334e68;
+      line-height: 1.55;
+    }
+    .shift-arrow {
+      width: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 28px;
+      color: #b2d1ea;
+    }
+
+    /* Print */
+    @media print {
+      body { background: white; padding: 0; }
+      .slide { margin: 0; box-shadow: none; page-break-after: always; break-after: page; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 1 — SECTION 2 INTRO
+       Clearing, Settlement, Liquidity Management
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-section">
+    <div class="sec-left dark-slide">
+      <span class="badge">Section 2</span>
+      <h1>Clearing, Settlement &amp; Liquidity Management</h1>
+    </div>
+    <div class="sec-right"></div>
+    <div class="bar"></div>
+    <div class="slide-num">2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 2 — 2.1 THREE CORE DISTINCTIONS (divider)
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-divider">
+    <div class="ghost-num">2.1</div>
+    <h2>Three Core Distinctions</h2>
+    <p>Three distinctions underpin virtually every payment system — and shape how risk is allocated in a real-time environment.</p>
+    <div style="display:flex; gap:24px; margin-top:32px;">
+      <div style="flex:1; background:white; border-radius:6px; padding:18px 22px; border-left:4px solid #1D4771;">
+        <div style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:#6da3d9; margin-bottom:6px;">First</div>
+        <p style="font-size:17px; color:#0c1115; font-weight:600;">Messaging vs. Funds Movement</p>
+      </div>
+      <div style="flex:1; background:white; border-radius:6px; padding:18px 22px; border-left:4px solid #0365b2;">
+        <div style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:#6da3d9; margin-bottom:6px;">Second</div>
+        <p style="font-size:17px; color:#0c1115; font-weight:600;">Clearing vs. Settlement</p>
+      </div>
+      <div style="flex:1; background:white; border-radius:6px; padding:18px 22px; border-left:4px solid #ff5e5b;">
+        <div style="font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:#6da3d9; margin-bottom:6px;">Third</div>
+        <p style="font-size:17px; color:#0c1115; font-weight:600;">Direct vs. Indirect Participation</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 3 — MESSAGING vs FUNDS MOVEMENT
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.1 — First Distinction</span>
+      <h2>Messaging vs. Funds Movement</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; padding-top:28px;">
+      <div class="two-col" style="gap:24px;">
+        <div>
+          <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:20px;">
+            A <strong style="color:#0c1115;">payment message</strong> is an instruction that identifies who is paying, who is receiving, the amount, and the routing information. <em>The message itself is not money.</em>
+          </p>
+          <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:20px;">
+            Historically, systems could transmit payment instructions more quickly than they could clear and settle the underlying obligation.
+          </p>
+          <p style="font-size:16px; color:#0c1115; font-weight:600; line-height:1.5;">
+            This raises a critical threshold question:
+          </p>
+          <p style="font-size:18px; color:#1D4771; font-weight:700; margin-top:8px; line-height:1.4;">
+            "What exactly is happening in real time?"
+          </p>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <div class="fc">
+            <div class="fc-label">Option A</div>
+            <p>Real-time <strong>messaging</strong> only</p>
+          </div>
+          <div class="fc">
+            <div class="fc-label">Option B</div>
+            <p>Real-time <strong>clearing</strong></p>
+          </div>
+          <div class="fc">
+            <div class="fc-label">Option C</div>
+            <p>Real-time <strong>settlement</strong></p>
+          </div>
+          <div class="fc coral" style="border-left-width:4px;">
+            <div class="fc-label">RTR Objective</div>
+            <p><strong>All three</strong> — real-time clearing <em>and</em> settlement of payment instructions, not just message transmission</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 4 — CLEARING vs SETTLEMENT
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.1 — Second Distinction</span>
+      <h2>Clearing vs. Settlement</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; padding-top:28px;">
+      <div class="two-col" style="gap:20px; flex:0;">
+        <div class="stat-card navy">
+          <h3>Clearing</h3>
+          <ul class="blist">
+            <li>The process of <strong>identifying, validating, reconciling, and calculating</strong> payment obligations between participants</li>
+            <li>Determines what is owed — to whom, and by how much</li>
+            <li>Does not itself transfer value</li>
+          </ul>
+        </div>
+        <div class="stat-card blue">
+          <h3>Settlement</h3>
+          <ul class="blist">
+            <li>The <strong>discharge</strong> of those obligations — the transfer of value</li>
+            <li>The point at which payment obligations are satisfied</li>
+            <li>Settlement is final and, in most systems, <strong>irrevocable</strong></li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout" style="margin-top:16px;">
+        <div class="clabel">RTR Implication</div>
+        <p>Historically, clearing and settlement were separated by hours or days — providing time for error identification, liquidity positioning, and exception handling. <strong>RTR compresses this interval.</strong> Institutions have less time to manage liquidity, intervene when issues arise, or prevent problematic transactions from completing.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 5 — DIRECT vs INDIRECT PARTICIPATION
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.1 — Third Distinction</span>
+      <h2>Direct vs. Indirect Participation</h2>
+    </div>
+    <div class="bd">
+      <p style="font-size:17px; color:#334e68; line-height:1.65; margin-bottom:20px;">
+        Not all participants interact with payment infrastructure in the same way. A participant's <strong style="color:#0c1115;">position within the payment chain</strong> determines who holds each responsibility.
+      </p>
+      <div class="q-list" style="grid-template-columns:1fr 1fr 1fr; margin-bottom:16px;">
+        <div class="q-item">Who controls the payment message?</div>
+        <div class="q-item">Who bears liquidity obligations?</div>
+        <div class="q-item">Who performs sanctions screening?</div>
+        <div class="q-item">Who manages operational incidents?</div>
+        <div class="q-item">Who assumes settlement risk?</div>
+        <div class="q-item">Who bears responsibility when a payment fails?</div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Insight</div>
+        <p><strong>Access to a payment system and responsibility within a payment system are not necessarily the same thing.</strong> The question is not simply <em>whether</em> an organization participates in RTR — but <em>how</em> it participates, and which risks and responsibilities accompany that role.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 6 — WHY THESE DISTINCTIONS MATTER
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.2 — Overview</span>
+      <h2>Why These Distinctions Matter</h2>
+    </div>
+    <div class="bd">
+      <p style="font-size:19px; color:#334e68; line-height:1.65; margin-bottom:28px;">
+        These distinctions matter for at least three interconnected reasons. Each shapes how institutions must redesign their operations for a real-time environment.
+      </p>
+      <div class="three-col">
+        <div class="tc-card">
+          <div class="tc-num">01</div>
+          <h3>Liquidity</h3>
+          <p>Funds must be available at the point of payment — not at end of day. Real-time systems demand continuous liquidity management.</p>
+        </div>
+        <div class="tc-card" style="border-top-color:#0365b2;">
+          <div class="tc-num" style="color:#0365b2;">02</div>
+          <h3 style="color:#0365b2;">Controls</h3>
+          <p>Compliance, fraud, and error risks must increasingly be addressed <em>before</em> a payment is sent — not after. The window to intervene is gone.</p>
+        </div>
+        <div class="tc-card" style="border-top-color:#ff5e5b;">
+          <div class="tc-num" style="color:#ff5e5b;">03</div>
+          <h3 style="color:#ff5e5b;">Responsibility</h3>
+          <p>When something goes wrong, unwinding the transaction is limited. The allocation of risk becomes sharp-edged.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 7 — 2.2.1 LIQUIDITY MANAGEMENT
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.2.1 — Liquidity Management</span>
+      <h2>Managing Liquidity in Real Time</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="compare-grid" style="margin-bottom:16px;">
+        <div class="cg-col batch">
+          <div class="cg-header">Traditional / Batch</div>
+          <div class="cg-body">
+            <p>Payment obligations accumulate, are netted or reconciled, and settle on predetermined schedules.</p>
+            <p>Funding decisions are made with reference to <strong>known settlement windows</strong>. Liquidity managed over the course of a business day.</p>
+          </div>
+        </div>
+        <div class="cg-col rtr">
+          <div class="cg-header">Real-Time (RTR) — 24 / 7 / 365</div>
+          <div class="cg-body">
+            <p>Funds must generally be available <strong>at or near the time the payment is processed</strong> — at any hour, any day.</p>
+            <p>No settlement window. Obligations arise, are processed, and become final within seconds.</p>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:15px; color:#334e68; margin-bottom:12px; font-weight:600;">Participants must continuously determine:</p>
+      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px;">
+        <div class="fc"><p>How much liquidity to maintain</p></div>
+        <div class="fc"><p>Where liquidity should be positioned</p></div>
+        <div class="fc"><p>How liquidity will be replenished</p></div>
+        <div class="fc"><p>How liquidity will be monitored continuously</p></div>
+        <div class="fc"><p>How to manage liquidity <em>outside</em> traditional business hours</p></div>
+        <div class="fc coral"><p><strong>Failure to manage = transaction limits, queue formation, payment delays</strong></p></div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.2.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 8 — 2.2.2 CONTROLS (OVERVIEW)
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.2.2 — Controls</span>
+      <h2>Rethinking the Control Framework</h2>
+    </div>
+    <div class="bd">
+      <div class="shift-row">
+        <div class="shift-box from">
+          <h4>Legacy / Batch Environment</h4>
+          <p>Transactions can be reviewed <strong>before settlement occurs</strong>. Unusual activity can be investigated. Exceptions can be escalated. Fraud alerts can be assessed. <em>Time functions as a risk-mitigation tool.</em></p>
+        </div>
+        <div class="shift-arrow">→</div>
+        <div class="shift-box to" style="border-top:3px solid #ff5e5b;">
+          <h4 style="color:#ff5e5b; border-top:none; padding-top:0; margin-top:0;">Real-Time Environment</h4>
+          <p>Payments initiated, processed, cleared, and settled within <strong>seconds</strong>. Institutions have less time to recognize problems, intervene, and prevent losses before a transaction becomes final.</p>
+        </div>
+      </div>
+      <div class="callout" style="margin-bottom:16px;">
+        <div class="clabel">The Shift</div>
+        <p>From <strong>corrective controls</strong> (identifying problems after initiation) to <strong>preventative controls</strong> (preventing problematic transactions before they are initiated). This shift is operational, compliance-related, and organizational — not merely technological.</p>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+        <div class="fc coral">
+          <div class="fc-label">Examined Next — 2.2.2.1</div>
+          <p><strong>Fraud Controls</strong> — how real-time payments change when and how fraud risk must be managed</p>
+        </div>
+        <div class="fc coral">
+          <div class="fc-label">Examined Next — 2.2.2.2</div>
+          <p><strong>Financial Crime / AML Controls</strong> — managing sanctions, AML, and ATF compliance under compressed timelines</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.2.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 9 — 2.2.2.1 FRAUD CONTROLS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.2.2.1 — Fraud Controls</span>
+      <h2>Fraud in a Real-Time Environment</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        In a batch environment, a suspicious transaction may be identified and intercepted before settlement. In a real-time environment, the same transaction may be cleared and settled before any meaningful manual review can occur. Institutions must increasingly rely on <strong style="color:#0c1115;">preventative, automated controls</strong> applied before payment instructions are released.
+      </p>
+      <p style="font-size:14px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Three Practical Consequences</p>
+      <div class="three-col">
+        <div class="tc-card" style="border-top-color:#ff5e5b;">
+          <div class="tc-num" style="color:#ff5e5b; font-size:36px;">01</div>
+          <h3 style="color:#ff5e5b; font-size:15px;">Friction vs. Speed</h3>
+          <p>How much friction is appropriate? Customers expect immediacy. But additional verification may be necessary to manage fraud risk. Balancing experience and security becomes a design decision.</p>
+        </div>
+        <div class="tc-card" style="border-top-color:#ff5e5b;">
+          <div class="tc-num" style="color:#ff5e5b; font-size:36px;">02</div>
+          <h3 style="color:#ff5e5b; font-size:15px;">Automation &amp; Accountability</h3>
+          <p>How much authority to delegate to automated systems? Fraud models operate at speed humans cannot match — but greater automation increases false positive risk and accountability gaps.</p>
+        </div>
+        <div class="tc-card" style="border-top-color:#ff5e5b;">
+          <div class="tc-num" style="color:#ff5e5b; font-size:36px;">03</div>
+          <h3 style="color:#ff5e5b; font-size:15px;">Loss Allocation</h3>
+          <p>How are fraud losses allocated when transactions are increasingly difficult to reverse? Recovery options narrow as settlement accelerates. Prevention becomes the primary line of defence.</p>
+        </div>
+      </div>
+      <div class="callout" style="margin-top:14px;">
+        <div class="clabel">Key Takeaway</div>
+        <p>Real-time payments do not eliminate fraud risk. They change <em>the point at which</em> and <em>the ways in which</em> fraud risk must be managed.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.2.2.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 10 — 2.2.2.2 FINANCIAL CRIME / AML CONTROLS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.2.2.2 — Financial Crime Controls</span>
+      <h2>AML, Sanctions &amp; ATF in Real Time</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="callout-blue" style="margin-bottom:16px;">
+        <div class="clabel">The Principle</div>
+        <p>Real-time payments do not reduce AML, ATF, or sanctions compliance obligations. They reduce the <strong>amount of time available to satisfy them</strong> — creating pressure to shift from detective to preventative compliance controls.</p>
+      </div>
+      <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Four Governance Challenges</p>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:14px;">
+        <div class="fc">
+          <div class="fc-label">Challenge 1 — Automation vs. Human Review</div>
+          <p>Which compliance decisions can be automated? Which require human oversight? Real-time environments reduce opportunities to investigate before settlement, creating pressure to automate while maintaining governance.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Challenge 2 — Escalation Procedures</div>
+          <p>Many compliance frameworks assume hours or days for review. Real-time systems require decision-making frameworks capable of operating within seconds — including sanctions screening.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Challenge 3 — Customer Expectations</div>
+          <p>Situations will arise where speed, convenience, and risk management are not perfectly aligned. Compliance frameworks must account for this tension.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Challenge 4 — 24 / 7 Operational Resilience</div>
+          <p>Sanctions controls, fraud monitoring, alert management, and escalation mechanisms must function continuously — outside traditional business hours. A 9–5 framework is not sufficient.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Takeaway</div>
+        <p>Institutions that adapt most successfully will <strong>redesign their compliance frameworks</strong> to operate effectively within a real-time environment — rather than applying batch-era controls to real-time payment systems.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.2.2.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 11 — 2.2.3 RESPONSIBILITY
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">2.2.3 — Responsibility</span>
+      <h2>How Responsibility Is Allocated</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        A single payment transaction may involve a customer, a financial institution, a payment service provider, a technology platform, a sponsor institution, a settlement participant, and the system operator. Responsibility is distributed — and indirect participation does not transfer it.
+      </p>
+      <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Questions That Must Be Answered</p>
+      <div class="q-list" style="margin-bottom:16px;">
+        <div class="q-item">Who is responsible for sanctions screening?</div>
+        <div class="q-item">Who is responsible for AML compliance?</div>
+        <div class="q-item">Who is responsible for customer authentication?</div>
+        <div class="q-item">Who bears losses arising from fraud?</div>
+        <div class="q-item">Who manages operational incidents?</div>
+        <div class="q-item">Who bears liability for failed or delayed payments?</div>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+        <div class="callout-blue">
+          <div class="clabel">How Answers Are Determined</div>
+          <p>Legislation, payment-system rules, participation agreements, contractual arrangements, and operational practices — together, these allocate responsibility among participants.</p>
+        </div>
+        <div class="callout">
+          <div class="clabel">The Core Principle</div>
+          <p><strong>Real-time payment systems do not eliminate risk.</strong> They redistribute it. Organizations must understand the statutory, operational, and contractual frameworks that allocate responsibility before joining the system.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">2.2.3</div>
+  </div>
+
+</body>
+</html>

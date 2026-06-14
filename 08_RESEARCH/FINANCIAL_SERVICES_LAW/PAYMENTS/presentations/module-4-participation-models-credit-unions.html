@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Participation Models — Module 4</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /*
+      LEVINE LAW BRAND PALETTE
+      #0c1115  near-black       #1D4771  primary dark navy
+      #0365b2  medium blue      #6da3d9  light blue
+      #b2d1ea  very light blue  #ff5e5b  coral accent
+      #ffffff  white            #f0f5fb  slide light bg
+      #334e68  muted text
+    */
+
+    body {
+      font-family: 'Montserrat', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      background: #0c1115;
+      padding: 32px;
+    }
+
+    .slide {
+      width: 1280px;
+      height: 720px;
+      margin: 0 auto 32px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.6);
+    }
+
+    .bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #1D4771 0%, #ff5e5b 100%);
+    }
+
+    .slide-num {
+      position: absolute;
+      bottom: 14px; right: 20px;
+      font-size: 11px; font-weight: 600;
+      letter-spacing: 1.5px; color: rgba(0,0,0,0.18);
+      text-transform: uppercase;
+    }
+
+    /* ══ Section Title (dark left / light right) ══ */
+    .s-section { display: flex; height: 100%; }
+    .s-section .sec-left {
+      background: linear-gradient(160deg, #0c1115 0%, #1D4771 100%);
+      width: 42%; display: flex; flex-direction: column;
+      justify-content: center; padding: 56px 48px; flex-shrink: 0;
+    }
+    .s-section .sec-left .badge {
+      background: #ff5e5b; color: white; font-size: 11px;
+      font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase;
+      padding: 6px 14px; border-radius: 3px; display: inline-block;
+      margin-bottom: 20px; align-self: flex-start;
+    }
+    .s-section .sec-left h1 {
+      color: white;
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 34px; font-weight: 700; line-height: 1.25;
+    }
+    .s-section .sec-right {
+      flex: 1; padding: 48px 52px;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+
+    /* ══ Standard Slide ══ */
+    .s-std { display: flex; flex-direction: column; height: 100%; }
+    .s-std .hd {
+      background: #1D4771; padding: 22px 56px;
+      display: flex; align-items: center; gap: 20px; flex-shrink: 0;
+    }
+    .s-std .hd .tag {
+      color: #ff5e5b; font-size: 12px; font-weight: 700;
+      letter-spacing: 2.5px; text-transform: uppercase;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding-right: 20px; white-space: nowrap;
+    }
+    .s-std .hd h2 { color: #fff; font-size: 24px; font-weight: 600; }
+    .s-std .bd {
+      flex: 1; padding: 32px 56px;
+      display: flex; flex-direction: column; justify-content: center;
+      min-height: 0;
+    }
+
+    /* ══ Closing (nutshell dark left) ══ */
+    .s-nutshell { display: flex; height: 100%; }
+    .ns-left {
+      background: linear-gradient(160deg, #0c1115 0%, #1D4771 100%);
+      width: 40%; display: flex; flex-direction: column;
+      justify-content: center; padding: 56px 48px; flex-shrink: 0;
+    }
+    .ns-left .badge {
+      background: #ff5e5b; color: white; font-size: 11px; font-weight: 800;
+      letter-spacing: 2.5px; text-transform: uppercase; padding: 6px 14px;
+      border-radius: 3px; display: inline-block; margin-bottom: 20px; align-self: flex-start;
+    }
+    .ns-left h2 {
+      color: white;
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 30px; font-weight: 700; line-height: 1.3;
+    }
+    .ns-right {
+      flex: 1; padding: 48px 52px;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+
+    /* ══ Components ══ */
+
+    ul.blist { list-style: none; }
+    ul.blist li {
+      display: flex; align-items: flex-start; gap: 12px;
+      margin-bottom: 11px; font-size: 16px; color: #0c1115; line-height: 1.55;
+    }
+    ul.blist li:last-child { margin-bottom: 0; }
+    ul.blist li::before {
+      content: ''; width: 7px; height: 7px;
+      background: #ff5e5b; border-radius: 50%;
+      margin-top: 7px; flex-shrink: 0;
+    }
+    ul.blist.sm li { font-size: 14px; margin-bottom: 9px; }
+    ul.blist.sm li::before { margin-top: 6px; }
+
+    .callout {
+      background: #fff0ef; border-left: 4px solid #ff5e5b;
+      padding: 14px 18px; border-radius: 0 6px 6px 0;
+    }
+    .callout .clabel {
+      font-size: 10px; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; color: #ff5e5b; margin-bottom: 5px;
+    }
+    .callout p { font-size: 15px; color: #0c1115; line-height: 1.55; }
+
+    .callout-blue {
+      background: #edf3fb; border-left: 4px solid #0365b2;
+      padding: 14px 18px; border-radius: 0 6px 6px 0;
+    }
+    .callout-blue .clabel {
+      font-size: 10px; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; color: #0365b2; margin-bottom: 5px;
+    }
+    .callout-blue p { font-size: 15px; color: #0c1115; line-height: 1.55; }
+
+    .callout-navy {
+      background: #f0f5fb; border-left: 4px solid #1D4771;
+      padding: 14px 18px; border-radius: 0 6px 6px 0;
+    }
+    .callout-navy .clabel {
+      font-size: 10px; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; color: #1D4771; margin-bottom: 5px;
+    }
+    .callout-navy p { font-size: 15px; color: #0c1115; line-height: 1.55; }
+
+    /* Two-col stat cards */
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .stat-card {
+      background: #f0f5fb; border-radius: 8px;
+      padding: 20px 24px; display: flex; flex-direction: column;
+    }
+    .stat-card.navy  { border-top: 4px solid #1D4771; }
+    .stat-card.blue  { border-top: 4px solid #0365b2; }
+    .stat-card.coral { border-top: 4px solid #ff5e5b; }
+    .stat-card h3 {
+      font-size: 13px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1px; color: #1D4771; margin-bottom: 12px;
+    }
+    .stat-card.coral h3 { color: #c94340; }
+    .stat-card.blue h3  { color: #0365b2; }
+
+    /* Comparison (large vs small) */
+    .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .cg-col { background: #f0f5fb; border-radius: 6px; overflow: hidden; }
+    .cg-header {
+      padding: 10px 20px; font-size: 11px; font-weight: 800;
+      letter-spacing: 2px; text-transform: uppercase; color: white;
+    }
+    .cg-col.large .cg-header { background: #1D4771; }
+    .cg-col.small .cg-header { background: #0365b2; }
+    .cg-body { padding: 16px 20px; }
+    .cg-body p {
+      font-size: 14px; color: #0c1115; line-height: 1.6; margin-bottom: 8px;
+    }
+    .cg-body p:last-child { margin-bottom: 0; }
+
+    /* Feature grid */
+    .fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .fc {
+      background: #f0f5fb; border-radius: 6px;
+      padding: 12px 16px; border-left: 3px solid #0365b2;
+    }
+    .fc.coral { border-left-color: #ff5e5b; background: #fff0ef; }
+    .fc .fc-label {
+      font-size: 10px; font-weight: 800; letter-spacing: 2px;
+      text-transform: uppercase; color: #6da3d9; margin-bottom: 4px;
+    }
+    .fc.coral .fc-label { color: #ff5e5b; }
+    .fc p { font-size: 13px; color: #0c1115; line-height: 1.5; }
+
+    /* Mini tag pills */
+    .mini-tag {
+      display: inline-block; background: #f0f5fb;
+      border: 1px solid #b2d1ea; color: #1D4771;
+      padding: 5px 12px; border-radius: 3px;
+      font-size: 13px; font-weight: 600;
+    }
+
+    /* Board question quote */
+    .board-q {
+      background: #0c1115; border-radius: 8px;
+      padding: 24px 32px; margin: 16px 0;
+      display: flex; align-items: flex-start; gap: 20px;
+    }
+    .board-q .bq-mark {
+      font-family: 'Baskerville Display PT', Baskerville, Georgia, serif;
+      font-size: 72px; color: #ff5e5b; line-height: 0.7;
+      flex-shrink: 0; margin-top: 8px;
+    }
+    .board-q p {
+      font-size: 19px; color: white; line-height: 1.55;
+      font-style: italic;
+    }
+
+    /* Decision factor cards (4.5) */
+    .decision-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+    }
+    .dc {
+      background: #f0f5fb; border-radius: 6px;
+      padding: 16px 18px; border-top: 3px solid #1D4771;
+    }
+    .dc h4 {
+      font-size: 12px; font-weight: 800; letter-spacing: 1.5px;
+      text-transform: uppercase; color: #1D4771; margin-bottom: 8px;
+    }
+    .dc p {
+      font-size: 13px; color: #334e68; line-height: 1.6;
+    }
+
+    /* Three pillars (conclusions) */
+    .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+    .tc-card {
+      background: #f0f5fb; border-radius: 8px;
+      padding: 20px 22px; border-top: 4px solid #1D4771;
+    }
+    .tc-card .tc-num {
+      font-family: 'Baskerville Display PT', Baskerville, Georgia, serif;
+      font-size: 40px; font-weight: 700; color: #1D4771;
+      opacity: 0.12; line-height: 1; margin-bottom: -4px;
+    }
+    .tc-card h3 { font-size: 15px; font-weight: 700; color: #1D4771; margin-bottom: 8px; }
+    .tc-card p { font-size: 13px; color: #334e68; line-height: 1.6; }
+
+    /* Shift row */
+    .shift-row { display: flex; align-items: stretch; gap: 0; }
+    .shift-box { flex: 1; background: #f0f5fb; border-radius: 8px; padding: 18px 22px; }
+    .shift-box h4 { font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+    .shift-box.from h4 { color: #1D4771; }
+    .shift-box.to   h4 { color: #ff5e5b; }
+    .shift-box p { font-size: 14px; color: #334e68; line-height: 1.6; }
+    .shift-arrow { width: 56px; display: flex; align-items: center; justify-content: center; font-size: 26px; color: #b2d1ea; flex-shrink: 0; }
+
+    /* Trade-off banner */
+    .tradeoff {
+      background: #0c1115; border-radius: 6px;
+      padding: 16px 24px; display: flex; align-items: center; gap: 20px;
+    }
+    .tradeoff .to-label {
+      font-size: 10px; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; color: #ff5e5b; flex-shrink: 0;
+    }
+    .tradeoff p { font-size: 15px; color: white; line-height: 1.5; }
+
+    @media print {
+      body { background: white; padding: 0; }
+      .slide { margin: 0; box-shadow: none; page-break-after: always; break-after: page; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 1 — SECTION 4 INTRO
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-section">
+    <div class="sec-left">
+      <span class="badge">Section 4</span>
+      <h1>Participation Models for Credit Unions</h1>
+    </div>
+    <div class="sec-right">
+      <p style="font-size:17px; color:#334e68; line-height:1.7; margin-bottom:20px;">
+        Throughout this presentation we have examined liquidity management, fraud controls, operational resilience, and regulatory expectations. The practical question is how those considerations influence <strong style="color:#0c1115;">participation decisions</strong>.
+      </p>
+      <p style="font-size:17px; color:#334e68; line-height:1.7; margin-bottom:20px;">
+        Each institution's participation model will typically determine risk, cost, control, and operational obligations more than any other single factor.
+      </p>
+      <div class="tradeoff">
+        <div class="to-label">The Question</div>
+        <p>Not merely <em>whether</em> to participate in a real-time payment ecosystem — but <strong>how</strong>.</p>
+      </div>
+      <p style="font-size:14px; color:#334e68; line-height:1.65; margin-top:20px;">
+        This discussion is framed from the perspective of a credit union. Before examining the available participation models, it is useful to consider the strategic stakes — with particular focus on Ontario.
+      </p>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num" style="color:rgba(255,255,255,0.2);">4</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 2 — 4.1 THE CREDIT UNION BUSINESS CASE
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.1 — Business Case</span>
+      <h2>The Credit Union Business Case</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="two-col" style="align-items:stretch;">
+        <div class="stat-card navy">
+          <h3>Potential Opportunities</h3>
+          <ul class="blist sm">
+            <li>Retain members who expect bank-equivalent payment functionality</li>
+            <li>Improve business banking offerings</li>
+            <li>Faster account funding and treasury services</li>
+            <li>Better integration with digital banking and commercial cash-management tools</li>
+            <li>Reduce dependence on slower payment rails for certain use cases</li>
+            <li>Participate in Canada's evolving real-time payment ecosystem</li>
+          </ul>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:14px;">
+          <div class="stat-card coral" style="flex:0;">
+            <h3>The Challenge</h3>
+            <p style="font-size:14px; color:#334e68; line-height:1.6;">The challenge is generally <strong style="color:#0c1115;">not identifying a use case</strong>. The challenge is justifying the investment, liquidity management requirements, operational resilience obligations, and continuous-service expectations that accompany participation.</p>
+          </div>
+          <div class="callout-blue">
+            <div class="clabel">The Premise</div>
+            <p>Can the institution support the <strong>liquidity, operational, compliance, and resilience obligations</strong> that participation entails — and on what timeline? Once that question is accepted, the focus shifts away from <em>whether</em> participation is desirable toward <em>how</em> it can be supported safely, sustainably, and economically.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 3 — 4.2 WHO PAYS FOR IT?
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.2 — Strategic Questions</span>
+      <h2>Who Pays For It?</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:18px;">
+        Real-time payment participation involves significant investment across multiple functions — technology, operations, treasury, fraud management, cybersecurity, compliance, and customer support. The economics of that investment are not the same for every institution.
+      </p>
+      <div class="compare-grid" style="margin-bottom:16px;">
+        <div class="cg-col large">
+          <div class="cg-header">Large Financial Institutions</div>
+          <div class="cg-body">
+            <p>Can spread technology investments, operational teams, treasury functions, fraud-management capabilities, cybersecurity resources, compliance programs, and customer-support functions across <strong>millions of customers</strong>.</p>
+            <p>Fixed costs of participation are absorbed across a large transaction base — improving per-unit economics at scale.</p>
+          </div>
+        </div>
+        <div class="cg-col small">
+          <div class="cg-header">Smaller Institutions</div>
+          <div class="cg-body">
+            <p>Often cannot spread those same costs across an equivalent customer base. The question is whether the benefits of member retention and business banking growth <strong>justify the operational cost</strong>.</p>
+            <p>In many cases, this is less a technology question than a <strong>scale question</strong>. The economics of participation often improve materially as transaction volumes increase.</p>
+          </div>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Insight</div>
+        <p>The question is not whether participation <em>would</em> be beneficial — it often would. The question is whether the institution can build the operational and financial model to support it <strong>sustainably</strong>.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 4 — 4.2 HOW MUCH LIQUIDITY?
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.2 — Strategic Questions</span>
+      <h2>How Much Liquidity Must Be Committed?</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="shift-row" style="margin-bottom:16px; gap:12px;">
+        <div class="shift-box from">
+          <h4>Historically</h4>
+          <p>Liquidity management was primarily a <strong>treasury function</strong>. Payment obligations accumulated, were netted, and settled on predetermined schedules. Funding decisions were made with reference to known settlement windows.</p>
+        </div>
+        <div class="shift-arrow">→</div>
+        <div class="shift-box to" style="border-top:3px solid #ff5e5b;">
+          <h4 style="color:#ff5e5b;">Real-Time Systems</h4>
+          <p>Liquidity management becomes a <strong>daily operational requirement</strong>. Funds must be available at or near the moment the payment is processed — 24 hours a day, 7 days a week, 365 days a year.</p>
+        </div>
+      </div>
+      <p style="font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Institutions Must Determine</p>
+      <div class="fgrid">
+        <div class="fc"><p>How much liquidity to maintain at all times</p></div>
+        <div class="fc"><p>What buffers are required for elevated volume periods</p></div>
+        <div class="fc"><p>How liquidity will be replenished continuously</p></div>
+        <div class="fc"><p>How unexpected payment volumes will be managed</p></div>
+        <div class="fc" style="grid-column:1/-1;"><p>How liquidity will be monitored and managed <strong>outside traditional business hours</strong></p></div>
+      </div>
+      <div class="callout" style="margin-top:14px;">
+        <div class="clabel">Governance Implication</div>
+        <p>These are not merely treasury questions. They are questions about <strong>capital allocation, operating model design, and the economics of participation</strong>.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 5 — 4.2 CAN WE OPERATE 24/7?
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.2 — Strategic Questions</span>
+      <h2>Can We Operate 24 / 7?</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        Many financial institutions remain operationally organized around business hours. Real-time payment systems operate <strong style="color:#0c1115;">continuously</strong> — and require the operational infrastructure to match.
+      </p>
+      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px; margin-bottom:16px;">
+        <div class="fc">
+          <div class="fc-label">Continuous Monitoring</div>
+          <p>Transaction monitoring, fraud alerts, and system health checks that operate outside business hours</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Continuous Incident Response</div>
+          <p>On-call procedures, escalation paths, and resolution capabilities available at any hour</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Continuous Fraud Management</div>
+          <p>Automated and human fraud oversight that does not pause at 5:00 p.m.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Continuous Vendor Oversight</div>
+          <p>Monitoring of critical service providers whose failures may become immediately visible to customers</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Continuous Availability</div>
+          <p>Customer expectation that payment services will be accessible at all times — with no planned downtime window</p>
+        </div>
+        <div class="fc coral">
+          <div class="fc-label">The Shift</div>
+          <p>Organizations that historically operated on banking schedules must begin thinking more like <strong>operators of critical infrastructure</strong></p>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Question</div>
+        <p>For some institutions, 24/7 operational readiness may be the most significant change required — more significant than the technology investment itself.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 6 — 4.2 CAN WE MANAGE REAL-TIME FRAUD?
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.2 — Strategic Questions</span>
+      <h2>Can We Manage Real-Time Fraud?</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="two-col" style="gap:20px; margin-bottom:14px; align-items:stretch;">
+        <div>
+          <p style="font-size:15px; color:#334e68; line-height:1.65; margin-bottom:14px;">
+            Historically, <strong style="color:#0c1115;">time itself functioned as a control</strong>. Mitigation windows between initiation, clearing, and settlement provided time to detect, investigate, and intervene.
+          </p>
+          <p style="font-size:15px; color:#334e68; line-height:1.65;">
+            Real-time payment systems significantly reduce or eliminate those windows. Institutions must increasingly rely on <strong style="color:#0c1115;">preventative, automated controls</strong> applied before a payment instruction is transmitted.
+          </p>
+        </div>
+        <div>
+          <p style="font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:10px;">Required Capabilities</p>
+          <div style="display:flex; flex-wrap:wrap; gap:7px;">
+            <span class="mini-tag">Automated fraud detection</span>
+            <span class="mini-tag">Behavioural analytics</span>
+            <span class="mini-tag">Transaction monitoring</span>
+            <span class="mini-tag">Device intelligence</span>
+            <span class="mini-tag">Authentication controls</span>
+            <span class="mini-tag">Real-time risk scoring</span>
+            <span class="mini-tag">Velocity controls</span>
+            <span class="mini-tag">Circuit breakers</span>
+          </div>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+        <div class="callout">
+          <div class="clabel">Investment Scope</div>
+          <p>The investment required frequently extends <strong>beyond payment technology itself</strong> — into fraud operations, staffing, governance, and vendor relationships. These are operational decisions, not merely technology decisions.</p>
+        </div>
+        <div class="callout-blue">
+          <div class="clabel">The Shift</div>
+          <p>From <strong>corrective controls</strong> applied after initiation → to <strong>preventative controls</strong> applied before initiation. The control framework must be designed for the speed of the payment system, not built for a batch environment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 7 — 4.2 CAN WE MEET RESILIENCE EXPECTATIONS?
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.2 — Strategic Questions</span>
+      <h2>Can We Meet Resilience Expectations?</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:16px; color:#334e68; line-height:1.65; margin-bottom:14px;">
+        Real-time payment systems create new uptime and availability expectations. An outage at 11:00 p.m. may be as significant as one at 11:00 a.m. Institutions must have answers across every dimension of resilience.
+      </p>
+      <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px;">
+        <span class="mini-tag">System redundancy</span>
+        <span class="mini-tag">Cyber resilience</span>
+        <span class="mini-tag">Disaster recovery</span>
+        <span class="mini-tag">Dependency risk management</span>
+        <span class="mini-tag">Concentration risk management</span>
+        <span class="mini-tag">Business continuity planning</span>
+        <span class="mini-tag">Incident response capabilities</span>
+      </div>
+      <div class="board-q">
+        <div class="bq-mark">&ldquo;</div>
+        <p>What operating model must we build to support real-time payments safely and sustainably?</p>
+      </div>
+      <div class="callout-navy" style="margin-top:14px;">
+        <div class="clabel">What Comes Next</div>
+        <p>These strategic questions converge on a single governance decision: the choice of participation model. The following sections examine two principal models — <strong>direct participation</strong> and <strong>sponsored participation</strong> — and the trade-offs each entails.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 8 — 4.3 DIRECT PARTICIPATION
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.3 — Participation Models</span>
+      <h2>Direct Participation</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:15px; color:#334e68; line-height:1.65; margin-bottom:14px;">
+        Under direct participation, an institution connects <strong style="color:#0c1115;">directly to the payment rail</strong> and performs the functions required of participants under the applicable payment-system framework.
+      </p>
+      <div class="two-col" style="gap:16px; margin-bottom:14px;">
+        <div class="stat-card navy">
+          <h3>Potential Advantages</h3>
+          <ul class="blist sm">
+            <li>Greater operational control over payment functions</li>
+            <li>Direct access to payment infrastructure and functionality</li>
+            <li>Greater product flexibility and faster iteration</li>
+            <li>Enhanced strategic independence</li>
+            <li>Reduced reliance on intermediaries</li>
+            <li>Direct visibility into payment operations and data</li>
+          </ul>
+        </div>
+        <div class="stat-card coral">
+          <h3>Responsibilities Assumed</h3>
+          <ul class="blist sm">
+            <li>Connectivity infrastructure and technical integration</li>
+            <li>Liquidity management — continuous, 24/7</li>
+            <li>Operational resilience programs and uptime obligations</li>
+            <li>Fraud-management controls</li>
+            <li>Compliance, sanctions screening, and AML obligations</li>
+            <li>Business continuity and disaster recovery procedures</li>
+            <li>Ongoing governance and rule-compliance participation</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tradeoff">
+        <div class="to-label">Trade-Off</div>
+        <p>Direct participation <strong>maximizes control</strong>, but it also <strong>concentrates responsibility</strong>. For larger institutions with sufficient scale and operational maturity, that trade-off may be attractive. For smaller institutions, the operational burden may outweigh the benefits.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 9 — 4.4 SPONSORED PARTICIPATION
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.4 — Participation Models</span>
+      <h2>Sponsored Participation</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:15px; color:#334e68; line-height:1.65; margin-bottom:14px;">
+        A sponsored or indirect participation model allows an institution to access payment infrastructure <strong style="color:#0c1115;">through another participant</strong>. Common throughout global payment systems — often the most practical path for smaller institutions.
+      </p>
+      <div class="two-col" style="gap:16px; margin-bottom:14px;">
+        <div class="stat-card blue">
+          <h3>Potential Advantages</h3>
+          <ul class="blist sm">
+            <li>Lower implementation costs and technology investment</li>
+            <li>Faster speed to market</li>
+            <li>Reduced operational complexity</li>
+            <li>Reduced connectivity requirements</li>
+            <li>Access to payment functionality through an established participant</li>
+            <li>Often the most practical path for smaller credit unions</li>
+          </ul>
+        </div>
+        <div class="stat-card coral">
+          <h3>Key Risks &amp; Dependencies</h3>
+          <ul class="blist sm">
+            <li>Operational resilience of the sponsor</li>
+            <li>Sponsor's technology infrastructure and uptime</li>
+            <li>Sponsor's compliance and sanctions framework</li>
+            <li>Sponsor's liquidity management practices</li>
+            <li>Sponsor's strategic priorities and business continuity</li>
+            <li>Allocation of responsibility for fraud, AML, authentication, and failed payments</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tradeoff">
+        <div class="to-label">Trade-Off</div>
+        <p>Sponsored participation <strong>reduces operational burden</strong>, but <strong>increases dependency</strong>. The key governance question shifts from "How do we operate the payment rail?" to <em>"How do we oversee the parties that operate it on our behalf?"</em></p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.4</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 10 — 4.5 CHOOSING THE RIGHT MODEL
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">4.5 — Choosing the Right Model</span>
+      <h2>There Is No Universally Right Model</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <p style="font-size:15px; color:#334e68; line-height:1.65; margin-bottom:16px;">
+        The best model depends on the institution's size, transaction volume, technological capabilities, risk appetite, available resources, and strategic objectives. Institutions should evaluate each of the following dimensions.
+      </p>
+      <div class="decision-grid">
+        <div class="dc">
+          <h4>Control</h4>
+          <p>How much control over payment operations, customer experience, product development, and strategic direction does the institution wish to retain?</p>
+        </div>
+        <div class="dc" style="border-top-color:#0365b2;">
+          <h4 style="color:#0365b2;">Cost</h4>
+          <p>What level of investment in infrastructure, staffing, liquidity management, compliance, and operational resilience is the institution prepared to make?</p>
+        </div>
+        <div class="dc" style="border-top-color:#6da3d9;">
+          <h4 style="color:#0365b2;">Liquidity</h4>
+          <p>Who manages liquidity requirements? How much must be committed? How will it be monitored and replenished continuously?</p>
+        </div>
+        <div class="dc" style="border-top-color:#ff5e5b;">
+          <h4 style="color:#c94340;">Compliance</h4>
+          <p>Who performs CDD, sanctions screening, transaction monitoring, fraud management, and regulatory reporting?</p>
+        </div>
+        <div class="dc" style="border-top-color:#ff5e5b;">
+          <h4 style="color:#c94340;">Operational Resilience</h4>
+          <p>Who manages outages, responds to incidents, and owns business continuity? What happens if a critical service provider becomes unavailable?</p>
+        </div>
+        <div class="dc" style="border-top-color:#1D4771;">
+          <h4>Governance</h4>
+          <p>How are responsibilities allocated? How are disputes resolved? How are risks allocated contractually between participants?</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4.5</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 11 — CONCLUSIONS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-nutshell">
+    <div class="ns-left">
+      <span class="badge">Conclusions</span>
+      <h2>Participation Decisions Are Governance Decisions</h2>
+    </div>
+    <div class="ns-right">
+      <div class="three-col" style="margin-bottom:18px;">
+        <div class="tc-card">
+          <div class="tc-num">01</div>
+          <h3>No Model Eliminates Risk</h3>
+          <p>Each participation model <em>allocates</em> risk differently — among the institution, the sponsor, the system operator, and the customer.</p>
+        </div>
+        <div class="tc-card" style="border-top-color:#0365b2;">
+          <div class="tc-num" style="color:#0365b2;">02</div>
+          <h3 style="color:#0365b2;">Understand Before You Implement</h3>
+          <p>The most successful participants understand the operational, compliance, liquidity, and governance consequences of their chosen model <em>before</em> implementation begins.</p>
+        </div>
+        <div class="tc-card" style="border-top-color:#ff5e5b;">
+          <div class="tc-num" style="color:#ff5e5b;">03</div>
+          <h3 style="color:#c94340;">Sustainability Over Participation</h3>
+          <p>For credit unions, the objective is not simply to participate — it is to identify a model and use cases that are <em>sustainable and resilient</em> while consistent with long-term strategic objectives.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">The Core Principle</div>
+        <p>Participation decisions determine how an institution assumes responsibility for <strong>liquidity management, operational resilience, compliance, fraud controls, and governance</strong>. These are not technology decisions. They are decisions about who an institution wants to be — and what obligations it is prepared to own.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">4</div>
+  </div>
+
+</body>
+</html>
