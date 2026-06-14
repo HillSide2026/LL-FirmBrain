@@ -61,3 +61,4 @@ oauth_state.json
 # Google OAuth secrets
 config/google_oauth_client.json
 config/*token*.json
+node_modules/
