@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Real-Time Rail (RTR) — Module 1.2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /*
+      ── LEVINE LAW BRAND PALETTE ──────────────────────
+      #0c1115   near-black
+      #1D4771   primary dark navy
+      #0365b2   medium blue
+      #6da3d9   light blue
+      #b2d1ea   very light blue
+      #ff5e5b   coral / red accent
+      #ffffff   white
+      #f0f5fb   light blue-gray bg
+      #334e68   slate body text
+    ─────────────────────────────────────────────────── */
+
+    body {
+      font-family: 'Montserrat', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: #0c1115;
+      padding: 32px;
+    }
+
+    /* ── Slide canvas ── */
+    .slide {
+      width: 1280px;
+      height: 720px;
+      margin: 0 auto 32px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.6);
+    }
+
+    /* ── Gradient footer bar ── */
+    .bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #1D4771 0%, #0365b2 100%);
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Title
+    ══════════════════════════════════════════════ */
+    .s-title {
+      background: linear-gradient(140deg, #0c1115 0%, #1D4771 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 72px 96px;
+    }
+    .s-title .eyebrow {
+      color: #6da3d9;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    .s-title h1 {
+      color: #fff;
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 62px;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+    .s-title .rule {
+      width: 72px;
+      height: 4px;
+      background: #0365b2;
+      margin: 28px 0;
+    }
+    .s-title .subtitle {
+      color: rgba(255,255,255,0.6);
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Section Divider
+    ══════════════════════════════════════════════ */
+    .s-divider {
+      background: #f0f5fb;
+      border-left: 10px solid #1D4771;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 72px 96px;
+    }
+    .s-divider .ghost-num {
+      color: #1D4771;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 130px;
+      font-weight: 700;
+      opacity: 0.08;
+      line-height: 1;
+      margin-bottom: -30px;
+      letter-spacing: -4px;
+    }
+    .s-divider h2 {
+      color: #1D4771;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .s-divider p {
+      color: #334e68;
+      font-size: 19px;
+      max-width: 800px;
+      line-height: 1.7;
+    }
+    .s-divider .launch-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 22px;
+      background: #1D4771;
+      color: #6da3d9;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 8px 16px;
+      border-radius: 4px;
+    }
+    .s-divider .launch-badge span {
+      color: white;
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Standard (header + body)
+    ══════════════════════════════════════════════ */
+    .s-std {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .s-std .hd {
+      background: #1D4771;
+      padding: 22px 56px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-shrink: 0;
+    }
+    .s-std .hd .tag {
+      color: #b2d1ea;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding-right: 20px;
+      white-space: nowrap;
+    }
+    .s-std .hd h2 {
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .s-std .bd {
+      flex: 1;
+      padding: 32px 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 0;
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Nutshell (split)
+    ══════════════════════════════════════════════ */
+    .s-nutshell { display: flex; height: 100%; }
+    .ns-left {
+      background: #1D4771;
+      width: 38%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 56px 48px;
+      flex-shrink: 0;
+    }
+    .ns-left .badge {
+      background: #0365b2;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-bottom: 24px;
+      align-self: flex-start;
+    }
+    .ns-left h2 {
+      color: white;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+    .ns-right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 48px 52px;
+    }
+    .ns-item { margin-bottom: 28px; }
+    .ns-item:last-child { margin-bottom: 0; }
+    .ns-item .act-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #6da3d9;
+      margin-bottom: 8px;
+    }
+    .ns-item p {
+      font-size: 19px;
+      color: #0c1115;
+      line-height: 1.55;
+      border-left: 3px solid #0365b2;
+      padding-left: 18px;
+    }
+
+    /* ══════════════════════════════════════════════
+       COMPONENTS
+    ══════════════════════════════════════════════ */
+
+    /* Two-column grid */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    /* Stat cards */
+    .stat-card {
+      background: #f0f5fb;
+      border-radius: 8px;
+      padding: 24px 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .stat-card.left  { border-top: 4px solid #1D4771; }
+    .stat-card.right { border-top: 4px solid #0365b2; }
+    .stat-card h3 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #1D4771;
+    }
+
+    /* Bullet list */
+    ul.blist { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    ul.blist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 16px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+    ul.blist li::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      background: #0365b2;
+      border-radius: 50%;
+      margin-top: 8px;
+      flex-shrink: 0;
+    }
+
+    /* Callout box */
+    .callout {
+      background: #edf3fb;
+      border-left: 4px solid #0365b2;
+      padding: 16px 22px;
+      border-radius: 0 6px 6px 0;
+    }
+    .callout .clabel {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #0365b2;
+      margin-bottom: 7px;
+    }
+    .callout p {
+      font-size: 16px;
+      color: #0c1115;
+      line-height: 1.6;
+    }
+
+    /* Coral callout (warning/risk) */
+    .callout-coral {
+      background: #fff0ef;
+      border-left: 4px solid #ff5e5b;
+      padding: 16px 22px;
+      border-radius: 0 6px 6px 0;
+    }
+    .callout-coral .clabel {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: #ff5e5b;
+      margin-bottom: 7px;
+    }
+    .callout-coral p {
+      font-size: 16px;
+      color: #0c1115;
+      line-height: 1.6;
+    }
+
+    /* Feature grid (2×2) */
+    .fgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .fc {
+      background: #f0f5fb;
+      border-radius: 6px;
+      padding: 18px 22px;
+      border-left: 3px solid #0365b2;
+    }
+    .fc.coral { border-left-color: #ff5e5b; background: #fff0ef; }
+    .fc .fc-label {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #6da3d9;
+      margin-bottom: 6px;
+    }
+    .fc.coral .fc-label { color: #ff5e5b; }
+    .fc p {
+      font-size: 15px;
+      color: #0c1115;
+      line-height: 1.55;
+    }
+
+    /* Five-feature numbered list (overview slide) */
+    .feat-list {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    .feat-item {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      background: #f0f5fb;
+      border-radius: 6px;
+      padding: 13px 20px;
+    }
+    .feat-num {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #1D4771;
+      color: white;
+      font-size: 15px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .feat-name {
+      font-weight: 700;
+      font-size: 15px;
+      color: #1D4771;
+      width: 310px;
+      flex-shrink: 0;
+    }
+    .feat-desc {
+      font-size: 14px;
+      color: #334e68;
+      line-height: 1.5;
+    }
+
+    /* Request-to-pay flow */
+    .rtp-flow {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      margin: 16px 0;
+    }
+    .rtp-box {
+      flex: 1;
+      background: #f0f5fb;
+      border-radius: 8px;
+      padding: 18px 22px;
+      text-align: center;
+    }
+    .rtp-box.initiator { border-top: 4px solid #1D4771; }
+    .rtp-box.recipient { border-top: 4px solid #0365b2; }
+    .rtp-box h4 {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #6da3d9;
+      margin-bottom: 8px;
+    }
+    .rtp-box p {
+      font-size: 15px;
+      color: #0c1115;
+      line-height: 1.5;
+    }
+    .rtp-arrow {
+      padding: 0 14px;
+      font-size: 22px;
+      color: #b2d1ea;
+      flex-shrink: 0;
+    }
+    .rtp-actions {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .rtp-action {
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .rtp-action.approve  { background: #d1f0e0; color: #1a6b3a; }
+    .rtp-action.decline  { background: #fde8e8; color: #b91c1c; }
+    .rtp-action.schedule { background: #e8f0fd; color: #1D4771; }
+
+    /* Slide-number watermark */
+    .slide-num {
+      position: absolute;
+      bottom: 14px;
+      right: 20px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      color: rgba(0,0,0,0.18);
+      text-transform: uppercase;
+    }
+    .s-title .slide-num,
+    .s-divider .slide-num { color: rgba(255,255,255,0.2); }
+
+    /* Print */
+    @media print {
+      body { background: white; padding: 0; }
+      .slide { margin: 0; box-shadow: none; page-break-after: always; break-after: page; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 1 — TITLE
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-title">
+    <div class="eyebrow">Levine Law &nbsp;·&nbsp; Payments Law &nbsp;·&nbsp; Module 1.2</div>
+    <h1>The Real-Time<br>Rail (RTR)</h1>
+    <div class="rule"></div>
+    <div class="subtitle">Canada's Modern Instant Payment Rail &nbsp;·&nbsp; Five Core Features &nbsp;·&nbsp; Regulatory Context</div>
+    <div class="bar"></div>
+    <div class="slide-num">1.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 2 — SECTION DIVIDER 1.2
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-divider">
+    <div class="ghost-num">1.2</div>
+    <h2>The Real-Time Rail</h2>
+    <p>Canada's RTR project is intended to create a true modern instant payment rail — with real-time clearing and settlement, continuous 24/7 operation, and broader participation by payment service providers and fintechs.</p>
+    <div class="launch-badge">
+      Launch status &nbsp;·&nbsp; <span>Not yet live as of June 2026 — Payments Canada targeting Q4 2026</span>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 3 — OVERVIEW: FIVE CORE FEATURES
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.2 — The Real-Time Rail</span>
+      <h2>Five Core Features of RTR</h2>
+    </div>
+    <div class="bd">
+      <div class="feat-list">
+        <div class="feat-item">
+          <div class="feat-num">1</div>
+          <div class="feat-name">Real-Time Clearing &amp; Settlement</div>
+          <div class="feat-desc">Transactions processed and settled individually, almost immediately — not accumulated in batches with deferred settlement windows.</div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-num">2</div>
+          <div class="feat-name">24/7/365 Operation</div>
+          <div class="feat-desc">Continuous availability including nights, weekends, and holidays — payments follow customer expectations, not banking hours.</div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-num">3</div>
+          <div class="feat-name">ISO 20022 Messaging</div>
+          <div class="feat-desc">Rich, structured payment data covering payer, payee, transaction purpose, and remittance information — enabling automation and improved reconciliation.</div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-num">4</div>
+          <div class="feat-name">Request-to-Pay</div>
+          <div class="feat-desc">Payment requests that recipients can approve, decline, or schedule — enabling new invoicing, collections, and payer-controlled authorization models.</div>
+        </div>
+        <div class="feat-item">
+          <div class="feat-num">5</div>
+          <div class="feat-name">Facilitating Innovation via Access</div>
+          <div class="feat-desc">Broader participation for payment service providers, fintechs, and non-traditional participants — under robust and consistent governance standards.</div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 4 — FEATURE 1: REAL-TIME CLEARING & SETTLEMENT
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.2 — Feature 1</span>
+      <h2>Real-Time Clearing and Settlement</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:16px;">
+      <div class="two-col">
+        <div class="stat-card left">
+          <h3>ACSS — Batch Clearing (Today)</h3>
+          <ul class="blist">
+            <li>Transactions accumulated and cleared in cycles</li>
+            <li>Deferred settlement — finality occurs after the clearing cycle</li>
+            <li>Mitigation windows between initiation, clearing, and settlement allow intervention</li>
+          </ul>
+        </div>
+        <div class="stat-card right">
+          <h3>RTR — Real-Time Settlement</h3>
+          <ul class="blist">
+            <li>Transactions processed individually as submitted</li>
+            <li>Status confirmation expected within seconds</li>
+            <li>Settlement finality is almost immediate — no deferred window</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Takeaway</div>
+        <p>Real-time settlement reduces delay, but it also <strong>removes mitigation windows as a risk-management tool</strong>. Institutions can no longer rely on clearing cycles to resolve issues before funds move. The financial operations and Risk &amp; Compliance consequences of this shift are addressed in later modules.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.2.1</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 5 — FEATURE 2: 24/7/365 OPERATION
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.2 — Feature 2</span>
+      <h2>24/7/365 Operation</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:16px;">
+      <p style="font-size:17px; color:#334e68; line-height:1.65;">
+        RTR is designed to operate continuously — including nights, weekends, and holidays. That may sound like a technology change, but it is also an <strong style="color:#0c1115;">operating model change</strong>. Payments no longer follow banking hours; they follow customer expectations.
+      </p>
+      <div class="fgrid">
+        <div class="fc">
+          <div class="fc-label">Liquidity Management</div>
+          <p>Institutions must maintain sufficient liquidity to support payment activity at all hours — not just during business-day settlement windows.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Fraud Monitoring</div>
+          <p>Fraud detection and transaction monitoring must operate continuously. A fraud event at 2:00 a.m. on a Sunday is as material as one on a Tuesday afternoon.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Operational Support</div>
+          <p>Staffing, escalation paths, and incident resolution capabilities must be available at all times — not reserved for business hours.</p>
+        </div>
+        <div class="fc">
+          <div class="fc-label">Incident Response</div>
+          <p>Outage response, participant notifications, and remediation processes must function continuously across all hours and calendar days.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Takeaway</div>
+        <p>The payment rail never closes — which means <strong>risk management cannot close either</strong>. For many institutions, 24/7 operational readiness may be the most significant participation requirement.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.2.2</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 6 — FEATURE 3: ISO 20022 MESSAGING
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.2 — Feature 3</span>
+      <h2>ISO 20022 Messaging</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:16px;">
+      <p style="font-size:17px; color:#334e68; line-height:1.65;">
+        RTR is expected to use ISO 20022 — a modern messaging standard that supports significantly richer payment information than legacy formats. Instead of simply transmitting funds, participants can exchange <strong style="color:#0c1115;">structured data</strong> about the transaction.
+      </p>
+      <div class="two-col">
+        <div>
+          <p style="font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:12px;">Data ISO 20022 Can Carry</p>
+          <div class="fgrid" style="grid-template-columns:1fr 1fr; gap:8px;">
+            <div class="fc"><div class="fc-label">Payer Identity</div><p>Structured payer details including name, account, and identifier fields.</p></div>
+            <div class="fc"><div class="fc-label">Payee Identity</div><p>Structured payee details — enabling improved reconciliation and matching.</p></div>
+            <div class="fc"><div class="fc-label">Transaction Purpose</div><p>Standardized purpose codes describing the nature of the payment.</p></div>
+            <div class="fc"><div class="fc-label">Remittance Information</div><p>Invoice references, line-item detail, and structured remittance data.</p></div>
+          </div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <p style="font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771; margin-bottom:4px;">Operational Benefits</p>
+          <div class="callout">
+            <div class="clabel">Automation</div>
+            <p>Structured data enables automated payment matching and straight-through processing — reducing manual reconciliation effort.</p>
+          </div>
+          <div class="callout">
+            <div class="clabel">Monitoring &amp; Compliance</div>
+            <p>Richer transaction data supports more precise fraud detection, AML monitoring, and regulatory reporting.</p>
+          </div>
+          <div class="callout">
+            <div class="clabel">Operational Efficiency</div>
+            <p>ISO 20022 data fields allow participants to build more efficient, more automated back-office workflows — but only if systems are built to consume the richer format.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.2.3</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 7 — FEATURE 4: REQUEST-TO-PAY
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.2 — Feature 4</span>
+      <h2>Request-to-Pay</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:14px;">
+      <p style="font-size:17px; color:#334e68; line-height:1.65;">
+        RTR is expected to support request-to-pay functionality — allowing a business or individual to send a payment request that the recipient can respond to before funds are transferred.
+      </p>
+      <div class="rtp-flow">
+        <div class="rtp-box initiator">
+          <h4>Initiator (Payee)</h4>
+          <p>Sends a structured payment request — with amount, purpose, and payment reference</p>
+        </div>
+        <div class="rtp-arrow">→</div>
+        <div class="rtp-box recipient">
+          <h4>Recipient (Payer)</h4>
+          <p>Reviews the request and chooses a response</p>
+          <div class="rtp-actions">
+            <span class="rtp-action approve">Approve</span>
+            <span class="rtp-action decline">Decline</span>
+            <span class="rtp-action schedule">Schedule</span>
+          </div>
+        </div>
+        <div class="rtp-arrow">→</div>
+        <div class="rtp-box" style="border-top:4px solid #6da3d9;">
+          <h4>Payment Rail</h4>
+          <p>RTR executes the approved payment in real time — only after payer authorization</p>
+        </div>
+      </div>
+      <div class="two-col" style="gap:14px;">
+        <div class="callout">
+          <div class="clabel">Use Cases</div>
+          <p>Invoice settlement, bill payments, and collections — with improved visibility and direct payer control over authorization. May reduce unauthorized payment fraud.</p>
+        </div>
+        <div class="callout">
+          <div class="clabel">Key Takeaway</div>
+          <p>Request-to-pay creates new ways to initiate payments while <strong>preserving customer control over authorization</strong> — a meaningful shift from push-payment models.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.2.4</div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 8 — FEATURE 5: FACILITATING INNOVATION VIA ACCESS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">1.2 — Feature 5</span>
+      <h2>Facilitating Innovation via Access</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:16px;">
+      <p style="font-size:17px; color:#334e68; line-height:1.65;">
+        RTR is intended to support broader participation — extending access beyond traditional deposit-taking institutions to payment service providers, fintechs, and other non-traditional participants. Greater access encourages innovation and competition.
+      </p>
+      <div class="two-col" style="gap:16px;">
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <p style="font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771;">Opportunities</p>
+          <div class="fc">
+            <div class="fc-label">Broader Competition</div>
+            <p>Non-bank payment service providers can access the rail directly — reducing dependence on bank intermediaries and opening new market positions.</p>
+          </div>
+          <div class="fc">
+            <div class="fc-label">Product Innovation</div>
+            <p>Access to real-time infrastructure enables fintechs and PSPs to build new payment products and customer experiences on top of the RTR rail.</p>
+          </div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <p style="font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#1D4771;">Governance Questions</p>
+          <div class="fc coral">
+            <div class="fc-label">Operational &amp; Cyber Risk</div>
+            <p>More participants means more entry points. Operational, cybersecurity, and third-party risk management standards must apply consistently across all participant types.</p>
+          </div>
+          <div class="fc coral">
+            <div class="fc-label">Non-Bank Oversight</div>
+            <p>How governance, resilience, compliance, and oversight expectations apply to non-deposit-taking participants is an important open question as RTR participation expands.</p>
+          </div>
+        </div>
+      </div>
+      <div class="callout">
+        <div class="clabel">Key Takeaway</div>
+        <p><strong>Open access does not mean reduced oversight.</strong> It means more participants operating under robust and consistent standards — and greater scrutiny of how those standards are enforced across a more diverse participant set.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="slide-num">1.2.5</div>
+  </div>
+
+</body>
+</html>
