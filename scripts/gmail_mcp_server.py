@@ -982,92 +982,6 @@ def _update_script_archive_queries(new_senders: List[str]) -> None:
         script_path.write_text(new_content, encoding="utf-8")
 
 
-def tool_list_messages(args: Dict[str, Any]) -> str:
-    service = _get_gmail_service()
-    max_results = int(args.get("max_results", 10))
-    query = args.get("query")
-    label_ids = args.get("label_ids")
-
-    if max_results < 1 or max_results > 500:
-        raise ValueError("'max_results' must be between 1 and 500.")
-    if label_ids is not None and not isinstance(label_ids, list):
-        raise ValueError("'label_ids' must be a list when provided.")
-
-    kwargs: Dict[str, Any] = {"userId": "me", "maxResults": max_results}
-    if query:
-        kwargs["q"] = str(query).strip()
-    if label_ids:
-        kwargs["labelIds"] = [str(item) for item in label_ids]
-    messages = _with_backoff(
-        lambda: service.users().messages().list(**kwargs).execute(),
-        "list_messages",
-    ).get("messages", [])
-    return json.dumps(messages, indent=2)
-
-
-def tool_get_message(args: Dict[str, Any]) -> str:
-    service = _get_gmail_service()
-    message_id = str(args.get("message_id", "")).strip()
-    format_name = str(args.get("format", "metadata")).strip()
-
-    if not message_id:
-        raise ValueError("'message_id' is required.")
-    if format_name not in VALID_MESSAGE_FORMATS:
-        raise ValueError(f"'format' must be one of {sorted(VALID_MESSAGE_FORMATS)}.")
-
-    message = _with_backoff(
-        lambda: service.users().messages().get(
-            userId="me", id=message_id, format=format_name,
-        ).execute(),
-        f"get_message:{message_id}",
-    )
-    return json.dumps(message, indent=2)
-
-
-def tool_list_threads(args: Dict[str, Any]) -> str:
-    service = _get_gmail_service()
-    max_results = int(args.get("max_results", 10))
-    query = str(args.get("query", "")).strip()
-
-    if max_results < 1 or max_results > 500:
-        raise ValueError("'max_results' must be between 1 and 500.")
-
-    kwargs: Dict[str, Any] = {"userId": "me", "maxResults": max_results}
-    if query:
-        kwargs["q"] = query
-    threads = _with_backoff(
-        lambda: service.users().threads().list(**kwargs).execute(),
-        "list_threads",
-    ).get("threads", [])
-    return json.dumps(threads, indent=2)
-
-
-def tool_get_thread(args: Dict[str, Any]) -> str:
-    service = _get_gmail_service()
-    thread_id = str(args.get("thread_id", "")).strip()
-
-    if not thread_id:
-        raise ValueError("'thread_id' is required.")
-
-    thread = _with_backoff(
-        lambda: _get_thread(service, thread_id),
-        f"get_thread:{thread_id}",
-    )
-    return json.dumps(thread, indent=2)
-
-
-def tool_list_labels(args: Dict[str, Any]) -> str:
-    service = _get_gmail_service()
-    prefix = str(args.get("prefix", "")).strip()
-    labels = _with_backoff(
-        lambda: service.users().labels().list(userId="me").execute(),
-        "list_labels",
-    ).get("labels", [])
-    if prefix:
-        labels = [label for label in labels if str(label.get("name", "")).startswith(prefix)]
-    return json.dumps(labels, indent=2)
-
-
 def tool_preview_inbox_cleanup(args: Dict[str, Any]) -> str:
     scope = str(args.get("scope", "all")).strip().lower() or "all"
     preview = _preview_cleanup(scope)
@@ -1621,94 +1535,6 @@ def tool_create_draft(args: Dict[str, Any]) -> str:
 
 _TOOLS = [
     {
-        "name": "list_messages",
-        "description": (
-            "List Gmail message stubs using standard Gmail query syntax. "
-            "Read-only tool for proposal and triage workflows."
-        ),
-        "inputSchema": {
-            "type": "object",
-            "properties": {
-                "max_results": {
-                    "type": "integer",
-                    "description": "Maximum number of messages to return. Range: 1-500. Default: 10.",
-                },
-                "query": {
-                    "type": "string",
-                    "description": "Optional Gmail search query, such as 'in:inbox newer_than:2d'.",
-                },
-                "label_ids": {
-                    "type": "array",
-                    "items": {"type": "string"},
-                    "description": "Optional Gmail label ids used to filter the result set.",
-                },
-            },
-        },
-    },
-    {
-        "name": "get_message",
-        "description": "Fetch one Gmail message by id. Supports minimal, metadata, full, or raw format.",
-        "inputSchema": {
-            "type": "object",
-            "properties": {
-                "message_id": {
-                    "type": "string",
-                    "description": "Gmail message id.",
-                },
-                "format": {
-                    "type": "string",
-                    "enum": ["minimal", "metadata", "full", "raw"],
-                    "description": "Response format. Default: metadata.",
-                },
-            },
-            "required": ["message_id"],
-        },
-    },
-    {
-        "name": "list_threads",
-        "description": "List Gmail thread stubs using standard Gmail query syntax.",
-        "inputSchema": {
-            "type": "object",
-            "properties": {
-                "max_results": {
-                    "type": "integer",
-                    "description": "Maximum number of threads to return. Range: 1-500. Default: 10.",
-                },
-                "query": {
-                    "type": "string",
-                    "description": "Optional Gmail search query, such as 'label:INBOX'.",
-                },
-            },
-        },
-    },
-    {
-        "name": "get_thread",
-        "description": "Fetch one Gmail thread by id, including its messages and current label ids.",
-        "inputSchema": {
-            "type": "object",
-            "properties": {
-                "thread_id": {
-                    "type": "string",
-                    "description": "Gmail thread id.",
-                },
-            },
-            "required": ["thread_id"],
-        },
-    },
-    {
-        "name": "list_labels",
-        "description": "List Gmail labels. Optional prefix filter helps narrow to canonical matter or state labels.",
-        "inputSchema": {
-            "type": "object",
-            "properties": {
-                "prefix": {
-                    "type": "string",
-                    "description": "Optional label-name prefix filter, such as 'LL/' or '00_'.",
-                },
-            },
-        },
-    },
-    {
         "name": "preview_inbox_cleanup",
         "description": (
             "Preview confirmed inbox garbage cleanup using the governed sender lists from "
@@ -2024,11 +1850,6 @@ _TOOLS = [
 ]
 
 _TOOL_FN_MAP = {
-    "list_messages": tool_list_messages,
-    "get_message": tool_get_message,
-    "list_threads": tool_list_threads,
-    "get_thread": tool_get_thread,
-    "list_labels": tool_list_labels,
     "preview_inbox_cleanup": tool_preview_inbox_cleanup,
     "preview_garbage_candidates": tool_preview_garbage_candidates,
     "execute_inbox_cleanup": tool_execute_inbox_cleanup,

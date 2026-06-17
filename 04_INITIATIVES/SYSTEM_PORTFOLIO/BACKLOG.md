@@ -4,7 +4,7 @@ title: System Portfolio Backlog
 owner: ML1
 status: draft
 created_date: 2026-02-08
-last_updated: 2026-03-09
+last_updated: 2026-06-17
 tags: []
 ---
 
@@ -39,6 +39,7 @@ inclusion in active roadmaps but do not authorize execution by themselves.
 | SYS-011 | Archive completed Stage 3 + Stage 4 artifacts | Knowledge Curation | Stage closures approved | P2 | candidate |
 | SYS-012 | Standardize per-solution module taxonomy in `02_PLAYBOOKS/FINANCIAL_SERVICES/SOLUTIONS` (define canonical module sets/names and replace placeholder `MODULE_001_PRIMARY`) | Playbook Governance | ML1 module architecture approval; existing solution packets | P1 | candidate |
 | SYS-013 | Configure local Gmail MCP server on ML1 laptop so Gmail inbox is accessible via Claude Code CLI / VS Code (not just the claude.ai desktop app) | Integration Steward | Must be executed on the laptop to test credentials and config; reference `00_SYSTEM/integrations/gmail/README.md` | P2 | candidate |
+| SYS-014 | Adapt upstream matter-control, onboarding, setup-doctor, command, and context-pack assets into local ML2 structures without importing the upstream `memory/` and `tasks/` model | ML1 | Existing local matter-control surfaces; `00_SYSTEM/retrieval/bundles.yaml`; explicit ML1 promotion from backlog before execution; draft plan at `04_INITIATIVES/SYSTEM_PORTFOLIO/00_DRAFT_ROADMAPS/SYS-014_UPSTREAM_ENABLEMENT_ADOPTION_PLAN.md` | P2 | candidate |
 
 ---
 

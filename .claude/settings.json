@@ -30,7 +30,13 @@
   },
   "permissions": {
     "allow": [
-      "WebFetch(domain:s29.q4cdn.com)"
+      "WebFetch(domain:s29.q4cdn.com)",
+      "WebFetch(domain:iisd.org)",
+      "WebFetch(domain:matthewajlevine.com)",
+      "WebSearch",
+      "mcp__claude_ai_Gmail__search_threads",
+      "mcp__claude_ai_Gmail__get_thread",
+      "mcp__claude_ai_Gmail__list_labels"
     ]
   }
 }

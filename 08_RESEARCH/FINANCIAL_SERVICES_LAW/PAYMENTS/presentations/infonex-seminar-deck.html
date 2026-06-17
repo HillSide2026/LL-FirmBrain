@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Levine Law — Presentation to Infonex — June 16</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /*
+      ── LEVINE LAW BRAND PALETTE ──────────────────────
+      #0c1115   near-black
+      #1D4771   primary dark navy
+      #0365b2   medium blue
+      #6da3d9   light blue
+      #b2d1ea   very light blue
+      #ff5e5b   coral / red accent
+      #ffffff   white
+      #f0f5fb   light blue-gray bg
+      #334e68   slate body text
+    ─────────────────────────────────────────────────── */
+
+    body {
+      font-family: 'Montserrat', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: #0c1115;
+      padding: 32px;
+    }
+
+    .slide {
+      width: 1280px;
+      height: 720px;
+      margin: 0 auto 32px;
+      position: relative;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.6);
+    }
+
+    .bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #1D4771 0%, #0365b2 100%);
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Title
+    ══════════════════════════════════════════════ */
+    .s-title {
+      background: linear-gradient(140deg, #0c1115 0%, #1D4771 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 72px 96px;
+    }
+    .s-title .eyebrow {
+      color: #6da3d9;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+    .s-title h1 {
+      color: #fff;
+      font-family: 'Baskerville Display PT', Baskerville, 'Big Caslon', Georgia, serif;
+      font-size: 62px;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+    .s-title .rule {
+      width: 72px;
+      height: 4px;
+      background: #0365b2;
+      margin: 28px 0;
+    }
+    .s-title .subtitle {
+      color: rgba(255,255,255,0.6);
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+
+    /* ══════════════════════════════════════════════
+       SLIDE TYPE — Standard (header + body)
+    ══════════════════════════════════════════════ */
+    .s-std { display: flex; flex-direction: column; height: 100%; }
+    .s-std .hd {
+      background: #1D4771;
+      padding: 22px 56px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-shrink: 0;
+    }
+    .s-std .hd .tag {
+      color: #b2d1ea;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      padding-right: 20px;
+      white-space: nowrap;
+    }
+    .s-std .hd h2 {
+      color: #fff;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .s-std .bd {
+      flex: 1;
+      padding: 28px 56px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+      min-height: 0;
+    }
+    .lead {
+      font-size: 16px;
+      color: #334e68;
+      line-height: 1.6;
+    }
+
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+    /* Callout boxes */
+    .callout {
+      background: #edf3fb;
+      border-left: 4px solid #0365b2;
+      padding: 14px 20px;
+      border-radius: 0 6px 6px 0;
+    }
+    .callout .clabel {
+      font-size: 11px; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; color: #0365b2; margin-bottom: 6px;
+    }
+    .callout p { font-size: 14.5px; color: #0c1115; line-height: 1.55; }
+
+    .callout-coral {
+      background: #fff0ef;
+      border-left: 4px solid #ff5e5b;
+      padding: 14px 20px;
+      border-radius: 0 6px 6px 0;
+    }
+    .callout-coral .clabel {
+      font-size: 11px; font-weight: 800; letter-spacing: 2.5px;
+      text-transform: uppercase; color: #ff5e5b; margin-bottom: 6px;
+    }
+    .callout-coral p { font-size: 14.5px; color: #0c1115; line-height: 1.55; }
+
+    .slide-num {
+      position: absolute; bottom: 14px; right: 20px;
+      font-size: 11px; font-weight: 600; letter-spacing: 1.5px;
+      color: rgba(0,0,0,0.18); text-transform: uppercase;
+    }
+    .s-title .slide-num { color: rgba(255,255,255,0.2); }
+
+    /* ══════════════════════════════════════════════
+       COMPONENT — Vertical process flow (Slide 2)
+    ══════════════════════════════════════════════ */
+    .flow-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+    .flow-col-head {
+      border-radius: 6px 6px 0 0;
+      padding: 10px 16px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .flow-col-head.batch { background: #1D4771; }
+    .flow-col-head.rtr   { background: #0365b2; }
+    .flow-col { display: flex; flex-direction: column; }
+    .flow-step {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #f0f5fb;
+      border-radius: 6px;
+      padding: 9px 16px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #0c1115;
+    }
+    .flow-num {
+      width: 22px; height: 22px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 800; color: #fff; flex-shrink: 0;
+    }
+    .flow-col.batch .flow-num { background: #1D4771; }
+    .flow-col.rtr .flow-num { background: #0365b2; }
+    .flow-arrow { text-align: center; color: #b2d1ea; font-size: 13px; line-height: 1; }
+    .flow-col.batch .flow-arrow.gap-lg { padding: 10px 0; }
+    .flow-col.rtr .flow-arrow.gap-sm { padding: 3px 0; }
+    .duration-chip {
+      margin-top: 14px;
+      align-self: flex-start;
+      border-radius: 5px;
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+    .duration-chip.batch { background: #fff0ef; color: #b91c1c; border: 1px solid #ff5e5b; }
+    .duration-chip.rtr   { background: #e8f5ee; color: #1a6b3a; border: 1px solid #1a6b3a; }
+
+    /* ══════════════════════════════════════════════
+       COMPONENT — Shrinking windows timeline (Slide 3)
+    ══════════════════════════════════════════════ */
+    .window-row-label {
+      font-size: 11px; font-weight: 800; letter-spacing: 2px;
+      text-transform: uppercase; color: #1D4771; margin-bottom: 8px;
+    }
+    .window-track { display: flex; align-items: flex-end; gap: 6px; height: 64px; margin-bottom: 4px; }
+    .window-seg {
+      background: #b2d1ea;
+      border-top: 3px solid #1D4771;
+      border-radius: 4px 4px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #1D4771;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .window-seg.after { background: #0365b2; border-top-color: #0c2f55; color: #fff; }
+    .window-caption-row { display: flex; gap: 6px; }
+    .window-caption {
+      font-size: 11px;
+      color: #334e68;
+      text-align: center;
+    }
+    .window-caption b { display: block; color: #0c1115; font-size: 11.5px; }
+
+    /* ══════════════════════════════════════════════
+       COMPONENT — Cycle flow (Slide 4)
+    ══════════════════════════════════════════════ */
+    .cycle-row { display: flex; align-items: center; justify-content: center; gap: 0; margin: 6px 0; }
+    .cycle-box {
+      flex: 1;
+      max-width: 260px;
+      background: #f0f5fb;
+      border-radius: 8px;
+      border-top: 4px solid #0365b2;
+      padding: 16px 18px;
+      text-align: center;
+    }
+    .cycle-box h4 {
+      font-size: 11px; font-weight: 800; letter-spacing: 1.5px;
+      text-transform: uppercase; color: #0365b2; margin-bottom: 6px;
+    }
+    .cycle-box p { font-size: 13px; color: #0c1115; line-height: 1.45; }
+    .cycle-arrow { padding: 0 14px; font-size: 20px; color: #b2d1ea; flex-shrink: 0; }
+    .cycle-loop {
+      text-align: center;
+      margin-top: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #1D4771;
+      letter-spacing: 0.5px;
+    }
+
+    /* ══════════════════════════════════════════════
+       COMPONENT — Triangular liquidity cycle (Slide 4)
+    ══════════════════════════════════════════════ */
+    .cycle-tri { position: relative; width: 820px; height: 320px; margin: 130px auto 0; }
+    .cycle-tri-box {
+      position: absolute;
+      background: #f0f5fb;
+      border-radius: 8px;
+      border-top: 4px solid #0365b2;
+      padding: 16px 20px;
+      text-align: center;
+    }
+    .cycle-tri-box h4 {
+      font-size: 11.5px; font-weight: 800; letter-spacing: 1.5px;
+      text-transform: uppercase; color: #0365b2; margin-bottom: 7px;
+    }
+    .cycle-tri-box p { font-size: 13.5px; color: #0c1115; line-height: 1.5; }
+    .cycle-tri-box.reserves   { top: 0;    left: 290px; width: 240px; }
+    .cycle-tri-box.outflow    { top: 210px; left: 560px; width: 260px; }
+    .cycle-tri-box.replenish  { top: 210px; left: 0;    width: 240px; }
+    .cycle-tri-arrow {
+      position: absolute;
+      font-size: 30px;
+      font-weight: 700;
+      color: #6da3d9;
+      line-height: 1;
+    }
+    .cycle-tri-arrow.a1 { top: 118px; left: 540px; transform: rotate(24deg); }
+    .cycle-tri-arrow.a2 { top: 232px; left: 388px; }
+    .cycle-tri-arrow.a3 { top: 118px; left: 248px; transform: rotate(-24deg); }
+    .cycle-center-label {
+      position: absolute;
+      top: 138px;
+      left: 50%;
+      width: 270px;
+      transform: translateX(-50%);
+      text-align: center;
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #1D4771;
+    }
+
+    /* ══════════════════════════════════════════════
+       COMPONENT — Shift divider arrow (Slide 6)
+    ══════════════════════════════════════════════ */
+    .shift-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin: 2px 0;
+    }
+    .shift-divider .arrow-big { font-size: 30px; color: #1D4771; line-height: 1; }
+    .shift-divider .shift-label {
+      font-size: 13px; font-weight: 800; letter-spacing: 1px;
+      text-transform: uppercase; color: #1D4771;
+    }
+
+    /* ══════════════════════════════════════════════
+       COMPONENT — Consequence cards (Slide 7)
+    ══════════════════════════════════════════════ */
+    .cons-row { display: flex; gap: 18px; }
+    .cons-card {
+      flex: 1;
+      background: #f0f5fb;
+      border-radius: 8px;
+      border-top: 4px solid #0365b2;
+      padding: 20px 22px;
+    }
+    .cons-card h4 {
+      font-size: 12px; font-weight: 800; letter-spacing: 1.5px;
+      text-transform: uppercase; color: #0365b2; margin-bottom: 9px;
+    }
+    .cons-card p { font-size: 14px; color: #0c1115; line-height: 1.55; }
+
+    /* ══════════════════════════════════════════════
+       COMPONENT — Before/After control flow (Slide 5)
+    ══════════════════════════════════════════════ */
+    .ctrl-row-wrap { margin-bottom: 4px; }
+    .ctrl-row-head {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .ctrl-badge {
+      font-size: 10.5px; font-weight: 800; letter-spacing: 1.5px;
+      text-transform: uppercase; padding: 4px 10px; border-radius: 4px; color: #fff;
+    }
+    .ctrl-badge.before { background: #ff5e5b; }
+    .ctrl-badge.after  { background: #1D4771; }
+    .ctrl-row-head .ctrl-row-title { font-size: 13px; font-weight: 700; color: #0c1115; }
+    .ctrl-flow { display: flex; align-items: center; gap: 0; }
+    .ctrl-box {
+      flex: 1;
+      border-radius: 7px;
+      padding: 12px 14px;
+      text-align: center;
+    }
+    .ctrl-box.before { background: #fff0ef; border-top: 3px solid #ff5e5b; }
+    .ctrl-box.after  { background: #edf3fb; border-top: 3px solid #1D4771; }
+    .ctrl-box p { font-size: 12.5px; font-weight: 600; color: #0c1115; line-height: 1.35; }
+    .ctrl-arrow { padding: 0 8px; font-size: 16px; color: #b2d1ea; flex-shrink: 0; }
+
+    /* ══════════════════════════════════════════════
+       COMPONENT — Risk x Framework matrix (Slide 6)
+    ══════════════════════════════════════════════ */
+    .matrix { width: 100%; border-collapse: separate; border-spacing: 0; }
+    .matrix th, .matrix td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #e3eaf2;
+      vertical-align: top;
+    }
+    .matrix thead th {
+      background: #1D4771;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .matrix thead th:first-child { text-align: left; border-radius: 6px 0 0 0; }
+    .matrix thead th:last-child { border-radius: 0 6px 0 0; }
+    .matrix tbody td:first-child { width: 30%; }
+    .matrix .risk-name { font-size: 14px; font-weight: 700; color: #0c1115; margin-bottom: 3px; }
+    .matrix .risk-desc { font-size: 12px; color: #334e68; line-height: 1.45; }
+    .matrix .dot-cell { text-align: center; }
+    .dot { display: inline-block; width: 16px; height: 16px; border-radius: 50%; }
+    .dot.primary   { background: #1D4771; }
+    .dot.secondary { background: #b2d1ea; border: 1.5px solid #1D4771; }
+    .dot.none      { background: transparent; }
+
+    @media print {
+      body { background: white; padding: 0; }
+      .slide { margin: 0; box-shadow: none; page-break-after: always; break-after: page; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 1 — DISCLAIMER
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-title">
+    <div class="eyebrow">Levine Law &nbsp;·&nbsp; Presentation to Infonex &nbsp;·&nbsp; June 16</div>
+    <h1>Disclaimer</h1>
+    <div class="rule"></div>
+    <div class="subtitle">Not Legal Advice &nbsp;·&nbsp; No Lawyer-Client Relationship</div>
+    <div class="bar"></div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 2 — REAL-TIME PAYMENTS ARE NOT JUST FASTER
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">Real-Time Rail</span>
+      <h2>Real-Time Payments Are Not Just Faster</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:20px;">
+      <p class="lead">Real-time rails don't just shorten the payment lifecycle — they collapse the gaps <em>between</em> each step, gaps that batch processing used as built-in time for review and intervention.</p>
+      <div class="flow-wrap">
+        <div>
+          <div class="flow-col-head batch">Batch (ACSS) — Today</div>
+          <div class="flow-col batch" style="margin-top:10px;">
+            <div class="flow-step"><span class="flow-num">1</span>Payment Initiation</div>
+            <div class="flow-arrow gap-lg">↓</div>
+            <div class="flow-step"><span class="flow-num">2</span>Batch Collection</div>
+            <div class="flow-arrow gap-lg">↓</div>
+            <div class="flow-step"><span class="flow-num">3</span>Exchange</div>
+            <div class="flow-arrow gap-lg">↓</div>
+            <div class="flow-step"><span class="flow-num">4</span>Reconciliation</div>
+            <div class="flow-arrow gap-lg">↓</div>
+            <div class="flow-step"><span class="flow-num">5</span>Settlement</div>
+          </div>
+          <div class="duration-chip batch">Hours to Days</div>
+        </div>
+        <div>
+          <div class="flow-col-head rtr">Real-Time (RTR)</div>
+          <div class="flow-col rtr" style="margin-top:10px;">
+            <div class="flow-step"><span class="flow-num">1</span>Payment Initiation</div>
+            <div class="flow-arrow gap-sm">↓</div>
+            <div class="flow-step"><span class="flow-num">2</span>Validation</div>
+            <div class="flow-arrow gap-sm">↓</div>
+            <div class="flow-step"><span class="flow-num">3</span>Clearing</div>
+            <div class="flow-arrow gap-sm">↓</div>
+            <div class="flow-step"><span class="flow-num">4</span>Settlement</div>
+          </div>
+          <div class="duration-chip rtr">Seconds</div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 3 — SHRINKING MITIGATION WINDOWS
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">Real-Time Rail</span>
+      <h2>Shrinking Mitigation Windows</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:22px;">
+      <p class="lead">Each stage of a payment's lifecycle creates a window of time during which risk and compliance teams can intervene. Real-time processing compresses — and in some cases eliminates — that window.</p>
+
+      <div>
+        <div class="window-row-label">Before — Batch (ACSS)</div>
+        <div class="window-track">
+          <div class="window-seg" style="width:260px; height:58px;">Messaging</div>
+          <div class="window-seg" style="width:220px; height:42px;">Clearing</div>
+          <div class="window-seg" style="width:180px; height:26px;">Settlement</div>
+        </div>
+        <div class="window-caption-row">
+          <div class="window-caption" style="width:260px;"><b>~30 minutes</b>mitigation window</div>
+          <div class="window-caption" style="width:220px;"><b>~2 hours</b>mitigation window</div>
+          <div class="window-caption" style="width:180px;"><b>~1 business day</b>mitigation window</div>
+        </div>
+      </div>
+
+      <div style="margin-top:6px;">
+        <div class="window-row-label">After — Real-Time (RTR)</div>
+        <div class="window-track">
+          <div class="window-seg after" style="width:70px; height:22px;"></div>
+          <div class="window-seg after" style="width:50px; height:16px;"></div>
+          <div class="window-seg after" style="width:40px; height:12px;"></div>
+        </div>
+        <div class="window-caption-row">
+          <div class="window-caption" style="width:70px;"><b>&lt;1 second</b></div>
+          <div class="window-caption" style="width:50px;"><b>&lt;1 second</b></div>
+          <div class="window-caption" style="width:40px;"><b>Immediate</b></div>
+        </div>
+      </div>
+
+      <div class="callout-coral">
+        <div class="clabel">Key Takeaway</div>
+        <p>Real-time settlement removes the cushion compliance and fraud teams have relied on for decades. Controls that depend on a review window before funds move must shift earlier in the process — or disappear entirely.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 4 — LIQUIDITY MANAGEMENT CYCLE
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">Real-Time Rail</span>
+      <h2>Liquidity Management in a Real-Time Environment</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start;">
+      <div class="cycle-tri">
+        <div class="cycle-tri-box reserves">
+          <h4>Reserves</h4>
+          <p>Pre-funded liquidity available to meet RTR payment obligations at any time.</p>
+        </div>
+        <div class="cycle-tri-box outflow">
+          <h4>Continuous RTR Outflows</h4>
+          <p>Payments settle individually and immediately, drawing down available liquidity in real time.</p>
+        </div>
+        <div class="cycle-tri-box replenish">
+          <h4>Replenishment</h4>
+          <p>Liquidity must be replenished continuously to maintain payment capacity.</p>
+        </div>
+        <div class="cycle-tri-arrow a1">→</div>
+        <div class="cycle-tri-arrow a2">←</div>
+        <div class="cycle-tri-arrow a3">→</div>
+        <div class="cycle-center-label">Continuous 24/7/365 Liquidity Cycle</div>
+      </div>
+    </div>
+    <div class="bar"></div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 5 — LIQUIDITY RISKS IN A REAL-TIME ENVIRONMENT
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">Real-Time Rail</span>
+      <h2>Liquidity Risks in a Real-Time Environment</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:24px; padding-top:165px;">
+      <div class="callout" style="padding:30px 38px;">
+        <div class="clabel" style="font-size:13px;">Liquidity Risk</div>
+        <p style="font-size:18px; line-height:1.6;">Intraday liquidity must be available at all times. There is no overnight settlement window to net positions before the next business day.</p>
+      </div>
+      <div class="callout-coral" style="padding:30px 38px;">
+        <div class="clabel" style="font-size:13px;">Operational Consequence</div>
+        <p style="font-size:18px; line-height:1.6;">Institutions require real-time liquidity monitoring and pre-funded liquidity buffers. A failed replenishment event can immediately disrupt outgoing payment activity.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 6 — THE SHIFT FROM DETECTION TO PREVENTION
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">Real-Time Rail</span>
+      <h2>The Shift from Detection to Prevention</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:18px; padding-top:130px;">
+      <div class="ctrl-row-wrap">
+        <div class="ctrl-row-head">
+          <span class="ctrl-badge before">Before</span>
+          <span class="ctrl-row-title">Traditional Fraud Detection Model</span>
+        </div>
+        <div class="ctrl-flow">
+          <div class="ctrl-box before"><p>Payment Initiated</p></div>
+          <div class="ctrl-arrow">→</div>
+          <div class="ctrl-box before"><p>Payment Processed</p></div>
+          <div class="ctrl-arrow">→</div>
+          <div class="ctrl-box before"><p>Fraud Detected</p></div>
+          <div class="ctrl-arrow">→</div>
+          <div class="ctrl-box before"><p>Investigation</p></div>
+          <div class="ctrl-arrow">→</div>
+          <div class="ctrl-box before"><p>Recovery Attempt</p></div>
+        </div>
+      </div>
+
+      <div class="shift-divider">
+        <span class="arrow-big">←</span>
+        <span class="shift-label">Fraud Controls Move Earlier in the Payment Lifecycle</span>
+      </div>
+
+      <div class="ctrl-row-wrap">
+        <div class="ctrl-row-head">
+          <span class="ctrl-badge after">After</span>
+          <span class="ctrl-row-title">Real-Time Fraud Prevention Model</span>
+        </div>
+        <div class="ctrl-flow">
+          <div class="ctrl-box after"><p>Risk Scoring &amp; Behavioural Analytics</p></div>
+          <div class="ctrl-arrow">→</div>
+          <div class="ctrl-box after"><p>Authentication &amp; Fraud Screening</p></div>
+          <div class="ctrl-arrow">→</div>
+          <div class="ctrl-box after"><p>Payment Authorization</p></div>
+          <div class="ctrl-arrow">→</div>
+          <div class="ctrl-box after"><p>Settlement</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 7 — FRAUD MANAGEMENT IN A REAL-TIME ENVIRONMENT
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">Real-Time Rail</span>
+      <h2>Fraud Management in a Real-Time Environment</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:26px; padding-top:160px;">
+      <div class="cons-row">
+        <div class="cons-card">
+          <h4>Compressed Decision Windows</h4>
+          <p>Fraud decisions must often be made in seconds rather than hours or days.</p>
+        </div>
+        <div class="cons-card">
+          <h4>Greater Reliance on Automation</h4>
+          <p>Real-time payments require automated risk scoring, behavioural analytics, and authentication controls that operate at transaction speed.</p>
+        </div>
+        <div class="cons-card">
+          <h4>Reduced Recovery Opportunities</h4>
+          <p>Once funds have settled, opportunities to stop or recover fraudulent transfers may be significantly reduced.</p>
+        </div>
+      </div>
+
+      <div class="callout-coral">
+        <div class="clabel">Key Takeaway</div>
+        <p>Real-time settlement leaves little opportunity to detect and stop fraud after a payment is initiated. Fraud controls must increasingly operate before or during authorization.</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       SLIDE 8 — FRAUD RISKS & RISK MANAGEMENT FRAMEWORK
+  ═══════════════════════════════════════════════════ -->
+  <div class="slide s-std">
+    <div class="hd">
+      <span class="tag">Real-Time Rail</span>
+      <h2>Fraud Risks &amp; Risk Management Framework</h2>
+    </div>
+    <div class="bd" style="justify-content:flex-start; gap:14px;">
+      <p class="lead">Different fraud typologies call for intervention at different points across the prevent–detect–respond lifecycle.</p>
+      <table class="matrix">
+        <thead>
+          <tr>
+            <th>Fraud Risk</th>
+            <th>Prevent</th>
+            <th>Detect</th>
+            <th>Respond</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="risk-name">APP Fraud</div>
+              <div class="risk-desc">Victim is deceived into authorizing a payment to a fraudster's account — the payment itself is "authorized."</div>
+            </td>
+            <td class="dot-cell"><span class="dot primary"></span></td>
+            <td class="dot-cell"><span class="dot primary"></span></td>
+            <td class="dot-cell"><span class="dot secondary"></span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="risk-name">Account Takeover</div>
+              <div class="risk-desc">Fraudster gains unauthorized access to a legitimate account and initiates payments without the customer's knowledge.</div>
+            </td>
+            <td class="dot-cell"><span class="dot primary"></span></td>
+            <td class="dot-cell"><span class="dot primary"></span></td>
+            <td class="dot-cell"><span class="dot secondary"></span></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="risk-name">Mule Activity</div>
+              <div class="risk-desc">Accounts used to receive and rapidly move illicit funds onward, often layered across multiple institutions.</div>
+            </td>
+            <td class="dot-cell"><span class="dot secondary"></span></td>
+            <td class="dot-cell"><span class="dot primary"></span></td>
+            <td class="dot-cell"><span class="dot primary"></span></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="callout">
+        <div class="clabel">Reading the Matrix</div>
+        <p><span class="dot primary" style="vertical-align:middle;"></span> Primary point of intervention &nbsp;&nbsp; <span class="dot secondary" style="vertical-align:middle;"></span> Secondary / supporting control</p>
+      </div>
+    </div>
+    <div class="bar"></div>
+  </div>
+
+</body>
+</html>
